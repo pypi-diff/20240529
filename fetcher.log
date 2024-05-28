@@ -348,3 +348,70 @@
 [2024-05-29 00:11:42] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.33.0rc4-py3-none-any.whl.zip]
 [2024-05-29 00:11:42] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2024-05-29 00:11:42] INFO root fetch - main [MainThread]: Store serial: [23420047]
+[2024-05-29 00:13:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420047]
+[2024-05-29 00:13:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 00:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcicutils
+[2024-05-29 00:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocsi
+[2024-05-29 00:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nodeenv
+[2024-05-29 00:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nuid
+[2024-05-29 00:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocsi
+[2024-05-29 00:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-grasshopper
+[2024-05-29 00:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heare-config
+[2024-05-29 00:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frid
+[2024-05-29 00:13:50] INFO root fetch - processPackages [mkdocsi]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-29 00:13:50] INFO root fetch - processPackages [frid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 00:13:50] INFO root fetch - processPackages [mkdocsi]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-29 00:13:50] INFO root fetch - processPackages [heare-config]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-29 00:13:50] INFO root fetch - processPackages [nodeenv]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-29 00:13:50] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.8.6.1b9]
+[2024-05-29 00:13:50] INFO root fetch - processPackages [dragonfly-grasshopper]: New version: [1.9.0] Old Version: [1.8.4]
+[2024-05-29 00:13:50] WARNING root fetch - processPackages [nuid]: Skipping, unable to determine old version
+[2024-05-29 00:13:50] INFO root fetch - main [MainThread]: End processing [nuid] error
+[2024-05-29 00:13:50] INFO root fetch - processPackages [frid]: Downloading https://files.pythonhosted.org/packages/ab/c4/276f758efee3065c10b10aca27b5dcd336fd5f6766bedfb6203ed86b141b/frid-0.0.8.tar.gz
+[2024-05-29 00:13:50] INFO root fetch - processPackages [heare-config]: Downloading https://files.pythonhosted.org/packages/fa/49/ac72b48ecdfff91bf3f6edb5aba3cc3d3d1300efff5f1dea9db77c95ce77/heare_config-1.0.4.tar.gz
+[2024-05-29 00:13:50] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/7e/9d/7e6597657372f704cc12088cba23ceec07e020823a42c389cee02f38fc27/dcicutils-8.8.6.1b9.tar.gz
+[2024-05-29 00:13:51] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/3d/5b/64683e34b151dad565af137f7db93242888f981dbbdb9818bed9d9aa0c16/mkdocsi-1.1.4.tar.gz
+[2024-05-29 00:13:51] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/3d/5b/64683e34b151dad565af137f7db93242888f981dbbdb9818bed9d9aa0c16/mkdocsi-1.1.4.tar.gz
+[2024-05-29 00:13:51] INFO root fetch - processPackages [nodeenv]: Downloading https://files.pythonhosted.org/packages/f3/9d/a28ecbd1721cd6c0ea65da6bfb2771d31c5d7e32d916a8f643b062530af3/nodeenv-1.7.0.tar.gz
+[2024-05-29 00:13:51] INFO root fetch - processPackages [dragonfly-grasshopper]: Downloading https://files.pythonhosted.org/packages/61/7c/926c180ac51778655057fbd9c2b7a694a7cfbc634c510e4bab5af0beb8d9/dragonfly-grasshopper-1.8.4.tar.gz
+[2024-05-29 00:13:51] INFO root fetch - processPackages [frid]: Downloading https://files.pythonhosted.org/packages/bf/0e/c9daa6c9fa362976608c4807386bb44525900903ed383fdf307e9888116a/frid-0.0.9.tar.gz
+[2024-05-29 00:13:51] INFO root fetch - processPackages [heare-config]: Downloading https://files.pythonhosted.org/packages/92/e3/ed2f0dab1d0a5082cc221bd1064b32c1c8ab3253847def5426396ebcc5a6/heare_config-1.0.5.tar.gz
+[2024-05-29 00:13:51] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-29 00:13:51] INFO root fetch - processPackages [nodeenv]: Downloading https://files.pythonhosted.org/packages/48/92/8e83a37d3f4e73c157f9fcf9fb98ca39bd94701a469dc093b34dca31df65/nodeenv-1.8.0.tar.gz
+[2024-05-29 00:13:51] INFO root fetch - processPackages [frid]: executing diffoscope
+[2024-05-29 00:13:51] INFO root fetch - processPackages [frid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frid-0.0.8.tar.gz tmp/frid-0.0.9.tar.gz --markdown 20240529/f/frid/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 00:13:51] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/0c/9e/065bb0d283704bd9eebc5c6a994c9bd73c2076d8be6316de231ebe39b360/mkdocsi-1.1.5.tar.gz
+[2024-05-29 00:13:51] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/0c/9e/065bb0d283704bd9eebc5c6a994c9bd73c2076d8be6316de231ebe39b360/mkdocsi-1.1.5.tar.gz
+[2024-05-29 00:13:51] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-29 00:13:51] INFO root fetch - processPackages [nodeenv]: executing diffoscope
+[2024-05-29 00:13:51] INFO root fetch - processPackages [nodeenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodeenv-1.7.0.tar.gz tmp/nodeenv-1.8.0.tar.gz --markdown 20240529/n/nodeenv/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-29 00:13:51] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.6.1b9.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240529/d/dcicutils/8.8.6.1b9-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-29 00:13:51] INFO root fetch - processPackages [heare-config]: executing diffoscope
+[2024-05-29 00:13:51] INFO root fetch - processPackages [heare-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heare_config-1.0.4.tar.gz tmp/heare_config-1.0.5.tar.gz --markdown 20240529/h/heare-config/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-29 00:13:51] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 00:13:51] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 00:13:51] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.1.4.tar.gz tmp/mkdocsi-1.1.5.tar.gz --markdown 20240529/m/mkdocsi/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-29 00:13:51] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.1.4.tar.gz tmp/mkdocsi-1.1.5.tar.gz --markdown 20240529/m/mkdocsi/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-29 00:13:52] INFO root fetch - processPackages [heare-config]: Remove: archive file [/home/abi/fetcher/tmp/heare_config-1.0.4.tar.gz]
+[2024-05-29 00:13:52] INFO root fetch - processPackages [heare-config]: Remove: archive file [/home/abi/fetcher/tmp/heare_config-1.0.5.tar.gz]
+[2024-05-29 00:13:52] INFO root fetch - main [MainThread]: End processing [heare-config]: success
+[2024-05-29 00:13:52] INFO root fetch - processPackages [frid]: Remove: archive file [/home/abi/fetcher/tmp/frid-0.0.8.tar.gz]
+[2024-05-29 00:13:52] INFO root fetch - processPackages [frid]: Remove: archive file [/home/abi/fetcher/tmp/frid-0.0.9.tar.gz]
+[2024-05-29 00:13:52] INFO root fetch - main [MainThread]: End processing [frid]: success
+[2024-05-29 00:13:52] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.1.4.tar.gz]
+[2024-05-29 00:13:52] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.1.5.tar.gz]
+[2024-05-29 00:13:52] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 00:13:52] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 00:13:52] INFO root fetch - processPackages [nodeenv]: Remove: archive file [/home/abi/fetcher/tmp/nodeenv-1.7.0.tar.gz]
+[2024-05-29 00:13:52] INFO root fetch - processPackages [nodeenv]: Remove: archive file [/home/abi/fetcher/tmp/nodeenv-1.8.0.tar.gz]
+[2024-05-29 00:13:52] INFO root fetch - main [MainThread]: End processing [nodeenv]: success
+[2024-05-29 00:13:52] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.6.1b9.tar.gz]
+[2024-05-29 00:13:52] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-29 00:13:52] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-29 00:13:52] INFO root fetch - processPackages [dragonfly-grasshopper]: Downloading https://files.pythonhosted.org/packages/ed/a1/8b42a38306e46248ca16ca8ad5c9b02b4f86db7634aa329ec5ef99e2a623/dragonfly-grasshopper-1.9.0.tar.gz
+[2024-05-29 00:13:54] INFO root fetch - processPackages [dragonfly-grasshopper]: executing diffoscope
+[2024-05-29 00:13:54] INFO root fetch - processPackages [dragonfly-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-grasshopper-1.8.4.tar.gz tmp/dragonfly-grasshopper-1.9.0.tar.gz --markdown 20240529/d/dragonfly-grasshopper/1.8.4-1.9.0/README.md --exclude *.pyd
+[2024-05-29 00:13:55] INFO root fetch - processPackages [dragonfly-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-grasshopper-1.8.4.tar.gz]
+[2024-05-29 00:13:55] INFO root fetch - processPackages [dragonfly-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-grasshopper-1.9.0.tar.gz]
+[2024-05-29 00:13:55] INFO root fetch - main [MainThread]: End processing [dragonfly-grasshopper]: success
+[2024-05-29 00:13:55] INFO root fetch - main [MainThread]: Store serial: [23420072]
