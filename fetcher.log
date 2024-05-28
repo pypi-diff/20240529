@@ -1162,3 +1162,42 @@
 [2024-05-29 00:55:38] INFO root fetch - processPackages [django-admin-inlines]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_inlines-1.0.1.tar.gz]
 [2024-05-29 00:55:38] INFO root fetch - main [MainThread]: End processing [django-admin-inlines]: success
 [2024-05-29 00:55:38] INFO root fetch - main [MainThread]: Store serial: [23420435]
+[2024-05-29 00:57:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420435]
+[2024-05-29 00:57:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 00:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paasta-tools
+[2024-05-29 00:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GPTPlugins4All
+[2024-05-29 00:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2024-05-29 00:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proto-schema-parser
+[2024-05-29 00:57:47] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-29 00:57:47] INFO root fetch - processPackages [proto-schema-parser]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-29 00:57:47] INFO root fetch - processPackages [GPTPlugins4All]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 00:57:47] INFO root fetch - processPackages [paasta-tools]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 00:57:47] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-29 00:57:47] INFO root fetch - processPackages [proto-schema-parser]: Downloading https://files.pythonhosted.org/packages/03/31/65aaffe22e737a8603cfabb612ab1533d2ea0c5334b7a89a241da3d0923c/proto_schema_parser-1.3.3.tar.gz
+[2024-05-29 00:57:47] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/5a/b5/97b0775cb4c951d2872d6c4e33db266a0dba4dc2207a3dbac7ed55f6b995/GPTPlugins4All-1.0.8.tar.gz
+[2024-05-29 00:57:47] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/42/62/bb4a304c04e9cd1005c961ac6f3f9188e0f1e2baabf75c8cc233fb165939/paasta-tools-1.0.2.tar.gz
+[2024-05-29 00:57:47] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-29 00:57:47] INFO root fetch - processPackages [proto-schema-parser]: Downloading https://files.pythonhosted.org/packages/73/5c/7d462fb1a6e21201bc104295b31d69ebf4fb5855baba3cca419dda1dde6a/proto_schema_parser-1.3.4.tar.gz
+[2024-05-29 00:57:47] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/fb/16/af06befd4a411c5c48cd6f713bca08893d0e33bde8c93250203608d1ef03/GPTPlugins4All-1.0.9.tar.gz
+[2024-05-29 00:57:47] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/10/c0/3e6f198bd61ee1f0427649b064a6ea71c6fd78197be9565c2fe4e04a680f/paasta-tools-1.0.3.tar.gz
+[2024-05-29 00:57:48] INFO root fetch - processPackages [proto-schema-parser]: executing diffoscope
+[2024-05-29 00:57:48] INFO root fetch - processPackages [proto-schema-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proto_schema_parser-1.3.3.tar.gz tmp/proto_schema_parser-1.3.4.tar.gz --markdown 20240529/p/proto-schema-parser/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-29 00:57:48] INFO root fetch - processPackages [GPTPlugins4All]: executing diffoscope
+[2024-05-29 00:57:48] INFO root fetch - processPackages [GPTPlugins4All]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTPlugins4All-1.0.8.tar.gz tmp/GPTPlugins4All-1.0.9.tar.gz --markdown 20240529/G/GPTPlugins4All/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 00:57:48] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2024-05-29 00:57:48] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-1.0.2.tar.gz tmp/paasta-tools-1.0.3.tar.gz --markdown 20240529/p/paasta-tools/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 00:57:48] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-29 00:57:48] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240529/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-29 00:57:48] INFO root fetch - processPackages [proto-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/proto_schema_parser-1.3.3.tar.gz]
+[2024-05-29 00:57:48] INFO root fetch - processPackages [proto-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/proto_schema_parser-1.3.4.tar.gz]
+[2024-05-29 00:57:48] INFO root fetch - main [MainThread]: End processing [proto-schema-parser]: success
+[2024-05-29 00:57:48] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.8.tar.gz]
+[2024-05-29 00:57:48] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
+[2024-05-29 00:57:48] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
+[2024-05-29 00:57:49] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-1.0.2.tar.gz]
+[2024-05-29 00:57:49] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-1.0.3.tar.gz]
+[2024-05-29 00:57:49] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2024-05-29 00:57:49] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-29 00:57:49] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-29 00:57:49] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-29 00:57:49] INFO root fetch - main [MainThread]: Store serial: [23420446]
