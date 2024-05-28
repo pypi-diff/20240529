@@ -535,3 +535,24 @@
 [2024-05-29 00:20:30] INFO root fetch - processPackages [pyCHNOSZ]: Remove: archive file [/home/abi/fetcher/tmp/pyCHNOSZ-0.8.9.tar.gz]
 [2024-05-29 00:20:30] INFO root fetch - main [MainThread]: End processing [pyCHNOSZ]: success
 [2024-05-29 00:20:30] INFO root fetch - main [MainThread]: Store serial: [23420119]
+[2024-05-29 00:22:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420119]
+[2024-05-29 00:22:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 00:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-Moment
+[2024-05-29 00:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ftio-hpc
+[2024-05-29 00:22:38] INFO root fetch - processPackages [Flask-Moment]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-29 00:22:39] INFO root fetch - processPackages [ftio-hpc]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 00:22:39] INFO root fetch - processPackages [Flask-Moment]: Downloading https://files.pythonhosted.org/packages/d6/bb/347a9830b03a89d67081714c2c9ebd64060ba89424b62840f35d18a89598/Flask-Moment-1.0.4.tar.gz
+[2024-05-29 00:22:39] INFO root fetch - processPackages [ftio-hpc]: Downloading https://files.pythonhosted.org/packages/6a/e7/07d9dd5bb33c4a62615aff585d5ca7b7d958e59477ba5a98436aa1c8bafc/ftio-hpc-0.0.3.tar.gz
+[2024-05-29 00:22:39] INFO root fetch - processPackages [Flask-Moment]: Downloading https://files.pythonhosted.org/packages/5b/db/3fbc023b087ec95d04991bd053e92702b92a24968cc9935598a8f7045832/Flask-Moment-1.0.5.tar.gz
+[2024-05-29 00:22:39] INFO root fetch - processPackages [Flask-Moment]: executing diffoscope
+[2024-05-29 00:22:39] INFO root fetch - processPackages [Flask-Moment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Moment-1.0.4.tar.gz tmp/Flask-Moment-1.0.5.tar.gz --markdown 20240529/F/Flask-Moment/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-29 00:22:39] INFO root fetch - processPackages [ftio-hpc]: Downloading https://files.pythonhosted.org/packages/49/5d/ae60878177b0d8458142b4766c650678dfd6352e82fff32a441305b273d5/ftio_hpc-0.0.4.tar.gz
+[2024-05-29 00:22:39] INFO root fetch - processPackages [ftio-hpc]: executing diffoscope
+[2024-05-29 00:22:39] INFO root fetch - processPackages [ftio-hpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftio-hpc-0.0.3.tar.gz tmp/ftio_hpc-0.0.4.tar.gz --markdown 20240529/f/ftio-hpc/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 00:22:40] INFO root fetch - processPackages [Flask-Moment]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Moment-1.0.4.tar.gz]
+[2024-05-29 00:22:40] INFO root fetch - processPackages [Flask-Moment]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Moment-1.0.5.tar.gz]
+[2024-05-29 00:22:40] INFO root fetch - main [MainThread]: End processing [Flask-Moment]: success
+[2024-05-29 00:22:40] INFO root fetch - processPackages [ftio-hpc]: Remove: archive file [/home/abi/fetcher/tmp/ftio-hpc-0.0.3.tar.gz]
+[2024-05-29 00:22:40] INFO root fetch - processPackages [ftio-hpc]: Remove: archive file [/home/abi/fetcher/tmp/ftio_hpc-0.0.4.tar.gz]
+[2024-05-29 00:22:40] INFO root fetch - main [MainThread]: End processing [ftio-hpc]: success
+[2024-05-29 00:22:40] INFO root fetch - main [MainThread]: Store serial: [23420125]
