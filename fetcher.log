@@ -622,3 +622,33 @@
 [2024-05-29 00:24:51] INFO root fetch - processPackages [pdg]: Remove: archive file [/home/abi/fetcher/tmp/pdg-0.0.7.tar.gz]
 [2024-05-29 00:24:51] INFO root fetch - main [MainThread]: End processing [pdg]: success
 [2024-05-29 00:24:51] INFO root fetch - main [MainThread]: Store serial: [23420144]
+[2024-05-29 00:26:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420144]
+[2024-05-29 00:27:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mibanco-auto-web
+[2024-05-29 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: das2py
+[2024-05-29 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pazok
+[2024-05-29 00:27:00] INFO root fetch - processPackages [pazok]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-29 00:27:00] INFO root fetch - processPackages [pazok]: Downloading https://files.pythonhosted.org/packages/a4/b6/68f655191ad9ea567c1598ea30ae56632d0c7334054332e2543a3682a44e/pazok-0.0.6.tar.gz
+[2024-05-29 00:27:00] INFO root fetch - processPackages [das2py]: New version: [3.0rc1] Old Version: [2.3.1]
+[2024-05-29 00:27:00] INFO root fetch - processPackages [mibanco-auto-web]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 00:27:00] INFO root fetch - processPackages [pazok]: Downloading https://files.pythonhosted.org/packages/f8/4f/ec7adb49169c1b4c69d1f68668e0b4d60c9235304089c9b1cfaffa4dfcbb/pazok-0.0.7.tar.gz
+[2024-05-29 00:27:01] INFO root fetch - processPackages [das2py]: Downloading https://files.pythonhosted.org/packages/a7/17/95d1776734d93a94a33c5b6a29a8e07d76d4c7a9b5ac13fd76071d7d3039/das2py-2.3.1-cp310-cp310-win_amd64.whl
+[2024-05-29 00:27:01] INFO root fetch - processPackages [mibanco-auto-web]: Downloading https://files.pythonhosted.org/packages/ad/40/e12f97a52abf4d919fce2e2612d7f83b505a6dddbdbf000e0dccd34cff37/mibanco_auto_web-1.0.2.tar.gz
+[2024-05-29 00:27:01] INFO root fetch - processPackages [pazok]: executing diffoscope
+[2024-05-29 00:27:01] INFO root fetch - processPackages [pazok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pazok-0.0.6.tar.gz tmp/pazok-0.0.7.tar.gz --markdown 20240529/p/pazok/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-29 00:27:01] INFO root fetch - processPackages [mibanco-auto-web]: Downloading https://files.pythonhosted.org/packages/fc/31/44675c9e9b1f255599b4ad1d95453450828a38204c5eb929ff8f9bd1f662/mibanco_auto_web-1.0.3.tar.gz
+[2024-05-29 00:27:01] INFO root fetch - processPackages [mibanco-auto-web]: executing diffoscope
+[2024-05-29 00:27:01] INFO root fetch - processPackages [mibanco-auto-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mibanco_auto_web-1.0.2.tar.gz tmp/mibanco_auto_web-1.0.3.tar.gz --markdown 20240529/m/mibanco-auto-web/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 00:27:01] INFO root fetch - processPackages [pazok]: Remove: archive file [/home/abi/fetcher/tmp/pazok-0.0.6.tar.gz]
+[2024-05-29 00:27:01] INFO root fetch - processPackages [pazok]: Remove: archive file [/home/abi/fetcher/tmp/pazok-0.0.7.tar.gz]
+[2024-05-29 00:27:01] INFO root fetch - main [MainThread]: End processing [pazok]: success
+[2024-05-29 00:27:01] INFO root fetch - processPackages [das2py]: Downloading https://files.pythonhosted.org/packages/85/45/b8770f47e16c195a5ddf4b036b4c37646a0a0232be200dffe7ab576ec357/das2py-3.0rc1-cp310-cp310-win_amd64.whl
+[2024-05-29 00:27:01] INFO root fetch - processPackages [mibanco-auto-web]: Remove: archive file [/home/abi/fetcher/tmp/mibanco_auto_web-1.0.2.tar.gz]
+[2024-05-29 00:27:01] INFO root fetch - processPackages [mibanco-auto-web]: Remove: archive file [/home/abi/fetcher/tmp/mibanco_auto_web-1.0.3.tar.gz]
+[2024-05-29 00:27:01] INFO root fetch - main [MainThread]: End processing [mibanco-auto-web]: success
+[2024-05-29 00:27:01] INFO root fetch - processPackages [das2py]: executing diffoscope
+[2024-05-29 00:27:01] INFO root fetch - processPackages [das2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/das2py-2.3.1-cp310-cp310-win_amd64.whl.zip tmp/das2py-3.0rc1-cp310-cp310-win_amd64.whl.zip --markdown 20240529/d/das2py/2.3.1-3.0rc1/README.md --exclude *.pyd
+[2024-05-29 00:27:02] INFO root fetch - processPackages [das2py]: Remove: archive file [/home/abi/fetcher/tmp/das2py-2.3.1-cp310-cp310-win_amd64.whl.zip]
+[2024-05-29 00:27:02] INFO root fetch - processPackages [das2py]: Remove: archive file [/home/abi/fetcher/tmp/das2py-3.0rc1-cp310-cp310-win_amd64.whl.zip]
+[2024-05-29 00:27:02] INFO root fetch - main [MainThread]: End processing [das2py]: success
+[2024-05-29 00:27:02] INFO root fetch - main [MainThread]: Store serial: [23420158]
