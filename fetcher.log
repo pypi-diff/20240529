@@ -1988,3 +1988,38 @@
 [2024-05-29 01:50:46] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.7.8-pp39-pypy39_pp73-win_amd64.whl.zip]
 [2024-05-29 01:50:46] INFO root fetch - main [MainThread]: End processing [asyncdb]: success
 [2024-05-29 01:50:46] INFO root fetch - main [MainThread]: Store serial: [23420927]
+[2024-05-29 01:52:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420927]
+[2024-05-29 01:52:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 01:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssi4onnx
+[2024-05-29 01:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eeggan
+[2024-05-29 01:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: albumentations
+[2024-05-29 01:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: windmill-api
+[2024-05-29 01:52:54] INFO root fetch - processPackages [eeggan]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2024-05-29 01:52:54] INFO root fetch - processPackages [ssi4onnx]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-29 01:52:54] INFO root fetch - processPackages [albumentations]: New version: [1.4.8] Old Version: [1.4.7]
+[2024-05-29 01:52:54] INFO root fetch - processPackages [eeggan]: Downloading https://files.pythonhosted.org/packages/7a/a5/9faee53ba6beae43977511db0ac96ab0463ef60fbf51a8a5fb80406a84ac/eeggan-2.0.0a2.tar.gz
+[2024-05-29 01:52:55] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-29 01:52:55] WARNING root fetch - processPackages [eeggan]: Skipping package: exceeds size limit 15727714>=10485760
+[2024-05-29 01:52:55] INFO root fetch - main [MainThread]: End processing [eeggan] error
+[2024-05-29 01:52:55] INFO root fetch - processPackages [ssi4onnx]: Downloading https://files.pythonhosted.org/packages/a5/66/98c41a33848127adbe8b7e1bd70b7bd60aa8913c5c88451ec932e2864ec2/ssi4onnx-1.0.3.tar.gz
+[2024-05-29 01:52:55] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-29 01:52:55] INFO root fetch - processPackages [albumentations]: Downloading https://files.pythonhosted.org/packages/80/13/33e7a84a74751c3b97c8596b300aa0bdb6ef6e900914af77fbd219275e81/albumentations-1.4.7.tar.gz
+[2024-05-29 01:52:55] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-29 01:52:55] INFO root fetch - processPackages [albumentations]: Downloading https://files.pythonhosted.org/packages/0c/af/728a98435118ed7dcb38a72a2cdedb8eb65da21a10776678564c44ee8daf/albumentations-1.4.8.tar.gz
+[2024-05-29 01:52:55] INFO root fetch - processPackages [ssi4onnx]: Downloading https://files.pythonhosted.org/packages/c1/d3/c829bdf3081dd935a0d1870a72d95f130022c9019bdf6dcb256e06b61c54/ssi4onnx-1.0.4.tar.gz
+[2024-05-29 01:52:55] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-29 01:52:55] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240529/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-29 01:52:55] INFO root fetch - processPackages [ssi4onnx]: executing diffoscope
+[2024-05-29 01:52:55] INFO root fetch - processPackages [ssi4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi4onnx-1.0.3.tar.gz tmp/ssi4onnx-1.0.4.tar.gz --markdown 20240529/s/ssi4onnx/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-29 01:52:55] INFO root fetch - processPackages [albumentations]: executing diffoscope
+[2024-05-29 01:52:55] INFO root fetch - processPackages [albumentations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/albumentations-1.4.7.tar.gz tmp/albumentations-1.4.8.tar.gz --markdown 20240529/a/albumentations/1.4.7-1.4.8/README.md --exclude *.pyd
+[2024-05-29 01:52:56] INFO root fetch - processPackages [ssi4onnx]: Remove: archive file [/home/abi/fetcher/tmp/ssi4onnx-1.0.3.tar.gz]
+[2024-05-29 01:52:56] INFO root fetch - processPackages [ssi4onnx]: Remove: archive file [/home/abi/fetcher/tmp/ssi4onnx-1.0.4.tar.gz]
+[2024-05-29 01:52:56] INFO root fetch - main [MainThread]: End processing [ssi4onnx]: success
+[2024-05-29 01:52:56] INFO root fetch - processPackages [albumentations]: Remove: archive file [/home/abi/fetcher/tmp/albumentations-1.4.7.tar.gz]
+[2024-05-29 01:52:56] INFO root fetch - processPackages [albumentations]: Remove: archive file [/home/abi/fetcher/tmp/albumentations-1.4.8.tar.gz]
+[2024-05-29 01:52:56] INFO root fetch - main [MainThread]: End processing [albumentations]: success
+[2024-05-29 01:52:59] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-29 01:52:59] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-29 01:52:59] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-29 01:52:59] INFO root fetch - main [MainThread]: Store serial: [23420939]
