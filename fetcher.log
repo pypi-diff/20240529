@@ -556,3 +556,69 @@
 [2024-05-29 00:22:40] INFO root fetch - processPackages [ftio-hpc]: Remove: archive file [/home/abi/fetcher/tmp/ftio_hpc-0.0.4.tar.gz]
 [2024-05-29 00:22:40] INFO root fetch - main [MainThread]: End processing [ftio-hpc]: success
 [2024-05-29 00:22:40] INFO root fetch - main [MainThread]: Store serial: [23420125]
+[2024-05-29 00:24:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420125]
+[2024-05-29 00:24:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 00:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tdta
+[2024-05-29 00:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vision-agent
+[2024-05-29 00:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-computer-assistant
+[2024-05-29 00:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qualystbx
+[2024-05-29 00:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocsi
+[2024-05-29 00:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: latexminted
+[2024-05-29 00:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdg
+[2024-05-29 00:24:49] INFO root fetch - processPackages [mkdocsi]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-29 00:24:49] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 00:24:49] INFO root fetch - processPackages [gpt-computer-assistant]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-29 00:24:49] INFO root fetch - processPackages [tdta]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev7]
+[2024-05-29 00:24:49] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-29 00:24:49] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/23/f8/ba0eae9521b2e876fa0e8b6ad1ac3b20a207173885b50ab78acd9b1f8b73/mkdocsi-1.1.7.tar.gz
+[2024-05-29 00:24:49] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/ba/62/bdd0f063704ee791a80055f8b9f58205f306ad99a04995d7e246eba0ce2e/gpt_computer_assistant-0.4.0.tar.gz
+[2024-05-29 00:24:49] INFO root fetch - processPackages [latexminted]: New version: [0.1.0b2] Old Version: [0.1.0b1]
+[2024-05-29 00:24:49] INFO root fetch - processPackages [tdta]: Downloading https://files.pythonhosted.org/packages/be/2d/658961e34b99b97bc998b9b9c30174007ca694f28ee71d97d64dae0cfbf3/tdta-0.1.0.dev7.tar.gz
+[2024-05-29 00:24:49] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-29 00:24:49] INFO root fetch - processPackages [pdg]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-29 00:24:49] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-29 00:24:49] INFO root fetch - processPackages [latexminted]: Downloading https://files.pythonhosted.org/packages/9f/3c/3c3435167718b9ad8c0cb6b275eb9e82f34164906edeb618969732164e22/latexminted-0.1.0b1.tar.gz
+[2024-05-29 00:24:49] INFO root fetch - processPackages [pdg]: Downloading https://files.pythonhosted.org/packages/70/cf/9197bc9e21e4fc9a99eee5f152254b36a8d4360fa9ec488af1ba601b98d3/pdg-0.0.6.tar.gz
+[2024-05-29 00:24:49] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-29 00:24:50] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/0d/51/d7a378273e20f14017eca70ce30edb3f54ffc6f43e9407281a996df5c876/gpt_computer_assistant-0.5.0.tar.gz
+[2024-05-29 00:24:50] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/8a/f8/a4a40981361f58dae9040ef4b5180dbf5e5cc5b807b32a0f7fc8e8128c45/mkdocsi-1.1.8.tar.gz
+[2024-05-29 00:24:50] INFO root fetch - processPackages [tdta]: Downloading https://files.pythonhosted.org/packages/cb/aa/5f5c9b222a88ba19f7f871c56b5ea31177187ba82c536f8a6f2123f3e60e/tdta-0.1.0.dev9.tar.gz
+[2024-05-29 00:24:50] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-29 00:24:50] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240529/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 00:24:50] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 00:24:50] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.1.7.tar.gz tmp/mkdocsi-1.1.8.tar.gz --markdown 20240529/m/mkdocsi/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-29 00:24:50] INFO root fetch - processPackages [gpt-computer-assistant]: executing diffoscope
+[2024-05-29 00:24:50] INFO root fetch - processPackages [gpt-computer-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_computer_assistant-0.4.0.tar.gz tmp/gpt_computer_assistant-0.5.0.tar.gz --markdown 20240529/g/gpt-computer-assistant/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-29 00:24:50] INFO root fetch - processPackages [tdta]: executing diffoscope
+[2024-05-29 00:24:50] INFO root fetch - processPackages [tdta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdta-0.1.0.dev7.tar.gz tmp/tdta-0.1.0.dev9.tar.gz --markdown 20240529/t/tdta/0.1.0.dev7-0.1.0.dev9/README.md --exclude *.pyd
+[2024-05-29 00:24:50] INFO root fetch - processPackages [latexminted]: Downloading https://files.pythonhosted.org/packages/4e/3c/ad022323bd9007b4bc546a51686659575e05db16cbb34cdd951a23765268/latexminted-0.1.0b2.tar.gz
+[2024-05-29 00:24:50] INFO root fetch - processPackages [latexminted]: executing diffoscope
+[2024-05-29 00:24:50] INFO root fetch - processPackages [latexminted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latexminted-0.1.0b1.tar.gz tmp/latexminted-0.1.0b2.tar.gz --markdown 20240529/l/latexminted/0.1.0b1-0.1.0b2/README.md --exclude *.pyd
+[2024-05-29 00:24:50] INFO root fetch - processPackages [pdg]: Downloading https://files.pythonhosted.org/packages/a8/87/c05d4f41968d4d72c00ad51ebe36fb98b7fe801916ba71b4a4d6c8199362/pdg-0.0.7.tar.gz
+[2024-05-29 00:24:50] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-29 00:24:50] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-29 00:24:50] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240529/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-29 00:24:50] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.1.7.tar.gz]
+[2024-05-29 00:24:50] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.1.8.tar.gz]
+[2024-05-29 00:24:50] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 00:24:50] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-29 00:24:50] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-29 00:24:50] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-29 00:24:50] INFO root fetch - processPackages [tdta]: Remove: archive file [/home/abi/fetcher/tmp/tdta-0.1.0.dev7.tar.gz]
+[2024-05-29 00:24:50] INFO root fetch - processPackages [tdta]: Remove: archive file [/home/abi/fetcher/tmp/tdta-0.1.0.dev9.tar.gz]
+[2024-05-29 00:24:50] INFO root fetch - main [MainThread]: End processing [tdta]: success
+[2024-05-29 00:24:51] INFO root fetch - processPackages [pdg]: executing diffoscope
+[2024-05-29 00:24:51] INFO root fetch - processPackages [pdg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdg-0.0.6.tar.gz tmp/pdg-0.0.7.tar.gz --markdown 20240529/p/pdg/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-29 00:24:51] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.4.0.tar.gz]
+[2024-05-29 00:24:51] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.0.tar.gz]
+[2024-05-29 00:24:51] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant]: success
+[2024-05-29 00:24:51] INFO root fetch - processPackages [latexminted]: Remove: archive file [/home/abi/fetcher/tmp/latexminted-0.1.0b1.tar.gz]
+[2024-05-29 00:24:51] INFO root fetch - processPackages [latexminted]: Remove: archive file [/home/abi/fetcher/tmp/latexminted-0.1.0b2.tar.gz]
+[2024-05-29 00:24:51] INFO root fetch - main [MainThread]: End processing [latexminted]: success
+[2024-05-29 00:24:51] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-29 00:24:51] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-29 00:24:51] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-29 00:24:51] INFO root fetch - processPackages [pdg]: Remove: archive file [/home/abi/fetcher/tmp/pdg-0.0.6.tar.gz]
+[2024-05-29 00:24:51] INFO root fetch - processPackages [pdg]: Remove: archive file [/home/abi/fetcher/tmp/pdg-0.0.7.tar.gz]
+[2024-05-29 00:24:51] INFO root fetch - main [MainThread]: End processing [pdg]: success
+[2024-05-29 00:24:51] INFO root fetch - main [MainThread]: Store serial: [23420144]
