@@ -309,3 +309,42 @@
 [2024-05-29 00:09:31] INFO root fetch - processPackages [azure-appconfiguration-provider]: Remove: archive file [/home/abi/fetcher/tmp/azure-appconfiguration-provider-1.2.0.tar.gz]
 [2024-05-29 00:09:31] INFO root fetch - main [MainThread]: End processing [azure-appconfiguration-provider]: success
 [2024-05-29 00:09:31] INFO root fetch - main [MainThread]: Store serial: [23420037]
+[2024-05-29 00:11:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420037]
+[2024-05-29 00:11:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 00:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-freshsales
+[2024-05-29 00:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-wrike
+[2024-05-29 00:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: determined
+[2024-05-29 00:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-hub
+[2024-05-29 00:11:40] INFO root fetch - processPackages [airbyte-source-wrike]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-29 00:11:40] INFO root fetch - processPackages [airbyte-source-freshsales]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 00:11:40] INFO root fetch - processPackages [model-hub]: New version: [0.33.0rc4] Old Version: [0.33.0rc3]
+[2024-05-29 00:11:40] INFO root fetch - processPackages [determined]: New version: [0.33.0rc4] Old Version: [0.33.0rc3]
+[2024-05-29 00:11:40] INFO root fetch - processPackages [airbyte-source-wrike]: Downloading https://files.pythonhosted.org/packages/a5/4b/3167b0bb0de8248930e6aa23003373ea48d2dde841b5eaa0e86d5da42261/airbyte_source_wrike-0.2.1.tar.gz
+[2024-05-29 00:11:40] INFO root fetch - processPackages [airbyte-source-freshsales]: Downloading https://files.pythonhosted.org/packages/ed/eb/e454d98b3985d3a21cf91fdf6e6bf8d475bd5a8ea5ec4bdaf937b2775390/airbyte-source-freshsales-1.0.0.tar.gz
+[2024-05-29 00:11:40] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/95/55/8a0614e43c5bc9e4063ca01d57b754ca5a51006a7d1737c80b0d0a8a39eb/model_hub-0.33.0rc3-py3-none-any.whl
+[2024-05-29 00:11:40] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/02/e3/c95dac0ef8cc60c481f52c3a89a19c10bd21ddc2395ad5b42971578ed94f/determined-0.33.0rc3-py3-none-any.whl
+[2024-05-29 00:11:40] INFO root fetch - processPackages [airbyte-source-wrike]: Downloading https://files.pythonhosted.org/packages/6d/03/e64dac9be7667c4bb576cd7aa4f0cd00d7f0c1f591da56c20231b4fbc07e/airbyte_source_wrike-0.2.2.tar.gz
+[2024-05-29 00:11:40] INFO root fetch - processPackages [airbyte-source-freshsales]: Downloading https://files.pythonhosted.org/packages/b5/bd/e1d3f0cba66dea8331e20a06db3846718c9a9c626451dbefaeb5133a0768/airbyte_source_freshsales-1.0.1.tar.gz
+[2024-05-29 00:11:40] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/67/79/8812e4f40dd3e582e915775d66ad2250de65de68b35127b8be78e6c7d76a/model_hub-0.33.0rc4-py3-none-any.whl
+[2024-05-29 00:11:40] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/05/63/37da12c28d2e2bbabeb792e24213db07028fea64dc25e8fd9dd98bdba507/determined-0.33.0rc4-py3-none-any.whl
+[2024-05-29 00:11:40] INFO root fetch - processPackages [airbyte-source-wrike]: executing diffoscope
+[2024-05-29 00:11:40] INFO root fetch - processPackages [airbyte-source-wrike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_wrike-0.2.1.tar.gz tmp/airbyte_source_wrike-0.2.2.tar.gz --markdown 20240529/a/airbyte-source-wrike/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-29 00:11:40] INFO root fetch - processPackages [airbyte-source-freshsales]: executing diffoscope
+[2024-05-29 00:11:40] INFO root fetch - processPackages [airbyte-source-freshsales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-freshsales-1.0.0.tar.gz tmp/airbyte_source_freshsales-1.0.1.tar.gz --markdown 20240529/a/airbyte-source-freshsales/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 00:11:41] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2024-05-29 00:11:41] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.33.0rc3-py3-none-any.whl.zip tmp/model_hub-0.33.0rc4-py3-none-any.whl.zip --markdown 20240529/m/model-hub/0.33.0rc3-0.33.0rc4/README.md --exclude *.pyd
+[2024-05-29 00:11:41] INFO root fetch - processPackages [determined]: executing diffoscope
+[2024-05-29 00:11:41] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.33.0rc3-py3-none-any.whl.zip tmp/determined-0.33.0rc4-py3-none-any.whl.zip --markdown 20240529/d/determined/0.33.0rc3-0.33.0rc4/README.md --exclude *.pyd
+[2024-05-29 00:11:41] INFO root fetch - processPackages [airbyte-source-freshsales]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-freshsales-1.0.0.tar.gz]
+[2024-05-29 00:11:41] INFO root fetch - processPackages [airbyte-source-freshsales]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_freshsales-1.0.1.tar.gz]
+[2024-05-29 00:11:41] INFO root fetch - main [MainThread]: End processing [airbyte-source-freshsales]: success
+[2024-05-29 00:11:41] INFO root fetch - processPackages [airbyte-source-wrike]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_wrike-0.2.1.tar.gz]
+[2024-05-29 00:11:41] INFO root fetch - processPackages [airbyte-source-wrike]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_wrike-0.2.2.tar.gz]
+[2024-05-29 00:11:41] INFO root fetch - main [MainThread]: End processing [airbyte-source-wrike]: success
+[2024-05-29 00:11:41] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.33.0rc3-py3-none-any.whl.zip]
+[2024-05-29 00:11:41] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.33.0rc4-py3-none-any.whl.zip]
+[2024-05-29 00:11:41] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2024-05-29 00:11:42] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.33.0rc3-py3-none-any.whl.zip]
+[2024-05-29 00:11:42] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.33.0rc4-py3-none-any.whl.zip]
+[2024-05-29 00:11:42] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2024-05-29 00:11:42] INFO root fetch - main [MainThread]: Store serial: [23420047]
