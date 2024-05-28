@@ -2083,3 +2083,29 @@
 [2024-05-29 01:55:11] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.69.tar.gz]
 [2024-05-29 01:55:11] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
 [2024-05-29 01:55:11] INFO root fetch - main [MainThread]: Store serial: [23420961]
+[2024-05-29 01:57:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420961]
+[2024-05-29 01:57:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 01:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pre-commit-update
+[2024-05-29 01:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-orbit
+[2024-05-29 01:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-waiteraid
+[2024-05-29 01:57:20] INFO root fetch - processPackages [airbyte-source-orbit]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-29 01:57:20] INFO root fetch - processPackages [airbyte-source-waiteraid]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 01:57:20] INFO root fetch - processPackages [pre-commit-update]: New version: [0.3.2] Old Version: [0.3.1.post2]
+[2024-05-29 01:57:20] INFO root fetch - processPackages [airbyte-source-waiteraid]: Downloading https://files.pythonhosted.org/packages/ea/67/a3f3109964b45e3aea19e9be5e486ed51c189e4e778f965caec5733c10e5/airbyte_source_waiteraid-0.1.1.tar.gz
+[2024-05-29 01:57:20] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/7a/ac/20d3b79f48198bd3ba4ce129200323ee7713b1a84732ebf5fef716d7d603/pre_commit_update-0.3.1.post2.tar.gz
+[2024-05-29 01:57:20] INFO root fetch - processPackages [airbyte-source-orbit]: Downloading https://files.pythonhosted.org/packages/6a/de/a3f361e0663a1e238c651782572d9902ae42a7b4913c2a9ceca1cd771312/airbyte_source_orbit-0.3.4.tar.gz
+[2024-05-29 01:57:20] ERROR root fetch - processPackages [airbyte-source-waiteraid]: Unable to fetch info: No such project/version 'airbyte-source-waiteraid' 0.1.2
+[2024-05-29 01:57:20] INFO root fetch - main [MainThread]: End processing [airbyte-source-waiteraid] error
+[2024-05-29 01:57:20] INFO root fetch - processPackages [airbyte-source-orbit]: Downloading https://files.pythonhosted.org/packages/2e/d4/ed99de24c306b274342fba6f3bb7c582e4b03c6e029840fcf60a4c238a6c/airbyte_source_orbit-0.3.5.tar.gz
+[2024-05-29 01:57:20] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/db/db/80d025828b6f26ec975f224d9a41f67286bc1b4251e95b5ad6d3ece16613/pre_commit_update-0.3.2.tar.gz
+[2024-05-29 01:57:20] INFO root fetch - processPackages [airbyte-source-orbit]: executing diffoscope
+[2024-05-29 01:57:20] INFO root fetch - processPackages [airbyte-source-orbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_orbit-0.3.4.tar.gz tmp/airbyte_source_orbit-0.3.5.tar.gz --markdown 20240529/a/airbyte-source-orbit/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-29 01:57:20] INFO root fetch - processPackages [pre-commit-update]: executing diffoscope
+[2024-05-29 01:57:20] INFO root fetch - processPackages [pre-commit-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit_update-0.3.1.post2.tar.gz tmp/pre_commit_update-0.3.2.tar.gz --markdown 20240529/p/pre-commit-update/0.3.1.post2-0.3.2/README.md --exclude *.pyd
+[2024-05-29 01:57:21] INFO root fetch - processPackages [airbyte-source-orbit]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_orbit-0.3.4.tar.gz]
+[2024-05-29 01:57:21] INFO root fetch - processPackages [airbyte-source-orbit]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_orbit-0.3.5.tar.gz]
+[2024-05-29 01:57:21] INFO root fetch - main [MainThread]: End processing [airbyte-source-orbit]: success
+[2024-05-29 01:57:21] INFO root fetch - processPackages [pre-commit-update]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_update-0.3.1.post2.tar.gz]
+[2024-05-29 01:57:21] INFO root fetch - processPackages [pre-commit-update]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_update-0.3.2.tar.gz]
+[2024-05-29 01:57:21] INFO root fetch - main [MainThread]: End processing [pre-commit-update]: success
+[2024-05-29 01:57:21] INFO root fetch - main [MainThread]: Store serial: [23420974]
