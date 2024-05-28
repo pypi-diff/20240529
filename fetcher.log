@@ -1576,3 +1576,51 @@
 [2024-05-29 01:20:18] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.9.tar.gz]
 [2024-05-29 01:20:18] INFO root fetch - main [MainThread]: End processing [adtoolbox]: success
 [2024-05-29 01:20:18] INFO root fetch - main [MainThread]: Store serial: [23420653]
+[2024-05-29 01:22:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420653]
+[2024-05-29 01:22:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 01:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adtoolbox
+[2024-05-29 01:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ape-farcaster
+[2024-05-29 01:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zrb
+[2024-05-29 01:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxruntime_extensions
+[2024-05-29 01:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alphafold3-pytorch
+[2024-05-29 01:22:28] INFO root fetch - processPackages [alphafold3-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 01:22:28] INFO root fetch - processPackages [adtoolbox]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-29 01:22:28] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/e9/e2/142b19b529aba5b96d18902a5f1c99660ab625fa64921af86b97ac678b40/alphafold3_pytorch-0.0.8.tar.gz
+[2024-05-29 01:22:28] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/6a/c8/3ca715c31c152bc668a87e25407587842606023ce422cc31fb94ee445db5/adtoolbox-0.5.8.tar.gz
+[2024-05-29 01:22:28] INFO root fetch - processPackages [ape-farcaster]: New version: [0.7.0b0] Old Version: [0.7.0a1]
+[2024-05-29 01:22:28] INFO root fetch - processPackages [zrb]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-29 01:22:28] INFO root fetch - processPackages [onnxruntime_extensions]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 01:22:28] INFO root fetch - processPackages [ape-farcaster]: Downloading https://files.pythonhosted.org/packages/e4/da/9880962efad03a89593b5edd0d7fd9716e7be6905a1365a305123252292f/ape-farcaster-0.7.0a1.tar.gz
+[2024-05-29 01:22:28] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/a7/7b/9e4f8d4f6a4c45a3e9d2e8654cf52c1e0908166f42f12b0115bb9c430b65/adtoolbox-0.5.9.tar.gz
+[2024-05-29 01:22:28] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/32/39/a7e9fbbb7d0cb16c4ef2cdecfa0052b5b5059c4b0f8cd6cc390052054a0b/zrb-0.9.2.tar.gz
+[2024-05-29 01:22:28] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/96/47/97f198b647d508e9e64e32b67c24069f872d2ff29ca39b5d1ef44a81f68b/alphafold3_pytorch-0.0.9.tar.gz
+[2024-05-29 01:22:28] INFO root fetch - processPackages [onnxruntime_extensions]: Downloading https://files.pythonhosted.org/packages/58/c7/e6b864cdf6a496cefda9b4a47e33872227aa1e272e997062dda0cbc8cfdf/onnxruntime_extensions-0.8.0-cp39-cp39-win_amd64.whl
+[2024-05-29 01:22:28] INFO root fetch - processPackages [adtoolbox]: executing diffoscope
+[2024-05-29 01:22:28] INFO root fetch - processPackages [adtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adtoolbox-0.5.8.tar.gz tmp/adtoolbox-0.5.9.tar.gz --markdown 20240529/a/adtoolbox/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-29 01:22:29] INFO root fetch - processPackages [alphafold3-pytorch]: executing diffoscope
+[2024-05-29 01:22:29] INFO root fetch - processPackages [alphafold3-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold3_pytorch-0.0.8.tar.gz tmp/alphafold3_pytorch-0.0.9.tar.gz --markdown 20240529/a/alphafold3-pytorch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 01:22:29] INFO root fetch - processPackages [ape-farcaster]: Downloading https://files.pythonhosted.org/packages/c6/60/a111753a756a1cfe28397f254cc2bdd367cb656290ab31b58e6fa982a3f2/ape-farcaster-0.7.0b0.tar.gz
+[2024-05-29 01:22:29] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/f6/b9/43574b23dd1c57d67788b82511937efe23fc957250685ba62b6025db3166/zrb-0.9.3.tar.gz
+[2024-05-29 01:22:29] INFO root fetch - processPackages [ape-farcaster]: executing diffoscope
+[2024-05-29 01:22:29] INFO root fetch - processPackages [ape-farcaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-farcaster-0.7.0a1.tar.gz tmp/ape-farcaster-0.7.0b0.tar.gz --markdown 20240529/a/ape-farcaster/0.7.0a1-0.7.0b0/README.md --exclude *.pyd
+[2024-05-29 01:22:29] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.8.tar.gz]
+[2024-05-29 01:22:29] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.9.tar.gz]
+[2024-05-29 01:22:29] INFO root fetch - main [MainThread]: End processing [adtoolbox]: success
+[2024-05-29 01:22:29] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.8.tar.gz]
+[2024-05-29 01:22:29] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.9.tar.gz]
+[2024-05-29 01:22:29] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch]: success
+[2024-05-29 01:22:29] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2024-05-29 01:22:29] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.9.2.tar.gz tmp/zrb-0.9.3.tar.gz --markdown 20240529/z/zrb/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-29 01:22:30] INFO root fetch - processPackages [ape-farcaster]: Remove: archive file [/home/abi/fetcher/tmp/ape-farcaster-0.7.0a1.tar.gz]
+[2024-05-29 01:22:30] INFO root fetch - processPackages [ape-farcaster]: Remove: archive file [/home/abi/fetcher/tmp/ape-farcaster-0.7.0b0.tar.gz]
+[2024-05-29 01:22:30] INFO root fetch - main [MainThread]: End processing [ape-farcaster]: success
+[2024-05-29 01:22:31] INFO root fetch - processPackages [onnxruntime_extensions]: Downloading https://files.pythonhosted.org/packages/72/ea/d58d16b2c4ddd7e3ec4a9dd79bf9f02b3cbd91dbba5ae64f0280733efa35/onnxruntime_extensions-0.9.0-cp39-cp39-win_amd64.whl
+[2024-05-29 01:22:32] INFO root fetch - processPackages [onnxruntime_extensions]: executing diffoscope
+[2024-05-29 01:22:32] INFO root fetch - processPackages [onnxruntime_extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxruntime_extensions-0.8.0-cp39-cp39-win_amd64.whl.zip tmp/onnxruntime_extensions-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240529/o/onnxruntime_extensions/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 01:22:33] INFO root fetch - processPackages [onnxruntime_extensions]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime_extensions-0.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 01:22:33] INFO root fetch - processPackages [onnxruntime_extensions]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime_extensions-0.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 01:22:33] INFO root fetch - main [MainThread]: End processing [onnxruntime_extensions]: success
+[2024-05-29 01:22:34] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.2.tar.gz]
+[2024-05-29 01:22:34] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.3.tar.gz]
+[2024-05-29 01:22:34] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2024-05-29 01:22:34] INFO root fetch - main [MainThread]: Store serial: [23420680]
