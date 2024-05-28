@@ -1464,3 +1464,23 @@
 [2024-05-29 01:13:43] INFO root fetch - processPackages [openstl]: Remove: archive file [/home/abi/fetcher/tmp/openstl-1.1.4-pp39-pypy39_pp73-win_amd64.whl.zip]
 [2024-05-29 01:13:43] INFO root fetch - main [MainThread]: End processing [openstl]: success
 [2024-05-29 01:13:43] INFO root fetch - main [MainThread]: Store serial: [23420610]
+[2024-05-29 01:15:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420610]
+[2024-05-29 01:15:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eeggan
+[2024-05-29 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flow-package-utils
+[2024-05-29 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptools
+[2024-05-29 01:15:51] WARNING root fetch - processPackages [flow-package-utils]: Skipping, unable to determine old version
+[2024-05-29 01:15:51] INFO root fetch - main [MainThread]: End processing [flow-package-utils] error
+[2024-05-29 01:15:51] INFO root fetch - processPackages [promptools]: New version: [0.1.3rc1] Old Version: [0.1.3rc0]
+[2024-05-29 01:15:51] INFO root fetch - processPackages [eeggan]: New version: [2.0.0a1] Old Version: [1.0.0]
+[2024-05-29 01:15:51] INFO root fetch - processPackages [promptools]: Downloading https://files.pythonhosted.org/packages/b6/fd/c5285469f15eb52a8cb033f35fee9bd3710a034503ef30cb2e5634b75504/promptools-0.1.3rc0.tar.gz
+[2024-05-29 01:15:52] INFO root fetch - processPackages [eeggan]: Downloading https://files.pythonhosted.org/packages/6f/4e/0b5c8fe68236fddd15c7ebaf8f9d5fc764b1d27ab43ca0a04428cbbd23e9/eeggan-1.0.0.tar.gz
+[2024-05-29 01:15:52] WARNING root fetch - processPackages [eeggan]: Skipping package: exceeds size limit 91557956>=10485760
+[2024-05-29 01:15:52] INFO root fetch - main [MainThread]: End processing [eeggan] error
+[2024-05-29 01:15:52] INFO root fetch - processPackages [promptools]: Downloading https://files.pythonhosted.org/packages/08/af/95390e755cd54f42ccb26a9748050e5003b9b8cf125a09fc90eb3db3bf1d/promptools-0.1.3rc1.tar.gz
+[2024-05-29 01:15:52] INFO root fetch - processPackages [promptools]: executing diffoscope
+[2024-05-29 01:15:52] INFO root fetch - processPackages [promptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptools-0.1.3rc0.tar.gz tmp/promptools-0.1.3rc1.tar.gz --markdown 20240529/p/promptools/0.1.3rc0-0.1.3rc1/README.md --exclude *.pyd
+[2024-05-29 01:15:52] INFO root fetch - processPackages [promptools]: Remove: archive file [/home/abi/fetcher/tmp/promptools-0.1.3rc0.tar.gz]
+[2024-05-29 01:15:52] INFO root fetch - processPackages [promptools]: Remove: archive file [/home/abi/fetcher/tmp/promptools-0.1.3rc1.tar.gz]
+[2024-05-29 01:15:52] INFO root fetch - main [MainThread]: End processing [promptools]: success
+[2024-05-29 01:15:52] INFO root fetch - main [MainThread]: Store serial: [23420620]
