@@ -1713,3 +1713,38 @@
 [2024-05-29 01:33:23] WARNING root fetch - processPackages [triton-util]: Skipping, unable to determine old version
 [2024-05-29 01:33:23] INFO root fetch - main [MainThread]: End processing [triton-util] error
 [2024-05-29 01:33:23] INFO root fetch - main [MainThread]: Store serial: [23420734]
+[2024-05-29 01:35:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420734]
+[2024-05-29 01:35:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 01:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycti
+[2024-05-29 01:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qualystbx
+[2024-05-29 01:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eeggan
+[2024-05-29 01:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snowflake-snowpark-python
+[2024-05-29 01:35:31] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 01:35:31] INFO root fetch - processPackages [eeggan]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2024-05-29 01:35:31] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-29 01:35:31] INFO root fetch - processPackages [snowflake-snowpark-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-29 01:35:31] INFO root fetch - processPackages [pycti]: New version: [6.1.5] Old Version: [6.1.4]
+[2024-05-29 01:35:31] INFO root fetch - processPackages [eeggan]: Downloading https://files.pythonhosted.org/packages/05/a5/f2cbe381b2e69ca2b620d3852ed590bc65df59c8a50ee8d4dae6eeb8ebcd/eeggan-2.0.0a1.tar.gz
+[2024-05-29 01:35:31] WARNING root fetch - processPackages [eeggan]: Skipping package: exceeds size limit 15727641>=10485760
+[2024-05-29 01:35:31] INFO root fetch - main [MainThread]: End processing [eeggan] error
+[2024-05-29 01:35:31] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-29 01:35:31] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/51/bc/e4c7ab36431f76f2b7e8dbe118d7ea6d132c8160478c490bc8d7e5994b56/pycti-6.1.4.tar.gz
+[2024-05-29 01:35:31] INFO root fetch - processPackages [snowflake-snowpark-python]: Downloading https://files.pythonhosted.org/packages/9b/ff/199129c3662944ef2ffa0d4ae8a078fa77029cad5a1a259d8d986f888aaf/snowflake-snowpark-python-1.8.0.tar.gz
+[2024-05-29 01:35:31] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-29 01:35:31] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240529/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 01:35:32] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/3e/6d/7d30fb82f333c6fc0a4c56b02209cb51b615e747cac0bfe2ca00c9e35f5c/pycti-6.1.5.tar.gz
+[2024-05-29 01:35:32] INFO root fetch - processPackages [snowflake-snowpark-python]: Downloading https://files.pythonhosted.org/packages/c7/6f/a2d15d5ac98590aac8c34cc7a8889ad99bc2744520dc8bbe433903f91293/snowflake-snowpark-python-1.9.0.tar.gz
+[2024-05-29 01:35:32] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2024-05-29 01:35:32] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-6.1.4.tar.gz tmp/pycti-6.1.5.tar.gz --markdown 20240529/p/pycti/6.1.4-6.1.5/README.md --exclude *.pyd
+[2024-05-29 01:35:32] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-29 01:35:32] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-29 01:35:32] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-29 01:35:32] INFO root fetch - processPackages [snowflake-snowpark-python]: executing diffoscope
+[2024-05-29 01:35:32] INFO root fetch - processPackages [snowflake-snowpark-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-snowpark-python-1.8.0.tar.gz tmp/snowflake-snowpark-python-1.9.0.tar.gz --markdown 20240529/s/snowflake-snowpark-python/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-29 01:35:33] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-6.1.4.tar.gz]
+[2024-05-29 01:35:33] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-6.1.5.tar.gz]
+[2024-05-29 01:35:33] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2024-05-29 01:35:33] INFO root fetch - processPackages [snowflake-snowpark-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-snowpark-python-1.8.0.tar.gz]
+[2024-05-29 01:35:33] INFO root fetch - processPackages [snowflake-snowpark-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-snowpark-python-1.9.0.tar.gz]
+[2024-05-29 01:35:33] INFO root fetch - main [MainThread]: End processing [snowflake-snowpark-python]: success
+[2024-05-29 01:35:33] INFO root fetch - main [MainThread]: Store serial: [23420746]
