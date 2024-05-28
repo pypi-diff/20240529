@@ -1343,3 +1343,59 @@
 [2024-05-29 01:06:32] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.2.0.tar.gz]
 [2024-05-29 01:06:32] INFO root fetch - main [MainThread]: End processing [freeze-dried-data]: success
 [2024-05-29 01:06:32] INFO root fetch - main [MainThread]: Store serial: [23420493]
+[2024-05-29 01:08:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420493]
+[2024-05-29 01:08:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 01:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flwr-nightly
+[2024-05-29 01:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rov-db-access
+[2024-05-29 01:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scc4onnx
+[2024-05-29 01:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bd_to_avp
+[2024-05-29 01:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-audit-events
+[2024-05-29 01:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piccolo
+[2024-05-29 01:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simplecalculatorpaulit
+[2024-05-29 01:08:40] INFO root fetch - processPackages [django-audit-events]: New version: [0.3.2] Old Version: [0.3.1.dev0]
+[2024-05-29 01:08:40] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240527] Old Version: [1.9.0.dev20240524]
+[2024-05-29 01:08:40] INFO root fetch - processPackages [bd_to_avp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 01:08:40] WARNING root fetch - processPackages [simplecalculatorpaulit]: Skipping, unable to determine old version
+[2024-05-29 01:08:40] INFO root fetch - main [MainThread]: End processing [simplecalculatorpaulit] error
+[2024-05-29 01:08:40] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/77/0e/dbb2bcecb297a1cf0ebc8eb34e86a999ff3f524cba9cea56c2ed59d841c2/flwr_nightly-1.9.0.dev20240524.tar.gz
+[2024-05-29 01:08:40] INFO root fetch - processPackages [bd_to_avp]: Downloading https://files.pythonhosted.org/packages/00/db/7e18af63153f16cb6b9d0cd019ae969bcff7057bcdaa43a5b82e8224ed2d/bd_to_avp-0.1.8.tar.gz
+[2024-05-29 01:08:40] INFO root fetch - processPackages [scc4onnx]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-29 01:08:40] INFO root fetch - processPackages [rov-db-access]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-29 01:08:40] INFO root fetch - processPackages [piccolo]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-29 01:08:40] WARNING root fetch - processPackages [bd_to_avp]: Skipping package: exceeds size limit 16498870>=10485760
+[2024-05-29 01:08:40] INFO root fetch - main [MainThread]: End processing [bd_to_avp] error
+[2024-05-29 01:08:40] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/82/76/723a47a0b5e14322f60a269006414d93e83c283e4ab99957663bf0a14374/django-audit-events-0.3.1.dev0.tar.gz
+[2024-05-29 01:08:41] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/f8/90/3b2710df027187d0a7100a1b52fe80e3cf50d31409bc05f569002caee5bf/piccolo-1.5.1.tar.gz
+[2024-05-29 01:08:41] INFO root fetch - processPackages [rov-db-access]: Downloading https://files.pythonhosted.org/packages/ed/c3/3194a10bebb5f3e43fb3f0228492eab1bf1e3680a4f826f6a97287f17905/rov_db_access-1.0.4.tar.gz
+[2024-05-29 01:08:41] INFO root fetch - processPackages [scc4onnx]: Downloading https://files.pythonhosted.org/packages/1d/48/fcd2f06331995cefd53affb9b383f5920fef4d264285745ca09069dc39d5/scc4onnx-1.0.5.tar.gz
+[2024-05-29 01:08:41] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/c0/77/e6ca63a9f98a017bc3a0f7c867780b3422f65208c5d7c9b6c728c34d2a3e/flwr_nightly-1.9.0.dev20240527.tar.gz
+[2024-05-29 01:08:41] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/1b/f9/c1b835d000f9d03436caeccca3b07b394282349c7e48214c66f8c6eef169/django-audit-events-0.3.2.tar.gz
+[2024-05-29 01:08:41] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-29 01:08:41] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240524.tar.gz tmp/flwr_nightly-1.9.0.dev20240527.tar.gz --markdown 20240529/f/flwr-nightly/1.9.0.dev20240524-1.9.0.dev20240527/README.md --exclude *.pyd
+[2024-05-29 01:08:41] INFO root fetch - processPackages [scc4onnx]: Downloading https://files.pythonhosted.org/packages/78/e3/9ac8090be66ce14bfaec57db84526b98e5459554872e3d0568f0d033448b/scc4onnx-1.0.6.tar.gz
+[2024-05-29 01:08:41] INFO root fetch - processPackages [rov-db-access]: Downloading https://files.pythonhosted.org/packages/a1/88/64d9d36f4ac9511b6c3f514227c70a4fce5b3ef9e89113c65a5aeddb14d8/rov_db_access-1.0.5.tar.gz
+[2024-05-29 01:08:41] INFO root fetch - processPackages [django-audit-events]: executing diffoscope
+[2024-05-29 01:08:41] INFO root fetch - processPackages [django-audit-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-audit-events-0.3.1.dev0.tar.gz tmp/django-audit-events-0.3.2.tar.gz --markdown 20240529/d/django-audit-events/0.3.1.dev0-0.3.2/README.md --exclude *.pyd
+[2024-05-29 01:08:41] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/50/e5/3247bc0c67c98ab677a2279cb0061cd7cf148ef9da3d3b2538c99320d173/piccolo-1.5.2.tar.gz
+[2024-05-29 01:08:41] INFO root fetch - processPackages [scc4onnx]: executing diffoscope
+[2024-05-29 01:08:41] INFO root fetch - processPackages [scc4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scc4onnx-1.0.5.tar.gz tmp/scc4onnx-1.0.6.tar.gz --markdown 20240529/s/scc4onnx/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-29 01:08:41] INFO root fetch - processPackages [rov-db-access]: executing diffoscope
+[2024-05-29 01:08:41] INFO root fetch - processPackages [rov-db-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rov_db_access-1.0.4.tar.gz tmp/rov_db_access-1.0.5.tar.gz --markdown 20240529/r/rov-db-access/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-29 01:08:41] INFO root fetch - processPackages [piccolo]: executing diffoscope
+[2024-05-29 01:08:41] INFO root fetch - processPackages [piccolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo-1.5.1.tar.gz tmp/piccolo-1.5.2.tar.gz --markdown 20240529/p/piccolo/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-29 01:08:42] INFO root fetch - processPackages [scc4onnx]: Remove: archive file [/home/abi/fetcher/tmp/scc4onnx-1.0.5.tar.gz]
+[2024-05-29 01:08:42] INFO root fetch - processPackages [scc4onnx]: Remove: archive file [/home/abi/fetcher/tmp/scc4onnx-1.0.6.tar.gz]
+[2024-05-29 01:08:42] INFO root fetch - main [MainThread]: End processing [scc4onnx]: success
+[2024-05-29 01:08:42] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.1.dev0.tar.gz]
+[2024-05-29 01:08:42] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.2.tar.gz]
+[2024-05-29 01:08:42] INFO root fetch - main [MainThread]: End processing [django-audit-events]: success
+[2024-05-29 01:08:42] INFO root fetch - processPackages [rov-db-access]: Remove: archive file [/home/abi/fetcher/tmp/rov_db_access-1.0.4.tar.gz]
+[2024-05-29 01:08:42] INFO root fetch - processPackages [rov-db-access]: Remove: archive file [/home/abi/fetcher/tmp/rov_db_access-1.0.5.tar.gz]
+[2024-05-29 01:08:42] INFO root fetch - main [MainThread]: End processing [rov-db-access]: success
+[2024-05-29 01:08:42] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240524.tar.gz]
+[2024-05-29 01:08:42] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240527.tar.gz]
+[2024-05-29 01:08:42] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-29 01:08:43] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-1.5.1.tar.gz]
+[2024-05-29 01:08:43] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-1.5.2.tar.gz]
+[2024-05-29 01:08:43] INFO root fetch - main [MainThread]: End processing [piccolo]: success
+[2024-05-29 01:08:43] INFO root fetch - main [MainThread]: Store serial: [23420516]
