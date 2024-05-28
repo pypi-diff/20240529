@@ -472,3 +472,45 @@
 [2024-05-29 00:16:07] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.9.tar.gz]
 [2024-05-29 00:16:07] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
 [2024-05-29 00:16:07] INFO root fetch - main [MainThread]: Store serial: [23420095]
+[2024-05-29 00:18:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420095]
+[2024-05-29 00:18:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: memprocfs
+[2024-05-29 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-packs-secgpt
+[2024-05-29 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blablabla
+[2024-05-29 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jeffutils
+[2024-05-29 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codal-tsetmc
+[2024-05-29 00:18:17] INFO root fetch - processPackages [jeffutils]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-29 00:18:17] INFO root fetch - processPackages [blablabla]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 00:18:17] INFO root fetch - processPackages [jeffutils]: Downloading https://files.pythonhosted.org/packages/d4/1f/511057239c41b9e62ab30a2c3b45be909ad6763022d241a13f1b61c81828/jeffutils-0.6.4.tar.gz
+[2024-05-29 00:18:17] WARNING root fetch - processPackages [llama-index-packs-secgpt]: Skipping, unable to determine old version
+[2024-05-29 00:18:17] INFO root fetch - main [MainThread]: End processing [llama-index-packs-secgpt] error
+[2024-05-29 00:18:17] INFO root fetch - processPackages [codal-tsetmc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 00:18:17] INFO root fetch - processPackages [memprocfs]: New version: [5.9.16] Old Version: [5.9.14]
+[2024-05-29 00:18:17] INFO root fetch - processPackages [blablabla]: Downloading https://files.pythonhosted.org/packages/1d/af/8b71f9a3c9a854cdc1fb59e53cca3d2d89cae9ae5f9ea380edaee7b6219f/blablabla-0.0.3.tar.gz
+[2024-05-29 00:18:17] INFO root fetch - processPackages [codal-tsetmc]: Downloading https://files.pythonhosted.org/packages/d9/c4/267edd26f171e53aad2716c1b19a4a3cee6527999bf2d119dff8de0f061c/codal_tsetmc-0.0.8.tar.gz
+[2024-05-29 00:18:17] INFO root fetch - processPackages [memprocfs]: Downloading https://files.pythonhosted.org/packages/97/24/f9245fe8e5d1048d81a52cd67a4e10039e5610d551be610d49d393fde2b2/memprocfs-5.9.14.tar.gz
+[2024-05-29 00:18:17] INFO root fetch - processPackages [jeffutils]: Downloading https://files.pythonhosted.org/packages/db/df/f448030c54de23c870fe23af47214d21b463616197428abb6a32960902e6/jeffutils-0.6.5.tar.gz
+[2024-05-29 00:18:18] INFO root fetch - processPackages [jeffutils]: executing diffoscope
+[2024-05-29 00:18:18] INFO root fetch - processPackages [jeffutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeffutils-0.6.4.tar.gz tmp/jeffutils-0.6.5.tar.gz --markdown 20240529/j/jeffutils/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-29 00:18:18] INFO root fetch - processPackages [blablabla]: Downloading https://files.pythonhosted.org/packages/9d/42/de28458cae2f35cda99ec4373cc29093fc5c4bb3a45d9a9160dc7057c48d/blablabla-0.0.4.tar.gz
+[2024-05-29 00:18:18] INFO root fetch - processPackages [blablabla]: executing diffoscope
+[2024-05-29 00:18:18] INFO root fetch - processPackages [blablabla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blablabla-0.0.3.tar.gz tmp/blablabla-0.0.4.tar.gz --markdown 20240529/b/blablabla/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 00:18:18] INFO root fetch - processPackages [codal-tsetmc]: Downloading https://files.pythonhosted.org/packages/10/18/92ca7e952acd820cc5293286bb96017f583d9ac1c5f6ddb222758d65ee89/codal_tsetmc-0.0.9.tar.gz
+[2024-05-29 00:18:18] INFO root fetch - processPackages [codal-tsetmc]: executing diffoscope
+[2024-05-29 00:18:18] INFO root fetch - processPackages [codal-tsetmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codal_tsetmc-0.0.8.tar.gz tmp/codal_tsetmc-0.0.9.tar.gz --markdown 20240529/c/codal-tsetmc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 00:18:18] INFO root fetch - processPackages [memprocfs]: Downloading https://files.pythonhosted.org/packages/f6/76/29a0b956cab2946da7d52d7c9419b416473aa62caecc70e0cdd34fc6f30d/memprocfs-5.9.16.tar.gz
+[2024-05-29 00:18:18] INFO root fetch - processPackages [jeffutils]: Remove: archive file [/home/abi/fetcher/tmp/jeffutils-0.6.4.tar.gz]
+[2024-05-29 00:18:18] INFO root fetch - processPackages [jeffutils]: Remove: archive file [/home/abi/fetcher/tmp/jeffutils-0.6.5.tar.gz]
+[2024-05-29 00:18:18] INFO root fetch - main [MainThread]: End processing [jeffutils]: success
+[2024-05-29 00:18:18] INFO root fetch - processPackages [memprocfs]: executing diffoscope
+[2024-05-29 00:18:18] INFO root fetch - processPackages [memprocfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memprocfs-5.9.14.tar.gz tmp/memprocfs-5.9.16.tar.gz --markdown 20240529/m/memprocfs/5.9.14-5.9.16/README.md --exclude *.pyd
+[2024-05-29 00:18:18] INFO root fetch - processPackages [blablabla]: Remove: archive file [/home/abi/fetcher/tmp/blablabla-0.0.3.tar.gz]
+[2024-05-29 00:18:18] INFO root fetch - processPackages [blablabla]: Remove: archive file [/home/abi/fetcher/tmp/blablabla-0.0.4.tar.gz]
+[2024-05-29 00:18:18] INFO root fetch - main [MainThread]: End processing [blablabla]: success
+[2024-05-29 00:18:19] INFO root fetch - processPackages [codal-tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/codal_tsetmc-0.0.8.tar.gz]
+[2024-05-29 00:18:19] INFO root fetch - processPackages [codal-tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/codal_tsetmc-0.0.9.tar.gz]
+[2024-05-29 00:18:19] INFO root fetch - main [MainThread]: End processing [codal-tsetmc]: success
+[2024-05-29 00:18:20] INFO root fetch - processPackages [memprocfs]: Remove: archive file [/home/abi/fetcher/tmp/memprocfs-5.9.14.tar.gz]
+[2024-05-29 00:18:20] INFO root fetch - processPackages [memprocfs]: Remove: archive file [/home/abi/fetcher/tmp/memprocfs-5.9.16.tar.gz]
+[2024-05-29 00:18:20] INFO root fetch - main [MainThread]: End processing [memprocfs]: success
+[2024-05-29 00:18:20] INFO root fetch - main [MainThread]: Store serial: [23420113]
