@@ -415,3 +415,60 @@
 [2024-05-29 00:13:55] INFO root fetch - processPackages [dragonfly-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-grasshopper-1.9.0.tar.gz]
 [2024-05-29 00:13:55] INFO root fetch - main [MainThread]: End processing [dragonfly-grasshopper]: success
 [2024-05-29 00:13:55] INFO root fetch - main [MainThread]: Store serial: [23420072]
+[2024-05-29 00:16:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420072]
+[2024-05-29 00:16:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 00:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logninja
+[2024-05-29 00:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocsi
+[2024-05-29 00:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nodejs-wheel
+[2024-05-29 00:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enzope
+[2024-05-29 00:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nodejs-wheel-binaries
+[2024-05-29 00:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-grasshopper
+[2024-05-29 00:16:06] INFO root fetch - processPackages [logninja]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-29 00:16:06] INFO root fetch - processPackages [nodejs-wheel-binaries]: New version: [20.13.1] Old Version: [20.13.0]
+[2024-05-29 00:16:06] INFO root fetch - processPackages [mkdocsi]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-29 00:16:06] INFO root fetch - processPackages [enzope]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 00:16:06] INFO root fetch - processPackages [nodejs-wheel]: New version: [20.9.0] Old Version: [20.8.1]
+[2024-05-29 00:16:06] INFO root fetch - processPackages [logninja]: Downloading https://files.pythonhosted.org/packages/0f/de/7b365432fcf3189a97eae97872d0581e366e368e50427a085990110e5afb/logninja-0.1.6.tar.gz
+[2024-05-29 00:16:06] INFO root fetch - processPackages [enzope]: Downloading https://files.pythonhosted.org/packages/96/ee/810e8bd26ceb448740e43d450a7bea82bf4b74731c52ec34691ba09934f7/enzope-0.0.8.tar.gz
+[2024-05-29 00:16:06] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-29 00:16:06] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/42/f1/ed7dd7a07f97f3314709f613ba7719d81dc3d2a0dae2d9ac63b8b6ed76b2/mkdocsi-1.1.6.tar.gz
+[2024-05-29 00:16:06] INFO root fetch - processPackages [nodejs-wheel-binaries]: Downloading https://files.pythonhosted.org/packages/0b/6a/603896774d75b1e0d3d8a48c07392ff8cb4c5cff428c2572212ea63d6593/nodejs_wheel_binaries-20.13.0.tar.gz
+[2024-05-29 00:16:06] INFO root fetch - processPackages [logninja]: Downloading https://files.pythonhosted.org/packages/5d/b7/286b392f247e96b888d1ecbad731f83d493b7d103df3311176504c00d96a/logninja-0.1.7.tar.gz
+[2024-05-29 00:16:06] INFO root fetch - processPackages [nodejs-wheel]: Downloading https://files.pythonhosted.org/packages/08/da/4cff64cd8338d60e3ae9d3dc8f87150bac2ff2b304bfa045f3409e6d13ac/nodejs_wheel-20.8.1.tar.gz
+[2024-05-29 00:16:06] INFO root fetch - processPackages [enzope]: Downloading https://files.pythonhosted.org/packages/64/2d/9bb9f445e2ce7ac40d6f6f981e645c1c3202328488c36f3614dda4b2fe00/enzope-0.0.9.tar.gz
+[2024-05-29 00:16:06] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/85/4b/b7b2a31765980f121c7dca9cd1353afc8fd947ace9f87b8f902620819061/lbt-grasshopper-1.8.8.tar.gz
+[2024-05-29 00:16:06] INFO root fetch - processPackages [logninja]: executing diffoscope
+[2024-05-29 00:16:06] INFO root fetch - processPackages [logninja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logninja-0.1.6.tar.gz tmp/logninja-0.1.7.tar.gz --markdown 20240529/l/logninja/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-29 00:16:06] INFO root fetch - processPackages [enzope]: executing diffoscope
+[2024-05-29 00:16:06] INFO root fetch - processPackages [enzope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enzope-0.0.8.tar.gz tmp/enzope-0.0.9.tar.gz --markdown 20240529/e/enzope/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 00:16:06] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/23/f8/ba0eae9521b2e876fa0e8b6ad1ac3b20a207173885b50ab78acd9b1f8b73/mkdocsi-1.1.7.tar.gz
+[2024-05-29 00:16:06] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 00:16:06] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.1.6.tar.gz tmp/mkdocsi-1.1.7.tar.gz --markdown 20240529/m/mkdocsi/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-29 00:16:06] INFO root fetch - processPackages [nodejs-wheel-binaries]: Downloading https://files.pythonhosted.org/packages/6b/e4/2e4d6baaa81f23ecacbbc1bcc0fa6c21d12dd042f05cc1d91c3ba181c70b/nodejs_wheel_binaries-20.13.1.tar.gz
+[2024-05-29 00:16:06] INFO root fetch - processPackages [nodejs-wheel]: Downloading https://files.pythonhosted.org/packages/22/68/2fa9f980402a92b328bf00fcb038ac3ecfd14a727a50e4c6bf202f2050ff/nodejs_wheel-20.9.0.tar.gz
+[2024-05-29 00:16:06] INFO root fetch - processPackages [nodejs-wheel-binaries]: executing diffoscope
+[2024-05-29 00:16:06] INFO root fetch - processPackages [nodejs-wheel-binaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodejs_wheel_binaries-20.13.0.tar.gz tmp/nodejs_wheel_binaries-20.13.1.tar.gz --markdown 20240529/n/nodejs-wheel-binaries/20.13.0-20.13.1/README.md --exclude *.pyd
+[2024-05-29 00:16:06] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/8f/43/14eede1d5162f900e97c330a2f83ad3cef64b06f36216364f0012886cf75/lbt-grasshopper-1.8.9.tar.gz
+[2024-05-29 00:16:07] INFO root fetch - processPackages [nodejs-wheel]: executing diffoscope
+[2024-05-29 00:16:07] INFO root fetch - processPackages [nodejs-wheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodejs_wheel-20.8.1.tar.gz tmp/nodejs_wheel-20.9.0.tar.gz --markdown 20240529/n/nodejs-wheel/20.8.1-20.9.0/README.md --exclude *.pyd
+[2024-05-29 00:16:07] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2024-05-29 00:16:07] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.8.8.tar.gz tmp/lbt-grasshopper-1.8.9.tar.gz --markdown 20240529/l/lbt-grasshopper/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-29 00:16:07] INFO root fetch - processPackages [logninja]: Remove: archive file [/home/abi/fetcher/tmp/logninja-0.1.6.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - processPackages [logninja]: Remove: archive file [/home/abi/fetcher/tmp/logninja-0.1.7.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - main [MainThread]: End processing [logninja]: success
+[2024-05-29 00:16:07] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.1.6.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.1.7.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 00:16:07] INFO root fetch - processPackages [enzope]: Remove: archive file [/home/abi/fetcher/tmp/enzope-0.0.8.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - processPackages [enzope]: Remove: archive file [/home/abi/fetcher/tmp/enzope-0.0.9.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - main [MainThread]: End processing [enzope]: success
+[2024-05-29 00:16:07] INFO root fetch - processPackages [nodejs-wheel-binaries]: Remove: archive file [/home/abi/fetcher/tmp/nodejs_wheel_binaries-20.13.0.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - processPackages [nodejs-wheel-binaries]: Remove: archive file [/home/abi/fetcher/tmp/nodejs_wheel_binaries-20.13.1.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - main [MainThread]: End processing [nodejs-wheel-binaries]: success
+[2024-05-29 00:16:07] INFO root fetch - processPackages [nodejs-wheel]: Remove: archive file [/home/abi/fetcher/tmp/nodejs_wheel-20.8.1.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - processPackages [nodejs-wheel]: Remove: archive file [/home/abi/fetcher/tmp/nodejs_wheel-20.9.0.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - main [MainThread]: End processing [nodejs-wheel]: success
+[2024-05-29 00:16:07] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.8.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.9.tar.gz]
+[2024-05-29 00:16:07] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2024-05-29 00:16:07] INFO root fetch - main [MainThread]: Store serial: [23420095]
