@@ -1,0 +1,54 @@
+[2024-05-29 00:00:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23419912]
+[2024-05-29 00:00:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradientnorm-autoclipper
+[2024-05-29 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langflow
+[2024-05-29 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zermelo-api-vogk
+[2024-05-29 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mybox
+[2024-05-29 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terrascope-api
+[2024-05-29 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocsi
+[2024-05-29 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pykinml
+[2024-05-29 00:00:47] INFO root fetch - processPackages [mkdocsi]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-29 00:00:47] INFO root fetch - processPackages [zermelo-api-vogk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 00:00:47] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-05-29 00:00:47] WARNING root fetch - processPackages [gradientnorm-autoclipper]: Skipping, unable to determine old version
+[2024-05-29 00:00:47] INFO root fetch - main [MainThread]: End processing [gradientnorm-autoclipper] error
+[2024-05-29 00:00:47] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/c6/26/f226233a2904d4c11be9d45dcd0887f6a9bcfb4fb0d7ae5ff905f4651e16/mkdocsi-1.1.1.tar.gz
+[2024-05-29 00:00:47] ERROR root fetch - processPackages [pykinml]: Unable to get metadata: No such project 'pykinml'
+[2024-05-29 00:00:47] INFO root fetch - main [MainThread]: End processing [pykinml] error
+[2024-05-29 00:00:47] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-05-29 00:00:47] INFO root fetch - processPackages [terrascope-api]: New version: [1.0.5] Old Version: [1.0.41.3]
+[2024-05-29 00:00:47] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/3f/77/91ad97fa5617bc74f01d7c0a88db26e1d19407b39cebe8e1fb2437eb144a/zermelo_api_vogk-1.0.8.tar.gz
+[2024-05-29 00:00:47] INFO root fetch - processPackages [mybox]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-29 00:00:47] INFO root fetch - processPackages [terrascope-api]: Downloading https://files.pythonhosted.org/packages/6a/43/fb24bc4d9d5e7ab0e5c7270b617725b64ad8714a00e02d2f7deccb74e89b/terrascope-api-1.0.41.3.tar.gz
+[2024-05-29 00:00:47] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-05-29 00:00:47] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/d0/28/091357cf30bd9f5cc59c3239a09d74eab41e7e03189e44e3778c5be7b2f7/zermelo_api_vogk-1.0.9.tar.gz
+[2024-05-29 00:00:47] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/13/f6/202f25da3129171e5c2cc6ccf7e2437ee5d65fafeeb9af158596ac60f7a8/mybox-2.0.8.tar.gz
+[2024-05-29 00:00:47] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/17/5f/24f7204bd9068d38084251ac933a9c93f3c5b38aee9d22f339bb1d1dc399/mkdocsi-1.1.2.tar.gz
+[2024-05-29 00:00:47] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-05-29 00:00:47] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240529/l/langflow/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-05-29 00:00:48] INFO root fetch - processPackages [zermelo-api-vogk]: executing diffoscope
+[2024-05-29 00:00:48] INFO root fetch - processPackages [zermelo-api-vogk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zermelo_api_vogk-1.0.8.tar.gz tmp/zermelo_api_vogk-1.0.9.tar.gz --markdown 20240529/z/zermelo-api-vogk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 00:00:48] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 00:00:48] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.1.1.tar.gz tmp/mkdocsi-1.1.2.tar.gz --markdown 20240529/m/mkdocsi/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-29 00:00:48] INFO root fetch - processPackages [terrascope-api]: Downloading https://files.pythonhosted.org/packages/81/ae/b1db15ffd6afefdd9d5ae66d22be90a85424e6513a5bcdc93b146c59b396/terrascope-api-1.0.5.tar.gz
+[2024-05-29 00:00:48] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/e7/74/17fd92b174ff8b20616c55e75350c20cfbb4a1b6a048c7c9f4abe75698ae/mybox-2.0.9.tar.gz
+[2024-05-29 00:00:48] INFO root fetch - processPackages [terrascope-api]: executing diffoscope
+[2024-05-29 00:00:48] INFO root fetch - processPackages [terrascope-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrascope-api-1.0.41.3.tar.gz tmp/terrascope-api-1.0.5.tar.gz --markdown 20240529/t/terrascope-api/1.0.41.3-1.0.5/README.md --exclude *.pyd
+[2024-05-29 00:00:48] INFO root fetch - processPackages [mybox]: executing diffoscope
+[2024-05-29 00:00:48] INFO root fetch - processPackages [mybox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybox-2.0.8.tar.gz tmp/mybox-2.0.9.tar.gz --markdown 20240529/m/mybox/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-29 00:00:48] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-05-29 00:00:48] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-05-29 00:00:48] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-05-29 00:00:48] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-1.0.8.tar.gz]
+[2024-05-29 00:00:48] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-1.0.9.tar.gz]
+[2024-05-29 00:00:48] INFO root fetch - main [MainThread]: End processing [zermelo-api-vogk]: success
+[2024-05-29 00:00:48] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.1.1.tar.gz]
+[2024-05-29 00:00:48] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.1.2.tar.gz]
+[2024-05-29 00:00:48] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 00:00:49] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.8.tar.gz]
+[2024-05-29 00:00:49] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.9.tar.gz]
+[2024-05-29 00:00:49] INFO root fetch - main [MainThread]: End processing [mybox]: success
+[2024-05-29 00:00:49] INFO root fetch - processPackages [terrascope-api]: Remove: archive file [/home/abi/fetcher/tmp/terrascope-api-1.0.41.3.tar.gz]
+[2024-05-29 00:00:49] INFO root fetch - processPackages [terrascope-api]: Remove: archive file [/home/abi/fetcher/tmp/terrascope-api-1.0.5.tar.gz]
+[2024-05-29 00:00:49] INFO root fetch - main [MainThread]: End processing [terrascope-api]: success
+[2024-05-29 00:00:49] INFO root fetch - main [MainThread]: Store serial: [23419937]
