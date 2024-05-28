@@ -1519,3 +1519,60 @@
 [2024-05-29 01:18:06] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-05-29 01:18:06] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-05-29 01:18:06] INFO root fetch - main [MainThread]: Store serial: [23420632]
+[2024-05-29 01:20:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420632]
+[2024-05-29 01:20:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 01:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiftyone-db
+[2024-05-29 01:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adtoolbox
+[2024-05-29 01:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bmt
+[2024-05-29 01:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: visible-to-sqlite
+[2024-05-29 01:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Optrix
+[2024-05-29 01:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GPTPlugins4All
+[2024-05-29 01:20:16] INFO root fetch - processPackages [GPTPlugins4All]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 01:20:16] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/5a/b5/97b0775cb4c951d2872d6c4e33db266a0dba4dc2207a3dbac7ed55f6b995/GPTPlugins4All-1.0.8.tar.gz
+[2024-05-29 01:20:16] INFO root fetch - processPackages [visible-to-sqlite]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-29 01:20:16] INFO root fetch - processPackages [adtoolbox]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-29 01:20:16] INFO root fetch - processPackages [bmt]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-29 01:20:16] INFO root fetch - processPackages [fiftyone-db]: New version: [1.1.3rc1] Old Version: [1.1.2rc3]
+[2024-05-29 01:20:16] INFO root fetch - processPackages [Optrix]: New version: [0.0.1a1] Old Version: [0.0.1]
+[2024-05-29 01:20:17] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/fb/16/af06befd4a411c5c48cd6f713bca08893d0e33bde8c93250203608d1ef03/GPTPlugins4All-1.0.9.tar.gz
+[2024-05-29 01:20:17] INFO root fetch - processPackages [Optrix]: Downloading https://files.pythonhosted.org/packages/5d/11/ce88dfca6ccdbb90ace298f926fb50af06fb9d061957ed4fc43a52c4ff5e/optrix-0.0.1.tar.gz
+[2024-05-29 01:20:17] INFO root fetch - processPackages [visible-to-sqlite]: Downloading https://files.pythonhosted.org/packages/1e/74/34e748d06aef7764e3cc1fd38f713a86b22d4e5f84c702163bdc4449be50/visible_to_sqlite-0.1.0.tar.gz
+[2024-05-29 01:20:17] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/6a/c8/3ca715c31c152bc668a87e25407587842606023ce422cc31fb94ee445db5/adtoolbox-0.5.8.tar.gz
+[2024-05-29 01:20:17] INFO root fetch - processPackages [fiftyone-db]: Downloading https://files.pythonhosted.org/packages/2c/18/50766cf4983dd2b6ae662684d1c054960908d4a8ed58c920ccf09976805f/fiftyone_db-1.1.2rc3.tar.gz
+[2024-05-29 01:20:17] INFO root fetch - processPackages [bmt]: Downloading https://files.pythonhosted.org/packages/5f/64/d013cd7caa52e58614a61165757b5825f26acd771203e14a6482504a1aaa/bmt-1.4.1.tar.gz
+[2024-05-29 01:20:17] INFO root fetch - processPackages [GPTPlugins4All]: executing diffoscope
+[2024-05-29 01:20:17] INFO root fetch - processPackages [GPTPlugins4All]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTPlugins4All-1.0.8.tar.gz tmp/GPTPlugins4All-1.0.9.tar.gz --markdown 20240529/G/GPTPlugins4All/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 01:20:17] INFO root fetch - processPackages [visible-to-sqlite]: Downloading https://files.pythonhosted.org/packages/93/8d/c6b4ac63bd41b2852c991063cb8e9c5e02594d17a4a5a0f3d2f81676c874/visible_to_sqlite-1.0.0.tar.gz
+[2024-05-29 01:20:17] INFO root fetch - processPackages [bmt]: Downloading https://files.pythonhosted.org/packages/54/e7/9255350046a6a1673c61f69a17a25b793412ea8f951a1a0c473152203bb9/bmt-1.4.2.tar.gz
+[2024-05-29 01:20:17] INFO root fetch - processPackages [fiftyone-db]: Downloading https://files.pythonhosted.org/packages/54/bd/1c850ffe6f7c281c91b216f38f81283327bfb5f69bb8bda411f603103a56/fiftyone_db-1.1.3rc1.tar.gz
+[2024-05-29 01:20:17] INFO root fetch - processPackages [Optrix]: Downloading https://files.pythonhosted.org/packages/7b/99/0978f0e365651cba1bd935b68938057137a5c2c5fd3d9b088a5b48aea7ab/optrix-0.0.1a1.tar.gz
+[2024-05-29 01:20:17] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/a7/7b/9e4f8d4f6a4c45a3e9d2e8654cf52c1e0908166f42f12b0115bb9c430b65/adtoolbox-0.5.9.tar.gz
+[2024-05-29 01:20:17] INFO root fetch - processPackages [bmt]: executing diffoscope
+[2024-05-29 01:20:17] INFO root fetch - processPackages [bmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmt-1.4.1.tar.gz tmp/bmt-1.4.2.tar.gz --markdown 20240529/b/bmt/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-29 01:20:17] INFO root fetch - processPackages [visible-to-sqlite]: executing diffoscope
+[2024-05-29 01:20:17] INFO root fetch - processPackages [visible-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visible_to_sqlite-0.1.0.tar.gz tmp/visible_to_sqlite-1.0.0.tar.gz --markdown 20240529/v/visible-to-sqlite/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-29 01:20:17] INFO root fetch - processPackages [fiftyone-db]: executing diffoscope
+[2024-05-29 01:20:17] INFO root fetch - processPackages [fiftyone-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_db-1.1.2rc3.tar.gz tmp/fiftyone_db-1.1.3rc1.tar.gz --markdown 20240529/f/fiftyone-db/1.1.2rc3-1.1.3rc1/README.md --exclude *.pyd
+[2024-05-29 01:20:17] INFO root fetch - processPackages [adtoolbox]: executing diffoscope
+[2024-05-29 01:20:17] INFO root fetch - processPackages [adtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adtoolbox-0.5.8.tar.gz tmp/adtoolbox-0.5.9.tar.gz --markdown 20240529/a/adtoolbox/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-29 01:20:17] INFO root fetch - processPackages [Optrix]: executing diffoscope
+[2024-05-29 01:20:17] INFO root fetch - processPackages [Optrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optrix-0.0.1.tar.gz tmp/optrix-0.0.1a1.tar.gz --markdown 20240529/O/Optrix/0.0.1-0.0.1a1/README.md --exclude *.pyd
+[2024-05-29 01:20:17] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.8.tar.gz]
+[2024-05-29 01:20:17] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
+[2024-05-29 01:20:17] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
+[2024-05-29 01:20:18] INFO root fetch - processPackages [visible-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/visible_to_sqlite-0.1.0.tar.gz]
+[2024-05-29 01:20:18] INFO root fetch - processPackages [visible-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/visible_to_sqlite-1.0.0.tar.gz]
+[2024-05-29 01:20:18] INFO root fetch - main [MainThread]: End processing [visible-to-sqlite]: success
+[2024-05-29 01:20:18] INFO root fetch - processPackages [bmt]: Remove: archive file [/home/abi/fetcher/tmp/bmt-1.4.1.tar.gz]
+[2024-05-29 01:20:18] INFO root fetch - processPackages [bmt]: Remove: archive file [/home/abi/fetcher/tmp/bmt-1.4.2.tar.gz]
+[2024-05-29 01:20:18] INFO root fetch - main [MainThread]: End processing [bmt]: success
+[2024-05-29 01:20:18] INFO root fetch - processPackages [Optrix]: Remove: archive file [/home/abi/fetcher/tmp/optrix-0.0.1.tar.gz]
+[2024-05-29 01:20:18] INFO root fetch - processPackages [Optrix]: Remove: archive file [/home/abi/fetcher/tmp/optrix-0.0.1a1.tar.gz]
+[2024-05-29 01:20:18] INFO root fetch - main [MainThread]: End processing [Optrix]: success
+[2024-05-29 01:20:18] INFO root fetch - processPackages [fiftyone-db]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_db-1.1.2rc3.tar.gz]
+[2024-05-29 01:20:18] INFO root fetch - processPackages [fiftyone-db]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_db-1.1.3rc1.tar.gz]
+[2024-05-29 01:20:18] INFO root fetch - main [MainThread]: End processing [fiftyone-db]: success
+[2024-05-29 01:20:18] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.8.tar.gz]
+[2024-05-29 01:20:18] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.9.tar.gz]
+[2024-05-29 01:20:18] INFO root fetch - main [MainThread]: End processing [adtoolbox]: success
+[2024-05-29 01:20:18] INFO root fetch - main [MainThread]: Store serial: [23420653]
