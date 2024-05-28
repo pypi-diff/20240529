@@ -1108,3 +1108,24 @@
 [2024-05-29 00:51:18] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.99.tar.gz]
 [2024-05-29 00:51:18] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
 [2024-05-29 00:51:18] INFO root fetch - main [MainThread]: Store serial: [23420350]
+[2024-05-29 00:53:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420350]
+[2024-05-29 00:53:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 00:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tach
+[2024-05-29 00:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clevrthings-tcpChat
+[2024-05-29 00:53:27] INFO root fetch - processPackages [clevrthings-tcpChat]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 00:53:27] INFO root fetch - processPackages [tach]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-29 00:53:27] INFO root fetch - processPackages [clevrthings-tcpChat]: Downloading https://files.pythonhosted.org/packages/78/5d/5f259eb4f042903cd7e7d4ebafb356084e59e5568544d3516324d682d65a/clevrthings_tcpchat-0.1.0.tar.gz
+[2024-05-29 00:53:27] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/4d/5d/ffca9d5dccd97875507ac599671b4efa4caa26e8ab48b8d11bb5e639334a/tach-0.2.6.tar.gz
+[2024-05-29 00:53:27] INFO root fetch - processPackages [clevrthings-tcpChat]: Downloading https://files.pythonhosted.org/packages/19/f1/809e424bbc86bf7cb7be468d7f797bdca616f278ca5d39c62bcf46c16a49/clevrthings_tcpchat-0.1.1.tar.gz
+[2024-05-29 00:53:27] INFO root fetch - processPackages [clevrthings-tcpChat]: executing diffoscope
+[2024-05-29 00:53:27] INFO root fetch - processPackages [clevrthings-tcpChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clevrthings_tcpchat-0.1.0.tar.gz tmp/clevrthings_tcpchat-0.1.1.tar.gz --markdown 20240529/c/clevrthings-tcpChat/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 00:53:28] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/af/65/c5e911c0e80d1b023a3128a650958d7827aaec27c5356c91916636b87427/tach-0.2.7-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl
+[2024-05-29 00:53:28] INFO root fetch - processPackages [clevrthings-tcpChat]: Remove: archive file [/home/abi/fetcher/tmp/clevrthings_tcpchat-0.1.0.tar.gz]
+[2024-05-29 00:53:28] INFO root fetch - processPackages [clevrthings-tcpChat]: Remove: archive file [/home/abi/fetcher/tmp/clevrthings_tcpchat-0.1.1.tar.gz]
+[2024-05-29 00:53:28] INFO root fetch - main [MainThread]: End processing [clevrthings-tcpChat]: success
+[2024-05-29 00:53:28] INFO root fetch - processPackages [tach]: executing diffoscope
+[2024-05-29 00:53:28] INFO root fetch - processPackages [tach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tach-0.2.6.tar.gz tmp/tach-0.2.7-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip --markdown 20240529/t/tach/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-29 00:53:28] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.2.6.tar.gz]
+[2024-05-29 00:53:28] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.2.7-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip]
+[2024-05-29 00:53:28] INFO root fetch - main [MainThread]: End processing [tach]: success
+[2024-05-29 00:53:28] INFO root fetch - main [MainThread]: Store serial: [23420402]
