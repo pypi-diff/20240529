@@ -52,3 +52,42 @@
 [2024-05-29 00:00:49] INFO root fetch - processPackages [terrascope-api]: Remove: archive file [/home/abi/fetcher/tmp/terrascope-api-1.0.5.tar.gz]
 [2024-05-29 00:00:49] INFO root fetch - main [MainThread]: End processing [terrascope-api]: success
 [2024-05-29 00:00:49] INFO root fetch - main [MainThread]: Store serial: [23419937]
+[2024-05-29 00:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23419937]
+[2024-05-29 00:02:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 00:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyobas
+[2024-05-29 00:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blablabla
+[2024-05-29 00:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haniwers
+[2024-05-29 00:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latch
+[2024-05-29 00:02:57] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-29 00:02:57] INFO root fetch - processPackages [haniwers]: New version: [0.15.2] Old Version: [0.15.1]
+[2024-05-29 00:02:57] INFO root fetch - processPackages [blablabla]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 00:02:57] INFO root fetch - processPackages [pyobas]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-29 00:02:57] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2024-05-29 00:02:57] INFO root fetch - processPackages [blablabla]: Downloading https://files.pythonhosted.org/packages/5f/f2/27fac8006c83eff60062a2ce9d03c62d0867243a2b629b2d632acc686b0f/blablabla-0.0.1.tar.gz
+[2024-05-29 00:02:57] INFO root fetch - processPackages [haniwers]: Downloading https://files.pythonhosted.org/packages/90/84/5ff16a7a17810072ba4d1b12134d2f6d7b71939fa4c02e274a27fc3de9ed/haniwers-0.15.1.tar.gz
+[2024-05-29 00:02:57] INFO root fetch - processPackages [pyobas]: Downloading https://files.pythonhosted.org/packages/53/d5/2f4720fda400570c2a2b3424a340d5987655b8f18ee89d43807f626a0926/pyobas-1.0.3.tar.gz
+[2024-05-29 00:02:57] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2024-05-29 00:02:58] INFO root fetch - processPackages [latch]: executing diffoscope
+[2024-05-29 00:02:58] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20240529/l/latch/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-29 00:02:58] INFO root fetch - processPackages [blablabla]: Downloading https://files.pythonhosted.org/packages/16/95/59622cede46a31d368bff154d6b4221d218715d89b75369434ce6405bd72/blablabla-0.0.2.tar.gz
+[2024-05-29 00:02:58] INFO root fetch - processPackages [haniwers]: Downloading https://files.pythonhosted.org/packages/aa/bc/d6dada005496daf4b60c80cc0a8c28cfd6d93b90ac2075bcfc9a8edeff46/haniwers-0.15.2.tar.gz
+[2024-05-29 00:02:58] INFO root fetch - processPackages [pyobas]: Downloading https://files.pythonhosted.org/packages/80/45/7c64b7c283a1045902ea39ec05e20cfc46af0aa3a368e5c22901ae4b005a/pyobas-1.0.4.tar.gz
+[2024-05-29 00:02:58] INFO root fetch - processPackages [blablabla]: executing diffoscope
+[2024-05-29 00:02:58] INFO root fetch - processPackages [blablabla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blablabla-0.0.1.tar.gz tmp/blablabla-0.0.2.tar.gz --markdown 20240529/b/blablabla/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 00:02:58] INFO root fetch - processPackages [pyobas]: executing diffoscope
+[2024-05-29 00:02:58] INFO root fetch - processPackages [pyobas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobas-1.0.3.tar.gz tmp/pyobas-1.0.4.tar.gz --markdown 20240529/p/pyobas/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-29 00:02:58] INFO root fetch - processPackages [haniwers]: executing diffoscope
+[2024-05-29 00:02:58] INFO root fetch - processPackages [haniwers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haniwers-0.15.1.tar.gz tmp/haniwers-0.15.2.tar.gz --markdown 20240529/h/haniwers/0.15.1-0.15.2/README.md --exclude *.pyd
+[2024-05-29 00:02:58] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2024-05-29 00:02:58] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2024-05-29 00:02:58] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2024-05-29 00:02:58] INFO root fetch - processPackages [blablabla]: Remove: archive file [/home/abi/fetcher/tmp/blablabla-0.0.1.tar.gz]
+[2024-05-29 00:02:58] INFO root fetch - processPackages [blablabla]: Remove: archive file [/home/abi/fetcher/tmp/blablabla-0.0.2.tar.gz]
+[2024-05-29 00:02:58] INFO root fetch - main [MainThread]: End processing [blablabla]: success
+[2024-05-29 00:02:59] INFO root fetch - processPackages [pyobas]: Remove: archive file [/home/abi/fetcher/tmp/pyobas-1.0.3.tar.gz]
+[2024-05-29 00:02:59] INFO root fetch - processPackages [pyobas]: Remove: archive file [/home/abi/fetcher/tmp/pyobas-1.0.4.tar.gz]
+[2024-05-29 00:02:59] INFO root fetch - main [MainThread]: End processing [pyobas]: success
+[2024-05-29 00:02:59] INFO root fetch - processPackages [haniwers]: Remove: archive file [/home/abi/fetcher/tmp/haniwers-0.15.1.tar.gz]
+[2024-05-29 00:02:59] INFO root fetch - processPackages [haniwers]: Remove: archive file [/home/abi/fetcher/tmp/haniwers-0.15.2.tar.gz]
+[2024-05-29 00:02:59] INFO root fetch - main [MainThread]: End processing [haniwers]: success
+[2024-05-29 00:02:59] INFO root fetch - main [MainThread]: Store serial: [23419951]
