@@ -739,3 +739,33 @@
 [2024-05-29 00:29:15] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.9.0rc0.tar.gz]
 [2024-05-29 00:29:15] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-05-29 00:29:15] INFO root fetch - main [MainThread]: Store serial: [23420198]
+[2024-05-29 00:31:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420198]
+[2024-05-29 00:31:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 00:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MedRoom.AI.DataEngineer
+[2024-05-29 00:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycodata
+[2024-05-29 00:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qualystbx
+[2024-05-29 00:31:23] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 00:31:23] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 00:31:23] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: Downloading https://files.pythonhosted.org/packages/be/da/dd5423be74823cdc763a70971dba74e6d4302b3ce4925848345e52176ecd/medroom_ai_dataengineer-0.0.8.tar.gz
+[2024-05-29 00:31:23] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-29 00:31:23] INFO root fetch - processPackages [pycodata]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-29 00:31:24] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: Downloading https://files.pythonhosted.org/packages/ce/35/e646683d5ddca90187f2538419d7cd053461b539d91f0c073b2f2318e75b/medroom_ai_dataengineer-0.0.9.tar.gz
+[2024-05-29 00:31:24] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-29 00:31:24] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/0a/2a/2274fef3ad335e692cfe16f867ef281f1afaeb2d88d8c1599c9a13a43e1d/pycodata-1.0.0.tar.gz
+[2024-05-29 00:31:24] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: executing diffoscope
+[2024-05-29 00:31:24] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medroom_ai_dataengineer-0.0.8.tar.gz tmp/medroom_ai_dataengineer-0.0.9.tar.gz --markdown 20240529/M/MedRoom.AI.DataEngineer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 00:31:24] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-29 00:31:24] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240529/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 00:31:24] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/d7/bf/554236228851b30b79e438b903263e7d8e5af2f38844f9f6d8e314f0cd25/pycodata-1.1.0.tar.gz
+[2024-05-29 00:31:24] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: Remove: archive file [/home/abi/fetcher/tmp/medroom_ai_dataengineer-0.0.8.tar.gz]
+[2024-05-29 00:31:24] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: Remove: archive file [/home/abi/fetcher/tmp/medroom_ai_dataengineer-0.0.9.tar.gz]
+[2024-05-29 00:31:24] INFO root fetch - main [MainThread]: End processing [MedRoom.AI.DataEngineer]: success
+[2024-05-29 00:31:24] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-29 00:31:24] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-29 00:31:24] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-29 00:31:24] INFO root fetch - processPackages [pycodata]: executing diffoscope
+[2024-05-29 00:31:24] INFO root fetch - processPackages [pycodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycodata-1.0.0.tar.gz tmp/pycodata-1.1.0.tar.gz --markdown 20240529/p/pycodata/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-29 00:31:27] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-1.0.0.tar.gz]
+[2024-05-29 00:31:27] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-1.1.0.tar.gz]
+[2024-05-29 00:31:27] INFO root fetch - main [MainThread]: End processing [pycodata]: success
+[2024-05-29 00:31:27] INFO root fetch - main [MainThread]: Store serial: [23420212]
