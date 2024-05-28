@@ -1201,3 +1201,38 @@
 [2024-05-29 00:57:49] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-29 00:57:49] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-29 00:57:49] INFO root fetch - main [MainThread]: Store serial: [23420446]
+[2024-05-29 00:59:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420446]
+[2024-05-29 00:59:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 00:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magicBatch
+[2024-05-29 00:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voicebox-tts
+[2024-05-29 00:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parallax-app
+[2024-05-29 00:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlpack
+[2024-05-29 00:59:58] INFO root fetch - processPackages [voicebox-tts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 00:59:58] INFO root fetch - processPackages [parallax-app]: New version: [0.37.8] Old Version: [0.37.7]
+[2024-05-29 00:59:58] INFO root fetch - processPackages [magicBatch]: New version: [1.0.7] Old Version: [1.0.5]
+[2024-05-29 00:59:58] INFO root fetch - processPackages [voicebox-tts]: Downloading https://files.pythonhosted.org/packages/64/b4/0f10cab851624b6a6ca1e01e3b3afa6c60cc350c5f403c468b9a21638648/voicebox_tts-0.0.8.tar.gz
+[2024-05-29 00:59:58] INFO root fetch - processPackages [mlpack]: New version: [4.4.0] Old Version: [4.3.0.post2]
+[2024-05-29 00:59:58] INFO root fetch - processPackages [magicBatch]: Downloading https://files.pythonhosted.org/packages/81/e0/19969c821cfefa086d2e271b8a97a9f4f2316650bbed8c3fbc3085a7b22d/magicBatch-1.0.5.tar.gz
+[2024-05-29 00:59:58] INFO root fetch - processPackages [parallax-app]: Downloading https://files.pythonhosted.org/packages/57/ed/607ed599fa17fe581aaa2f495bc573243f57ced8e8fe2e649ded090e6499/parallax_app-0.37.7.tar.gz
+[2024-05-29 00:59:58] INFO root fetch - processPackages [voicebox-tts]: Downloading https://files.pythonhosted.org/packages/31/82/ca4421774a3411e0353eb3ac44ac3f853eec5ec717a6163001c5a0e881df/voicebox_tts-0.0.9.tar.gz
+[2024-05-29 00:59:58] INFO root fetch - processPackages [mlpack]: Downloading https://files.pythonhosted.org/packages/cd/03/b9cc5d3e953b8e1984cd7f3b1fdb813baf475fe57d38c9851a4768b7d92b/mlpack-4.3.0.post2-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-29 00:59:58] WARNING root fetch - processPackages [mlpack]: Skipping package: exceeds size limit 29850387>=10485760
+[2024-05-29 00:59:58] INFO root fetch - main [MainThread]: End processing [mlpack] error
+[2024-05-29 00:59:58] INFO root fetch - processPackages [voicebox-tts]: executing diffoscope
+[2024-05-29 00:59:58] INFO root fetch - processPackages [voicebox-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicebox_tts-0.0.8.tar.gz tmp/voicebox_tts-0.0.9.tar.gz --markdown 20240529/v/voicebox-tts/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 00:59:58] INFO root fetch - processPackages [magicBatch]: Downloading https://files.pythonhosted.org/packages/f0/33/73c7b53577e482c60c2077d765e742db858e8aa9ffd44b262afaa6b27e35/magicBatch-1.0.7.tar.gz
+[2024-05-29 00:59:59] INFO root fetch - processPackages [parallax-app]: Downloading https://files.pythonhosted.org/packages/ef/00/2d5652c77a8813a44dcb383cfe8be1044516bf22a3ed7a93abd80a23c16a/parallax_app-0.37.8.tar.gz
+[2024-05-29 00:59:59] INFO root fetch - processPackages [magicBatch]: executing diffoscope
+[2024-05-29 00:59:59] INFO root fetch - processPackages [magicBatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicBatch-1.0.5.tar.gz tmp/magicBatch-1.0.7.tar.gz --markdown 20240529/m/magicBatch/1.0.5-1.0.7/README.md --exclude *.pyd
+[2024-05-29 00:59:59] INFO root fetch - processPackages [parallax-app]: executing diffoscope
+[2024-05-29 00:59:59] INFO root fetch - processPackages [parallax-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallax_app-0.37.7.tar.gz tmp/parallax_app-0.37.8.tar.gz --markdown 20240529/p/parallax-app/0.37.7-0.37.8/README.md --exclude *.pyd
+[2024-05-29 00:59:59] INFO root fetch - processPackages [voicebox-tts]: Remove: archive file [/home/abi/fetcher/tmp/voicebox_tts-0.0.8.tar.gz]
+[2024-05-29 00:59:59] INFO root fetch - processPackages [voicebox-tts]: Remove: archive file [/home/abi/fetcher/tmp/voicebox_tts-0.0.9.tar.gz]
+[2024-05-29 00:59:59] INFO root fetch - main [MainThread]: End processing [voicebox-tts]: success
+[2024-05-29 00:59:59] INFO root fetch - processPackages [magicBatch]: Remove: archive file [/home/abi/fetcher/tmp/magicBatch-1.0.5.tar.gz]
+[2024-05-29 00:59:59] INFO root fetch - processPackages [magicBatch]: Remove: archive file [/home/abi/fetcher/tmp/magicBatch-1.0.7.tar.gz]
+[2024-05-29 00:59:59] INFO root fetch - main [MainThread]: End processing [magicBatch]: success
+[2024-05-29 01:00:00] INFO root fetch - processPackages [parallax-app]: Remove: archive file [/home/abi/fetcher/tmp/parallax_app-0.37.7.tar.gz]
+[2024-05-29 01:00:00] INFO root fetch - processPackages [parallax-app]: Remove: archive file [/home/abi/fetcher/tmp/parallax_app-0.37.8.tar.gz]
+[2024-05-29 01:00:00] INFO root fetch - main [MainThread]: End processing [parallax-app]: success
+[2024-05-29 01:00:00] INFO root fetch - main [MainThread]: Store serial: [23420457]
