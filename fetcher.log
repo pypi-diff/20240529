@@ -913,3 +913,42 @@
 [2024-05-29 00:40:17] INFO root fetch - processPackages [kaggle-environments]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-environments-1.9.9.tar.gz]
 [2024-05-29 00:40:17] INFO root fetch - main [MainThread]: End processing [kaggle-environments]: success
 [2024-05-29 00:40:17] INFO root fetch - main [MainThread]: Store serial: [23420277]
+[2024-05-29 00:42:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420277]
+[2024-05-29 00:42:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 00:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coldtype
+[2024-05-29 00:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dkist-quality
+[2024-05-29 00:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqladaptor
+[2024-05-29 00:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qualystbx
+[2024-05-29 00:42:27] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 00:42:27] INFO root fetch - processPackages [dkist-quality]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-29 00:42:27] INFO root fetch - processPackages [sqladaptor]: New version: [0.4] Old Version: [0.2.1]
+[2024-05-29 00:42:27] INFO root fetch - processPackages [coldtype]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-29 00:42:27] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-29 00:42:27] INFO root fetch - processPackages [dkist-quality]: Downloading https://files.pythonhosted.org/packages/a3/32/1774f82058df439f5218589557a37373c1d6e6ade8d70983df66f19d152a/dkist_quality-1.0.3.tar.gz
+[2024-05-29 00:42:27] INFO root fetch - processPackages [sqladaptor]: Downloading https://files.pythonhosted.org/packages/38/10/b8683edf7c847f3a310655e6ec55d7fc1aeddac884fc6aceffa091cb7597/sqladaptor-0.2.1.tar.gz
+[2024-05-29 00:42:27] INFO root fetch - processPackages [coldtype]: Downloading https://files.pythonhosted.org/packages/8a/fe/22da1cb2b6bf96d3edfbaf97806c6880be2697afc9c0e9b22dcfe3160476/coldtype-0.9.8.tar.gz
+[2024-05-29 00:42:27] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-29 00:42:27] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-29 00:42:27] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240529/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 00:42:27] INFO root fetch - processPackages [sqladaptor]: Downloading https://files.pythonhosted.org/packages/f7/59/a7303fda48f42c7371304e301034a4afdbf3063c43e9c2d06dc8ed43c219/sqladaptor-0.4.tar.gz
+[2024-05-29 00:42:27] INFO root fetch - processPackages [dkist-quality]: Downloading https://files.pythonhosted.org/packages/dd/a4/f68b83dcae6bd63eac2e7df3a99611a98dfd4d2854039ac45569a19fe1aa/dkist_quality-1.0.4.tar.gz
+[2024-05-29 00:42:28] INFO root fetch - processPackages [coldtype]: Downloading https://files.pythonhosted.org/packages/d4/c7/e96b75071385719fc62638e1dd950c602f6da4a9fb14301707c82decb0b5/coldtype-0.9.9.tar.gz
+[2024-05-29 00:42:28] INFO root fetch - processPackages [sqladaptor]: executing diffoscope
+[2024-05-29 00:42:28] INFO root fetch - processPackages [sqladaptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladaptor-0.2.1.tar.gz tmp/sqladaptor-0.4.tar.gz --markdown 20240529/s/sqladaptor/0.2.1-0.4/README.md --exclude *.pyd
+[2024-05-29 00:42:28] INFO root fetch - processPackages [dkist-quality]: executing diffoscope
+[2024-05-29 00:42:28] INFO root fetch - processPackages [dkist-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_quality-1.0.3.tar.gz tmp/dkist_quality-1.0.4.tar.gz --markdown 20240529/d/dkist-quality/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-29 00:42:28] INFO root fetch - processPackages [coldtype]: executing diffoscope
+[2024-05-29 00:42:28] INFO root fetch - processPackages [coldtype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coldtype-0.9.8.tar.gz tmp/coldtype-0.9.9.tar.gz --markdown 20240529/c/coldtype/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-29 00:42:28] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-29 00:42:28] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-29 00:42:28] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-29 00:42:28] INFO root fetch - processPackages [dkist-quality]: Remove: archive file [/home/abi/fetcher/tmp/dkist_quality-1.0.3.tar.gz]
+[2024-05-29 00:42:28] INFO root fetch - processPackages [dkist-quality]: Remove: archive file [/home/abi/fetcher/tmp/dkist_quality-1.0.4.tar.gz]
+[2024-05-29 00:42:28] INFO root fetch - main [MainThread]: End processing [dkist-quality]: success
+[2024-05-29 00:42:28] INFO root fetch - processPackages [sqladaptor]: Remove: archive file [/home/abi/fetcher/tmp/sqladaptor-0.2.1.tar.gz]
+[2024-05-29 00:42:28] INFO root fetch - processPackages [sqladaptor]: Remove: archive file [/home/abi/fetcher/tmp/sqladaptor-0.4.tar.gz]
+[2024-05-29 00:42:28] INFO root fetch - main [MainThread]: End processing [sqladaptor]: success
+[2024-05-29 00:42:29] INFO root fetch - processPackages [coldtype]: Remove: archive file [/home/abi/fetcher/tmp/coldtype-0.9.8.tar.gz]
+[2024-05-29 00:42:29] INFO root fetch - processPackages [coldtype]: Remove: archive file [/home/abi/fetcher/tmp/coldtype-0.9.9.tar.gz]
+[2024-05-29 00:42:29] INFO root fetch - main [MainThread]: End processing [coldtype]: success
+[2024-05-29 00:42:29] INFO root fetch - main [MainThread]: Store serial: [23420292]
