@@ -1304,3 +1304,42 @@
 [2024-05-29 01:04:22] INFO root fetch - processPackages [clearner]: Remove: archive file [/home/abi/fetcher/tmp/clearner-0.9.91.tar.gz]
 [2024-05-29 01:04:22] INFO root fetch - main [MainThread]: End processing [clearner]: success
 [2024-05-29 01:04:22] INFO root fetch - main [MainThread]: Store serial: [23420481]
+[2024-05-29 01:06:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420481]
+[2024-05-29 01:06:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 01:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatchat
+[2024-05-29 01:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-05-29 01:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freeze-dried-data
+[2024-05-29 01:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upsonic
+[2024-05-29 01:06:30] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240527] Old Version: [0.7.52b20240526]
+[2024-05-29 01:06:30] INFO root fetch - processPackages [chatchat]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-29 01:06:30] INFO root fetch - processPackages [freeze-dried-data]: New version: [2.2.0] Old Version: [2.1.4]
+[2024-05-29 01:06:30] INFO root fetch - processPackages [upsonic]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-29 01:06:30] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/10/0d/2fa46cf6d2282d6c06a425ae0dd3d3d9587d5c59c2ded94fa1a507f6d567/tmnt-0.7.52b20240526.tar.gz
+[2024-05-29 01:06:30] INFO root fetch - processPackages [chatchat]: Downloading https://files.pythonhosted.org/packages/63/91/e34c9545da46c41b5486bab087cf2ce04d3f8443cc260b2ea3382e0da1d8/chatchat-0.1.2.tar.gz
+[2024-05-29 01:06:30] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/28/4f/e4de97c3853a38f0003dd35e31de9d8003b16d10fd76b190f4778626ce27/upsonic-0.8.4.tar.gz
+[2024-05-29 01:06:30] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/7f/b7/fd90853562bc6f29ee6b5b8f19b30e77e6b4975192aa33305d863abb9678/freeze_dried_data-2.1.4.tar.gz
+[2024-05-29 01:06:31] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/70/e3/ea0f31347a121838ebfccd1a58d0c4880cbcd2d897985a434d2e6c8df82b/tmnt-0.7.52b20240527.tar.gz
+[2024-05-29 01:06:31] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-29 01:06:31] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240526.tar.gz tmp/tmnt-0.7.52b20240527.tar.gz --markdown 20240529/t/tmnt/0.7.52b20240526-0.7.52b20240527/README.md --exclude *.pyd
+[2024-05-29 01:06:31] INFO root fetch - processPackages [chatchat]: Downloading https://files.pythonhosted.org/packages/b8/cb/4d361ac8d297e935381ee1724a2633c54f22229dec68b123bf24d91e5de3/chatchat-0.1.3.tar.gz
+[2024-05-29 01:06:31] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/e2/c6/1f2c73c8b576a9a13477f4177f58dce58e65a860c35204e42f53a5db8144/upsonic-0.9.0.tar.gz
+[2024-05-29 01:06:31] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/88/25/fbafcd740f041cbfc05e816b73b5eb301552a123b095ad2c38206c85ffef/freeze_dried_data-2.2.0.tar.gz
+[2024-05-29 01:06:31] INFO root fetch - processPackages [chatchat]: executing diffoscope
+[2024-05-29 01:06:31] INFO root fetch - processPackages [chatchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatchat-0.1.2.tar.gz tmp/chatchat-0.1.3.tar.gz --markdown 20240529/c/chatchat/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-29 01:06:31] INFO root fetch - processPackages [upsonic]: executing diffoscope
+[2024-05-29 01:06:31] INFO root fetch - processPackages [upsonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsonic-0.8.4.tar.gz tmp/upsonic-0.9.0.tar.gz --markdown 20240529/u/upsonic/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-29 01:06:31] INFO root fetch - processPackages [freeze-dried-data]: executing diffoscope
+[2024-05-29 01:06:31] INFO root fetch - processPackages [freeze-dried-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeze_dried_data-2.1.4.tar.gz tmp/freeze_dried_data-2.2.0.tar.gz --markdown 20240529/f/freeze-dried-data/2.1.4-2.2.0/README.md --exclude *.pyd
+[2024-05-29 01:06:31] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240526.tar.gz]
+[2024-05-29 01:06:31] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240527.tar.gz]
+[2024-05-29 01:06:31] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-29 01:06:31] INFO root fetch - processPackages [chatchat]: Remove: archive file [/home/abi/fetcher/tmp/chatchat-0.1.2.tar.gz]
+[2024-05-29 01:06:31] INFO root fetch - processPackages [chatchat]: Remove: archive file [/home/abi/fetcher/tmp/chatchat-0.1.3.tar.gz]
+[2024-05-29 01:06:31] INFO root fetch - main [MainThread]: End processing [chatchat]: success
+[2024-05-29 01:06:32] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.8.4.tar.gz]
+[2024-05-29 01:06:32] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.9.0.tar.gz]
+[2024-05-29 01:06:32] INFO root fetch - main [MainThread]: End processing [upsonic]: success
+[2024-05-29 01:06:32] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.1.4.tar.gz]
+[2024-05-29 01:06:32] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.2.0.tar.gz]
+[2024-05-29 01:06:32] INFO root fetch - main [MainThread]: End processing [freeze-dried-data]: success
+[2024-05-29 01:06:32] INFO root fetch - main [MainThread]: Store serial: [23420493]
