@@ -1707,3 +1707,9 @@
 [2024-05-29 01:31:13] INFO root fetch - processPackages [beaker-py]: Remove: archive file [/home/abi/fetcher/tmp/beaker-py-1.9.2.tar.gz]
 [2024-05-29 01:31:13] INFO root fetch - main [MainThread]: End processing [beaker-py]: success
 [2024-05-29 01:31:13] INFO root fetch - main [MainThread]: Store serial: [23420731]
+[2024-05-29 01:33:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420731]
+[2024-05-29 01:33:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 01:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: triton-util
+[2024-05-29 01:33:23] WARNING root fetch - processPackages [triton-util]: Skipping, unable to determine old version
+[2024-05-29 01:33:23] INFO root fetch - main [MainThread]: End processing [triton-util] error
+[2024-05-29 01:33:23] INFO root fetch - main [MainThread]: Store serial: [23420734]
