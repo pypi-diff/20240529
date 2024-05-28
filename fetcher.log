@@ -865,3 +865,51 @@
 [2024-05-29 00:38:01] WARNING root fetch - processPackages [bedmap]: Skipping, unable to determine old version
 [2024-05-29 00:38:01] INFO root fetch - main [MainThread]: End processing [bedmap] error
 [2024-05-29 00:38:01] INFO root fetch - main [MainThread]: Store serial: [23420262]
+[2024-05-29 00:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420262]
+[2024-05-29 00:40:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 00:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qualystbx
+[2024-05-29 00:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marker-pdf
+[2024-05-29 00:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaggle-environments
+[2024-05-29 00:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-cms-articles
+[2024-05-29 00:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pykinml
+[2024-05-29 00:40:10] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 00:40:10] INFO root fetch - processPackages [django-cms-articles]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-05-29 00:40:10] INFO root fetch - processPackages [marker-pdf]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-29 00:40:10] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-29 00:40:10] INFO root fetch - processPackages [pykinml]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 00:40:10] INFO root fetch - processPackages [django-cms-articles]: Downloading https://files.pythonhosted.org/packages/d9/59/f17bd381d07558a483197a11e6b2d5fd88dfe44353c5ee5dcffa36bf067f/django_cms_articles-2.1.2.tar.gz
+[2024-05-29 00:40:10] INFO root fetch - processPackages [marker-pdf]: Downloading https://files.pythonhosted.org/packages/9c/7f/aa27a6ddcc12d073279b373b7fe5d4f23ee5c342dd6bc535ee052a6ff702/marker_pdf-0.2.8.tar.gz
+[2024-05-29 00:40:10] INFO root fetch - processPackages [kaggle-environments]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-29 00:40:10] INFO root fetch - processPackages [pykinml]: Downloading https://files.pythonhosted.org/packages/9a/e4/89be441b87a37a7aab3a8dd257f012f766cb3f1b9642029b3b86d21f2812/pykinml-1.0.1.tar.gz
+[2024-05-29 00:40:10] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-29 00:40:10] INFO root fetch - processPackages [marker-pdf]: Downloading https://files.pythonhosted.org/packages/50/c3/93dd7686515c4e0290e5a3b37ae17a9de05318d79324c6f5b0cc45d5aa96/marker_pdf-0.2.9.tar.gz
+[2024-05-29 00:40:10] INFO root fetch - processPackages [kaggle-environments]: Downloading https://files.pythonhosted.org/packages/fa/7b/f613651fb7eaab9c54d06593fc467caec0be07a1db22de1b9094629dfcfa/kaggle-environments-1.9.8.tar.gz
+[2024-05-29 00:40:11] INFO root fetch - processPackages [django-cms-articles]: Downloading https://files.pythonhosted.org/packages/51/42/91f8fa1bb670d575c86251d3e305c134d843a20f12b095d68b97b363dfcf/django_cms_articles-2.1.3.tar.gz
+[2024-05-29 00:40:11] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-29 00:40:11] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240529/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 00:40:11] INFO root fetch - processPackages [marker-pdf]: executing diffoscope
+[2024-05-29 00:40:11] INFO root fetch - processPackages [marker-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marker_pdf-0.2.8.tar.gz tmp/marker_pdf-0.2.9.tar.gz --markdown 20240529/m/marker-pdf/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-29 00:40:11] INFO root fetch - processPackages [django-cms-articles]: executing diffoscope
+[2024-05-29 00:40:11] INFO root fetch - processPackages [django-cms-articles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cms_articles-2.1.2.tar.gz tmp/django_cms_articles-2.1.3.tar.gz --markdown 20240529/d/django-cms-articles/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-05-29 00:40:11] INFO root fetch - processPackages [pykinml]: Downloading https://files.pythonhosted.org/packages/4f/02/0d55fd72c6d55dd8392f916d62cf5c48342ab316f16863be0180bfb81acd/pykinml-1.0.2.tar.gz
+[2024-05-29 00:40:11] INFO root fetch - processPackages [kaggle-environments]: Downloading https://files.pythonhosted.org/packages/b7/d8/f202378172046cc1ace880ae148ceda8d0b09fc642fd6399392337df6c6c/kaggle-environments-1.9.9.tar.gz
+[2024-05-29 00:40:11] INFO root fetch - processPackages [pykinml]: executing diffoscope
+[2024-05-29 00:40:11] INFO root fetch - processPackages [pykinml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykinml-1.0.1.tar.gz tmp/pykinml-1.0.2.tar.gz --markdown 20240529/p/pykinml/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 00:40:11] INFO root fetch - processPackages [kaggle-environments]: executing diffoscope
+[2024-05-29 00:40:11] INFO root fetch - processPackages [kaggle-environments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaggle-environments-1.9.8.tar.gz tmp/kaggle-environments-1.9.9.tar.gz --markdown 20240529/k/kaggle-environments/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-29 00:40:11] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-29 00:40:11] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-29 00:40:11] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-29 00:40:11] INFO root fetch - processPackages [marker-pdf]: Remove: archive file [/home/abi/fetcher/tmp/marker_pdf-0.2.8.tar.gz]
+[2024-05-29 00:40:11] INFO root fetch - processPackages [marker-pdf]: Remove: archive file [/home/abi/fetcher/tmp/marker_pdf-0.2.9.tar.gz]
+[2024-05-29 00:40:11] INFO root fetch - main [MainThread]: End processing [marker-pdf]: success
+[2024-05-29 00:40:11] INFO root fetch - processPackages [django-cms-articles]: Remove: archive file [/home/abi/fetcher/tmp/django_cms_articles-2.1.2.tar.gz]
+[2024-05-29 00:40:11] INFO root fetch - processPackages [django-cms-articles]: Remove: archive file [/home/abi/fetcher/tmp/django_cms_articles-2.1.3.tar.gz]
+[2024-05-29 00:40:11] INFO root fetch - main [MainThread]: End processing [django-cms-articles]: success
+[2024-05-29 00:40:12] INFO root fetch - processPackages [pykinml]: Remove: archive file [/home/abi/fetcher/tmp/pykinml-1.0.1.tar.gz]
+[2024-05-29 00:40:12] INFO root fetch - processPackages [pykinml]: Remove: archive file [/home/abi/fetcher/tmp/pykinml-1.0.2.tar.gz]
+[2024-05-29 00:40:12] INFO root fetch - main [MainThread]: End processing [pykinml]: success
+[2024-05-29 00:40:17] INFO root fetch - processPackages [kaggle-environments]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-environments-1.9.8.tar.gz]
+[2024-05-29 00:40:17] INFO root fetch - processPackages [kaggle-environments]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-environments-1.9.9.tar.gz]
+[2024-05-29 00:40:17] INFO root fetch - main [MainThread]: End processing [kaggle-environments]: success
+[2024-05-29 00:40:17] INFO root fetch - main [MainThread]: Store serial: [23420277]
