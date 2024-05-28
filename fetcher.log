@@ -1825,3 +1825,38 @@
 [2024-05-29 01:39:53] INFO root fetch - processPackages [sor4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sor4onnx-1.0.7.tar.gz]
 [2024-05-29 01:39:53] INFO root fetch - main [MainThread]: End processing [sor4onnx]: success
 [2024-05-29 01:39:54] INFO root fetch - main [MainThread]: Store serial: [23420774]
+[2024-05-29 01:41:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420774]
+[2024-05-29 01:42:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qualystbx
+[2024-05-29 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyft
+[2024-05-29 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-alpaca-api
+[2024-05-29 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openstl
+[2024-05-29 01:42:02] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 01:42:02] INFO root fetch - processPackages [py-alpaca-api]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-29 01:42:02] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-29 01:42:02] INFO root fetch - processPackages [pyft]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-29 01:42:02] INFO root fetch - processPackages [openstl]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-29 01:42:03] INFO root fetch - processPackages [openstl]: Downloading https://files.pythonhosted.org/packages/55/ce/ce5c87a17eaf62f4429854f7a9e486749d0d14e82fbf670447a6ec8064e0/openstl-1.1.4-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-29 01:42:03] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/96/57/adc8f6ed754cba8da6174070879dd6f2fe38ad528cf842139d5c452df552/py_alpaca_api-0.6.0.tar.gz
+[2024-05-29 01:42:03] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-29 01:42:03] INFO root fetch - processPackages [pyft]: Downloading https://files.pythonhosted.org/packages/41/e3/31bdafe76185f1c04175ab5ced4a12c98c26ff95e93a33fe1932a2f79530/pyft-0.2.0.tar.gz
+[2024-05-29 01:42:03] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-29 01:42:03] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240529/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 01:42:03] WARNING root fetch - processPackages [pyft]: Skipping package: exceeds size limit 47731732>=10485760
+[2024-05-29 01:42:03] INFO root fetch - main [MainThread]: End processing [pyft] error
+[2024-05-29 01:42:03] INFO root fetch - processPackages [openstl]: Downloading https://files.pythonhosted.org/packages/80/38/f06a72d1ab282b905cbf08b021dc60d9755de71bc75fb8bea313b26ee474/openstl-1.1.5-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-29 01:42:03] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/b0/98/0476f2680cffad7fee7caae8a1c3cb477d0ab27afd5aa32c699ec669f3d0/py_alpaca_api-0.6.1.tar.gz
+[2024-05-29 01:42:03] INFO root fetch - processPackages [py-alpaca-api]: executing diffoscope
+[2024-05-29 01:42:03] INFO root fetch - processPackages [py-alpaca-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_api-0.6.0.tar.gz tmp/py_alpaca_api-0.6.1.tar.gz --markdown 20240529/p/py-alpaca-api/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-29 01:42:03] INFO root fetch - processPackages [openstl]: executing diffoscope
+[2024-05-29 01:42:03] INFO root fetch - processPackages [openstl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstl-1.1.4-pp39-pypy39_pp73-win_amd64.whl.zip tmp/openstl-1.1.5-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240529/o/openstl/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-29 01:42:03] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-29 01:42:03] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-29 01:42:03] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-29 01:42:04] INFO root fetch - processPackages [openstl]: Remove: archive file [/home/abi/fetcher/tmp/openstl-1.1.4-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-29 01:42:04] INFO root fetch - processPackages [openstl]: Remove: archive file [/home/abi/fetcher/tmp/openstl-1.1.5-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-29 01:42:04] INFO root fetch - main [MainThread]: End processing [openstl]: success
+[2024-05-29 01:42:04] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.6.0.tar.gz]
+[2024-05-29 01:42:04] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.6.1.tar.gz]
+[2024-05-29 01:42:04] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
+[2024-05-29 01:42:04] INFO root fetch - main [MainThread]: Store serial: [23420859]
