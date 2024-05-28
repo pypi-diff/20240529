@@ -1001,3 +1001,59 @@
 [2024-05-29 00:44:43] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-1.1.0.tar.gz]
 [2024-05-29 00:44:43] INFO root fetch - main [MainThread]: End processing [pycodata]: success
 [2024-05-29 00:44:43] INFO root fetch - main [MainThread]: Store serial: [23420313]
+[2024-05-29 00:46:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420313]
+[2024-05-29 00:46:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 00:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-genai
+[2024-05-29 00:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vtjson
+[2024-05-29 00:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-grasshopper
+[2024-05-29 00:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lionagi
+[2024-05-29 00:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bd_to_avp
+[2024-05-29 00:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iotics-auth
+[2024-05-29 00:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pami
+[2024-05-29 00:46:51] INFO root fetch - processPackages [vtjson]: New version: [1.8.0] Old Version: [1.7.9]
+[2024-05-29 00:46:51] INFO root fetch - processPackages [bd_to_avp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 00:46:51] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-29 00:46:51] INFO root fetch - processPackages [pami]: New version: [2024.5.7.1] Old Version: [2024.5.28.1]
+[2024-05-29 00:46:52] INFO root fetch - processPackages [databricks-genai]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 00:46:52] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/81/e1/7917ef410e096f641d61d4bcb213900a5ffd830d91f97cce90dbe46ea257/vtjson-1.7.9.tar.gz
+[2024-05-29 00:46:52] INFO root fetch - processPackages [lionagi]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-29 00:46:52] WARNING root fetch - processPackages [iotics-auth]: Skipping, unable to determine old version
+[2024-05-29 00:46:52] INFO root fetch - main [MainThread]: End processing [iotics-auth] error
+[2024-05-29 00:46:52] INFO root fetch - processPackages [bd_to_avp]: Downloading https://files.pythonhosted.org/packages/00/db/7e18af63153f16cb6b9d0cd019ae969bcff7057bcdaa43a5b82e8224ed2d/bd_to_avp-0.1.8.tar.gz
+[2024-05-29 00:46:52] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/85/4b/b7b2a31765980f121c7dca9cd1353afc8fd947ace9f87b8f902620819061/lbt-grasshopper-1.8.8.tar.gz
+[2024-05-29 00:46:52] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/c0/46/a36837aeeda4587148d8e3449c755d5444a2165a44eded48ff2599e815ef/pami-2024.5.28.1.tar.gz
+[2024-05-29 00:46:52] WARNING root fetch - processPackages [bd_to_avp]: Skipping package: exceeds size limit 16498870>=10485760
+[2024-05-29 00:46:52] INFO root fetch - main [MainThread]: End processing [bd_to_avp] error
+[2024-05-29 00:46:52] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/80/88/60b27f6c3988988c33d0bee917666768fecd16181038e0c0985c91cca752/vtjson-1.8.0.tar.gz
+[2024-05-29 00:46:52] INFO root fetch - processPackages [databricks-genai]: Downloading https://files.pythonhosted.org/packages/d1/d0/d4c405954ae5e3d781b77617a5f3b6b89624d6d3efb0a00440de9eae67c0/databricks_genai-1.0.2.tar.gz
+[2024-05-29 00:46:52] INFO root fetch - processPackages [lionagi]: Downloading https://files.pythonhosted.org/packages/50/29/91c8e6569bc3bc13891a06316833232f115713e6d9e6f1962ff7793fb9c8/lionagi-0.1.2.tar.gz
+[2024-05-29 00:46:52] INFO root fetch - processPackages [vtjson]: executing diffoscope
+[2024-05-29 00:46:52] INFO root fetch - processPackages [vtjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtjson-1.7.9.tar.gz tmp/vtjson-1.8.0.tar.gz --markdown 20240529/v/vtjson/1.7.9-1.8.0/README.md --exclude *.pyd
+[2024-05-29 00:46:52] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/39/e1/8492945bb9b7c83adec0ca90e4a331b9a95ff3680d392a1889bc98aa3823/pami-2024.5.7.1.tar.gz
+[2024-05-29 00:46:52] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/8f/43/14eede1d5162f900e97c330a2f83ad3cef64b06f36216364f0012886cf75/lbt-grasshopper-1.8.9.tar.gz
+[2024-05-29 00:46:52] INFO root fetch - processPackages [databricks-genai]: Downloading https://files.pythonhosted.org/packages/f5/87/3c52c338ff7cf833d54966499a1ecd2fa6ff23e39df6c090046b986a9e7a/databricks_genai-1.0.3.tar.gz
+[2024-05-29 00:46:52] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-05-29 00:46:52] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.5.28.1.tar.gz tmp/pami-2024.5.7.1.tar.gz --markdown 20240529/p/pami/2024.5.28.1-2024.5.7.1/README.md --exclude *.pyd
+[2024-05-29 00:46:52] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2024-05-29 00:46:52] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.8.8.tar.gz tmp/lbt-grasshopper-1.8.9.tar.gz --markdown 20240529/l/lbt-grasshopper/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-29 00:46:52] INFO root fetch - processPackages [lionagi]: Downloading https://files.pythonhosted.org/packages/2d/26/e1e7542efc7b343db8bcb1a5e9ed436d100f702fe341e70bbd7536026a6f/lionagi-0.2.0.tar.gz
+[2024-05-29 00:46:52] INFO root fetch - processPackages [databricks-genai]: executing diffoscope
+[2024-05-29 00:46:52] INFO root fetch - processPackages [databricks-genai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_genai-1.0.2.tar.gz tmp/databricks_genai-1.0.3.tar.gz --markdown 20240529/d/databricks-genai/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 00:46:52] INFO root fetch - processPackages [lionagi]: executing diffoscope
+[2024-05-29 00:46:52] INFO root fetch - processPackages [lionagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lionagi-0.1.2.tar.gz tmp/lionagi-0.2.0.tar.gz --markdown 20240529/l/lionagi/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-29 00:46:53] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.7.9.tar.gz]
+[2024-05-29 00:46:53] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.8.0.tar.gz]
+[2024-05-29 00:46:53] INFO root fetch - main [MainThread]: End processing [vtjson]: success
+[2024-05-29 00:46:53] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.8.tar.gz]
+[2024-05-29 00:46:53] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.9.tar.gz]
+[2024-05-29 00:46:53] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2024-05-29 00:46:53] INFO root fetch - processPackages [databricks-genai]: Remove: archive file [/home/abi/fetcher/tmp/databricks_genai-1.0.2.tar.gz]
+[2024-05-29 00:46:53] INFO root fetch - processPackages [databricks-genai]: Remove: archive file [/home/abi/fetcher/tmp/databricks_genai-1.0.3.tar.gz]
+[2024-05-29 00:46:53] INFO root fetch - main [MainThread]: End processing [databricks-genai]: success
+[2024-05-29 00:46:54] INFO root fetch - processPackages [lionagi]: Remove: archive file [/home/abi/fetcher/tmp/lionagi-0.1.2.tar.gz]
+[2024-05-29 00:46:54] INFO root fetch - processPackages [lionagi]: Remove: archive file [/home/abi/fetcher/tmp/lionagi-0.2.0.tar.gz]
+[2024-05-29 00:46:54] INFO root fetch - main [MainThread]: End processing [lionagi]: success
+[2024-05-29 00:46:54] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.28.1.tar.gz]
+[2024-05-29 00:46:54] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.7.1.tar.gz]
+[2024-05-29 00:46:54] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-05-29 00:46:54] INFO root fetch - main [MainThread]: Store serial: [23420337]
