@@ -2109,3 +2109,51 @@
 [2024-05-29 01:57:21] INFO root fetch - processPackages [pre-commit-update]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_update-0.3.2.tar.gz]
 [2024-05-29 01:57:21] INFO root fetch - main [MainThread]: End processing [pre-commit-update]: success
 [2024-05-29 01:57:21] INFO root fetch - main [MainThread]: Store serial: [23420974]
+[2024-05-29 01:59:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420974]
+[2024-05-29 01:59:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 01:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-visma-economic
+[2024-05-29 01:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-sap-fieldglass
+[2024-05-29 01:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-oura
+[2024-05-29 01:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robustintelligence
+[2024-05-29 01:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyreqwest-impersonate
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-visma-economic]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-oura]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 01:59:30] INFO root fetch - processPackages [pyreqwest-impersonate]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 01:59:30] INFO root fetch - processPackages [robustintelligence]: New version: [2.8.1] Old Version: [0.1.4]
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-oura]: Downloading https://files.pythonhosted.org/packages/9b/32/bc73dc4687afdb50fb2ddc2ea7b1dc8fa3eea47bcbc001a0171134e9ce0d/airbyte-source-oura-0.1.0.tar.gz
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-visma-economic]: Downloading https://files.pythonhosted.org/packages/fe/e1/2843fef88e0175a3b84cecce4408878e37b6d5f5efdf9fbcbb4a1b96f261/airbyte_source_visma_economic-0.2.4.tar.gz
+[2024-05-29 01:59:30] INFO root fetch - processPackages [robustintelligence]: Downloading https://files.pythonhosted.org/packages/11/bb/8526a98931154a2ec02cbbe569cfdf4c3b788a95dab6c187c68ce01a0929/robustintelligence-0.1.4.tar.gz
+[2024-05-29 01:59:30] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/f1/65/74063855d2add2edf436cf25d3ffadbd6e95ec57ac5352a407b9c94648f4/pyreqwest_impersonate-0.4.5.tar.gz
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: Downloading https://files.pythonhosted.org/packages/b9/ca/7bf46339218492e066d1d83ae3eeb6a11b4d94841b0e7072167b900e4416/airbyte_source_sap_fieldglass-0.1.1.tar.gz
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-oura]: Downloading https://files.pythonhosted.org/packages/10/00/3fef97973b35886522dff2943299e1f07eae2ffb6479d953fbbdcd619bc9/airbyte_source_oura-0.1.1.tar.gz
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-visma-economic]: Downloading https://files.pythonhosted.org/packages/22/50/df3a0d10b6f0e1622f11f8220f1a070732b6130d5844bc20d4f8d5ebad9e/airbyte_source_visma_economic-0.2.5.tar.gz
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: Downloading https://files.pythonhosted.org/packages/c6/0e/fb736a43092eba8964518ccdd4dc110022e029767dd505166aa8b9b55fc6/airbyte_source_sap_fieldglass-0.1.2.tar.gz
+[2024-05-29 01:59:30] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/db/90/f5e102a358af16ec860b38ba0f89c2bedf03e7aa62be8def6be19fc9f17d/pyreqwest_impersonate-0.4.6.tar.gz
+[2024-05-29 01:59:30] INFO root fetch - processPackages [robustintelligence]: Downloading https://files.pythonhosted.org/packages/20/1d/d87cd4c1a8a22d6e3eb88f8b6901d9eb9beb782bf8192b6b18b8bd1b6348/robustintelligence-2.8.1.tar.gz
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-oura]: executing diffoscope
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-oura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-oura-0.1.0.tar.gz tmp/airbyte_source_oura-0.1.1.tar.gz --markdown 20240529/a/airbyte-source-oura/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-visma-economic]: executing diffoscope
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-visma-economic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_visma_economic-0.2.4.tar.gz tmp/airbyte_source_visma_economic-0.2.5.tar.gz --markdown 20240529/a/airbyte-source-visma-economic/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: executing diffoscope
+[2024-05-29 01:59:30] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_sap_fieldglass-0.1.1.tar.gz tmp/airbyte_source_sap_fieldglass-0.1.2.tar.gz --markdown 20240529/a/airbyte-source-sap-fieldglass/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-29 01:59:30] INFO root fetch - processPackages [pyreqwest-impersonate]: executing diffoscope
+[2024-05-29 01:59:30] INFO root fetch - processPackages [pyreqwest-impersonate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreqwest_impersonate-0.4.5.tar.gz tmp/pyreqwest_impersonate-0.4.6.tar.gz --markdown 20240529/p/pyreqwest-impersonate/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-29 01:59:30] INFO root fetch - processPackages [robustintelligence]: executing diffoscope
+[2024-05-29 01:59:30] INFO root fetch - processPackages [robustintelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robustintelligence-0.1.4.tar.gz tmp/robustintelligence-2.8.1.tar.gz --markdown 20240529/r/robustintelligence/0.1.4-2.8.1/README.md --exclude *.pyd
+[2024-05-29 01:59:31] INFO root fetch - processPackages [airbyte-source-oura]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-oura-0.1.0.tar.gz]
+[2024-05-29 01:59:31] INFO root fetch - processPackages [airbyte-source-oura]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_oura-0.1.1.tar.gz]
+[2024-05-29 01:59:31] INFO root fetch - main [MainThread]: End processing [airbyte-source-oura]: success
+[2024-05-29 01:59:31] INFO root fetch - processPackages [airbyte-source-visma-economic]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_visma_economic-0.2.4.tar.gz]
+[2024-05-29 01:59:31] INFO root fetch - processPackages [airbyte-source-visma-economic]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_visma_economic-0.2.5.tar.gz]
+[2024-05-29 01:59:31] INFO root fetch - main [MainThread]: End processing [airbyte-source-visma-economic]: success
+[2024-05-29 01:59:31] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_sap_fieldglass-0.1.1.tar.gz]
+[2024-05-29 01:59:31] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_sap_fieldglass-0.1.2.tar.gz]
+[2024-05-29 01:59:31] INFO root fetch - main [MainThread]: End processing [airbyte-source-sap-fieldglass]: success
+[2024-05-29 01:59:31] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.4.5.tar.gz]
+[2024-05-29 01:59:31] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.4.6.tar.gz]
+[2024-05-29 01:59:31] INFO root fetch - main [MainThread]: End processing [pyreqwest-impersonate]: success
+[2024-05-29 01:59:33] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.4.tar.gz]
+[2024-05-29 01:59:33] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-2.8.1.tar.gz]
+[2024-05-29 01:59:33] INFO root fetch - main [MainThread]: End processing [robustintelligence]: success
+[2024-05-29 01:59:33] INFO root fetch - main [MainThread]: Store serial: [23420995]
