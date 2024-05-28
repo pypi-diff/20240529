@@ -1129,3 +1129,36 @@
 [2024-05-29 00:53:28] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.2.7-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip]
 [2024-05-29 00:53:28] INFO root fetch - main [MainThread]: End processing [tach]: success
 [2024-05-29 00:53:28] INFO root fetch - main [MainThread]: Store serial: [23420402]
+[2024-05-29 00:55:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420402]
+[2024-05-29 00:55:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 00:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbgpu
+[2024-05-29 00:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qualystbx
+[2024-05-29 00:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blablabla
+[2024-05-29 00:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-admin-inlines
+[2024-05-29 00:55:37] INFO root fetch - processPackages [blablabla]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-29 00:55:37] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 00:55:37] INFO root fetch - processPackages [blablabla]: Downloading https://files.pythonhosted.org/packages/9d/c9/5e150eee35dc4100bd743753a376e4af6d5e6928f98a003169198430e22a/blablabla-0.0.5.tar.gz
+[2024-05-29 00:55:37] WARNING root fetch - processPackages [dbgpu]: Skipping, unable to determine old version
+[2024-05-29 00:55:37] INFO root fetch - main [MainThread]: End processing [dbgpu] error
+[2024-05-29 00:55:37] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-29 00:55:37] INFO root fetch - processPackages [django-admin-inlines]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-29 00:55:37] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-29 00:55:37] INFO root fetch - processPackages [django-admin-inlines]: Downloading https://files.pythonhosted.org/packages/e5/e2/a5064c75caac6620072cfdf43b83b6e20a8d4992227bb1c32a2a383b27cc/django_admin_inlines-1.0-py3-none-any.whl
+[2024-05-29 00:55:37] INFO root fetch - processPackages [blablabla]: Downloading https://files.pythonhosted.org/packages/da/b3/abb11194200004ede5aed16da3bd2c9b87a059c928808ac3ab90386ec38a/blablabla-0.0.6.tar.gz
+[2024-05-29 00:55:37] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-29 00:55:37] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240529/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 00:55:37] INFO root fetch - processPackages [blablabla]: executing diffoscope
+[2024-05-29 00:55:37] INFO root fetch - processPackages [blablabla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blablabla-0.0.5.tar.gz tmp/blablabla-0.0.6.tar.gz --markdown 20240529/b/blablabla/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-29 00:55:37] INFO root fetch - processPackages [django-admin-inlines]: Downloading https://files.pythonhosted.org/packages/1d/ed/0ae7696a4091b3c48cfc0b0d10829ad4bc332f669f7089ddcbbab52bc490/django_admin_inlines-1.0.1.tar.gz
+[2024-05-29 00:55:37] INFO root fetch - processPackages [django-admin-inlines]: executing diffoscope
+[2024-05-29 00:55:37] INFO root fetch - processPackages [django-admin-inlines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_admin_inlines-1.0-py3-none-any.whl.zip tmp/django_admin_inlines-1.0.1.tar.gz --markdown 20240529/d/django-admin-inlines/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 00:55:38] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-29 00:55:38] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-29 00:55:38] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-29 00:55:38] INFO root fetch - processPackages [blablabla]: Remove: archive file [/home/abi/fetcher/tmp/blablabla-0.0.5.tar.gz]
+[2024-05-29 00:55:38] INFO root fetch - processPackages [blablabla]: Remove: archive file [/home/abi/fetcher/tmp/blablabla-0.0.6.tar.gz]
+[2024-05-29 00:55:38] INFO root fetch - main [MainThread]: End processing [blablabla]: success
+[2024-05-29 00:55:38] INFO root fetch - processPackages [django-admin-inlines]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_inlines-1.0-py3-none-any.whl.zip]
+[2024-05-29 00:55:38] INFO root fetch - processPackages [django-admin-inlines]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_inlines-1.0.1.tar.gz]
+[2024-05-29 00:55:38] INFO root fetch - main [MainThread]: End processing [django-admin-inlines]: success
+[2024-05-29 00:55:38] INFO root fetch - main [MainThread]: Store serial: [23420435]
