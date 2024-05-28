@@ -1748,3 +1748,33 @@
 [2024-05-29 01:35:33] INFO root fetch - processPackages [snowflake-snowpark-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-snowpark-python-1.9.0.tar.gz]
 [2024-05-29 01:35:33] INFO root fetch - main [MainThread]: End processing [snowflake-snowpark-python]: success
 [2024-05-29 01:35:33] INFO root fetch - main [MainThread]: Store serial: [23420746]
+[2024-05-29 01:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420746]
+[2024-05-29 01:37:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 01:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ourskyai_astro_api
+[2024-05-29 01:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ourskyai_platform_api
+[2024-05-29 01:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ourskyai_sda_api
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_astro_api]: New version: [1.3.3682] Old Version: [1.3.3678]
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_platform_api]: New version: [1.3.3682] Old Version: [1.3.3678]
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_sda_api]: New version: [1.3.3682] Old Version: [1.3.3678]
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_platform_api]: Downloading https://files.pythonhosted.org/packages/c8/40/cbcc1f114848bee96dca3c7b28be2fbcea20e022112e7776d67e61f212e9/ourskyai_platform_api-1.3.3678.tar.gz
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_astro_api]: Downloading https://files.pythonhosted.org/packages/02/29/330089bcd4c5d2a3be10656730c5b8a80f46684b6743a2721969a6d4b52e/ourskyai_astro_api-1.3.3678.tar.gz
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_sda_api]: Downloading https://files.pythonhosted.org/packages/05/f8/78e0ead732409b3039405cff4a586c4c241d61107342e1c40336cac201b3/ourskyai_sda_api-1.3.3678.tar.gz
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_astro_api]: Downloading https://files.pythonhosted.org/packages/47/42/f44ab48a0c2ed2816171ce0d16e9771efb187608ff257306e1bd82eeb076/ourskyai_astro_api-1.3.3682.tar.gz
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_platform_api]: Downloading https://files.pythonhosted.org/packages/c8/87/bcb33f0511d3ca1774742d9ccb0b8844045140459a29c3b155cd513493ea/ourskyai_platform_api-1.3.3682.tar.gz
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_sda_api]: Downloading https://files.pythonhosted.org/packages/2e/e7/2397429d9f47a1045c296a2edd5936270a6f7733e280c0151a5cb4432f4b/ourskyai_sda_api-1.3.3682.tar.gz
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_astro_api]: executing diffoscope
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_astro_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourskyai_astro_api-1.3.3678.tar.gz tmp/ourskyai_astro_api-1.3.3682.tar.gz --markdown 20240529/o/ourskyai_astro_api/1.3.3678-1.3.3682/README.md --exclude *.pyd
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_platform_api]: executing diffoscope
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_platform_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourskyai_platform_api-1.3.3678.tar.gz tmp/ourskyai_platform_api-1.3.3682.tar.gz --markdown 20240529/o/ourskyai_platform_api/1.3.3678-1.3.3682/README.md --exclude *.pyd
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_sda_api]: executing diffoscope
+[2024-05-29 01:37:42] INFO root fetch - processPackages [ourskyai_sda_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourskyai_sda_api-1.3.3678.tar.gz tmp/ourskyai_sda_api-1.3.3682.tar.gz --markdown 20240529/o/ourskyai_sda_api/1.3.3678-1.3.3682/README.md --exclude *.pyd
+[2024-05-29 01:37:43] INFO root fetch - processPackages [ourskyai_sda_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_sda_api-1.3.3678.tar.gz]
+[2024-05-29 01:37:43] INFO root fetch - processPackages [ourskyai_sda_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_sda_api-1.3.3682.tar.gz]
+[2024-05-29 01:37:43] INFO root fetch - main [MainThread]: End processing [ourskyai_sda_api]: success
+[2024-05-29 01:37:44] INFO root fetch - processPackages [ourskyai_platform_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_platform_api-1.3.3678.tar.gz]
+[2024-05-29 01:37:44] INFO root fetch - processPackages [ourskyai_platform_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_platform_api-1.3.3682.tar.gz]
+[2024-05-29 01:37:44] INFO root fetch - main [MainThread]: End processing [ourskyai_platform_api]: success
+[2024-05-29 01:37:44] INFO root fetch - processPackages [ourskyai_astro_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_astro_api-1.3.3678.tar.gz]
+[2024-05-29 01:37:44] INFO root fetch - processPackages [ourskyai_astro_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_astro_api-1.3.3682.tar.gz]
+[2024-05-29 01:37:44] INFO root fetch - main [MainThread]: End processing [ourskyai_astro_api]: success
+[2024-05-29 01:37:44] INFO root fetch - main [MainThread]: Store serial: [23420755]
