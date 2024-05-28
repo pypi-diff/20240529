@@ -652,3 +652,90 @@
 [2024-05-29 00:27:02] INFO root fetch - processPackages [das2py]: Remove: archive file [/home/abi/fetcher/tmp/das2py-3.0rc1-cp310-cp310-win_amd64.whl.zip]
 [2024-05-29 00:27:02] INFO root fetch - main [MainThread]: End processing [das2py]: success
 [2024-05-29 00:27:02] INFO root fetch - main [MainThread]: Store serial: [23420158]
+[2024-05-29 00:29:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420158]
+[2024-05-29 00:29:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-29 00:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nuid
+[2024-05-29 00:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-survey-sparrow
+[2024-05-29 00:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-plausible
+[2024-05-29 00:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-mailjet-sms
+[2024-05-29 00:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocsi
+[2024-05-29 00:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-source-zapier-supported-storage
+[2024-05-29 00:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blablabla
+[2024-05-29 00:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rime-sdk
+[2024-05-29 00:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airbyte-source-newsdata
+[2024-05-29 00:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-source-emailoctopus
+[2024-05-29 00:29:11] WARNING root fetch - processPackages [nuid]: Skipping, unable to determine old version
+[2024-05-29 00:29:11] INFO root fetch - processPackages [blablabla]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 00:29:11] INFO root fetch - processPackages [nuid]: Start processing: combinedpackmsnk
+[2024-05-29 00:29:11] INFO root fetch - main [MainThread]: End processing [nuid] error
+[2024-05-29 00:29:11] INFO root fetch - processPackages [mkdocsi]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-survey-sparrow]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-29 00:29:11] WARNING root fetch - processPackages [combinedpackmsnk]: Skipping, unable to determine old version
+[2024-05-29 00:29:11] INFO root fetch - processPackages [combinedpackmsnk]: Start processing: airbyte-source-pypi
+[2024-05-29 00:29:11] INFO root fetch - main [MainThread]: End processing [combinedpackmsnk] error
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-mailjet-sms]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-plausible]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-newsdata]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-zapier-supported-storage]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-emailoctopus]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 00:29:11] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/8a/f8/a4a40981361f58dae9040ef4b5180dbf5e5cc5b807b32a0f7fc8e8128c45/mkdocsi-1.1.8.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [blablabla]: Downloading https://files.pythonhosted.org/packages/1d/af/8b71f9a3c9a854cdc1fb59e53cca3d2d89cae9ae5f9ea380edaee7b6219f/blablabla-0.0.3.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [rime-sdk]: New version: [2.9.0rc0] Old Version: [2.8.2]
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-survey-sparrow]: Downloading https://files.pythonhosted.org/packages/11/2d/1c479d1afa0997a2351871798218458521d01a815df1d163660765fb11e6/airbyte_source_survey_sparrow-0.2.3.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-mailjet-sms]: Downloading https://files.pythonhosted.org/packages/79/01/45624a14c07d9ade60a1a9bd86f6a48c621ee513a08a9a619aea6e0853bb/airbyte_source_mailjet_sms-0.1.3.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-pypi]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-plausible]: Downloading https://files.pythonhosted.org/packages/ea/b2/52bf941dd70f1c6e1f90c5f72a9e2eb71e5cb500136fb2648a694f6175f7/airbyte_source_plausible-0.1.1.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/88/c0/3b91c09cdba83963d0f75200867d85b961a4562159f4d7f74301908a93e8/rime_sdk-2.8.2.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-newsdata]: Downloading https://files.pythonhosted.org/packages/38/c8/6923a55a4825e132189aff8aee1ea16982a427386d424c1a4714169dc39b/airbyte_source_newsdata-0.1.3.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-zapier-supported-storage]: Downloading https://files.pythonhosted.org/packages/cd/ef/faa6926efc683f54e8eda4fc820a3a202c1e71bd26b38fec8c30f52c5a71/airbyte_source_zapier_supported_storage-0.1.3.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-emailoctopus]: Downloading https://files.pythonhosted.org/packages/94/3f/62ecb541a0994702b0a28dfe7a4f89ae71063d066c6c6c7ee3d6d041b8fa/airbyte_source_emailoctopus-0.1.3.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [blablabla]: Downloading https://files.pythonhosted.org/packages/9d/42/de28458cae2f35cda99ec4373cc29093fc5c4bb3a45d9a9160dc7057c48d/blablabla-0.0.4.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/9c/63/bbdcc98449c0e4044846358e356060aa691e58882485f8ac9930ac65514b/mkdocsi-1.1.9.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [airbyte-source-pypi]: Downloading https://files.pythonhosted.org/packages/f3/74/15888f2c76033a4226e667c0e30ccb04a3b6805983beb4ff770a441db823/airbyte_source_pypi-0.1.3.tar.gz
+[2024-05-29 00:29:11] INFO root fetch - processPackages [blablabla]: executing diffoscope
+[2024-05-29 00:29:11] INFO root fetch - processPackages [blablabla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blablabla-0.0.3.tar.gz tmp/blablabla-0.0.4.tar.gz --markdown 20240529/b/blablabla/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-survey-sparrow]: Downloading https://files.pythonhosted.org/packages/2f/22/ffede9ee6c92500eafe146a8ed860fd6a8dacb77ae684f1c88ec38451e5e/airbyte_source_survey_sparrow-0.2.4.tar.gz
+[2024-05-29 00:29:12] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 00:29:12] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.1.8.tar.gz tmp/mkdocsi-1.1.9.tar.gz --markdown 20240529/m/mkdocsi/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-mailjet-sms]: Downloading https://files.pythonhosted.org/packages/4c/3e/91184a2f9f50cb1277c81738be19ebef8f74867d5f5cf3b69b653931902c/airbyte_source_mailjet_sms-0.1.4.tar.gz
+[2024-05-29 00:29:12] ERROR root fetch - processPackages [airbyte-source-newsdata]: Unable to fetch info: No such project/version 'airbyte-source-newsdata' 0.1.4
+[2024-05-29 00:29:12] ERROR root fetch - processPackages [airbyte-source-emailoctopus]: Unable to fetch info: No such project/version 'airbyte-source-emailoctopus' 0.1.4
+[2024-05-29 00:29:12] INFO root fetch - main [MainThread]: End processing [airbyte-source-newsdata] error
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-plausible]: Downloading https://files.pythonhosted.org/packages/60/26/605e45848b7f8c558d56c6eb277655f02fabc26b179d10221502765fe963/airbyte_source_plausible-0.1.2.tar.gz
+[2024-05-29 00:29:12] INFO root fetch - main [MainThread]: End processing [airbyte-source-emailoctopus] error
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-zapier-supported-storage]: Downloading https://files.pythonhosted.org/packages/83/c9/d7ea12531e91463ec5d11288e1b70c3819aac232bd152b89713a540df85a/airbyte_source_zapier_supported_storage-0.1.4.tar.gz
+[2024-05-29 00:29:12] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/1f/27/5c2ff7420339753d7590f9629647edd100b995f766d1a1f8b09f9d6d49cc/rime_sdk-2.9.0rc0.tar.gz
+[2024-05-29 00:29:12] ERROR root fetch - processPackages [airbyte-source-pypi]: Unable to fetch info: No such project/version 'airbyte-source-pypi' 0.1.4
+[2024-05-29 00:29:12] INFO root fetch - main [MainThread]: End processing [airbyte-source-pypi] error
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-survey-sparrow]: executing diffoscope
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-survey-sparrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_survey_sparrow-0.2.3.tar.gz tmp/airbyte_source_survey_sparrow-0.2.4.tar.gz --markdown 20240529/a/airbyte-source-survey-sparrow/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-mailjet-sms]: executing diffoscope
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-mailjet-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_mailjet_sms-0.1.3.tar.gz tmp/airbyte_source_mailjet_sms-0.1.4.tar.gz --markdown 20240529/a/airbyte-source-mailjet-sms/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-plausible]: executing diffoscope
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-plausible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_plausible-0.1.1.tar.gz tmp/airbyte_source_plausible-0.1.2.tar.gz --markdown 20240529/a/airbyte-source-plausible/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-zapier-supported-storage]: executing diffoscope
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-zapier-supported-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_zapier_supported_storage-0.1.3.tar.gz tmp/airbyte_source_zapier_supported_storage-0.1.4.tar.gz --markdown 20240529/a/airbyte-source-zapier-supported-storage/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-29 00:29:12] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-05-29 00:29:12] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.2.tar.gz tmp/rime_sdk-2.9.0rc0.tar.gz --markdown 20240529/r/rime-sdk/2.8.2-2.9.0rc0/README.md --exclude *.pyd
+[2024-05-29 00:29:12] INFO root fetch - processPackages [blablabla]: Remove: archive file [/home/abi/fetcher/tmp/blablabla-0.0.3.tar.gz]
+[2024-05-29 00:29:12] INFO root fetch - processPackages [blablabla]: Remove: archive file [/home/abi/fetcher/tmp/blablabla-0.0.4.tar.gz]
+[2024-05-29 00:29:12] INFO root fetch - main [MainThread]: End processing [blablabla]: success
+[2024-05-29 00:29:12] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.1.8.tar.gz]
+[2024-05-29 00:29:12] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.1.9.tar.gz]
+[2024-05-29 00:29:12] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-survey-sparrow]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_survey_sparrow-0.2.3.tar.gz]
+[2024-05-29 00:29:12] INFO root fetch - processPackages [airbyte-source-survey-sparrow]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_survey_sparrow-0.2.4.tar.gz]
+[2024-05-29 00:29:12] INFO root fetch - main [MainThread]: End processing [airbyte-source-survey-sparrow]: success
+[2024-05-29 00:29:13] INFO root fetch - processPackages [airbyte-source-mailjet-sms]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mailjet_sms-0.1.3.tar.gz]
+[2024-05-29 00:29:13] INFO root fetch - processPackages [airbyte-source-mailjet-sms]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mailjet_sms-0.1.4.tar.gz]
+[2024-05-29 00:29:13] INFO root fetch - main [MainThread]: End processing [airbyte-source-mailjet-sms]: success
+[2024-05-29 00:29:13] INFO root fetch - processPackages [airbyte-source-plausible]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_plausible-0.1.1.tar.gz]
+[2024-05-29 00:29:13] INFO root fetch - processPackages [airbyte-source-plausible]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_plausible-0.1.2.tar.gz]
+[2024-05-29 00:29:13] INFO root fetch - main [MainThread]: End processing [airbyte-source-plausible]: success
+[2024-05-29 00:29:13] INFO root fetch - processPackages [airbyte-source-zapier-supported-storage]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_zapier_supported_storage-0.1.3.tar.gz]
+[2024-05-29 00:29:13] INFO root fetch - processPackages [airbyte-source-zapier-supported-storage]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_zapier_supported_storage-0.1.4.tar.gz]
+[2024-05-29 00:29:13] INFO root fetch - main [MainThread]: End processing [airbyte-source-zapier-supported-storage]: success
+[2024-05-29 00:29:15] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.2.tar.gz]
+[2024-05-29 00:29:15] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.9.0rc0.tar.gz]
+[2024-05-29 00:29:15] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-05-29 00:29:15] INFO root fetch - main [MainThread]: Store serial: [23420198]
