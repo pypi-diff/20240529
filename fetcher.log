@@ -829,3 +829,33 @@
 [2024-05-29 00:33:42] INFO root fetch - processPackages [symbol-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/symbol_sdk_python-3.2.2.tar.gz]
 [2024-05-29 00:33:42] INFO root fetch - main [MainThread]: End processing [symbol-sdk-python]: success
 [2024-05-29 00:33:42] INFO root fetch - main [MainThread]: Store serial: [23420247]
+[2024-05-29 00:35:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420247]
+[2024-05-29 00:35:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 00:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cocoon-data
+[2024-05-29 00:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-automation
+[2024-05-29 00:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: factorio-randovania-mod
+[2024-05-29 00:35:50] INFO root fetch - processPackages [gpt-automation]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-29 00:35:50] INFO root fetch - processPackages [factorio-randovania-mod]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-29 00:35:50] INFO root fetch - processPackages [cocoon-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 00:35:50] INFO root fetch - processPackages [factorio-randovania-mod]: Downloading https://files.pythonhosted.org/packages/29/d6/d63e1f45561229699f284ab5aa7817c4d85d83a7fa131ed55b3e25654266/factorio_randovania_mod-0.3.1.tar.gz
+[2024-05-29 00:35:50] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/ac/3c/a1a6c95be4d731fc0db8d40b132730891186370f3cd304837773aa0dcce9/cocoon_data-0.1.8.tar.gz
+[2024-05-29 00:35:50] INFO root fetch - processPackages [gpt-automation]: Downloading https://files.pythonhosted.org/packages/30/21/7beed24b1a75e3ce3bcb0e14f61803b82d1f632db3575b64ce246c9a24c7/gpt_automation-0.1.6.tar.gz
+[2024-05-29 00:35:50] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/0b/b9/048ffb4abe066854ebc4d24ca277250c5668844b84d602ff0be9adf8b231/cocoon_data-0.1.9.tar.gz
+[2024-05-29 00:35:51] INFO root fetch - processPackages [gpt-automation]: Downloading https://files.pythonhosted.org/packages/d2/63/59e324bec9e251c7a9ec73182c263152ee2460b5d1e583de1ca84f8f12bd/gpt_automation-0.1.7.tar.gz
+[2024-05-29 00:35:51] INFO root fetch - processPackages [cocoon-data]: executing diffoscope
+[2024-05-29 00:35:51] INFO root fetch - processPackages [cocoon-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoon_data-0.1.8.tar.gz tmp/cocoon_data-0.1.9.tar.gz --markdown 20240529/c/cocoon-data/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 00:35:51] INFO root fetch - processPackages [factorio-randovania-mod]: Downloading https://files.pythonhosted.org/packages/2a/60/5db2b387a98eed80591d7c930674c86ef1d53af107a7ea0f229d91b2b6e0/factorio_randovania_mod-0.3.2.tar.gz
+[2024-05-29 00:35:51] INFO root fetch - processPackages [gpt-automation]: executing diffoscope
+[2024-05-29 00:35:51] INFO root fetch - processPackages [gpt-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_automation-0.1.6.tar.gz tmp/gpt_automation-0.1.7.tar.gz --markdown 20240529/g/gpt-automation/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-29 00:35:51] INFO root fetch - processPackages [factorio-randovania-mod]: executing diffoscope
+[2024-05-29 00:35:51] INFO root fetch - processPackages [factorio-randovania-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorio_randovania_mod-0.3.1.tar.gz tmp/factorio_randovania_mod-0.3.2.tar.gz --markdown 20240529/f/factorio-randovania-mod/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-29 00:35:51] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.8.tar.gz]
+[2024-05-29 00:35:51] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.9.tar.gz]
+[2024-05-29 00:35:51] INFO root fetch - main [MainThread]: End processing [cocoon-data]: success
+[2024-05-29 00:35:51] INFO root fetch - processPackages [gpt-automation]: Remove: archive file [/home/abi/fetcher/tmp/gpt_automation-0.1.6.tar.gz]
+[2024-05-29 00:35:51] INFO root fetch - processPackages [gpt-automation]: Remove: archive file [/home/abi/fetcher/tmp/gpt_automation-0.1.7.tar.gz]
+[2024-05-29 00:35:51] INFO root fetch - main [MainThread]: End processing [gpt-automation]: success
+[2024-05-29 00:35:52] INFO root fetch - processPackages [factorio-randovania-mod]: Remove: archive file [/home/abi/fetcher/tmp/factorio_randovania_mod-0.3.1.tar.gz]
+[2024-05-29 00:35:52] INFO root fetch - processPackages [factorio-randovania-mod]: Remove: archive file [/home/abi/fetcher/tmp/factorio_randovania_mod-0.3.2.tar.gz]
+[2024-05-29 00:35:52] INFO root fetch - main [MainThread]: End processing [factorio-randovania-mod]: success
+[2024-05-29 00:35:52] INFO root fetch - main [MainThread]: Store serial: [23420256]
