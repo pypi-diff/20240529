@@ -1639,3 +1639,32 @@
 [2024-05-29 01:24:44] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.2.1.tar.gz]
 [2024-05-29 01:24:44] INFO root fetch - main [MainThread]: End processing [sdss-hal]: success
 [2024-05-29 01:24:44] INFO root fetch - main [MainThread]: Store serial: [23420702]
+[2024-05-29 01:26:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420702]
+[2024-05-29 01:26:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 01:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eeggan
+[2024-05-29 01:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assisted-service-client
+[2024-05-29 01:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qualystbx
+[2024-05-29 01:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: triton-util
+[2024-05-29 01:26:52] INFO root fetch - processPackages [eeggan]: New version: [2.0.0a1] Old Version: [1.0.0]
+[2024-05-29 01:26:52] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 01:26:52] INFO root fetch - processPackages [eeggan]: Downloading https://files.pythonhosted.org/packages/6f/4e/0b5c8fe68236fddd15c7ebaf8f9d5fc764b1d27ab43ca0a04428cbbd23e9/eeggan-1.0.0.tar.gz
+[2024-05-29 01:26:52] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-29 01:26:52] WARNING root fetch - processPackages [triton-util]: Skipping, unable to determine old version
+[2024-05-29 01:26:52] INFO root fetch - main [MainThread]: End processing [triton-util] error
+[2024-05-29 01:26:52] WARNING root fetch - processPackages [eeggan]: Skipping package: exceeds size limit 91557956>=10485760
+[2024-05-29 01:26:52] INFO root fetch - main [MainThread]: End processing [eeggan] error
+[2024-05-29 01:26:52] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-29 01:26:52] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-29 01:26:52] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-29 01:26:53] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-29 01:26:53] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240529/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 01:26:53] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-29 01:26:53] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-29 01:26:53] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240529/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-29 01:26:53] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-29 01:26:53] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-29 01:26:53] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-29 01:26:54] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-29 01:26:54] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-29 01:26:54] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-29 01:26:54] INFO root fetch - main [MainThread]: Store serial: [23420712]
