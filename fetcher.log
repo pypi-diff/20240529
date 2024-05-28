@@ -1484,3 +1484,38 @@
 [2024-05-29 01:15:52] INFO root fetch - processPackages [promptools]: Remove: archive file [/home/abi/fetcher/tmp/promptools-0.1.3rc1.tar.gz]
 [2024-05-29 01:15:52] INFO root fetch - main [MainThread]: End processing [promptools]: success
 [2024-05-29 01:15:52] INFO root fetch - main [MainThread]: Store serial: [23420620]
+[2024-05-29 01:17:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420620]
+[2024-05-29 01:18:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 01:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ethyca-fides
+[2024-05-29 01:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlmesh
+[2024-05-29 01:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dj-whisperer
+[2024-05-29 01:18:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alphafold3-pytorch
+[2024-05-29 01:18:02] INFO root fetch - processPackages [alphafold3-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 01:18:02] INFO root fetch - processPackages [dj-whisperer]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-29 01:18:02] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-29 01:18:02] INFO root fetch - processPackages [sqlmesh]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-29 01:18:02] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/e9/e2/142b19b529aba5b96d18902a5f1c99660ab625fa64921af86b97ac678b40/alphafold3_pytorch-0.0.8.tar.gz
+[2024-05-29 01:18:02] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-05-29 01:18:02] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/28/c0/2f780a2ef7b5d9e61312134743fc2eeebb32f520b7cd8f91bc75b13a5d66/sqlmesh-0.98.0.tar.gz
+[2024-05-29 01:18:02] WARNING root fetch - processPackages [sqlmesh]: Skipping package: exceeds size limit 14389309>=10485760
+[2024-05-29 01:18:02] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
+[2024-05-29 01:18:03] INFO root fetch - processPackages [dj-whisperer]: Downloading https://files.pythonhosted.org/packages/7c/57/6e553cac8dc6e4161dfddcb82059c84337ea8f74eef666eb940b7ea3b2f2/dj-whisperer-0.3.1.tar.gz
+[2024-05-29 01:18:03] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/96/47/97f198b647d508e9e64e32b67c24069f872d2ff29ca39b5d1ef44a81f68b/alphafold3_pytorch-0.0.9.tar.gz
+[2024-05-29 01:18:03] INFO root fetch - processPackages [dj-whisperer]: Downloading https://files.pythonhosted.org/packages/ca/ba/620cc03c6e224a643cb338be2a5fae282e88473c60e95d4440467ed4f037/dj-whisperer-0.3.2.tar.gz
+[2024-05-29 01:18:03] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-05-29 01:18:03] INFO root fetch - processPackages [alphafold3-pytorch]: executing diffoscope
+[2024-05-29 01:18:03] INFO root fetch - processPackages [alphafold3-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold3_pytorch-0.0.8.tar.gz tmp/alphafold3_pytorch-0.0.9.tar.gz --markdown 20240529/a/alphafold3-pytorch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 01:18:03] INFO root fetch - processPackages [dj-whisperer]: executing diffoscope
+[2024-05-29 01:18:03] INFO root fetch - processPackages [dj-whisperer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-whisperer-0.3.1.tar.gz tmp/dj-whisperer-0.3.2.tar.gz --markdown 20240529/d/dj-whisperer/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-29 01:18:03] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-05-29 01:18:03] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240529/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-29 01:18:04] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.8.tar.gz]
+[2024-05-29 01:18:04] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.9.tar.gz]
+[2024-05-29 01:18:04] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch]: success
+[2024-05-29 01:18:04] INFO root fetch - processPackages [dj-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/dj-whisperer-0.3.1.tar.gz]
+[2024-05-29 01:18:04] INFO root fetch - processPackages [dj-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/dj-whisperer-0.3.2.tar.gz]
+[2024-05-29 01:18:04] INFO root fetch - main [MainThread]: End processing [dj-whisperer]: success
+[2024-05-29 01:18:06] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-05-29 01:18:06] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-05-29 01:18:06] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-05-29 01:18:06] INFO root fetch - main [MainThread]: Store serial: [23420632]
