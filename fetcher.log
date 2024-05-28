@@ -1860,3 +1860,51 @@
 [2024-05-29 01:42:04] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.6.1.tar.gz]
 [2024-05-29 01:42:04] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
 [2024-05-29 01:42:04] INFO root fetch - main [MainThread]: Store serial: [23420859]
+[2024-05-29 01:44:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420859]
+[2024-05-29 01:44:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 01:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tglc
+[2024-05-29 01:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ollama-chat
+[2024-05-29 01:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Brightify
+[2024-05-29 01:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbi4onnx
+[2024-05-29 01:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TGNLP
+[2024-05-29 01:44:12] INFO root fetch - processPackages [TGNLP]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-29 01:44:12] INFO root fetch - processPackages [ollama-chat]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-29 01:44:12] INFO root fetch - processPackages [tglc]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-29 01:44:12] INFO root fetch - processPackages [TGNLP]: Downloading https://files.pythonhosted.org/packages/39/93/c24afba1a26671dd0057cc784f978aeefbf228e553cc711a50bf2dffbc23/tgnlp-0.0.1.tar.gz
+[2024-05-29 01:44:12] INFO root fetch - processPackages [Brightify]: New version: [0.1.6] Old Version: [0.1.3]
+[2024-05-29 01:44:12] INFO root fetch - processPackages [sbi4onnx]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-29 01:44:12] INFO root fetch - processPackages [ollama-chat]: Downloading https://files.pythonhosted.org/packages/ea/56/56b79208fcf8755996355838c58f267dba1ea9a863a3765cf86229d8901c/ollama_chat-0.9.6.tar.gz
+[2024-05-29 01:44:12] INFO root fetch - processPackages [tglc]: Downloading https://files.pythonhosted.org/packages/1f/d8/e6e3e5dca6439a51ec0ea3767509239ad4da17df43a07d28249eb6e04d1b/tglc-0.6.3.tar.gz
+[2024-05-29 01:44:12] INFO root fetch - processPackages [TGNLP]: Downloading https://files.pythonhosted.org/packages/f6/b4/365531f9c3781769d7b1b27b1f3e7781b1621fb47ec192fc5783ac81cc4d/tgnlp-1.0.0.tar.gz
+[2024-05-29 01:44:12] INFO root fetch - processPackages [sbi4onnx]: Downloading https://files.pythonhosted.org/packages/0b/53/8412044148a4abbd38989ae76bf01c53c952c50e8c450bb500b8410c2d39/sbi4onnx-1.0.6.tar.gz
+[2024-05-29 01:44:12] INFO root fetch - processPackages [Brightify]: Downloading https://files.pythonhosted.org/packages/5d/19/f38a7c68e8bbba8f8e1ab806980d21358215002a65ba1c005d1b9305b295/brightify-0.1.3.tar.gz
+[2024-05-29 01:44:13] INFO root fetch - processPackages [TGNLP]: executing diffoscope
+[2024-05-29 01:44:13] INFO root fetch - processPackages [TGNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgnlp-0.0.1.tar.gz tmp/tgnlp-1.0.0.tar.gz --markdown 20240529/T/TGNLP/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-29 01:44:13] INFO root fetch - processPackages [ollama-chat]: Downloading https://files.pythonhosted.org/packages/cb/1e/e78b55ea1e0c5e7c32d48d7d37e1693bc6f1168e4b8a7ca019c10b465482/ollama_chat-0.9.7.tar.gz
+[2024-05-29 01:44:13] INFO root fetch - processPackages [tglc]: Downloading https://files.pythonhosted.org/packages/86/af/3a5dbd6b97a60a214de4fc048fa227be3206d2b4fb58956184add7a9b071/tglc-0.6.4.tar.gz
+[2024-05-29 01:44:13] INFO root fetch - processPackages [sbi4onnx]: Downloading https://files.pythonhosted.org/packages/4d/84/c560b4ecdc548d72d2d2293db14d80868bad00a957e0b8d954cf2aaffc35/sbi4onnx-1.0.7.tar.gz
+[2024-05-29 01:44:13] INFO root fetch - processPackages [Brightify]: Downloading https://files.pythonhosted.org/packages/2e/c2/d311f40e87d04f4cf4adfa4add99fc667a29015ebc4f12ebd7b9928e8851/brightify-0.1.6.tar.gz
+[2024-05-29 01:44:13] INFO root fetch - processPackages [ollama-chat]: executing diffoscope
+[2024-05-29 01:44:13] INFO root fetch - processPackages [ollama-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ollama_chat-0.9.6.tar.gz tmp/ollama_chat-0.9.7.tar.gz --markdown 20240529/o/ollama-chat/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-29 01:44:13] INFO root fetch - processPackages [tglc]: executing diffoscope
+[2024-05-29 01:44:13] INFO root fetch - processPackages [tglc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tglc-0.6.3.tar.gz tmp/tglc-0.6.4.tar.gz --markdown 20240529/t/tglc/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-29 01:44:13] INFO root fetch - processPackages [sbi4onnx]: executing diffoscope
+[2024-05-29 01:44:13] INFO root fetch - processPackages [sbi4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbi4onnx-1.0.6.tar.gz tmp/sbi4onnx-1.0.7.tar.gz --markdown 20240529/s/sbi4onnx/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-29 01:44:13] INFO root fetch - processPackages [Brightify]: executing diffoscope
+[2024-05-29 01:44:13] INFO root fetch - processPackages [Brightify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brightify-0.1.3.tar.gz tmp/brightify-0.1.6.tar.gz --markdown 20240529/B/Brightify/0.1.3-0.1.6/README.md --exclude *.pyd
+[2024-05-29 01:44:13] INFO root fetch - processPackages [TGNLP]: Remove: archive file [/home/abi/fetcher/tmp/tgnlp-0.0.1.tar.gz]
+[2024-05-29 01:44:13] INFO root fetch - processPackages [TGNLP]: Remove: archive file [/home/abi/fetcher/tmp/tgnlp-1.0.0.tar.gz]
+[2024-05-29 01:44:13] INFO root fetch - main [MainThread]: End processing [TGNLP]: success
+[2024-05-29 01:44:14] INFO root fetch - processPackages [sbi4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sbi4onnx-1.0.6.tar.gz]
+[2024-05-29 01:44:14] INFO root fetch - processPackages [sbi4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sbi4onnx-1.0.7.tar.gz]
+[2024-05-29 01:44:14] INFO root fetch - main [MainThread]: End processing [sbi4onnx]: success
+[2024-05-29 01:44:14] INFO root fetch - processPackages [ollama-chat]: Remove: archive file [/home/abi/fetcher/tmp/ollama_chat-0.9.6.tar.gz]
+[2024-05-29 01:44:14] INFO root fetch - processPackages [ollama-chat]: Remove: archive file [/home/abi/fetcher/tmp/ollama_chat-0.9.7.tar.gz]
+[2024-05-29 01:44:14] INFO root fetch - main [MainThread]: End processing [ollama-chat]: success
+[2024-05-29 01:44:14] INFO root fetch - processPackages [tglc]: Remove: archive file [/home/abi/fetcher/tmp/tglc-0.6.3.tar.gz]
+[2024-05-29 01:44:14] INFO root fetch - processPackages [tglc]: Remove: archive file [/home/abi/fetcher/tmp/tglc-0.6.4.tar.gz]
+[2024-05-29 01:44:14] INFO root fetch - main [MainThread]: End processing [tglc]: success
+[2024-05-29 01:44:14] INFO root fetch - processPackages [Brightify]: Remove: archive file [/home/abi/fetcher/tmp/brightify-0.1.3.tar.gz]
+[2024-05-29 01:44:14] INFO root fetch - processPackages [Brightify]: Remove: archive file [/home/abi/fetcher/tmp/brightify-0.1.6.tar.gz]
+[2024-05-29 01:44:14] INFO root fetch - main [MainThread]: End processing [Brightify]: success
+[2024-05-29 01:44:14] INFO root fetch - main [MainThread]: Store serial: [23420877]
