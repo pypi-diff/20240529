@@ -1668,3 +1668,12 @@
 [2024-05-29 01:26:54] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2024-05-29 01:26:54] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2024-05-29 01:26:54] INFO root fetch - main [MainThread]: Store serial: [23420712]
+[2024-05-29 01:28:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420712]
+[2024-05-29 01:29:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 01:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: triton-util
+[2024-05-29 01:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inorbit-connector
+[2024-05-29 01:29:03] WARNING root fetch - processPackages [triton-util]: Skipping, unable to determine old version
+[2024-05-29 01:29:03] INFO root fetch - main [MainThread]: End processing [triton-util] error
+[2024-05-29 01:29:04] WARNING root fetch - processPackages [inorbit-connector]: Skipping, unable to determine old version
+[2024-05-29 01:29:04] INFO root fetch - main [MainThread]: End processing [inorbit-connector] error
+[2024-05-29 01:29:04] INFO root fetch - main [MainThread]: Store serial: [23420722]
