@@ -1236,3 +1236,42 @@
 [2024-05-29 01:00:00] INFO root fetch - processPackages [parallax-app]: Remove: archive file [/home/abi/fetcher/tmp/parallax_app-0.37.8.tar.gz]
 [2024-05-29 01:00:00] INFO root fetch - main [MainThread]: End processing [parallax-app]: success
 [2024-05-29 01:00:00] INFO root fetch - main [MainThread]: Store serial: [23420457]
+[2024-05-29 01:02:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420457]
+[2024-05-29 01:02:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 01:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gadapt
+[2024-05-29 01:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galileo-core
+[2024-05-29 01:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: punkweb-bb
+[2024-05-29 01:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sam4onnx
+[2024-05-29 01:02:09] INFO root fetch - processPackages [galileo-core]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-29 01:02:09] INFO root fetch - processPackages [gadapt]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-29 01:02:09] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/5c/8d/57e63feecbe95b54e387a7e9dd3e2fcce03671bbe0adeeb8496ba3ae44ba/galileo_core-1.3.0.tar.gz
+[2024-05-29 01:02:09] INFO root fetch - processPackages [gadapt]: Downloading https://files.pythonhosted.org/packages/18/68/ec9b06192b62b296a42ae493441214b393543f31ba3c655792125045c26a/gadapt-0.4.8.tar.gz
+[2024-05-29 01:02:09] INFO root fetch - processPackages [sam4onnx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 01:02:09] INFO root fetch - processPackages [punkweb-bb]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-29 01:02:10] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/bf/b3/b53a1f784a4b25c1c337576554213b0efeb58deb553df70f9277423ed0e0/galileo_core-1.4.0.tar.gz
+[2024-05-29 01:02:10] INFO root fetch - processPackages [gadapt]: Downloading https://files.pythonhosted.org/packages/f6/55/43ef5a77fb2ffd368ecb1d7fb86383148ea58ebf4c50b797c7c8bb94e9fa/gadapt-0.4.9.tar.gz
+[2024-05-29 01:02:10] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/7c/95/a9d9c61c5e1ff104e8311d24dac87ab6a33ec34223b00643a3cc8708964b/punkweb_bb-0.1.4.tar.gz
+[2024-05-29 01:02:10] INFO root fetch - processPackages [sam4onnx]: Downloading https://files.pythonhosted.org/packages/62/fe/65bf7fc7312a22be157ada8d5bb04f2a0061dd317521147720641a9e5063/sam4onnx-1.0.8.tar.gz
+[2024-05-29 01:02:10] INFO root fetch - processPackages [galileo-core]: executing diffoscope
+[2024-05-29 01:02:10] INFO root fetch - processPackages [galileo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_core-1.3.0.tar.gz tmp/galileo_core-1.4.0.tar.gz --markdown 20240529/g/galileo-core/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-29 01:02:10] INFO root fetch - processPackages [gadapt]: executing diffoscope
+[2024-05-29 01:02:10] INFO root fetch - processPackages [gadapt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gadapt-0.4.8.tar.gz tmp/gadapt-0.4.9.tar.gz --markdown 20240529/g/gadapt/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-29 01:02:10] INFO root fetch - processPackages [sam4onnx]: Downloading https://files.pythonhosted.org/packages/10/e9/d7102432ee743cb8f6557fe18fb36b24de7c8b0073f09b2df4de688465f1/sam4onnx-1.0.9.tar.gz
+[2024-05-29 01:02:10] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/83/33/1567a04fa5150ab4ed3fa6e5d179f0cb04bdf09e425dcecfdb489883356a/punkweb_bb-0.2.0.tar.gz
+[2024-05-29 01:02:10] INFO root fetch - processPackages [sam4onnx]: executing diffoscope
+[2024-05-29 01:02:10] INFO root fetch - processPackages [sam4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam4onnx-1.0.8.tar.gz tmp/sam4onnx-1.0.9.tar.gz --markdown 20240529/s/sam4onnx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 01:02:10] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-1.3.0.tar.gz]
+[2024-05-29 01:02:10] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-1.4.0.tar.gz]
+[2024-05-29 01:02:10] INFO root fetch - main [MainThread]: End processing [galileo-core]: success
+[2024-05-29 01:02:10] INFO root fetch - processPackages [punkweb-bb]: executing diffoscope
+[2024-05-29 01:02:10] INFO root fetch - processPackages [punkweb-bb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punkweb_bb-0.1.4.tar.gz tmp/punkweb_bb-0.2.0.tar.gz --markdown 20240529/p/punkweb-bb/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-29 01:02:10] INFO root fetch - processPackages [gadapt]: Remove: archive file [/home/abi/fetcher/tmp/gadapt-0.4.8.tar.gz]
+[2024-05-29 01:02:10] INFO root fetch - processPackages [gadapt]: Remove: archive file [/home/abi/fetcher/tmp/gadapt-0.4.9.tar.gz]
+[2024-05-29 01:02:10] INFO root fetch - main [MainThread]: End processing [gadapt]: success
+[2024-05-29 01:02:11] INFO root fetch - processPackages [sam4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sam4onnx-1.0.8.tar.gz]
+[2024-05-29 01:02:11] INFO root fetch - processPackages [sam4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sam4onnx-1.0.9.tar.gz]
+[2024-05-29 01:02:11] INFO root fetch - main [MainThread]: End processing [sam4onnx]: success
+[2024-05-29 01:02:12] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.1.4.tar.gz]
+[2024-05-29 01:02:12] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.2.0.tar.gz]
+[2024-05-29 01:02:12] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
+[2024-05-29 01:02:12] INFO root fetch - main [MainThread]: Store serial: [23420468]
