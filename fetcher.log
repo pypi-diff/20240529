@@ -224,3 +224,88 @@
 [2024-05-29 00:07:21] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.9.1.tar.gz]
 [2024-05-29 00:07:21] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
 [2024-05-29 00:07:21] INFO root fetch - main [MainThread]: Store serial: [23420006]
+[2024-05-29 00:09:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420006]
+[2024-05-29 00:09:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 00:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-appconfiguration-provider
+[2024-05-29 00:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blablabla
+[2024-05-29 00:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-spacex-api
+[2024-05-29 00:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qualystbx
+[2024-05-29 00:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-mailerlite
+[2024-05-29 00:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-cms-articles
+[2024-05-29 00:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QuikUI
+[2024-05-29 00:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airbyte-source-launchdarkly
+[2024-05-29 00:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alphafold3-pytorch
+[2024-05-29 00:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-source-coda
+[2024-05-29 00:09:29] INFO root fetch - processPackages [blablabla]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 00:09:29] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 00:09:29] INFO root fetch - processPackages [QuikUI]: New version: [0.1.0b0] Old Version: [0.1.0a2]
+[2024-05-29 00:09:29] INFO root fetch - processPackages [alphafold3-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 00:09:29] INFO root fetch - processPackages [django-cms-articles]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-29 00:09:29] INFO root fetch - processPackages [azure-appconfiguration-provider]: New version: [1.2.0] Old Version: [1.1.0b3]
+[2024-05-29 00:09:29] INFO root fetch - processPackages [airbyte-source-spacex-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 00:09:29] INFO root fetch - processPackages [airbyte-source-coda]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-29 00:09:29] INFO root fetch - processPackages [airbyte-source-mailerlite]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-29 00:09:29] INFO root fetch - processPackages [airbyte-source-launchdarkly]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 00:09:29] INFO root fetch - processPackages [blablabla]: Downloading https://files.pythonhosted.org/packages/5f/f2/27fac8006c83eff60062a2ce9d03c62d0867243a2b629b2d632acc686b0f/blablabla-0.0.1.tar.gz
+[2024-05-29 00:09:29] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-29 00:09:29] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/e9/e2/142b19b529aba5b96d18902a5f1c99660ab625fa64921af86b97ac678b40/alphafold3_pytorch-0.0.8.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [QuikUI]: Downloading https://files.pythonhosted.org/packages/2e/d8/fbe5f2c415e0d1aac396e5c97202dd1856c7a7a26b3a5899c26487180dd1/QuikUI-0.1.0a2.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [django-cms-articles]: Downloading https://files.pythonhosted.org/packages/bc/1e/2f332afc9e10c7f8ce0efd97798c0726eca4c41ef9a02122c22d5a887cdf/django_cms_articles-2.1.0.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [azure-appconfiguration-provider]: Downloading https://files.pythonhosted.org/packages/25/f8/fbcd3aba7323e59991f707cca51c41a74c5f4e042e7eb787f1ba8599b6cc/azure-appconfiguration-provider-1.1.0b3.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [airbyte-source-coda]: Downloading https://files.pythonhosted.org/packages/6f/20/b57a892a339b19096957a4a9f488018552c3c26cbd9959cb0257217511e2/airbyte_source_coda-1.2.1.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [airbyte-source-spacex-api]: Downloading https://files.pythonhosted.org/packages/9e/be/d4a1ee459c92cc1e95a867808fdd85f4f858f32460443d534efa309ef760/airbyte-source-spacex-api-0.1.1.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [airbyte-source-mailerlite]: Downloading https://files.pythonhosted.org/packages/b5/eb/1d98d15fbca97560ca718eceb96c98cecf47a3385935fd76ae06cebff555/airbyte-source-mailerlite-0.1.0.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [airbyte-source-launchdarkly]: Downloading https://files.pythonhosted.org/packages/01/31/931dda8d6ff5e961e49f9c9ea0d7b8893066af163f646eec68c4606103ea/airbyte-source-launchdarkly-0.1.0.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [blablabla]: Downloading https://files.pythonhosted.org/packages/16/95/59622cede46a31d368bff154d6b4221d218715d89b75369434ce6405bd72/blablabla-0.0.2.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [QuikUI]: Downloading https://files.pythonhosted.org/packages/c6/80/1d08eba7a92367eb11e4d07096ed57d5f0c84a0a052db1aadd1f1eff795b/QuikUI-0.1.0b0.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [django-cms-articles]: Downloading https://files.pythonhosted.org/packages/60/91/9f15d2db4ed403ab3b59b6fe5d35acc19de212a8b1093898867a0d0cf29a/django_cms_articles-2.1.1.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/96/47/97f198b647d508e9e64e32b67c24069f872d2ff29ca39b5d1ef44a81f68b/alphafold3_pytorch-0.0.9.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [blablabla]: executing diffoscope
+[2024-05-29 00:09:30] INFO root fetch - processPackages [blablabla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blablabla-0.0.1.tar.gz tmp/blablabla-0.0.2.tar.gz --markdown 20240529/b/blablabla/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 00:09:30] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-29 00:09:30] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240529/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 00:09:30] INFO root fetch - processPackages [QuikUI]: executing diffoscope
+[2024-05-29 00:09:30] INFO root fetch - processPackages [QuikUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuikUI-0.1.0a2.tar.gz tmp/QuikUI-0.1.0b0.tar.gz --markdown 20240529/Q/QuikUI/0.1.0a2-0.1.0b0/README.md --exclude *.pyd
+[2024-05-29 00:09:30] INFO root fetch - processPackages [django-cms-articles]: executing diffoscope
+[2024-05-29 00:09:30] INFO root fetch - processPackages [django-cms-articles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cms_articles-2.1.0.tar.gz tmp/django_cms_articles-2.1.1.tar.gz --markdown 20240529/d/django-cms-articles/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-29 00:09:30] ERROR root fetch - processPackages [airbyte-source-coda]: Unable to fetch info: No such project/version 'airbyte-source-coda' 1.2.2
+[2024-05-29 00:09:30] INFO root fetch - main [MainThread]: End processing [airbyte-source-coda] error
+[2024-05-29 00:09:30] INFO root fetch - processPackages [azure-appconfiguration-provider]: Downloading https://files.pythonhosted.org/packages/ed/d1/1144f0a8a35daf2d069aa2196a0a71e53dbd7630670c1763d832065fcd80/azure-appconfiguration-provider-1.2.0.tar.gz
+[2024-05-29 00:09:30] ERROR root fetch - processPackages [airbyte-source-launchdarkly]: Unable to fetch info: No such project/version 'airbyte-source-launchdarkly' 0.1.1
+[2024-05-29 00:09:30] INFO root fetch - main [MainThread]: End processing [airbyte-source-launchdarkly] error
+[2024-05-29 00:09:30] INFO root fetch - processPackages [airbyte-source-spacex-api]: Downloading https://files.pythonhosted.org/packages/37/f0/b80fe0813bb8789b9afa8a62e274520d7fbdd5f1427adb4dffeb6a17c642/airbyte_source_spacex_api-0.1.2.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [airbyte-source-mailerlite]: Downloading https://files.pythonhosted.org/packages/73/95/fa51035a32ca0de95f171917ebbb3f509dfe8eaf9aa5023950f33a64b96b/airbyte_source_mailerlite-1.0.0.tar.gz
+[2024-05-29 00:09:30] INFO root fetch - processPackages [alphafold3-pytorch]: executing diffoscope
+[2024-05-29 00:09:30] INFO root fetch - processPackages [alphafold3-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold3_pytorch-0.0.8.tar.gz tmp/alphafold3_pytorch-0.0.9.tar.gz --markdown 20240529/a/alphafold3-pytorch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 00:09:30] INFO root fetch - processPackages [azure-appconfiguration-provider]: executing diffoscope
+[2024-05-29 00:09:30] INFO root fetch - processPackages [azure-appconfiguration-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-appconfiguration-provider-1.1.0b3.tar.gz tmp/azure-appconfiguration-provider-1.2.0.tar.gz --markdown 20240529/a/azure-appconfiguration-provider/1.1.0b3-1.2.0/README.md --exclude *.pyd
+[2024-05-29 00:09:30] INFO root fetch - processPackages [airbyte-source-spacex-api]: executing diffoscope
+[2024-05-29 00:09:30] INFO root fetch - processPackages [airbyte-source-spacex-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-spacex-api-0.1.1.tar.gz tmp/airbyte_source_spacex_api-0.1.2.tar.gz --markdown 20240529/a/airbyte-source-spacex-api/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-29 00:09:30] INFO root fetch - processPackages [airbyte-source-mailerlite]: executing diffoscope
+[2024-05-29 00:09:30] INFO root fetch - processPackages [airbyte-source-mailerlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-mailerlite-0.1.0.tar.gz tmp/airbyte_source_mailerlite-1.0.0.tar.gz --markdown 20240529/a/airbyte-source-mailerlite/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-29 00:09:31] INFO root fetch - processPackages [blablabla]: Remove: archive file [/home/abi/fetcher/tmp/blablabla-0.0.1.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - processPackages [blablabla]: Remove: archive file [/home/abi/fetcher/tmp/blablabla-0.0.2.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - main [MainThread]: End processing [blablabla]: success
+[2024-05-29 00:09:31] INFO root fetch - processPackages [QuikUI]: Remove: archive file [/home/abi/fetcher/tmp/QuikUI-0.1.0a2.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - processPackages [QuikUI]: Remove: archive file [/home/abi/fetcher/tmp/QuikUI-0.1.0b0.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - main [MainThread]: End processing [QuikUI]: success
+[2024-05-29 00:09:31] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-29 00:09:31] INFO root fetch - processPackages [airbyte-source-mailerlite]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-mailerlite-0.1.0.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - processPackages [airbyte-source-mailerlite]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mailerlite-1.0.0.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - main [MainThread]: End processing [airbyte-source-mailerlite]: success
+[2024-05-29 00:09:31] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.8.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.9.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch]: success
+[2024-05-29 00:09:31] INFO root fetch - processPackages [airbyte-source-spacex-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-spacex-api-0.1.1.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - processPackages [airbyte-source-spacex-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_spacex_api-0.1.2.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - main [MainThread]: End processing [airbyte-source-spacex-api]: success
+[2024-05-29 00:09:31] INFO root fetch - processPackages [django-cms-articles]: Remove: archive file [/home/abi/fetcher/tmp/django_cms_articles-2.1.0.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - processPackages [django-cms-articles]: Remove: archive file [/home/abi/fetcher/tmp/django_cms_articles-2.1.1.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - main [MainThread]: End processing [django-cms-articles]: success
+[2024-05-29 00:09:31] INFO root fetch - processPackages [azure-appconfiguration-provider]: Remove: archive file [/home/abi/fetcher/tmp/azure-appconfiguration-provider-1.1.0b3.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - processPackages [azure-appconfiguration-provider]: Remove: archive file [/home/abi/fetcher/tmp/azure-appconfiguration-provider-1.2.0.tar.gz]
+[2024-05-29 00:09:31] INFO root fetch - main [MainThread]: End processing [azure-appconfiguration-provider]: success
+[2024-05-29 00:09:31] INFO root fetch - main [MainThread]: Store serial: [23420037]
