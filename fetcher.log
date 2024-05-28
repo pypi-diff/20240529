@@ -952,3 +952,52 @@
 [2024-05-29 00:42:29] INFO root fetch - processPackages [coldtype]: Remove: archive file [/home/abi/fetcher/tmp/coldtype-0.9.9.tar.gz]
 [2024-05-29 00:42:29] INFO root fetch - main [MainThread]: End processing [coldtype]: success
 [2024-05-29 00:42:29] INFO root fetch - main [MainThread]: Store serial: [23420292]
+[2024-05-29 00:44:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420292]
+[2024-05-29 00:44:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 00:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bikeshed
+[2024-05-29 00:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pykinml
+[2024-05-29 00:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycodata
+[2024-05-29 00:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bikeshed
+[2024-05-29 00:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ebb-events
+[2024-05-29 00:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ShellUtilities
+[2024-05-29 00:44:39] INFO root fetch - processPackages [pykinml]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 00:44:39] INFO root fetch - processPackages [pycodata]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-29 00:44:39] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/0a/2a/2274fef3ad335e692cfe16f867ef281f1afaeb2d88d8c1599c9a13a43e1d/pycodata-1.0.0.tar.gz
+[2024-05-29 00:44:39] INFO root fetch - processPackages [ShellUtilities]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-29 00:44:39] INFO root fetch - processPackages [bikeshed]: New version: [4.1.8] Old Version: [4.1.7]
+[2024-05-29 00:44:39] INFO root fetch - processPackages [bikeshed]: New version: [4.1.8] Old Version: [4.1.7]
+[2024-05-29 00:44:39] INFO root fetch - processPackages [ebb-events]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-29 00:44:39] INFO root fetch - processPackages [pykinml]: Downloading https://files.pythonhosted.org/packages/9a/e4/89be441b87a37a7aab3a8dd257f012f766cb3f1b9642029b3b86d21f2812/pykinml-1.0.1.tar.gz
+[2024-05-29 00:44:39] INFO root fetch - processPackages [bikeshed]: Downloading https://files.pythonhosted.org/packages/80/c9/af9f0b0c4e2f3e1edc899e3037d20686a01363d2ab7fb9995df82b144c2d/bikeshed-4.1.7.tar.gz
+[2024-05-29 00:44:39] INFO root fetch - processPackages [bikeshed]: Downloading https://files.pythonhosted.org/packages/80/c9/af9f0b0c4e2f3e1edc899e3037d20686a01363d2ab7fb9995df82b144c2d/bikeshed-4.1.7.tar.gz
+[2024-05-29 00:44:40] INFO root fetch - processPackages [ebb-events]: Downloading https://files.pythonhosted.org/packages/6b/8d/6a4c9719df4bcaa86dea683beb366a94cc037a4df7a1d7275541b2b34551/ebb_events-0.3.4.tar.gz
+[2024-05-29 00:44:40] INFO root fetch - processPackages [ShellUtilities]: Downloading https://files.pythonhosted.org/packages/5c/17/0e90185fcc2908738f2444c7afed4fa0ad8fa303bc69f10fc7a514cdf79d/ShellUtilities-2.1.8.tar.gz
+[2024-05-29 00:44:40] WARNING root fetch - processPackages [bikeshed]: Skipping package: exceeds size limit 12771926>=10485760
+[2024-05-29 00:44:40] INFO root fetch - main [MainThread]: End processing [bikeshed] error
+[2024-05-29 00:44:40] WARNING root fetch - processPackages [bikeshed]: Skipping package: exceeds size limit 12771926>=10485760
+[2024-05-29 00:44:40] INFO root fetch - main [MainThread]: End processing [bikeshed] error
+[2024-05-29 00:44:40] INFO root fetch - processPackages [pykinml]: Downloading https://files.pythonhosted.org/packages/4f/02/0d55fd72c6d55dd8392f916d62cf5c48342ab316f16863be0180bfb81acd/pykinml-1.0.2.tar.gz
+[2024-05-29 00:44:40] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/d7/bf/554236228851b30b79e438b903263e7d8e5af2f38844f9f6d8e314f0cd25/pycodata-1.1.0.tar.gz
+[2024-05-29 00:44:40] INFO root fetch - processPackages [pykinml]: executing diffoscope
+[2024-05-29 00:44:40] INFO root fetch - processPackages [pykinml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykinml-1.0.1.tar.gz tmp/pykinml-1.0.2.tar.gz --markdown 20240529/p/pykinml/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 00:44:40] INFO root fetch - processPackages [ebb-events]: Downloading https://files.pythonhosted.org/packages/e8/fc/e3e95d9c8b4579c31e6287a3bbd5d4a670da51596a0207828accbdcd23cb/ebb_events-0.3.5.tar.gz
+[2024-05-29 00:44:40] INFO root fetch - processPackages [pycodata]: executing diffoscope
+[2024-05-29 00:44:40] INFO root fetch - processPackages [pycodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycodata-1.0.0.tar.gz tmp/pycodata-1.1.0.tar.gz --markdown 20240529/p/pycodata/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-29 00:44:40] INFO root fetch - processPackages [ebb-events]: executing diffoscope
+[2024-05-29 00:44:40] INFO root fetch - processPackages [ebb-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebb_events-0.3.4.tar.gz tmp/ebb_events-0.3.5.tar.gz --markdown 20240529/e/ebb-events/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-29 00:44:40] INFO root fetch - processPackages [ShellUtilities]: Downloading https://files.pythonhosted.org/packages/bc/2b/4c5e2e3befae9ee4a974047f21a3177c887747dd7ceffd6b5abe625c65ff/ShellUtilities-2.1.9.tar.gz
+[2024-05-29 00:44:40] INFO root fetch - processPackages [ShellUtilities]: executing diffoscope
+[2024-05-29 00:44:40] INFO root fetch - processPackages [ShellUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ShellUtilities-2.1.8.tar.gz tmp/ShellUtilities-2.1.9.tar.gz --markdown 20240529/S/ShellUtilities/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-29 00:44:41] INFO root fetch - processPackages [pykinml]: Remove: archive file [/home/abi/fetcher/tmp/pykinml-1.0.1.tar.gz]
+[2024-05-29 00:44:41] INFO root fetch - processPackages [pykinml]: Remove: archive file [/home/abi/fetcher/tmp/pykinml-1.0.2.tar.gz]
+[2024-05-29 00:44:41] INFO root fetch - main [MainThread]: End processing [pykinml]: success
+[2024-05-29 00:44:41] INFO root fetch - processPackages [ShellUtilities]: Remove: archive file [/home/abi/fetcher/tmp/ShellUtilities-2.1.8.tar.gz]
+[2024-05-29 00:44:41] INFO root fetch - processPackages [ShellUtilities]: Remove: archive file [/home/abi/fetcher/tmp/ShellUtilities-2.1.9.tar.gz]
+[2024-05-29 00:44:41] INFO root fetch - main [MainThread]: End processing [ShellUtilities]: success
+[2024-05-29 00:44:41] INFO root fetch - processPackages [ebb-events]: Remove: archive file [/home/abi/fetcher/tmp/ebb_events-0.3.4.tar.gz]
+[2024-05-29 00:44:41] INFO root fetch - processPackages [ebb-events]: Remove: archive file [/home/abi/fetcher/tmp/ebb_events-0.3.5.tar.gz]
+[2024-05-29 00:44:41] INFO root fetch - main [MainThread]: End processing [ebb-events]: success
+[2024-05-29 00:44:43] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-1.0.0.tar.gz]
+[2024-05-29 00:44:43] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-1.1.0.tar.gz]
+[2024-05-29 00:44:43] INFO root fetch - main [MainThread]: End processing [pycodata]: success
+[2024-05-29 00:44:43] INFO root fetch - main [MainThread]: Store serial: [23420313]
