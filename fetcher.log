@@ -769,3 +769,63 @@
 [2024-05-29 00:31:27] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-1.1.0.tar.gz]
 [2024-05-29 00:31:27] INFO root fetch - main [MainThread]: End processing [pycodata]: success
 [2024-05-29 00:31:27] INFO root fetch - main [MainThread]: Store serial: [23420212]
+[2024-05-29 00:33:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420212]
+[2024-05-29 00:33:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocsi
+[2024-05-29 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amolkit
+[2024-05-29 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-cms-articles
+[2024-05-29 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: symbol-sdk-python
+[2024-05-29 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codal-tsetmc
+[2024-05-29 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: togetherai-haystack
+[2024-05-29 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qualystbx
+[2024-05-29 00:33:40] INFO root fetch - processPackages [mkdocsi]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-05-29 00:33:40] INFO root fetch - processPackages [codal-tsetmc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 00:33:40] INFO root fetch - processPackages [amolkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 00:33:40] INFO root fetch - processPackages [django-cms-articles]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-29 00:33:40] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 00:33:40] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/9c/63/bbdcc98449c0e4044846358e356060aa691e58882485f8ac9930ac65514b/mkdocsi-1.1.9.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [symbol-sdk-python]: New version: [3.2.2] Old Version: [3.2.0]
+[2024-05-29 00:33:41] WARNING root fetch - processPackages [togetherai-haystack]: Skipping, unable to determine old version
+[2024-05-29 00:33:41] INFO root fetch - main [MainThread]: End processing [togetherai-haystack] error
+[2024-05-29 00:33:41] INFO root fetch - processPackages [codal-tsetmc]: Downloading https://files.pythonhosted.org/packages/d9/c4/267edd26f171e53aad2716c1b19a4a3cee6527999bf2d119dff8de0f061c/codal_tsetmc-0.0.8.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [django-cms-articles]: Downloading https://files.pythonhosted.org/packages/60/91/9f15d2db4ed403ab3b59b6fe5d35acc19de212a8b1093898867a0d0cf29a/django_cms_articles-2.1.1.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [amolkit]: Downloading https://files.pythonhosted.org/packages/88/df/79b9f7d3d34d2a2695246e1301cebb766aee73771475b8dd067ac4f85946/amolkit-1.0.8.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [amolkit]: Downloading https://files.pythonhosted.org/packages/ce/4b/505d4c754b54dc72bbec79af98f43d745735eadeabd65768dde204af6461/amolkit-1.0.9.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [symbol-sdk-python]: Downloading https://files.pythonhosted.org/packages/c2/27/13bd47573eef377b9b3466e5b0fb94380b73360780e2be160b97dd69cd53/symbol_sdk_python-3.2.0.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/1a/20/542da77c4be4e52386ead32695ddeb6b50c3fd8de4982527fb75d8f8ff98/mkdocsi-1.2.0.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [codal-tsetmc]: Downloading https://files.pythonhosted.org/packages/10/18/92ca7e952acd820cc5293286bb96017f583d9ac1c5f6ddb222758d65ee89/codal_tsetmc-0.0.9.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [django-cms-articles]: Downloading https://files.pythonhosted.org/packages/d9/59/f17bd381d07558a483197a11e6b2d5fd88dfe44353c5ee5dcffa36bf067f/django_cms_articles-2.1.2.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-29 00:33:41] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240529/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 00:33:41] INFO root fetch - processPackages [amolkit]: executing diffoscope
+[2024-05-29 00:33:41] INFO root fetch - processPackages [amolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amolkit-1.0.8.tar.gz tmp/amolkit-1.0.9.tar.gz --markdown 20240529/a/amolkit/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 00:33:41] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 00:33:41] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.1.9.tar.gz tmp/mkdocsi-1.2.0.tar.gz --markdown 20240529/m/mkdocsi/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-05-29 00:33:41] INFO root fetch - processPackages [codal-tsetmc]: executing diffoscope
+[2024-05-29 00:33:41] INFO root fetch - processPackages [codal-tsetmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codal_tsetmc-0.0.8.tar.gz tmp/codal_tsetmc-0.0.9.tar.gz --markdown 20240529/c/codal-tsetmc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 00:33:41] INFO root fetch - processPackages [django-cms-articles]: executing diffoscope
+[2024-05-29 00:33:41] INFO root fetch - processPackages [django-cms-articles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cms_articles-2.1.1.tar.gz tmp/django_cms_articles-2.1.2.tar.gz --markdown 20240529/d/django-cms-articles/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-29 00:33:41] INFO root fetch - processPackages [symbol-sdk-python]: Downloading https://files.pythonhosted.org/packages/33/cb/3b6d59e21c9500f181d388dd1a7e0023e3665e541e380fc79ced7d770af2/symbol_sdk_python-3.2.2.tar.gz
+[2024-05-29 00:33:41] INFO root fetch - processPackages [symbol-sdk-python]: executing diffoscope
+[2024-05-29 00:33:41] INFO root fetch - processPackages [symbol-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbol_sdk_python-3.2.0.tar.gz tmp/symbol_sdk_python-3.2.2.tar.gz --markdown 20240529/s/symbol-sdk-python/3.2.0-3.2.2/README.md --exclude *.pyd
+[2024-05-29 00:33:42] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-29 00:33:42] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.1.9.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.0.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 00:33:42] INFO root fetch - processPackages [amolkit]: Remove: archive file [/home/abi/fetcher/tmp/amolkit-1.0.8.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - processPackages [amolkit]: Remove: archive file [/home/abi/fetcher/tmp/amolkit-1.0.9.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - main [MainThread]: End processing [amolkit]: success
+[2024-05-29 00:33:42] INFO root fetch - processPackages [django-cms-articles]: Remove: archive file [/home/abi/fetcher/tmp/django_cms_articles-2.1.1.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - processPackages [django-cms-articles]: Remove: archive file [/home/abi/fetcher/tmp/django_cms_articles-2.1.2.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - main [MainThread]: End processing [django-cms-articles]: success
+[2024-05-29 00:33:42] INFO root fetch - processPackages [codal-tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/codal_tsetmc-0.0.8.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - processPackages [codal-tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/codal_tsetmc-0.0.9.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - main [MainThread]: End processing [codal-tsetmc]: success
+[2024-05-29 00:33:42] INFO root fetch - processPackages [symbol-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/symbol_sdk_python-3.2.0.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - processPackages [symbol-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/symbol_sdk_python-3.2.2.tar.gz]
+[2024-05-29 00:33:42] INFO root fetch - main [MainThread]: End processing [symbol-sdk-python]: success
+[2024-05-29 00:33:42] INFO root fetch - main [MainThread]: Store serial: [23420247]
