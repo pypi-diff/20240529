@@ -1908,3 +1908,32 @@
 [2024-05-29 01:44:14] INFO root fetch - processPackages [Brightify]: Remove: archive file [/home/abi/fetcher/tmp/brightify-0.1.6.tar.gz]
 [2024-05-29 01:44:14] INFO root fetch - main [MainThread]: End processing [Brightify]: success
 [2024-05-29 01:44:14] INFO root fetch - main [MainThread]: Store serial: [23420877]
+[2024-05-29 01:46:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420877]
+[2024-05-29 01:46:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 01:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osbot-utils
+[2024-05-29 01:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mg-pso-gui
+[2024-05-29 01:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zaber-motion
+[2024-05-29 01:46:22] INFO root fetch - processPackages [osbot-utils]: New version: [1.7.7] Old Version: [1.7.1]
+[2024-05-29 01:46:22] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-29 01:46:22] INFO root fetch - processPackages [osbot-utils]: Downloading https://files.pythonhosted.org/packages/17/ba/567fc87a42e9dbe7bdef8e98ec5b8f974267559ebe882bb32e6a087267d7/osbot_utils-1.7.1.tar.gz
+[2024-05-29 01:46:22] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/df/83/034ff30ffab79111af61b23ddbbacb0dc8d0faee9958bec000f788ee7a76/mg-pso-gui-0.1.98.tar.gz
+[2024-05-29 01:46:23] INFO root fetch - processPackages [zaber-motion]: New version: [6.0.1] Old Version: [6.0.0]
+[2024-05-29 01:46:23] INFO root fetch - processPackages [osbot-utils]: Downloading https://files.pythonhosted.org/packages/14/e0/7fb4a632bcebd76e537cc1fa59be128fd366ccbf9cefee0e3015450c1577/osbot_utils-1.7.7.tar.gz
+[2024-05-29 01:46:23] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-29 01:46:23] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.98.tar.gz tmp/mg-pso-gui-0.1.99.tar.gz --markdown 20240529/m/mg-pso-gui/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-29 01:46:23] INFO root fetch - processPackages [osbot-utils]: executing diffoscope
+[2024-05-29 01:46:23] INFO root fetch - processPackages [osbot-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osbot_utils-1.7.1.tar.gz tmp/osbot_utils-1.7.7.tar.gz --markdown 20240529/o/osbot-utils/1.7.1-1.7.7/README.md --exclude *.pyd
+[2024-05-29 01:46:23] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/82/02/7143c9552630159e74d22d7edc8acb7a5dc489a65ca82dcf8d79f3e72697/zaber_motion-6.0.0.tar.gz
+[2024-05-29 01:46:23] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.98.tar.gz]
+[2024-05-29 01:46:23] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.99.tar.gz]
+[2024-05-29 01:46:23] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-29 01:46:23] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/47/9b/e8d2fd1d086f65dee23fef5d56266bc68899aa3feba4c152c0750a2da39c/zaber_motion-6.0.1-py3-none-manylinux_2_27_armv7l.whl
+[2024-05-29 01:46:24] INFO root fetch - processPackages [osbot-utils]: Remove: archive file [/home/abi/fetcher/tmp/osbot_utils-1.7.1.tar.gz]
+[2024-05-29 01:46:24] INFO root fetch - processPackages [osbot-utils]: Remove: archive file [/home/abi/fetcher/tmp/osbot_utils-1.7.7.tar.gz]
+[2024-05-29 01:46:24] INFO root fetch - main [MainThread]: End processing [osbot-utils]: success
+[2024-05-29 01:46:25] INFO root fetch - processPackages [zaber-motion]: executing diffoscope
+[2024-05-29 01:46:25] INFO root fetch - processPackages [zaber-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaber_motion-6.0.0.tar.gz tmp/zaber_motion-6.0.1-py3-none-manylinux_2_27_armv7l.whl.zip --markdown 20240529/z/zaber-motion/6.0.0-6.0.1/README.md --exclude *.pyd
+[2024-05-29 01:46:26] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-6.0.0.tar.gz]
+[2024-05-29 01:46:26] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-6.0.1-py3-none-manylinux_2_27_armv7l.whl.zip]
+[2024-05-29 01:46:26] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
+[2024-05-29 01:46:26] INFO root fetch - main [MainThread]: Store serial: [23420886]
