@@ -1937,3 +1937,30 @@
 [2024-05-29 01:46:26] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-6.0.1-py3-none-manylinux_2_27_armv7l.whl.zip]
 [2024-05-29 01:46:26] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
 [2024-05-29 01:46:26] INFO root fetch - main [MainThread]: Store serial: [23420886]
+[2024-05-29 01:48:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420886]
+[2024-05-29 01:48:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 01:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: altmindpy
+[2024-05-29 01:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qualystbx
+[2024-05-29 01:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FeatureManagement
+[2024-05-29 01:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loopstructuralvisualisation
+[2024-05-29 01:48:34] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 01:48:35] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-29 01:48:35] INFO root fetch - processPackages [altmindpy]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-29 01:48:35] ERROR root fetch - processPackages [loopstructuralvisualisation]: Unable to get metadata: No such project 'loopstructuralvisualisation'
+[2024-05-29 01:48:35] INFO root fetch - main [MainThread]: End processing [loopstructuralvisualisation] error
+[2024-05-29 01:48:35] WARNING root fetch - processPackages [FeatureManagement]: Skipping, unable to determine old version
+[2024-05-29 01:48:35] INFO root fetch - main [MainThread]: End processing [FeatureManagement] error
+[2024-05-29 01:48:35] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-29 01:48:35] INFO root fetch - processPackages [altmindpy]: Downloading https://files.pythonhosted.org/packages/8e/34/cac66b4efa906422c5cedee5b9c533f934d3f12ea7d90688e74d3c68b727/altmindpy-0.1.0.tar.gz
+[2024-05-29 01:48:35] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-29 01:48:35] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240529/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 01:48:35] INFO root fetch - processPackages [altmindpy]: Downloading https://files.pythonhosted.org/packages/89/2f/61e9830fe13979925c33e94917eff04705b3a18d62d7f393abf6e86dfdbf/altmindpy-0.2.0.tar.gz
+[2024-05-29 01:48:35] INFO root fetch - processPackages [altmindpy]: executing diffoscope
+[2024-05-29 01:48:35] INFO root fetch - processPackages [altmindpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altmindpy-0.1.0.tar.gz tmp/altmindpy-0.2.0.tar.gz --markdown 20240529/a/altmindpy/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-29 01:48:36] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-29 01:48:36] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-29 01:48:36] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-29 01:48:36] INFO root fetch - processPackages [altmindpy]: Remove: archive file [/home/abi/fetcher/tmp/altmindpy-0.1.0.tar.gz]
+[2024-05-29 01:48:36] INFO root fetch - processPackages [altmindpy]: Remove: archive file [/home/abi/fetcher/tmp/altmindpy-0.2.0.tar.gz]
+[2024-05-29 01:48:36] INFO root fetch - main [MainThread]: End processing [altmindpy]: success
+[2024-05-29 01:48:36] INFO root fetch - main [MainThread]: Store serial: [23420908]
