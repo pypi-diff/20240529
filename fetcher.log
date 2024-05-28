@@ -1057,3 +1057,33 @@
 [2024-05-29 00:46:54] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.7.1.tar.gz]
 [2024-05-29 00:46:54] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2024-05-29 00:46:54] INFO root fetch - main [MainThread]: Store serial: [23420337]
+[2024-05-29 00:48:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420337]
+[2024-05-29 00:49:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypanther
+[2024-05-29 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inema
+[2024-05-29 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Encorsa-e-Factura
+[2024-05-29 00:49:03] INFO root fetch - processPackages [Encorsa-e-Factura]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-29 00:49:03] INFO root fetch - processPackages [pypanther]: New version: [0.1.1a8] Old Version: [0.1.1a3]
+[2024-05-29 00:49:03] INFO root fetch - processPackages [Encorsa-e-Factura]: Downloading https://files.pythonhosted.org/packages/a1/26/f7a79c72f293153a32b4887426feaed3203112a68d90400227da940cfd95/encorsa_e_factura-0.3.0.tar.gz
+[2024-05-29 00:49:03] INFO root fetch - processPackages [pypanther]: Downloading https://files.pythonhosted.org/packages/c9/75/45fa9c02aaf3ebde32daa14413f3fd2fe49f77910cd0381804dad678113c/pypanther-0.1.1a3.tar.gz
+[2024-05-29 00:49:03] INFO root fetch - processPackages [inema]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-29 00:49:03] INFO root fetch - processPackages [Encorsa-e-Factura]: Downloading https://files.pythonhosted.org/packages/02/a0/1e1ffe0886ebf63ac4d37dcde91f44ecaae7dd2ab14dbf18b6d3ba2225cb/encorsa_e_factura-0.3.1.tar.gz
+[2024-05-29 00:49:03] INFO root fetch - processPackages [inema]: Downloading https://files.pythonhosted.org/packages/93/92/51d6e5e5828731dd741932ce91286999d5102b6839bc60e8afad7bb0365f/inema-0.8.8.tar.gz
+[2024-05-29 00:49:03] INFO root fetch - processPackages [pypanther]: Downloading https://files.pythonhosted.org/packages/a4/e2/7b3bebe384d76738d7c2517491a8334637d980347245ef24a77f8c8c1369/pypanther-0.1.1a8.tar.gz
+[2024-05-29 00:49:04] INFO root fetch - processPackages [Encorsa-e-Factura]: executing diffoscope
+[2024-05-29 00:49:04] INFO root fetch - processPackages [Encorsa-e-Factura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encorsa_e_factura-0.3.0.tar.gz tmp/encorsa_e_factura-0.3.1.tar.gz --markdown 20240529/E/Encorsa-e-Factura/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-29 00:49:04] INFO root fetch - processPackages [pypanther]: executing diffoscope
+[2024-05-29 00:49:04] INFO root fetch - processPackages [pypanther]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypanther-0.1.1a3.tar.gz tmp/pypanther-0.1.1a8.tar.gz --markdown 20240529/p/pypanther/0.1.1a3-0.1.1a8/README.md --exclude *.pyd
+[2024-05-29 00:49:04] INFO root fetch - processPackages [inema]: Downloading https://files.pythonhosted.org/packages/8f/46/30f2f93f5666eca4ec68c8cf0f797472b0cd773cef45133648f435c04f52/inema-0.8.9.tar.gz
+[2024-05-29 00:49:04] INFO root fetch - processPackages [inema]: executing diffoscope
+[2024-05-29 00:49:04] INFO root fetch - processPackages [inema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inema-0.8.8.tar.gz tmp/inema-0.8.9.tar.gz --markdown 20240529/i/inema/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-29 00:49:04] INFO root fetch - processPackages [Encorsa-e-Factura]: Remove: archive file [/home/abi/fetcher/tmp/encorsa_e_factura-0.3.0.tar.gz]
+[2024-05-29 00:49:04] INFO root fetch - processPackages [Encorsa-e-Factura]: Remove: archive file [/home/abi/fetcher/tmp/encorsa_e_factura-0.3.1.tar.gz]
+[2024-05-29 00:49:04] INFO root fetch - main [MainThread]: End processing [Encorsa-e-Factura]: success
+[2024-05-29 00:49:04] INFO root fetch - processPackages [inema]: Remove: archive file [/home/abi/fetcher/tmp/inema-0.8.8.tar.gz]
+[2024-05-29 00:49:04] INFO root fetch - processPackages [inema]: Remove: archive file [/home/abi/fetcher/tmp/inema-0.8.9.tar.gz]
+[2024-05-29 00:49:04] INFO root fetch - main [MainThread]: End processing [inema]: success
+[2024-05-29 00:49:08] INFO root fetch - processPackages [pypanther]: Remove: archive file [/home/abi/fetcher/tmp/pypanther-0.1.1a3.tar.gz]
+[2024-05-29 00:49:08] INFO root fetch - processPackages [pypanther]: Remove: archive file [/home/abi/fetcher/tmp/pypanther-0.1.1a8.tar.gz]
+[2024-05-29 00:49:08] INFO root fetch - main [MainThread]: End processing [pypanther]: success
+[2024-05-29 00:49:08] INFO root fetch - main [MainThread]: Store serial: [23420345]
