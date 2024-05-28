@@ -1275,3 +1275,32 @@
 [2024-05-29 01:02:12] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.2.0.tar.gz]
 [2024-05-29 01:02:12] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
 [2024-05-29 01:02:12] INFO root fetch - main [MainThread]: Store serial: [23420468]
+[2024-05-29 01:04:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420468]
+[2024-05-29 01:04:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 01:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clearner
+[2024-05-29 01:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RagSGE-chinese
+[2024-05-29 01:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bd_to_avp
+[2024-05-29 01:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: getpaper
+[2024-05-29 01:04:20] INFO root fetch - processPackages [bd_to_avp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 01:04:20] INFO root fetch - processPackages [bd_to_avp]: Downloading https://files.pythonhosted.org/packages/00/db/7e18af63153f16cb6b9d0cd019ae969bcff7057bcdaa43a5b82e8224ed2d/bd_to_avp-0.1.8.tar.gz
+[2024-05-29 01:04:20] WARNING root fetch - processPackages [RagSGE-chinese]: Skipping, unable to determine old version
+[2024-05-29 01:04:20] INFO root fetch - processPackages [getpaper]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-29 01:04:20] INFO root fetch - main [MainThread]: End processing [RagSGE-chinese] error
+[2024-05-29 01:04:20] INFO root fetch - processPackages [clearner]: New version: [0.9.91] Old Version: [0.9.90]
+[2024-05-29 01:04:20] WARNING root fetch - processPackages [bd_to_avp]: Skipping package: exceeds size limit 16498870>=10485760
+[2024-05-29 01:04:20] INFO root fetch - main [MainThread]: End processing [bd_to_avp] error
+[2024-05-29 01:04:20] INFO root fetch - processPackages [clearner]: Downloading https://files.pythonhosted.org/packages/35/56/85983eae7dcc7f1bc86e683a90b886aef1e45c0bb0a177ad4b43e5ddaf33/clearner-0.9.90.tar.gz
+[2024-05-29 01:04:20] INFO root fetch - processPackages [getpaper]: Downloading https://files.pythonhosted.org/packages/dc/35/75b197e6a68e95d4878f7decfd155dafc908fae6a8e19941409e4fcc1378/getpaper-0.4.9.tar.gz
+[2024-05-29 01:04:21] INFO root fetch - processPackages [clearner]: Downloading https://files.pythonhosted.org/packages/fc/05/f10f518d7da80e25da7c6675822eaebe11462964784c7a95a104b75a0bc5/clearner-0.9.91.tar.gz
+[2024-05-29 01:04:21] INFO root fetch - processPackages [getpaper]: Downloading https://files.pythonhosted.org/packages/6f/f7/ebc4948133aa0dee1f8e5fc39edbf6cceae3a1cba99a240c5c06fe4528d2/getpaper-0.5.0.tar.gz
+[2024-05-29 01:04:21] INFO root fetch - processPackages [clearner]: executing diffoscope
+[2024-05-29 01:04:21] INFO root fetch - processPackages [clearner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearner-0.9.90.tar.gz tmp/clearner-0.9.91.tar.gz --markdown 20240529/c/clearner/0.9.90-0.9.91/README.md --exclude *.pyd
+[2024-05-29 01:04:21] INFO root fetch - processPackages [getpaper]: executing diffoscope
+[2024-05-29 01:04:21] INFO root fetch - processPackages [getpaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getpaper-0.4.9.tar.gz tmp/getpaper-0.5.0.tar.gz --markdown 20240529/g/getpaper/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-29 01:04:22] INFO root fetch - processPackages [getpaper]: Remove: archive file [/home/abi/fetcher/tmp/getpaper-0.4.9.tar.gz]
+[2024-05-29 01:04:22] INFO root fetch - processPackages [getpaper]: Remove: archive file [/home/abi/fetcher/tmp/getpaper-0.5.0.tar.gz]
+[2024-05-29 01:04:22] INFO root fetch - main [MainThread]: End processing [getpaper]: success
+[2024-05-29 01:04:22] INFO root fetch - processPackages [clearner]: Remove: archive file [/home/abi/fetcher/tmp/clearner-0.9.90.tar.gz]
+[2024-05-29 01:04:22] INFO root fetch - processPackages [clearner]: Remove: archive file [/home/abi/fetcher/tmp/clearner-0.9.91.tar.gz]
+[2024-05-29 01:04:22] INFO root fetch - main [MainThread]: End processing [clearner]: success
+[2024-05-29 01:04:22] INFO root fetch - main [MainThread]: Store serial: [23420481]
