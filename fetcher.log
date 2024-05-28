@@ -149,3 +149,78 @@
 [2024-05-29 00:05:10] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.7.dev3.tar.gz]
 [2024-05-29 00:05:10] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
 [2024-05-29 00:05:10] INFO root fetch - main [MainThread]: Store serial: [23419969]
+[2024-05-29 00:07:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23419969]
+[2024-05-29 00:07:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 00:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: felupe
+[2024-05-29 00:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svtplay-dl
+[2024-05-29 00:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-google-webfonts
+[2024-05-29 00:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynajax
+[2024-05-29 00:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: palimpzest
+[2024-05-29 00:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellxgene-census
+[2024-05-29 00:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AqEquil
+[2024-05-29 00:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airbyte-source-gainsight-px
+[2024-05-29 00:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airbyte-source-ashby
+[2024-05-29 00:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-source-polygon-stock-api
+[2024-05-29 00:07:19] INFO root fetch - processPackages [felupe]: New version: [8.6.0] Old Version: [8.5.1]
+[2024-05-29 00:07:19] INFO root fetch - processPackages [felupe]: Downloading https://files.pythonhosted.org/packages/81/0f/1cfaf8581cd3ac8a60804286741e67d30d5b4f5a79cea0d441888ed08344/felupe-8.5.1.tar.gz
+[2024-05-29 00:07:19] INFO root fetch - processPackages [svtplay-dl]: New version: [4.9] Old Version: [4.8]
+[2024-05-29 00:07:19] INFO root fetch - processPackages [pynajax]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-29 00:07:19] INFO root fetch - processPackages [airbyte-source-google-webfonts]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 00:07:19] INFO root fetch - processPackages [airbyte-source-gainsight-px]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 00:07:19] WARNING root fetch - processPackages [palimpzest]: Skipping, unable to determine old version
+[2024-05-29 00:07:19] INFO root fetch - processPackages [cellxgene-census]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-29 00:07:19] INFO root fetch - processPackages [airbyte-source-ashby]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 00:07:19] INFO root fetch - main [MainThread]: End processing [palimpzest] error
+[2024-05-29 00:07:19] INFO root fetch - processPackages [AqEquil]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-29 00:07:19] INFO root fetch - processPackages [airbyte-source-polygon-stock-api]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-29 00:07:19] INFO root fetch - processPackages [pynajax]: Downloading https://files.pythonhosted.org/packages/99/9d/adce346ac0d9e9413615371f1c897c9c43a6dbeddd1c6a31ea440f401e09/pynajax-0.1.2.tar.gz
+[2024-05-29 00:07:19] INFO root fetch - processPackages [svtplay-dl]: Downloading https://files.pythonhosted.org/packages/75/24/b7383220b002857995ff8bc68c5ef37adea8a7283c742cb35cb5501ddc2c/svtplay-dl-4.8.tar.gz
+[2024-05-29 00:07:19] INFO root fetch - processPackages [felupe]: Downloading https://files.pythonhosted.org/packages/8e/97/ba9d6faabb4f0e2415251898ca8a0c7b23b67b872d981174d37f6a0c48e8/felupe-8.6.0-py3-none-any.whl
+[2024-05-29 00:07:19] INFO root fetch - processPackages [airbyte-source-gainsight-px]: Downloading https://files.pythonhosted.org/packages/86/8e/29f8884f59b4011134996675857b68827b2d1f71afac7dc9fdec743c84c4/airbyte_source_gainsight_px-0.1.1.tar.gz
+[2024-05-29 00:07:19] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/c9/d5/c28329d99b22dff22a03c58cb4d516d8de72ff01202f4d197b0a2955bcb4/cellxgene_census-1.9.0.tar.gz
+[2024-05-29 00:07:19] INFO root fetch - processPackages [airbyte-source-ashby]: Downloading https://files.pythonhosted.org/packages/25/30/a46f33635b589eddc6762bb7670b0548c6df0aaf50e5e1bf8d25aca1e89b/airbyte_source_ashby-0.1.1.tar.gz
+[2024-05-29 00:07:19] INFO root fetch - processPackages [AqEquil]: Downloading https://files.pythonhosted.org/packages/44/44/6292639aa37b0f2347f4370186346947abc15dcc1a1d7ce11df7dc7d93b1/AqEquil-0.9.2.tar.gz
+[2024-05-29 00:07:19] INFO root fetch - processPackages [airbyte-source-polygon-stock-api]: Downloading https://files.pythonhosted.org/packages/d0/20/9df00b1801554993af8a212221ef8e047a7f335a9152b753ed1fd181d88f/airbyte_source_polygon_stock_api-0.1.5.tar.gz
+[2024-05-29 00:07:19] INFO root fetch - processPackages [airbyte-source-google-webfonts]: Downloading https://files.pythonhosted.org/packages/5b/68/88ebdda22074f42399d79e257f6cc676d6673994e04fb759b6f5b8773e12/airbyte_source_google_webfonts-0.1.3.tar.gz
+[2024-05-29 00:07:19] INFO root fetch - processPackages [felupe]: executing diffoscope
+[2024-05-29 00:07:19] INFO root fetch - processPackages [felupe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felupe-8.5.1.tar.gz tmp/felupe-8.6.0-py3-none-any.whl.zip --markdown 20240529/f/felupe/8.5.1-8.6.0/README.md --exclude *.pyd
+[2024-05-29 00:07:20] INFO root fetch - processPackages [pynajax]: Downloading https://files.pythonhosted.org/packages/7e/91/b5253c75139398ab8142d185460d5117a441fc5f75c1bee5917a2561e42d/pynajax-0.1.3.tar.gz
+[2024-05-29 00:07:20] ERROR root fetch - processPackages [airbyte-source-gainsight-px]: Unable to fetch info: No such project/version 'airbyte-source-gainsight-px' 0.1.2
+[2024-05-29 00:07:20] INFO root fetch - main [MainThread]: End processing [airbyte-source-gainsight-px] error
+[2024-05-29 00:07:20] INFO root fetch - processPackages [svtplay-dl]: Downloading https://files.pythonhosted.org/packages/1a/bc/d74decb2cdb4277e5cbe51f24c751f45bbd387cb4f411079c8f2e23591a3/svtplay-dl-4.9.tar.gz
+[2024-05-29 00:07:20] ERROR root fetch - processPackages [airbyte-source-ashby]: Unable to fetch info: No such project/version 'airbyte-source-ashby' 0.1.2
+[2024-05-29 00:07:20] INFO root fetch - main [MainThread]: End processing [airbyte-source-ashby] error
+[2024-05-29 00:07:20] ERROR root fetch - processPackages [airbyte-source-polygon-stock-api]: Unable to fetch info: No such project/version 'airbyte-source-polygon-stock-api' 0.1.6
+[2024-05-29 00:07:20] INFO root fetch - main [MainThread]: End processing [airbyte-source-polygon-stock-api] error
+[2024-05-29 00:07:20] INFO root fetch - processPackages [airbyte-source-google-webfonts]: Downloading https://files.pythonhosted.org/packages/f4/0e/6e47ba015df92a6a2ed436d92b34b002bd4656e427273afc7639d48466be/airbyte_source_google_webfonts-0.1.4.tar.gz
+[2024-05-29 00:07:20] INFO root fetch - processPackages [svtplay-dl]: executing diffoscope
+[2024-05-29 00:07:20] INFO root fetch - processPackages [svtplay-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svtplay-dl-4.8.tar.gz tmp/svtplay-dl-4.9.tar.gz --markdown 20240529/s/svtplay-dl/4.8-4.9/README.md --exclude *.pyd
+[2024-05-29 00:07:20] INFO root fetch - processPackages [pynajax]: executing diffoscope
+[2024-05-29 00:07:20] INFO root fetch - processPackages [pynajax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynajax-0.1.2.tar.gz tmp/pynajax-0.1.3.tar.gz --markdown 20240529/p/pynajax/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-29 00:07:20] INFO root fetch - processPackages [AqEquil]: Downloading https://files.pythonhosted.org/packages/c8/c1/16e457b42e7c8508ea98026970d49bfc58a64a387fead17fee2bec0131cb/AqEquil-0.9.3.tar.gz
+[2024-05-29 00:07:20] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/ca/0c/fd75c90569117cb8e8a0c6ce0177a9d6491aaf2659e630fb89450001766e/cellxgene_census-1.9.1.tar.gz
+[2024-05-29 00:07:20] INFO root fetch - processPackages [airbyte-source-google-webfonts]: executing diffoscope
+[2024-05-29 00:07:20] INFO root fetch - processPackages [airbyte-source-google-webfonts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_google_webfonts-0.1.3.tar.gz tmp/airbyte_source_google_webfonts-0.1.4.tar.gz --markdown 20240529/a/airbyte-source-google-webfonts/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-29 00:07:20] INFO root fetch - processPackages [AqEquil]: executing diffoscope
+[2024-05-29 00:07:20] INFO root fetch - processPackages [AqEquil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AqEquil-0.9.2.tar.gz tmp/AqEquil-0.9.3.tar.gz --markdown 20240529/A/AqEquil/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-29 00:07:20] INFO root fetch - processPackages [cellxgene-census]: executing diffoscope
+[2024-05-29 00:07:20] INFO root fetch - processPackages [cellxgene-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene_census-1.9.0.tar.gz tmp/cellxgene_census-1.9.1.tar.gz --markdown 20240529/c/cellxgene-census/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-29 00:07:20] INFO root fetch - processPackages [felupe]: Remove: archive file [/home/abi/fetcher/tmp/felupe-8.5.1.tar.gz]
+[2024-05-29 00:07:20] INFO root fetch - processPackages [felupe]: Remove: archive file [/home/abi/fetcher/tmp/felupe-8.6.0-py3-none-any.whl.zip]
+[2024-05-29 00:07:20] INFO root fetch - main [MainThread]: End processing [felupe]: success
+[2024-05-29 00:07:21] INFO root fetch - processPackages [airbyte-source-google-webfonts]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_google_webfonts-0.1.3.tar.gz]
+[2024-05-29 00:07:21] INFO root fetch - processPackages [airbyte-source-google-webfonts]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_google_webfonts-0.1.4.tar.gz]
+[2024-05-29 00:07:21] INFO root fetch - main [MainThread]: End processing [airbyte-source-google-webfonts]: success
+[2024-05-29 00:07:21] INFO root fetch - processPackages [pynajax]: Remove: archive file [/home/abi/fetcher/tmp/pynajax-0.1.2.tar.gz]
+[2024-05-29 00:07:21] INFO root fetch - processPackages [pynajax]: Remove: archive file [/home/abi/fetcher/tmp/pynajax-0.1.3.tar.gz]
+[2024-05-29 00:07:21] INFO root fetch - main [MainThread]: End processing [pynajax]: success
+[2024-05-29 00:07:21] INFO root fetch - processPackages [svtplay-dl]: Remove: archive file [/home/abi/fetcher/tmp/svtplay-dl-4.8.tar.gz]
+[2024-05-29 00:07:21] INFO root fetch - processPackages [svtplay-dl]: Remove: archive file [/home/abi/fetcher/tmp/svtplay-dl-4.9.tar.gz]
+[2024-05-29 00:07:21] INFO root fetch - main [MainThread]: End processing [svtplay-dl]: success
+[2024-05-29 00:07:21] INFO root fetch - processPackages [AqEquil]: Remove: archive file [/home/abi/fetcher/tmp/AqEquil-0.9.2.tar.gz]
+[2024-05-29 00:07:21] INFO root fetch - processPackages [AqEquil]: Remove: archive file [/home/abi/fetcher/tmp/AqEquil-0.9.3.tar.gz]
+[2024-05-29 00:07:21] INFO root fetch - main [MainThread]: End processing [AqEquil]: success
+[2024-05-29 00:07:21] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.9.0.tar.gz]
+[2024-05-29 00:07:21] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.9.1.tar.gz]
+[2024-05-29 00:07:21] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
+[2024-05-29 00:07:21] INFO root fetch - main [MainThread]: Store serial: [23420006]
