@@ -20062,3 +20062,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:21:33] INFO root fetch - processPackages [Orange3-SingleCell]: Remove: archive file [/home/abi/fetcher/tmp/orange3_singlecell-1.7.0.tar.gz]
 [2024-05-29 13:21:33] INFO root fetch - main [MainThread]: End processing [Orange3-SingleCell]: success
 [2024-05-29 13:21:33] INFO root fetch - main [MainThread]: Store serial: [23428799]
+[2024-05-29 13:23:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428799]
+[2024-05-29 13:23:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 13:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ArcDLNexus
+[2024-05-29 13:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mentabotix
+[2024-05-29 13:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynrw
+[2024-05-29 13:23:42] INFO root fetch - processPackages [ArcDLNexus]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 13:23:42] INFO root fetch - processPackages [mentabotix]: New version: [0.1.5.9] Old Version: [0.1.5.8]
+[2024-05-29 13:23:42] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/82/e7/21cabf951d8e05066058a2c6fafc9a623e4e5939ded05ac5d6cd02cc3c5b/mentabotix-0.1.5.8.tar.gz
+[2024-05-29 13:23:42] INFO root fetch - processPackages [pynrw]: New version: [1.5.0] Old Version: [1.4.2]
+[2024-05-29 13:23:42] INFO root fetch - processPackages [ArcDLNexus]: Downloading https://files.pythonhosted.org/packages/da/a3/161aebd21ea609777a5634ef2a70d9cb6d42b0f888a25b57317684356598/arcdlnexus-0.1.1.tar.gz
+[2024-05-29 13:23:43] INFO root fetch - processPackages [pynrw]: Downloading https://files.pythonhosted.org/packages/2f/2c/6245c904cfefb1001584f15a2f75bade22b01c4fc05d6b177620388c7a1d/pynrw-1.4.2.tar.gz
+[2024-05-29 13:23:43] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/0c/8c/e0aadaf3177b0936c6e2c6784b1ce6ff8d5f0548b2dd38f045005795a3e1/mentabotix-0.1.5.9.tar.gz
+[2024-05-29 13:23:43] INFO root fetch - processPackages [ArcDLNexus]: Downloading https://files.pythonhosted.org/packages/f4/02/fbe368f607ee637ed855886b520a4637785dee3eb0ed8f6747f5b47c92c0/arcdlnexus-0.1.2.tar.gz
+[2024-05-29 13:23:43] INFO root fetch - processPackages [mentabotix]: executing diffoscope
+[2024-05-29 13:23:43] INFO root fetch - processPackages [mentabotix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentabotix-0.1.5.8.tar.gz tmp/mentabotix-0.1.5.9.tar.gz --markdown 20240529/m/mentabotix/0.1.5.8-0.1.5.9/README.md --exclude *.pyd
+[2024-05-29 13:23:43] INFO root fetch - processPackages [ArcDLNexus]: executing diffoscope
+[2024-05-29 13:23:43] INFO root fetch - processPackages [ArcDLNexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcdlnexus-0.1.1.tar.gz tmp/arcdlnexus-0.1.2.tar.gz --markdown 20240529/A/ArcDLNexus/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-29 13:23:43] INFO root fetch - processPackages [pynrw]: Downloading https://files.pythonhosted.org/packages/f8/1f/b325ac5b1d2fdc62c2ddb8706459521e7b82ab4a5b205a215ad01769840b/pynrw-1.5.0.tar.gz
+[2024-05-29 13:23:44] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.5.8.tar.gz]
+[2024-05-29 13:23:44] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.5.9.tar.gz]
+[2024-05-29 13:23:44] INFO root fetch - main [MainThread]: End processing [mentabotix]: success
+[2024-05-29 13:23:44] INFO root fetch - processPackages [ArcDLNexus]: Remove: archive file [/home/abi/fetcher/tmp/arcdlnexus-0.1.1.tar.gz]
+[2024-05-29 13:23:44] INFO root fetch - processPackages [ArcDLNexus]: Remove: archive file [/home/abi/fetcher/tmp/arcdlnexus-0.1.2.tar.gz]
+[2024-05-29 13:23:44] INFO root fetch - main [MainThread]: End processing [ArcDLNexus]: success
+[2024-05-29 13:23:44] INFO root fetch - processPackages [pynrw]: executing diffoscope
+[2024-05-29 13:23:44] INFO root fetch - processPackages [pynrw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynrw-1.4.2.tar.gz tmp/pynrw-1.5.0.tar.gz --markdown 20240529/p/pynrw/1.4.2-1.5.0/README.md --exclude *.pyd
+[2024-05-29 13:23:44] INFO root fetch - processPackages [pynrw]: Remove: archive file [/home/abi/fetcher/tmp/pynrw-1.4.2.tar.gz]
+[2024-05-29 13:23:44] INFO root fetch - processPackages [pynrw]: Remove: archive file [/home/abi/fetcher/tmp/pynrw-1.5.0.tar.gz]
+[2024-05-29 13:23:44] INFO root fetch - main [MainThread]: End processing [pynrw]: success
+[2024-05-29 13:23:44] INFO root fetch - main [MainThread]: Store serial: [23428808]
