@@ -13521,3 +13521,20 @@
 [2024-05-29 09:35:23] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract_cli-0.9.9.tar.gz]
 [2024-05-29 09:35:23] INFO root fetch - main [MainThread]: End processing [datacontract-cli]: success
 [2024-05-29 09:35:23] INFO root fetch - main [MainThread]: Store serial: [23425653]
+[2024-05-29 09:37:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425653]
+[2024-05-29 09:37:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 09:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-api
+[2024-05-29 09:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boa-test-constructor
+[2024-05-29 09:37:32] INFO root fetch - processPackages [boa-test-constructor]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-29 09:37:32] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-05-29 09:37:32] INFO root fetch - processPackages [boa-test-constructor]: Downloading https://files.pythonhosted.org/packages/a4/79/ea53d909800e7396c902d43902f7689f93bb32582c707c05a0e04ff4bdde/boa_test_constructor-0.2.1-py3-none-win_amd64.whl
+[2024-05-29 09:37:32] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-05-29 09:37:32] WARNING root fetch - processPackages [boa-test-constructor]: Skipping package: exceeds size limit 19729840>=10485760
+[2024-05-29 09:37:32] INFO root fetch - main [MainThread]: End processing [boa-test-constructor] error
+[2024-05-29 09:37:32] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-05-29 09:37:33] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-05-29 09:37:33] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240529/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-05-29 09:37:34] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-05-29 09:37:34] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-05-29 09:37:34] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-05-29 09:37:34] INFO root fetch - main [MainThread]: Store serial: [23425661]
