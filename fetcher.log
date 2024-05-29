@@ -10837,3 +10837,24 @@
 [2024-05-29 07:25:33] INFO root fetch - processPackages [logicplum-ai]: Remove: archive file [/home/abi/fetcher/tmp/logicplum_ai-1.3.9.tar.gz]
 [2024-05-29 07:25:33] INFO root fetch - main [MainThread]: End processing [logicplum-ai]: success
 [2024-05-29 07:25:33] INFO root fetch - main [MainThread]: Store serial: [23424424]
+[2024-05-29 07:27:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424424]
+[2024-05-29 07:27:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 07:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cappa-sqlplag
+[2024-05-29 07:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-repository-loader
+[2024-05-29 07:27:42] INFO root fetch - processPackages [gpt-repository-loader]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 07:27:42] INFO root fetch - processPackages [gpt-repository-loader]: Downloading https://files.pythonhosted.org/packages/c7/33/206b9cdc41c9454097bc360d3d531188b8e784eb278f70afd660efe9a7ae/gpt-repository-loader-0.9.0.tar.gz
+[2024-05-29 07:27:42] INFO root fetch - processPackages [cappa-sqlplag]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-29 07:27:42] INFO root fetch - processPackages [gpt-repository-loader]: Downloading https://files.pythonhosted.org/packages/4a/e9/00f7b20f8e923760f4874861af6cfc4be1021cbe555cd3759c06ca7992e7/gpt-repository-loader-0.9.1.tar.gz
+[2024-05-29 07:27:42] INFO root fetch - processPackages [cappa-sqlplag]: Downloading https://files.pythonhosted.org/packages/d2/ea/2254ee04cc15d7482aed055ba886dbcfb9009047de30fc49d7090fd73733/cappa_sqlplag-0.2.1.tar.gz
+[2024-05-29 07:27:42] INFO root fetch - processPackages [gpt-repository-loader]: executing diffoscope
+[2024-05-29 07:27:42] INFO root fetch - processPackages [gpt-repository-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-repository-loader-0.9.0.tar.gz tmp/gpt-repository-loader-0.9.1.tar.gz --markdown 20240529/g/gpt-repository-loader/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-29 07:27:43] INFO root fetch - processPackages [cappa-sqlplag]: Downloading https://files.pythonhosted.org/packages/af/1c/f15155a98fe3d3afa0fa719400acf5e34c1e2791b6829364a7e3f1ba8db2/cappa_sqlplag-0.2.2.tar.gz
+[2024-05-29 07:27:43] INFO root fetch - processPackages [cappa-sqlplag]: executing diffoscope
+[2024-05-29 07:27:43] INFO root fetch - processPackages [cappa-sqlplag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cappa_sqlplag-0.2.1.tar.gz tmp/cappa_sqlplag-0.2.2.tar.gz --markdown 20240529/c/cappa-sqlplag/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-29 07:27:43] INFO root fetch - processPackages [gpt-repository-loader]: Remove: archive file [/home/abi/fetcher/tmp/gpt-repository-loader-0.9.0.tar.gz]
+[2024-05-29 07:27:43] INFO root fetch - processPackages [gpt-repository-loader]: Remove: archive file [/home/abi/fetcher/tmp/gpt-repository-loader-0.9.1.tar.gz]
+[2024-05-29 07:27:43] INFO root fetch - main [MainThread]: End processing [gpt-repository-loader]: success
+[2024-05-29 07:27:43] INFO root fetch - processPackages [cappa-sqlplag]: Remove: archive file [/home/abi/fetcher/tmp/cappa_sqlplag-0.2.1.tar.gz]
+[2024-05-29 07:27:43] INFO root fetch - processPackages [cappa-sqlplag]: Remove: archive file [/home/abi/fetcher/tmp/cappa_sqlplag-0.2.2.tar.gz]
+[2024-05-29 07:27:43] INFO root fetch - main [MainThread]: End processing [cappa-sqlplag]: success
+[2024-05-29 07:27:43] INFO root fetch - main [MainThread]: Store serial: [23424429]
