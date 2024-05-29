@@ -8537,3 +8537,27 @@
 [2024-05-29 05:16:40] INFO root fetch - processPackages [wi1-bot]: Remove: archive file [/home/abi/fetcher/tmp/wi1-bot-1.4.6.tar.gz]
 [2024-05-29 05:16:40] INFO root fetch - main [MainThread]: End processing [wi1-bot]: success
 [2024-05-29 05:16:40] INFO root fetch - main [MainThread]: Store serial: [23423532]
+[2024-05-29 05:18:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423532]
+[2024-05-29 05:18:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 05:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: entegywrapper
+[2024-05-29 05:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CVE-2021-24917
+[2024-05-29 05:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-img-optimizer
+[2024-05-29 05:18:49] WARNING root fetch - processPackages [CVE-2021-24917]: Skipping, unable to determine old version
+[2024-05-29 05:18:49] INFO root fetch - main [MainThread]: End processing [CVE-2021-24917] error
+[2024-05-29 05:18:49] INFO root fetch - processPackages [django-img-optimizer]: New version: [1.3] Old Version: [1.2]
+[2024-05-29 05:18:49] INFO root fetch - processPackages [entegywrapper]: New version: [7.3.0] Old Version: [7.2.8]
+[2024-05-29 05:18:49] INFO root fetch - processPackages [django-img-optimizer]: Downloading https://files.pythonhosted.org/packages/d4/0a/b508d6d49471b7bcaf32e5acba6c499b9faad430a0f40429577e83919288/django_img_optimizer-1.2.tar.gz
+[2024-05-29 05:18:49] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/1b/88/fdca172dbb8362cfe8796b1077927c414782a351d3066359e0dc715b72eb/entegywrapper-7.2.8.tar.gz
+[2024-05-29 05:18:49] INFO root fetch - processPackages [django-img-optimizer]: Downloading https://files.pythonhosted.org/packages/06/8c/692877c125993271cb42292c7e69feafe91c8825d935ccca514c8e2783db/django_img_optimizer-1.3.tar.gz
+[2024-05-29 05:18:49] INFO root fetch - processPackages [django-img-optimizer]: executing diffoscope
+[2024-05-29 05:18:49] INFO root fetch - processPackages [django-img-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_img_optimizer-1.2.tar.gz tmp/django_img_optimizer-1.3.tar.gz --markdown 20240529/d/django-img-optimizer/1.2-1.3/README.md --exclude *.pyd
+[2024-05-29 05:18:49] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/ef/17/db5e85434ebb2d17624297dfe04c44b7bb59e89e7db9f07f5343f820b231/entegywrapper-7.3.0.tar.gz
+[2024-05-29 05:18:50] INFO root fetch - processPackages [entegywrapper]: executing diffoscope
+[2024-05-29 05:18:50] INFO root fetch - processPackages [entegywrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entegywrapper-7.2.8.tar.gz tmp/entegywrapper-7.3.0.tar.gz --markdown 20240529/e/entegywrapper/7.2.8-7.3.0/README.md --exclude *.pyd
+[2024-05-29 05:18:50] INFO root fetch - processPackages [django-img-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/django_img_optimizer-1.2.tar.gz]
+[2024-05-29 05:18:50] INFO root fetch - processPackages [django-img-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/django_img_optimizer-1.3.tar.gz]
+[2024-05-29 05:18:50] INFO root fetch - main [MainThread]: End processing [django-img-optimizer]: success
+[2024-05-29 05:18:50] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.8.tar.gz]
+[2024-05-29 05:18:50] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.3.0.tar.gz]
+[2024-05-29 05:18:50] INFO root fetch - main [MainThread]: End processing [entegywrapper]: success
+[2024-05-29 05:18:50] INFO root fetch - main [MainThread]: Store serial: [23423540]
