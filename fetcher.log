@@ -13047,3 +13047,24 @@
 [2024-05-29 09:13:19] INFO root fetch - processPackages [apache-skywalking-onepiece]: Remove: archive file [/home/abi/fetcher/tmp/apache_skywalking_onepiece-1.1.2.tar.gz]
 [2024-05-29 09:13:19] INFO root fetch - main [MainThread]: End processing [apache-skywalking-onepiece]: success
 [2024-05-29 09:13:19] INFO root fetch - main [MainThread]: Store serial: [23425372]
+[2024-05-29 09:15:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425372]
+[2024-05-29 09:15:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 09:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prototwin-cmdbuff
+[2024-05-29 09:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: corvic-engine
+[2024-05-29 09:15:29] INFO root fetch - processPackages [corvic-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 09:15:29] INFO root fetch - processPackages [prototwin-cmdbuff]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 09:15:29] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/28/81/73d66a8b87408209ecb35a7c2bc6678eed7152cd47281836f38fe9d103aa/corvic_engine-0.1.8.tar.gz
+[2024-05-29 09:15:29] INFO root fetch - processPackages [prototwin-cmdbuff]: Downloading https://files.pythonhosted.org/packages/50/d2/458ec37d3f1a95c0ebcf77e2276e1ce2d1a479edb4aedd3bd98cae45d71f/prototwin_cmdbuff-1.0.2-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-29 09:15:29] INFO root fetch - processPackages [prototwin-cmdbuff]: Downloading https://files.pythonhosted.org/packages/6d/02/4a5bddcc055fbe545710d6be365a690a0596abf0f7895aae8590a48e8077/prototwin_cmdbuff-1.0.3-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-29 09:15:29] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/09/86/d913022f7e6621ce441c8b834aa1f7c0a01a99f249b2e74671b9da6c2acc/corvic_engine-0.1.9.tar.gz
+[2024-05-29 09:15:29] INFO root fetch - processPackages [corvic-engine]: executing diffoscope
+[2024-05-29 09:15:29] INFO root fetch - processPackages [corvic-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corvic_engine-0.1.8.tar.gz tmp/corvic_engine-0.1.9.tar.gz --markdown 20240529/c/corvic-engine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 09:15:29] INFO root fetch - processPackages [prototwin-cmdbuff]: executing diffoscope
+[2024-05-29 09:15:29] INFO root fetch - processPackages [prototwin-cmdbuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prototwin_cmdbuff-1.0.2-pp39-pypy39_pp73-win_amd64.whl.zip tmp/prototwin_cmdbuff-1.0.3-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240529/p/prototwin-cmdbuff/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 09:15:30] INFO root fetch - processPackages [prototwin-cmdbuff]: Remove: archive file [/home/abi/fetcher/tmp/prototwin_cmdbuff-1.0.2-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-29 09:15:30] INFO root fetch - processPackages [prototwin-cmdbuff]: Remove: archive file [/home/abi/fetcher/tmp/prototwin_cmdbuff-1.0.3-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-29 09:15:30] INFO root fetch - main [MainThread]: End processing [prototwin-cmdbuff]: success
+[2024-05-29 09:15:30] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.8.tar.gz]
+[2024-05-29 09:15:30] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.9.tar.gz]
+[2024-05-29 09:15:30] INFO root fetch - main [MainThread]: End processing [corvic-engine]: success
+[2024-05-29 09:15:30] INFO root fetch - main [MainThread]: Store serial: [23425454]
