@@ -13618,3 +13618,78 @@
 [2024-05-29 09:41:57] INFO root fetch - processPackages [scipion-em-tomo]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-tomo-3.7.0.tar.gz]
 [2024-05-29 09:41:57] INFO root fetch - main [MainThread]: End processing [scipion-em-tomo]: success
 [2024-05-29 09:41:57] INFO root fetch - main [MainThread]: Store serial: [23425710]
+[2024-05-29 09:44:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425710]
+[2024-05-29 09:44:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 09:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bribrain
+[2024-05-29 09:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-product-multi-company
+[2024-05-29 09:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finch-tensor
+[2024-05-29 09:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: package-tea-one
+[2024-05-29 09:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-picking-delivery-link
+[2024-05-29 09:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-delivery-purchase
+[2024-05-29 09:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py4web
+[2024-05-29 09:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stream-chat
+[2024-05-29 09:44:05] INFO root fetch - processPackages [bribrain]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-29 09:44:05] INFO root fetch - processPackages [py4web]: New version: [1.20240528.1] Old Version: [1.20240509.1]
+[2024-05-29 09:44:05] INFO root fetch - processPackages [bribrain]: Downloading https://files.pythonhosted.org/packages/9e/b0/de8688270f44996c34f0c0fb19417fae9974cbbb0e0f3bb54b7d6e5eb7d6/bribrain-1.0.4.tar.gz
+[2024-05-29 09:44:05] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.1.0.1]
+[2024-05-29 09:44:05] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: New version: [16.0.1.1.3.1] Old Version: [16.0.1.1.3]
+[2024-05-29 09:44:05] INFO root fetch - processPackages [finch-tensor]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 09:44:05] INFO root fetch - processPackages [odoo-addon-product-multi-company]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.5]
+[2024-05-29 09:44:05] INFO root fetch - processPackages [package-tea-one]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 09:44:05] INFO root fetch - processPackages [stream-chat]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-05-29 09:44:05] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/37/ac/ce82bb9662bc1a3134afec41988a93d6e101081276ab396a6d789d5d851c/py4web-1.20240509.1.tar.gz
+[2024-05-29 09:44:05] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/82/efef881b97762b0b5e32321a21e64063e76ef0ef1ee2a2b5d8741aa88ac3/finch_tensor-0.1.8.tar.gz
+[2024-05-29 09:44:05] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: Downloading https://files.pythonhosted.org/packages/fc/88/07027924bcd5c62e67ad376b3b5ad27c245ab535be17c72ecac5c0a5f311/odoo_addon_delivery_purchase-15.0.1.1.0.1-py3-none-any.whl
+[2024-05-29 09:44:05] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Downloading https://files.pythonhosted.org/packages/f0/15/0dec7a9fd68a4d1bd572b71326984809ff2e2d052718d45dd14d64741a15/odoo_addon_stock_picking_delivery_link-16.0.1.1.3-py3-none-any.whl
+[2024-05-29 09:44:05] INFO root fetch - processPackages [package-tea-one]: Downloading https://files.pythonhosted.org/packages/1c/51/49de90f75db43aa78cc611caf3d7e67535519315ab1097d83e3a8303182f/package-tea-one-1.0.0.tar.gz
+[2024-05-29 09:44:05] INFO root fetch - processPackages [bribrain]: Downloading https://files.pythonhosted.org/packages/30/af/a78c95f775604f969ddcb318d7f6f2c7302a925299055d0fe50bd702c912/bribrain-1.0.5.tar.gz
+[2024-05-29 09:44:05] INFO root fetch - processPackages [odoo-addon-product-multi-company]: Downloading https://files.pythonhosted.org/packages/be/01/9ab31aa6c7eb86480e06e5cf98830425a7fe323d78d7c9e08d6793dad022/odoo_addon_product_multi_company-15.0.1.0.0.5-py3-none-any.whl
+[2024-05-29 09:44:06] INFO root fetch - processPackages [stream-chat]: Downloading https://files.pythonhosted.org/packages/29/19/4cd39a341e81dd1da7c1da7e5dc5133c309b3626a8f0e5ea1f57b22f05bb/stream-chat-4.8.0.tar.gz
+[2024-05-29 09:44:06] INFO root fetch - processPackages [bribrain]: executing diffoscope
+[2024-05-29 09:44:06] INFO root fetch - processPackages [bribrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bribrain-1.0.4.tar.gz tmp/bribrain-1.0.5.tar.gz --markdown 20240529/b/bribrain/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-29 09:44:06] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/31/266166b70a1683a8f5cfb91db4b1c2df4edda648ff5e60e26f6a79710cb5/finch_tensor-0.1.9.tar.gz
+[2024-05-29 09:44:06] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: Downloading https://files.pythonhosted.org/packages/2f/e5/9864b611d4ce85d6dbe2a314cf58ef65742d16147eb6ca0541fe32b46a10/odoo_addon_delivery_purchase-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-29 09:44:06] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Downloading https://files.pythonhosted.org/packages/d2/08/5aa954bcd3193c37d6448442d2d7b9822e50d238eb94b39458cbb8719b98/odoo_addon_stock_picking_delivery_link-16.0.1.1.3.1-py3-none-any.whl
+[2024-05-29 09:44:06] INFO root fetch - processPackages [odoo-addon-product-multi-company]: Downloading https://files.pythonhosted.org/packages/f2/36/95044e2a6b80594721e2d3d3fba18c538b79c505d0f87e702fde199543cc/odoo_addon_product_multi_company-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-29 09:44:06] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/9f/aa/3eed1c44e609b104bb5d2f24ba296a368f1555249ac01b912fe1b71caed3/py4web-1.20240528.1.tar.gz
+[2024-05-29 09:44:06] INFO root fetch - processPackages [stream-chat]: Downloading https://files.pythonhosted.org/packages/6a/df/2480e3250efef7a6fffd6dc7eec8c9e008ee71acca79a1b4eb143d2e6946/stream-chat-4.9.0.tar.gz
+[2024-05-29 09:44:06] INFO root fetch - processPackages [package-tea-one]: Downloading https://files.pythonhosted.org/packages/92/16/6404969af0d3b53e135291f37c5a6bda018434ffdbff8ed447657dfe77b8/package-tea-one-1.0.1.tar.gz
+[2024-05-29 09:44:06] INFO root fetch - processPackages [finch-tensor]: executing diffoscope
+[2024-05-29 09:44:06] INFO root fetch - processPackages [finch-tensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finch_tensor-0.1.8.tar.gz tmp/finch_tensor-0.1.9.tar.gz --markdown 20240529/f/finch-tensor/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 09:44:06] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: executing diffoscope
+[2024-05-29 09:44:06] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_purchase-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_delivery_purchase-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-delivery-purchase/15.0.1.1.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-29 09:44:06] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: executing diffoscope
+[2024-05-29 09:44:06] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.3.1-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-stock-picking-delivery-link/16.0.1.1.3-16.0.1.1.3.1/README.md --exclude *.pyd
+[2024-05-29 09:44:06] INFO root fetch - processPackages [odoo-addon-product-multi-company]: executing diffoscope
+[2024-05-29 09:44:06] INFO root fetch - processPackages [odoo-addon-product-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_multi_company-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_product_multi_company-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-product-multi-company/15.0.1.0.0.5-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-29 09:44:06] INFO root fetch - processPackages [package-tea-one]: executing diffoscope
+[2024-05-29 09:44:06] INFO root fetch - processPackages [package-tea-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/package-tea-one-1.0.0.tar.gz tmp/package-tea-one-1.0.1.tar.gz --markdown 20240529/p/package-tea-one/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 09:44:06] INFO root fetch - processPackages [stream-chat]: executing diffoscope
+[2024-05-29 09:44:06] INFO root fetch - processPackages [stream-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-chat-4.8.0.tar.gz tmp/stream-chat-4.9.0.tar.gz --markdown 20240529/s/stream-chat/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-05-29 09:44:06] INFO root fetch - processPackages [bribrain]: Remove: archive file [/home/abi/fetcher/tmp/bribrain-1.0.4.tar.gz]
+[2024-05-29 09:44:06] INFO root fetch - processPackages [bribrain]: Remove: archive file [/home/abi/fetcher/tmp/bribrain-1.0.5.tar.gz]
+[2024-05-29 09:44:06] INFO root fetch - main [MainThread]: End processing [bribrain]: success
+[2024-05-29 09:44:07] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2024-05-29 09:44:07] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20240509.1.tar.gz tmp/py4web-1.20240528.1.tar.gz --markdown 20240529/p/py4web/1.20240509.1-1.20240528.1/README.md --exclude *.pyd
+[2024-05-29 09:44:07] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.8.tar.gz]
+[2024-05-29 09:44:07] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.9.tar.gz]
+[2024-05-29 09:44:07] INFO root fetch - main [MainThread]: End processing [finch-tensor]: success
+[2024-05-29 09:44:07] INFO root fetch - processPackages [package-tea-one]: Remove: archive file [/home/abi/fetcher/tmp/package-tea-one-1.0.0.tar.gz]
+[2024-05-29 09:44:07] INFO root fetch - processPackages [package-tea-one]: Remove: archive file [/home/abi/fetcher/tmp/package-tea-one-1.0.1.tar.gz]
+[2024-05-29 09:44:07] INFO root fetch - main [MainThread]: End processing [package-tea-one]: success
+[2024-05-29 09:44:07] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_purchase-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-29 09:44:07] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_purchase-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-29 09:44:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-purchase]: success
+[2024-05-29 09:44:07] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.3-py3-none-any.whl.zip]
+[2024-05-29 09:44:07] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.3.1-py3-none-any.whl.zip]
+[2024-05-29 09:44:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-delivery-link]: success
+[2024-05-29 09:44:07] INFO root fetch - processPackages [odoo-addon-product-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_multi_company-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-29 09:44:07] INFO root fetch - processPackages [odoo-addon-product-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_multi_company-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-29 09:44:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-multi-company]: success
+[2024-05-29 09:44:07] INFO root fetch - processPackages [stream-chat]: Remove: archive file [/home/abi/fetcher/tmp/stream-chat-4.8.0.tar.gz]
+[2024-05-29 09:44:07] INFO root fetch - processPackages [stream-chat]: Remove: archive file [/home/abi/fetcher/tmp/stream-chat-4.9.0.tar.gz]
+[2024-05-29 09:44:07] INFO root fetch - main [MainThread]: End processing [stream-chat]: success
+[2024-05-29 09:44:11] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240509.1.tar.gz]
+[2024-05-29 09:44:11] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240528.1.tar.gz]
+[2024-05-29 09:44:11] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2024-05-29 09:44:11] INFO root fetch - main [MainThread]: Store serial: [23425740]
