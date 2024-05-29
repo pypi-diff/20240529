@@ -14234,3 +14234,36 @@
 [2024-05-29 10:04:07] INFO root fetch - processPackages [pytest_robotframework]: Remove: archive file [/home/abi/fetcher/tmp/pytest_robotframework-4.2.1.tar.gz]
 [2024-05-29 10:04:07] INFO root fetch - main [MainThread]: End processing [pytest_robotframework]: success
 [2024-05-29 10:04:07] INFO root fetch - main [MainThread]: Store serial: [23426003]
+[2024-05-29 10:06:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426003]
+[2024-05-29 10:06:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 10:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langfun
+[2024-05-29 10:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: translate-subtitles
+[2024-05-29 10:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prototwin
+[2024-05-29 10:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zinolib
+[2024-05-29 10:06:18] INFO root fetch - processPackages [prototwin]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-29 10:06:18] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240528] Old Version: [0.0.2.dev20240527]
+[2024-05-29 10:06:18] INFO root fetch - processPackages [prototwin]: Downloading https://files.pythonhosted.org/packages/9e/5d/a7144a0e0b961335e90bf09b1e9e51994e1d5a023eea7c18250f26bce1cd/prototwin-0.1.7.tar.gz
+[2024-05-29 10:06:18] WARNING root fetch - processPackages [translate-subtitles]: Skipping, unable to determine old version
+[2024-05-29 10:06:18] INFO root fetch - main [MainThread]: End processing [translate-subtitles] error
+[2024-05-29 10:06:18] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/e0/47/ab619499e2c3f2268138cce9b1b35bcc787dacf6dda63424bb01696617ed/langfun-0.0.2.dev20240527.tar.gz
+[2024-05-29 10:06:18] INFO root fetch - processPackages [zinolib]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-29 10:06:18] INFO root fetch - processPackages [prototwin]: Downloading https://files.pythonhosted.org/packages/f1/64/c99145f60d5339f8a3d952a8e5ca780ededc3145472619d72416a6554306/prototwin-0.1.8.tar.gz
+[2024-05-29 10:06:18] INFO root fetch - processPackages [zinolib]: Downloading https://files.pythonhosted.org/packages/29/1f/3b745c0be2b6c22546f8c6ca9a4a73784359eee4da5b8b9776b6c37cfc01/zinolib-1.0.3.tar.gz
+[2024-05-29 10:06:18] INFO root fetch - processPackages [prototwin]: executing diffoscope
+[2024-05-29 10:06:18] INFO root fetch - processPackages [prototwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prototwin-0.1.7.tar.gz tmp/prototwin-0.1.8.tar.gz --markdown 20240529/p/prototwin/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-29 10:06:18] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/5e/9a/0a1807c3ee032a2dd909c2df7eb858fd9e0e583e12aed4f9fea0f30f690b/langfun-0.0.2.dev20240528.tar.gz
+[2024-05-29 10:06:18] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-29 10:06:18] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240527.tar.gz tmp/langfun-0.0.2.dev20240528.tar.gz --markdown 20240529/l/langfun/0.0.2.dev20240527-0.0.2.dev20240528/README.md --exclude *.pyd
+[2024-05-29 10:06:18] INFO root fetch - processPackages [zinolib]: Downloading https://files.pythonhosted.org/packages/f7/60/5f26475e69ed35e0f7e0ce7bcb0e43c0f7df5fd64e0f0c15a2a641abdd17/zinolib-1.0.4.tar.gz
+[2024-05-29 10:06:18] INFO root fetch - processPackages [prototwin]: Remove: archive file [/home/abi/fetcher/tmp/prototwin-0.1.7.tar.gz]
+[2024-05-29 10:06:18] INFO root fetch - processPackages [prototwin]: Remove: archive file [/home/abi/fetcher/tmp/prototwin-0.1.8.tar.gz]
+[2024-05-29 10:06:18] INFO root fetch - main [MainThread]: End processing [prototwin]: success
+[2024-05-29 10:06:18] INFO root fetch - processPackages [zinolib]: executing diffoscope
+[2024-05-29 10:06:18] INFO root fetch - processPackages [zinolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zinolib-1.0.3.tar.gz tmp/zinolib-1.0.4.tar.gz --markdown 20240529/z/zinolib/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-29 10:06:19] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240527.tar.gz]
+[2024-05-29 10:06:19] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240528.tar.gz]
+[2024-05-29 10:06:19] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-29 10:06:19] INFO root fetch - processPackages [zinolib]: Remove: archive file [/home/abi/fetcher/tmp/zinolib-1.0.3.tar.gz]
+[2024-05-29 10:06:19] INFO root fetch - processPackages [zinolib]: Remove: archive file [/home/abi/fetcher/tmp/zinolib-1.0.4.tar.gz]
+[2024-05-29 10:06:19] INFO root fetch - main [MainThread]: End processing [zinolib]: success
+[2024-05-29 10:06:19] INFO root fetch - main [MainThread]: Store serial: [23426023]
