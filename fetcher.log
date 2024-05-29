@@ -15694,3 +15694,102 @@
 [2024-05-29 10:56:41] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.2b2.tar.gz]
 [2024-05-29 10:56:41] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
 [2024-05-29 10:56:41] INFO root fetch - main [MainThread]: Store serial: [23426853]
+[2024-05-29 10:58:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426853]
+[2024-05-29 10:58:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-29 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rongdavbaaddins
+[2024-05-29 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foyou-cli
+[2024-05-29 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csvtex
+[2024-05-29 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocsi
+[2024-05-29 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: veetility
+[2024-05-29 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: greer2018
+[2024-05-29 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-lookbook
+[2024-05-29 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mns-scheduler
+[2024-05-29 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-cognite-reveal
+[2024-05-29 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zsx-pack
+[2024-05-29 10:58:50] INFO root fetch - processPackages [mns-scheduler]: New version: [1.0.6.3] Old Version: [1.0.6.2]
+[2024-05-29 10:58:50] INFO root fetch - processPackages [mkdocsi]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-29 10:58:50] INFO root fetch - processPackages [streamlit-cognite-reveal]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 10:58:50] INFO root fetch - processPackages [foyou-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 10:58:50] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.2.0.9] Old Version: [0.2.0.8]
+[2024-05-29 10:58:50] INFO root fetch - processPackages [veetility]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-29 10:58:50] INFO root fetch - processPackages [greer2018]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-29 10:58:50] WARNING root fetch - processPackages [csvtex]: Skipping, unable to determine old version
+[2024-05-29 10:58:50] INFO root fetch - processPackages [csvtex]: Start processing: bus-user
+[2024-05-29 10:58:50] INFO root fetch - main [MainThread]: End processing [csvtex] error
+[2024-05-29 10:58:50] INFO root fetch - processPackages [zsx-pack]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 10:58:50] WARNING root fetch - processPackages [django-lookbook]: Skipping, unable to determine old version
+[2024-05-29 10:58:50] INFO root fetch - processPackages [django-lookbook]: Start processing: gmalglib
+[2024-05-29 10:58:50] INFO root fetch - main [MainThread]: End processing [django-lookbook] error
+[2024-05-29 10:58:50] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/22/e0/fd24917bc68b176a1c2e51b099d0901c772a548b85138ad2c7a687750ada/mns-scheduler-1.0.6.2.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/8d/bf/24e53e32b9531015bdf72a91533b6424d440f6448e50e1aa03928d127bbb/mkdocsi-1.3.1.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [streamlit-cognite-reveal]: Downloading https://files.pythonhosted.org/packages/cb/b5/47e9315f5486faffdd9c1bac3c66967a59a207f48cb92acf9f7de7d3c0a0/streamlit_cognite_reveal-0.0.2.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [foyou-cli]: Downloading https://files.pythonhosted.org/packages/55/9a/471532162a823e4d1cac3eb68b7404aadfe65c6ee18b4a95a9c17fdf9abb/foyou-cli-0.0.8.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/a9/00/6325168d12253c8ae1693ce7b368604b9516e7b54c5a60b5935fb5367e93/rongdavbaaddins-0.2.0.8.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [bus-user]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-29 10:58:50] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b1/91/d8b87c6abe2c889c3b9e77c15ec30245caafbf6a8440b068ccaf89a1dfd8/veetility-0.3.8.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [greer2018]: Downloading https://files.pythonhosted.org/packages/de/77/343e28f6389bb4297279144604f4ad18d64bf3687005ab4f8a68b86c1bab/greer2018-1.0.0.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [gmalglib]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-29 10:58:50] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/d1/49/ed066f54631ebc8a1e24a2124388908ca78d3b74c03df6549d54067dffa0/mns-scheduler-1.0.6.3.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/3b/f5/b2d6073baccce7ee95ae9217e3bbe023b464a4901696a0da9d9e942e6851/mkdocsi-1.3.2.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [zsx-pack]: Downloading https://files.pythonhosted.org/packages/21/91/6814a8ee2493ef0ab413a47a5505f01cc31d64a2a8593b6f46e9beaee759/zsx_pack-1.0.0.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [streamlit-cognite-reveal]: Downloading https://files.pythonhosted.org/packages/b8/20/b4d846373ef307c14b86bcc78d2061d81a830e5d9baf63e1ee4862b913d8/streamlit_cognite_reveal-0.0.3.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/f2/3b/8d32da1ddaee223b463c9388b7525d65ff3b890c0054440644d158180d9f/bus_user-0.3.0.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [foyou-cli]: Downloading https://files.pythonhosted.org/packages/9a/ac/a25ab426c6eee0f04bab42f3811012d00694a825290384e5ec9f25ae7ad8/foyou-cli-0.0.9.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/11/82/1008ece571d6c80a1af3fa7278018907f24f3f4b91a4e73422cbb2b9ae4b/veetility-0.3.9.tar.gz
+[2024-05-29 10:58:50] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 10:58:50] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.3.1.tar.gz tmp/mkdocsi-1.3.2.tar.gz --markdown 20240529/m/mkdocsi/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-29 10:58:50] INFO root fetch - processPackages [mns-scheduler]: executing diffoscope
+[2024-05-29 10:58:50] INFO root fetch - processPackages [mns-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns-scheduler-1.0.6.2.tar.gz tmp/mns-scheduler-1.0.6.3.tar.gz --markdown 20240529/m/mns-scheduler/1.0.6.2-1.0.6.3/README.md --exclude *.pyd
+[2024-05-29 10:58:50] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/62/c9/31b7f816b5e0ba1728ccaf39921a36e3ecd167d4c7ed822b4e579a989051/gmalglib-0.5.6.tar.gz
+[2024-05-29 10:58:51] INFO root fetch - processPackages [greer2018]: Downloading https://files.pythonhosted.org/packages/3b/d2/33b231ff7fb005d12acd63eab6cfac62c607581e09f571f9fa9bce6b4c0d/greer2018-1.1.0.tar.gz
+[2024-05-29 10:58:51] INFO root fetch - processPackages [foyou-cli]: executing diffoscope
+[2024-05-29 10:58:51] INFO root fetch - processPackages [foyou-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foyou-cli-0.0.8.tar.gz tmp/foyou-cli-0.0.9.tar.gz --markdown 20240529/f/foyou-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 10:58:51] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2024-05-29 10:58:51] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.3.8.tar.gz tmp/veetility-0.3.9.tar.gz --markdown 20240529/v/veetility/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-29 10:58:51] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/3f/fb/f60da05fc3a40d14ba440a2e70f463b7ded7361d0788f511df00040059aa/bus_user-0.3.1.tar.gz
+[2024-05-29 10:58:51] INFO root fetch - processPackages [greer2018]: executing diffoscope
+[2024-05-29 10:58:51] INFO root fetch - processPackages [greer2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greer2018-1.0.0.tar.gz tmp/greer2018-1.1.0.tar.gz --markdown 20240529/g/greer2018/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-29 10:58:51] INFO root fetch - processPackages [zsx-pack]: Downloading https://files.pythonhosted.org/packages/27/5e/af8a99ea497c56941e303a32c212eecce3f7518b52c0fd4630f0a3680129/zsx_pack-1.0.1.tar.gz
+[2024-05-29 10:58:51] INFO root fetch - processPackages [streamlit-cognite-reveal]: executing diffoscope
+[2024-05-29 10:58:51] INFO root fetch - processPackages [streamlit-cognite-reveal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_cognite_reveal-0.0.2.tar.gz tmp/streamlit_cognite_reveal-0.0.3.tar.gz --markdown 20240529/s/streamlit-cognite-reveal/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 10:58:51] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/47/b7/918751a81e5adf5180449f1ec6bc1cdbaf27b6b45c60803bcaeda2ab1d3d/gmalglib-0.5.7.tar.gz
+[2024-05-29 10:58:51] INFO root fetch - processPackages [bus-user]: executing diffoscope
+[2024-05-29 10:58:51] INFO root fetch - processPackages [bus-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_user-0.3.0.tar.gz tmp/bus_user-0.3.1.tar.gz --markdown 20240529/b/bus-user/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-29 10:58:51] INFO root fetch - processPackages [zsx-pack]: executing diffoscope
+[2024-05-29 10:58:51] INFO root fetch - processPackages [zsx-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zsx_pack-1.0.0.tar.gz tmp/zsx_pack-1.0.1.tar.gz --markdown 20240529/z/zsx-pack/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 10:58:51] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.1.tar.gz]
+[2024-05-29 10:58:51] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.2.tar.gz]
+[2024-05-29 10:58:51] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 10:58:51] INFO root fetch - processPackages [foyou-cli]: Remove: archive file [/home/abi/fetcher/tmp/foyou-cli-0.0.8.tar.gz]
+[2024-05-29 10:58:51] INFO root fetch - processPackages [foyou-cli]: Remove: archive file [/home/abi/fetcher/tmp/foyou-cli-0.0.9.tar.gz]
+[2024-05-29 10:58:51] INFO root fetch - main [MainThread]: End processing [foyou-cli]: success
+[2024-05-29 10:58:51] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.3.8.tar.gz]
+[2024-05-29 10:58:51] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.3.9.tar.gz]
+[2024-05-29 10:58:51] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2024-05-29 10:58:51] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.6.2.tar.gz]
+[2024-05-29 10:58:51] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.6.3.tar.gz]
+[2024-05-29 10:58:51] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
+[2024-05-29 10:58:52] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/35/e4/8c62d1c942f9968d59dbc6bb014aa222fabec63f42a8f320740030e188eb/rongdavbaaddins-0.2.0.9.tar.gz
+[2024-05-29 10:58:52] INFO root fetch - processPackages [greer2018]: Remove: archive file [/home/abi/fetcher/tmp/greer2018-1.0.0.tar.gz]
+[2024-05-29 10:58:52] INFO root fetch - processPackages [greer2018]: Remove: archive file [/home/abi/fetcher/tmp/greer2018-1.1.0.tar.gz]
+[2024-05-29 10:58:52] INFO root fetch - main [MainThread]: End processing [greer2018]: success
+[2024-05-29 10:58:52] INFO root fetch - processPackages [zsx-pack]: Remove: archive file [/home/abi/fetcher/tmp/zsx_pack-1.0.0.tar.gz]
+[2024-05-29 10:58:52] INFO root fetch - processPackages [zsx-pack]: Remove: archive file [/home/abi/fetcher/tmp/zsx_pack-1.0.1.tar.gz]
+[2024-05-29 10:58:52] INFO root fetch - main [MainThread]: End processing [zsx-pack]: success
+[2024-05-29 10:58:52] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.0.tar.gz]
+[2024-05-29 10:58:52] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.1.tar.gz]
+[2024-05-29 10:58:52] INFO root fetch - main [MainThread]: End processing [bus-user]: success
+[2024-05-29 10:58:52] INFO root fetch - processPackages [streamlit-cognite-reveal]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_cognite_reveal-0.0.2.tar.gz]
+[2024-05-29 10:58:52] INFO root fetch - processPackages [streamlit-cognite-reveal]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_cognite_reveal-0.0.3.tar.gz]
+[2024-05-29 10:58:52] INFO root fetch - main [MainThread]: End processing [streamlit-cognite-reveal]: success
+[2024-05-29 10:58:52] INFO root fetch - processPackages [gmalglib]: executing diffoscope
+[2024-05-29 10:58:52] INFO root fetch - processPackages [gmalglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmalglib-0.5.6.tar.gz tmp/gmalglib-0.5.7.tar.gz --markdown 20240529/g/gmalglib/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-29 10:58:52] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2024-05-29 10:58:52] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.2.0.8.tar.gz tmp/rongdavbaaddins-0.2.0.9.tar.gz --markdown 20240529/r/rongdavbaaddins/0.2.0.8-0.2.0.9/README.md --exclude *.pyd
+[2024-05-29 10:58:53] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.5.6.tar.gz]
+[2024-05-29 10:58:53] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.5.7.tar.gz]
+[2024-05-29 10:58:53] INFO root fetch - main [MainThread]: End processing [gmalglib]: success
+[2024-05-29 10:58:53] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.2.0.8.tar.gz]
+[2024-05-29 10:58:53] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.2.0.9.tar.gz]
+[2024-05-29 10:58:53] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2024-05-29 10:58:53] INFO root fetch - main [MainThread]: Store serial: [23426893]
