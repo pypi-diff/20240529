@@ -12133,3 +12133,51 @@
 [2024-05-29 08:34:11] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-4.1.0a1716962616.tar.gz]
 [2024-05-29 08:34:11] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-05-29 08:34:11] INFO root fetch - main [MainThread]: Store serial: [23425018]
+[2024-05-29 08:36:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425018]
+[2024-05-29 08:36:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 08:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finter
+[2024-05-29 08:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpservice
+[2024-05-29 08:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vectorshift
+[2024-05-29 08:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaea-operator
+[2024-05-29 08:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clickzetta-connector
+[2024-05-29 08:36:21] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-29 08:36:21] INFO root fetch - processPackages [gaea-operator]: New version: [4.1.3.dev3] Old Version: [4.1.3.dev1]
+[2024-05-29 08:36:21] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-29 08:36:21] INFO root fetch - processPackages [vectorshift]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 08:36:21] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-29 08:36:21] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/cc/e5/aba8c7f138d95a1d79409f387057ea40f63435a06405e77d9b427cba72dd/gaea_operator-4.1.3.dev1-py3-none-any.whl
+[2024-05-29 08:36:21] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2024-05-29 08:36:21] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-29 08:36:21] INFO root fetch - processPackages [vectorshift]: Downloading https://files.pythonhosted.org/packages/c9/8f/f3dfa446c0a69a88b8afeb8d895b5f4a1f9eb45544103dba9bf9d7d0def2/vectorshift-0.0.8.tar.gz
+[2024-05-29 08:36:21] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2024-05-29 08:36:21] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/44/4c/ece994d614952ecd8f14425cba11d3491c0f9c37eb69581e1e28a9caa5fc/gaea_operator-4.1.3.dev3-py3-none-any.whl
+[2024-05-29 08:36:21] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2024-05-29 08:36:21] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-29 08:36:21] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240529/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-29 08:36:21] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-05-29 08:36:21] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-4.1.3.dev1-py3-none-any.whl.zip tmp/gaea_operator-4.1.3.dev3-py3-none-any.whl.zip --markdown 20240529/g/gaea-operator/4.1.3.dev1-4.1.3.dev3/README.md --exclude *.pyd
+[2024-05-29 08:36:22] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2024-05-29 08:36:22] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2024-05-29 08:36:22] INFO root fetch - processPackages [vectorshift]: Downloading https://files.pythonhosted.org/packages/22/49/d9b196a4c957dc9d7e0fbd696a923b98e05debc749ebc6b4e0218171f751/vectorshift-0.0.9.tar.gz
+[2024-05-29 08:36:22] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2024-05-29 08:36:22] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20240529/m/mpservice/0.9.9-0.9.9.post1/README.md --exclude *.pyd
+[2024-05-29 08:36:22] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2024-05-29 08:36:22] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20240529/c/clickzetta-connector/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-29 08:36:22] INFO root fetch - processPackages [vectorshift]: executing diffoscope
+[2024-05-29 08:36:22] INFO root fetch - processPackages [vectorshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorshift-0.0.8.tar.gz tmp/vectorshift-0.0.9.tar.gz --markdown 20240529/v/vectorshift/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 08:36:22] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2024-05-29 08:36:22] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2024-05-29 08:36:22] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2024-05-29 08:36:22] INFO root fetch - processPackages [vectorshift]: Remove: archive file [/home/abi/fetcher/tmp/vectorshift-0.0.8.tar.gz]
+[2024-05-29 08:36:22] INFO root fetch - processPackages [vectorshift]: Remove: archive file [/home/abi/fetcher/tmp/vectorshift-0.0.9.tar.gz]
+[2024-05-29 08:36:22] INFO root fetch - main [MainThread]: End processing [vectorshift]: success
+[2024-05-29 08:36:23] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-29 08:36:23] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-29 08:36:23] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-29 08:36:23] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2024-05-29 08:36:23] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2024-05-29 08:36:23] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2024-05-29 08:36:23] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.3.dev1-py3-none-any.whl.zip]
+[2024-05-29 08:36:23] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.3.dev3-py3-none-any.whl.zip]
+[2024-05-29 08:36:23] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-05-29 08:36:23] INFO root fetch - main [MainThread]: Store serial: [23425042]
