@@ -8198,3 +8198,38 @@
 [2024-05-29 04:53:30] INFO root fetch - processPackages [nnabla-converter]: Remove: archive file [/home/abi/fetcher/tmp/nnabla_converter-1.39.0-py3-none-any.whl.zip]
 [2024-05-29 04:53:30] INFO root fetch - main [MainThread]: End processing [nnabla-converter]: success
 [2024-05-29 04:53:30] INFO root fetch - main [MainThread]: Store serial: [23423405]
+[2024-05-29 04:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423405]
+[2024-05-29 04:55:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 04:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nnabla-rl
+[2024-05-29 04:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nnabla-ext-cuda116
+[2024-05-29 04:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freeze-dried-data
+[2024-05-29 04:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ect
+[2024-05-29 04:55:39] INFO root fetch - processPackages [freeze-dried-data]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-05-29 04:55:39] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/e4/e8/ee2dba1c5308332b7ec875cf81493936f56881c2b18c79bae958b6dce613/freeze_dried_data-2.2.2.tar.gz
+[2024-05-29 04:55:39] INFO root fetch - processPackages [ect]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-29 04:55:39] INFO root fetch - processPackages [nnabla-ext-cuda116]: New version: [1.39.0] Old Version: [1.38.0]
+[2024-05-29 04:55:39] INFO root fetch - processPackages [nnabla-rl]: New version: [0.9.0] Old Version: [0.15.0]
+[2024-05-29 04:55:39] INFO root fetch - processPackages [nnabla-rl]: Downloading https://files.pythonhosted.org/packages/63/61/1461e07f7a23e25f0c4af2b31bf7d0355d3dc5e6154bf33e3f7f88d78e6e/nnabla_rl-0.15.0-py3-none-any.whl
+[2024-05-29 04:55:39] INFO root fetch - processPackages [ect]: Downloading https://files.pythonhosted.org/packages/5b/76/f883c2b49eae0e9aea2b5a82e171bf391a3bd929d37158116305e5f53797/ect-0.1.4.tar.gz
+[2024-05-29 04:55:39] INFO root fetch - processPackages [nnabla-ext-cuda116]: Downloading https://files.pythonhosted.org/packages/75/29/576efec2c679cd636e5429105be192b23ce15661ed30a9e137b50d2ea82b/nnabla_ext_cuda116-1.38.0-cp39-cp39-win_amd64.whl
+[2024-05-29 04:55:40] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/9e/ea/1d03b210a3d9c3b7f6680a1f980a263e6702e19c9a099520ffcea51a0bcc/freeze_dried_data-2.2.3.tar.gz
+[2024-05-29 04:55:40] INFO root fetch - processPackages [freeze-dried-data]: executing diffoscope
+[2024-05-29 04:55:40] INFO root fetch - processPackages [freeze-dried-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeze_dried_data-2.2.2.tar.gz tmp/freeze_dried_data-2.2.3.tar.gz --markdown 20240529/f/freeze-dried-data/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-05-29 04:55:40] WARNING root fetch - processPackages [nnabla-ext-cuda116]: Skipping package: exceeds size limit 106423912>=10485760
+[2024-05-29 04:55:40] INFO root fetch - main [MainThread]: End processing [nnabla-ext-cuda116] error
+[2024-05-29 04:55:40] INFO root fetch - processPackages [ect]: Downloading https://files.pythonhosted.org/packages/0d/8e/4b486ef6586342df9fc7d90ba284978a3c18911768956fa064528882e685/ect-0.1.5.tar.gz
+[2024-05-29 04:55:40] INFO root fetch - processPackages [nnabla-rl]: Downloading https://files.pythonhosted.org/packages/36/5a/791832b0408c7a00049dc18da63ae39b93f7c5ce39385f6071e2cd0e7fbc/nnabla_rl-0.9.0-py3-none-any.whl
+[2024-05-29 04:55:40] INFO root fetch - processPackages [ect]: executing diffoscope
+[2024-05-29 04:55:40] INFO root fetch - processPackages [ect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ect-0.1.4.tar.gz tmp/ect-0.1.5.tar.gz --markdown 20240529/e/ect/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-29 04:55:40] INFO root fetch - processPackages [nnabla-rl]: executing diffoscope
+[2024-05-29 04:55:40] INFO root fetch - processPackages [nnabla-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnabla_rl-0.15.0-py3-none-any.whl.zip tmp/nnabla_rl-0.9.0-py3-none-any.whl.zip --markdown 20240529/n/nnabla-rl/0.15.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 04:55:40] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.2.2.tar.gz]
+[2024-05-29 04:55:40] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.2.3.tar.gz]
+[2024-05-29 04:55:40] INFO root fetch - main [MainThread]: End processing [freeze-dried-data]: success
+[2024-05-29 04:55:40] INFO root fetch - processPackages [ect]: Remove: archive file [/home/abi/fetcher/tmp/ect-0.1.4.tar.gz]
+[2024-05-29 04:55:40] INFO root fetch - processPackages [ect]: Remove: archive file [/home/abi/fetcher/tmp/ect-0.1.5.tar.gz]
+[2024-05-29 04:55:40] INFO root fetch - main [MainThread]: End processing [ect]: success
+[2024-05-29 04:55:42] INFO root fetch - processPackages [nnabla-rl]: Remove: archive file [/home/abi/fetcher/tmp/nnabla_rl-0.15.0-py3-none-any.whl.zip]
+[2024-05-29 04:55:42] INFO root fetch - processPackages [nnabla-rl]: Remove: archive file [/home/abi/fetcher/tmp/nnabla_rl-0.9.0-py3-none-any.whl.zip]
+[2024-05-29 04:55:42] INFO root fetch - main [MainThread]: End processing [nnabla-rl]: success
+[2024-05-29 04:55:42] INFO root fetch - main [MainThread]: Store serial: [23423419]
