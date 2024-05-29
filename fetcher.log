@@ -9648,3 +9648,63 @@
 [2024-05-29 06:28:28] INFO root fetch - main [MainThread]: End processing [python-115]: success
 [2024-05-29 06:28:28] INFO root fetch - main [MainThread]: End processing [python-115]: success
 [2024-05-29 06:28:28] INFO root fetch - main [MainThread]: Store serial: [23423923]
+[2024-05-29 06:30:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423923]
+[2024-05-29 06:30:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 06:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-sdk-remote
+[2024-05-29 06:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-alist
+[2024-05-29 06:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gwml
+[2024-05-29 06:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ques
+[2024-05-29 06:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GnosisTech
+[2024-05-29 06:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdkit
+[2024-05-29 06:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: upm-micro-project-manager
+[2024-05-29 06:30:37] INFO root fetch - processPackages [GnosisTech]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 06:30:37] INFO root fetch - processPackages [sdkit]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-29 06:30:37] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 06:30:37] INFO root fetch - processPackages [upm-micro-project-manager]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-29 06:30:37] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/93/60/f1cfed64d7175493cc3b01c545ef84e4049657cc72b7ae5d378b74e5a2e9/gnosistech-1.0.0.tar.gz
+[2024-05-29 06:30:37] WARNING root fetch - processPackages [ques]: Skipping, unable to determine old version
+[2024-05-29 06:30:37] INFO root fetch - processPackages [gwml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 06:30:37] INFO root fetch - main [MainThread]: End processing [ques] error
+[2024-05-29 06:30:37] INFO root fetch - processPackages [python-alist]: New version: [0.0.9.9] Old Version: [0.0.9.8.1]
+[2024-05-29 06:30:37] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/4f/d9/7218fa4642a4063b7605ea2709719503ddae7889d494777e16effbcd2447/sdkit-2.0.8.tar.gz
+[2024-05-29 06:30:37] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/16/4c/767ed3dbd217eb3ea1f030c845f5a098d8e656f2fb4ab63c7fa0eadcf367/python_alist-0.0.9.8.1.tar.gz
+[2024-05-29 06:30:37] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/b2/73/ff727800d332ba3412e3135ded7fed3d1b78930e48ab4f978b5038b41b5f/python_sdk_remote-0.0.98.tar.gz
+[2024-05-29 06:30:37] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/74/b1/dd13d7aa61b546849dd957ac4f69f05dab5c14922cc210df942bd30f51ce/gwml-0.1.8-py3-none-any.whl
+[2024-05-29 06:30:37] INFO root fetch - processPackages [upm-micro-project-manager]: Downloading https://files.pythonhosted.org/packages/97/63/7c0331f4a57cf4b48b38a6500cbff9c8bd49c1263b457f1dd9ecb230ebca/upm%20-%20micro%20project%20manager-0.3.1.tar.gz
+[2024-05-29 06:30:37] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/a4/c8/c4ceead1bdae1d44cce58995ae016d39c6e4134cefa9b31ef2daf97d4c36/python_alist-0.0.9.9.tar.gz
+[2024-05-29 06:30:37] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/2f/1b/d978aebc939aeee47bb08a55727505b1a5c488da017523b95b73b28721f8/gnosistech-1.0.1.tar.gz
+[2024-05-29 06:30:37] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/a3/3b/170fb343234797b20456dea2c5c46bfe6a8c52594affdec77735ecf76561/sdkit-2.0.9.tar.gz
+[2024-05-29 06:30:37] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/c6/6c/d232e7e91dcb30944e7eee0abdeb4922803eca620e93ce6940350682eaeb/python_sdk_remote-0.0.99.tar.gz
+[2024-05-29 06:30:37] INFO root fetch - processPackages [python-alist]: executing diffoscope
+[2024-05-29 06:30:37] INFO root fetch - processPackages [python-alist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_alist-0.0.9.8.1.tar.gz tmp/python_alist-0.0.9.9.tar.gz --markdown 20240529/p/python-alist/0.0.9.8.1-0.0.9.9/README.md --exclude *.pyd
+[2024-05-29 06:30:37] INFO root fetch - processPackages [GnosisTech]: executing diffoscope
+[2024-05-29 06:30:37] INFO root fetch - processPackages [GnosisTech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnosistech-1.0.0.tar.gz tmp/gnosistech-1.0.1.tar.gz --markdown 20240529/G/GnosisTech/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 06:30:37] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/3a/0c/f8a96cba8e57cb826eafe85a9f3900402548c20e650346b5215cc9001e54/gwml-0.1.9-py3-none-any.whl
+[2024-05-29 06:30:37] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2024-05-29 06:30:37] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-2.0.8.tar.gz tmp/sdkit-2.0.9.tar.gz --markdown 20240529/s/sdkit/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-29 06:30:37] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-05-29 06:30:37] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_remote-0.0.98.tar.gz tmp/python_sdk_remote-0.0.99.tar.gz --markdown 20240529/p/python-sdk-remote/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 06:30:37] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-29 06:30:37] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.8-py3-none-any.whl.zip tmp/gwml-0.1.9-py3-none-any.whl.zip --markdown 20240529/g/gwml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 06:30:37] INFO root fetch - processPackages [upm-micro-project-manager]: Downloading https://files.pythonhosted.org/packages/2d/69/5be3910d839678285570aa94e77deedfc58c302527f67917d00e76e78249/upm_micro_project_manager-0.4.0-py3-none-any.whl
+[2024-05-29 06:30:38] INFO root fetch - processPackages [upm-micro-project-manager]: executing diffoscope
+[2024-05-29 06:30:38] INFO root fetch - processPackages [upm-micro-project-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upm - micro project manager-0.3.1.tar.gz tmp/upm_micro_project_manager-0.4.0-py3-none-any.whl.zip --markdown 20240529/u/upm-micro-project-manager/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-29 06:30:38] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.98.tar.gz]
+[2024-05-29 06:30:38] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.99.tar.gz]
+[2024-05-29 06:30:38] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-05-29 06:30:38] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-1.0.0.tar.gz]
+[2024-05-29 06:30:38] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-1.0.1.tar.gz]
+[2024-05-29 06:30:38] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
+[2024-05-29 06:30:38] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.8.1.tar.gz]
+[2024-05-29 06:30:38] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.9.tar.gz]
+[2024-05-29 06:30:38] INFO root fetch - main [MainThread]: End processing [python-alist]: success
+[2024-05-29 06:30:38] INFO root fetch - processPackages [upm-micro-project-manager]: Remove: archive file [/home/abi/fetcher/tmp/upm - micro project manager-0.3.1.tar.gz]
+[2024-05-29 06:30:38] INFO root fetch - processPackages [upm-micro-project-manager]: Remove: archive file [/home/abi/fetcher/tmp/upm_micro_project_manager-0.4.0-py3-none-any.whl.zip]
+[2024-05-29 06:30:38] INFO root fetch - main [MainThread]: End processing [upm-micro-project-manager]: success
+[2024-05-29 06:30:38] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.8-py3-none-any.whl.zip]
+[2024-05-29 06:30:38] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.9-py3-none-any.whl.zip]
+[2024-05-29 06:30:38] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-29 06:30:38] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.8.tar.gz]
+[2024-05-29 06:30:38] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.9.tar.gz]
+[2024-05-29 06:30:38] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2024-05-29 06:30:38] INFO root fetch - main [MainThread]: Store serial: [23423939]
