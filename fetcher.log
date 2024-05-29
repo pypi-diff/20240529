@@ -12960,3 +12960,60 @@
 [2024-05-29 09:08:52] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1716964024.tar.gz]
 [2024-05-29 09:08:52] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
 [2024-05-29 09:08:52] INFO root fetch - main [MainThread]: Store serial: [23425340]
+[2024-05-29 09:10:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425340]
+[2024-05-29 09:11:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contacts-assistant
+[2024-05-29 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vns-explorer
+[2024-05-29 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2024-05-29 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gw-dsl-parser
+[2024-05-29 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manual-tls
+[2024-05-29 09:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apache-skywalking-onepiece
+[2024-05-29 09:11:01] INFO root fetch - processPackages [apache-skywalking-onepiece]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-29 09:11:01] INFO root fetch - processPackages [manual-tls]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 09:11:02] INFO root fetch - processPackages [cg]: New version: [60.8.9] Old Version: [60.8.8]
+[2024-05-29 09:11:02] INFO root fetch - processPackages [contacts-assistant]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 09:11:02] INFO root fetch - processPackages [vns-explorer]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 09:11:02] INFO root fetch - processPackages [gw-dsl-parser]: New version: [0.1.8a0] Old Version: [0.1.8]
+[2024-05-29 09:11:02] INFO root fetch - processPackages [manual-tls]: Downloading https://files.pythonhosted.org/packages/4b/90/894bdd90a881dad5d89ddaf398f75b2f79e5a0c0764547b44f684d28f74e/manual_tls-0.0.3.tar.gz
+[2024-05-29 09:11:02] INFO root fetch - processPackages [apache-skywalking-onepiece]: Downloading https://files.pythonhosted.org/packages/2f/d1/fdd69c80d6fb7ac4e9025fc1a8ee85f54e55d438d8ab743153e4e231c554/apache_skywalking_onepiece-1.1.0.tar.gz
+[2024-05-29 09:11:02] INFO root fetch - processPackages [vns-explorer]: Downloading https://files.pythonhosted.org/packages/84/f0/fef44cecaf131efe17e5fa0e9771ca98b2006a0bb7a98408a94ba28373b1/vns_explorer-1.0.1.tar.gz
+[2024-05-29 09:11:02] INFO root fetch - processPackages [contacts-assistant]: Downloading https://files.pythonhosted.org/packages/33/9f/108164fb8e65a632c839913b99da06157f0acb9d53884bc0a3e99ba6a572/contacts_assistant-0.0.8.tar.gz
+[2024-05-29 09:11:02] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/8e/017bcd413c9044bb3a8ec3e9a9e28ff36b6d814eef56056a4702d375ac95/cg-60.8.8.tar.gz
+[2024-05-29 09:11:02] INFO root fetch - processPackages [gw-dsl-parser]: Downloading https://files.pythonhosted.org/packages/15/a5/9506f443525fa668e12d0fbac4b2c738b95a3fe1cd4314152f38ed356cdc/gw_dsl_parser-0.1.8.tar.gz
+[2024-05-29 09:11:02] INFO root fetch - processPackages [manual-tls]: Downloading https://files.pythonhosted.org/packages/cd/30/ce6a97c8ad99401b1caa5de864b8736ecf01a92ae69f08d4dc9ddb44fb65/manual_tls-0.0.4.tar.gz
+[2024-05-29 09:11:02] INFO root fetch - processPackages [vns-explorer]: Downloading https://files.pythonhosted.org/packages/ab/27/71ed9ad884e36fc8637ae251b0ecc4491a907628b546e0f6f3ce59c0aaeb/vns_explorer-1.0.2.tar.gz
+[2024-05-29 09:11:02] INFO root fetch - processPackages [apache-skywalking-onepiece]: Downloading https://files.pythonhosted.org/packages/ac/01/710e17e763614b34ecfc336c8cdf4c1e5270ff175f95e03ea07a9b530985/apache_skywalking_onepiece-1.1.1.tar.gz
+[2024-05-29 09:11:02] INFO root fetch - processPackages [contacts-assistant]: Downloading https://files.pythonhosted.org/packages/58/95/997a96ce86f7fd842856d5dba30e9987ba9891456196e2a073db3dab5750/contacts_assistant-0.0.9.tar.gz
+[2024-05-29 09:11:02] INFO root fetch - processPackages [manual-tls]: executing diffoscope
+[2024-05-29 09:11:02] INFO root fetch - processPackages [manual-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manual_tls-0.0.3.tar.gz tmp/manual_tls-0.0.4.tar.gz --markdown 20240529/m/manual-tls/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 09:11:02] INFO root fetch - processPackages [vns-explorer]: executing diffoscope
+[2024-05-29 09:11:02] INFO root fetch - processPackages [vns-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vns_explorer-1.0.1.tar.gz tmp/vns_explorer-1.0.2.tar.gz --markdown 20240529/v/vns-explorer/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 09:11:02] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/df/aa/bcf36edef12ba2ac2c9179507531723a7d2784d50a1cb868497d0120f301/cg-60.8.9.tar.gz
+[2024-05-29 09:11:02] INFO root fetch - processPackages [apache-skywalking-onepiece]: executing diffoscope
+[2024-05-29 09:11:02] INFO root fetch - processPackages [apache-skywalking-onepiece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_skywalking_onepiece-1.1.0.tar.gz tmp/apache_skywalking_onepiece-1.1.1.tar.gz --markdown 20240529/a/apache-skywalking-onepiece/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-29 09:11:02] INFO root fetch - processPackages [contacts-assistant]: executing diffoscope
+[2024-05-29 09:11:02] INFO root fetch - processPackages [contacts-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contacts_assistant-0.0.8.tar.gz tmp/contacts_assistant-0.0.9.tar.gz --markdown 20240529/c/contacts-assistant/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 09:11:03] INFO root fetch - processPackages [gw-dsl-parser]: Downloading https://files.pythonhosted.org/packages/32/42/18d9b154f1fdecbcb44e2be2dad97b95800d6b5f358955218f560638633c/gw_dsl_parser-0.1.8a0.tar.gz
+[2024-05-29 09:11:03] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-29 09:11:03] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.8.tar.gz tmp/cg-60.8.9.tar.gz --markdown 20240529/c/cg/60.8.8-60.8.9/README.md --exclude *.pyd
+[2024-05-29 09:11:03] INFO root fetch - processPackages [manual-tls]: Remove: archive file [/home/abi/fetcher/tmp/manual_tls-0.0.3.tar.gz]
+[2024-05-29 09:11:03] INFO root fetch - processPackages [manual-tls]: Remove: archive file [/home/abi/fetcher/tmp/manual_tls-0.0.4.tar.gz]
+[2024-05-29 09:11:03] INFO root fetch - main [MainThread]: End processing [manual-tls]: success
+[2024-05-29 09:11:03] INFO root fetch - processPackages [vns-explorer]: Remove: archive file [/home/abi/fetcher/tmp/vns_explorer-1.0.1.tar.gz]
+[2024-05-29 09:11:03] INFO root fetch - processPackages [vns-explorer]: Remove: archive file [/home/abi/fetcher/tmp/vns_explorer-1.0.2.tar.gz]
+[2024-05-29 09:11:03] INFO root fetch - main [MainThread]: End processing [vns-explorer]: success
+[2024-05-29 09:11:03] INFO root fetch - processPackages [gw-dsl-parser]: executing diffoscope
+[2024-05-29 09:11:03] INFO root fetch - processPackages [gw-dsl-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw_dsl_parser-0.1.8.tar.gz tmp/gw_dsl_parser-0.1.8a0.tar.gz --markdown 20240529/g/gw-dsl-parser/0.1.8-0.1.8a0/README.md --exclude *.pyd
+[2024-05-29 09:11:03] INFO root fetch - processPackages [contacts-assistant]: Remove: archive file [/home/abi/fetcher/tmp/contacts_assistant-0.0.8.tar.gz]
+[2024-05-29 09:11:03] INFO root fetch - processPackages [contacts-assistant]: Remove: archive file [/home/abi/fetcher/tmp/contacts_assistant-0.0.9.tar.gz]
+[2024-05-29 09:11:03] INFO root fetch - main [MainThread]: End processing [contacts-assistant]: success
+[2024-05-29 09:11:03] INFO root fetch - processPackages [apache-skywalking-onepiece]: Remove: archive file [/home/abi/fetcher/tmp/apache_skywalking_onepiece-1.1.0.tar.gz]
+[2024-05-29 09:11:03] INFO root fetch - processPackages [apache-skywalking-onepiece]: Remove: archive file [/home/abi/fetcher/tmp/apache_skywalking_onepiece-1.1.1.tar.gz]
+[2024-05-29 09:11:03] INFO root fetch - main [MainThread]: End processing [apache-skywalking-onepiece]: success
+[2024-05-29 09:11:04] INFO root fetch - processPackages [gw-dsl-parser]: Remove: archive file [/home/abi/fetcher/tmp/gw_dsl_parser-0.1.8.tar.gz]
+[2024-05-29 09:11:04] INFO root fetch - processPackages [gw-dsl-parser]: Remove: archive file [/home/abi/fetcher/tmp/gw_dsl_parser-0.1.8a0.tar.gz]
+[2024-05-29 09:11:04] INFO root fetch - main [MainThread]: End processing [gw-dsl-parser]: success
+[2024-05-29 09:11:07] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.8.tar.gz]
+[2024-05-29 09:11:07] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
+[2024-05-29 09:11:07] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-29 09:11:07] INFO root fetch - main [MainThread]: Store serial: [23425357]
