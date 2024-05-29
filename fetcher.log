@@ -21113,3 +21113,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:07:52] INFO root fetch - processPackages [dtintegrations]: Remove: archive file [/home/abi/fetcher/tmp/dtintegrations-0.6.1.tar.gz]
 [2024-05-29 14:07:52] INFO root fetch - main [MainThread]: End processing [dtintegrations]: success
 [2024-05-29 14:07:52] INFO root fetch - main [MainThread]: Store serial: [23429226]
+[2024-05-29 14:09:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429226]
+[2024-05-29 14:10:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 14:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prefsampling
+[2024-05-29 14:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recommendation-lib
+[2024-05-29 14:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ArcDLNexus
+[2024-05-29 14:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feffery-antd-components
+[2024-05-29 14:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-aliding20230426
+[2024-05-29 14:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metrit
+[2024-05-29 14:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omegapy
+[2024-05-29 14:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eclipse-pay
+[2024-05-29 14:10:00] INFO root fetch - processPackages [ArcDLNexus]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 14:10:00] INFO root fetch - processPackages [metrit]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 14:10:00] INFO root fetch - processPackages [recommendation-lib]: New version: [2.0] Old Version: [1.4]
+[2024-05-29 14:10:00] INFO root fetch - processPackages [recommendation-lib]: Downloading https://files.pythonhosted.org/packages/19/54/72abc88625facf6ce5a076e035eecc2d4d540a9dab6238d0da2cdbfdd3b0/recommendation_lib-1.4.tar.gz
+[2024-05-29 14:10:00] INFO root fetch - processPackages [metrit]: Downloading https://files.pythonhosted.org/packages/92/55/03138c60a68594a07b6584c296946440b6766e20222563194b28d5381cd7/metrit-0.0.3.tar.gz
+[2024-05-29 14:10:00] INFO root fetch - processPackages [prefsampling]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 14:10:00] INFO root fetch - processPackages [omegapy]: New version: [3.0b0] Old Version: [3.0.6]
+[2024-05-29 14:10:00] WARNING root fetch - processPackages [eclipse-pay]: Skipping, unable to determine old version
+[2024-05-29 14:10:00] INFO root fetch - main [MainThread]: End processing [eclipse-pay] error
+[2024-05-29 14:10:00] INFO root fetch - processPackages [ArcDLNexus]: Downloading https://files.pythonhosted.org/packages/45/23/d3d75c379ecd54cf6aa0927839fd44e60dc87519f1c85c400dc2f4b8e1f5/arcdlnexus-0.1.3.tar.gz
+[2024-05-29 14:10:00] INFO root fetch - processPackages [feffery-antd-components]: New version: [0.3.0rc9] Old Version: [0.3.0rc8]
+[2024-05-29 14:10:00] INFO root fetch - processPackages [prefsampling]: Downloading https://files.pythonhosted.org/packages/99/65/f9167a72c9377d844371a15877b70225e50468b119ac13955d39081f7278/prefsampling-0.1.8.tar.gz
+[2024-05-29 14:10:01] INFO root fetch - processPackages [omegapy]: Downloading https://files.pythonhosted.org/packages/25/c6/764e5f784f23ff768d855225b6f13bac639041cb01bf9b0ce2f39219986f/omegapy-3.0.6.tar.gz
+[2024-05-29 14:10:01] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/1d/bf/661a29a1f929a7fd09b496fb6709b4b26d971bdcdc5447f96708495c1759/feffery_antd_components-0.3.0rc8.tar.gz
+[2024-05-29 14:10:01] INFO root fetch - processPackages [alibabacloud-aliding20230426]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-29 14:10:01] INFO root fetch - processPackages [metrit]: Downloading https://files.pythonhosted.org/packages/b6/9b/3fb18d658f9766aeaa2d34b381343ab9e671f02c267648878862b5b06043/metrit-0.0.4.tar.gz
+[2024-05-29 14:10:01] INFO root fetch - processPackages [ArcDLNexus]: Downloading https://files.pythonhosted.org/packages/52/bf/8bbe94621c88ccc7eb9195a569f335dfc3bc7389c70e501c1185749ab1f2/arcdlnexus-0.1.4.tar.gz
+[2024-05-29 14:10:01] INFO root fetch - processPackages [metrit]: executing diffoscope
+[2024-05-29 14:10:01] INFO root fetch - processPackages [metrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrit-0.0.3.tar.gz tmp/metrit-0.0.4.tar.gz --markdown 20240529/m/metrit/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 14:10:01] INFO root fetch - processPackages [ArcDLNexus]: executing diffoscope
+[2024-05-29 14:10:01] INFO root fetch - processPackages [ArcDLNexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcdlnexus-0.1.3.tar.gz tmp/arcdlnexus-0.1.4.tar.gz --markdown 20240529/A/ArcDLNexus/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-29 14:10:01] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/47/eb/54590ddcba76aaeb5cd76c1e9e184656648abeac916180449cd577be8d38/alibabacloud_aliding20230426-2.8.0.tar.gz
+[2024-05-29 14:10:01] INFO root fetch - processPackages [prefsampling]: Downloading https://files.pythonhosted.org/packages/fc/7d/59768af33065d50ccdf2c9ac4d390b93526341068f07138f8d60a6c79250/prefsampling-0.1.9.tar.gz
+[2024-05-29 14:10:01] INFO root fetch - processPackages [prefsampling]: executing diffoscope
+[2024-05-29 14:10:01] INFO root fetch - processPackages [prefsampling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefsampling-0.1.8.tar.gz tmp/prefsampling-0.1.9.tar.gz --markdown 20240529/p/prefsampling/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 14:10:01] INFO root fetch - processPackages [recommendation-lib]: Downloading https://files.pythonhosted.org/packages/1a/4d/e01f4a1e8411ce3a57c66ca16b01858cb747e95e5e7a44300932aedf7a72/recommendation_lib-2.0.tar.gz
+[2024-05-29 14:10:01] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/0c/a6/4fab85bdf0a7b2360f3d1fc510b11ee93323e3dae3673d5077b9d650492e/alibabacloud_aliding20230426-2.9.0.tar.gz
+[2024-05-29 14:10:01] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/1e/70/5d7c32f6a10c6c051166e2371196054d403b8f5c459d3ded64975d7ab261/feffery_antd_components-0.3.0rc9.tar.gz
+[2024-05-29 14:10:01] INFO root fetch - processPackages [ArcDLNexus]: Remove: archive file [/home/abi/fetcher/tmp/arcdlnexus-0.1.3.tar.gz]
+[2024-05-29 14:10:01] INFO root fetch - processPackages [ArcDLNexus]: Remove: archive file [/home/abi/fetcher/tmp/arcdlnexus-0.1.4.tar.gz]
+[2024-05-29 14:10:01] INFO root fetch - main [MainThread]: End processing [ArcDLNexus]: success
+[2024-05-29 14:10:01] INFO root fetch - processPackages [recommendation-lib]: executing diffoscope
+[2024-05-29 14:10:01] INFO root fetch - processPackages [recommendation-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recommendation_lib-1.4.tar.gz tmp/recommendation_lib-2.0.tar.gz --markdown 20240529/r/recommendation-lib/1.4-2.0/README.md --exclude *.pyd
+[2024-05-29 14:10:02] INFO root fetch - processPackages [metrit]: Remove: archive file [/home/abi/fetcher/tmp/metrit-0.0.3.tar.gz]
+[2024-05-29 14:10:02] INFO root fetch - processPackages [metrit]: Remove: archive file [/home/abi/fetcher/tmp/metrit-0.0.4.tar.gz]
+[2024-05-29 14:10:02] INFO root fetch - main [MainThread]: End processing [metrit]: success
+[2024-05-29 14:10:02] INFO root fetch - processPackages [alibabacloud-aliding20230426]: executing diffoscope
+[2024-05-29 14:10:02] INFO root fetch - processPackages [alibabacloud-aliding20230426]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aliding20230426-2.8.0.tar.gz tmp/alibabacloud_aliding20230426-2.9.0.tar.gz --markdown 20240529/a/alibabacloud-aliding20230426/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-29 14:10:02] INFO root fetch - processPackages [feffery-antd-components]: executing diffoscope
+[2024-05-29 14:10:02] INFO root fetch - processPackages [feffery-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_components-0.3.0rc8.tar.gz tmp/feffery_antd_components-0.3.0rc9.tar.gz --markdown 20240529/f/feffery-antd-components/0.3.0rc8-0.3.0rc9/README.md --exclude *.pyd
+[2024-05-29 14:10:02] INFO root fetch - processPackages [omegapy]: Downloading https://files.pythonhosted.org/packages/af/a6/56be2eaf652ccd577ca82023a0849a972f6e84d399184f9941bab813a6de/omegapy-3.0b0.tar.gz
+[2024-05-29 14:10:02] INFO root fetch - processPackages [prefsampling]: Remove: archive file [/home/abi/fetcher/tmp/prefsampling-0.1.8.tar.gz]
+[2024-05-29 14:10:02] INFO root fetch - processPackages [prefsampling]: Remove: archive file [/home/abi/fetcher/tmp/prefsampling-0.1.9.tar.gz]
+[2024-05-29 14:10:02] INFO root fetch - main [MainThread]: End processing [prefsampling]: success
+[2024-05-29 14:10:02] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.8.0.tar.gz]
+[2024-05-29 14:10:02] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.9.0.tar.gz]
+[2024-05-29 14:10:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-aliding20230426]: success
+[2024-05-29 14:10:03] INFO root fetch - processPackages [recommendation-lib]: Remove: archive file [/home/abi/fetcher/tmp/recommendation_lib-1.4.tar.gz]
+[2024-05-29 14:10:03] INFO root fetch - processPackages [recommendation-lib]: Remove: archive file [/home/abi/fetcher/tmp/recommendation_lib-2.0.tar.gz]
+[2024-05-29 14:10:03] INFO root fetch - main [MainThread]: End processing [recommendation-lib]: success
+[2024-05-29 14:10:03] INFO root fetch - processPackages [omegapy]: executing diffoscope
+[2024-05-29 14:10:03] INFO root fetch - processPackages [omegapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omegapy-3.0.6.tar.gz tmp/omegapy-3.0b0.tar.gz --markdown 20240529/o/omegapy/3.0.6-3.0b0/README.md --exclude *.pyd
+[2024-05-29 14:10:04] INFO root fetch - processPackages [omegapy]: Remove: archive file [/home/abi/fetcher/tmp/omegapy-3.0.6.tar.gz]
+[2024-05-29 14:10:04] INFO root fetch - processPackages [omegapy]: Remove: archive file [/home/abi/fetcher/tmp/omegapy-3.0b0.tar.gz]
+[2024-05-29 14:10:04] INFO root fetch - main [MainThread]: End processing [omegapy]: success
+[2024-05-29 14:10:33] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.3.0rc8.tar.gz]
+[2024-05-29 14:10:33] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.3.0rc9.tar.gz]
+[2024-05-29 14:10:33] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
+[2024-05-29 14:10:33] INFO root fetch - main [MainThread]: Store serial: [23429250]
