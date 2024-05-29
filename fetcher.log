@@ -13188,3 +13188,69 @@
 [2024-05-29 09:24:30] INFO root fetch - processPackages [ctapipe-io-nectarcam]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe_io_nectarcam-0.1.5.tar.gz]
 [2024-05-29 09:24:30] INFO root fetch - main [MainThread]: End processing [ctapipe-io-nectarcam]: success
 [2024-05-29 09:24:30] INFO root fetch - main [MainThread]: Store serial: [23425549]
+[2024-05-29 09:26:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425549]
+[2024-05-29 09:26:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 09:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xfapi
+[2024-05-29 09:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyAlgoEngine
+[2024-05-29 09:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Peliqan
+[2024-05-29 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtogen
+[2024-05-29 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zepben.protobuf
+[2024-05-29 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-sops-secrets
+[2024-05-29 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fs-tools
+[2024-05-29 09:26:39] INFO root fetch - processPackages [dtogen]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 09:26:39] INFO root fetch - processPackages [xfapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 09:26:39] INFO root fetch - processPackages [fs-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-29 09:26:39] INFO root fetch - processPackages [zepben.protobuf]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2024-05-29 09:26:39] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-29 09:26:39] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/7b/d0/2d5e13913727f276f7172df8c66c03ce2992c5d2df2d32bfd311587fb248/dtogen-0.0.8.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [PyAlgoEngine]: New version: [0.4.0] Old Version: [0.3.9.post4]
+[2024-05-29 09:26:39] INFO root fetch - processPackages [Peliqan]: New version: [1.7.0] Old Version: [1.6.3]
+[2024-05-29 09:26:39] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/cd/7d/60b5377d6e0c28706089218966fdda9c0adb2545f1788abc1f757801f8da/fs_tools-0.1.7.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/e7/f9/98a738ec69d1cf6c1169c9e0e98d520ed5a5943e9911bce5201611265f81/zepben.protobuf-0.9.0b2-py3-none-any.whl
+[2024-05-29 09:26:39] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/73/b8/ade25da8e334c18f01c01ef661dc91a5a4d22bfda9cb84b5d6df7857f04f/cdk-sops-secrets-1.9.0.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/63/80/eac545f3234f5de3977f6d9f78253b5c237b2838a53f430ee4f1c40ef452/xfapi-0.0.1.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/b0/a7/5e969aef85b01b34971e2fcfa7d931c30b1bbab074681bfc6d38216a47cc/Peliqan-1.6.3.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/8d/d7/9cc3d830ab0d313eb7f729e762812f1fa37406b140275ab38f82bb3ddf47/PyAlgoEngine-0.3.9.post4.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/23/28/31d5753e9801893d664709f9ca15838c2086e768f2b1eda54714ae6c44a5/dtogen-0.0.9.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/28/68/2e927cedf3c9becd324384e9155b1b7daa05fdc2b3df96c1c8cad882c9a8/fs_tools-0.1.8.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/ea/50/751033a2cb3fef1cb800a48f0d63bf756c6cdb739fe466ebcae674b82ea8/zepben.protobuf-0.9.0b3-py3-none-any.whl
+[2024-05-29 09:26:39] INFO root fetch - processPackages [dtogen]: executing diffoscope
+[2024-05-29 09:26:39] INFO root fetch - processPackages [dtogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtogen-0.0.8.tar.gz tmp/dtogen-0.0.9.tar.gz --markdown 20240529/d/dtogen/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 09:26:39] INFO root fetch - processPackages [fs-tools]: executing diffoscope
+[2024-05-29 09:26:39] INFO root fetch - processPackages [fs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs_tools-0.1.7.tar.gz tmp/fs_tools-0.1.8.tar.gz --markdown 20240529/f/fs-tools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-29 09:26:39] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/d0/cd/ca399b352786ed401d901d38ac73b979cca761cb7aa43139564585f88377/xfapi-0.0.2.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [zepben.protobuf]: executing diffoscope
+[2024-05-29 09:26:39] INFO root fetch - processPackages [zepben.protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip --markdown 20240529/z/zepben.protobuf/0.9.0b2-0.9.0b3/README.md --exclude *.pyd
+[2024-05-29 09:26:39] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/72/10/921bda5a7af2e2d5021a2d57bf18bf36c031ae051d73ac81c24419ccae4f/Peliqan-1.7.0.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/fc/f6/5b819cd830f711ff540e989da44f30f896e1d9ba7257478f104dc1426e7b/pyalgoengine-0.4.0.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [xfapi]: executing diffoscope
+[2024-05-29 09:26:39] INFO root fetch - processPackages [xfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfapi-0.0.1.tar.gz tmp/xfapi-0.0.2.tar.gz --markdown 20240529/x/xfapi/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 09:26:39] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/b8/41/6e3e661c43feace270d2cca98743112f00746616f1d6493eb5e6183b8b35/cdk-sops-secrets-1.9.1.tar.gz
+[2024-05-29 09:26:39] INFO root fetch - processPackages [PyAlgoEngine]: executing diffoscope
+[2024-05-29 09:26:39] INFO root fetch - processPackages [PyAlgoEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAlgoEngine-0.3.9.post4.tar.gz tmp/pyalgoengine-0.4.0.tar.gz --markdown 20240529/P/PyAlgoEngine/0.3.9.post4-0.4.0/README.md --exclude *.pyd
+[2024-05-29 09:26:39] INFO root fetch - processPackages [Peliqan]: executing diffoscope
+[2024-05-29 09:26:39] INFO root fetch - processPackages [Peliqan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Peliqan-1.6.3.tar.gz tmp/Peliqan-1.7.0.tar.gz --markdown 20240529/P/Peliqan/1.6.3-1.7.0/README.md --exclude *.pyd
+[2024-05-29 09:26:40] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.8.tar.gz]
+[2024-05-29 09:26:40] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.9.tar.gz]
+[2024-05-29 09:26:40] INFO root fetch - main [MainThread]: End processing [dtogen]: success
+[2024-05-29 09:26:40] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.7.tar.gz]
+[2024-05-29 09:26:40] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.8.tar.gz]
+[2024-05-29 09:26:40] INFO root fetch - main [MainThread]: End processing [fs-tools]: success
+[2024-05-29 09:26:40] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.1.tar.gz]
+[2024-05-29 09:26:40] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.2.tar.gz]
+[2024-05-29 09:26:40] INFO root fetch - main [MainThread]: End processing [xfapi]: success
+[2024-05-29 09:26:40] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-1.6.3.tar.gz]
+[2024-05-29 09:26:40] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-1.7.0.tar.gz]
+[2024-05-29 09:26:40] INFO root fetch - main [MainThread]: End processing [Peliqan]: success
+[2024-05-29 09:26:40] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.9.post4.tar.gz]
+[2024-05-29 09:26:40] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/pyalgoengine-0.4.0.tar.gz]
+[2024-05-29 09:26:40] INFO root fetch - main [MainThread]: End processing [PyAlgoEngine]: success
+[2024-05-29 09:26:40] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2024-05-29 09:26:40] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.9.0.tar.gz tmp/cdk-sops-secrets-1.9.1.tar.gz --markdown 20240529/c/cdk-sops-secrets/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-29 09:26:41] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip]
+[2024-05-29 09:26:41] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
+[2024-05-29 09:26:41] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
+[2024-05-29 09:26:42] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.9.0.tar.gz]
+[2024-05-29 09:26:42] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.9.1.tar.gz]
+[2024-05-29 09:26:42] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2024-05-29 09:26:42] INFO root fetch - main [MainThread]: Store serial: [23425567]
