@@ -2214,3 +2214,27 @@
 [2024-05-29 02:03:54] INFO root fetch - processPackages [kfactory]: Remove: archive file [/home/abi/fetcher/tmp/kfactory-0.9.3.tar.gz]
 [2024-05-29 02:03:54] INFO root fetch - main [MainThread]: End processing [kfactory]: success
 [2024-05-29 02:03:54] INFO root fetch - main [MainThread]: Store serial: [23421016]
+[2024-05-29 02:05:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421016]
+[2024-05-29 02:06:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 02:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-doc
+[2024-05-29 02:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2024-05-29 02:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2024-05-29 02:06:02] INFO root fetch - processPackages [mct-nightly]: New version: [2.1.0.20240528.427] Old Version: [2.1.0.20240527.425]
+[2024-05-29 02:06:02] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-29 02:06:02] WARNING root fetch - processPackages [sbcli-doc]: Skipping, unable to determine old version
+[2024-05-29 02:06:02] INFO root fetch - main [MainThread]: End processing [sbcli-doc] error
+[2024-05-29 02:06:02] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-29 02:06:02] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/e6/bd/de64d0f99e528d034f656eb21c8eff8eda6147dc642db13bb9d2de0325f5/mct-nightly-2.1.0.20240527.425.tar.gz
+[2024-05-29 02:06:02] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-29 02:06:02] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/ed/e5/1e06b448dcee5fc3b3c4537d19d0e56aaecfc278bbeca22d830da05473a8/mct-nightly-2.1.0.20240528.427.tar.gz
+[2024-05-29 02:06:02] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-29 02:06:02] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240529/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-29 02:06:02] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-29 02:06:02] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.1.0.20240527.425.tar.gz tmp/mct-nightly-2.1.0.20240528.427.tar.gz --markdown 20240529/m/mct-nightly/2.1.0.20240527.425-2.1.0.20240528.427/README.md --exclude *.pyd
+[2024-05-29 02:06:03] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-29 02:06:03] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-29 02:06:03] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-29 02:06:04] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.1.0.20240527.425.tar.gz]
+[2024-05-29 02:06:04] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.1.0.20240528.427.tar.gz]
+[2024-05-29 02:06:04] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-29 02:06:04] INFO root fetch - main [MainThread]: Store serial: [23421026]
