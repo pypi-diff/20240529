@@ -11117,3 +11117,69 @@
 [2024-05-29 07:45:19] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.5.tar.gz]
 [2024-05-29 07:45:19] INFO root fetch - main [MainThread]: End processing [pyannote-onnx]: success
 [2024-05-29 07:45:19] INFO root fetch - main [MainThread]: Store serial: [23424519]
+[2024-05-29 07:47:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424519]
+[2024-05-29 07:47:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 07:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: topologicpy
+[2024-05-29 07:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stefutils
+[2024-05-29 07:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-consul
+[2024-05-29 07:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seqlogic
+[2024-05-29 07:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neurosym
+[2024-05-29 07:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-codenerix-email
+[2024-05-29 07:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-payroll-account
+[2024-05-29 07:47:28] INFO root fetch - processPackages [neurosym]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 07:47:28] INFO root fetch - processPackages [odoo-addon-payroll-account]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-05-29 07:47:28] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/66/87/42efcd2dada44045cddbcc64177bfa822d2cd1915ad9f075c81d65cdd137/neurosym-0.0.8.tar.gz
+[2024-05-29 07:47:28] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-05-29 07:47:28] INFO root fetch - processPackages [seqlogic]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-29 07:47:28] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-29 07:47:28] INFO root fetch - processPackages [django-codenerix-email]: New version: [4.0.8] Old Version: [4.0.7]
+[2024-05-29 07:47:28] INFO root fetch - processPackages [topologicpy]: New version: [6.0.0] Old Version: [0.7.9]
+[2024-05-29 07:47:28] INFO root fetch - processPackages [odoo-addon-payroll-account]: Downloading https://files.pythonhosted.org/packages/22/0a/cc93c5648e0777b19235dec4aabd26911f0b53639d56b7b0aeea625d4542/odoo_addon_payroll_account-16.0.1.1.0-py3-none-any.whl
+[2024-05-29 07:47:29] INFO root fetch - processPackages [django-codenerix-email]: Downloading https://files.pythonhosted.org/packages/44/f2/45aeac1b19b92e1e6afe9ea33c2cad1cc3e78ed86be49751d57325e3ba01/django-codenerix-email-4.0.7.tar.gz
+[2024-05-29 07:47:29] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/b3/d9/0fd09f28366b6afe07c9b07022c327cfcb05f4c54ad12dc10fcb86d94884/neurosym-0.0.9.tar.gz
+[2024-05-29 07:47:29] INFO root fetch - processPackages [seqlogic]: Downloading https://files.pythonhosted.org/packages/91/97/76864f61162900c31b5832186c5c8771ea9821433bc824e0f0c0f7363bb7/seqlogic-0.3.0.tar.gz
+[2024-05-29 07:47:29] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/3e/52/7c597ff5ce0e8a466096408b371dcdd4d6a43fc858cedf97fa4d3cdb0954/topologicpy-0.7.9-py3-none-any.whl
+[2024-05-29 07:47:29] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-29 07:47:29] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-05-29 07:47:29] INFO root fetch - processPackages [odoo-addon-payroll-account]: Downloading https://files.pythonhosted.org/packages/48/d0/717ff985cefcd50fbe208193898b1acd8a9cc370b75ef32d676617572428/odoo_addon_payroll_account-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-29 07:47:29] INFO root fetch - processPackages [neurosym]: executing diffoscope
+[2024-05-29 07:47:29] INFO root fetch - processPackages [neurosym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosym-0.0.8.tar.gz tmp/neurosym-0.0.9.tar.gz --markdown 20240529/n/neurosym/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 07:47:29] INFO root fetch - processPackages [odoo-addon-payroll-account]: executing diffoscope
+[2024-05-29 07:47:29] INFO root fetch - processPackages [odoo-addon-payroll-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_payroll_account-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_payroll_account-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-payroll-account/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-05-29 07:47:29] INFO root fetch - processPackages [django-codenerix-email]: Downloading https://files.pythonhosted.org/packages/f3/2a/ee36f3fd9b47b5476f0f6b4e22be07c82f11abfe7278faddf3ddb8687132/django-codenerix-email-4.0.8.tar.gz
+[2024-05-29 07:47:29] INFO root fetch - processPackages [seqlogic]: Downloading https://files.pythonhosted.org/packages/4e/7d/9e085909b6c19066dfa4109241f55790510fb9e34381033704741bf40312/seqlogic-0.4.0.tar.gz
+[2024-05-29 07:47:29] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/65/d7/de982dd19dedb2387a9d3c48ff9384633b27b874064c9d3614a3c6dc530b/topologicpy-6.0.0-py3-none-any.whl
+[2024-05-29 07:47:29] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-29 07:47:29] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-05-29 07:47:29] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-29 07:47:29] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240529/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-29 07:47:29] INFO root fetch - processPackages [topologicpy]: executing diffoscope
+[2024-05-29 07:47:29] INFO root fetch - processPackages [topologicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topologicpy-0.7.9-py3-none-any.whl.zip tmp/topologicpy-6.0.0-py3-none-any.whl.zip --markdown 20240529/t/topologicpy/0.7.9-6.0.0/README.md --exclude *.pyd
+[2024-05-29 07:47:29] INFO root fetch - processPackages [django-codenerix-email]: executing diffoscope
+[2024-05-29 07:47:29] INFO root fetch - processPackages [django-codenerix-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-email-4.0.7.tar.gz tmp/django-codenerix-email-4.0.8.tar.gz --markdown 20240529/d/django-codenerix-email/4.0.7-4.0.8/README.md --exclude *.pyd
+[2024-05-29 07:47:29] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-05-29 07:47:29] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240529/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-05-29 07:47:29] INFO root fetch - processPackages [seqlogic]: executing diffoscope
+[2024-05-29 07:47:29] INFO root fetch - processPackages [seqlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqlogic-0.3.0.tar.gz tmp/seqlogic-0.4.0.tar.gz --markdown 20240529/s/seqlogic/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-29 07:47:30] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.8.tar.gz]
+[2024-05-29 07:47:30] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
+[2024-05-29 07:47:30] INFO root fetch - main [MainThread]: End processing [neurosym]: success
+[2024-05-29 07:47:30] INFO root fetch - processPackages [odoo-addon-payroll-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_payroll_account-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-29 07:47:30] INFO root fetch - processPackages [odoo-addon-payroll-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_payroll_account-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-29 07:47:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-payroll-account]: success
+[2024-05-29 07:47:30] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-29 07:47:30] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-29 07:47:30] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-29 07:47:30] INFO root fetch - processPackages [seqlogic]: Remove: archive file [/home/abi/fetcher/tmp/seqlogic-0.3.0.tar.gz]
+[2024-05-29 07:47:30] INFO root fetch - processPackages [seqlogic]: Remove: archive file [/home/abi/fetcher/tmp/seqlogic-0.4.0.tar.gz]
+[2024-05-29 07:47:30] INFO root fetch - main [MainThread]: End processing [seqlogic]: success
+[2024-05-29 07:47:30] INFO root fetch - processPackages [django-codenerix-email]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-email-4.0.7.tar.gz]
+[2024-05-29 07:47:30] INFO root fetch - processPackages [django-codenerix-email]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-email-4.0.8.tar.gz]
+[2024-05-29 07:47:30] INFO root fetch - main [MainThread]: End processing [django-codenerix-email]: success
+[2024-05-29 07:47:30] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-05-29 07:47:30] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-05-29 07:47:30] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-05-29 07:47:31] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-0.7.9-py3-none-any.whl.zip]
+[2024-05-29 07:47:31] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-6.0.0-py3-none-any.whl.zip]
+[2024-05-29 07:47:31] INFO root fetch - main [MainThread]: End processing [topologicpy]: success
+[2024-05-29 07:47:31] INFO root fetch - main [MainThread]: Store serial: [23424536]
