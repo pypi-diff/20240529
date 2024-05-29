@@ -20236,3 +20236,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:30:18] INFO root fetch - processPackages [airbyte-source-webflow]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_webflow-0.1.4.tar.gz]
 [2024-05-29 13:30:18] INFO root fetch - main [MainThread]: End processing [airbyte-source-webflow]: success
 [2024-05-29 13:30:18] INFO root fetch - main [MainThread]: Store serial: [23428882]
+[2024-05-29 13:32:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428882]
+[2024-05-29 13:32:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 13:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dockipy
+[2024-05-29 13:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selnetime
+[2024-05-29 13:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sciobject
+[2024-05-29 13:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchsnapshot-nightly
+[2024-05-29 13:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aura-tools
+[2024-05-29 13:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llm-microscope
+[2024-05-29 13:32:27] WARNING root fetch - processPackages [aura-tools]: Skipping, unable to determine old version
+[2024-05-29 13:32:27] INFO root fetch - main [MainThread]: End processing [aura-tools] error
+[2024-05-29 13:32:27] INFO root fetch - processPackages [torchsnapshot-nightly]: New version: [2024.5.28] Old Version: [2024.5.27]
+[2024-05-29 13:32:27] WARNING root fetch - processPackages [sciobject]: Skipping, unable to determine old version
+[2024-05-29 13:32:27] INFO root fetch - main [MainThread]: End processing [sciobject] error
+[2024-05-29 13:32:27] INFO root fetch - processPackages [dockipy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 13:32:27] WARNING root fetch - processPackages [selnetime]: Skipping, unable to determine old version
+[2024-05-29 13:32:27] INFO root fetch - main [MainThread]: End processing [selnetime] error
+[2024-05-29 13:32:27] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/be/07/f85e541304303a9fdb67becc0ece2eead4b88766f5ca86b827eff7c836c9/torchsnapshot_nightly-2024.5.27.tar.gz
+[2024-05-29 13:32:27] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/53/78/5a8313f4b73f6dd85bc028e698161305fc679614fd0f5f8db2b83056a016/dockipy-0.0.8.tar.gz
+[2024-05-29 13:32:27] INFO root fetch - processPackages [llm-microscope]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 13:32:27] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/20/dd/5a84aa032c0ed0c2e1fcecc40431ec7787625dad7b044cbc47cc0f04f1eb/dockipy-0.0.9.tar.gz
+[2024-05-29 13:32:27] INFO root fetch - processPackages [llm-microscope]: Downloading https://files.pythonhosted.org/packages/a0/7a/c440ade8cae3eb29c4e8a617c0defb1fcd0e426a8e67888ff814f1191201/llm_microscope-0.0.2.tar.gz
+[2024-05-29 13:32:28] INFO root fetch - processPackages [dockipy]: executing diffoscope
+[2024-05-29 13:32:28] INFO root fetch - processPackages [dockipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockipy-0.0.8.tar.gz tmp/dockipy-0.0.9.tar.gz --markdown 20240529/d/dockipy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 13:32:28] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/c5/c0/c7cc7d3440741e99109c18cbc67706c66dafd795d771bd917d973f02531d/torchsnapshot_nightly-2024.5.28.tar.gz
+[2024-05-29 13:32:28] INFO root fetch - processPackages [torchsnapshot-nightly]: executing diffoscope
+[2024-05-29 13:32:28] INFO root fetch - processPackages [torchsnapshot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsnapshot_nightly-2024.5.27.tar.gz tmp/torchsnapshot_nightly-2024.5.28.tar.gz --markdown 20240529/t/torchsnapshot-nightly/2024.5.27-2024.5.28/README.md --exclude *.pyd
+[2024-05-29 13:32:28] INFO root fetch - processPackages [llm-microscope]: Downloading https://files.pythonhosted.org/packages/e9/ce/1ca9096084973d6af405fe75cb19c01a0bf5be9ca6e5355f8681320d51fd/llm_microscope-0.0.3.tar.gz
+[2024-05-29 13:32:28] INFO root fetch - processPackages [llm-microscope]: executing diffoscope
+[2024-05-29 13:32:28] INFO root fetch - processPackages [llm-microscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_microscope-0.0.2.tar.gz tmp/llm_microscope-0.0.3.tar.gz --markdown 20240529/l/llm-microscope/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 13:32:28] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.8.tar.gz]
+[2024-05-29 13:32:28] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.9.tar.gz]
+[2024-05-29 13:32:28] INFO root fetch - main [MainThread]: End processing [dockipy]: success
+[2024-05-29 13:32:28] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.27.tar.gz]
+[2024-05-29 13:32:28] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.28.tar.gz]
+[2024-05-29 13:32:28] INFO root fetch - main [MainThread]: End processing [torchsnapshot-nightly]: success
+[2024-05-29 13:32:29] INFO root fetch - processPackages [llm-microscope]: Remove: archive file [/home/abi/fetcher/tmp/llm_microscope-0.0.2.tar.gz]
+[2024-05-29 13:32:29] INFO root fetch - processPackages [llm-microscope]: Remove: archive file [/home/abi/fetcher/tmp/llm_microscope-0.0.3.tar.gz]
+[2024-05-29 13:32:29] INFO root fetch - main [MainThread]: End processing [llm-microscope]: success
+[2024-05-29 13:32:29] INFO root fetch - main [MainThread]: Store serial: [23428902]
