@@ -17202,3 +17202,63 @@
 [2024-05-29 11:36:49] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.16.tar.gz]
 [2024-05-29 11:36:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2024-05-29 11:36:49] INFO root fetch - main [MainThread]: Store serial: [23427495]
+[2024-05-29 11:38:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427495]
+[2024-05-29 11:38:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 11:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ppw-util
+[2024-05-29 11:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: message-local
+[2024-05-29 11:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkmk-dev-tools
+[2024-05-29 11:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iac-init
+[2024-05-29 11:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparkconnector
+[2024-05-29 11:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-manager
+[2024-05-29 11:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spark-congruity
+[2024-05-29 11:38:59] INFO root fetch - processPackages [spark-congruity]: New version: [0.0.1rc4] Old Version: [0.0.1rc3]
+[2024-05-29 11:38:59] INFO root fetch - processPackages [iac-init]: New version: [0.8.0] Old Version: [0.7.8]
+[2024-05-29 11:38:59] INFO root fetch - processPackages [checkmk-dev-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 11:38:59] INFO root fetch - processPackages [torch-model-manager]: New version: [1.0.1.dev1] Old Version: [0.4.3.dev2]
+[2024-05-29 11:38:59] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 11:38:59] WARNING root fetch - processPackages [ppw-util]: Skipping, unable to determine old version
+[2024-05-29 11:38:59] INFO root fetch - main [MainThread]: End processing [ppw-util] error
+[2024-05-29 11:38:59] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/32/4e/e41edae71f57bf14073732fd4397de6250dc479e61e4b5449d54d4b6b6ff/torch_model_manager-0.4.3.dev2.tar.gz
+[2024-05-29 11:38:59] INFO root fetch - processPackages [sparkconnector]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-05-29 11:38:59] INFO root fetch - processPackages [spark-congruity]: Downloading https://files.pythonhosted.org/packages/41/de/7ebccc812dc4472c36fd8300eaa18d57c2e1c016cedc90c1655691f762a4/spark_congruity-0.0.1rc3.tar.gz
+[2024-05-29 11:38:59] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/04/f7/cca7a1ff924e0f7bf4dac001563392666b6b6bd2d7518b61165afb3c4420/iac_init-0.7.8.tar.gz
+[2024-05-29 11:38:59] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-29 11:38:59] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/a5/44/09fe3238664c76b0dde99d19f15393d76e212e1d1eec081b474e6eaae194/checkmk_dev_tools-0.1.8.tar.gz
+[2024-05-29 11:38:59] INFO root fetch - processPackages [sparkconnector]: Downloading https://files.pythonhosted.org/packages/47/40/c45ff0896c9bbbf24bfc506e2020268f29801f77f0368901b070fc1155ef/sparkconnector-3.0.3.tar.gz
+[2024-05-29 11:38:59] INFO root fetch - processPackages [spark-congruity]: Downloading https://files.pythonhosted.org/packages/60/76/5878598d2e8955028fb41f2db8ad9976f14f54db0877921a131c6e197ace/spark_congruity-0.0.1rc4.tar.gz
+[2024-05-29 11:38:59] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-29 11:38:59] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/3f/da/1873bc5632b3b7256f4fe4a180f789d2cfe149c5342f33a8552ef04ff953/torch_model_manager-1.0.1.dev1.tar.gz
+[2024-05-29 11:38:59] INFO root fetch - processPackages [spark-congruity]: executing diffoscope
+[2024-05-29 11:38:59] INFO root fetch - processPackages [spark-congruity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_congruity-0.0.1rc3.tar.gz tmp/spark_congruity-0.0.1rc4.tar.gz --markdown 20240529/s/spark-congruity/0.0.1rc3-0.0.1rc4/README.md --exclude *.pyd
+[2024-05-29 11:38:59] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-29 11:38:59] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240529/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 11:39:00] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/fd/8b/52c2d86e0f495c209116758cc5331466f0d3a5c7660ee3b0c74513c44e77/iac_init-0.8.0.tar.gz
+[2024-05-29 11:39:00] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-29 11:39:00] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.3.dev2.tar.gz tmp/torch_model_manager-1.0.1.dev1.tar.gz --markdown 20240529/t/torch-model-manager/0.4.3.dev2-1.0.1.dev1/README.md --exclude *.pyd
+[2024-05-29 11:39:00] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/c1/1e/654ed63ab53350017ff4219e2e1d8cc32780c62f86a397bbc8134674c84e/checkmk_dev_tools-0.1.9.tar.gz
+[2024-05-29 11:39:00] INFO root fetch - processPackages [sparkconnector]: Downloading https://files.pythonhosted.org/packages/88/fc/fc04f758e567e9e4f47d61de6ec2aa51e14b3aad4778f85315e370d52f94/sparkconnector-3.0.4.tar.gz
+[2024-05-29 11:39:00] INFO root fetch - processPackages [checkmk-dev-tools]: executing diffoscope
+[2024-05-29 11:39:00] INFO root fetch - processPackages [checkmk-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkmk_dev_tools-0.1.8.tar.gz tmp/checkmk_dev_tools-0.1.9.tar.gz --markdown 20240529/c/checkmk-dev-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 11:39:00] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-29 11:39:00] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.7.8.tar.gz tmp/iac_init-0.8.0.tar.gz --markdown 20240529/i/iac-init/0.7.8-0.8.0/README.md --exclude *.pyd
+[2024-05-29 11:39:00] INFO root fetch - processPackages [sparkconnector]: executing diffoscope
+[2024-05-29 11:39:00] INFO root fetch - processPackages [sparkconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkconnector-3.0.3.tar.gz tmp/sparkconnector-3.0.4.tar.gz --markdown 20240529/s/sparkconnector/3.0.3-3.0.4/README.md --exclude *.pyd
+[2024-05-29 11:39:00] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-29 11:39:00] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-29 11:39:00] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-29 11:39:00] INFO root fetch - processPackages [spark-congruity]: Remove: archive file [/home/abi/fetcher/tmp/spark_congruity-0.0.1rc3.tar.gz]
+[2024-05-29 11:39:00] INFO root fetch - processPackages [spark-congruity]: Remove: archive file [/home/abi/fetcher/tmp/spark_congruity-0.0.1rc4.tar.gz]
+[2024-05-29 11:39:00] INFO root fetch - main [MainThread]: End processing [spark-congruity]: success
+[2024-05-29 11:39:00] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.3.dev2.tar.gz]
+[2024-05-29 11:39:00] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-1.0.1.dev1.tar.gz]
+[2024-05-29 11:39:00] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-29 11:39:00] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.8.tar.gz]
+[2024-05-29 11:39:00] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.9.tar.gz]
+[2024-05-29 11:39:00] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools]: success
+[2024-05-29 11:39:01] INFO root fetch - processPackages [sparkconnector]: Remove: archive file [/home/abi/fetcher/tmp/sparkconnector-3.0.3.tar.gz]
+[2024-05-29 11:39:01] INFO root fetch - processPackages [sparkconnector]: Remove: archive file [/home/abi/fetcher/tmp/sparkconnector-3.0.4.tar.gz]
+[2024-05-29 11:39:01] INFO root fetch - main [MainThread]: End processing [sparkconnector]: success
+[2024-05-29 11:39:10] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.7.8.tar.gz]
+[2024-05-29 11:39:10] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.0.tar.gz]
+[2024-05-29 11:39:10] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-29 11:39:10] INFO root fetch - main [MainThread]: Store serial: [23427526]
