@@ -21086,3 +21086,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:05:41] INFO root fetch - processPackages [pyCoreWLAN]: Remove: archive file [/home/abi/fetcher/tmp/pycorewlan-1.0.1.tar.gz]
 [2024-05-29 14:05:41] INFO root fetch - main [MainThread]: End processing [pyCoreWLAN]: success
 [2024-05-29 14:05:41] INFO root fetch - main [MainThread]: Store serial: [23429211]
+[2024-05-29 14:07:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429211]
+[2024-05-29 14:07:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dtintegrations
+[2024-05-29 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amfiprot-amfitrack
+[2024-05-29 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-aising
+[2024-05-29 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nanosearch
+[2024-05-29 14:07:50] WARNING root fetch - processPackages [nonebot-plugin-aising]: Skipping, unable to determine old version
+[2024-05-29 14:07:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aising] error
+[2024-05-29 14:07:50] WARNING root fetch - processPackages [nanosearch]: Skipping, unable to determine old version
+[2024-05-29 14:07:50] INFO root fetch - main [MainThread]: End processing [nanosearch] error
+[2024-05-29 14:07:50] INFO root fetch - processPackages [dtintegrations]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-29 14:07:50] INFO root fetch - processPackages [amfiprot-amfitrack]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-29 14:07:50] INFO root fetch - processPackages [dtintegrations]: Downloading https://files.pythonhosted.org/packages/5b/d3/bdfaed12f650dcacaf826493ae2731c0e1308da0e3554293259dfa298596/dtintegrations-0.6.0.tar.gz
+[2024-05-29 14:07:50] INFO root fetch - processPackages [amfiprot-amfitrack]: Downloading https://files.pythonhosted.org/packages/99/1c/92cf7f927aa47b3cc5bba8867e5911d001410792b84beb488e90a0ad7ee7/amfiprot_amfitrack-0.0.1a8.tar.gz
+[2024-05-29 14:07:51] INFO root fetch - processPackages [amfiprot-amfitrack]: Downloading https://files.pythonhosted.org/packages/bc/c8/4e1c74712948a1b63d174fe8bc0dba7f17154301e74d61c129dd151a6fd8/amfiprot_amfitrack-0.0.1a9.tar.gz
+[2024-05-29 14:07:51] INFO root fetch - processPackages [dtintegrations]: Downloading https://files.pythonhosted.org/packages/dc/55/1db90fb7f649caf0e02cfc8073967da991432c28f6390865dca664d6dcf8/dtintegrations-0.6.1.tar.gz
+[2024-05-29 14:07:51] INFO root fetch - processPackages [amfiprot-amfitrack]: executing diffoscope
+[2024-05-29 14:07:51] INFO root fetch - processPackages [amfiprot-amfitrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amfiprot_amfitrack-0.0.1a8.tar.gz tmp/amfiprot_amfitrack-0.0.1a9.tar.gz --markdown 20240529/a/amfiprot-amfitrack/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-29 14:07:51] INFO root fetch - processPackages [dtintegrations]: executing diffoscope
+[2024-05-29 14:07:51] INFO root fetch - processPackages [dtintegrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtintegrations-0.6.0.tar.gz tmp/dtintegrations-0.6.1.tar.gz --markdown 20240529/d/dtintegrations/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-29 14:07:51] INFO root fetch - processPackages [amfiprot-amfitrack]: Remove: archive file [/home/abi/fetcher/tmp/amfiprot_amfitrack-0.0.1a8.tar.gz]
+[2024-05-29 14:07:51] INFO root fetch - processPackages [amfiprot-amfitrack]: Remove: archive file [/home/abi/fetcher/tmp/amfiprot_amfitrack-0.0.1a9.tar.gz]
+[2024-05-29 14:07:51] INFO root fetch - main [MainThread]: End processing [amfiprot-amfitrack]: success
+[2024-05-29 14:07:52] INFO root fetch - processPackages [dtintegrations]: Remove: archive file [/home/abi/fetcher/tmp/dtintegrations-0.6.0.tar.gz]
+[2024-05-29 14:07:52] INFO root fetch - processPackages [dtintegrations]: Remove: archive file [/home/abi/fetcher/tmp/dtintegrations-0.6.1.tar.gz]
+[2024-05-29 14:07:52] INFO root fetch - main [MainThread]: End processing [dtintegrations]: success
+[2024-05-29 14:07:52] INFO root fetch - main [MainThread]: Store serial: [23429226]
