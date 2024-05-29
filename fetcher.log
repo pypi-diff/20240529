@@ -7461,3 +7461,20 @@
 [2024-05-29 04:07:11] INFO root fetch - processPackages [albucore]: Remove: archive file [/home/abi/fetcher/tmp/albucore-0.0.5.tar.gz]
 [2024-05-29 04:07:11] INFO root fetch - main [MainThread]: End processing [albucore]: success
 [2024-05-29 04:07:11] INFO root fetch - main [MainThread]: Store serial: [23423104]
+[2024-05-29 04:09:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423104]
+[2024-05-29 04:09:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 04:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-osubot
+[2024-05-29 04:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodespecs
+[2024-05-29 04:09:19] INFO root fetch - processPackages [nodespecs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 04:09:20] INFO root fetch - processPackages [nodespecs]: Downloading https://files.pythonhosted.org/packages/52/a0/fd5c3bd7428fd16c03171629234a2d7da112e6a3e63403357feee7ed2338/nodespecs-0.0.8.tar.gz
+[2024-05-29 04:09:20] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.4.0] Old Version: [6.3.2]
+[2024-05-29 04:09:20] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/e6/d6/2d9a2ea15c4bccaf5d66f28209effcdf53878313330e6938a3aee6467496/nonebot-plugin-osubot-6.3.2.tar.gz
+[2024-05-29 04:09:20] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29720813>=10485760
+[2024-05-29 04:09:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-29 04:09:20] INFO root fetch - processPackages [nodespecs]: Downloading https://files.pythonhosted.org/packages/3e/92/de755043cf73a78654d2fc630d58f430edfd83587d2e6e3f99fc497957e9/nodespecs-0.0.9.tar.gz
+[2024-05-29 04:09:20] INFO root fetch - processPackages [nodespecs]: executing diffoscope
+[2024-05-29 04:09:20] INFO root fetch - processPackages [nodespecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodespecs-0.0.8.tar.gz tmp/nodespecs-0.0.9.tar.gz --markdown 20240529/n/nodespecs/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 04:09:21] INFO root fetch - processPackages [nodespecs]: Remove: archive file [/home/abi/fetcher/tmp/nodespecs-0.0.8.tar.gz]
+[2024-05-29 04:09:21] INFO root fetch - processPackages [nodespecs]: Remove: archive file [/home/abi/fetcher/tmp/nodespecs-0.0.9.tar.gz]
+[2024-05-29 04:09:21] INFO root fetch - main [MainThread]: End processing [nodespecs]: success
+[2024-05-29 04:09:21] INFO root fetch - main [MainThread]: Store serial: [23423121]
