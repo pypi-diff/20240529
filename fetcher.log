@@ -14324,3 +14324,52 @@
 [2024-05-29 10:08:31] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.9.tar.gz]
 [2024-05-29 10:08:31] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
 [2024-05-29 10:08:31] INFO root fetch - main [MainThread]: Store serial: [23426049]
+[2024-05-29 10:10:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426049]
+[2024-05-29 10:10:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 10:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vns-explorer
+[2024-05-29 10:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncfix
+[2024-05-29 10:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netgen-mesher
+[2024-05-29 10:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudnetpy
+[2024-05-29 10:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-alconna
+[2024-05-29 10:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onetl
+[2024-05-29 10:10:40] INFO root fetch - processPackages [vns-explorer]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 10:10:40] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2024-05-29 10:10:40] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2403.post4.dev0] Old Version: [6.2.2403.post3.dev0]
+[2024-05-29 10:10:40] INFO root fetch - processPackages [vns-explorer]: Downloading https://files.pythonhosted.org/packages/ab/27/71ed9ad884e36fc8637ae251b0ecc4491a907628b546e0f6f3ce59c0aaeb/vns_explorer-1.0.2.tar.gz
+[2024-05-29 10:10:40] INFO root fetch - processPackages [asyncfix]: New version: [1.0.1] Old Version: [0.9.0]
+[2024-05-29 10:10:40] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-05-29 10:10:40] INFO root fetch - processPackages [onetl]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-29 10:10:40] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/0f/a6/ab4b882d62d5e3b942e4fcc5ccf32030212e46b61d371981d5666c480efa/netgen_mesher-6.2.2403.post3.dev0-cp39-cp39-win_amd64.whl
+[2024-05-29 10:10:40] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2024-05-29 10:10:40] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20430648>=10485760
+[2024-05-29 10:10:40] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-05-29 10:10:40] INFO root fetch - processPackages [asyncfix]: Downloading https://files.pythonhosted.org/packages/e6/fe/0239d9dc827565c7807a05d167e7d4dbcdec757d5f7a05159d51952cd276/asyncfix-0.9.0.tar.gz
+[2024-05-29 10:10:40] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2024-05-29 10:10:40] INFO root fetch - processPackages [vns-explorer]: Downloading https://files.pythonhosted.org/packages/ca/23/5bb92f186a74d4c33b82f0ded0136f39e09a1153e374ef1e93cd2e936b98/vns_explorer-1.0.3.tar.gz
+[2024-05-29 10:10:40] INFO root fetch - processPackages [onetl]: Downloading https://files.pythonhosted.org/packages/c8/dd/507c13f99975c15478a5dfc267e7994d72e3afb7564bcfa51aefcf85abe9/onetl-0.9.4.tar.gz
+[2024-05-29 10:10:40] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2024-05-29 10:10:40] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2024-05-29 10:10:40] INFO root fetch - processPackages [vns-explorer]: executing diffoscope
+[2024-05-29 10:10:40] INFO root fetch - processPackages [vns-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vns_explorer-1.0.2.tar.gz tmp/vns_explorer-1.0.3.tar.gz --markdown 20240529/v/vns-explorer/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 10:10:40] INFO root fetch - processPackages [asyncfix]: Downloading https://files.pythonhosted.org/packages/15/c1/4fa47d947b360f2950e22451ad88c699305ba44628dc7431818c860c3d54/asyncfix-1.0.1.tar.gz
+[2024-05-29 10:10:40] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2024-05-29 10:10:41] INFO root fetch - processPackages [onetl]: Downloading https://files.pythonhosted.org/packages/09/7d/1f9a165c793c284f67046936613eb24865821d59729b9b51f49ec35eb62e/onetl-0.9.5.tar.gz
+[2024-05-29 10:10:41] INFO root fetch - processPackages [asyncfix]: executing diffoscope
+[2024-05-29 10:10:41] INFO root fetch - processPackages [asyncfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncfix-0.9.0.tar.gz tmp/asyncfix-1.0.1.tar.gz --markdown 20240529/a/asyncfix/0.9.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 10:10:41] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2024-05-29 10:10:41] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20240529/n/nonebot-plugin-alconna/0.9.0-0.9.3/README.md --exclude *.pyd
+[2024-05-29 10:10:41] INFO root fetch - processPackages [onetl]: executing diffoscope
+[2024-05-29 10:10:41] INFO root fetch - processPackages [onetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onetl-0.9.4.tar.gz tmp/onetl-0.9.5.tar.gz --markdown 20240529/o/onetl/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-29 10:10:41] INFO root fetch - processPackages [vns-explorer]: Remove: archive file [/home/abi/fetcher/tmp/vns_explorer-1.0.2.tar.gz]
+[2024-05-29 10:10:41] INFO root fetch - processPackages [vns-explorer]: Remove: archive file [/home/abi/fetcher/tmp/vns_explorer-1.0.3.tar.gz]
+[2024-05-29 10:10:41] INFO root fetch - main [MainThread]: End processing [vns-explorer]: success
+[2024-05-29 10:10:41] INFO root fetch - processPackages [asyncfix]: Remove: archive file [/home/abi/fetcher/tmp/asyncfix-0.9.0.tar.gz]
+[2024-05-29 10:10:41] INFO root fetch - processPackages [asyncfix]: Remove: archive file [/home/abi/fetcher/tmp/asyncfix-1.0.1.tar.gz]
+[2024-05-29 10:10:41] INFO root fetch - main [MainThread]: End processing [asyncfix]: success
+[2024-05-29 10:10:41] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2024-05-29 10:10:41] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2024-05-29 10:10:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2024-05-29 10:10:42] INFO root fetch - processPackages [onetl]: Remove: archive file [/home/abi/fetcher/tmp/onetl-0.9.4.tar.gz]
+[2024-05-29 10:10:42] INFO root fetch - processPackages [onetl]: Remove: archive file [/home/abi/fetcher/tmp/onetl-0.9.5.tar.gz]
+[2024-05-29 10:10:42] INFO root fetch - main [MainThread]: End processing [onetl]: success
+[2024-05-29 10:10:42] INFO root fetch - main [MainThread]: Store serial: [23426072]
