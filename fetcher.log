@@ -18064,3 +18064,59 @@
 [2024-05-29 12:07:59] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052909.tar.gz]
 [2024-05-29 12:07:59] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-29 12:07:59] INFO root fetch - main [MainThread]: Store serial: [23427918]
+[2024-05-29 12:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427918]
+[2024-05-29 12:10:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 12:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MatplotLibAPI
+[2024-05-29 12:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySimultan
+[2024-05-29 12:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apn-validators
+[2024-05-29 12:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roiextract
+[2024-05-29 12:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roiextract
+[2024-05-29 12:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cryptoadvance.specter
+[2024-05-29 12:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cysystemd
+[2024-05-29 12:10:07] INFO root fetch - processPackages [cysystemd]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-29 12:10:07] INFO root fetch - processPackages [cryptoadvance.specter]: New version: [2.0.5rc6] Old Version: [2.0.5rc5]
+[2024-05-29 12:10:07] INFO root fetch - processPackages [MatplotLibAPI]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-29 12:10:07] INFO root fetch - processPackages [cysystemd]: Downloading https://files.pythonhosted.org/packages/02/53/352dd6725329b2ed58ec20525e765d273e2ad6b2af76c0a7684b0c03b5d8/cysystemd-1.6.0.tar.gz
+[2024-05-29 12:10:07] INFO root fetch - processPackages [roiextract]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 12:10:07] INFO root fetch - processPackages [roiextract]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 12:10:08] INFO root fetch - processPackages [apn-validators]: New version: [0.3] Old Version: [0.2]
+[2024-05-29 12:10:08] INFO root fetch - processPackages [PySimultan]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-29 12:10:08] INFO root fetch - processPackages [MatplotLibAPI]: Downloading https://files.pythonhosted.org/packages/c3/8b/e17ee03ce814cd6bd8fed5bed95b860f788996fc7d32c287a8a0fcf531fb/matplotlibapi-3.0.0.tar.gz
+[2024-05-29 12:10:08] INFO root fetch - processPackages [cryptoadvance.specter]: Downloading https://files.pythonhosted.org/packages/9c/da/5c48d75a91c81deb927443b544fd7e581d018cbc8e107401c7d7d086c29f/cryptoadvance.specter-2.0.5rc5.tar.gz
+[2024-05-29 12:10:08] INFO root fetch - processPackages [roiextract]: Downloading https://files.pythonhosted.org/packages/9e/28/daa523404ad98644ab04a819e59606f6ee4a1192bc429f9072911ed4d30a/roiextract-0.0.2.tar.gz
+[2024-05-29 12:10:08] INFO root fetch - processPackages [roiextract]: Downloading https://files.pythonhosted.org/packages/9e/28/daa523404ad98644ab04a819e59606f6ee4a1192bc429f9072911ed4d30a/roiextract-0.0.2.tar.gz
+[2024-05-29 12:10:08] INFO root fetch - processPackages [PySimultan]: Downloading https://files.pythonhosted.org/packages/5b/30/8632b7ff1f5dd3a30ab8d8ec4669a99eaa17968311d2f3d0e124fac35335/pysimultan-0.2.4.tar.gz
+[2024-05-29 12:10:08] INFO root fetch - processPackages [cysystemd]: Downloading https://files.pythonhosted.org/packages/92/55/0628a72f653f5a3a329a6d6caed00730d3f33b517cc9a08f3f10ca3563ba/cysystemd-1.6.1.tar.gz
+[2024-05-29 12:10:08] INFO root fetch - processPackages [apn-validators]: Downloading https://files.pythonhosted.org/packages/5e/e4/85f03e3be894e8d5961b70d7d9fef083ad7dcc5f13f82733cc8f26f16a63/apn-validators-0.2.tar.gz
+[2024-05-29 12:10:08] WARNING root fetch - processPackages [PySimultan]: Skipping package: exceeds size limit 12483850>=10485760
+[2024-05-29 12:10:08] INFO root fetch - main [MainThread]: End processing [PySimultan] error
+[2024-05-29 12:10:08] WARNING root fetch - processPackages [cryptoadvance.specter]: Skipping package: exceeds size limit 13739980>=10485760
+[2024-05-29 12:10:08] INFO root fetch - main [MainThread]: End processing [cryptoadvance.specter] error
+[2024-05-29 12:10:08] INFO root fetch - processPackages [MatplotLibAPI]: Downloading https://files.pythonhosted.org/packages/91/fe/35f1d1bd3e84e319cc680be36757b396c0597a695569eff5a82e1007fbd8/matplotlibapi-3.0.1.tar.gz
+[2024-05-29 12:10:08] INFO root fetch - processPackages [cysystemd]: executing diffoscope
+[2024-05-29 12:10:08] INFO root fetch - processPackages [cysystemd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cysystemd-1.6.0.tar.gz tmp/cysystemd-1.6.1.tar.gz --markdown 20240529/c/cysystemd/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-29 12:10:08] INFO root fetch - processPackages [roiextract]: Downloading https://files.pythonhosted.org/packages/90/25/bef8ba52dafb54d52aa6d94f5247626d552c204d19d6686816a553ec9907/roiextract-0.0.3.tar.gz
+[2024-05-29 12:10:08] INFO root fetch - processPackages [roiextract]: Downloading https://files.pythonhosted.org/packages/90/25/bef8ba52dafb54d52aa6d94f5247626d552c204d19d6686816a553ec9907/roiextract-0.0.3.tar.gz
+[2024-05-29 12:10:08] INFO root fetch - processPackages [MatplotLibAPI]: executing diffoscope
+[2024-05-29 12:10:08] INFO root fetch - processPackages [MatplotLibAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlibapi-3.0.0.tar.gz tmp/matplotlibapi-3.0.1.tar.gz --markdown 20240529/M/MatplotLibAPI/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-05-29 12:10:08] INFO root fetch - processPackages [apn-validators]: Downloading https://files.pythonhosted.org/packages/ba/f8/79b2b439f6230df93c05a602ec40c664c3489b6900925a396c0f4d41617f/apn-validators-0.3.tar.gz
+[2024-05-29 12:10:08] INFO root fetch - processPackages [roiextract]: executing diffoscope
+[2024-05-29 12:10:08] INFO root fetch - processPackages [roiextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roiextract-0.0.2.tar.gz tmp/roiextract-0.0.3.tar.gz --markdown 20240529/r/roiextract/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 12:10:08] INFO root fetch - processPackages [roiextract]: executing diffoscope
+[2024-05-29 12:10:08] INFO root fetch - processPackages [roiextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roiextract-0.0.2.tar.gz tmp/roiextract-0.0.3.tar.gz --markdown 20240529/r/roiextract/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 12:10:08] INFO root fetch - processPackages [apn-validators]: executing diffoscope
+[2024-05-29 12:10:08] INFO root fetch - processPackages [apn-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apn-validators-0.2.tar.gz tmp/apn-validators-0.3.tar.gz --markdown 20240529/a/apn-validators/0.2-0.3/README.md --exclude *.pyd
+[2024-05-29 12:10:09] INFO root fetch - processPackages [MatplotLibAPI]: Remove: archive file [/home/abi/fetcher/tmp/matplotlibapi-3.0.0.tar.gz]
+[2024-05-29 12:10:09] INFO root fetch - processPackages [MatplotLibAPI]: Remove: archive file [/home/abi/fetcher/tmp/matplotlibapi-3.0.1.tar.gz]
+[2024-05-29 12:10:09] INFO root fetch - main [MainThread]: End processing [MatplotLibAPI]: success
+[2024-05-29 12:10:09] INFO root fetch - processPackages [roiextract]: Remove: archive file [/home/abi/fetcher/tmp/roiextract-0.0.2.tar.gz]
+[2024-05-29 12:10:09] INFO root fetch - processPackages [roiextract]: Remove: archive file [/home/abi/fetcher/tmp/roiextract-0.0.3.tar.gz]
+[2024-05-29 12:10:09] INFO root fetch - main [MainThread]: End processing [roiextract]: success
+[2024-05-29 12:10:09] INFO root fetch - processPackages [apn-validators]: Remove: archive file [/home/abi/fetcher/tmp/apn-validators-0.2.tar.gz]
+[2024-05-29 12:10:09] INFO root fetch - processPackages [apn-validators]: Remove: archive file [/home/abi/fetcher/tmp/apn-validators-0.3.tar.gz]
+[2024-05-29 12:10:09] INFO root fetch - main [MainThread]: End processing [apn-validators]: success
+[2024-05-29 12:10:09] INFO root fetch - main [MainThread]: End processing [roiextract]: success
+[2024-05-29 12:10:10] INFO root fetch - processPackages [cysystemd]: Remove: archive file [/home/abi/fetcher/tmp/cysystemd-1.6.0.tar.gz]
+[2024-05-29 12:10:10] INFO root fetch - processPackages [cysystemd]: Remove: archive file [/home/abi/fetcher/tmp/cysystemd-1.6.1.tar.gz]
+[2024-05-29 12:10:10] INFO root fetch - main [MainThread]: End processing [cysystemd]: success
+[2024-05-29 12:10:10] INFO root fetch - main [MainThread]: Store serial: [23427944]
