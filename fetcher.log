@@ -17097,3 +17097,108 @@
 [2024-05-29 11:34:34] INFO root fetch - processPackages [inspect-ai]: Remove: archive file [/home/abi/fetcher/tmp/inspect_ai-0.3.9.tar.gz]
 [2024-05-29 11:34:34] INFO root fetch - main [MainThread]: End processing [inspect-ai]: success
 [2024-05-29 11:34:34] INFO root fetch - main [MainThread]: Store serial: [23427458]
+[2024-05-29 11:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427458]
+[2024-05-29 11:36:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-29 11:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulp-ansible-client
+[2024-05-29 11:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulp-ansible
+[2024-05-29 11:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qdx-py
+[2024-05-29 11:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datastew
+[2024-05-29 11:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amulet-map-editor
+[2024-05-29 11:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhousf-lib
+[2024-05-29 11:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-sqlalchemy
+[2024-05-29 11:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blablabla-api
+[2024-05-29 11:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sunholo
+[2024-05-29 11:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: intrieri1998
+[2024-05-29 11:36:43] INFO root fetch - processPackages [datastew]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 11:36:43] INFO root fetch - processPackages [amulet-map-editor]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-29 11:36:43] INFO root fetch - processPackages [pulp-ansible]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-29 11:36:43] INFO root fetch - processPackages [pulp-ansible-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-29 11:36:43] INFO root fetch - processPackages [streamlit-sqlalchemy]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-05-29 11:36:43] INFO root fetch - processPackages [intrieri1998]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-29 11:36:43] INFO root fetch - processPackages [datastew]: Downloading https://files.pythonhosted.org/packages/1b/38/1b4e52a24601e15279d506929184a0c993f9530a986fb2fecaadb7deb6a2/datastew-0.1.3.tar.gz
+[2024-05-29 11:36:43] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/22/fe3c93fbda35d1cdacc4caca6d416247cf754bced7899f75801286234efd/amulet-map-editor-0.9.5.tar.gz
+[2024-05-29 11:36:43] INFO root fetch - processPackages [qdx-py]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-29 11:36:43] WARNING root fetch - processPackages [blablabla-api]: Skipping, unable to determine old version
+[2024-05-29 11:36:43] INFO root fetch - processPackages [blablabla-api]: Start processing: alibabacloud-dingtalk
+[2024-05-29 11:36:43] INFO root fetch - main [MainThread]: End processing [blablabla-api] error
+[2024-05-29 11:36:43] INFO root fetch - processPackages [zhousf-lib]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-05-29 11:36:43] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-29 11:36:43] INFO root fetch - processPackages [pulp-ansible]: Downloading https://files.pythonhosted.org/packages/62/2c/e1b7d3b2bf694e5b527aece5c0ff297ce5b7a35e0a1288e77cdf9e9288b6/pulp-ansible-0.9.1.tar.gz
+[2024-05-29 11:36:43] INFO root fetch - processPackages [pulp-ansible-client]: Downloading https://files.pythonhosted.org/packages/f9/b1/73071a21ca569d00218daa10feb86f7c77a90bcf326d67ec0d3bce2f26a2/pulp_ansible-client-0.9.1.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [intrieri1998]: Downloading https://files.pythonhosted.org/packages/c6/53/1127b0478c427d120e218e5cd6062030b9ef345e5eb1200fdd51473d50f6/intrieri1998-1.2.0.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [streamlit-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/25/27/4764c9bac9c85c8fc9c74bd579b7b9efef5b1c3ea4e3e4543d80acf779a8/streamlit_sqlalchemy-0.2.0.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.1.16] Old Version: [2.1.15]
+[2024-05-29 11:36:44] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/5a/6b/10963e4cac1c4cec8325de1a2af7f5f94c5eb29791ec36a62b3c2cf61b3c/qdx_py-0.9.3.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/39/6b/cfa99724a5f18e7bb6f855ef78f49a20045babc30a7e3ac5e4f72518bfb6/zhousf-lib-1.5.6.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/6c/53a1a90d5583a066d8244e345ab522afff85e8fd5acd593d8195f9fcb7b7/amulet-map-editor-0.9.6.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [pulp-ansible]: Downloading https://files.pythonhosted.org/packages/b8/7c/698a44eb6120b3c5dbf2a80023bfeda1f9bf6400d2a563351bd9093e44f3/pulp-ansible-0.9.2.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [datastew]: Downloading https://files.pythonhosted.org/packages/b8/78/9ccc84451aa126cfe8362476aad26e0fc8fdee6db1cc3a6ac7d95edfd82e/datastew-0.1.4.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [pulp-ansible-client]: Downloading https://files.pythonhosted.org/packages/0f/9f/cbcaea9dbbc573d1e5619eeedcc30accc9083b017ae0f26afd6e9a170cca/pulp_ansible-client-0.9.2.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/7b/4c/c03b04ed07c895bd2147146850e369779867f435d8a490ae23a2ef7fdea2/alibabacloud_dingtalk-2.1.15.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [datastew]: executing diffoscope
+[2024-05-29 11:36:44] INFO root fetch - processPackages [datastew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datastew-0.1.3.tar.gz tmp/datastew-0.1.4.tar.gz --markdown 20240529/d/datastew/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-29 11:36:44] INFO root fetch - processPackages [pulp-ansible]: executing diffoscope
+[2024-05-29 11:36:44] INFO root fetch - processPackages [pulp-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-ansible-0.9.1.tar.gz tmp/pulp-ansible-0.9.2.tar.gz --markdown 20240529/p/pulp-ansible/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-29 11:36:44] INFO root fetch - processPackages [pulp-ansible-client]: executing diffoscope
+[2024-05-29 11:36:44] INFO root fetch - processPackages [pulp-ansible-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_ansible-client-0.9.1.tar.gz tmp/pulp_ansible-client-0.9.2.tar.gz --markdown 20240529/p/pulp-ansible-client/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-29 11:36:44] INFO root fetch - processPackages [intrieri1998]: Downloading https://files.pythonhosted.org/packages/f7/ad/454423a99c9ab77cff54b1562ac79555c64df6d8366ec71e53666e1ec041/intrieri1998-1.3.0.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [amulet-map-editor]: executing diffoscope
+[2024-05-29 11:36:44] INFO root fetch - processPackages [amulet-map-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet-map-editor-0.9.5.tar.gz tmp/amulet-map-editor-0.9.6.tar.gz --markdown 20240529/a/amulet-map-editor/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-29 11:36:44] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/11/4d/06ccb23ab5b35360553bff40a3236cd8c154d3d5faf86cafaa121218c9c3/qdx_py-0.9.4.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [intrieri1998]: executing diffoscope
+[2024-05-29 11:36:44] INFO root fetch - processPackages [intrieri1998]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intrieri1998-1.2.0.tar.gz tmp/intrieri1998-1.3.0.tar.gz --markdown 20240529/i/intrieri1998/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-29 11:36:44] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-29 11:36:44] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240529/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-29 11:36:44] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/aa/18/5cf0b4eb70f41a7ca792ab9282680426ae354e82a8fd9c382c1f066553e2/alibabacloud_dingtalk-2.1.16.tar.gz
+[2024-05-29 11:36:44] INFO root fetch - processPackages [qdx-py]: executing diffoscope
+[2024-05-29 11:36:44] INFO root fetch - processPackages [qdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdx_py-0.9.3.tar.gz tmp/qdx_py-0.9.4.tar.gz --markdown 20240529/q/qdx-py/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-29 11:36:45] INFO root fetch - processPackages [datastew]: Remove: archive file [/home/abi/fetcher/tmp/datastew-0.1.3.tar.gz]
+[2024-05-29 11:36:45] INFO root fetch - processPackages [datastew]: Remove: archive file [/home/abi/fetcher/tmp/datastew-0.1.4.tar.gz]
+[2024-05-29 11:36:45] INFO root fetch - processPackages [datastew]: Start processing: tdfs4ds
+[2024-05-29 11:36:45] INFO root fetch - main [MainThread]: End processing [datastew]: success
+[2024-05-29 11:36:45] INFO root fetch - processPackages [tdfs4ds]: New version: [0.2.2.8] Old Version: [0.2.2.7]
+[2024-05-29 11:36:45] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-05-29 11:36:45] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.1.15.tar.gz tmp/alibabacloud_dingtalk-2.1.16.tar.gz --markdown 20240529/a/alibabacloud-dingtalk/2.1.15-2.1.16/README.md --exclude *.pyd
+[2024-05-29 11:36:45] INFO root fetch - processPackages [streamlit-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/fc/b0/2733aedc334e94a98dd58264f0dad72f2d526ea98c138d75bbd1af2da0e8/streamlit_sqlalchemy-0.2.2.tar.gz
+[2024-05-29 11:36:45] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/fa/37/57478043d8a5f99023428379798c6bea0e6260352769563dce75e9f2ecf9/tdfs4ds-0.2.2.7-py3-none-any.whl
+[2024-05-29 11:36:45] INFO root fetch - processPackages [intrieri1998]: Remove: archive file [/home/abi/fetcher/tmp/intrieri1998-1.2.0.tar.gz]
+[2024-05-29 11:36:45] INFO root fetch - processPackages [intrieri1998]: Remove: archive file [/home/abi/fetcher/tmp/intrieri1998-1.3.0.tar.gz]
+[2024-05-29 11:36:45] INFO root fetch - main [MainThread]: End processing [intrieri1998]: success
+[2024-05-29 11:36:45] INFO root fetch - processPackages [pulp-ansible]: Remove: archive file [/home/abi/fetcher/tmp/pulp-ansible-0.9.1.tar.gz]
+[2024-05-29 11:36:45] INFO root fetch - processPackages [pulp-ansible]: Remove: archive file [/home/abi/fetcher/tmp/pulp-ansible-0.9.2.tar.gz]
+[2024-05-29 11:36:45] INFO root fetch - main [MainThread]: End processing [pulp-ansible]: success
+[2024-05-29 11:36:45] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/f5/19/b062f9bc819501dd05d44ca51df2dd37a848aa5ea4a152dee22fb6c718ab/zhousf-lib-1.5.7.tar.gz
+[2024-05-29 11:36:45] INFO root fetch - processPackages [pulp-ansible-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_ansible-client-0.9.1.tar.gz]
+[2024-05-29 11:36:45] INFO root fetch - processPackages [pulp-ansible-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_ansible-client-0.9.2.tar.gz]
+[2024-05-29 11:36:45] INFO root fetch - main [MainThread]: End processing [pulp-ansible-client]: success
+[2024-05-29 11:36:45] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-29 11:36:45] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-29 11:36:45] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-29 11:36:46] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/08/04/766984098508bfd77b91632a5c66c19626ec5dfe5cc2e6f6bc295bc24fed/tdfs4ds-0.2.2.8-py3-none-any.whl
+[2024-05-29 11:36:46] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.9.3.tar.gz]
+[2024-05-29 11:36:46] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.9.4.tar.gz]
+[2024-05-29 11:36:46] INFO root fetch - main [MainThread]: End processing [qdx-py]: success
+[2024-05-29 11:36:46] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2024-05-29 11:36:46] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-1.5.6.tar.gz tmp/zhousf-lib-1.5.7.tar.gz --markdown 20240529/z/zhousf-lib/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-05-29 11:36:46] INFO root fetch - processPackages [streamlit-sqlalchemy]: executing diffoscope
+[2024-05-29 11:36:46] INFO root fetch - processPackages [streamlit-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_sqlalchemy-0.2.0.tar.gz tmp/streamlit_sqlalchemy-0.2.2.tar.gz --markdown 20240529/s/streamlit-sqlalchemy/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-05-29 11:36:46] INFO root fetch - processPackages [tdfs4ds]: executing diffoscope
+[2024-05-29 11:36:46] INFO root fetch - processPackages [tdfs4ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdfs4ds-0.2.2.7-py3-none-any.whl.zip tmp/tdfs4ds-0.2.2.8-py3-none-any.whl.zip --markdown 20240529/t/tdfs4ds/0.2.2.7-0.2.2.8/README.md --exclude *.pyd
+[2024-05-29 11:36:46] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.5.tar.gz]
+[2024-05-29 11:36:46] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.6.tar.gz]
+[2024-05-29 11:36:46] INFO root fetch - main [MainThread]: End processing [amulet-map-editor]: success
+[2024-05-29 11:36:46] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.2.2.7-py3-none-any.whl.zip]
+[2024-05-29 11:36:46] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.2.2.8-py3-none-any.whl.zip]
+[2024-05-29 11:36:46] INFO root fetch - main [MainThread]: End processing [tdfs4ds]: success
+[2024-05-29 11:36:47] INFO root fetch - processPackages [streamlit-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_sqlalchemy-0.2.0.tar.gz]
+[2024-05-29 11:36:47] INFO root fetch - processPackages [streamlit-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_sqlalchemy-0.2.2.tar.gz]
+[2024-05-29 11:36:47] INFO root fetch - main [MainThread]: End processing [streamlit-sqlalchemy]: success
+[2024-05-29 11:36:47] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.6.tar.gz]
+[2024-05-29 11:36:47] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.7.tar.gz]
+[2024-05-29 11:36:47] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2024-05-29 11:36:49] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.15.tar.gz]
+[2024-05-29 11:36:49] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.16.tar.gz]
+[2024-05-29 11:36:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-05-29 11:36:49] INFO root fetch - main [MainThread]: Store serial: [23427495]
