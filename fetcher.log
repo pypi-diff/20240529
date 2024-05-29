@@ -10380,3 +10380,15 @@
 [2024-05-29 07:12:24] INFO root fetch - processPackages [ligo.skymap]: Remove: archive file [/home/abi/fetcher/tmp/ligo_skymap-2.0.1rc2.tar.gz]
 [2024-05-29 07:12:24] INFO root fetch - main [MainThread]: End processing [ligo.skymap]: success
 [2024-05-29 07:12:24] INFO root fetch - main [MainThread]: Store serial: [23424243]
+[2024-05-29 07:14:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424243]
+[2024-05-29 07:14:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 07:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeode-Geosciences
+[2024-05-29 07:14:33] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.7.0rc1] Old Version: [7.7.0]
+[2024-05-29 07:14:34] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/cc/d8/82036f1443e647c68cc37dd19d2ebbc1eec33ec3c878e3ebcace03b91c6a/OpenGeode_Geosciences-7.7.0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-29 07:14:34] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/50/03/4e9260b6626bb7f7db93a721ab68e5ee754ee1132dc1b3b147e67708b3d5/OpenGeode_Geosciences-7.7.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-29 07:14:34] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2024-05-29 07:14:34] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.7.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_Geosciences-7.7.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240529/O/OpenGeode-Geosciences/7.7.0-7.7.0rc1/README.md --exclude *.pyd
+[2024-05-29 07:14:35] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.7.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-29 07:14:35] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.7.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 07:14:35] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2024-05-29 07:14:35] INFO root fetch - main [MainThread]: Store serial: [23424253]
