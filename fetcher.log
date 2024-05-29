@@ -7753,3 +7753,42 @@
 [2024-05-29 04:26:59] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.28.tar.gz]
 [2024-05-29 04:26:59] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2024-05-29 04:26:59] INFO root fetch - main [MainThread]: Store serial: [23423233]
+[2024-05-29 04:29:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423233]
+[2024-05-29 04:29:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 04:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-05-29 04:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2024-05-29 04:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sql-athame
+[2024-05-29 04:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GnosisTech
+[2024-05-29 04:29:16] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240528] Old Version: [1.2.20240527]
+[2024-05-29 04:29:16] INFO root fetch - processPackages [sql-athame]: New version: [0.4.0a8] Old Version: [0.4.0a7]
+[2024-05-29 04:29:16] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240528194753] Old Version: [3.4.1.dev20240528150108]
+[2024-05-29 04:29:16] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/44/db/7a03165942234b61e2386280bc8ea6685a83c5bda5450085112bdc5db29f/iam_actions-1.2.20240527.tar.gz
+[2024-05-29 04:29:16] INFO root fetch - processPackages [GnosisTech]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-29 04:29:16] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/8e/27/deb4fec3e91cd5523c969c87d758bd6d8e4c5be2ecee8e75f90c378a18f6/sql_athame-0.4.0a7.tar.gz
+[2024-05-29 04:29:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/50/d3/0215bd39e6c7252d1c3c7bf83241ca8623361f08bf327cd194c13bfe1e2c/localstack_core-3.4.1.dev20240528150108.tar.gz
+[2024-05-29 04:29:16] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/64/63/3f2f0c3ba6e7f895733a0b3e869b8cdd2f29f0fc409929c101677fd453af/gnosistech-0.1.5.tar.gz
+[2024-05-29 04:29:18] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/bd/65/54104819ea06ac855613c13c85046ae178316ac72f2431ea57c0abf09de6/gnosistech-0.1.6.tar.gz
+[2024-05-29 04:29:18] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/e3/86/89cd49ab369f4fb147130493504e2deb80bc4212bc1bbe9ecd90aed20e08/sql_athame-0.4.0a8.tar.gz
+[2024-05-29 04:29:18] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/37/6b/3caaa4c7a6580de77f3a510822afb69d9c1972a1b57a79535518742a8b5b/iam_actions-1.2.20240528.tar.gz
+[2024-05-29 04:29:18] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/64/91/ee7bec597bc2c3bc667af8f0d30cf5afb5c5c6c21cc2e67681bce72d698f/localstack_core-3.4.1.dev20240528194753.tar.gz
+[2024-05-29 04:29:18] INFO root fetch - processPackages [GnosisTech]: executing diffoscope
+[2024-05-29 04:29:18] INFO root fetch - processPackages [GnosisTech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnosistech-0.1.5.tar.gz tmp/gnosistech-0.1.6.tar.gz --markdown 20240529/G/GnosisTech/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-29 04:29:18] INFO root fetch - processPackages [sql-athame]: executing diffoscope
+[2024-05-29 04:29:18] INFO root fetch - processPackages [sql-athame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_athame-0.4.0a7.tar.gz tmp/sql_athame-0.4.0a8.tar.gz --markdown 20240529/s/sql-athame/0.4.0a7-0.4.0a8/README.md --exclude *.pyd
+[2024-05-29 04:29:18] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-29 04:29:18] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240527.tar.gz tmp/iam_actions-1.2.20240528.tar.gz --markdown 20240529/i/iam-actions/1.2.20240527-1.2.20240528/README.md --exclude *.pyd
+[2024-05-29 04:29:18] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-29 04:29:18] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240528150108.tar.gz tmp/localstack_core-3.4.1.dev20240528194753.tar.gz --markdown 20240529/l/localstack-core/3.4.1.dev20240528150108-3.4.1.dev20240528194753/README.md --exclude *.pyd
+[2024-05-29 04:29:19] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a7.tar.gz]
+[2024-05-29 04:29:19] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a8.tar.gz]
+[2024-05-29 04:29:19] INFO root fetch - main [MainThread]: End processing [sql-athame]: success
+[2024-05-29 04:29:19] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.5.tar.gz]
+[2024-05-29 04:29:19] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.6.tar.gz]
+[2024-05-29 04:29:19] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
+[2024-05-29 04:29:21] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240527.tar.gz]
+[2024-05-29 04:29:21] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240528.tar.gz]
+[2024-05-29 04:29:21] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-29 04:29:22] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240528150108.tar.gz]
+[2024-05-29 04:29:22] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240528194753.tar.gz]
+[2024-05-29 04:29:22] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-29 04:29:22] INFO root fetch - main [MainThread]: Store serial: [23423245]
