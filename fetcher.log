@@ -7906,3 +7906,36 @@
 [2024-05-29 04:35:57] INFO root fetch - processPackages [knob]: Remove: archive file [/home/abi/fetcher/tmp/knob-0.0.9.tar.gz]
 [2024-05-29 04:35:57] INFO root fetch - main [MainThread]: End processing [knob]: success
 [2024-05-29 04:35:57] INFO root fetch - main [MainThread]: Store serial: [23423285]
+[2024-05-29 04:38:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423285]
+[2024-05-29 04:38:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 04:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dt-utils
+[2024-05-29 04:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-ddoscoo20200101
+[2024-05-29 04:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arize-phoenix-evals
+[2024-05-29 04:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logistic-regression-module-universal-bank
+[2024-05-29 04:38:06] INFO root fetch - processPackages [dt-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 04:38:06] WARNING root fetch - processPackages [logistic-regression-module-universal-bank]: Skipping, unable to determine old version
+[2024-05-29 04:38:06] INFO root fetch - main [MainThread]: End processing [logistic-regression-module-universal-bank] error
+[2024-05-29 04:38:06] INFO root fetch - processPackages [dt-utils]: Downloading https://files.pythonhosted.org/packages/c2/2a/4079ae889de8fb7c1ed0fb8fe44ef4387622e803d799791384fe0a51ebc5/dt_utils-0.0.4.tar.gz
+[2024-05-29 04:38:06] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-29 04:38:06] INFO root fetch - processPackages [arize-phoenix-evals]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-29 04:38:06] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: Downloading https://files.pythonhosted.org/packages/11/1d/25a66a56dd7283793c1e0b226e92240178ba30a1ddefa2db073c9fab2356/alibabacloud_ddoscoo20200101-2.0.1.tar.gz
+[2024-05-29 04:38:06] INFO root fetch - processPackages [arize-phoenix-evals]: Downloading https://files.pythonhosted.org/packages/b5/75/de50884aa5819e782771b9e9e48d90c88b83b525f887402bc668b64b0c22/arize_phoenix_evals-0.9.1.tar.gz
+[2024-05-29 04:38:06] INFO root fetch - processPackages [dt-utils]: Downloading https://files.pythonhosted.org/packages/e5/14/5b36e37bdd63e03ed91392d87f392bf1f92bf444024f974ee153421d3e62/dt_utils-0.0.5.tar.gz
+[2024-05-29 04:38:06] INFO root fetch - processPackages [dt-utils]: executing diffoscope
+[2024-05-29 04:38:06] INFO root fetch - processPackages [dt-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt_utils-0.0.4.tar.gz tmp/dt_utils-0.0.5.tar.gz --markdown 20240529/d/dt-utils/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 04:38:06] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: Downloading https://files.pythonhosted.org/packages/16/20/d5da9d4bd0bbec0d61438305cd769439640a22a50354030373e67288ede8/alibabacloud_ddoscoo20200101-2.0.2.tar.gz
+[2024-05-29 04:38:06] INFO root fetch - processPackages [arize-phoenix-evals]: Downloading https://files.pythonhosted.org/packages/af/d1/b129d8e8acef104692a341da3c4918c84ae4d5242baab6e00e6e4336a28c/arize_phoenix_evals-0.9.2.tar.gz
+[2024-05-29 04:38:07] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: executing diffoscope
+[2024-05-29 04:38:07] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ddoscoo20200101-2.0.1.tar.gz tmp/alibabacloud_ddoscoo20200101-2.0.2.tar.gz --markdown 20240529/a/alibabacloud-ddoscoo20200101/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-29 04:38:07] INFO root fetch - processPackages [arize-phoenix-evals]: executing diffoscope
+[2024-05-29 04:38:07] INFO root fetch - processPackages [arize-phoenix-evals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix_evals-0.9.1.tar.gz tmp/arize_phoenix_evals-0.9.2.tar.gz --markdown 20240529/a/arize-phoenix-evals/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-29 04:38:07] INFO root fetch - processPackages [dt-utils]: Remove: archive file [/home/abi/fetcher/tmp/dt_utils-0.0.4.tar.gz]
+[2024-05-29 04:38:07] INFO root fetch - processPackages [dt-utils]: Remove: archive file [/home/abi/fetcher/tmp/dt_utils-0.0.5.tar.gz]
+[2024-05-29 04:38:07] INFO root fetch - main [MainThread]: End processing [dt-utils]: success
+[2024-05-29 04:38:07] INFO root fetch - processPackages [arize-phoenix-evals]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix_evals-0.9.1.tar.gz]
+[2024-05-29 04:38:07] INFO root fetch - processPackages [arize-phoenix-evals]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix_evals-0.9.2.tar.gz]
+[2024-05-29 04:38:07] INFO root fetch - main [MainThread]: End processing [arize-phoenix-evals]: success
+[2024-05-29 04:38:08] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ddoscoo20200101-2.0.1.tar.gz]
+[2024-05-29 04:38:08] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ddoscoo20200101-2.0.2.tar.gz]
+[2024-05-29 04:38:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-ddoscoo20200101]: success
+[2024-05-29 04:38:08] INFO root fetch - main [MainThread]: Store serial: [23423297]
