@@ -16497,3 +16497,87 @@
 [2024-05-29 11:16:36] INFO root fetch - processPackages [bddjango]: Remove: archive file [/home/abi/fetcher/tmp/bddjango-3.0.9.tar.gz]
 [2024-05-29 11:16:36] INFO root fetch - main [MainThread]: End processing [bddjango]: success
 [2024-05-29 11:16:36] INFO root fetch - main [MainThread]: Store serial: [23427177]
+[2024-05-29 11:18:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427177]
+[2024-05-29 11:18:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-29 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SimpleAUG
+[2024-05-29 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bus-user
+[2024-05-29 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpboost
+[2024-05-29 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baostockhelloworld
+[2024-05-29 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: znsocket
+[2024-05-29 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sms-message-inforu-local
+[2024-05-29 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: transstellar-antd
+[2024-05-29 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiorobonect
+[2024-05-29 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skope-rules-temp
+[2024-05-29 11:18:45] INFO root fetch - processPackages [SimpleAUG]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2024-05-29 11:18:45] INFO root fetch - processPackages [znsocket]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 11:18:45] INFO root fetch - processPackages [baostockhelloworld]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 11:18:45] INFO root fetch - processPackages [bus-user]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-29 11:18:45] INFO root fetch - processPackages [transstellar-antd]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-29 11:18:45] INFO root fetch - processPackages [aiorobonect]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-29 11:18:45] INFO root fetch - processPackages [gpboost]: New version: [1.5.0.1] Old Version: [1.4.0]
+[2024-05-29 11:18:45] INFO root fetch - processPackages [SimpleAUG]: Downloading https://files.pythonhosted.org/packages/de/22/14aa71a8abaddb3ca073ccaa4e337c45e0795cb22408006c26861eb46686/simpleaug-0.0.2.tar.gz
+[2024-05-29 11:18:45] INFO root fetch - processPackages [sms-message-inforu-local]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 11:18:45] INFO root fetch - processPackages [skope-rules-temp]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-29 11:18:45] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/f2/3b/8d32da1ddaee223b463c9388b7525d65ff3b890c0054440644d158180d9f/bus_user-0.3.0.tar.gz
+[2024-05-29 11:18:45] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/8f/a6/d619f3451d6a76e12fef710752e73b34964d894a417d58432367108c9910/transstellar_antd-0.8.1.tar.gz
+[2024-05-29 11:18:45] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/a5/4b/a17155f3018992dc2bf0d2a396f33d199c606b70f416080ef38082a1bd90/aiorobonect-1.0.5.tar.gz
+[2024-05-29 11:18:45] INFO root fetch - processPackages [baostockhelloworld]: Downloading https://files.pythonhosted.org/packages/a2/82/991be2c0a85193c27769ba72a7dc6c6d6056e1ad4ccf848594d5c75d6a1c/baostockhelloworld-0.0.1.tar.gz
+[2024-05-29 11:18:45] INFO root fetch - processPackages [znsocket]: Downloading https://files.pythonhosted.org/packages/74/54/1e7bc6ba1cfe0bfd14d6eaa39102161f31fc3064bfe20be7f9c68f61155c/znsocket-0.1.0.tar.gz
+[2024-05-29 11:18:45] INFO root fetch - processPackages [gpboost]: Downloading https://files.pythonhosted.org/packages/76/8d/eb3c3751ab9fb7974e1b51e13ac3c23993e03838d0208cbb1d6942e0254d/gpboost-1.4.0.tar.gz
+[2024-05-29 11:18:45] INFO root fetch - processPackages [skope-rules-temp]: Downloading https://files.pythonhosted.org/packages/56/f0/ba87c79dc51fbb9315b00d235485ce804cfac996923dca59d7b596987d5b/skope_rules_temp-0.2.5.tar.gz
+[2024-05-29 11:18:45] INFO root fetch - processPackages [sms-message-inforu-local]: Downloading https://files.pythonhosted.org/packages/50/81/571aa1b3f6c2d915bbff63630c8cd07513569cc37e529768e394f78b000a/sms_message_inforu_local-0.0.4.tar.gz
+[2024-05-29 11:18:45] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/3f/fb/f60da05fc3a40d14ba440a2e70f463b7ded7361d0788f511df00040059aa/bus_user-0.3.1.tar.gz
+[2024-05-29 11:18:45] INFO root fetch - processPackages [SimpleAUG]: Downloading https://files.pythonhosted.org/packages/6c/50/a99763b33875ffcb2ea23a9c2de5fec56c3012ceba3947b708182f7ba9ce/simpleaug-0.0.2.1.tar.gz
+[2024-05-29 11:18:45] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/71/89/6a56e920e316df0da9580cc9789cd02c1fe6b93a5d4fd10dc20c13fd9f5f/transstellar_antd-0.9.0.tar.gz
+[2024-05-29 11:18:46] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/b0/89/8987546fba3eba1a2c78ba153cbd8d0431f3e7301955b03987c788449143/aiorobonect-1.0.6.tar.gz
+[2024-05-29 11:18:46] INFO root fetch - processPackages [bus-user]: executing diffoscope
+[2024-05-29 11:18:46] INFO root fetch - processPackages [bus-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_user-0.3.0.tar.gz tmp/bus_user-0.3.1.tar.gz --markdown 20240529/b/bus-user/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-29 11:18:46] INFO root fetch - processPackages [znsocket]: Downloading https://files.pythonhosted.org/packages/3c/3e/d76a7a2c3516da2989959a8a337d66f832a8d775a1b13238b29a9e031034/znsocket-0.1.1.tar.gz
+[2024-05-29 11:18:46] INFO root fetch - processPackages [baostockhelloworld]: Downloading https://files.pythonhosted.org/packages/db/96/f3ce0d081b2d0e569d8477ae39cb22483a8cc61228a016d24fe494c8bdef/baostockhelloworld-0.0.2.tar.gz
+[2024-05-29 11:18:46] INFO root fetch - processPackages [SimpleAUG]: executing diffoscope
+[2024-05-29 11:18:46] INFO root fetch - processPackages [SimpleAUG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleaug-0.0.2.tar.gz tmp/simpleaug-0.0.2.1.tar.gz --markdown 20240529/S/SimpleAUG/0.0.2-0.0.2.1/README.md --exclude *.pyd
+[2024-05-29 11:18:46] INFO root fetch - processPackages [transstellar-antd]: executing diffoscope
+[2024-05-29 11:18:46] INFO root fetch - processPackages [transstellar-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar_antd-0.8.1.tar.gz tmp/transstellar_antd-0.9.0.tar.gz --markdown 20240529/t/transstellar-antd/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-29 11:18:46] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2024-05-29 11:18:46] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-1.0.5.tar.gz tmp/aiorobonect-1.0.6.tar.gz --markdown 20240529/a/aiorobonect/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-29 11:18:46] INFO root fetch - processPackages [znsocket]: executing diffoscope
+[2024-05-29 11:18:46] INFO root fetch - processPackages [znsocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/znsocket-0.1.0.tar.gz tmp/znsocket-0.1.1.tar.gz --markdown 20240529/z/znsocket/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 11:18:46] INFO root fetch - processPackages [sms-message-inforu-local]: Downloading https://files.pythonhosted.org/packages/25/18/7828799ea8b03d55a6efcebcaa2c2e15c6d8430f77728ec6b8d6d1d85917/sms_message_inforu_local-0.0.5.tar.gz
+[2024-05-29 11:18:46] INFO root fetch - processPackages [skope-rules-temp]: Downloading https://files.pythonhosted.org/packages/26/5a/434f05744f2b024d504562480d8efd7aed452d1b0dd74c26e35b0db8b1e2/skope_rules_temp-0.2.6.tar.gz
+[2024-05-29 11:18:46] INFO root fetch - processPackages [baostockhelloworld]: executing diffoscope
+[2024-05-29 11:18:46] INFO root fetch - processPackages [baostockhelloworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baostockhelloworld-0.0.1.tar.gz tmp/baostockhelloworld-0.0.2.tar.gz --markdown 20240529/b/baostockhelloworld/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 11:18:46] INFO root fetch - processPackages [sms-message-inforu-local]: executing diffoscope
+[2024-05-29 11:18:46] INFO root fetch - processPackages [sms-message-inforu-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sms_message_inforu_local-0.0.4.tar.gz tmp/sms_message_inforu_local-0.0.5.tar.gz --markdown 20240529/s/sms-message-inforu-local/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 11:18:46] INFO root fetch - processPackages [skope-rules-temp]: executing diffoscope
+[2024-05-29 11:18:46] INFO root fetch - processPackages [skope-rules-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skope_rules_temp-0.2.5.tar.gz tmp/skope_rules_temp-0.2.6.tar.gz --markdown 20240529/s/skope-rules-temp/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-29 11:18:46] INFO root fetch - processPackages [gpboost]: Downloading https://files.pythonhosted.org/packages/9f/3f/51a798a10e5fabb1923e74d151a2ba48ea2fd431701ae0ce870c991c3995/gpboost-1.5.0.1.tar.gz
+[2024-05-29 11:18:46] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-1.0.5.tar.gz]
+[2024-05-29 11:18:46] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-1.0.6.tar.gz]
+[2024-05-29 11:18:46] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2024-05-29 11:18:46] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.0.tar.gz]
+[2024-05-29 11:18:46] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.1.tar.gz]
+[2024-05-29 11:18:46] INFO root fetch - main [MainThread]: End processing [bus-user]: success
+[2024-05-29 11:18:47] INFO root fetch - processPackages [SimpleAUG]: Remove: archive file [/home/abi/fetcher/tmp/simpleaug-0.0.2.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - processPackages [SimpleAUG]: Remove: archive file [/home/abi/fetcher/tmp/simpleaug-0.0.2.1.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - main [MainThread]: End processing [SimpleAUG]: success
+[2024-05-29 11:18:47] INFO root fetch - processPackages [baostockhelloworld]: Remove: archive file [/home/abi/fetcher/tmp/baostockhelloworld-0.0.1.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - processPackages [baostockhelloworld]: Remove: archive file [/home/abi/fetcher/tmp/baostockhelloworld-0.0.2.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - main [MainThread]: End processing [baostockhelloworld]: success
+[2024-05-29 11:18:47] INFO root fetch - processPackages [znsocket]: Remove: archive file [/home/abi/fetcher/tmp/znsocket-0.1.0.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - processPackages [znsocket]: Remove: archive file [/home/abi/fetcher/tmp/znsocket-0.1.1.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - main [MainThread]: End processing [znsocket]: success
+[2024-05-29 11:18:47] INFO root fetch - processPackages [sms-message-inforu-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_inforu_local-0.0.4.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - processPackages [sms-message-inforu-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_inforu_local-0.0.5.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - main [MainThread]: End processing [sms-message-inforu-local]: success
+[2024-05-29 11:18:47] INFO root fetch - processPackages [skope-rules-temp]: Remove: archive file [/home/abi/fetcher/tmp/skope_rules_temp-0.2.5.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - processPackages [skope-rules-temp]: Remove: archive file [/home/abi/fetcher/tmp/skope_rules_temp-0.2.6.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - main [MainThread]: End processing [skope-rules-temp]: success
+[2024-05-29 11:18:47] INFO root fetch - processPackages [gpboost]: executing diffoscope
+[2024-05-29 11:18:47] INFO root fetch - processPackages [gpboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpboost-1.4.0.tar.gz tmp/gpboost-1.5.0.1.tar.gz --markdown 20240529/g/gpboost/1.4.0-1.5.0.1/README.md --exclude *.pyd
+[2024-05-29 11:18:47] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.8.1.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.9.0.tar.gz]
+[2024-05-29 11:18:47] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
+[2024-05-29 11:18:51] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.4.0.tar.gz]
+[2024-05-29 11:18:51] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.5.0.1.tar.gz]
+[2024-05-29 11:18:51] INFO root fetch - main [MainThread]: End processing [gpboost]: success
+[2024-05-29 11:18:51] INFO root fetch - main [MainThread]: Store serial: [23427207]
