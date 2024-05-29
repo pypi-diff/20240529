@@ -10131,3 +10131,24 @@
 [2024-05-29 06:57:01] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
 [2024-05-29 06:57:01] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
 [2024-05-29 06:57:01] INFO root fetch - main [MainThread]: Store serial: [23424125]
+[2024-05-29 06:59:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424125]
+[2024-05-29 06:59:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 06:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: H2MM-C
+[2024-05-29 06:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2024-05-29 06:59:10] INFO root fetch - processPackages [anyon]: New version: [4.2.8] Old Version: [4.2.7]
+[2024-05-29 06:59:10] INFO root fetch - processPackages [H2MM-C]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-29 06:59:11] INFO root fetch - processPackages [H2MM-C]: Downloading https://files.pythonhosted.org/packages/a2/35/cc875c10680f2aa982059cce07e785bf0efd3f92602c2df162b79a40e36e/H2MM_C-1.0.4.tar.gz
+[2024-05-29 06:59:11] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/e3/5b/ded13100be5a61df01685940bfb6b4f2fb91d0aa39d0a998c5d3223f09fd/anyon-4.2.7-cp312-none-win_amd64.whl
+[2024-05-29 06:59:11] INFO root fetch - processPackages [H2MM-C]: Downloading https://files.pythonhosted.org/packages/57/0e/6ff78797bd3ff827f1a03a026de61deb7b68efd98671fa3aa420992b9aab/h2mm_c-1.0.5.tar.gz
+[2024-05-29 06:59:11] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/1c/ac/376753e9707650211c6ece0e640907b880ea37bca36eaa521a9ffbe1ce27/anyon-4.2.8-cp312-none-win_amd64.whl
+[2024-05-29 06:59:11] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2024-05-29 06:59:11] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-4.2.7-cp312-none-win_amd64.whl.zip tmp/anyon-4.2.8-cp312-none-win_amd64.whl.zip --markdown 20240529/a/anyon/4.2.7-4.2.8/README.md --exclude *.pyd
+[2024-05-29 06:59:11] INFO root fetch - processPackages [H2MM-C]: executing diffoscope
+[2024-05-29 06:59:11] INFO root fetch - processPackages [H2MM-C]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/H2MM_C-1.0.4.tar.gz tmp/h2mm_c-1.0.5.tar.gz --markdown 20240529/H/H2MM-C/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-29 06:59:12] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.2.7-cp312-none-win_amd64.whl.zip]
+[2024-05-29 06:59:12] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.2.8-cp312-none-win_amd64.whl.zip]
+[2024-05-29 06:59:12] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2024-05-29 06:59:12] INFO root fetch - processPackages [H2MM-C]: Remove: archive file [/home/abi/fetcher/tmp/H2MM_C-1.0.4.tar.gz]
+[2024-05-29 06:59:12] INFO root fetch - processPackages [H2MM-C]: Remove: archive file [/home/abi/fetcher/tmp/h2mm_c-1.0.5.tar.gz]
+[2024-05-29 06:59:12] INFO root fetch - main [MainThread]: End processing [H2MM-C]: success
+[2024-05-29 06:59:12] INFO root fetch - main [MainThread]: Store serial: [23424152]
