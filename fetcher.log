@@ -20573,3 +20573,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:47:46] INFO root fetch - processPackages [yabasi]: Remove: archive file [/home/abi/fetcher/tmp/yabasi-0.3.tar.gz]
 [2024-05-29 13:47:46] INFO root fetch - main [MainThread]: End processing [yabasi]: success
 [2024-05-29 13:47:46] INFO root fetch - main [MainThread]: Store serial: [23429003]
+[2024-05-29 13:49:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429003]
+[2024-05-29 13:49:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 13:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nameguard
+[2024-05-29 13:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: connector-factory
+[2024-05-29 13:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-05-29 13:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TenorGrabber
+[2024-05-29 13:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtealeaves
+[2024-05-29 13:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySDM
+[2024-05-29 13:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PySDM-examples
+[2024-05-29 13:49:55] INFO root fetch - processPackages [TenorGrabber]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 13:49:55] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240529.8.41.310622] Old Version: [20240528.8.36.460206]
+[2024-05-29 13:49:55] INFO root fetch - processPackages [TenorGrabber]: Downloading https://files.pythonhosted.org/packages/3f/39/3e3a6c0051b9dc751144423e8107c277a24244668bf3dd34f9aaf05b606a/tenorgrabber-1.0.2.tar.gz
+[2024-05-29 13:49:55] INFO root fetch - processPackages [PySDM]: New version: [2.9] Old Version: [2.8]
+[2024-05-29 13:49:55] INFO root fetch - processPackages [connector-factory]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 13:49:55] INFO root fetch - processPackages [qtealeaves]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-29 13:49:55] INFO root fetch - processPackages [nameguard]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 13:49:55] INFO root fetch - processPackages [PySDM-examples]: New version: [2.9] Old Version: [2.8]
+[2024-05-29 13:49:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/05/4a/04d912dc2bc3b36af774f5366a252ea685386ec9b06c5c24af6d240097a9/certora-cli-alpha-master-20240528.8.36.460206.tar.gz
+[2024-05-29 13:49:55] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14596496>=10485760
+[2024-05-29 13:49:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-29 13:49:55] INFO root fetch - processPackages [nameguard]: Downloading https://files.pythonhosted.org/packages/f8/72/30515f8449db54f9dab791e01fe21380cdccb4042eb317f36d3df87ba19e/nameguard-0.1.3.tar.gz
+[2024-05-29 13:49:55] INFO root fetch - processPackages [connector-factory]: Downloading https://files.pythonhosted.org/packages/fb/a7/a8085126a5ae439c960d1fde24175181743b4a25a9b0160e4c5f47aaf63c/connector-factory-0.0.2.tar.gz
+[2024-05-29 13:49:55] INFO root fetch - processPackages [PySDM]: Downloading https://files.pythonhosted.org/packages/17/d1/08e0d17cbe649fc4b7076f8d101822c798dbbb7083219645877912e8855e/PySDM-2.8.tar.gz
+[2024-05-29 13:49:55] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/ee/d8/38888b5ffbf4fd8ab27cfd2e755f9454503f07d2b5b8ef3de4258513c18e/qtealeaves-1.1.8.tar.gz
+[2024-05-29 13:49:55] INFO root fetch - processPackages [TenorGrabber]: Downloading https://files.pythonhosted.org/packages/50/51/239751f9e29711db636489cd299b1f83979abdb3b4b15b88987ea18feee9/tenorgrabber-1.0.3.tar.gz
+[2024-05-29 13:49:55] INFO root fetch - processPackages [PySDM-examples]: Downloading https://files.pythonhosted.org/packages/4c/5f/2e48117f41afb88b71fd3561ca8f6ef534989001f0cc583f5af2f7a56fa1/PySDM-examples-2.8.tar.gz
+[2024-05-29 13:49:55] INFO root fetch - processPackages [TenorGrabber]: executing diffoscope
+[2024-05-29 13:49:55] INFO root fetch - processPackages [TenorGrabber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenorgrabber-1.0.2.tar.gz tmp/tenorgrabber-1.0.3.tar.gz --markdown 20240529/T/TenorGrabber/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 13:49:56] INFO root fetch - processPackages [nameguard]: Downloading https://files.pythonhosted.org/packages/79/d9/3cd7c6f8341ac22e0e2aa2cc6e8b02edef767164a660e036b3828dd60c05/nameguard-0.1.4.tar.gz
+[2024-05-29 13:49:56] INFO root fetch - processPackages [connector-factory]: Downloading https://files.pythonhosted.org/packages/17/54/61b071988fbbfb3c77e07569f84907d2adeb7b122c17e861224a4c2ce549/connector-factory-0.0.3.tar.gz
+[2024-05-29 13:49:56] INFO root fetch - processPackages [nameguard]: executing diffoscope
+[2024-05-29 13:49:56] INFO root fetch - processPackages [nameguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameguard-0.1.3.tar.gz tmp/nameguard-0.1.4.tar.gz --markdown 20240529/n/nameguard/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-29 13:49:56] INFO root fetch - processPackages [connector-factory]: executing diffoscope
+[2024-05-29 13:49:56] INFO root fetch - processPackages [connector-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connector-factory-0.0.2.tar.gz tmp/connector-factory-0.0.3.tar.gz --markdown 20240529/c/connector-factory/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 13:49:56] INFO root fetch - processPackages [PySDM]: Downloading https://files.pythonhosted.org/packages/a0/87/500d29854c171383aeec947323457a0e9a4b56dad81353ffeb13c855c1af/PySDM-2.9.tar.gz
+[2024-05-29 13:49:56] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/54/c7/4254f20e8d519752d9cd0febe21e8866fbc8331f5f3140702544744a1ef4/qtealeaves-1.1.9.tar.gz
+[2024-05-29 13:49:56] INFO root fetch - processPackages [PySDM]: executing diffoscope
+[2024-05-29 13:49:56] INFO root fetch - processPackages [PySDM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySDM-2.8.tar.gz tmp/PySDM-2.9.tar.gz --markdown 20240529/P/PySDM/2.8-2.9/README.md --exclude *.pyd
+[2024-05-29 13:49:56] INFO root fetch - processPackages [TenorGrabber]: Remove: archive file [/home/abi/fetcher/tmp/tenorgrabber-1.0.2.tar.gz]
+[2024-05-29 13:49:56] INFO root fetch - processPackages [TenorGrabber]: Remove: archive file [/home/abi/fetcher/tmp/tenorgrabber-1.0.3.tar.gz]
+[2024-05-29 13:49:56] INFO root fetch - processPackages [qtealeaves]: executing diffoscope
+[2024-05-29 13:49:56] INFO root fetch - main [MainThread]: End processing [TenorGrabber]: success
+[2024-05-29 13:49:56] INFO root fetch - processPackages [qtealeaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtealeaves-1.1.8.tar.gz tmp/qtealeaves-1.1.9.tar.gz --markdown 20240529/q/qtealeaves/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-29 13:49:56] INFO root fetch - processPackages [nameguard]: Remove: archive file [/home/abi/fetcher/tmp/nameguard-0.1.3.tar.gz]
+[2024-05-29 13:49:56] INFO root fetch - processPackages [nameguard]: Remove: archive file [/home/abi/fetcher/tmp/nameguard-0.1.4.tar.gz]
+[2024-05-29 13:49:56] INFO root fetch - main [MainThread]: End processing [nameguard]: success
+[2024-05-29 13:49:56] INFO root fetch - processPackages [PySDM-examples]: Downloading https://files.pythonhosted.org/packages/38/cd/e8c43c853d105d7b3cb064085b972b191719b91b54e18c66a563a2361203/PySDM-examples-2.9.tar.gz
+[2024-05-29 13:49:56] INFO root fetch - processPackages [connector-factory]: Remove: archive file [/home/abi/fetcher/tmp/connector-factory-0.0.2.tar.gz]
+[2024-05-29 13:49:56] INFO root fetch - processPackages [connector-factory]: Remove: archive file [/home/abi/fetcher/tmp/connector-factory-0.0.3.tar.gz]
+[2024-05-29 13:49:56] INFO root fetch - main [MainThread]: End processing [connector-factory]: success
+[2024-05-29 13:49:57] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.8.tar.gz]
+[2024-05-29 13:49:57] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.9.tar.gz]
+[2024-05-29 13:49:57] INFO root fetch - main [MainThread]: End processing [qtealeaves]: success
+[2024-05-29 13:49:57] INFO root fetch - processPackages [PySDM]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-2.8.tar.gz]
+[2024-05-29 13:49:57] INFO root fetch - processPackages [PySDM]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-2.9.tar.gz]
+[2024-05-29 13:49:57] INFO root fetch - main [MainThread]: End processing [PySDM]: success
+[2024-05-29 13:49:58] INFO root fetch - processPackages [PySDM-examples]: executing diffoscope
+[2024-05-29 13:49:58] INFO root fetch - processPackages [PySDM-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySDM-examples-2.8.tar.gz tmp/PySDM-examples-2.9.tar.gz --markdown 20240529/P/PySDM-examples/2.8-2.9/README.md --exclude *.pyd
+[2024-05-29 13:50:00] INFO root fetch - processPackages [PySDM-examples]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-examples-2.8.tar.gz]
+[2024-05-29 13:50:00] INFO root fetch - processPackages [PySDM-examples]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-examples-2.9.tar.gz]
+[2024-05-29 13:50:00] INFO root fetch - main [MainThread]: End processing [PySDM-examples]: success
+[2024-05-29 13:50:00] INFO root fetch - main [MainThread]: Store serial: [23429028]
