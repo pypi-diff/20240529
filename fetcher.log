@@ -2832,3 +2832,27 @@
 [2024-05-29 02:38:58] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240524195431-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-29 02:38:58] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
 [2024-05-29 02:38:58] INFO root fetch - main [MainThread]: Store serial: [23421328]
+[2024-05-29 02:41:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421328]
+[2024-05-29 02:41:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 02:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marimba
+[2024-05-29 02:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkfile
+[2024-05-29 02:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dycw-utilities
+[2024-05-29 02:41:07] WARNING root fetch - processPackages [marimba]: Skipping, unable to determine old version
+[2024-05-29 02:41:07] INFO root fetch - main [MainThread]: End processing [marimba] error
+[2024-05-29 02:41:07] INFO root fetch - processPackages [checkfile]: New version: [85.43.54] Old Version: [85.43.53]
+[2024-05-29 02:41:07] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-29 02:41:07] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-29 02:41:07] INFO root fetch - processPackages [checkfile]: Downloading https://files.pythonhosted.org/packages/4f/de/41569de28d4c865bf995e0145564987cb73cac89946da642d63ffa8e14b2/checkfile-85.43.53.tar.gz
+[2024-05-29 02:41:07] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-29 02:41:07] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-29 02:41:07] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240529/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-29 02:41:07] INFO root fetch - processPackages [checkfile]: Downloading https://files.pythonhosted.org/packages/96/0a/91215bc6b38a392dbf4fc59bdc8a9270f324ac346df9bca2a136c2a3b794/checkfile-85.43.54.tar.gz
+[2024-05-29 02:41:07] INFO root fetch - processPackages [checkfile]: executing diffoscope
+[2024-05-29 02:41:07] INFO root fetch - processPackages [checkfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkfile-85.43.53.tar.gz tmp/checkfile-85.43.54.tar.gz --markdown 20240529/c/checkfile/85.43.53-85.43.54/README.md --exclude *.pyd
+[2024-05-29 02:41:08] INFO root fetch - processPackages [checkfile]: Remove: archive file [/home/abi/fetcher/tmp/checkfile-85.43.53.tar.gz]
+[2024-05-29 02:41:08] INFO root fetch - processPackages [checkfile]: Remove: archive file [/home/abi/fetcher/tmp/checkfile-85.43.54.tar.gz]
+[2024-05-29 02:41:08] INFO root fetch - main [MainThread]: End processing [checkfile]: success
+[2024-05-29 02:41:08] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-29 02:41:08] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-29 02:41:08] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-29 02:41:08] INFO root fetch - main [MainThread]: Store serial: [23421342]
