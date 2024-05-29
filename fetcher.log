@@ -14072,3 +14072,69 @@
 [2024-05-29 09:57:28] INFO root fetch - processPackages [edge-containers-cli]: Remove: archive file [/home/abi/fetcher/tmp/edge_containers_cli-3.5.3.tar.gz]
 [2024-05-29 09:57:28] INFO root fetch - main [MainThread]: End processing [edge-containers-cli]: success
 [2024-05-29 09:57:28] INFO root fetch - main [MainThread]: Store serial: [23425943]
+[2024-05-29 09:59:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425943]
+[2024-05-29 09:59:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 09:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dtfilterthumbor
+[2024-05-29 09:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: greatlibrarian
+[2024-05-29 09:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gestionatr
+[2024-05-29 09:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manual-tls
+[2024-05-29 09:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrotgfork
+[2024-05-29 09:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aligo
+[2024-05-29 09:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly
+[2024-05-29 09:59:38] INFO root fetch - processPackages [dtfilterthumbor]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 09:59:38] INFO root fetch - processPackages [manual-tls]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 09:59:38] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/a8/ef/18b1e9ce9eb1d96032f661087d537aba3500af25f242a68794542dc88b92/dtfilterthumbor-1.0.0.tar.gz
+[2024-05-29 09:59:38] INFO root fetch - processPackages [pyrotgfork]: New version: [2.1.32.2] Old Version: [2.1.32.1]
+[2024-05-29 09:59:38] INFO root fetch - processPackages [manual-tls]: Downloading https://files.pythonhosted.org/packages/cd/30/ce6a97c8ad99401b1caa5de864b8736ecf01a92ae69f08d4dc9ddb44fb65/manual_tls-0.0.4.tar.gz
+[2024-05-29 09:59:38] INFO root fetch - processPackages [gestionatr]: New version: [3.8.2] Old Version: [3.8.1]
+[2024-05-29 09:59:38] INFO root fetch - processPackages [greatlibrarian]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 09:59:38] INFO root fetch - processPackages [aligo]: New version: [6.2.3] Old Version: [6.2.2]
+[2024-05-29 09:59:38] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240529] Old Version: [2.17.0.dev20240528]
+[2024-05-29 09:59:38] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/2f/c6/d1ab18c9ede707019e6fcadee362e3186ca1bb1b6b13a420e64e58137d75/pyrotgfork-2.1.32.1.tar.gz
+[2024-05-29 09:59:38] INFO root fetch - processPackages [gestionatr]: Downloading https://files.pythonhosted.org/packages/f2/6d/4a445a95c088e6cefd919ed586efb0ae0b9850fb7cf95bc4e296cbeafc62/gestionatr-3.8.1.tar.gz
+[2024-05-29 09:59:38] INFO root fetch - processPackages [greatlibrarian]: Downloading https://files.pythonhosted.org/packages/ee/b1/4207d4cad5434e162372102c68c6e8806c43c43649df12682cd4c8f2c7d8/greatlibrarian-0.0.8.tar.gz
+[2024-05-29 09:59:38] INFO root fetch - processPackages [aligo]: Downloading https://files.pythonhosted.org/packages/f9/bf/daadcc4541c803d131d7043f8c1b21e0f81432c4d607bac4bd32a8aae451/aligo-6.2.2.tar.gz
+[2024-05-29 09:59:38] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f0/fb/740986471515ab9e57b0a60648b5bff89e54648206dfd03713e6e5ec5ecb/tf_nightly-2.17.0.dev20240528-cp39-cp39-win_amd64.whl
+[2024-05-29 09:59:38] INFO root fetch - processPackages [manual-tls]: Downloading https://files.pythonhosted.org/packages/dd/4e/543801546614148b1100619af2c52b9c31f386264890b214434c5fec52fe/manual_tls-0.0.5.tar.gz
+[2024-05-29 09:59:38] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/3d/2f/05793e9290cfd2d905c354db5309a127429b4629f8a4b668cf4a89ccea0f/dtfilterthumbor-1.0.1.tar.gz
+[2024-05-29 09:59:38] INFO root fetch - processPackages [manual-tls]: executing diffoscope
+[2024-05-29 09:59:38] INFO root fetch - processPackages [manual-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manual_tls-0.0.4.tar.gz tmp/manual_tls-0.0.5.tar.gz --markdown 20240529/m/manual-tls/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 09:59:38] INFO root fetch - processPackages [dtfilterthumbor]: executing diffoscope
+[2024-05-29 09:59:38] INFO root fetch - processPackages [dtfilterthumbor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfilterthumbor-1.0.0.tar.gz tmp/dtfilterthumbor-1.0.1.tar.gz --markdown 20240529/d/dtfilterthumbor/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 09:59:38] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/5e/7d/f2724f245934321e7ebf1263179c3a1942f59e40619371f24da94a8d8d36/pyrotgfork-2.1.32.2.tar.gz
+[2024-05-29 09:59:38] INFO root fetch - processPackages [aligo]: Downloading https://files.pythonhosted.org/packages/7a/e4/0296dc33935adea49fb49f37154a0b3b5170eb13a8af5ac4bced9fabf76c/aligo-6.2.3.tar.gz
+[2024-05-29 09:59:39] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/12/07/e37eeccdd06e1bd8a467b1c8dc523c198691fce03d705ab47048cddd33ac/tf_nightly-2.17.0.dev20240529-cp39-cp39-win_amd64.whl
+[2024-05-29 09:59:39] INFO root fetch - processPackages [gestionatr]: Downloading https://files.pythonhosted.org/packages/c9/72/98489b0c4e3abfcdd31ec81b78b964614f7ea135388f589323b470e2ea08/gestionatr-3.8.2.tar.gz
+[2024-05-29 09:59:39] INFO root fetch - processPackages [pyrotgfork]: executing diffoscope
+[2024-05-29 09:59:39] INFO root fetch - processPackages [pyrotgfork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrotgfork-2.1.32.1.tar.gz tmp/pyrotgfork-2.1.32.2.tar.gz --markdown 20240529/p/pyrotgfork/2.1.32.1-2.1.32.2/README.md --exclude *.pyd
+[2024-05-29 09:59:39] INFO root fetch - processPackages [aligo]: executing diffoscope
+[2024-05-29 09:59:39] INFO root fetch - processPackages [aligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligo-6.2.2.tar.gz tmp/aligo-6.2.3.tar.gz --markdown 20240529/a/aligo/6.2.2-6.2.3/README.md --exclude *.pyd
+[2024-05-29 09:59:39] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-29 09:59:39] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240528-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240529-cp39-cp39-win_amd64.whl.zip --markdown 20240529/t/tf-nightly/2.17.0.dev20240528-2.17.0.dev20240529/README.md --exclude *.pyd
+[2024-05-29 09:59:39] INFO root fetch - processPackages [gestionatr]: executing diffoscope
+[2024-05-29 09:59:39] INFO root fetch - processPackages [gestionatr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gestionatr-3.8.1.tar.gz tmp/gestionatr-3.8.2.tar.gz --markdown 20240529/g/gestionatr/3.8.1-3.8.2/README.md --exclude *.pyd
+[2024-05-29 09:59:39] INFO root fetch - processPackages [greatlibrarian]: Downloading https://files.pythonhosted.org/packages/17/12/9aa96b276c6ca4b320e7720ab2bd0ba2b97bfe11fddc8edbd4bd74c70abc/greatlibrarian-0.0.9.tar.gz
+[2024-05-29 09:59:39] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-1.0.0.tar.gz]
+[2024-05-29 09:59:39] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-1.0.1.tar.gz]
+[2024-05-29 09:59:39] INFO root fetch - main [MainThread]: End processing [dtfilterthumbor]: success
+[2024-05-29 09:59:39] INFO root fetch - processPackages [manual-tls]: Remove: archive file [/home/abi/fetcher/tmp/manual_tls-0.0.4.tar.gz]
+[2024-05-29 09:59:39] INFO root fetch - processPackages [manual-tls]: Remove: archive file [/home/abi/fetcher/tmp/manual_tls-0.0.5.tar.gz]
+[2024-05-29 09:59:39] INFO root fetch - main [MainThread]: End processing [manual-tls]: success
+[2024-05-29 09:59:39] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240528-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 09:59:39] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240529-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 09:59:39] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-29 09:59:39] INFO root fetch - processPackages [greatlibrarian]: executing diffoscope
+[2024-05-29 09:59:39] INFO root fetch - processPackages [greatlibrarian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greatlibrarian-0.0.8.tar.gz tmp/greatlibrarian-0.0.9.tar.gz --markdown 20240529/g/greatlibrarian/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 09:59:40] INFO root fetch - processPackages [aligo]: Remove: archive file [/home/abi/fetcher/tmp/aligo-6.2.2.tar.gz]
+[2024-05-29 09:59:40] INFO root fetch - processPackages [aligo]: Remove: archive file [/home/abi/fetcher/tmp/aligo-6.2.3.tar.gz]
+[2024-05-29 09:59:40] INFO root fetch - main [MainThread]: End processing [aligo]: success
+[2024-05-29 09:59:40] INFO root fetch - processPackages [gestionatr]: Remove: archive file [/home/abi/fetcher/tmp/gestionatr-3.8.1.tar.gz]
+[2024-05-29 09:59:40] INFO root fetch - processPackages [gestionatr]: Remove: archive file [/home/abi/fetcher/tmp/gestionatr-3.8.2.tar.gz]
+[2024-05-29 09:59:40] INFO root fetch - main [MainThread]: End processing [gestionatr]: success
+[2024-05-29 09:59:41] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.32.1.tar.gz]
+[2024-05-29 09:59:41] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.32.2.tar.gz]
+[2024-05-29 09:59:41] INFO root fetch - main [MainThread]: End processing [pyrotgfork]: success
+[2024-05-29 09:59:42] INFO root fetch - processPackages [greatlibrarian]: Remove: archive file [/home/abi/fetcher/tmp/greatlibrarian-0.0.8.tar.gz]
+[2024-05-29 09:59:42] INFO root fetch - processPackages [greatlibrarian]: Remove: archive file [/home/abi/fetcher/tmp/greatlibrarian-0.0.9.tar.gz]
+[2024-05-29 09:59:42] INFO root fetch - main [MainThread]: End processing [greatlibrarian]: success
+[2024-05-29 09:59:42] INFO root fetch - main [MainThread]: Store serial: [23425965]
