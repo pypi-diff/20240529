@@ -7389,3 +7389,24 @@
 [2024-05-29 04:00:40] INFO root fetch - processPackages [maxframe]: Remove: archive file [/home/abi/fetcher/tmp/maxframe-0.1.0b5-cp39-cp39-macosx_11_0_arm64.whl.zip]
 [2024-05-29 04:00:40] INFO root fetch - main [MainThread]: End processing [maxframe]: success
 [2024-05-29 04:00:40] INFO root fetch - main [MainThread]: Store serial: [23423066]
+[2024-05-29 04:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423066]
+[2024-05-29 04:02:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djmicrosip-exportaimportaprecios
+[2024-05-29 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deltacat
+[2024-05-29 04:02:48] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-05-29 04:02:48] INFO root fetch - processPackages [deltacat]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-29 04:02:48] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: Downloading https://files.pythonhosted.org/packages/80/9a/10aceea910f738d87e8d90246197653f70fe64f113302d21a1ba5ffe99c5/djmicrosip_exportaimportaprecios-1.8.3.tar.gz
+[2024-05-29 04:02:48] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/15/e7/e05e39ae08f88f4805d08c2439f2bb6e3cf05a5626fa290c795b16bfaf8c/deltacat-1.1.6.tar.gz
+[2024-05-29 04:02:49] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: Downloading https://files.pythonhosted.org/packages/0a/99/c1c245fb65aa720774ae24ba8614f297945a6fb75f8c42ec2846cb7f3a45/djmicrosip_exportaimportaprecios-1.8.4.tar.gz
+[2024-05-29 04:02:49] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/7e/80/0ffb9b333c707b4e118ce0e409c7cd5717a21b746cc93583ded063b42dbd/deltacat-1.1.7.tar.gz
+[2024-05-29 04:02:49] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: executing diffoscope
+[2024-05-29 04:02:49] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djmicrosip_exportaimportaprecios-1.8.3.tar.gz tmp/djmicrosip_exportaimportaprecios-1.8.4.tar.gz --markdown 20240529/d/djmicrosip-exportaimportaprecios/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-05-29 04:02:49] INFO root fetch - processPackages [deltacat]: executing diffoscope
+[2024-05-29 04:02:49] INFO root fetch - processPackages [deltacat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltacat-1.1.6.tar.gz tmp/deltacat-1.1.7.tar.gz --markdown 20240529/d/deltacat/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-29 04:02:49] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: Remove: archive file [/home/abi/fetcher/tmp/djmicrosip_exportaimportaprecios-1.8.3.tar.gz]
+[2024-05-29 04:02:49] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: Remove: archive file [/home/abi/fetcher/tmp/djmicrosip_exportaimportaprecios-1.8.4.tar.gz]
+[2024-05-29 04:02:49] INFO root fetch - main [MainThread]: End processing [djmicrosip-exportaimportaprecios]: success
+[2024-05-29 04:02:50] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-1.1.6.tar.gz]
+[2024-05-29 04:02:50] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-1.1.7.tar.gz]
+[2024-05-29 04:02:50] INFO root fetch - main [MainThread]: End processing [deltacat]: success
+[2024-05-29 04:02:50] INFO root fetch - main [MainThread]: Store serial: [23423085]
