@@ -17547,3 +17547,45 @@
 [2024-05-29 11:50:11] INFO root fetch - processPackages [osbot-utils]: Remove: archive file [/home/abi/fetcher/tmp/osbot_utils-1.7.7.tar.gz]
 [2024-05-29 11:50:11] INFO root fetch - main [MainThread]: End processing [osbot-utils]: success
 [2024-05-29 11:50:11] INFO root fetch - main [MainThread]: Store serial: [23427693]
+[2024-05-29 11:52:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427693]
+[2024-05-29 11:52:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vortexasdk
+[2024-05-29 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2024-05-29 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycocap
+[2024-05-29 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: defca
+[2024-05-29 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocsi
+[2024-05-29 11:52:20] WARNING root fetch - processPackages [defca]: Skipping, unable to determine old version
+[2024-05-29 11:52:20] INFO root fetch - main [MainThread]: End processing [defca] error
+[2024-05-29 11:52:20] INFO root fetch - processPackages [mkdocsi]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-29 11:52:20] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/e6/da/1350c25c9bc5e44b3b4676714522ce3d6baeb8d28142aff266d3e9439f0a/mkdocsi-1.3.3.tar.gz
+[2024-05-29 11:52:20] INFO root fetch - processPackages [pycocap]: New version: [1.3.3.dev2] Old Version: [1.2.0]
+[2024-05-29 11:52:20] INFO root fetch - processPackages [vortexasdk]: New version: [1.0.0a1] Old Version: [0.9.2]
+[2024-05-29 11:52:20] INFO root fetch - processPackages [kcli]: New version: [99.0.202405290950] Old Version: [99.0.202405280849]
+[2024-05-29 11:52:20] INFO root fetch - processPackages [vortexasdk]: Downloading https://files.pythonhosted.org/packages/9a/31/e1cc1cd981ce5e6d81530725d9809ba21ee5447abe7cd2a52f8c0d15989f/vortexasdk-0.9.2.tar.gz
+[2024-05-29 11:52:20] INFO root fetch - processPackages [pycocap]: Downloading https://files.pythonhosted.org/packages/36/02/8ec0a1887935f9528dadc41d859f5fefba9b88acb682fa5cc7e65b5ad10d/pycocap-1.2.0.tar.gz
+[2024-05-29 11:52:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/bb/dd/9b519e002dd420fde4696d76ff989621001e60587707706850ae4deba592/kcli-99.0.202405280849.tar.gz
+[2024-05-29 11:52:20] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/ae/cd/3381766b44c400300e53d0e39b86caa68fc03a090df82d2037d7ee3e4eba/mkdocsi-1.3.4.tar.gz
+[2024-05-29 11:52:20] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 11:52:20] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.3.3.tar.gz tmp/mkdocsi-1.3.4.tar.gz --markdown 20240529/m/mkdocsi/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-29 11:52:21] INFO root fetch - processPackages [vortexasdk]: Downloading https://files.pythonhosted.org/packages/af/2a/11904c6109566b6d424a71185d8580936d1ce39c562b91e9d63df71141cd/vortexasdk-1.0.0a1.tar.gz
+[2024-05-29 11:52:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/05/1a/a39e4495825f3fe837fa5c06657410dc3e36a2f5a3d15c83c454846f569f/kcli-99.0.202405290950.tar.gz
+[2024-05-29 11:52:21] INFO root fetch - processPackages [pycocap]: Downloading https://files.pythonhosted.org/packages/fe/f0/10c30c1dc465dfd8d732cf451608e3fb00c78f0beb5892d35169e3e253f3/pycocap-1.3.3.dev2.tar.gz
+[2024-05-29 11:52:21] INFO root fetch - processPackages [vortexasdk]: executing diffoscope
+[2024-05-29 11:52:21] INFO root fetch - processPackages [vortexasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vortexasdk-0.9.2.tar.gz tmp/vortexasdk-1.0.0a1.tar.gz --markdown 20240529/v/vortexasdk/0.9.2-1.0.0a1/README.md --exclude *.pyd
+[2024-05-29 11:52:21] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-29 11:52:21] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405280849.tar.gz tmp/kcli-99.0.202405290950.tar.gz --markdown 20240529/k/kcli/99.0.202405280849-99.0.202405290950/README.md --exclude *.pyd
+[2024-05-29 11:52:21] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.3.tar.gz]
+[2024-05-29 11:52:21] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.4.tar.gz]
+[2024-05-29 11:52:21] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 11:52:21] INFO root fetch - processPackages [pycocap]: executing diffoscope
+[2024-05-29 11:52:21] INFO root fetch - processPackages [pycocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycocap-1.2.0.tar.gz tmp/pycocap-1.3.3.dev2.tar.gz --markdown 20240529/p/pycocap/1.2.0-1.3.3.dev2/README.md --exclude *.pyd
+[2024-05-29 11:52:21] INFO root fetch - processPackages [vortexasdk]: Remove: archive file [/home/abi/fetcher/tmp/vortexasdk-0.9.2.tar.gz]
+[2024-05-29 11:52:21] INFO root fetch - processPackages [vortexasdk]: Remove: archive file [/home/abi/fetcher/tmp/vortexasdk-1.0.0a1.tar.gz]
+[2024-05-29 11:52:21] INFO root fetch - main [MainThread]: End processing [vortexasdk]: success
+[2024-05-29 11:52:22] INFO root fetch - processPackages [pycocap]: Remove: archive file [/home/abi/fetcher/tmp/pycocap-1.2.0.tar.gz]
+[2024-05-29 11:52:22] INFO root fetch - processPackages [pycocap]: Remove: archive file [/home/abi/fetcher/tmp/pycocap-1.3.3.dev2.tar.gz]
+[2024-05-29 11:52:22] INFO root fetch - main [MainThread]: End processing [pycocap]: success
+[2024-05-29 11:52:23] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405280849.tar.gz]
+[2024-05-29 11:52:23] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405290950.tar.gz]
+[2024-05-29 11:52:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-29 11:52:23] INFO root fetch - main [MainThread]: Store serial: [23427710]
