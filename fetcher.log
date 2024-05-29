@@ -23228,3 +23228,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:16:47] INFO root fetch - processPackages [orb-billing]: Remove: archive file [/home/abi/fetcher/tmp/orb_billing-1.56.0.tar.gz]
 [2024-05-29 15:16:47] INFO root fetch - main [MainThread]: End processing [orb-billing]: success
 [2024-05-29 15:16:47] INFO root fetch - main [MainThread]: Store serial: [23430241]
+[2024-05-29 15:18:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430241]
+[2024-05-29 15:18:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-azure-auth
+[2024-05-29 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-05-29 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-micro
+[2024-05-29 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: in-silico-cancer-cell
+[2024-05-29 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: poetry-plugin-lambda-build
+[2024-05-29 15:18:56] INFO root fetch - processPackages [django-azure-auth]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-29 15:18:56] INFO root fetch - processPackages [poetry-plugin-lambda-build]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-29 15:18:56] INFO root fetch - processPackages [tflite-micro]: New version: [0.dev20240529040542] Old Version: [0.dev20240524170235]
+[2024-05-29 15:18:56] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.5.29] Old Version: [2024.5.28]
+[2024-05-29 15:18:56] INFO root fetch - processPackages [in-silico-cancer-cell]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-29 15:18:56] INFO root fetch - processPackages [django-azure-auth]: Downloading https://files.pythonhosted.org/packages/5f/22/31e58fc0e991b25afee6dc78f1d6481546e074fdb90b517b776730cdd78d/django_azure_auth-1.3.0.tar.gz
+[2024-05-29 15:18:56] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/38/15/1663f988878eee0e7867112c4a2449f8bcaeb98c241704b2cde9d5401ce2/tflite_micro-0.dev20240524170235-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-29 15:18:56] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/59/90/3b2430de76ede1a2afdb1ba2ec1b223c56589ffa52a1393f9d68731ab21f/fbgemm_gpu_nightly_cpu-2024.5.28-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-29 15:18:56] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/e4/91/710df8a7d66340a1bb62c49aabdaee4c3b3a68598a8705f4d953eb9bfbec/poetry_plugin_lambda_build-0.6.1.tar.gz
+[2024-05-29 15:18:56] INFO root fetch - processPackages [in-silico-cancer-cell]: Downloading https://files.pythonhosted.org/packages/f7/b8/bdae7091137d100cda0393541b014008798fc9b1bfe44a6ab6bec1921ff0/in_silico_cancer_cell-0.1.0.tar.gz
+[2024-05-29 15:18:56] WARNING root fetch - processPackages [in-silico-cancer-cell]: Skipping package: exceeds size limit 22547862>=10485760
+[2024-05-29 15:18:56] INFO root fetch - main [MainThread]: End processing [in-silico-cancer-cell] error
+[2024-05-29 15:18:56] INFO root fetch - processPackages [django-azure-auth]: Downloading https://files.pythonhosted.org/packages/e6/41/9e9efc35321486a0067f4693ec4d24307b8a5b95cc516e25438207aece48/django_azure_auth-1.4.0.tar.gz
+[2024-05-29 15:18:56] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/cd/f8/28773b269a0aaa53129e29449912da3ad8caf8cd2c52b214f4b5ba8c622c/poetry_plugin_lambda_build-0.6.2.tar.gz
+[2024-05-29 15:18:57] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/ea/57/13206e40a0b810879350c48fefe4a6b5a93a09e6a7b99c4f0fc47b4b1db8/tflite_micro-0.dev20240529040542-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-29 15:18:57] INFO root fetch - processPackages [django-azure-auth]: executing diffoscope
+[2024-05-29 15:18:57] INFO root fetch - processPackages [django-azure-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_azure_auth-1.3.0.tar.gz tmp/django_azure_auth-1.4.0.tar.gz --markdown 20240529/d/django-azure-auth/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-29 15:18:57] INFO root fetch - processPackages [poetry-plugin-lambda-build]: executing diffoscope
+[2024-05-29 15:18:57] INFO root fetch - processPackages [poetry-plugin-lambda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_lambda_build-0.6.1.tar.gz tmp/poetry_plugin_lambda_build-0.6.2.tar.gz --markdown 20240529/p/poetry-plugin-lambda-build/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-29 15:18:57] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f7/26/36d4d55229b9ba79f000ff84e3b6c1556b099e945a300366d460cbeb91f8/fbgemm_gpu_nightly_cpu-2024.5.29-cp311-cp311-manylinux2014_x86_64.whl
+[2024-05-29 15:18:57] INFO root fetch - processPackages [tflite-micro]: executing diffoscope
+[2024-05-29 15:18:57] INFO root fetch - processPackages [tflite-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_micro-0.dev20240524170235-cp311-cp311-manylinux_2_28_x86_64.whl.zip tmp/tflite_micro-0.dev20240529040542-cp311-cp311-manylinux_2_28_x86_64.whl.zip --markdown 20240529/t/tflite-micro/0.dev20240524170235-0.dev20240529040542/README.md --exclude *.pyd
+[2024-05-29 15:18:57] INFO root fetch - processPackages [django-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_auth-1.3.0.tar.gz]
+[2024-05-29 15:18:57] INFO root fetch - processPackages [django-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_auth-1.4.0.tar.gz]
+[2024-05-29 15:18:57] INFO root fetch - main [MainThread]: End processing [django-azure-auth]: success
+[2024-05-29 15:18:57] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.6.1.tar.gz]
+[2024-05-29 15:18:57] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.6.2.tar.gz]
+[2024-05-29 15:18:57] INFO root fetch - main [MainThread]: End processing [poetry-plugin-lambda-build]: success
+[2024-05-29 15:18:58] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-05-29 15:18:58] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.5.28-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.5.29-cp311-cp311-manylinux2014_x86_64.whl.zip --markdown 20240529/f/fbgemm-gpu-nightly-cpu/2024.5.28-2024.5.29/README.md --exclude *.pyd
+[2024-05-29 15:19:07] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240524170235-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-29 15:19:07] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240529040542-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-29 15:19:07] INFO root fetch - main [MainThread]: End processing [tflite-micro]: success
+[2024-05-29 15:19:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.28-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-29 15:19:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.29-cp311-cp311-manylinux2014_x86_64.whl.zip]
+[2024-05-29 15:19:37] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-05-29 15:19:37] INFO root fetch - main [MainThread]: Store serial: [23430281]
