@@ -7335,3 +7335,33 @@
 [2024-05-29 03:56:17] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-energy-1.9.2.tar.gz]
 [2024-05-29 03:56:17] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-energy]: success
 [2024-05-29 03:56:17] INFO root fetch - main [MainThread]: Store serial: [23422989]
+[2024-05-29 03:58:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23422989]
+[2024-05-29 03:58:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 03:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2024-05-29 03:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-grasshopper
+[2024-05-29 03:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quarkstudio
+[2024-05-29 03:58:25] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-29 03:58:25] INFO root fetch - processPackages [quarkstudio]: New version: [6.6.7.4] Old Version: [6.6.7.3]
+[2024-05-29 03:58:25] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/85/4b/b7b2a31765980f121c7dca9cd1353afc8fd947ace9f87b8f902620819061/lbt-grasshopper-1.8.8.tar.gz
+[2024-05-29 03:58:25] INFO root fetch - processPackages [pkscreener]: New version: [0.45.20240529.421] Old Version: [0.45.20240528.420]
+[2024-05-29 03:58:26] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/28/58/b7e4bc2a9f34f1226e02850385f8697519c8905b40b8b9cf14eb222cf90a/quarkstudio-6.6.7.3-cp312-none-win_amd64.whl
+[2024-05-29 03:58:26] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/77/ca/878079d0520a00ca136d6b0949aac46c50f3e6f0cf985d0501e9e87d3f9d/pkscreener-0.45.20240528.420.tar.gz
+[2024-05-29 03:58:26] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/8f/43/14eede1d5162f900e97c330a2f83ad3cef64b06f36216364f0012886cf75/lbt-grasshopper-1.8.9.tar.gz
+[2024-05-29 03:58:26] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2024-05-29 03:58:26] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.8.8.tar.gz tmp/lbt-grasshopper-1.8.9.tar.gz --markdown 20240529/l/lbt-grasshopper/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-29 03:58:26] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/dd/2c/bc1d4972b684f1cce6c4d114c4369e5454db61f5de20c1a003c1f54ea346/quarkstudio-6.6.7.4-cp311-none-manylinux2014_x86_64.whl
+[2024-05-29 03:58:26] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/37/cd/8e4e9f7c31ee3b7ef371ee3e661e35728ba21dc902a22cebdf1953458bf4/pkscreener-0.45.20240529.421.tar.gz
+[2024-05-29 03:58:26] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-29 03:58:26] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.45.20240528.420.tar.gz tmp/pkscreener-0.45.20240529.421.tar.gz --markdown 20240529/p/pkscreener/0.45.20240528.420-0.45.20240529.421/README.md --exclude *.pyd
+[2024-05-29 03:58:27] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.8.tar.gz]
+[2024-05-29 03:58:27] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.9.tar.gz]
+[2024-05-29 03:58:27] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2024-05-29 03:58:27] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2024-05-29 03:58:27] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.6.7.3-cp312-none-win_amd64.whl.zip tmp/quarkstudio-6.6.7.4-cp311-none-manylinux2014_x86_64.whl.zip --markdown 20240529/q/quarkstudio/6.6.7.3-6.6.7.4/README.md --exclude *.pyd
+[2024-05-29 03:58:27] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240528.420.tar.gz]
+[2024-05-29 03:58:27] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240529.421.tar.gz]
+[2024-05-29 03:58:27] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-29 03:58:28] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.7.3-cp312-none-win_amd64.whl.zip]
+[2024-05-29 03:58:28] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.7.4-cp311-none-manylinux2014_x86_64.whl.zip]
+[2024-05-29 03:58:28] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2024-05-29 03:58:28] INFO root fetch - main [MainThread]: Store serial: [23422998]
