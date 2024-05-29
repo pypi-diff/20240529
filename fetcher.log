@@ -13170,3 +13170,21 @@
 [2024-05-29 09:22:19] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
 [2024-05-29 09:22:19] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-29 09:22:19] INFO root fetch - main [MainThread]: Store serial: [23425542]
+[2024-05-29 09:24:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425542]
+[2024-05-29 09:24:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 09:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exipe
+[2024-05-29 09:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctapipe-io-nectarcam
+[2024-05-29 09:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xfapi
+[2024-05-29 09:24:28] WARNING root fetch - processPackages [xfapi]: Skipping, unable to determine old version
+[2024-05-29 09:24:28] INFO root fetch - main [MainThread]: End processing [xfapi] error
+[2024-05-29 09:24:29] WARNING root fetch - processPackages [exipe]: Skipping, unable to determine old version
+[2024-05-29 09:24:29] INFO root fetch - main [MainThread]: End processing [exipe] error
+[2024-05-29 09:24:29] INFO root fetch - processPackages [ctapipe-io-nectarcam]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-29 09:24:29] INFO root fetch - processPackages [ctapipe-io-nectarcam]: Downloading https://files.pythonhosted.org/packages/80/c3/9d3f960410d1509cef44b79adfb75bcaf5f4bef0c5740557cced5916a52d/ctapipe_io_nectarcam-0.1.4.tar.gz
+[2024-05-29 09:24:29] INFO root fetch - processPackages [ctapipe-io-nectarcam]: Downloading https://files.pythonhosted.org/packages/2d/52/2559050600dc9e224ede4432ad06cef022494ed934d0ec1671fc5ba3ccd9/ctapipe_io_nectarcam-0.1.5.tar.gz
+[2024-05-29 09:24:30] INFO root fetch - processPackages [ctapipe-io-nectarcam]: executing diffoscope
+[2024-05-29 09:24:30] INFO root fetch - processPackages [ctapipe-io-nectarcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctapipe_io_nectarcam-0.1.4.tar.gz tmp/ctapipe_io_nectarcam-0.1.5.tar.gz --markdown 20240529/c/ctapipe-io-nectarcam/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-29 09:24:30] INFO root fetch - processPackages [ctapipe-io-nectarcam]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe_io_nectarcam-0.1.4.tar.gz]
+[2024-05-29 09:24:30] INFO root fetch - processPackages [ctapipe-io-nectarcam]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe_io_nectarcam-0.1.5.tar.gz]
+[2024-05-29 09:24:30] INFO root fetch - main [MainThread]: End processing [ctapipe-io-nectarcam]: success
+[2024-05-29 09:24:30] INFO root fetch - main [MainThread]: Store serial: [23425549]
