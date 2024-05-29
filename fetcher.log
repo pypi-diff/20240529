@@ -16581,3 +16581,84 @@
 [2024-05-29 11:18:51] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.5.0.1.tar.gz]
 [2024-05-29 11:18:51] INFO root fetch - main [MainThread]: End processing [gpboost]: success
 [2024-05-29 11:18:51] INFO root fetch - main [MainThread]: Store serial: [23427207]
+[2024-05-29 11:20:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427207]
+[2024-05-29 11:21:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-2fa
+[2024-05-29 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: annofabcli
+[2024-05-29 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-lookbook
+[2024-05-29 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-mgmt-devopsinfrastructure
+[2024-05-29 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HABSlib
+[2024-05-29 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gyp-next
+[2024-05-29 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: civics-cdf-validator
+[2024-05-29 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djangoldp-energiepartagee
+[2024-05-29 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: khoj-assistant
+[2024-05-29 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SimpleAUG
+[2024-05-29 11:21:01] INFO root fetch - processPackages [civics-cdf-validator]: New version: [1.9.dev1] Old Version: [1.9]
+[2024-05-29 11:21:01] INFO root fetch - processPackages [SimpleAUG]: New version: [0.0.3] Old Version: [0.0.2.1]
+[2024-05-29 11:21:01] INFO root fetch - processPackages [HABSlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 11:21:01] WARNING root fetch - processPackages [drf-2fa]: Skipping, unable to determine old version
+[2024-05-29 11:21:01] INFO root fetch - main [MainThread]: End processing [drf-2fa] error
+[2024-05-29 11:21:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-29 11:21:02] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-29 11:21:02] INFO root fetch - processPackages [gyp-next]: New version: [0.4.0] Old Version: [0.18.1]
+[2024-05-29 11:21:02] WARNING root fetch - processPackages [azure-mgmt-devopsinfrastructure]: Skipping, unable to determine old version
+[2024-05-29 11:21:02] INFO root fetch - main [MainThread]: End processing [azure-mgmt-devopsinfrastructure] error
+[2024-05-29 11:21:02] INFO root fetch - processPackages [django-lookbook]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 11:21:02] INFO root fetch - processPackages [SimpleAUG]: Downloading https://files.pythonhosted.org/packages/6c/50/a99763b33875ffcb2ea23a9c2de5fec56c3012ceba3947b708182f7ba9ce/simpleaug-0.0.2.1.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/92/a2/3472f44ce5fbc12a46ed53af9061d73c2ad2a08f4cfc95d85c9f0d590c52/habslib-0.1.8.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [annofabcli]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-29 11:21:02] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/9c/33/4d75823e3c52ecc93964f231d752b79135d74aa9bcca07720045645bfe91/civics_cdf_validator-1.9.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [gyp-next]: Downloading https://files.pythonhosted.org/packages/55/f8/034e3542921a7e5bb1c4e5ae5d5774c62d88fbdf48fd0616ec67efe7be3c/gyp_next-0.18.1.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [django-lookbook]: Downloading https://files.pythonhosted.org/packages/d9/72/03d13e41b0fd370400e6186d92e4728a90f52968181dc5e5d06080e8bf41/django_lookbook-0.0.1.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/b2/ea/3eb2099f135cfbcea8c24a4ef575773e1c92246ed65b1611aba761b07ff2/habslib-0.1.9.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/9b/30/c4b262939f47c9a5b879fd55c593b084bfaf1bd05e70454b77ae76dc4836/annofabcli-1.9.0.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [HABSlib]: executing diffoscope
+[2024-05-29 11:21:02] INFO root fetch - processPackages [HABSlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habslib-0.1.8.tar.gz tmp/habslib-0.1.9.tar.gz --markdown 20240529/H/HABSlib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 11:21:02] INFO root fetch - processPackages [SimpleAUG]: Downloading https://files.pythonhosted.org/packages/f4/2c/204ff94f3d7b9b454810fba5e399a65dfe75097759e38c2f28a6d259c03c/SimpleAUG-0.0.3-py3-none-any.whl
+[2024-05-29 11:21:02] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/49/52/f20d05b43acd0ba782bdb28e82a60591d9ca3edb1c39da7ec86f030521ac/civics_cdf_validator-1.9.dev1.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [SimpleAUG]: executing diffoscope
+[2024-05-29 11:21:02] INFO root fetch - processPackages [SimpleAUG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleaug-0.0.2.1.tar.gz tmp/SimpleAUG-0.0.3-py3-none-any.whl.zip --markdown 20240529/S/SimpleAUG/0.0.2.1-0.0.3/README.md --exclude *.pyd
+[2024-05-29 11:21:02] INFO root fetch - processPackages [django-lookbook]: Downloading https://files.pythonhosted.org/packages/73/b8/1a367e0c7c34b5a3c33c8f823a8f5c1470f2224ee19902acb7732fa9254c/django_lookbook-0.0.2.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-29 11:21:02] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240529/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-29 11:21:02] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/f3/65/e480a62f8a5ee129f7a4ed0ec83f6f6dcd5418f8a620d1c17c801ffb6e80/annofabcli-1.9.1.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-29 11:21:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240529/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-29 11:21:02] INFO root fetch - processPackages [gyp-next]: Downloading https://files.pythonhosted.org/packages/52/fa/bb78fef6061834ab71d417c04a7dc35d053f13a16642fcd6451fa61abca6/gyp-next-0.4.0.tar.gz
+[2024-05-29 11:21:02] INFO root fetch - processPackages [civics-cdf-validator]: executing diffoscope
+[2024-05-29 11:21:02] INFO root fetch - processPackages [civics-cdf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civics_cdf_validator-1.9.tar.gz tmp/civics_cdf_validator-1.9.dev1.tar.gz --markdown 20240529/c/civics-cdf-validator/1.9-1.9.dev1/README.md --exclude *.pyd
+[2024-05-29 11:21:02] INFO root fetch - processPackages [django-lookbook]: executing diffoscope
+[2024-05-29 11:21:02] INFO root fetch - processPackages [django-lookbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_lookbook-0.0.1.tar.gz tmp/django_lookbook-0.0.2.tar.gz --markdown 20240529/d/django-lookbook/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 11:21:03] INFO root fetch - processPackages [gyp-next]: executing diffoscope
+[2024-05-29 11:21:03] INFO root fetch - processPackages [gyp-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gyp_next-0.18.1.tar.gz tmp/gyp-next-0.4.0.tar.gz --markdown 20240529/g/gyp-next/0.18.1-0.4.0/README.md --exclude *.pyd
+[2024-05-29 11:21:03] INFO root fetch - processPackages [annofabcli]: executing diffoscope
+[2024-05-29 11:21:03] INFO root fetch - processPackages [annofabcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabcli-1.9.0.tar.gz tmp/annofabcli-1.9.1.tar.gz --markdown 20240529/a/annofabcli/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-29 11:21:03] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.8.tar.gz]
+[2024-05-29 11:21:03] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.9.tar.gz]
+[2024-05-29 11:21:03] INFO root fetch - main [MainThread]: End processing [HABSlib]: success
+[2024-05-29 11:21:03] INFO root fetch - processPackages [SimpleAUG]: Remove: archive file [/home/abi/fetcher/tmp/simpleaug-0.0.2.1.tar.gz]
+[2024-05-29 11:21:03] INFO root fetch - processPackages [SimpleAUG]: Remove: archive file [/home/abi/fetcher/tmp/SimpleAUG-0.0.3-py3-none-any.whl.zip]
+[2024-05-29 11:21:03] INFO root fetch - main [MainThread]: End processing [SimpleAUG]: success
+[2024-05-29 11:21:03] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.tar.gz]
+[2024-05-29 11:21:03] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.dev1.tar.gz]
+[2024-05-29 11:21:03] INFO root fetch - main [MainThread]: End processing [civics-cdf-validator]: success
+[2024-05-29 11:21:03] INFO root fetch - processPackages [annofabcli]: Remove: archive file [/home/abi/fetcher/tmp/annofabcli-1.9.0.tar.gz]
+[2024-05-29 11:21:03] INFO root fetch - processPackages [annofabcli]: Remove: archive file [/home/abi/fetcher/tmp/annofabcli-1.9.1.tar.gz]
+[2024-05-29 11:21:03] INFO root fetch - main [MainThread]: End processing [annofabcli]: success
+[2024-05-29 11:21:04] INFO root fetch - processPackages [django-lookbook]: Remove: archive file [/home/abi/fetcher/tmp/django_lookbook-0.0.1.tar.gz]
+[2024-05-29 11:21:04] INFO root fetch - processPackages [django-lookbook]: Remove: archive file [/home/abi/fetcher/tmp/django_lookbook-0.0.2.tar.gz]
+[2024-05-29 11:21:04] INFO root fetch - main [MainThread]: End processing [django-lookbook]: success
+[2024-05-29 11:21:04] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-29 11:21:04] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-29 11:21:04] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-29 11:21:04] INFO root fetch - processPackages [gyp-next]: Remove: archive file [/home/abi/fetcher/tmp/gyp_next-0.18.1.tar.gz]
+[2024-05-29 11:21:04] INFO root fetch - processPackages [gyp-next]: Remove: archive file [/home/abi/fetcher/tmp/gyp-next-0.4.0.tar.gz]
+[2024-05-29 11:21:04] INFO root fetch - main [MainThread]: End processing [gyp-next]: success
+[2024-05-29 11:21:04] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-29 11:21:04] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-29 11:21:04] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-29 11:21:04] INFO root fetch - main [MainThread]: Store serial: [23427239]
