@@ -11087,3 +11087,33 @@
 [2024-05-29 07:43:06] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3366rc0.tar.gz]
 [2024-05-29 07:43:06] INFO root fetch - main [MainThread]: End processing [bbot]: success
 [2024-05-29 07:43:06] INFO root fetch - main [MainThread]: Store serial: [23424511]
+[2024-05-29 07:45:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424511]
+[2024-05-29 07:45:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-confluentcloud
+[2024-05-29 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oxtapus
+[2024-05-29 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyannote-onnx
+[2024-05-29 07:45:14] INFO root fetch - processPackages [oxtapus]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-29 07:45:14] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-29 07:45:14] INFO root fetch - processPackages [pyannote-onnx]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 07:45:14] INFO root fetch - processPackages [oxtapus]: Downloading https://files.pythonhosted.org/packages/6a/4c/d12c716f13c97bd5c30a768ff1cfb9e25b89052f322a2a786ec971cea8a2/oxtapus-0.3.2-py3-none-any.whl
+[2024-05-29 07:45:14] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-29 07:45:14] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/38/92/08aefc043b6d14e2e28aae815aae61b6a00b202f24b31f5c613164746ab2/pyannote-onnx-0.0.4.tar.gz
+[2024-05-29 07:45:15] INFO root fetch - processPackages [oxtapus]: Downloading https://files.pythonhosted.org/packages/91/6c/03c622ac1968f37e7ed3e08614ffbc0fc4e7aeb8aa2182d99951b541754e/oxtapus-0.3.3-py3-none-any.whl
+[2024-05-29 07:45:15] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-29 07:45:15] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-29 07:45:15] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240529/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-29 07:45:15] INFO root fetch - processPackages [oxtapus]: executing diffoscope
+[2024-05-29 07:45:15] INFO root fetch - processPackages [oxtapus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxtapus-0.3.2-py3-none-any.whl.zip tmp/oxtapus-0.3.3-py3-none-any.whl.zip --markdown 20240529/o/oxtapus/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-29 07:45:16] INFO root fetch - processPackages [oxtapus]: Remove: archive file [/home/abi/fetcher/tmp/oxtapus-0.3.2-py3-none-any.whl.zip]
+[2024-05-29 07:45:16] INFO root fetch - processPackages [oxtapus]: Remove: archive file [/home/abi/fetcher/tmp/oxtapus-0.3.3-py3-none-any.whl.zip]
+[2024-05-29 07:45:16] INFO root fetch - main [MainThread]: End processing [oxtapus]: success
+[2024-05-29 07:45:16] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-29 07:45:16] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-29 07:45:16] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-29 07:45:17] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/fe/a7/8b9e53f04f4653483af83abfea3df692a35e82b6ad2f94eb8a8ee8c16614/pyannote-onnx-0.0.5.tar.gz
+[2024-05-29 07:45:18] INFO root fetch - processPackages [pyannote-onnx]: executing diffoscope
+[2024-05-29 07:45:18] INFO root fetch - processPackages [pyannote-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyannote-onnx-0.0.4.tar.gz tmp/pyannote-onnx-0.0.5.tar.gz --markdown 20240529/p/pyannote-onnx/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 07:45:19] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.4.tar.gz]
+[2024-05-29 07:45:19] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.5.tar.gz]
+[2024-05-29 07:45:19] INFO root fetch - main [MainThread]: End processing [pyannote-onnx]: success
+[2024-05-29 07:45:19] INFO root fetch - main [MainThread]: Store serial: [23424519]
