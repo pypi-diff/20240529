@@ -14907,3 +14907,18 @@
 [2024-05-29 10:31:23] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.1.dev1.tar.gz]
 [2024-05-29 10:31:23] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
 [2024-05-29 10:31:23] INFO root fetch - main [MainThread]: Store serial: [23426410]
+[2024-05-29 10:33:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426410]
+[2024-05-29 10:33:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 10:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-system-dockerization
+[2024-05-29 10:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylaunches
+[2024-05-29 10:33:32] WARNING root fetch - processPackages [ml-system-dockerization]: Skipping, unable to determine old version
+[2024-05-29 10:33:32] INFO root fetch - main [MainThread]: End processing [ml-system-dockerization] error
+[2024-05-29 10:33:32] INFO root fetch - processPackages [pylaunches]: New version: [2.0.0] Old Version: [1.4.0]
+[2024-05-29 10:33:33] INFO root fetch - processPackages [pylaunches]: Downloading https://files.pythonhosted.org/packages/69/41/c783494c777820fc8f3cf6c7229b4d001eeb2ed70a328e9ef9842f3f85ec/pylaunches-1.4.0.tar.gz
+[2024-05-29 10:33:33] INFO root fetch - processPackages [pylaunches]: Downloading https://files.pythonhosted.org/packages/f7/8b/4a40b3ff81e88ab0cac21d557f10ca51515a9501e01d7abc540ef59c8f56/pylaunches-2.0.0.tar.gz
+[2024-05-29 10:33:33] INFO root fetch - processPackages [pylaunches]: executing diffoscope
+[2024-05-29 10:33:33] INFO root fetch - processPackages [pylaunches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylaunches-1.4.0.tar.gz tmp/pylaunches-2.0.0.tar.gz --markdown 20240529/p/pylaunches/1.4.0-2.0.0/README.md --exclude *.pyd
+[2024-05-29 10:33:34] INFO root fetch - processPackages [pylaunches]: Remove: archive file [/home/abi/fetcher/tmp/pylaunches-1.4.0.tar.gz]
+[2024-05-29 10:33:34] INFO root fetch - processPackages [pylaunches]: Remove: archive file [/home/abi/fetcher/tmp/pylaunches-2.0.0.tar.gz]
+[2024-05-29 10:33:34] INFO root fetch - main [MainThread]: End processing [pylaunches]: success
+[2024-05-29 10:33:34] INFO root fetch - main [MainThread]: Store serial: [23426422]
