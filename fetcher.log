@@ -18612,3 +18612,47 @@
 [2024-05-29 12:28:01] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2024-05-29 12:28:01] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2024-05-29 12:28:01] INFO root fetch - main [MainThread]: Store serial: [23428254]
+[2024-05-29 12:30:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428254]
+[2024-05-29 12:30:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 12:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swa-gaussian
+[2024-05-29 12:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DSYiriso
+[2024-05-29 12:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-computer-assistant
+[2024-05-29 12:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyPLNmodels
+[2024-05-29 12:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazyad
+[2024-05-29 12:30:10] INFO root fetch - processPackages [gpt-computer-assistant]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-29 12:30:10] INFO root fetch - processPackages [DSYiriso]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 12:30:10] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/6b/76/07d25ce692a0ad94623a2091a26ea71670c8ff21cb608a1b483d29b4468b/gpt_computer_assistant-0.5.2.tar.gz
+[2024-05-29 12:30:10] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 12:30:10] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 12:30:10] INFO root fetch - processPackages [swa-gaussian]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-29 12:30:10] INFO root fetch - processPackages [DSYiriso]: Downloading https://files.pythonhosted.org/packages/68/39/5daead96866f8d314d330558474142b78890ea888e59d3bb00b19b79b3a0/DSYiriso-0.0.1.tar.gz
+[2024-05-29 12:30:10] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/5f/63/34773dd4a8431949bc695f54c8fe87bad0025409eb0f942938b72bdb9c5e/gpt_computer_assistant-0.5.3.tar.gz
+[2024-05-29 12:30:10] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-05-29 12:30:10] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/51/b0/7d9557b8945170adab935eafed81fb717ab0a6849909f142dfcf9ab78264/pyPLNmodels-0.0.8.tar.gz
+[2024-05-29 12:30:10] INFO root fetch - processPackages [swa-gaussian]: Downloading https://files.pythonhosted.org/packages/b5/32/4dead5f0e326f0dc3198c3b5021eaf18384de2d85afbb9671dd35d696ced/swa_gaussian-0.1.5.tar.gz
+[2024-05-29 12:30:10] WARNING root fetch - processPackages [swa-gaussian]: Skipping package: exceeds size limit 36079121>=10485760
+[2024-05-29 12:30:10] INFO root fetch - main [MainThread]: End processing [swa-gaussian] error
+[2024-05-29 12:30:10] INFO root fetch - processPackages [gpt-computer-assistant]: executing diffoscope
+[2024-05-29 12:30:10] INFO root fetch - processPackages [gpt-computer-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_computer_assistant-0.5.2.tar.gz tmp/gpt_computer_assistant-0.5.3.tar.gz --markdown 20240529/g/gpt-computer-assistant/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-29 12:30:10] INFO root fetch - processPackages [DSYiriso]: Downloading https://files.pythonhosted.org/packages/18/e5/d316138ce4ac7e0f637cfbfd646a1f529cd7fb9c8314118d0a7efbcf0b27/DSYiriso-0.0.2.tar.gz
+[2024-05-29 12:30:10] INFO root fetch - processPackages [DSYiriso]: executing diffoscope
+[2024-05-29 12:30:10] INFO root fetch - processPackages [DSYiriso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DSYiriso-0.0.1.tar.gz tmp/DSYiriso-0.0.2.tar.gz --markdown 20240529/D/DSYiriso/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 12:30:10] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-05-29 12:30:11] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-05-29 12:30:11] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240529/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 12:30:11] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/d9/ee/b1ce119365c9ee2f1e8f012450c38c4ebaa0ba7795d2a008d8fcde4dfd07/pyPLNmodels-0.0.9.tar.gz
+[2024-05-29 12:30:11] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2024-05-29 12:30:11] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20240529/p/pyPLNmodels/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 12:30:11] INFO root fetch - processPackages [DSYiriso]: Remove: archive file [/home/abi/fetcher/tmp/DSYiriso-0.0.1.tar.gz]
+[2024-05-29 12:30:11] INFO root fetch - processPackages [DSYiriso]: Remove: archive file [/home/abi/fetcher/tmp/DSYiriso-0.0.2.tar.gz]
+[2024-05-29 12:30:11] INFO root fetch - main [MainThread]: End processing [DSYiriso]: success
+[2024-05-29 12:30:11] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.2.tar.gz]
+[2024-05-29 12:30:11] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.3.tar.gz]
+[2024-05-29 12:30:11] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant]: success
+[2024-05-29 12:30:11] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-05-29 12:30:11] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-05-29 12:30:11] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-05-29 12:30:12] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.8.tar.gz]
+[2024-05-29 12:30:12] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.9.tar.gz]
+[2024-05-29 12:30:12] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2024-05-29 12:30:12] INFO root fetch - main [MainThread]: Store serial: [23428267]
