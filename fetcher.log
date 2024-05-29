@@ -8310,3 +8310,42 @@
 [2024-05-29 05:03:34] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.3.0.tar.gz]
 [2024-05-29 05:03:34] INFO root fetch - main [MainThread]: End processing [lazy-mongo]: success
 [2024-05-29 05:03:34] INFO root fetch - main [MainThread]: Store serial: [23423456]
+[2024-05-29 05:05:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423456]
+[2024-05-29 05:05:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 05:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-05-29 05:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robustintelligence
+[2024-05-29 05:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twiner
+[2024-05-29 05:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gandai
+[2024-05-29 05:05:44] INFO root fetch - processPackages [gandai]: New version: [1.7.55] Old Version: [1.7.54]
+[2024-05-29 05:05:44] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-29 05:05:44] INFO root fetch - processPackages [robustintelligence]: New version: [2.8.2] Old Version: [0.1.4]
+[2024-05-29 05:05:44] INFO root fetch - processPackages [twiner]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-29 05:05:44] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/7d/06/33dbcbf39e9f40c338eaebe76d5d2d2cd41ac0c0f7bcc3359446a1e51e25/gandai-1.7.54.tar.gz
+[2024-05-29 05:05:44] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-29 05:05:44] INFO root fetch - processPackages [robustintelligence]: Downloading https://files.pythonhosted.org/packages/11/bb/8526a98931154a2ec02cbbe569cfdf4c3b788a95dab6c187c68ce01a0929/robustintelligence-0.1.4.tar.gz
+[2024-05-29 05:05:44] INFO root fetch - processPackages [twiner]: Downloading https://files.pythonhosted.org/packages/3f/7a/08e90a2c7c93e3edf3feff646ce5a3a2581e736751c81f2c9479c5ace6fa/twiner-0.3.0.tar.gz
+[2024-05-29 05:05:44] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/8d/33/b62783e59c12b142512643ea746730ceac2a27f5ead9fc0428fc5fe14938/gandai-1.7.55.tar.gz
+[2024-05-29 05:05:44] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-29 05:05:44] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.54.tar.gz tmp/gandai-1.7.55.tar.gz --markdown 20240529/g/gandai/1.7.54-1.7.55/README.md --exclude *.pyd
+[2024-05-29 05:05:44] INFO root fetch - processPackages [robustintelligence]: Downloading https://files.pythonhosted.org/packages/8e/06/14bb035e6d91d041b788714072e039da26a9e55adb9dd42e86fbb06e088b/robustintelligence-2.8.2.tar.gz
+[2024-05-29 05:05:44] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-29 05:05:44] INFO root fetch - processPackages [twiner]: Downloading https://files.pythonhosted.org/packages/58/cc/206d7cc771ca51d1156bfdcb7ad70dc29770c82a8bd1fa17c8e7ab3988bd/twiner-0.4.0.tar.gz
+[2024-05-29 05:05:44] INFO root fetch - processPackages [robustintelligence]: executing diffoscope
+[2024-05-29 05:05:44] INFO root fetch - processPackages [robustintelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robustintelligence-0.1.4.tar.gz tmp/robustintelligence-2.8.2.tar.gz --markdown 20240529/r/robustintelligence/0.1.4-2.8.2/README.md --exclude *.pyd
+[2024-05-29 05:05:44] INFO root fetch - processPackages [twiner]: executing diffoscope
+[2024-05-29 05:05:44] INFO root fetch - processPackages [twiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twiner-0.3.0.tar.gz tmp/twiner-0.4.0.tar.gz --markdown 20240529/t/twiner/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-29 05:05:45] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-29 05:05:45] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240529/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-29 05:05:45] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.54.tar.gz]
+[2024-05-29 05:05:45] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.55.tar.gz]
+[2024-05-29 05:05:45] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-29 05:05:45] INFO root fetch - processPackages [twiner]: Remove: archive file [/home/abi/fetcher/tmp/twiner-0.3.0.tar.gz]
+[2024-05-29 05:05:45] INFO root fetch - processPackages [twiner]: Remove: archive file [/home/abi/fetcher/tmp/twiner-0.4.0.tar.gz]
+[2024-05-29 05:05:45] INFO root fetch - main [MainThread]: End processing [twiner]: success
+[2024-05-29 05:05:46] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-29 05:05:46] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-29 05:05:46] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-29 05:05:47] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.4.tar.gz]
+[2024-05-29 05:05:47] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-2.8.2.tar.gz]
+[2024-05-29 05:05:47] INFO root fetch - main [MainThread]: End processing [robustintelligence]: success
+[2024-05-29 05:05:47] INFO root fetch - main [MainThread]: Store serial: [23423468]
