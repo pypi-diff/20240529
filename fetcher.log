@@ -23486,3 +23486,111 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:26:50] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-29 15:26:50] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-29 15:26:50] INFO root fetch - main [MainThread]: Store serial: [23430407]
+[2024-05-29 15:28:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430407]
+[2024-05-29 15:28:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws-native
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdtraj
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multi-modal-automl
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: federated-learning-framework
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: direnumerate
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyva-framework
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyannote-onnx
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ultracart-rest-sdk
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-societies
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyfast-sqlite
+[2024-05-29 15:28:59] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-29 15:28:59] INFO root fetch - processPackages [pyfast-sqlite]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-29 15:28:59] INFO root fetch - processPackages [pyannote-onnx]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-29 15:28:59] INFO root fetch - processPackages [direnumerate]: New version: [4.0rc1] Old Version: [4.0a6]
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2024-05-29 15:28:59] INFO root fetch - processPackages [mdtraj]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-29 15:28:59] WARNING root fetch - processPackages [multi-modal-automl]: Skipping, unable to determine old version
+[2024-05-29 15:28:59] INFO root fetch - processPackages [multi-modal-automl]: Start processing: browserstack-sdk
+[2024-05-29 15:28:59] INFO root fetch - main [MainThread]: End processing [multi-modal-automl] error
+[2024-05-29 15:28:59] INFO root fetch - processPackages [django-societies]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-29 15:28:59] INFO root fetch - processPackages [pyva-framework]: New version: [3.3.5] Old Version: [3.3.4]
+[2024-05-29 15:28:59] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-29 15:28:59] WARNING root fetch - processPackages [federated-learning-framework]: Skipping, unable to determine old version
+[2024-05-29 15:28:59] INFO root fetch - processPackages [federated-learning-framework]: Start processing: geonode-importer
+[2024-05-29 15:28:59] INFO root fetch - main [MainThread]: End processing [federated-learning-framework] error
+[2024-05-29 15:28:59] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/fe/a7/8b9e53f04f4653483af83abfea3df692a35e82b6ad2f94eb8a8ee8c16614/pyannote-onnx-0.0.5.tar.gz
+[2024-05-29 15:28:59] INFO root fetch - processPackages [pyfast-sqlite]: Downloading https://files.pythonhosted.org/packages/8c/31/5fd5d74a32367d30e977e24a5b6d744ea8ba1d250077b7cc2dbcbef60eff/pyfast_sqlite-0.0.4.tar.gz
+[2024-05-29 15:28:59] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/ed/d1/74736fa81439c1b7caf003105fdd3e138e635491041c739693408ade5c8e/direnumerate-4.0a6.tar.gz
+[2024-05-29 15:28:59] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/71/ef/7b3e4c3123392afa24ebd5018befc34b4baacf0250c8a0c2ceeff4a3e3ad/ultracart_rest_sdk-4.0.98rc0.tar.gz
+[2024-05-29 15:28:59] INFO root fetch - processPackages [mdtraj]: Downloading https://files.pythonhosted.org/packages/53/02/a30f67a8bd3dba6d6e4ecc02bee290f425bf30c504a8a959a04e2be321ac/mdtraj-1.9.8.tar.gz
+[2024-05-29 15:28:59] INFO root fetch - processPackages [geonode-importer]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 15:28:59] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.9.2] Old Version: [1.8.1]
+[2024-05-29 15:29:00] INFO root fetch - processPackages [pyva-framework]: Downloading https://files.pythonhosted.org/packages/b0/f4/523e39e97fbd5f5bd56e2a236ad5b42ae60522a4a814f029b019ea7ecab0/pyva_framework-3.3.4.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [django-societies]: Downloading https://files.pythonhosted.org/packages/c1/3f/ff3d1e471da9c035caf109a1789abe1251989d611bf4f3990d3f9b5e0464/django-societies-0.1.7.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/86/72/d9f5f8da4e53329368271b1e9f6f59a308a48923609d6bf85ae5c9831795/direnumerate-4.0rc1.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/53/de/3357390dfc51b1725d15b38c41c9c2ab33d663a1cf3e2ab06dd0ed795755/ultracart_rest_sdk-4.0.99rc0.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [pyfast-sqlite]: Downloading https://files.pythonhosted.org/packages/41/3f/cb73c5e7948d71a7c900529f8f37536efc4d58f1cca86cc2c75e6625247a/pyfast_sqlite-0.0.6.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/8f/f6/ebeb5204570d76f86be6985afe10789f1b21d91816239c06b11f19bfbb72/browserstack_sdk-1.8.1.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [direnumerate]: executing diffoscope
+[2024-05-29 15:29:00] INFO root fetch - processPackages [direnumerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direnumerate-4.0a6.tar.gz tmp/direnumerate-4.0rc1.tar.gz --markdown 20240529/d/direnumerate/4.0a6-4.0rc1/README.md --exclude *.pyd
+[2024-05-29 15:29:00] INFO root fetch - processPackages [geonode-importer]: Downloading https://files.pythonhosted.org/packages/ac/62/e85f1ac3a26351cd7ad384c429f838608d57b765ac719e95ebd44501a730/geonode_importer-1.0.8-py3-none-any.whl
+[2024-05-29 15:29:00] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [pyva-framework]: Downloading https://files.pythonhosted.org/packages/cc/52/f33ffac65630e5311276dba06ecb91d102c20f5968c58b10290d4770e767/pyva_framework-3.3.5.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [pyfast-sqlite]: executing diffoscope
+[2024-05-29 15:29:00] INFO root fetch - processPackages [pyfast-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfast_sqlite-0.0.4.tar.gz tmp/pyfast_sqlite-0.0.6.tar.gz --markdown 20240529/p/pyfast-sqlite/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-29 15:29:00] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2024-05-29 15:29:00] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20240529/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/README.md --exclude *.pyd
+[2024-05-29 15:29:00] INFO root fetch - processPackages [django-societies]: Downloading https://files.pythonhosted.org/packages/88/69/bee8027cbdaf6288b1b61f6f97da4fa3b56975ddd0368c5cf075f3677641/django-societies-0.1.9.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/01/6c/db5e03c23a1def17fdcc9becb2c664b86eea45013bde9752bacb6009f77e/pyannote-onnx-0.0.6.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [pyva-framework]: executing diffoscope
+[2024-05-29 15:29:00] INFO root fetch - processPackages [pyva-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyva_framework-3.3.4.tar.gz tmp/pyva_framework-3.3.5.tar.gz --markdown 20240529/p/pyva-framework/3.3.4-3.3.5/README.md --exclude *.pyd
+[2024-05-29 15:29:00] INFO root fetch - processPackages [django-societies]: executing diffoscope
+[2024-05-29 15:29:00] INFO root fetch - processPackages [django-societies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-societies-0.1.7.tar.gz tmp/django-societies-0.1.9.tar.gz --markdown 20240529/d/django-societies/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-29 15:29:00] INFO root fetch - processPackages [mdtraj]: Downloading https://files.pythonhosted.org/packages/0b/45/f94a06c8a3b1f91a692637f5216951b2205a265166ecfb1c7e3f4e172200/mdtraj-1.9.9.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-29 15:29:00] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240529/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-29 15:29:00] INFO root fetch - processPackages [geonode-importer]: Downloading https://files.pythonhosted.org/packages/58/7b/28a68b04fd606d6743e03781b89ea888266d592c22624d59e55e804d815f/geonode_importer-1.0.9-py3-none-any.whl
+[2024-05-29 15:29:00] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/bf/46/3ee8b5068073adc3791ac682b7a8c14bc7a10d24e6da05a093fbf74efc9b/browserstack_sdk-1.9.2.tar.gz
+[2024-05-29 15:29:00] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2024-05-29 15:29:00] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.8.1.tar.gz tmp/browserstack_sdk-1.9.2.tar.gz --markdown 20240529/b/browserstack-sdk/1.8.1-1.9.2/README.md --exclude *.pyd
+[2024-05-29 15:29:00] INFO root fetch - processPackages [geonode-importer]: executing diffoscope
+[2024-05-29 15:29:00] INFO root fetch - processPackages [geonode-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonode_importer-1.0.8-py3-none-any.whl.zip tmp/geonode_importer-1.0.9-py3-none-any.whl.zip --markdown 20240529/g/geonode-importer/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 15:29:00] INFO root fetch - processPackages [mdtraj]: executing diffoscope
+[2024-05-29 15:29:00] INFO root fetch - processPackages [mdtraj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdtraj-1.9.8.tar.gz tmp/mdtraj-1.9.9.tar.gz --markdown 20240529/m/mdtraj/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-29 15:29:01] INFO root fetch - processPackages [pyannote-onnx]: executing diffoscope
+[2024-05-29 15:29:01] INFO root fetch - processPackages [pyannote-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyannote-onnx-0.0.5.tar.gz tmp/pyannote-onnx-0.0.6.tar.gz --markdown 20240529/p/pyannote-onnx/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-29 15:29:01] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-4.0a6.tar.gz]
+[2024-05-29 15:29:01] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-4.0rc1.tar.gz]
+[2024-05-29 15:29:01] INFO root fetch - processPackages [direnumerate]: Start processing: mecs
+[2024-05-29 15:29:01] INFO root fetch - main [MainThread]: End processing [direnumerate]: success
+[2024-05-29 15:29:01] INFO root fetch - processPackages [mecs]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 15:29:01] INFO root fetch - processPackages [pyva-framework]: Remove: archive file [/home/abi/fetcher/tmp/pyva_framework-3.3.4.tar.gz]
+[2024-05-29 15:29:01] INFO root fetch - processPackages [pyva-framework]: Remove: archive file [/home/abi/fetcher/tmp/pyva_framework-3.3.5.tar.gz]
+[2024-05-29 15:29:01] INFO root fetch - main [MainThread]: End processing [pyva-framework]: success
+[2024-05-29 15:29:01] INFO root fetch - processPackages [pyfast-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/pyfast_sqlite-0.0.4.tar.gz]
+[2024-05-29 15:29:01] INFO root fetch - processPackages [pyfast-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/pyfast_sqlite-0.0.6.tar.gz]
+[2024-05-29 15:29:01] INFO root fetch - main [MainThread]: End processing [pyfast-sqlite]: success
+[2024-05-29 15:29:01] INFO root fetch - processPackages [django-societies]: Remove: archive file [/home/abi/fetcher/tmp/django-societies-0.1.7.tar.gz]
+[2024-05-29 15:29:01] INFO root fetch - processPackages [django-societies]: Remove: archive file [/home/abi/fetcher/tmp/django-societies-0.1.9.tar.gz]
+[2024-05-29 15:29:01] INFO root fetch - main [MainThread]: End processing [django-societies]: success
+[2024-05-29 15:29:01] INFO root fetch - processPackages [mecs]: Downloading https://files.pythonhosted.org/packages/72/94/66793eca415a3a67fd78a8c2034f04a4ee6fa686724913f3ac2a6b460175/mecs-1.0.2.tar.gz
+[2024-05-29 15:29:01] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.8.1.tar.gz]
+[2024-05-29 15:29:01] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.9.2.tar.gz]
+[2024-05-29 15:29:01] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2024-05-29 15:29:01] INFO root fetch - processPackages [mecs]: Downloading https://files.pythonhosted.org/packages/38/01/da7fb06abeef6789f7373d6b37667d23eced6c6a9717f2d78a55fafe0b2d/mecs-1.0.3-py3-none-any.whl
+[2024-05-29 15:29:02] INFO root fetch - processPackages [mecs]: executing diffoscope
+[2024-05-29 15:29:02] INFO root fetch - processPackages [mecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecs-1.0.2.tar.gz tmp/mecs-1.0.3-py3-none-any.whl.zip --markdown 20240529/m/mecs/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 15:29:02] INFO root fetch - processPackages [geonode-importer]: Remove: archive file [/home/abi/fetcher/tmp/geonode_importer-1.0.8-py3-none-any.whl.zip]
+[2024-05-29 15:29:02] INFO root fetch - processPackages [geonode-importer]: Remove: archive file [/home/abi/fetcher/tmp/geonode_importer-1.0.9-py3-none-any.whl.zip]
+[2024-05-29 15:29:02] INFO root fetch - main [MainThread]: End processing [geonode-importer]: success
+[2024-05-29 15:29:02] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.5.tar.gz]
+[2024-05-29 15:29:02] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.6.tar.gz]
+[2024-05-29 15:29:02] INFO root fetch - main [MainThread]: End processing [pyannote-onnx]: success
+[2024-05-29 15:29:03] INFO root fetch - processPackages [mecs]: Remove: archive file [/home/abi/fetcher/tmp/mecs-1.0.2.tar.gz]
+[2024-05-29 15:29:03] INFO root fetch - processPackages [mecs]: Remove: archive file [/home/abi/fetcher/tmp/mecs-1.0.3-py3-none-any.whl.zip]
+[2024-05-29 15:29:03] INFO root fetch - main [MainThread]: End processing [mecs]: success
+[2024-05-29 15:29:04] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz]
+[2024-05-29 15:29:04] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz]
+[2024-05-29 15:29:04] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2024-05-29 15:29:06] INFO root fetch - processPackages [mdtraj]: Remove: archive file [/home/abi/fetcher/tmp/mdtraj-1.9.8.tar.gz]
+[2024-05-29 15:29:06] INFO root fetch - processPackages [mdtraj]: Remove: archive file [/home/abi/fetcher/tmp/mdtraj-1.9.9.tar.gz]
+[2024-05-29 15:29:06] INFO root fetch - main [MainThread]: End processing [mdtraj]: success
+[2024-05-29 15:29:15] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-29 15:29:15] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-29 15:29:15] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-29 15:29:15] INFO root fetch - main [MainThread]: Store serial: [23430444]
