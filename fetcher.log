@@ -19108,3 +19108,80 @@
 [2024-05-29 12:51:38] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.300rc2.tar.gz]
 [2024-05-29 12:51:38] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2024-05-29 12:51:38] INFO root fetch - main [MainThread]: Store serial: [23428430]
+[2024-05-29 12:53:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428430]
+[2024-05-29 12:53:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycalib-rt
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: handyman
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aishalib
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantms-utils
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: s1-cns-cli
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ragfmk
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-boto3-sdk-helpers
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: numerous
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pgn-clis
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autonomy-dev
+[2024-05-29 12:53:48] INFO root fetch - processPackages [aishalib]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 12:53:48] WARNING root fetch - processPackages [aws-boto3-sdk-helpers]: Skipping, unable to determine old version
+[2024-05-29 12:53:48] INFO root fetch - main [MainThread]: End processing [aws-boto3-sdk-helpers] error
+[2024-05-29 12:53:48] INFO root fetch - processPackages [numerous]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-29 12:53:48] INFO root fetch - processPackages [pgn-clis]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 12:53:48] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/72/6e/7590609a9a4e19f0159a065d2984e75b26f47ea9bad7bfdac8274b8936c9/numerous-0.3.1.tar.gz
+[2024-05-29 12:53:48] INFO root fetch - processPackages [s1-cns-cli]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-29 12:53:48] INFO root fetch - processPackages [handyman]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-29 12:53:48] WARNING root fetch - processPackages [quantms-utils]: Skipping, unable to determine old version
+[2024-05-29 12:53:48] INFO root fetch - main [MainThread]: End processing [quantms-utils] error
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ragfmk]: New version: [0.1.5.0] Old Version: [0.1.4.11]
+[2024-05-29 12:53:48] INFO root fetch - processPackages [pycalib-rt]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 12:53:48] INFO root fetch - processPackages [autonomy-dev]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-29 12:53:48] INFO root fetch - processPackages [aishalib]: Downloading https://files.pythonhosted.org/packages/da/75/283d8560dde7da062f90aec06cca29bb6468eab540a4a2d2a84c3109441b/aishalib-0.0.1.tar.gz
+[2024-05-29 12:53:48] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 63950678>=10485760
+[2024-05-29 12:53:48] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-05-29 12:53:48] INFO root fetch - processPackages [pgn-clis]: Downloading https://files.pythonhosted.org/packages/61/be/26cc9803b08de3e4440910a5be37ca0801633a669265ef8b7df846d7f5a0/pgn_clis-0.1.0.tar.gz
+[2024-05-29 12:53:48] INFO root fetch - processPackages [pycalib-rt]: Downloading https://files.pythonhosted.org/packages/56/97/16593784812fdeddcc73dcfe98b1a712f191e3bad7f6b510c9280d7e1d73/pycalib_rt-0.1.1.tar.gz
+[2024-05-29 12:53:48] INFO root fetch - processPackages [handyman]: Downloading https://files.pythonhosted.org/packages/a9/3f/5d6f2bb5754c1bd5732ef6d599b865f1480dcce11ec69b8d8e14f1af13b2/handyman-0.3.6.tar.gz
+[2024-05-29 12:53:48] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/0e/2e/8ff2fd1e22c60bbed9a45fdf8b53387b2d6673a9ec0082e77a15435ba99b/ragfmk-0.1.4.11-py3-none-any.whl
+[2024-05-29 12:53:48] INFO root fetch - processPackages [s1-cns-cli]: Downloading https://files.pythonhosted.org/packages/35/4e/9ff3240783bce66eb3bd77bd315af224d9c7920d9e7f2e1ac7b7df1966d0/s1_cns_cli-0.3.6.tar.gz
+[2024-05-29 12:53:48] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/74/6b/50cc7e8d07beb3951793f8e4e79c02ccd9a99e5cf14c22feaaa1e36223c0/autonomy_dev-0.2.8.tar.gz
+[2024-05-29 12:53:48] INFO root fetch - processPackages [aishalib]: Downloading https://files.pythonhosted.org/packages/7c/a4/610a9654f0c90b42fa901a6db87ad906874f7de5e4a6f83ab54b4de1c158/aishalib-0.0.2.tar.gz
+[2024-05-29 12:53:48] INFO root fetch - processPackages [aishalib]: executing diffoscope
+[2024-05-29 12:53:48] INFO root fetch - processPackages [aishalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aishalib-0.0.1.tar.gz tmp/aishalib-0.0.2.tar.gz --markdown 20240529/a/aishalib/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 12:53:48] INFO root fetch - processPackages [pgn-clis]: Downloading https://files.pythonhosted.org/packages/ec/a3/4535a90c3928d2041a55ba99563d4a5d4f97f9821a9419f305594c64b14b/pgn_clis-0.1.1.tar.gz
+[2024-05-29 12:53:48] INFO root fetch - processPackages [handyman]: Downloading https://files.pythonhosted.org/packages/51/3c/ec0a98c60f43d33cc8fc883037e6c362ac7a7caeffba1de8cb7fb0c66d77/handyman-0.3.7.tar.gz
+[2024-05-29 12:53:49] INFO root fetch - processPackages [pgn-clis]: executing diffoscope
+[2024-05-29 12:53:49] INFO root fetch - processPackages [pgn-clis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgn_clis-0.1.0.tar.gz tmp/pgn_clis-0.1.1.tar.gz --markdown 20240529/p/pgn-clis/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 12:53:49] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/15/9c/c4b053c5025240908d29cd4d59d57ec0e477e3db78bbf2edf2f13951dcf7/ragfmk-0.1.5.0-py3-none-any.whl
+[2024-05-29 12:53:49] INFO root fetch - processPackages [handyman]: executing diffoscope
+[2024-05-29 12:53:49] INFO root fetch - processPackages [handyman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/handyman-0.3.6.tar.gz tmp/handyman-0.3.7.tar.gz --markdown 20240529/h/handyman/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-29 12:53:49] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/8e/2f/cac161dab5caec9eb3b44041af8430629027361e01bbc704d69152de97a6/autonomy_dev-0.2.9.tar.gz
+[2024-05-29 12:53:49] INFO root fetch - processPackages [s1-cns-cli]: Downloading https://files.pythonhosted.org/packages/8f/db/69c2f8ab7750c916ed98a0860d0397812c4a88357f47fbf0d2b07cde0699/s1_cns_cli-0.3.7.tar.gz
+[2024-05-29 12:53:49] INFO root fetch - processPackages [ragfmk]: executing diffoscope
+[2024-05-29 12:53:49] INFO root fetch - processPackages [ragfmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragfmk-0.1.4.11-py3-none-any.whl.zip tmp/ragfmk-0.1.5.0-py3-none-any.whl.zip --markdown 20240529/r/ragfmk/0.1.4.11-0.1.5.0/README.md --exclude *.pyd
+[2024-05-29 12:53:49] INFO root fetch - processPackages [autonomy-dev]: executing diffoscope
+[2024-05-29 12:53:49] INFO root fetch - processPackages [autonomy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomy_dev-0.2.8.tar.gz tmp/autonomy_dev-0.2.9.tar.gz --markdown 20240529/a/autonomy-dev/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-29 12:53:49] INFO root fetch - processPackages [pycalib-rt]: Downloading https://files.pythonhosted.org/packages/4a/8d/a780553d77e2c72650220d3703eb43fad299d6222fbec74c961c670b3278/pycalib_rt-0.1.2.tar.gz
+[2024-05-29 12:53:49] INFO root fetch - processPackages [s1-cns-cli]: executing diffoscope
+[2024-05-29 12:53:49] INFO root fetch - processPackages [s1-cns-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s1_cns_cli-0.3.6.tar.gz tmp/s1_cns_cli-0.3.7.tar.gz --markdown 20240529/s/s1-cns-cli/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-29 12:53:49] INFO root fetch - processPackages [pycalib-rt]: executing diffoscope
+[2024-05-29 12:53:49] INFO root fetch - processPackages [pycalib-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycalib_rt-0.1.1.tar.gz tmp/pycalib_rt-0.1.2.tar.gz --markdown 20240529/p/pycalib-rt/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-29 12:53:49] INFO root fetch - processPackages [aishalib]: Remove: archive file [/home/abi/fetcher/tmp/aishalib-0.0.1.tar.gz]
+[2024-05-29 12:53:49] INFO root fetch - processPackages [aishalib]: Remove: archive file [/home/abi/fetcher/tmp/aishalib-0.0.2.tar.gz]
+[2024-05-29 12:53:49] INFO root fetch - main [MainThread]: End processing [aishalib]: success
+[2024-05-29 12:53:49] INFO root fetch - processPackages [pgn-clis]: Remove: archive file [/home/abi/fetcher/tmp/pgn_clis-0.1.0.tar.gz]
+[2024-05-29 12:53:49] INFO root fetch - processPackages [pgn-clis]: Remove: archive file [/home/abi/fetcher/tmp/pgn_clis-0.1.1.tar.gz]
+[2024-05-29 12:53:49] INFO root fetch - main [MainThread]: End processing [pgn-clis]: success
+[2024-05-29 12:53:49] INFO root fetch - processPackages [handyman]: Remove: archive file [/home/abi/fetcher/tmp/handyman-0.3.6.tar.gz]
+[2024-05-29 12:53:49] INFO root fetch - processPackages [handyman]: Remove: archive file [/home/abi/fetcher/tmp/handyman-0.3.7.tar.gz]
+[2024-05-29 12:53:49] INFO root fetch - main [MainThread]: End processing [handyman]: success
+[2024-05-29 12:53:49] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.4.11-py3-none-any.whl.zip]
+[2024-05-29 12:53:49] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.5.0-py3-none-any.whl.zip]
+[2024-05-29 12:53:49] INFO root fetch - main [MainThread]: End processing [ragfmk]: success
+[2024-05-29 12:53:50] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.2.8.tar.gz]
+[2024-05-29 12:53:50] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.2.9.tar.gz]
+[2024-05-29 12:53:50] INFO root fetch - main [MainThread]: End processing [autonomy-dev]: success
+[2024-05-29 12:53:50] INFO root fetch - processPackages [pycalib-rt]: Remove: archive file [/home/abi/fetcher/tmp/pycalib_rt-0.1.1.tar.gz]
+[2024-05-29 12:53:50] INFO root fetch - processPackages [pycalib-rt]: Remove: archive file [/home/abi/fetcher/tmp/pycalib_rt-0.1.2.tar.gz]
+[2024-05-29 12:53:50] INFO root fetch - main [MainThread]: End processing [pycalib-rt]: success
+[2024-05-29 12:53:56] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.6.tar.gz]
+[2024-05-29 12:53:56] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.7.tar.gz]
+[2024-05-29 12:53:56] INFO root fetch - main [MainThread]: End processing [s1-cns-cli]: success
+[2024-05-29 12:53:56] INFO root fetch - main [MainThread]: Store serial: [23428455]
