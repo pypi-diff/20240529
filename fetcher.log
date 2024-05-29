@@ -14922,3 +14922,45 @@
 [2024-05-29 10:33:34] INFO root fetch - processPackages [pylaunches]: Remove: archive file [/home/abi/fetcher/tmp/pylaunches-2.0.0.tar.gz]
 [2024-05-29 10:33:34] INFO root fetch - main [MainThread]: End processing [pylaunches]: success
 [2024-05-29 10:33:34] INFO root fetch - main [MainThread]: Store serial: [23426422]
+[2024-05-29 10:35:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426422]
+[2024-05-29 10:35:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 10:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocsi
+[2024-05-29 10:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foyou-cli
+[2024-05-29 10:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krules-companion-sync
+[2024-05-29 10:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-nutanix
+[2024-05-29 10:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glabpkg
+[2024-05-29 10:35:42] INFO root fetch - processPackages [foyou-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 10:35:42] INFO root fetch - processPackages [mkdocsi]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-29 10:35:42] INFO root fetch - processPackages [foyou-cli]: Downloading https://files.pythonhosted.org/packages/55/9a/471532162a823e4d1cac3eb68b7404aadfe65c6ee18b4a95a9c17fdf9abb/foyou-cli-0.0.8.tar.gz
+[2024-05-29 10:35:42] WARNING root fetch - processPackages [krules-companion-sync]: Skipping, unable to determine old version
+[2024-05-29 10:35:42] INFO root fetch - main [MainThread]: End processing [krules-companion-sync] error
+[2024-05-29 10:35:42] INFO root fetch - processPackages [glabpkg]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-05-29 10:35:42] INFO root fetch - processPackages [pulumi-nutanix]: New version: [0.0.48] Old Version: [0.0.47]
+[2024-05-29 10:35:42] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/03/33/ebb7032bb0512b924197b54a7965b902e72761040018e1cf2545aeb029b7/mkdocsi-1.2.3.tar.gz
+[2024-05-29 10:35:42] INFO root fetch - processPackages [foyou-cli]: Downloading https://files.pythonhosted.org/packages/9a/ac/a25ab426c6eee0f04bab42f3811012d00694a825290384e5ec9f25ae7ad8/foyou-cli-0.0.9.tar.gz
+[2024-05-29 10:35:42] INFO root fetch - processPackages [glabpkg]: Downloading https://files.pythonhosted.org/packages/5f/6c/b3224fdb69788c19951f9935fb189673b0c11a2073a6964b2cbf63fc20a8/glabpkg-4.1.0.tar.gz
+[2024-05-29 10:35:42] INFO root fetch - processPackages [pulumi-nutanix]: Downloading https://files.pythonhosted.org/packages/33/51/bba6515b8d94c5c79168e396d2b479f1182ed252168cac9cb23819ea6d12/pulumi_nutanix-0.0.47.tar.gz
+[2024-05-29 10:35:42] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/a6/77/60a7386d24ceec15caf6f8898619e61ffeb07fbac782f66530150e7c8c8e/mkdocsi-1.2.4.tar.gz
+[2024-05-29 10:35:42] INFO root fetch - processPackages [foyou-cli]: executing diffoscope
+[2024-05-29 10:35:42] INFO root fetch - processPackages [foyou-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foyou-cli-0.0.8.tar.gz tmp/foyou-cli-0.0.9.tar.gz --markdown 20240529/f/foyou-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 10:35:42] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 10:35:42] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.2.3.tar.gz tmp/mkdocsi-1.2.4.tar.gz --markdown 20240529/m/mkdocsi/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-29 10:35:43] INFO root fetch - processPackages [glabpkg]: Downloading https://files.pythonhosted.org/packages/a3/ce/ce72e7f2449eb73af55d46787d9dbd7bea384267b3a8525ec76c77761f36/glabpkg-4.2.0.tar.gz
+[2024-05-29 10:35:43] INFO root fetch - processPackages [pulumi-nutanix]: Downloading https://files.pythonhosted.org/packages/92/61/21a2ae691c1b78a7268011e6669f6afd82189dd218f6a7e0d59314a30ee3/pulumi_nutanix-0.0.48.tar.gz
+[2024-05-29 10:35:43] INFO root fetch - processPackages [glabpkg]: executing diffoscope
+[2024-05-29 10:35:43] INFO root fetch - processPackages [glabpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glabpkg-4.1.0.tar.gz tmp/glabpkg-4.2.0.tar.gz --markdown 20240529/g/glabpkg/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-05-29 10:35:43] INFO root fetch - processPackages [foyou-cli]: Remove: archive file [/home/abi/fetcher/tmp/foyou-cli-0.0.8.tar.gz]
+[2024-05-29 10:35:43] INFO root fetch - processPackages [foyou-cli]: Remove: archive file [/home/abi/fetcher/tmp/foyou-cli-0.0.9.tar.gz]
+[2024-05-29 10:35:43] INFO root fetch - main [MainThread]: End processing [foyou-cli]: success
+[2024-05-29 10:35:43] INFO root fetch - processPackages [pulumi-nutanix]: executing diffoscope
+[2024-05-29 10:35:43] INFO root fetch - processPackages [pulumi-nutanix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nutanix-0.0.47.tar.gz tmp/pulumi_nutanix-0.0.48.tar.gz --markdown 20240529/p/pulumi-nutanix/0.0.47-0.0.48/README.md --exclude *.pyd
+[2024-05-29 10:35:43] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.3.tar.gz]
+[2024-05-29 10:35:43] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.4.tar.gz]
+[2024-05-29 10:35:43] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 10:35:44] INFO root fetch - processPackages [glabpkg]: Remove: archive file [/home/abi/fetcher/tmp/glabpkg-4.1.0.tar.gz]
+[2024-05-29 10:35:44] INFO root fetch - processPackages [glabpkg]: Remove: archive file [/home/abi/fetcher/tmp/glabpkg-4.2.0.tar.gz]
+[2024-05-29 10:35:44] INFO root fetch - main [MainThread]: End processing [glabpkg]: success
+[2024-05-29 10:35:44] INFO root fetch - processPackages [pulumi-nutanix]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nutanix-0.0.47.tar.gz]
+[2024-05-29 10:35:44] INFO root fetch - processPackages [pulumi-nutanix]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nutanix-0.0.48.tar.gz]
+[2024-05-29 10:35:44] INFO root fetch - main [MainThread]: End processing [pulumi-nutanix]: success
+[2024-05-29 10:35:44] INFO root fetch - main [MainThread]: Store serial: [23426438]
