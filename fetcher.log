@@ -8498,3 +8498,42 @@
 [2024-05-29 05:14:30] INFO root fetch - processPackages [plotink]: Remove: archive file [/home/abi/fetcher/tmp/plotink-1.9.0.tar.gz]
 [2024-05-29 05:14:30] INFO root fetch - main [MainThread]: End processing [plotink]: success
 [2024-05-29 05:14:30] INFO root fetch - main [MainThread]: Store serial: [23423521]
+[2024-05-29 05:16:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423521]
+[2024-05-29 05:16:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 05:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servicenow-api
+[2024-05-29 05:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lytix-py
+[2024-05-29 05:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alysis
+[2024-05-29 05:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wi1-bot
+[2024-05-29 05:16:39] INFO root fetch - processPackages [servicenow-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 05:16:39] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/2a/96/cc447e9247636a3ca7fe607e05a327a7076f254221c5c20c960f2d6689fd/servicenow_api-0.8.0-py2.py3-none-any.whl
+[2024-05-29 05:16:39] INFO root fetch - processPackages [alysis]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-29 05:16:39] INFO root fetch - processPackages [lytix-py]: New version: [2.0.0] Old Version: [1.4.0]
+[2024-05-29 05:16:39] INFO root fetch - processPackages [wi1-bot]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-29 05:16:39] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/76/cb/16788288b3e511d9ebf0b67d4e1cd59966bc918931d1953e5f137a9ff712/servicenow_api-0.9.0-py2.py3-none-any.whl
+[2024-05-29 05:16:39] INFO root fetch - processPackages [alysis]: Downloading https://files.pythonhosted.org/packages/f7/35/0c2808650be7324634f3b305bce528cc071522df01d188d2bbe6c3300861/alysis-0.4.0.tar.gz
+[2024-05-29 05:16:39] INFO root fetch - processPackages [lytix-py]: Downloading https://files.pythonhosted.org/packages/58/46/e1eaed2b18581d7fed4c2ad4223baf77008c6f09fc8678e4f4c25125badb/lytix_py-1.4.0.tar.gz
+[2024-05-29 05:16:39] INFO root fetch - processPackages [wi1-bot]: Downloading https://files.pythonhosted.org/packages/99/d2/f683af638ab220ea2a2a8eab7816ca90296e06fc23aa8069e4d02e449da0/wi1-bot-1.4.5.tar.gz
+[2024-05-29 05:16:39] INFO root fetch - processPackages [servicenow-api]: executing diffoscope
+[2024-05-29 05:16:39] INFO root fetch - processPackages [servicenow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240529/s/servicenow-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 05:16:39] INFO root fetch - processPackages [lytix-py]: Downloading https://files.pythonhosted.org/packages/a4/3a/8e10dcc2126690c0cc98c2da8fa92af6ec644cb0d2fe398def25d1ee5797/lytix_py-2.0.0.tar.gz
+[2024-05-29 05:16:39] INFO root fetch - processPackages [alysis]: Downloading https://files.pythonhosted.org/packages/d9/ec/7a0e1e6676fcb208b8bf2617a0bb5c7b78c1712ffa29b995ab15a550d1f1/alysis-0.5.0.tar.gz
+[2024-05-29 05:16:39] INFO root fetch - processPackages [wi1-bot]: Downloading https://files.pythonhosted.org/packages/9c/17/4e8712d3831073e8c41844380043a00a994e3b317b19cddef61df6db1137/wi1-bot-1.4.6.tar.gz
+[2024-05-29 05:16:39] INFO root fetch - processPackages [lytix-py]: executing diffoscope
+[2024-05-29 05:16:39] INFO root fetch - processPackages [lytix-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytix_py-1.4.0.tar.gz tmp/lytix_py-2.0.0.tar.gz --markdown 20240529/l/lytix-py/1.4.0-2.0.0/README.md --exclude *.pyd
+[2024-05-29 05:16:39] INFO root fetch - processPackages [alysis]: executing diffoscope
+[2024-05-29 05:16:39] INFO root fetch - processPackages [alysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alysis-0.4.0.tar.gz tmp/alysis-0.5.0.tar.gz --markdown 20240529/a/alysis/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-29 05:16:39] INFO root fetch - processPackages [wi1-bot]: executing diffoscope
+[2024-05-29 05:16:39] INFO root fetch - processPackages [wi1-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wi1-bot-1.4.5.tar.gz tmp/wi1-bot-1.4.6.tar.gz --markdown 20240529/w/wi1-bot/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-29 05:16:40] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-29 05:16:40] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-29 05:16:40] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
+[2024-05-29 05:16:40] INFO root fetch - processPackages [lytix-py]: Remove: archive file [/home/abi/fetcher/tmp/lytix_py-1.4.0.tar.gz]
+[2024-05-29 05:16:40] INFO root fetch - processPackages [lytix-py]: Remove: archive file [/home/abi/fetcher/tmp/lytix_py-2.0.0.tar.gz]
+[2024-05-29 05:16:40] INFO root fetch - main [MainThread]: End processing [lytix-py]: success
+[2024-05-29 05:16:40] INFO root fetch - processPackages [alysis]: Remove: archive file [/home/abi/fetcher/tmp/alysis-0.4.0.tar.gz]
+[2024-05-29 05:16:40] INFO root fetch - processPackages [alysis]: Remove: archive file [/home/abi/fetcher/tmp/alysis-0.5.0.tar.gz]
+[2024-05-29 05:16:40] INFO root fetch - main [MainThread]: End processing [alysis]: success
+[2024-05-29 05:16:40] INFO root fetch - processPackages [wi1-bot]: Remove: archive file [/home/abi/fetcher/tmp/wi1-bot-1.4.5.tar.gz]
+[2024-05-29 05:16:40] INFO root fetch - processPackages [wi1-bot]: Remove: archive file [/home/abi/fetcher/tmp/wi1-bot-1.4.6.tar.gz]
+[2024-05-29 05:16:40] INFO root fetch - main [MainThread]: End processing [wi1-bot]: success
+[2024-05-29 05:16:40] INFO root fetch - main [MainThread]: Store serial: [23423532]
