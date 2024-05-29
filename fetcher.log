@@ -21299,3 +21299,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:12:56] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
 [2024-05-29 14:12:56] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
 [2024-05-29 14:12:56] INFO root fetch - main [MainThread]: Store serial: [23429296]
+[2024-05-29 14:15:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429296]
+[2024-05-29 14:15:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 14:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eodc
+[2024-05-29 14:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ok-script
+[2024-05-29 14:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanosearch
+[2024-05-29 14:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-microscope
+[2024-05-29 14:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterlab-gather
+[2024-05-29 14:15:05] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 14:15:05] INFO root fetch - processPackages [nanosearch]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 14:15:05] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-05-29 14:15:05] INFO root fetch - processPackages [eodc]: New version: [2024.5.3] Old Version: [2024.5.2]
+[2024-05-29 14:15:05] WARNING root fetch - processPackages [jupyterlab-gather]: Skipping, unable to determine old version
+[2024-05-29 14:15:05] INFO root fetch - main [MainThread]: End processing [jupyterlab-gather] error
+[2024-05-29 14:15:06] INFO root fetch - processPackages [nanosearch]: Downloading https://files.pythonhosted.org/packages/fe/bd/d262a91aa48db8daab016ed041d304e9fc177d232f213391f2bb36c02b3c/nanosearch-0.1.0.tar.gz
+[2024-05-29 14:15:06] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-05-29 14:15:06] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/f4/0f/6690263216e4d1ac220206316cd6bdca284d2775d2eb61de188160c048de/eodc-2024.5.2.tar.gz
+[2024-05-29 14:15:06] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-05-29 14:15:06] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240529/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 14:15:06] INFO root fetch - processPackages [nanosearch]: Downloading https://files.pythonhosted.org/packages/71/55/a0fe7966ffdc2aa39641ca3fcb6ff1caee1928cb0316cd4f740cd9a63ca9/nanosearch-0.1.1.tar.gz
+[2024-05-29 14:15:06] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/70/a4/cb2e55ba200d7b15c67dd98a65db93f29fb49ad20743873d46643aa2276f/eodc-2024.5.3.tar.gz
+[2024-05-29 14:15:06] INFO root fetch - processPackages [nanosearch]: executing diffoscope
+[2024-05-29 14:15:06] INFO root fetch - processPackages [nanosearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanosearch-0.1.0.tar.gz tmp/nanosearch-0.1.1.tar.gz --markdown 20240529/n/nanosearch/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 14:15:06] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2024-05-29 14:15:06] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2024.5.2.tar.gz tmp/eodc-2024.5.3.tar.gz --markdown 20240529/e/eodc/2024.5.2-2024.5.3/README.md --exclude *.pyd
+[2024-05-29 14:15:06] INFO root fetch - processPackages [llm-microscope]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 14:15:06] INFO root fetch - processPackages [llm-microscope]: Downloading https://files.pythonhosted.org/packages/4c/05/7d8ed5e54bb5986cad41e7d329ead63a40f47510b9ff7a38790d32d04dd2/llm_microscope-0.0.4.tar.gz
+[2024-05-29 14:15:07] INFO root fetch - processPackages [nanosearch]: Remove: archive file [/home/abi/fetcher/tmp/nanosearch-0.1.0.tar.gz]
+[2024-05-29 14:15:07] INFO root fetch - processPackages [nanosearch]: Remove: archive file [/home/abi/fetcher/tmp/nanosearch-0.1.1.tar.gz]
+[2024-05-29 14:15:07] INFO root fetch - main [MainThread]: End processing [nanosearch]: success
+[2024-05-29 14:15:07] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.5.2.tar.gz]
+[2024-05-29 14:15:07] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.5.3.tar.gz]
+[2024-05-29 14:15:07] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2024-05-29 14:15:07] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-05-29 14:15:07] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-05-29 14:15:07] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-05-29 14:15:07] INFO root fetch - processPackages [llm-microscope]: Downloading https://files.pythonhosted.org/packages/1a/e4/0dbe7677980e91aa279bca90f4384e95b0336cfb3aaabdfccc5f5eb12c93/llm_microscope-0.0.5.tar.gz
+[2024-05-29 14:15:07] INFO root fetch - processPackages [llm-microscope]: executing diffoscope
+[2024-05-29 14:15:07] INFO root fetch - processPackages [llm-microscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_microscope-0.0.4.tar.gz tmp/llm_microscope-0.0.5.tar.gz --markdown 20240529/l/llm-microscope/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 14:15:07] INFO root fetch - processPackages [llm-microscope]: Remove: archive file [/home/abi/fetcher/tmp/llm_microscope-0.0.4.tar.gz]
+[2024-05-29 14:15:07] INFO root fetch - processPackages [llm-microscope]: Remove: archive file [/home/abi/fetcher/tmp/llm_microscope-0.0.5.tar.gz]
+[2024-05-29 14:15:07] INFO root fetch - main [MainThread]: End processing [llm-microscope]: success
+[2024-05-29 14:15:07] INFO root fetch - main [MainThread]: Store serial: [23429315]
