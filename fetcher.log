@@ -16430,3 +16430,70 @@
 [2024-05-29 11:14:25] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.2b3.tar.gz]
 [2024-05-29 11:14:25] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
 [2024-05-29 11:14:25] INFO root fetch - main [MainThread]: Store serial: [23427151]
+[2024-05-29 11:16:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427151]
+[2024-05-29 11:16:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 11:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-29 11:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lnschema_core
+[2024-05-29 11:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-botmanager
+[2024-05-29 11:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BISOInvest-data
+[2024-05-29 11:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2024-05-29 11:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SimpleAUG
+[2024-05-29 11:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eenhoorntje-llm-lib
+[2024-05-29 11:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bddjango
+[2024-05-29 11:16:34] INFO root fetch - processPackages [SimpleAUG]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 11:16:34] INFO root fetch - processPackages [django-botmanager]: New version: [0.2.19] Old Version: [0.2.18]
+[2024-05-29 11:16:34] INFO root fetch - processPackages [eenhoorntje-llm-lib]: New version: [0.9] Old Version: [0.8]
+[2024-05-29 11:16:34] WARNING root fetch - processPackages [BISOInvest-data]: Skipping, unable to determine old version
+[2024-05-29 11:16:34] INFO root fetch - main [MainThread]: End processing [BISOInvest-data] error
+[2024-05-29 11:16:34] INFO root fetch - processPackages [django-botmanager]: Downloading https://files.pythonhosted.org/packages/9a/ef/963630ea1a4c3f847439ac1ba96a766805ace6c2f22b008bada89df3d321/django_botmanager-0.2.18.tar.gz
+[2024-05-29 11:16:34] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/58/53/c1bd6020de71ee2c61bd61f6c2d4ad72551fc6b613896bfdf423f9900b0a/eenhoorntje_llm_lib-0.8.tar.gz
+[2024-05-29 11:16:34] INFO root fetch - processPackages [bddjango]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-29 11:16:34] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-29 11:16:34] INFO root fetch - processPackages [SimpleAUG]: Downloading https://files.pythonhosted.org/packages/f3/3a/b51cb071a7d42de7a6d1dd0f11d420ee440e4eb6a45be947b055826cc85a/simpleaug-0.0.1.tar.gz
+[2024-05-29 11:16:34] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-29 11:16:34] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-29 11:16:34] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/6b/11/c58a3da50ee0ab313c0bb6c3b32dfcc29ee0022b5157d9e22cbdc4e456be/eenhoorntje_llm_lib-0.9.tar.gz
+[2024-05-29 11:16:34] INFO root fetch - processPackages [django-botmanager]: Downloading https://files.pythonhosted.org/packages/7c/1f/ccaa82a7e812936a15413f074db244023d7c648fe2d651ac06dbd4fc6f39/django_botmanager-0.2.19.tar.gz
+[2024-05-29 11:16:34] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2024-05-29 11:16:34] INFO root fetch - processPackages [bddjango]: Downloading https://files.pythonhosted.org/packages/33/5f/486743beeb61a5bf1c66b557d95179476cd8a031410f865a54070a163c01/bddjango-3.0.8.tar.gz
+[2024-05-29 11:16:35] INFO root fetch - processPackages [eenhoorntje-llm-lib]: executing diffoscope
+[2024-05-29 11:16:35] INFO root fetch - processPackages [eenhoorntje-llm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eenhoorntje_llm_lib-0.8.tar.gz tmp/eenhoorntje_llm_lib-0.9.tar.gz --markdown 20240529/e/eenhoorntje-llm-lib/0.8-0.9/README.md --exclude *.pyd
+[2024-05-29 11:16:35] INFO root fetch - processPackages [django-botmanager]: executing diffoscope
+[2024-05-29 11:16:35] INFO root fetch - processPackages [django-botmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_botmanager-0.2.18.tar.gz tmp/django_botmanager-0.2.19.tar.gz --markdown 20240529/d/django-botmanager/0.2.18-0.2.19/README.md --exclude *.pyd
+[2024-05-29 11:16:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-29 11:16:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-29 11:16:35] INFO root fetch - processPackages [SimpleAUG]: Downloading https://files.pythonhosted.org/packages/de/22/14aa71a8abaddb3ca073ccaa4e337c45e0795cb22408006c26861eb46686/simpleaug-0.0.2.tar.gz
+[2024-05-29 11:16:35] INFO root fetch - processPackages [SimpleAUG]: executing diffoscope
+[2024-05-29 11:16:35] INFO root fetch - processPackages [SimpleAUG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleaug-0.0.1.tar.gz tmp/simpleaug-0.0.2.tar.gz --markdown 20240529/S/SimpleAUG/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 11:16:35] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2024-05-29 11:16:35] INFO root fetch - processPackages [bddjango]: Downloading https://files.pythonhosted.org/packages/7e/17/9ca660eaab31cd2baeadc387c1364f01b1b991636ac01418b00c385dfbc8/bddjango-3.0.9.tar.gz
+[2024-05-29 11:16:35] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2024-05-29 11:16:35] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20240529/l/lnschema_core/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-29 11:16:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-29 11:16:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-29 11:16:35] INFO root fetch - processPackages [bddjango]: executing diffoscope
+[2024-05-29 11:16:35] INFO root fetch - processPackages [bddjango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bddjango-3.0.8.tar.gz tmp/bddjango-3.0.9.tar.gz --markdown 20240529/b/bddjango/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-29 11:16:35] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-29 11:16:35] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-29 11:16:35] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240529/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-29 11:16:35] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240529/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-29 11:16:35] INFO root fetch - processPackages [django-botmanager]: Remove: archive file [/home/abi/fetcher/tmp/django_botmanager-0.2.18.tar.gz]
+[2024-05-29 11:16:35] INFO root fetch - processPackages [django-botmanager]: Remove: archive file [/home/abi/fetcher/tmp/django_botmanager-0.2.19.tar.gz]
+[2024-05-29 11:16:35] INFO root fetch - main [MainThread]: End processing [django-botmanager]: success
+[2024-05-29 11:16:35] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.8.tar.gz]
+[2024-05-29 11:16:35] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.9.tar.gz]
+[2024-05-29 11:16:35] INFO root fetch - main [MainThread]: End processing [eenhoorntje-llm-lib]: success
+[2024-05-29 11:16:35] INFO root fetch - processPackages [SimpleAUG]: Remove: archive file [/home/abi/fetcher/tmp/simpleaug-0.0.1.tar.gz]
+[2024-05-29 11:16:35] INFO root fetch - processPackages [SimpleAUG]: Remove: archive file [/home/abi/fetcher/tmp/simpleaug-0.0.2.tar.gz]
+[2024-05-29 11:16:35] INFO root fetch - main [MainThread]: End processing [SimpleAUG]: success
+[2024-05-29 11:16:36] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2024-05-29 11:16:36] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2024-05-29 11:16:36] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2024-05-29 11:16:36] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-29 11:16:36] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-29 11:16:36] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-29 11:16:36] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-29 11:16:36] INFO root fetch - processPackages [bddjango]: Remove: archive file [/home/abi/fetcher/tmp/bddjango-3.0.8.tar.gz]
+[2024-05-29 11:16:36] INFO root fetch - processPackages [bddjango]: Remove: archive file [/home/abi/fetcher/tmp/bddjango-3.0.9.tar.gz]
+[2024-05-29 11:16:36] INFO root fetch - main [MainThread]: End processing [bddjango]: success
+[2024-05-29 11:16:36] INFO root fetch - main [MainThread]: Store serial: [23427177]
