@@ -3170,3 +3170,48 @@
 [2024-05-29 02:59:04] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-05-29 02:59:04] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-05-29 02:59:04] INFO root fetch - main [MainThread]: Store serial: [23421479]
+[2024-05-29 03:01:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421479]
+[2024-05-29 03:01:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 03:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2024-05-29 03:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ralium
+[2024-05-29 03:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xcoll
+[2024-05-29 03:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vaul
+[2024-05-29 03:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modular-ai
+[2024-05-29 03:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sleap
+[2024-05-29 03:01:13] WARNING root fetch - processPackages [vaul]: Skipping, unable to determine old version
+[2024-05-29 03:01:13] INFO root fetch - main [MainThread]: End processing [vaul] error
+[2024-05-29 03:01:13] WARNING root fetch - processPackages [modular-ai]: Skipping, unable to determine old version
+[2024-05-29 03:01:13] INFO root fetch - main [MainThread]: End processing [modular-ai] error
+[2024-05-29 03:01:13] INFO root fetch - processPackages [ralium]: New version: [2.1.0] Old Version: [2.0.4]
+[2024-05-29 03:01:13] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/fe/69/8cbba904942aa7db536286657ffcd95bf746e65d9921da1f92afb5c6622c/ralium-2.0.4.tar.gz
+[2024-05-29 03:01:13] INFO root fetch - processPackages [xcoll]: New version: [0.4.0] Old Version: [0.3.6]
+[2024-05-29 03:01:13] INFO root fetch - processPackages [sleap]: New version: [1.4.1a0] Old Version: [1.4.0a0]
+[2024-05-29 03:01:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-29 03:01:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-29 03:01:13] INFO root fetch - processPackages [xcoll]: Downloading https://files.pythonhosted.org/packages/4c/62/11a83e720983d7ec7fc69eabca5c64dc6e72f966a475da94a52bba28055a/xcoll-0.3.6.tar.gz
+[2024-05-29 03:01:13] INFO root fetch - processPackages [sleap]: Downloading https://files.pythonhosted.org/packages/34/98/7ad0d37616b2b275663fd7bd377dd9e17fe59e52a81ab50680d5e250cdd2/sleap-1.4.0a0-py3-none-any.whl
+[2024-05-29 03:01:13] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/18/71/fb9a990e1ab82a91238312d28bbd082ada8bcc6bfbc139e9f5ef4e2abe24/ralium-2.1.0.tar.gz
+[2024-05-29 03:01:13] INFO root fetch - processPackages [ralium]: executing diffoscope
+[2024-05-29 03:01:13] INFO root fetch - processPackages [ralium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralium-2.0.4.tar.gz tmp/ralium-2.1.0.tar.gz --markdown 20240529/r/ralium/2.0.4-2.1.0/README.md --exclude *.pyd
+[2024-05-29 03:01:13] INFO root fetch - processPackages [xcoll]: Downloading https://files.pythonhosted.org/packages/41/c8/d2d265d9db6b8feab8b9f3098520a2640a822f6354988ae43cb0c56f2eb9/xcoll-0.4.0.tar.gz
+[2024-05-29 03:01:14] INFO root fetch - processPackages [sleap]: Downloading https://files.pythonhosted.org/packages/d7/51/3c0e867dffbfe84a08a3d015e5bd23eef76776d70f97e8bb019a4bf42193/sleap-1.4.1a0-py3-none-any.whl
+[2024-05-29 03:01:14] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-29 03:01:14] INFO root fetch - processPackages [xcoll]: executing diffoscope
+[2024-05-29 03:01:14] INFO root fetch - processPackages [xcoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcoll-0.3.6.tar.gz tmp/xcoll-0.4.0.tar.gz --markdown 20240529/x/xcoll/0.3.6-0.4.0/README.md --exclude *.pyd
+[2024-05-29 03:01:14] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-29 03:01:14] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240529/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-29 03:01:14] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-2.0.4.tar.gz]
+[2024-05-29 03:01:14] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-2.1.0.tar.gz]
+[2024-05-29 03:01:14] INFO root fetch - main [MainThread]: End processing [ralium]: success
+[2024-05-29 03:01:14] INFO root fetch - processPackages [sleap]: executing diffoscope
+[2024-05-29 03:01:14] INFO root fetch - processPackages [sleap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleap-1.4.0a0-py3-none-any.whl.zip tmp/sleap-1.4.1a0-py3-none-any.whl.zip --markdown 20240529/s/sleap/1.4.0a0-1.4.1a0/README.md --exclude *.pyd
+[2024-05-29 03:01:15] INFO root fetch - processPackages [xcoll]: Remove: archive file [/home/abi/fetcher/tmp/xcoll-0.3.6.tar.gz]
+[2024-05-29 03:01:15] INFO root fetch - processPackages [xcoll]: Remove: archive file [/home/abi/fetcher/tmp/xcoll-0.4.0.tar.gz]
+[2024-05-29 03:01:15] INFO root fetch - main [MainThread]: End processing [xcoll]: success
+[2024-05-29 03:01:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-29 03:01:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-29 03:01:15] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-29 03:01:15] INFO root fetch - processPackages [sleap]: Remove: archive file [/home/abi/fetcher/tmp/sleap-1.4.0a0-py3-none-any.whl.zip]
+[2024-05-29 03:01:15] INFO root fetch - processPackages [sleap]: Remove: archive file [/home/abi/fetcher/tmp/sleap-1.4.1a0-py3-none-any.whl.zip]
+[2024-05-29 03:01:15] INFO root fetch - main [MainThread]: End processing [sleap]: success
+[2024-05-29 03:01:15] INFO root fetch - main [MainThread]: Store serial: [23421503]
