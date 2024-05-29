@@ -9892,3 +9892,27 @@
 [2024-05-29 06:39:32] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
 [2024-05-29 06:39:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2024-05-29 06:39:32] INFO root fetch - main [MainThread]: Store serial: [23424014]
+[2024-05-29 06:41:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424014]
+[2024-05-29 06:41:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 06:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-sale-blanket-order
+[2024-05-29 06:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: n0ryb
+[2024-05-29 06:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-repair
+[2024-05-29 06:41:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: New version: [14.0.1.1.1.dev3] Old Version: [14.0.1.1.1.dev2]
+[2024-05-29 06:41:40] WARNING root fetch - processPackages [n0ryb]: Skipping, unable to determine old version
+[2024-05-29 06:41:40] INFO root fetch - main [MainThread]: End processing [n0ryb] error
+[2024-05-29 06:41:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: New version: [14.0.1.1.7.dev3] Old Version: [14.0.1.1.7.dev2]
+[2024-05-29 06:41:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/4a/85/c502271ed45903a5cc3f42420c77094f19d1da708fa4fdf538d05723d5b8/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.1.1.dev2-py3-none-any.whl
+[2024-05-29 06:41:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Downloading https://files.pythonhosted.org/packages/9f/8b/8ac7139255ed460fe81476731a6d87dac7763ebff00a6f287fd067b321bd/odoo14_addon_l10n_br_repair-14.0.1.1.7.dev2-py3-none-any.whl
+[2024-05-29 06:41:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Downloading https://files.pythonhosted.org/packages/4f/c6/407a566760d18c82a09b04addf642f11e198d08a76a36736e82b291eb33d/odoo14_addon_l10n_br_repair-14.0.1.1.7.dev3-py3-none-any.whl
+[2024-05-29 06:41:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/44/de/4f3011953b54d9ffc4bbe9e8277acfa71b03702961e623aaf2f599758a6b/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.1.1.dev3-py3-none-any.whl
+[2024-05-29 06:41:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: executing diffoscope
+[2024-05-29 06:41:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_repair-14.0.1.1.7.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_repair-14.0.1.1.7.dev3-py3-none-any.whl.zip --markdown 20240529/o/odoo14-addon-l10n-br-repair/14.0.1.1.7.dev2-14.0.1.1.7.dev3/README.md --exclude *.pyd
+[2024-05-29 06:41:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: executing diffoscope
+[2024-05-29 06:41:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.1.1.dev3-py3-none-any.whl.zip --markdown 20240529/o/odoo14-addon-l10n-br-sale-blanket-order/14.0.1.1.1.dev2-14.0.1.1.1.dev3/README.md --exclude *.pyd
+[2024-05-29 06:41:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_repair-14.0.1.1.7.dev2-py3-none-any.whl.zip]
+[2024-05-29 06:41:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_repair-14.0.1.1.7.dev3-py3-none-any.whl.zip]
+[2024-05-29 06:41:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-repair]: success
+[2024-05-29 06:41:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2024-05-29 06:41:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.1.1.dev3-py3-none-any.whl.zip]
+[2024-05-29 06:41:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-sale-blanket-order]: success
+[2024-05-29 06:41:42] INFO root fetch - main [MainThread]: Store serial: [23424023]
