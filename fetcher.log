@@ -3071,3 +3071,45 @@
 [2024-05-29 02:54:21] INFO root fetch - processPackages [alliance-platform-frontend]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_frontend-0.0.8.tar.gz]
 [2024-05-29 02:54:21] INFO root fetch - main [MainThread]: End processing [alliance-platform-frontend]: success
 [2024-05-29 02:54:21] INFO root fetch - main [MainThread]: Store serial: [23421437]
+[2024-05-29 02:56:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421437]
+[2024-05-29 02:56:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchao-nightly
+[2024-05-29 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modular-ai
+[2024-05-29 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langflow-base
+[2024-05-29 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2024-05-29 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ommi
+[2024-05-29 02:56:30] INFO root fetch - processPackages [langflow-base]: New version: [0.0.51] Old Version: [0.0.50]
+[2024-05-29 02:56:30] INFO root fetch - processPackages [ommi]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 02:56:30] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.5.28] Old Version: [2024.5.27]
+[2024-05-29 02:56:30] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/1c/6c/cc2ad125544bd415dbe30ad960c13bd947bd1f7fb1c62f5901ed350c0914/langflow_base-0.0.50.tar.gz
+[2024-05-29 02:56:30] WARNING root fetch - processPackages [modular-ai]: Skipping, unable to determine old version
+[2024-05-29 02:56:30] INFO root fetch - main [MainThread]: End processing [modular-ai] error
+[2024-05-29 02:56:30] INFO root fetch - processPackages [ommi]: Downloading https://files.pythonhosted.org/packages/3c/66/c87c4a423491425e1acd2804a1ce82e9b9ab6c26e03194782f155977dc1a/ommi-0.1.3.tar.gz
+[2024-05-29 02:56:30] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/e4/61/6d9e8003b2ba78548d7ea261535b43db008a8db86a97f7ad42c624cc0b8b/torchao_nightly-2024.5.27-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 02:56:30] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-29 02:56:30] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-29 02:56:30] INFO root fetch - processPackages [ommi]: Downloading https://files.pythonhosted.org/packages/3c/e4/37cf356fbb137c4a5607834cc2aa0b25f2f0d3641db76ab3fb7d8aea1760/ommi-0.1.4.tar.gz
+[2024-05-29 02:56:30] INFO root fetch - processPackages [ommi]: executing diffoscope
+[2024-05-29 02:56:30] INFO root fetch - processPackages [ommi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ommi-0.1.3.tar.gz tmp/ommi-0.1.4.tar.gz --markdown 20240529/o/ommi/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-29 02:56:30] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-29 02:56:31] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/23/e8/e3b15237f5b2d196b247ec05530f78f6922ca25c661588bba2b26ff0260c/torchao_nightly-2024.5.28-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 02:56:31] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-29 02:56:31] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240529/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-29 02:56:31] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/36/df/0c5861abe406f8ea10ae0cfd8917ebddc819cc6c93ebf09b0b30fd2e64f5/langflow_base-0.0.51.tar.gz
+[2024-05-29 02:56:31] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-05-29 02:56:31] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao_nightly-2024.5.27-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/torchao_nightly-2024.5.28-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240529/t/torchao-nightly/2024.5.27-2024.5.28/README.md --exclude *.pyd
+[2024-05-29 02:56:31] INFO root fetch - processPackages [langflow-base]: executing diffoscope
+[2024-05-29 02:56:31] INFO root fetch - processPackages [langflow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow_base-0.0.50.tar.gz tmp/langflow_base-0.0.51.tar.gz --markdown 20240529/l/langflow-base/0.0.50-0.0.51/README.md --exclude *.pyd
+[2024-05-29 02:56:31] INFO root fetch - processPackages [ommi]: Remove: archive file [/home/abi/fetcher/tmp/ommi-0.1.3.tar.gz]
+[2024-05-29 02:56:31] INFO root fetch - processPackages [ommi]: Remove: archive file [/home/abi/fetcher/tmp/ommi-0.1.4.tar.gz]
+[2024-05-29 02:56:31] INFO root fetch - main [MainThread]: End processing [ommi]: success
+[2024-05-29 02:56:33] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao_nightly-2024.5.27-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 02:56:33] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao_nightly-2024.5.28-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 02:56:33] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-05-29 02:56:35] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.50.tar.gz]
+[2024-05-29 02:56:35] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.51.tar.gz]
+[2024-05-29 02:56:35] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
+[2024-05-29 02:56:50] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-29 02:56:50] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-29 02:56:50] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-29 02:56:50] INFO root fetch - main [MainThread]: Store serial: [23421457]
