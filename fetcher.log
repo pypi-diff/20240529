@@ -11359,3 +11359,60 @@
 [2024-05-29 07:54:05] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.9.tar.gz]
 [2024-05-29 07:54:05] INFO root fetch - main [MainThread]: End processing [fmbench]: success
 [2024-05-29 07:54:05] INFO root fetch - main [MainThread]: Store serial: [23424606]
+[2024-05-29 07:56:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424606]
+[2024-05-29 07:56:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 07:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-digitalocean
+[2024-05-29 07:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-fastly
+[2024-05-29 07:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arasea
+[2024-05-29 07:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cwstorm
+[2024-05-29 07:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataverse-sdk
+[2024-05-29 07:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: htrfnwe
+[2024-05-29 07:56:14] INFO root fetch - processPackages [htrfnwe]: New version: [0.8] Old Version: [0.7]
+[2024-05-29 07:56:14] INFO root fetch - processPackages [arasea]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-05-29 07:56:14] INFO root fetch - processPackages [cwstorm]: New version: [0.2.1] Old Version: [0.2.0b2]
+[2024-05-29 07:56:14] INFO root fetch - processPackages [dataverse-sdk]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-29 07:56:14] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.9.0a1716960860] Old Version: [8.9.0a1716507685]
+[2024-05-29 07:56:14] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-05-29 07:56:14] INFO root fetch - processPackages [arasea]: Downloading https://files.pythonhosted.org/packages/13/94/89c54cd8920a429691226ca9eb85767e6d403633b3d74c0d974af9abe1de/arasea-3.0.6.tar.gz
+[2024-05-29 07:56:14] INFO root fetch - processPackages [htrfnwe]: Downloading https://files.pythonhosted.org/packages/2d/28/1c6392455e496cbe1f20db8ade2f746c6130cdbd9f00653a9e5236a57e17/htrfnwe-0.7.tar.gz
+[2024-05-29 07:56:14] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-05-29 07:56:14] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/26/43/e9b6ccaeb2b502b6c72031e7eb6f530c38b629496d44127defb0d1546fcd/pulumi_fastly-8.9.0a1716507685.tar.gz
+[2024-05-29 07:56:15] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/96/f3/0e29d0b8392a0be2d201bf211ff03c446cdd7a50c26380c22375ef021333/dataverse_sdk-1.3.0.tar.gz
+[2024-05-29 07:56:15] INFO root fetch - processPackages [cwstorm]: Downloading https://files.pythonhosted.org/packages/71/95/98c4768606777fef80b3f646d01cb598df015a38ea9d0977a795d7139a02/cwstorm-0.2.0b2-py2.py3-none-any.whl
+[2024-05-29 07:56:15] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/cd/72/2108d26933ce71e197b22361b44d6569fe42ba6a82338278d66951913cb6/dataverse_sdk-1.3.1.tar.gz
+[2024-05-29 07:56:15] INFO root fetch - processPackages [cwstorm]: Downloading https://files.pythonhosted.org/packages/6e/9c/bebcd4f32867f37ad0eecbaf5ca574d2ed43089c0873228baae3feb1bbc3/cwstorm-0.2.1-py2.py3-none-any.whl
+[2024-05-29 07:56:15] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/9f/c5/8ce2d7eeec1dd8fd4f535414160d0b8e328b10743fc0e2349e635e69b723/pulumi_fastly-8.9.0a1716960860.tar.gz
+[2024-05-29 07:56:15] INFO root fetch - processPackages [htrfnwe]: Downloading https://files.pythonhosted.org/packages/bb/56/b89705dc09573c8561a0fc0a9568b479daa5478d5c562fde6add8ee02293/htrfnwe-0.8-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2024-05-29 07:56:15] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-05-29 07:56:15] INFO root fetch - processPackages [arasea]: Downloading https://files.pythonhosted.org/packages/d8/dd/f749a0e78e080dcc42684ea4a69699b642936eca690398284d77e2673e97/arasea-3.0.7.tar.gz
+[2024-05-29 07:56:15] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-05-29 07:56:15] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.9.0a1716507685.tar.gz tmp/pulumi_fastly-8.9.0a1716960860.tar.gz --markdown 20240529/p/pulumi-fastly/8.9.0a1716507685-8.9.0a1716960860/README.md --exclude *.pyd
+[2024-05-29 07:56:15] INFO root fetch - processPackages [dataverse-sdk]: executing diffoscope
+[2024-05-29 07:56:15] INFO root fetch - processPackages [dataverse-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse_sdk-1.3.0.tar.gz tmp/dataverse_sdk-1.3.1.tar.gz --markdown 20240529/d/dataverse-sdk/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-29 07:56:15] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-05-29 07:56:15] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240529/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-05-29 07:56:15] INFO root fetch - processPackages [cwstorm]: executing diffoscope
+[2024-05-29 07:56:15] INFO root fetch - processPackages [cwstorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwstorm-0.2.0b2-py2.py3-none-any.whl.zip tmp/cwstorm-0.2.1-py2.py3-none-any.whl.zip --markdown 20240529/c/cwstorm/0.2.0b2-0.2.1/README.md --exclude *.pyd
+[2024-05-29 07:56:15] INFO root fetch - processPackages [htrfnwe]: executing diffoscope
+[2024-05-29 07:56:15] INFO root fetch - processPackages [htrfnwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htrfnwe-0.7.tar.gz tmp/htrfnwe-0.8-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip --markdown 20240529/h/htrfnwe/0.7-0.8/README.md --exclude *.pyd
+[2024-05-29 07:56:15] INFO root fetch - processPackages [arasea]: executing diffoscope
+[2024-05-29 07:56:15] INFO root fetch - processPackages [arasea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arasea-3.0.6.tar.gz tmp/arasea-3.0.7.tar.gz --markdown 20240529/a/arasea/3.0.6-3.0.7/README.md --exclude *.pyd
+[2024-05-29 07:56:16] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse_sdk-1.3.0.tar.gz]
+[2024-05-29 07:56:16] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse_sdk-1.3.1.tar.gz]
+[2024-05-29 07:56:16] INFO root fetch - main [MainThread]: End processing [dataverse-sdk]: success
+[2024-05-29 07:56:16] INFO root fetch - processPackages [htrfnwe]: Remove: archive file [/home/abi/fetcher/tmp/htrfnwe-0.7.tar.gz]
+[2024-05-29 07:56:16] INFO root fetch - processPackages [htrfnwe]: Remove: archive file [/home/abi/fetcher/tmp/htrfnwe-0.8-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip]
+[2024-05-29 07:56:16] INFO root fetch - main [MainThread]: End processing [htrfnwe]: success
+[2024-05-29 07:56:16] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.9.0a1716507685.tar.gz]
+[2024-05-29 07:56:16] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.9.0a1716960860.tar.gz]
+[2024-05-29 07:56:16] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-05-29 07:56:16] INFO root fetch - processPackages [cwstorm]: Remove: archive file [/home/abi/fetcher/tmp/cwstorm-0.2.0b2-py2.py3-none-any.whl.zip]
+[2024-05-29 07:56:16] INFO root fetch - processPackages [cwstorm]: Remove: archive file [/home/abi/fetcher/tmp/cwstorm-0.2.1-py2.py3-none-any.whl.zip]
+[2024-05-29 07:56:16] INFO root fetch - main [MainThread]: End processing [cwstorm]: success
+[2024-05-29 07:56:16] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-05-29 07:56:16] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-05-29 07:56:16] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-05-29 07:56:17] INFO root fetch - processPackages [arasea]: Remove: archive file [/home/abi/fetcher/tmp/arasea-3.0.6.tar.gz]
+[2024-05-29 07:56:17] INFO root fetch - processPackages [arasea]: Remove: archive file [/home/abi/fetcher/tmp/arasea-3.0.7.tar.gz]
+[2024-05-29 07:56:17] INFO root fetch - main [MainThread]: End processing [arasea]: success
+[2024-05-29 07:56:17] INFO root fetch - main [MainThread]: Store serial: [23424622]
