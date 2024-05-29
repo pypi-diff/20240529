@@ -20815,3 +20815,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:54:27] INFO root fetch - processPackages [yara-x]: Remove: archive file [/home/abi/fetcher/tmp/yara_x-0.4.0-pp38-pypy38_pp73-macosx_11_0_arm64.whl.zip]
 [2024-05-29 13:54:27] INFO root fetch - main [MainThread]: End processing [yara-x]: success
 [2024-05-29 13:54:27] INFO root fetch - main [MainThread]: Store serial: [23429096]
+[2024-05-29 13:56:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429096]
+[2024-05-29 13:56:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otds
+[2024-05-29 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdx-topology-validator
+[2024-05-29 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethiack-job-manager
+[2024-05-29 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mns-scheduler
+[2024-05-29 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scratchcommunication
+[2024-05-29 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygohcl
+[2024-05-29 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lift-utils
+[2024-05-29 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aura-tools
+[2024-05-29 13:56:36] INFO root fetch - processPackages [aura-tools]: New version: [0.4] Old Version: [0.3]
+[2024-05-29 13:56:36] INFO root fetch - processPackages [ethiack-job-manager]: New version: [1.0.2rc1] Old Version: [1.0.1rc1]
+[2024-05-29 13:56:36] INFO root fetch - processPackages [lift-utils]: New version: [0.2] Old Version: [0.1.1]
+[2024-05-29 13:56:36] INFO root fetch - processPackages [mns-scheduler]: New version: [1.0.6.4] Old Version: [1.0.6.3]
+[2024-05-29 13:56:36] INFO root fetch - processPackages [scratchcommunication]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-29 13:56:36] WARNING root fetch - processPackages [otds]: Skipping, unable to determine old version
+[2024-05-29 13:56:36] INFO root fetch - main [MainThread]: End processing [otds] error
+[2024-05-29 13:56:36] INFO root fetch - processPackages [sdx-topology-validator]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-29 13:56:36] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/d1/49/ed066f54631ebc8a1e24a2124388908ca78d3b74c03df6549d54067dffa0/mns-scheduler-1.0.6.3.tar.gz
+[2024-05-29 13:56:36] INFO root fetch - processPackages [pygohcl]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 13:56:36] INFO root fetch - processPackages [lift-utils]: Downloading https://files.pythonhosted.org/packages/f3/fe/1781df37ba752237aac520710a6339b62ad03235b4dd155bd8e8477438e2/lift_utils-0.1.1.tar.gz
+[2024-05-29 13:56:36] INFO root fetch - processPackages [ethiack-job-manager]: Downloading https://files.pythonhosted.org/packages/81/0e/6e1b4a9ce6542d54d023b8252205ddfaa6c43fe372ac20db37c4a4656107/ethiack-job-manager-1.0.1rc1.tar.gz
+[2024-05-29 13:56:36] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/69/e3/735f3cf7617511a7383701be579736d6c46b5c6d4d9ef1db5f7b25958a5f/aura_tools-0.3.tar.gz
+[2024-05-29 13:56:36] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/65/ac/deab85d53ea4bd1edeb0e5305edcae735de605cba8bf4424fa154cd9e37c/scratchcommunication-2.9.1.tar.gz
+[2024-05-29 13:56:37] INFO root fetch - processPackages [sdx-topology-validator]: Downloading https://files.pythonhosted.org/packages/fe/ce/68494609237580b8009faf9455ac07c2913023f620749505943732dd4c2e/sdx_topology_validator-1.0.0.tar.gz
+[2024-05-29 13:56:37] INFO root fetch - processPackages [ethiack-job-manager]: Downloading https://files.pythonhosted.org/packages/b8/32/db6fcc54653281412284387b85150ea317ea278bb1b55daa65896355fff3/ethiack_job_manager-1.0.2rc1.tar.gz
+[2024-05-29 13:56:37] INFO root fetch - processPackages [pygohcl]: Downloading https://files.pythonhosted.org/packages/b4/19/f5761242a1063b352bb8230285f19663a310c6508100525e69406704f4d1/pygohcl-1.0.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 13:56:37] INFO root fetch - processPackages [lift-utils]: Downloading https://files.pythonhosted.org/packages/d9/bb/d1305616e03a434e2dbd39f138cd9009162b567b04050ea7e57dd8d02f42/lift_utils-0.2.tar.gz
+[2024-05-29 13:56:37] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/e3/b4/599e0ffe88e0a67536bb426623bd50f87e56f68611230466c10ef6f5b599/scratchcommunication-2.9.2.tar.gz
+[2024-05-29 13:56:37] INFO root fetch - processPackages [lift-utils]: executing diffoscope
+[2024-05-29 13:56:37] INFO root fetch - processPackages [lift-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lift_utils-0.1.1.tar.gz tmp/lift_utils-0.2.tar.gz --markdown 20240529/l/lift-utils/0.1.1-0.2/README.md --exclude *.pyd
+[2024-05-29 13:56:37] INFO root fetch - processPackages [ethiack-job-manager]: executing diffoscope
+[2024-05-29 13:56:37] INFO root fetch - processPackages [ethiack-job-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethiack-job-manager-1.0.1rc1.tar.gz tmp/ethiack_job_manager-1.0.2rc1.tar.gz --markdown 20240529/e/ethiack-job-manager/1.0.1rc1-1.0.2rc1/README.md --exclude *.pyd
+[2024-05-29 13:56:37] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/89/6f/a0751a649b3d58534a4371390732fe2fb08b20c4ecb68f58e788dee2f49f/aura_tools-0.4.tar.gz
+[2024-05-29 13:56:37] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/49/9e/d613f8b56462d446e5eab9cbf42000a8aa0462a940f28a0014454cc4a93c/mns-scheduler-1.0.6.4.tar.gz
+[2024-05-29 13:56:37] INFO root fetch - processPackages [scratchcommunication]: executing diffoscope
+[2024-05-29 13:56:37] INFO root fetch - processPackages [scratchcommunication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchcommunication-2.9.1.tar.gz tmp/scratchcommunication-2.9.2.tar.gz --markdown 20240529/s/scratchcommunication/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-29 13:56:37] INFO root fetch - processPackages [sdx-topology-validator]: Downloading https://files.pythonhosted.org/packages/c9/e0/e75b35ee9d273c6fa6a88307e22ed15c62b23e10765165781df05217c909/sdx_topology_validator-1.1.0.tar.gz
+[2024-05-29 13:56:37] INFO root fetch - processPackages [aura-tools]: executing diffoscope
+[2024-05-29 13:56:37] INFO root fetch - processPackages [aura-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura_tools-0.3.tar.gz tmp/aura_tools-0.4.tar.gz --markdown 20240529/a/aura-tools/0.3-0.4/README.md --exclude *.pyd
+[2024-05-29 13:56:37] INFO root fetch - processPackages [sdx-topology-validator]: executing diffoscope
+[2024-05-29 13:56:37] INFO root fetch - processPackages [sdx-topology-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdx_topology_validator-1.0.0.tar.gz tmp/sdx_topology_validator-1.1.0.tar.gz --markdown 20240529/s/sdx-topology-validator/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-29 13:56:37] INFO root fetch - processPackages [mns-scheduler]: executing diffoscope
+[2024-05-29 13:56:37] INFO root fetch - processPackages [mns-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns-scheduler-1.0.6.3.tar.gz tmp/mns-scheduler-1.0.6.4.tar.gz --markdown 20240529/m/mns-scheduler/1.0.6.3-1.0.6.4/README.md --exclude *.pyd
+[2024-05-29 13:56:37] INFO root fetch - processPackages [pygohcl]: Downloading https://files.pythonhosted.org/packages/d1/8d/2334d56dd10b1f0c549f7deecb41174ba9076addca03a75bc160bc1ea706/pygohcl-1.0.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 13:56:38] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.3.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.4.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - main [MainThread]: End processing [aura-tools]: success
+[2024-05-29 13:56:38] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.9.1.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.9.2.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - main [MainThread]: End processing [scratchcommunication]: success
+[2024-05-29 13:56:38] INFO root fetch - processPackages [pygohcl]: executing diffoscope
+[2024-05-29 13:56:38] INFO root fetch - processPackages [pygohcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygohcl-1.0.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pygohcl-1.0.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240529/p/pygohcl/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 13:56:38] INFO root fetch - processPackages [lift-utils]: Remove: archive file [/home/abi/fetcher/tmp/lift_utils-0.1.1.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - processPackages [lift-utils]: Remove: archive file [/home/abi/fetcher/tmp/lift_utils-0.2.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - main [MainThread]: End processing [lift-utils]: success
+[2024-05-29 13:56:38] INFO root fetch - processPackages [ethiack-job-manager]: Remove: archive file [/home/abi/fetcher/tmp/ethiack-job-manager-1.0.1rc1.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - processPackages [ethiack-job-manager]: Remove: archive file [/home/abi/fetcher/tmp/ethiack_job_manager-1.0.2rc1.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - main [MainThread]: End processing [ethiack-job-manager]: success
+[2024-05-29 13:56:38] INFO root fetch - processPackages [sdx-topology-validator]: Remove: archive file [/home/abi/fetcher/tmp/sdx_topology_validator-1.0.0.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - processPackages [sdx-topology-validator]: Remove: archive file [/home/abi/fetcher/tmp/sdx_topology_validator-1.1.0.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - main [MainThread]: End processing [sdx-topology-validator]: success
+[2024-05-29 13:56:38] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.6.3.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.6.4.tar.gz]
+[2024-05-29 13:56:38] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
+[2024-05-29 13:56:52] INFO root fetch - processPackages [pygohcl]: Remove: archive file [/home/abi/fetcher/tmp/pygohcl-1.0.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 13:56:52] INFO root fetch - processPackages [pygohcl]: Remove: archive file [/home/abi/fetcher/tmp/pygohcl-1.0.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 13:56:52] INFO root fetch - main [MainThread]: End processing [pygohcl]: success
+[2024-05-29 13:56:52] INFO root fetch - main [MainThread]: Store serial: [23429146]
