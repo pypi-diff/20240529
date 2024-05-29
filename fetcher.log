@@ -18833,3 +18833,51 @@
 [2024-05-29 12:36:45] INFO root fetch - processPackages [trieste]: Remove: archive file [/home/abi/fetcher/tmp/trieste-3.3.0.tar.gz]
 [2024-05-29 12:36:45] INFO root fetch - main [MainThread]: End processing [trieste]: success
 [2024-05-29 12:36:45] INFO root fetch - main [MainThread]: Store serial: [23428328]
+[2024-05-29 12:38:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428328]
+[2024-05-29 12:38:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 12:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typegraph3
+[2024-05-29 12:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-05-29 12:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bakerstreet
+[2024-05-29 12:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-computer-assistant
+[2024-05-29 12:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abst
+[2024-05-29 12:38:54] INFO root fetch - processPackages [gpt-computer-assistant]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-29 12:38:54] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-29 12:38:54] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/5f/63/34773dd4a8431949bc695f54c8fe87bad0025409eb0f942938b72bdb9c5e/gpt_computer_assistant-0.5.3.tar.gz
+[2024-05-29 12:38:54] INFO root fetch - processPackages [bakerstreet]: New version: [2.0.0] Old Version: [1.1.0]
+[2024-05-29 12:38:54] INFO root fetch - processPackages [typegraph3]: New version: [0.1.1] Old Version: [0.1.0a0]
+[2024-05-29 12:38:54] INFO root fetch - processPackages [abst]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-29 12:38:54] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-29 12:38:54] INFO root fetch - processPackages [typegraph3]: Downloading https://files.pythonhosted.org/packages/78/10/e1a1265b26d9711d9ce78cd581dd98eb40924d41c887f975d3a7937fe5d4/typegraph3-0.1.0a0.tar.gz
+[2024-05-29 12:38:54] INFO root fetch - processPackages [abst]: Downloading https://files.pythonhosted.org/packages/af/7e/173c9251998ff4810683f7d37ebd563b224afb3f1ac0f48f6a2ae91db45c/abst-2.3.8.tar.gz
+[2024-05-29 12:38:54] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-29 12:38:54] INFO root fetch - processPackages [bakerstreet]: Downloading https://files.pythonhosted.org/packages/43/59/5414edbd696e54255ff46c4a97668a657dece48790f716af06fa61345696/bakerstreet-1.1.0.tar.gz
+[2024-05-29 12:38:54] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/9e/e0/5d44a87911499edcf82cb8482be3542269099c27587c789cce94ecae82c5/gpt_computer_assistant-0.5.4.tar.gz
+[2024-05-29 12:38:54] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-29 12:38:54] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240529/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-29 12:38:54] INFO root fetch - processPackages [gpt-computer-assistant]: executing diffoscope
+[2024-05-29 12:38:54] INFO root fetch - processPackages [gpt-computer-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_computer_assistant-0.5.3.tar.gz tmp/gpt_computer_assistant-0.5.4.tar.gz --markdown 20240529/g/gpt-computer-assistant/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-29 12:38:54] INFO root fetch - processPackages [bakerstreet]: Downloading https://files.pythonhosted.org/packages/05/1e/0ea682da700e7226c43b4417f96791cca7c29ae37d6c00b869c898a46314/bakerstreet-2.0.0.tar.gz
+[2024-05-29 12:38:54] INFO root fetch - processPackages [typegraph3]: Downloading https://files.pythonhosted.org/packages/ec/09/ab390ba18b547529010246753ac311078e6c5880185a42530cff367d5508/typegraph3-0.1.1.tar.gz
+[2024-05-29 12:38:54] INFO root fetch - processPackages [abst]: Downloading https://files.pythonhosted.org/packages/3b/89/1912e16d3f5407ae011d34bb424996c056842f4e4e0b6f4bf4b79608b2b9/abst-2.3.9.tar.gz
+[2024-05-29 12:38:55] INFO root fetch - processPackages [typegraph3]: executing diffoscope
+[2024-05-29 12:38:55] INFO root fetch - processPackages [typegraph3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typegraph3-0.1.0a0.tar.gz tmp/typegraph3-0.1.1.tar.gz --markdown 20240529/t/typegraph3/0.1.0a0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 12:38:55] INFO root fetch - processPackages [abst]: executing diffoscope
+[2024-05-29 12:38:55] INFO root fetch - processPackages [abst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abst-2.3.8.tar.gz tmp/abst-2.3.9.tar.gz --markdown 20240529/a/abst/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-29 12:38:55] INFO root fetch - processPackages [bakerstreet]: executing diffoscope
+[2024-05-29 12:38:55] INFO root fetch - processPackages [bakerstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bakerstreet-1.1.0.tar.gz tmp/bakerstreet-2.0.0.tar.gz --markdown 20240529/b/bakerstreet/1.1.0-2.0.0/README.md --exclude *.pyd
+[2024-05-29 12:38:55] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.3.tar.gz]
+[2024-05-29 12:38:55] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.4.tar.gz]
+[2024-05-29 12:38:55] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant]: success
+[2024-05-29 12:38:55] INFO root fetch - processPackages [typegraph3]: Remove: archive file [/home/abi/fetcher/tmp/typegraph3-0.1.0a0.tar.gz]
+[2024-05-29 12:38:55] INFO root fetch - processPackages [typegraph3]: Remove: archive file [/home/abi/fetcher/tmp/typegraph3-0.1.1.tar.gz]
+[2024-05-29 12:38:55] INFO root fetch - main [MainThread]: End processing [typegraph3]: success
+[2024-05-29 12:38:55] INFO root fetch - processPackages [bakerstreet]: Remove: archive file [/home/abi/fetcher/tmp/bakerstreet-1.1.0.tar.gz]
+[2024-05-29 12:38:55] INFO root fetch - processPackages [bakerstreet]: Remove: archive file [/home/abi/fetcher/tmp/bakerstreet-2.0.0.tar.gz]
+[2024-05-29 12:38:55] INFO root fetch - main [MainThread]: End processing [bakerstreet]: success
+[2024-05-29 12:38:55] INFO root fetch - processPackages [abst]: Remove: archive file [/home/abi/fetcher/tmp/abst-2.3.8.tar.gz]
+[2024-05-29 12:38:55] INFO root fetch - processPackages [abst]: Remove: archive file [/home/abi/fetcher/tmp/abst-2.3.9.tar.gz]
+[2024-05-29 12:38:55] INFO root fetch - main [MainThread]: End processing [abst]: success
+[2024-05-29 12:38:56] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-29 12:38:56] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-29 12:38:56] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-29 12:38:56] INFO root fetch - main [MainThread]: Store serial: [23428342]
