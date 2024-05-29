@@ -14561,3 +14561,87 @@
 [2024-05-29 10:19:58] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a3.tar.gz]
 [2024-05-29 10:19:58] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2024-05-29 10:19:58] INFO root fetch - main [MainThread]: Store serial: [23426207]
+[2024-05-29 10:22:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426207]
+[2024-05-29 10:22:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-29 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dp-launching-app
+[2024-05-29 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wiederverwendbar
+[2024-05-29 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brainbox
+[2024-05-29 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparkpipelineframework
+[2024-05-29 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: people-local
+[2024-05-29 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prjit
+[2024-05-29 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stocknotebridgenew
+[2024-05-29 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: emtl
+[2024-05-29 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-admin-assets
+[2024-05-29 10:22:07] INFO root fetch - processPackages [wiederverwendbar]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-29 10:22:07] INFO root fetch - processPackages [stocknotebridgenew]: New version: [5.0.4] Old Version: [5.0.2]
+[2024-05-29 10:22:07] INFO root fetch - processPackages [people-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 10:22:07] INFO root fetch - processPackages [wiederverwendbar]: Downloading https://files.pythonhosted.org/packages/66/fe/f555bced6752efa28d3fc80adb1e6c5e97f1bb6d4d070f3ff6fc24c82173/wiederverwendbar-0.2.4.tar.gz
+[2024-05-29 10:22:07] INFO root fetch - processPackages [brainbox]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-29 10:22:07] INFO root fetch - processPackages [people-local]: Downloading https://files.pythonhosted.org/packages/8b/1c/6315cdb848f482a3caf92189f2b65376a69c68543b2b6f4db62d865cb36e/people-local-0.0.8.tar.gz
+[2024-05-29 10:22:07] INFO root fetch - processPackages [dp-launching-app]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-29 10:22:07] INFO root fetch - processPackages [prjit]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 10:22:07] INFO root fetch - processPackages [emtl]: New version: [0.2.1.dev3] Old Version: [0.2.1]
+[2024-05-29 10:22:07] INFO root fetch - processPackages [sparkpipelineframework]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-29 10:22:07] INFO root fetch - processPackages [stocknotebridgenew]: Downloading https://files.pythonhosted.org/packages/58/86/94edee52e6d4af42a4bf901ca5948faaf1c5139cfe99668556f3d1bcec66/stocknotebridgenew-5.0.2.tar.gz
+[2024-05-29 10:22:07] INFO root fetch - processPackages [brainbox]: Downloading https://files.pythonhosted.org/packages/84/85/4fbd2cdfd07d0b4a9d1f59ea12a1b75610234e1c2631d5c81f0c47d3d6bf/brainbox-0.0.6.tar.gz
+[2024-05-29 10:22:07] INFO root fetch - processPackages [dp-launching-app]: Downloading https://files.pythonhosted.org/packages/5f/df/1bef325a0930ae09490d28d2905d83d9c3712eeff08a4e426ae0719fd1b1/dp-launching-app-0.0.7.tar.gz
+[2024-05-29 10:22:07] INFO root fetch - processPackages [emtl]: Downloading https://files.pythonhosted.org/packages/da/74/af210f5f1971528f06d0bd6f9f46ada9e43be482aee8976d165196da9640/emtl-0.2.1.tar.gz
+[2024-05-29 10:22:07] INFO root fetch - processPackages [people-local]: Downloading https://files.pythonhosted.org/packages/cc/ba/07a77e133c7523ecf4191eb3efb5529e4cee964e55f5dff0504d09de7d34/people-local-0.0.9.tar.gz
+[2024-05-29 10:22:07] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/4a/24/db5b24084e6d72e7e20ba2f6c6f9ed26f014c9a46a8eb9f0202b6c97c059/sparkpipelineframework-2.0.8.tar.gz
+[2024-05-29 10:22:07] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1558] Old Version: [1.0.0.post1557]
+[2024-05-29 10:22:07] INFO root fetch - processPackages [prjit]: Downloading https://files.pythonhosted.org/packages/e4/02/1e8a92e37ea6f008dd5862e843eb15edfe668bee9de2c5848d1002ec3a9e/prjit-0.0.2.tar.gz
+[2024-05-29 10:22:08] INFO root fetch - processPackages [wiederverwendbar]: Downloading https://files.pythonhosted.org/packages/42/34/9d5feac6d32ec72e1775b1a174aed6b04b39cbeef5d3730f9c3cd9e3dd5c/wiederverwendbar-0.2.5.tar.gz
+[2024-05-29 10:22:08] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/c0/df/69881e5bd0d0b8e8d3f965009d246b9d38c2c7ec37aad76043b2dfbee289/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl
+[2024-05-29 10:22:08] INFO root fetch - processPackages [people-local]: executing diffoscope
+[2024-05-29 10:22:08] INFO root fetch - processPackages [people-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/people-local-0.0.8.tar.gz tmp/people-local-0.0.9.tar.gz --markdown 20240529/p/people-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 10:22:08] INFO root fetch - processPackages [wiederverwendbar]: executing diffoscope
+[2024-05-29 10:22:08] INFO root fetch - processPackages [wiederverwendbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiederverwendbar-0.2.4.tar.gz tmp/wiederverwendbar-0.2.5.tar.gz --markdown 20240529/w/wiederverwendbar/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-29 10:22:08] INFO root fetch - processPackages [stocknotebridgenew]: Downloading https://files.pythonhosted.org/packages/11/5b/f1ff7c125f459c3dba3b7af2569f684edd924d866195e692bcfc42e838c1/stocknotebridgenew-5.0.4.tar.gz
+[2024-05-29 10:22:08] INFO root fetch - processPackages [brainbox]: Downloading https://files.pythonhosted.org/packages/e7/0a/4256f50e32f055d28031c9aa6773cc2d9065d051c17a545c70ff068dd62e/brainbox-0.0.7.tar.gz
+[2024-05-29 10:22:08] INFO root fetch - processPackages [dp-launching-app]: Downloading https://files.pythonhosted.org/packages/a1/7d/6078abb1505df10c3031af7e17d3613a10b9cf4c7836ce433f84fb06bedd/dp-launching-app-0.0.8.tar.gz
+[2024-05-29 10:22:08] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/cd/26/28286b2b98e444bd3ef46a0e8a3e370f9d4ce4798c088170e0083e8dbbaa/sparkpipelineframework-2.0.9.tar.gz
+[2024-05-29 10:22:08] INFO root fetch - processPackages [prjit]: Downloading https://files.pythonhosted.org/packages/89/be/16ed20037e2486096a724a8d2aa9e361c5c608790984642e6d314e9f93a1/prjit-0.0.3.tar.gz
+[2024-05-29 10:22:08] INFO root fetch - processPackages [stocknotebridgenew]: executing diffoscope
+[2024-05-29 10:22:08] INFO root fetch - processPackages [stocknotebridgenew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stocknotebridgenew-5.0.2.tar.gz tmp/stocknotebridgenew-5.0.4.tar.gz --markdown 20240529/s/stocknotebridgenew/5.0.2-5.0.4/README.md --exclude *.pyd
+[2024-05-29 10:22:08] INFO root fetch - processPackages [emtl]: Downloading https://files.pythonhosted.org/packages/a8/5a/0c985a7106de68a0a3c4043e2904ff8cee619cc12e403acf7677eb75569a/emtl-0.2.1.dev3.tar.gz
+[2024-05-29 10:22:08] INFO root fetch - processPackages [brainbox]: executing diffoscope
+[2024-05-29 10:22:08] INFO root fetch - processPackages [brainbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainbox-0.0.6.tar.gz tmp/brainbox-0.0.7.tar.gz --markdown 20240529/b/brainbox/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-29 10:22:08] INFO root fetch - processPackages [dp-launching-app]: executing diffoscope
+[2024-05-29 10:22:08] INFO root fetch - processPackages [dp-launching-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dp-launching-app-0.0.7.tar.gz tmp/dp-launching-app-0.0.8.tar.gz --markdown 20240529/d/dp-launching-app/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-29 10:22:08] INFO root fetch - processPackages [prjit]: executing diffoscope
+[2024-05-29 10:22:08] INFO root fetch - processPackages [prjit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prjit-0.0.2.tar.gz tmp/prjit-0.0.3.tar.gz --markdown 20240529/p/prjit/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 10:22:08] INFO root fetch - processPackages [emtl]: executing diffoscope
+[2024-05-29 10:22:08] INFO root fetch - processPackages [emtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emtl-0.2.1.tar.gz tmp/emtl-0.2.1.dev3.tar.gz --markdown 20240529/e/emtl/0.2.1-0.2.1.dev3/README.md --exclude *.pyd
+[2024-05-29 10:22:08] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/30/8d/05117aea895b7372a71d5a3f4476e9d8c9741ce651117f8e118f0bb8ab4c/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl
+[2024-05-29 10:22:08] INFO root fetch - processPackages [wiederverwendbar]: Remove: archive file [/home/abi/fetcher/tmp/wiederverwendbar-0.2.4.tar.gz]
+[2024-05-29 10:22:08] INFO root fetch - processPackages [wiederverwendbar]: Remove: archive file [/home/abi/fetcher/tmp/wiederverwendbar-0.2.5.tar.gz]
+[2024-05-29 10:22:08] INFO root fetch - main [MainThread]: End processing [wiederverwendbar]: success
+[2024-05-29 10:22:08] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-29 10:22:08] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-admin-assets/1.0.0.post1557-1.0.0.post1558/README.md --exclude *.pyd
+[2024-05-29 10:22:08] INFO root fetch - processPackages [people-local]: Remove: archive file [/home/abi/fetcher/tmp/people-local-0.0.8.tar.gz]
+[2024-05-29 10:22:08] INFO root fetch - processPackages [people-local]: Remove: archive file [/home/abi/fetcher/tmp/people-local-0.0.9.tar.gz]
+[2024-05-29 10:22:08] INFO root fetch - main [MainThread]: End processing [people-local]: success
+[2024-05-29 10:22:08] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2024-05-29 10:22:08] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-2.0.8.tar.gz tmp/sparkpipelineframework-2.0.9.tar.gz --markdown 20240529/s/sparkpipelineframework/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-29 10:22:09] INFO root fetch - processPackages [stocknotebridgenew]: Remove: archive file [/home/abi/fetcher/tmp/stocknotebridgenew-5.0.2.tar.gz]
+[2024-05-29 10:22:09] INFO root fetch - processPackages [stocknotebridgenew]: Remove: archive file [/home/abi/fetcher/tmp/stocknotebridgenew-5.0.4.tar.gz]
+[2024-05-29 10:22:09] INFO root fetch - main [MainThread]: End processing [stocknotebridgenew]: success
+[2024-05-29 10:22:09] INFO root fetch - processPackages [dp-launching-app]: Remove: archive file [/home/abi/fetcher/tmp/dp-launching-app-0.0.7.tar.gz]
+[2024-05-29 10:22:09] INFO root fetch - processPackages [dp-launching-app]: Remove: archive file [/home/abi/fetcher/tmp/dp-launching-app-0.0.8.tar.gz]
+[2024-05-29 10:22:09] INFO root fetch - main [MainThread]: End processing [dp-launching-app]: success
+[2024-05-29 10:22:09] INFO root fetch - processPackages [prjit]: Remove: archive file [/home/abi/fetcher/tmp/prjit-0.0.2.tar.gz]
+[2024-05-29 10:22:09] INFO root fetch - processPackages [prjit]: Remove: archive file [/home/abi/fetcher/tmp/prjit-0.0.3.tar.gz]
+[2024-05-29 10:22:09] INFO root fetch - main [MainThread]: End processing [prjit]: success
+[2024-05-29 10:22:09] INFO root fetch - processPackages [brainbox]: Remove: archive file [/home/abi/fetcher/tmp/brainbox-0.0.6.tar.gz]
+[2024-05-29 10:22:09] INFO root fetch - processPackages [brainbox]: Remove: archive file [/home/abi/fetcher/tmp/brainbox-0.0.7.tar.gz]
+[2024-05-29 10:22:09] INFO root fetch - main [MainThread]: End processing [brainbox]: success
+[2024-05-29 10:22:09] INFO root fetch - processPackages [emtl]: Remove: archive file [/home/abi/fetcher/tmp/emtl-0.2.1.tar.gz]
+[2024-05-29 10:22:09] INFO root fetch - processPackages [emtl]: Remove: archive file [/home/abi/fetcher/tmp/emtl-0.2.1.dev3.tar.gz]
+[2024-05-29 10:22:09] INFO root fetch - main [MainThread]: End processing [emtl]: success
+[2024-05-29 10:22:10] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-2.0.8.tar.gz]
+[2024-05-29 10:22:10] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-2.0.9.tar.gz]
+[2024-05-29 10:22:10] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2024-05-29 10:22:23] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl.zip]
+[2024-05-29 10:22:23] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl.zip]
+[2024-05-29 10:22:23] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-29 10:22:23] INFO root fetch - main [MainThread]: Store serial: [23426235]
