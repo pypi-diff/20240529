@@ -3275,3 +3275,24 @@
 [2024-05-29 03:05:35] INFO root fetch - processPackages [modular-ai]: Remove: archive file [/home/abi/fetcher/tmp/modular-ai-0.1.1.tar.gz]
 [2024-05-29 03:05:35] INFO root fetch - main [MainThread]: End processing [modular-ai]: success
 [2024-05-29 03:05:35] INFO root fetch - main [MainThread]: Store serial: [23421581]
+[2024-05-29 03:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421581]
+[2024-05-29 03:07:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 03:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annofabapi
+[2024-05-29 03:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maskalib
+[2024-05-29 03:07:44] INFO root fetch - processPackages [maskalib]: New version: [0.5] Old Version: [0.2]
+[2024-05-29 03:07:44] INFO root fetch - processPackages [annofabapi]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 03:07:44] INFO root fetch - processPackages [annofabapi]: Downloading https://files.pythonhosted.org/packages/c0/2e/1365f767b7a7259c910e2e4ef75dbad4c903cccdbcf4cbe439c189481a66/annofabapi-0.9.0.tar.gz
+[2024-05-29 03:07:44] INFO root fetch - processPackages [maskalib]: Downloading https://files.pythonhosted.org/packages/b6/a3/09e6972cb6ce11cc2e2a9cff01b2d8cb8e4baaf26728d82ab590dbc66540/maskalib-0.2.tar.gz
+[2024-05-29 03:07:44] INFO root fetch - processPackages [maskalib]: Downloading https://files.pythonhosted.org/packages/6f/66/422546f232353c4ee5cd9c68f6857daf019a121e50a1d1920bf26f34a89c/maskalib-0.5.tar.gz
+[2024-05-29 03:07:44] INFO root fetch - processPackages [annofabapi]: Downloading https://files.pythonhosted.org/packages/ab/d0/a384d57146d424feef92dc9261a602f02b7a71aefb343552eae1ab9de6a2/annofabapi-0.9.1.tar.gz
+[2024-05-29 03:07:44] INFO root fetch - processPackages [maskalib]: executing diffoscope
+[2024-05-29 03:07:44] INFO root fetch - processPackages [maskalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maskalib-0.2.tar.gz tmp/maskalib-0.5.tar.gz --markdown 20240529/m/maskalib/0.2-0.5/README.md --exclude *.pyd
+[2024-05-29 03:07:45] INFO root fetch - processPackages [annofabapi]: executing diffoscope
+[2024-05-29 03:07:45] INFO root fetch - processPackages [annofabapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabapi-0.9.0.tar.gz tmp/annofabapi-0.9.1.tar.gz --markdown 20240529/a/annofabapi/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-29 03:07:45] INFO root fetch - processPackages [maskalib]: Remove: archive file [/home/abi/fetcher/tmp/maskalib-0.2.tar.gz]
+[2024-05-29 03:07:45] INFO root fetch - processPackages [maskalib]: Remove: archive file [/home/abi/fetcher/tmp/maskalib-0.5.tar.gz]
+[2024-05-29 03:07:45] INFO root fetch - main [MainThread]: End processing [maskalib]: success
+[2024-05-29 03:07:45] INFO root fetch - processPackages [annofabapi]: Remove: archive file [/home/abi/fetcher/tmp/annofabapi-0.9.0.tar.gz]
+[2024-05-29 03:07:45] INFO root fetch - processPackages [annofabapi]: Remove: archive file [/home/abi/fetcher/tmp/annofabapi-0.9.1.tar.gz]
+[2024-05-29 03:07:45] INFO root fetch - main [MainThread]: End processing [annofabapi]: success
+[2024-05-29 03:07:45] INFO root fetch - main [MainThread]: Store serial: [23421593]
