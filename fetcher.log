@@ -2419,3 +2419,15 @@
 [2024-05-29 02:14:52] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.8.tar.gz]
 [2024-05-29 02:14:52] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
 [2024-05-29 02:14:52] INFO root fetch - main [MainThread]: Store serial: [23421131]
+[2024-05-29 02:16:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421131]
+[2024-05-29 02:17:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 02:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fortiedr
+[2024-05-29 02:17:00] INFO root fetch - processPackages [fortiedr]: New version: [3.6.8] Old Version: [3.6.7]
+[2024-05-29 02:17:01] INFO root fetch - processPackages [fortiedr]: Downloading https://files.pythonhosted.org/packages/3e/45/b1763cba2b05e64ce6a06787e3ac6fd37a1e8c09fa6baeb4f7f00160d9e6/fortiedr-3.6.7.tar.gz
+[2024-05-29 02:17:01] INFO root fetch - processPackages [fortiedr]: Downloading https://files.pythonhosted.org/packages/af/67/b1371604ba65d005ce85709b48be36a1b357ec1b376a3676dd12761f67e4/fortiedr-3.6.8.tar.gz
+[2024-05-29 02:17:01] INFO root fetch - processPackages [fortiedr]: executing diffoscope
+[2024-05-29 02:17:01] INFO root fetch - processPackages [fortiedr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortiedr-3.6.7.tar.gz tmp/fortiedr-3.6.8.tar.gz --markdown 20240529/f/fortiedr/3.6.7-3.6.8/README.md --exclude *.pyd
+[2024-05-29 02:17:02] INFO root fetch - processPackages [fortiedr]: Remove: archive file [/home/abi/fetcher/tmp/fortiedr-3.6.7.tar.gz]
+[2024-05-29 02:17:02] INFO root fetch - processPackages [fortiedr]: Remove: archive file [/home/abi/fetcher/tmp/fortiedr-3.6.8.tar.gz]
+[2024-05-29 02:17:02] INFO root fetch - main [MainThread]: End processing [fortiedr]: success
+[2024-05-29 02:17:02] INFO root fetch - main [MainThread]: Store serial: [23421180]
