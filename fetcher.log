@@ -12274,3 +12274,38 @@
 [2024-05-29 08:40:44] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
 [2024-05-29 08:40:44] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
 [2024-05-29 08:40:44] INFO root fetch - main [MainThread]: Store serial: [23425098]
+[2024-05-29 08:42:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425098]
+[2024-05-29 08:42:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 08:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenTTDLab
+[2024-05-29 08:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-tunneling
+[2024-05-29 08:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ralium
+[2024-05-29 08:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sanghyunjo
+[2024-05-29 08:42:53] INFO root fetch - processPackages [ralium]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-29 08:42:53] INFO root fetch - processPackages [sanghyunjo]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-29 08:42:53] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/72/fd/0545c2f43b1ac8b5a65c34db83f81863610880f1ddde372602949ce8daed/ralium-2.1.1.tar.gz
+[2024-05-29 08:42:53] INFO root fetch - processPackages [gradio-tunneling]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-29 08:42:53] INFO root fetch - processPackages [OpenTTDLab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 08:42:53] INFO root fetch - processPackages [sanghyunjo]: Downloading https://files.pythonhosted.org/packages/c3/91/021685356cc0dd2e38af510341fc5d8db5c0d7c00e17741c58743c5202da/sanghyunjo-1.4.2.tar.gz
+[2024-05-29 08:42:53] INFO root fetch - processPackages [gradio-tunneling]: Downloading https://files.pythonhosted.org/packages/5e/66/018fede011ab700ac13ff0c64ce595fe999a4b6dcf2004db7c790aefc3d4/gradio-tunneling-0.2.0.tar.gz
+[2024-05-29 08:42:53] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/1f/6e/f9d8e929738fb28f0cf285d806e9d1e0b273a3abd0c627b823c266f87274/openttdlab-0.0.8.tar.gz
+[2024-05-29 08:42:54] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/32/18/bfd701af7fe0540652d90bef067143c1abf10aca83e3489879cd2633cfef/ralium-2.1.2.tar.gz
+[2024-05-29 08:42:54] WARNING root fetch - processPackages [gradio-tunneling]: Skipping package: exceeds size limit 26423580>=10485760
+[2024-05-29 08:42:54] INFO root fetch - processPackages [ralium]: executing diffoscope
+[2024-05-29 08:42:54] INFO root fetch - processPackages [ralium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralium-2.1.1.tar.gz tmp/ralium-2.1.2.tar.gz --markdown 20240529/r/ralium/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-29 08:42:54] INFO root fetch - main [MainThread]: End processing [gradio-tunneling] error
+[2024-05-29 08:42:54] INFO root fetch - processPackages [sanghyunjo]: Downloading https://files.pythonhosted.org/packages/c9/fe/ae0fafb0f51265be21637d7a4a6cd5265983f1343e857d7a469d658ca936/sanghyunjo-1.4.3.tar.gz
+[2024-05-29 08:42:54] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/c9/28/0b49734d3f0e2b039817ac8dbe0930487e1d1764bc5c7cc16063210352e0/openttdlab-0.0.9.tar.gz
+[2024-05-29 08:42:54] INFO root fetch - processPackages [sanghyunjo]: executing diffoscope
+[2024-05-29 08:42:54] INFO root fetch - processPackages [sanghyunjo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanghyunjo-1.4.2.tar.gz tmp/sanghyunjo-1.4.3.tar.gz --markdown 20240529/s/sanghyunjo/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-29 08:42:54] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-2.1.1.tar.gz]
+[2024-05-29 08:42:54] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-2.1.2.tar.gz]
+[2024-05-29 08:42:54] INFO root fetch - main [MainThread]: End processing [ralium]: success
+[2024-05-29 08:42:54] INFO root fetch - processPackages [sanghyunjo]: Remove: archive file [/home/abi/fetcher/tmp/sanghyunjo-1.4.2.tar.gz]
+[2024-05-29 08:42:54] INFO root fetch - processPackages [sanghyunjo]: Remove: archive file [/home/abi/fetcher/tmp/sanghyunjo-1.4.3.tar.gz]
+[2024-05-29 08:42:54] INFO root fetch - main [MainThread]: End processing [sanghyunjo]: success
+[2024-05-29 08:42:55] INFO root fetch - processPackages [OpenTTDLab]: executing diffoscope
+[2024-05-29 08:42:55] INFO root fetch - processPackages [OpenTTDLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttdlab-0.0.8.tar.gz tmp/openttdlab-0.0.9.tar.gz --markdown 20240529/O/OpenTTDLab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 08:42:56] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.8.tar.gz]
+[2024-05-29 08:42:56] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.9.tar.gz]
+[2024-05-29 08:42:56] INFO root fetch - main [MainThread]: End processing [OpenTTDLab]: success
+[2024-05-29 08:42:56] INFO root fetch - main [MainThread]: Store serial: [23425121]
