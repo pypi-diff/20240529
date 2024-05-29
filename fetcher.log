@@ -3113,3 +3113,60 @@
 [2024-05-29 02:56:50] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-29 02:56:50] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-29 02:56:50] INFO root fetch - main [MainThread]: Store serial: [23421457]
+[2024-05-29 02:58:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421457]
+[2024-05-29 02:59:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 02:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GameStorageAPI
+[2024-05-29 02:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ethyca-fides
+[2024-05-29 02:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-honeybee
+[2024-05-29 02:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toltecmk
+[2024-05-29 02:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-emrserverless-with-delta-lake
+[2024-05-29 02:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-energy
+[2024-05-29 02:59:00] INFO root fetch - processPackages [GameStorageAPI]: New version: [1.1.19] Old Version: [1.1.18]
+[2024-05-29 02:59:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-29 02:59:00] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-29 02:59:00] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-29 02:59:00] INFO root fetch - processPackages [GameStorageAPI]: Downloading https://files.pythonhosted.org/packages/d7/80/6d4508c0baec540de0a069c34df5c34b28b66e59628cd6d619a763bd429f/gamestorageapi-1.1.18.tar.gz
+[2024-05-29 02:59:00] INFO root fetch - processPackages [toltecmk]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-29 02:59:00] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-29 02:59:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2024-05-29 02:59:00] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-05-29 02:59:00] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-05-29 02:59:00] INFO root fetch - processPackages [toltecmk]: Downloading https://files.pythonhosted.org/packages/99/8f/dba8a9fb2228726ccf16534b51c1ffcc30fe98fb31f27c217417d5a92f44/toltecmk-0.3.1.tar.gz
+[2024-05-29 02:59:00] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-05-29 02:59:00] INFO root fetch - processPackages [GameStorageAPI]: Downloading https://files.pythonhosted.org/packages/5a/be/0424c55f73f6c46af8e48bd76a2268c5a0e573c0a49127ab1859a7e79940/gamestorageapi-1.1.19.tar.gz
+[2024-05-29 02:59:00] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-05-29 02:59:01] INFO root fetch - processPackages [GameStorageAPI]: executing diffoscope
+[2024-05-29 02:59:01] INFO root fetch - processPackages [GameStorageAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamestorageapi-1.1.18.tar.gz tmp/gamestorageapi-1.1.19.tar.gz --markdown 20240529/G/GameStorageAPI/1.1.18-1.1.19/README.md --exclude *.pyd
+[2024-05-29 02:59:01] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-05-29 02:59:01] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240529/d/dragonfly-energy/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-29 02:59:01] INFO root fetch - processPackages [toltecmk]: Downloading https://files.pythonhosted.org/packages/7c/82/d6b241ac7b937dd576cac7ef6c98eee8db950be3fd96b4615494c91326e8/toltecmk-0.3.2.tar.gz
+[2024-05-29 02:59:01] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-05-29 02:59:01] INFO root fetch - processPackages [toltecmk]: executing diffoscope
+[2024-05-29 02:59:01] INFO root fetch - processPackages [toltecmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toltecmk-0.3.1.tar.gz tmp/toltecmk-0.3.2.tar.gz --markdown 20240529/t/toltecmk/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-29 02:59:01] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-05-29 02:59:01] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-05-29 02:59:01] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240529/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-29 02:59:01] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-05-29 02:59:01] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240529/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-29 02:59:01] INFO root fetch - processPackages [GameStorageAPI]: Remove: archive file [/home/abi/fetcher/tmp/gamestorageapi-1.1.18.tar.gz]
+[2024-05-29 02:59:01] INFO root fetch - processPackages [GameStorageAPI]: Remove: archive file [/home/abi/fetcher/tmp/gamestorageapi-1.1.19.tar.gz]
+[2024-05-29 02:59:01] INFO root fetch - main [MainThread]: End processing [GameStorageAPI]: success
+[2024-05-29 02:59:01] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2024-05-29 02:59:01] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-05-29 02:59:01] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-05-29 02:59:01] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-05-29 02:59:01] INFO root fetch - processPackages [toltecmk]: Remove: archive file [/home/abi/fetcher/tmp/toltecmk-0.3.1.tar.gz]
+[2024-05-29 02:59:01] INFO root fetch - processPackages [toltecmk]: Remove: archive file [/home/abi/fetcher/tmp/toltecmk-0.3.2.tar.gz]
+[2024-05-29 02:59:01] INFO root fetch - main [MainThread]: End processing [toltecmk]: success
+[2024-05-29 02:59:02] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2024-05-29 02:59:02] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20240529/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-29 02:59:02] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-05-29 02:59:02] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-05-29 02:59:02] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-05-29 02:59:02] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2024-05-29 02:59:02] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2024-05-29 02:59:02] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2024-05-29 02:59:04] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-05-29 02:59:04] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-05-29 02:59:04] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-05-29 02:59:04] INFO root fetch - main [MainThread]: Store serial: [23421479]
