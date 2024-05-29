@@ -2901,3 +2901,45 @@
 [2024-05-29 02:43:21] INFO root fetch - processPackages [azure-template]: Remove: archive file [/home/abi/fetcher/tmp/azure-template-0.1.0b971103.zip]
 [2024-05-29 02:43:21] INFO root fetch - main [MainThread]: End processing [azure-template]: success
 [2024-05-29 02:43:21] INFO root fetch - main [MainThread]: Store serial: [23421362]
+[2024-05-29 02:45:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421362]
+[2024-05-29 02:45:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 02:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vaul
+[2024-05-29 02:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-energy
+[2024-05-29 02:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkfile
+[2024-05-29 02:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2024-05-29 02:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GPTPlugins4All
+[2024-05-29 02:45:29] INFO root fetch - processPackages [checkfile]: New version: [85.43.56] Old Version: [85.43.55]
+[2024-05-29 02:45:29] INFO root fetch - processPackages [GPTPlugins4All]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 02:45:29] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405280044] Old Version: [4.9.4.dev202405270044]
+[2024-05-29 02:45:29] INFO root fetch - processPackages [checkfile]: Downloading https://files.pythonhosted.org/packages/2f/3a/c36f40ddea2156b0174486134018fb04043f83293b33580f60a08bbd725a/checkfile-85.43.55.tar.gz
+[2024-05-29 02:45:29] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/5a/b5/97b0775cb4c951d2872d6c4e33db266a0dba4dc2207a3dbac7ed55f6b995/GPTPlugins4All-1.0.8.tar.gz
+[2024-05-29 02:45:29] WARNING root fetch - processPackages [vaul]: Skipping, unable to determine old version
+[2024-05-29 02:45:29] INFO root fetch - main [MainThread]: End processing [vaul] error
+[2024-05-29 02:45:29] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2024-05-29 02:45:29] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/53/1b/0db1ea986da7e0e488f1a5a5c6168e6f5cfa4b0c7a3c3678cac2fd185597/tfds-nightly-4.9.4.dev202405270044.tar.gz
+[2024-05-29 02:45:30] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/fb/16/af06befd4a411c5c48cd6f713bca08893d0e33bde8c93250203608d1ef03/GPTPlugins4All-1.0.9.tar.gz
+[2024-05-29 02:45:30] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2024-05-29 02:45:30] INFO root fetch - processPackages [GPTPlugins4All]: executing diffoscope
+[2024-05-29 02:45:30] INFO root fetch - processPackages [GPTPlugins4All]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTPlugins4All-1.0.8.tar.gz tmp/GPTPlugins4All-1.0.9.tar.gz --markdown 20240529/G/GPTPlugins4All/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 02:45:30] INFO root fetch - processPackages [checkfile]: Downloading https://files.pythonhosted.org/packages/9e/8b/db0d840040e958df7c9a30e7b23952015364d7d9520001e18bfda5274b4e/checkfile-85.43.56.tar.gz
+[2024-05-29 02:45:30] INFO root fetch - processPackages [checkfile]: executing diffoscope
+[2024-05-29 02:45:30] INFO root fetch - processPackages [checkfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkfile-85.43.55.tar.gz tmp/checkfile-85.43.56.tar.gz --markdown 20240529/c/checkfile/85.43.55-85.43.56/README.md --exclude *.pyd
+[2024-05-29 02:45:30] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/c7/70/e0ee11eab02342a919faed18510ffe0964d9382b8a2a5a16c7c6bcc3453d/tfds-nightly-4.9.4.dev202405280044.tar.gz
+[2024-05-29 02:45:30] INFO root fetch - processPackages [checkfile]: Remove: archive file [/home/abi/fetcher/tmp/checkfile-85.43.55.tar.gz]
+[2024-05-29 02:45:30] INFO root fetch - processPackages [checkfile]: Remove: archive file [/home/abi/fetcher/tmp/checkfile-85.43.56.tar.gz]
+[2024-05-29 02:45:30] INFO root fetch - main [MainThread]: End processing [checkfile]: success
+[2024-05-29 02:45:30] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.8.tar.gz]
+[2024-05-29 02:45:30] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
+[2024-05-29 02:45:30] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
+[2024-05-29 02:45:30] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-29 02:45:30] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405270044.tar.gz tmp/tfds-nightly-4.9.4.dev202405280044.tar.gz --markdown 20240529/t/tfds-nightly/4.9.4.dev202405270044-4.9.4.dev202405280044/README.md --exclude *.pyd
+[2024-05-29 02:45:31] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2024-05-29 02:45:32] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2024-05-29 02:45:32] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20240529/h/honeybee-energy/1.99.8-1.99.9/README.md --exclude *.pyd
+[2024-05-29 02:45:33] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2024-05-29 02:45:33] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2024-05-29 02:45:33] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2024-05-29 02:45:39] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405270044.tar.gz]
+[2024-05-29 02:45:39] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405280044.tar.gz]
+[2024-05-29 02:45:39] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-29 02:45:39] INFO root fetch - main [MainThread]: Store serial: [23421380]
