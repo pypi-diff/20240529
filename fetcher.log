@@ -19930,3 +19930,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:17:11] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-4.5-py3-none-any.whl.zip]
 [2024-05-29 13:17:11] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
 [2024-05-29 13:17:11] INFO root fetch - main [MainThread]: Store serial: [23428755]
+[2024-05-29 13:19:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428755]
+[2024-05-29 13:19:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 13:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-SPODES
+[2024-05-29 13:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nnef-tools
+[2024-05-29 13:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edgartools
+[2024-05-29 13:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctrip-helper
+[2024-05-29 13:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pldag
+[2024-05-29 13:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eventum-core
+[2024-05-29 13:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wordhoard
+[2024-05-29 13:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-qanova
+[2024-05-29 13:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dialog-workflow-local
+[2024-05-29 13:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elephant-parsel
+[2024-05-29 13:19:20] INFO root fetch - processPackages [edgartools]: New version: [2.9.0] Old Version: [2.8.3]
+[2024-05-29 13:19:20] INFO root fetch - processPackages [eventum-core]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 13:19:20] INFO root fetch - processPackages [pytest-qanova]: New version: [0.1] Old Version: [0.0.1.dev1]
+[2024-05-29 13:19:20] WARNING root fetch - processPackages [ctrip-helper]: Skipping, unable to determine old version
+[2024-05-29 13:19:20] INFO root fetch - main [MainThread]: End processing [ctrip-helper] error
+[2024-05-29 13:19:20] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-29 13:19:20] INFO root fetch - processPackages [pldag]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-29 13:19:20] INFO root fetch - processPackages [nnef-tools]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-29 13:19:20] INFO root fetch - processPackages [eventum-core]: Downloading https://files.pythonhosted.org/packages/c2/0e/b0dc7b0a186ce4cc2c5a9b42059bd8596b0d2016ee646a7a8b56339ce04a/eventum_core-1.0.1.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [elephant-parsel]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-29 13:19:20] INFO root fetch - processPackages [wordhoard]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-05-29 13:19:20] INFO root fetch - processPackages [pytest-qanova]: Downloading https://files.pythonhosted.org/packages/d4/f6/67e82b5bddad122847f17cb018086f48a926bfc664cdc63cdfdb7462d83f/pytest_qanova-0.0.1.dev1-py3-none-any.whl
+[2024-05-29 13:19:20] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/a8/2b/5e6b55e7983ca014fe7a796baaaec599ab7bb9174c6229a6e5c49fe6dcc3/pldag-0.8.3.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [dialog-workflow-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 13:19:20] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/d8/c6/400200c18dfea8996fed257a419285ffb6839fac1a467836c0d47f525bfa/edgartools-2.8.3.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [nnef-tools]: Downloading https://files.pythonhosted.org/packages/58/0d/4616c7a3a117799f0aa386119283612e9553b450d0ae85c60c9bc15f4828/nnef_tools-1.0.4.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [wordhoard]: Downloading https://files.pythonhosted.org/packages/7c/94/b372f7b634989b3ad071f2c1eda3c4955c9c608fdccce8fa664f6a559aae/wordhoard-1.5.4.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [eventum-core]: Downloading https://files.pythonhosted.org/packages/bd/0b/d3c415b3a18be678cc5be2db014762597ed4f05128f8984bc0a63926540b/eventum_core-1.0.2.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [pytest-qanova]: Downloading https://files.pythonhosted.org/packages/aa/74/ed0187e689a1773ae5ae1238ce5bfea949eaac7f777e3c7d5032b95f2e10/pytest_qanova-0.1.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [elephant-parsel]: Downloading https://files.pythonhosted.org/packages/88/a8/416c174a1cfa418f167e7dd4a4e95a58cbecd9577daf05dec0bf4808f752/elephant_parsel-1.2.0.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/f7/bd/51813652bb5ff4377892328db1f2d0d0f38c7f284d00b5bb2af6724c3310/pldag-0.8.4.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/d7/1b/685106e77cf65c8cf8b6d89352922054ce5d7b8980732c303e96ea9deb86/dialog_workflow_local-0.0.98.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [eventum-core]: executing diffoscope
+[2024-05-29 13:19:20] INFO root fetch - processPackages [eventum-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventum_core-1.0.1.tar.gz tmp/eventum_core-1.0.2.tar.gz --markdown 20240529/e/eventum-core/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 13:19:20] INFO root fetch - processPackages [pytest-qanova]: executing diffoscope
+[2024-05-29 13:19:20] INFO root fetch - processPackages [pytest-qanova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_qanova-0.0.1.dev1-py3-none-any.whl.zip tmp/pytest_qanova-0.1.tar.gz --markdown 20240529/p/pytest-qanova/0.0.1.dev1-0.1/README.md --exclude *.pyd
+[2024-05-29 13:19:20] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/c6/e4/10d80214acd99a350add686b19eb2625613291c9bff643051d50b5aca766/edgartools-2.9.0.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-05-29 13:19:20] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.8.3.tar.gz tmp/pldag-0.8.4.tar.gz --markdown 20240529/p/pldag/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-29 13:19:20] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-05-29 13:19:20] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240529/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-29 13:19:20] INFO root fetch - processPackages [edgartools]: executing diffoscope
+[2024-05-29 13:19:20] INFO root fetch - processPackages [edgartools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgartools-2.8.3.tar.gz tmp/edgartools-2.9.0.tar.gz --markdown 20240529/e/edgartools/2.8.3-2.9.0/README.md --exclude *.pyd
+[2024-05-29 13:19:20] INFO root fetch - processPackages [nnef-tools]: Downloading https://files.pythonhosted.org/packages/1a/68/bf96510f6380be472700ac71a77592e09d0d9d712153c83021bec78aae27/nnef_tools-1.0.5.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [elephant-parsel]: Downloading https://files.pythonhosted.org/packages/f6/2a/92906f1942d26b5f29943f3fecce6fb93a2d963fed1b3b4519289d332d87/elephant_parsel-1.2.1.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/05/c3/6c26db02b10e70c46d216b7b8ce442c6d7069761960f4589837162999b2a/dialog_workflow_local-0.0.99.tar.gz
+[2024-05-29 13:19:20] INFO root fetch - processPackages [wordhoard]: Downloading https://files.pythonhosted.org/packages/de/c0/a26b78dfe1a50a49ca173b1ed7ccacfa0276c43520435aa40d8feba2004c/wordhoard-1.5.5.tar.gz
+[2024-05-29 13:19:21] INFO root fetch - processPackages [elephant-parsel]: executing diffoscope
+[2024-05-29 13:19:21] INFO root fetch - processPackages [elephant-parsel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elephant_parsel-1.2.0.tar.gz tmp/elephant_parsel-1.2.1.tar.gz --markdown 20240529/e/elephant-parsel/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-29 13:19:21] INFO root fetch - processPackages [nnef-tools]: executing diffoscope
+[2024-05-29 13:19:21] INFO root fetch - processPackages [nnef-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnef_tools-1.0.4.tar.gz tmp/nnef_tools-1.0.5.tar.gz --markdown 20240529/n/nnef-tools/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-29 13:19:21] INFO root fetch - processPackages [dialog-workflow-local]: executing diffoscope
+[2024-05-29 13:19:21] INFO root fetch - processPackages [dialog-workflow-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog_workflow_local-0.0.98.tar.gz tmp/dialog_workflow_local-0.0.99.tar.gz --markdown 20240529/d/dialog-workflow-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 13:19:21] INFO root fetch - processPackages [pytest-qanova]: Remove: archive file [/home/abi/fetcher/tmp/pytest_qanova-0.0.1.dev1-py3-none-any.whl.zip]
+[2024-05-29 13:19:21] INFO root fetch - processPackages [pytest-qanova]: Remove: archive file [/home/abi/fetcher/tmp/pytest_qanova-0.1.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - main [MainThread]: End processing [pytest-qanova]: success
+[2024-05-29 13:19:21] INFO root fetch - processPackages [wordhoard]: executing diffoscope
+[2024-05-29 13:19:21] INFO root fetch - processPackages [wordhoard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordhoard-1.5.4.tar.gz tmp/wordhoard-1.5.5.tar.gz --markdown 20240529/w/wordhoard/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-05-29 13:19:21] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.3.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.4.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-05-29 13:19:21] INFO root fetch - processPackages [eventum-core]: Remove: archive file [/home/abi/fetcher/tmp/eventum_core-1.0.1.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - processPackages [eventum-core]: Remove: archive file [/home/abi/fetcher/tmp/eventum_core-1.0.2.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - main [MainThread]: End processing [eventum-core]: success
+[2024-05-29 13:19:21] INFO root fetch - processPackages [elephant-parsel]: Remove: archive file [/home/abi/fetcher/tmp/elephant_parsel-1.2.0.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - processPackages [elephant-parsel]: Remove: archive file [/home/abi/fetcher/tmp/elephant_parsel-1.2.1.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - main [MainThread]: End processing [elephant-parsel]: success
+[2024-05-29 13:19:21] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-05-29 13:19:21] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog_workflow_local-0.0.98.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog_workflow_local-0.0.99.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
+[2024-05-29 13:19:21] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.8.3.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.9.0.tar.gz]
+[2024-05-29 13:19:21] INFO root fetch - main [MainThread]: End processing [edgartools]: success
+[2024-05-29 13:19:22] INFO root fetch - processPackages [wordhoard]: Remove: archive file [/home/abi/fetcher/tmp/wordhoard-1.5.4.tar.gz]
+[2024-05-29 13:19:22] INFO root fetch - processPackages [wordhoard]: Remove: archive file [/home/abi/fetcher/tmp/wordhoard-1.5.5.tar.gz]
+[2024-05-29 13:19:22] INFO root fetch - main [MainThread]: End processing [wordhoard]: success
+[2024-05-29 13:19:22] INFO root fetch - processPackages [nnef-tools]: Remove: archive file [/home/abi/fetcher/tmp/nnef_tools-1.0.4.tar.gz]
+[2024-05-29 13:19:22] INFO root fetch - processPackages [nnef-tools]: Remove: archive file [/home/abi/fetcher/tmp/nnef_tools-1.0.5.tar.gz]
+[2024-05-29 13:19:22] INFO root fetch - main [MainThread]: End processing [nnef-tools]: success
+[2024-05-29 13:19:22] INFO root fetch - main [MainThread]: Store serial: [23428784]
