@@ -9272,3 +9272,11 @@
 [2024-05-29 06:00:48] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-9.0.3.tar.gz]
 [2024-05-29 06:00:48] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
 [2024-05-29 06:00:48] INFO root fetch - main [MainThread]: Store serial: [23423787]
+[2024-05-29 06:02:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423787]
+[2024-05-29 06:02:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 06:02:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySide6-QtAds
+[2024-05-29 06:02:58] INFO root fetch - processPackages [PySide6-QtAds]: New version: [4.3.0] Old Version: [4.2.1.2]
+[2024-05-29 06:02:58] INFO root fetch - processPackages [PySide6-QtAds]: Downloading https://files.pythonhosted.org/packages/07/c0/b5a1823ef3293c90280b59453c3ed66d9a90ce47608f99e8082f064ae035/pyside6_qtads-4.2.1.2.tar.gz
+[2024-05-29 06:02:59] WARNING root fetch - processPackages [PySide6-QtAds]: Skipping package: exceeds size limit 21547568>=10485760
+[2024-05-29 06:02:59] INFO root fetch - main [MainThread]: End processing [PySide6-QtAds] error
+[2024-05-29 06:02:59] INFO root fetch - main [MainThread]: Store serial: [23423793]
