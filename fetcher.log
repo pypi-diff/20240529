@@ -20677,3 +20677,141 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:52:10] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
 [2024-05-29 13:52:10] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
 [2024-05-29 13:52:10] INFO root fetch - main [MainThread]: Store serial: [23429043]
+[2024-05-29 13:54:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429043]
+[2024-05-29 13:54:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codefuse-muagent
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phdu
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linien-common
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ethiack-job-manager
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linien-server
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linien-client
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linien-gui
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ANNarchy
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: standardbots
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chess-transformer
+[2024-05-29 13:54:19] INFO root fetch - processPackages [phdu]: New version: [2.4.7] Old Version: [2.4.6]
+[2024-05-29 13:54:19] INFO root fetch - processPackages [linien-client]: New version: [2.0.3rc1] Old Version: [2.0.2]
+[2024-05-29 13:54:19] INFO root fetch - processPackages [codefuse-muagent]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 13:54:19] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 13:54:19] INFO root fetch - processPackages [linien-common]: New version: [2.0.3rc1] Old Version: [2.0.2]
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ethiack-job-manager]: New version: [1.0.2rc1] Old Version: [1.0.1rc1]
+[2024-05-29 13:54:19] INFO root fetch - processPackages [linien-gui]: New version: [2.0.3rc1] Old Version: [2.0.2]
+[2024-05-29 13:54:19] INFO root fetch - processPackages [linien-server]: New version: [2.0.3rc1] Old Version: [2.0.2]
+[2024-05-29 13:54:19] INFO root fetch - processPackages [ANNarchy]: New version: [4.7.3] Old Version: [4.7.2.6]
+[2024-05-29 13:54:19] INFO root fetch - processPackages [standardbots]: New version: [2.20240401.9] Old Version: [2.20240401.8]
+[2024-05-29 13:54:20] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/17/9a/4eaffd0a6a3b549dde852c3725d047241701c2bfbd76111bc2bccccb0658/chess_transformer-0.1.8.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/36/a4/e2531363ee39431a037612b10bf5ebebe1353a93ff6171ed9040963f52d2/phdu-2.4.6.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [codefuse-muagent]: Downloading https://files.pythonhosted.org/packages/94/bc/628ad5b47723e5b47037e497d9e599ba2660428f8db86ae38cc3a722e9a2/codefuse_muagent-0.0.3.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/50/38/c585a003abb1b9a6e90d5357913689615d391de4c087ae9ec7fcc840d5a9/linien_common-2.0.2.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/a7/ad/6faa83f77eadf6c123b640a8ff8621f8aa46636f93d3ad93b07190dc45ff/linien_client-2.0.2.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [ethiack-job-manager]: Downloading https://files.pythonhosted.org/packages/81/0e/6e1b4a9ce6542d54d023b8252205ddfaa6c43fe372ac20db37c4a4656107/ethiack-job-manager-1.0.1rc1.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/c9/fa/0d33098216e40ce737a978b516f6d411185b920a041255826d58c1a9e934/linien_server-2.0.2.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/66/45/28555f082ddc3ea585244ffdbf34303a14b9400fd1102fcfb8a4d97c64ed/standardbots-2.20240401.8.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/a2/d6/9645af193d50d36d77129347905b7ea2e44046324ca80c20a93d9f710252/linien_gui-2.0.2.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/4f/74/8f9f90fc9650c1ef568ddd5d489568b0fc7b08928a1f50e176cfc3e57314/ANNarchy-4.7.2.6.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/ee/65/ac93cfdac6866e37c13a65533e65710bf7f19f73880bfb7a9eaeb907f8e0/chess_transformer-0.1.9.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/20/f7/38c84edf998f8fced31fd9a5b0cd64c602a92cc1f991efc1dabf9d546995/phdu-2.4.7.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-29 13:54:20] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.8.tar.gz tmp/chess_transformer-0.1.9.tar.gz --markdown 20240529/c/chess-transformer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 13:54:20] INFO root fetch - processPackages [codefuse-muagent]: Downloading https://files.pythonhosted.org/packages/ed/99/86573c9cb67ee53da1403ab805aa6a5f508ecc3b4317c71cd3045af95d35/codefuse_muagent-0.0.4.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/76/31/c402018718d3fa15d94e894762f3b09db9d01bc733b9216771505f353e1e/linien_client-2.0.3rc1.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [ethiack-job-manager]: Downloading https://files.pythonhosted.org/packages/b8/32/db6fcc54653281412284387b85150ea317ea278bb1b55daa65896355fff3/ethiack_job_manager-1.0.2rc1.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/9c/57/b23bb614c3478748fd840f81985c3f5b9ce0d7dd0de955e19416924ae3c6/linien_common-2.0.3rc1.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-05-29 13:54:20] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.4.6.tar.gz tmp/phdu-2.4.7.tar.gz --markdown 20240529/p/phdu/2.4.6-2.4.7/README.md --exclude *.pyd
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/a9/12/7a345903fd853dc96408822a4014a6d60ffbdbb8cb3ffa8e7d30db034904/linien_gui-2.0.3rc1.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/b7/cc/8c2a7c74bd2ec9235b0906537ab4d7cdb5b024af5a7a86aefb51b834ba74/standardbots-2.20240401.9.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_client-2.0.2.tar.gz tmp/linien_client-2.0.3rc1.tar.gz --markdown 20240529/l/linien-client/2.0.2-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-29 13:54:20] INFO root fetch - processPackages [codefuse-muagent]: executing diffoscope
+[2024-05-29 13:54:20] INFO root fetch - processPackages [codefuse-muagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefuse_muagent-0.0.3.tar.gz tmp/codefuse_muagent-0.0.4.tar.gz --markdown 20240529/c/codefuse-muagent/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 13:54:20] INFO root fetch - processPackages [ethiack-job-manager]: executing diffoscope
+[2024-05-29 13:54:20] INFO root fetch - processPackages [ethiack-job-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethiack-job-manager-1.0.1rc1.tar.gz tmp/ethiack_job_manager-1.0.2rc1.tar.gz --markdown 20240529/e/ethiack-job-manager/1.0.1rc1-1.0.2rc1/README.md --exclude *.pyd
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/2a/af/457d294dd4b6268e6a009a536cca22b63c85cce738418422012dd10e67f7/linien_server-2.0.3rc1.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2024-05-29 13:54:20] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_common-2.0.2.tar.gz tmp/linien_common-2.0.3rc1.tar.gz --markdown 20240529/l/linien-common/2.0.2-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-29 13:54:20] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/44/2d/fe085bdf742b650034e74415334d35214709d5c463b6077bb0f6a3bd9b59/ANNarchy-4.7.3.tar.gz
+[2024-05-29 13:54:20] INFO root fetch - processPackages [standardbots]: executing diffoscope
+[2024-05-29 13:54:20] INFO root fetch - processPackages [standardbots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/standardbots-2.20240401.8.tar.gz tmp/standardbots-2.20240401.9.tar.gz --markdown 20240529/s/standardbots/2.20240401.8-2.20240401.9/README.md --exclude *.pyd
+[2024-05-29 13:54:21] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2024-05-29 13:54:21] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_gui-2.0.2.tar.gz tmp/linien_gui-2.0.3rc1.tar.gz --markdown 20240529/l/linien-gui/2.0.2-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-29 13:54:21] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2024-05-29 13:54:21] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_server-2.0.2.tar.gz tmp/linien_server-2.0.3rc1.tar.gz --markdown 20240529/l/linien-server/2.0.2-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-29 13:54:21] INFO root fetch - processPackages [ANNarchy]: executing diffoscope
+[2024-05-29 13:54:21] INFO root fetch - processPackages [ANNarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANNarchy-4.7.2.6.tar.gz tmp/ANNarchy-4.7.3.tar.gz --markdown 20240529/A/ANNarchy/4.7.2.6-4.7.3/README.md --exclude *.pyd
+[2024-05-29 13:54:21] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.8.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.9.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [chess-transformer]: Start processing: dbt-af
+[2024-05-29 13:54:21] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-29 13:54:21] INFO root fetch - processPackages [dbt-af]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.6.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.7.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [phdu]: Start processing: jax-jynx
+[2024-05-29 13:54:21] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-05-29 13:54:21] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien_client-2.0.2.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien_client-2.0.3rc1.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [linien-client]: Start processing: yara-x
+[2024-05-29 13:54:21] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2024-05-29 13:54:21] INFO root fetch - processPackages [dbt-af]: Downloading https://files.pythonhosted.org/packages/c4/25/7316f97401fbab8341844c10ca644c1ca899f56679e8c2217d4d0ddf8ed1/dbt_af-0.4.3.tar.gz
+[2024-05-29 13:54:21] INFO root fetch - processPackages [jax-jynx]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [standardbots]: Remove: archive file [/home/abi/fetcher/tmp/standardbots-2.20240401.8.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [standardbots]: Remove: archive file [/home/abi/fetcher/tmp/standardbots-2.20240401.9.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [standardbots]: Start processing: pdfdeal
+[2024-05-29 13:54:21] INFO root fetch - main [MainThread]: End processing [standardbots]: success
+[2024-05-29 13:54:21] INFO root fetch - processPackages [ethiack-job-manager]: Remove: archive file [/home/abi/fetcher/tmp/ethiack-job-manager-1.0.1rc1.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [ethiack-job-manager]: Remove: archive file [/home/abi/fetcher/tmp/ethiack_job_manager-1.0.2rc1.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [ethiack-job-manager]: Start processing: FedJust
+[2024-05-29 13:54:21] INFO root fetch - main [MainThread]: End processing [ethiack-job-manager]: success
+[2024-05-29 13:54:21] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.2.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.3rc1.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2024-05-29 13:54:21] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien_common-2.0.2.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien_common-2.0.3rc1.tar.gz]
+[2024-05-29 13:54:21] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2024-05-29 13:54:22] INFO root fetch - processPackages [yara-x]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-29 13:54:22] INFO root fetch - processPackages [pdfdeal]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 13:54:22] INFO root fetch - processPackages [FedJust]: New version: [0.1.2.5] Old Version: [0.1.2.4]
+[2024-05-29 13:54:22] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien_server-2.0.2.tar.gz]
+[2024-05-29 13:54:22] INFO root fetch - processPackages [jax-jynx]: Downloading https://files.pythonhosted.org/packages/c0/8f/f31a58d2eff3784dd3c8cc67268b561eb0e63855643494fd07077ca907c3/jax_jynx-0.1.4.tar.gz
+[2024-05-29 13:54:22] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien_server-2.0.3rc1.tar.gz]
+[2024-05-29 13:54:22] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2024-05-29 13:54:22] INFO root fetch - processPackages [dbt-af]: Downloading https://files.pythonhosted.org/packages/a7/93/47f0c0b14b317b22732d55dba11ac0f719c48649eece95cccc70f4d142e3/dbt_af-0.5.0.tar.gz
+[2024-05-29 13:54:22] INFO root fetch - processPackages [codefuse-muagent]: Remove: archive file [/home/abi/fetcher/tmp/codefuse_muagent-0.0.3.tar.gz]
+[2024-05-29 13:54:22] INFO root fetch - processPackages [codefuse-muagent]: Remove: archive file [/home/abi/fetcher/tmp/codefuse_muagent-0.0.4.tar.gz]
+[2024-05-29 13:54:22] INFO root fetch - main [MainThread]: End processing [codefuse-muagent]: success
+[2024-05-29 13:54:22] INFO root fetch - processPackages [yara-x]: Downloading https://files.pythonhosted.org/packages/17/27/49f3647bae896a05a1b62a6b5d6dfce0ca6f6f6d7297dccadd78078de583/yara_x-0.3.0.tar.gz
+[2024-05-29 13:54:22] INFO root fetch - processPackages [pdfdeal]: Downloading https://files.pythonhosted.org/packages/4f/f3/f798d49292c866eb93e6c7a9593beeaf8d22d0037eb445643393ee6bca11/pdfdeal-0.0.1.tar.gz
+[2024-05-29 13:54:22] INFO root fetch - processPackages [FedJust]: Downloading https://files.pythonhosted.org/packages/77/36/a98293dedb5284071414e374cf796462e5cd891d3b16d945064744f0ddc4/fedjust-0.1.2.4.tar.gz
+[2024-05-29 13:54:22] INFO root fetch - processPackages [jax-jynx]: Downloading https://files.pythonhosted.org/packages/c2/d7/277abc51388e95fa29939001f19a58d1137e7da4155c3670eebe23be0515/jax_jynx-0.1.5.tar.gz
+[2024-05-29 13:54:22] INFO root fetch - processPackages [dbt-af]: executing diffoscope
+[2024-05-29 13:54:22] INFO root fetch - processPackages [dbt-af]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_af-0.4.3.tar.gz tmp/dbt_af-0.5.0.tar.gz --markdown 20240529/d/dbt-af/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-29 13:54:22] INFO root fetch - processPackages [jax-jynx]: executing diffoscope
+[2024-05-29 13:54:22] INFO root fetch - processPackages [jax-jynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_jynx-0.1.4.tar.gz tmp/jax_jynx-0.1.5.tar.gz --markdown 20240529/j/jax-jynx/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-29 13:54:22] INFO root fetch - processPackages [FedJust]: Downloading https://files.pythonhosted.org/packages/bc/74/fd8ebf8d5b6c40c5141ed72e68fd3be5160643c0b53a2cb32b3f79d5c0ff/fedjust-0.1.2.5.tar.gz
+[2024-05-29 13:54:22] INFO root fetch - processPackages [pdfdeal]: Downloading https://files.pythonhosted.org/packages/b7/93/c2bcd2a95021f09b966abe0346439673510f7973327fcb7984198151cee4/pdfdeal-0.0.2.tar.gz
+[2024-05-29 13:54:22] INFO root fetch - processPackages [yara-x]: Downloading https://files.pythonhosted.org/packages/ff/a0/c28846e9969da7a1636543982469d0eefe6091c593870edeb3d2ee9c670d/yara_x-0.4.0-pp38-pypy38_pp73-macosx_11_0_arm64.whl
+[2024-05-29 13:54:22] INFO root fetch - processPackages [FedJust]: executing diffoscope
+[2024-05-29 13:54:22] INFO root fetch - processPackages [FedJust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedjust-0.1.2.4.tar.gz tmp/fedjust-0.1.2.5.tar.gz --markdown 20240529/F/FedJust/0.1.2.4-0.1.2.5/README.md --exclude *.pyd
+[2024-05-29 13:54:22] INFO root fetch - processPackages [pdfdeal]: executing diffoscope
+[2024-05-29 13:54:22] INFO root fetch - processPackages [pdfdeal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfdeal-0.0.1.tar.gz tmp/pdfdeal-0.0.2.tar.gz --markdown 20240529/p/pdfdeal/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 13:54:23] INFO root fetch - processPackages [dbt-af]: Remove: archive file [/home/abi/fetcher/tmp/dbt_af-0.4.3.tar.gz]
+[2024-05-29 13:54:23] INFO root fetch - processPackages [dbt-af]: Remove: archive file [/home/abi/fetcher/tmp/dbt_af-0.5.0.tar.gz]
+[2024-05-29 13:54:23] INFO root fetch - main [MainThread]: End processing [dbt-af]: success
+[2024-05-29 13:54:23] INFO root fetch - processPackages [jax-jynx]: Remove: archive file [/home/abi/fetcher/tmp/jax_jynx-0.1.4.tar.gz]
+[2024-05-29 13:54:23] INFO root fetch - processPackages [jax-jynx]: Remove: archive file [/home/abi/fetcher/tmp/jax_jynx-0.1.5.tar.gz]
+[2024-05-29 13:54:23] INFO root fetch - main [MainThread]: End processing [jax-jynx]: success
+[2024-05-29 13:54:23] INFO root fetch - processPackages [FedJust]: Remove: archive file [/home/abi/fetcher/tmp/fedjust-0.1.2.4.tar.gz]
+[2024-05-29 13:54:23] INFO root fetch - processPackages [FedJust]: Remove: archive file [/home/abi/fetcher/tmp/fedjust-0.1.2.5.tar.gz]
+[2024-05-29 13:54:23] INFO root fetch - main [MainThread]: End processing [FedJust]: success
+[2024-05-29 13:54:23] INFO root fetch - processPackages [pdfdeal]: Remove: archive file [/home/abi/fetcher/tmp/pdfdeal-0.0.1.tar.gz]
+[2024-05-29 13:54:23] INFO root fetch - processPackages [pdfdeal]: Remove: archive file [/home/abi/fetcher/tmp/pdfdeal-0.0.2.tar.gz]
+[2024-05-29 13:54:23] INFO root fetch - main [MainThread]: End processing [pdfdeal]: success
+[2024-05-29 13:54:24] INFO root fetch - processPackages [ANNarchy]: Remove: archive file [/home/abi/fetcher/tmp/ANNarchy-4.7.2.6.tar.gz]
+[2024-05-29 13:54:24] INFO root fetch - processPackages [ANNarchy]: Remove: archive file [/home/abi/fetcher/tmp/ANNarchy-4.7.3.tar.gz]
+[2024-05-29 13:54:24] INFO root fetch - main [MainThread]: End processing [ANNarchy]: success
+[2024-05-29 13:54:26] INFO root fetch - processPackages [yara-x]: executing diffoscope
+[2024-05-29 13:54:26] INFO root fetch - processPackages [yara-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yara_x-0.3.0.tar.gz tmp/yara_x-0.4.0-pp38-pypy38_pp73-macosx_11_0_arm64.whl.zip --markdown 20240529/y/yara-x/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-29 13:54:27] INFO root fetch - processPackages [yara-x]: Remove: archive file [/home/abi/fetcher/tmp/yara_x-0.3.0.tar.gz]
+[2024-05-29 13:54:27] INFO root fetch - processPackages [yara-x]: Remove: archive file [/home/abi/fetcher/tmp/yara_x-0.4.0-pp38-pypy38_pp73-macosx_11_0_arm64.whl.zip]
+[2024-05-29 13:54:27] INFO root fetch - main [MainThread]: End processing [yara-x]: success
+[2024-05-29 13:54:27] INFO root fetch - main [MainThread]: Store serial: [23429096]
