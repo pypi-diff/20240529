@@ -16896,3 +16896,63 @@
 [2024-05-29 11:27:50] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.0.tar.gz]
 [2024-05-29 11:27:50] INFO root fetch - main [MainThread]: End processing [iac-init]: success
 [2024-05-29 11:27:50] INFO root fetch - main [MainThread]: Store serial: [23427318]
+[2024-05-29 11:29:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427318]
+[2024-05-29 11:30:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 11:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comet-mpm
+[2024-05-29 11:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trickkiste
+[2024-05-29 11:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prototwin-cmdbuff
+[2024-05-29 11:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nomad-media-pip
+[2024-05-29 11:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eradiate
+[2024-05-29 11:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata-search-service
+[2024-05-29 11:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spark-congruity
+[2024-05-29 11:30:02] WARNING root fetch - processPackages [prototwin-cmdbuff]: Skipping, unable to determine old version
+[2024-05-29 11:30:02] INFO root fetch - main [MainThread]: End processing [prototwin-cmdbuff] error
+[2024-05-29 11:30:02] INFO root fetch - processPackages [nomad-media-pip]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 11:30:02] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/89/17/9542f18838ecc3189b9eaaec4a7ccfe38f999660bb42c8092050b37835fd/nomad_media_pip-0.0.98.tar.gz
+[2024-05-29 11:30:02] INFO root fetch - processPackages [comet-mpm]: New version: [1.0.0] Old Version: [0.8.0]
+[2024-05-29 11:30:02] INFO root fetch - processPackages [eradiate]: New version: [0.27.0rc1] Old Version: [0.27.0rc0]
+[2024-05-29 11:30:02] INFO root fetch - processPackages [spark-congruity]: New version: [0.0.1rc4] Old Version: [0.0.1rc3]
+[2024-05-29 11:30:02] INFO root fetch - processPackages [trickkiste]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 11:30:02] INFO root fetch - processPackages [udata-search-service]: New version: [2.0.3.dev272] Old Version: [2.0.3.dev265]
+[2024-05-29 11:30:02] INFO root fetch - processPackages [comet-mpm]: Downloading https://files.pythonhosted.org/packages/97/c4/aff4df93f33ac586578a4c052d94ec12b7609fe4d406364aac9d6999b440/comet_mpm-0.8.0.tar.gz
+[2024-05-29 11:30:02] INFO root fetch - processPackages [trickkiste]: Downloading https://files.pythonhosted.org/packages/78/e0/58eb92fd05bdc4a4bd61a05240173799ae511f7dbad7859e00f39d1d507e/trickkiste-0.0.8.tar.gz
+[2024-05-29 11:30:02] INFO root fetch - processPackages [eradiate]: Downloading https://files.pythonhosted.org/packages/e3/c4/4b258bf1bdd5ef0635343ca3dd326ef0744ac0e391e8e3cc3286c92e735b/eradiate-0.27.0rc0.tar.gz
+[2024-05-29 11:30:02] INFO root fetch - processPackages [spark-congruity]: Downloading https://files.pythonhosted.org/packages/41/de/7ebccc812dc4472c36fd8300eaa18d57c2e1c016cedc90c1655691f762a4/spark_congruity-0.0.1rc3.tar.gz
+[2024-05-29 11:30:03] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/2b/93/9572cd6061f7b751abb490b170eb8add5795cf245ede93c0b7d20b885a13/nomad_media_pip-0.0.99.tar.gz
+[2024-05-29 11:30:03] INFO root fetch - processPackages [udata-search-service]: Downloading https://files.pythonhosted.org/packages/fe/4c/55f65cb694051b8ecf6a2d9da9cacc41c47c0d9f71be99339b31b8560212/udata_search_service-2.0.3.dev265.tar.gz
+[2024-05-29 11:30:03] INFO root fetch - processPackages [nomad-media-pip]: executing diffoscope
+[2024-05-29 11:30:03] INFO root fetch - processPackages [nomad-media-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_media_pip-0.0.98.tar.gz tmp/nomad_media_pip-0.0.99.tar.gz --markdown 20240529/n/nomad-media-pip/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 11:30:03] INFO root fetch - processPackages [comet-mpm]: Downloading https://files.pythonhosted.org/packages/57/28/61125d4a3d0dfbc69f2f4f82996319e7f47f850081c5385420399543fb32/comet_mpm-1.0.0.tar.gz
+[2024-05-29 11:30:03] INFO root fetch - processPackages [trickkiste]: Downloading https://files.pythonhosted.org/packages/c9/fe/c51598ca690974fec9d5b33dd72f6a37c647780087293eec5f61c46deefe/trickkiste-0.0.9.tar.gz
+[2024-05-29 11:30:03] INFO root fetch - processPackages [spark-congruity]: Downloading https://files.pythonhosted.org/packages/60/76/5878598d2e8955028fb41f2db8ad9976f14f54db0877921a131c6e197ace/spark_congruity-0.0.1rc4.tar.gz
+[2024-05-29 11:30:03] INFO root fetch - processPackages [udata-search-service]: Downloading https://files.pythonhosted.org/packages/80/86/0ae627712ea5eb641fa765bd043cbce19bb8561653fafebb1891a842ca24/udata_search_service-2.0.3.dev272.tar.gz
+[2024-05-29 11:30:03] INFO root fetch - processPackages [eradiate]: Downloading https://files.pythonhosted.org/packages/2a/94/69d5a146546d41c30574abebaf22c55761c19e50b0dfd182ebf0a0065567/eradiate-0.27.0rc1.tar.gz
+[2024-05-29 11:30:03] INFO root fetch - processPackages [comet-mpm]: executing diffoscope
+[2024-05-29 11:30:03] INFO root fetch - processPackages [comet-mpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_mpm-0.8.0.tar.gz tmp/comet_mpm-1.0.0.tar.gz --markdown 20240529/c/comet-mpm/0.8.0-1.0.0/README.md --exclude *.pyd
+[2024-05-29 11:30:03] INFO root fetch - processPackages [trickkiste]: executing diffoscope
+[2024-05-29 11:30:03] INFO root fetch - processPackages [trickkiste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trickkiste-0.0.8.tar.gz tmp/trickkiste-0.0.9.tar.gz --markdown 20240529/t/trickkiste/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 11:30:03] INFO root fetch - processPackages [spark-congruity]: executing diffoscope
+[2024-05-29 11:30:03] INFO root fetch - processPackages [spark-congruity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_congruity-0.0.1rc3.tar.gz tmp/spark_congruity-0.0.1rc4.tar.gz --markdown 20240529/s/spark-congruity/0.0.1rc3-0.0.1rc4/README.md --exclude *.pyd
+[2024-05-29 11:30:03] INFO root fetch - processPackages [udata-search-service]: executing diffoscope
+[2024-05-29 11:30:03] INFO root fetch - processPackages [udata-search-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_search_service-2.0.3.dev265.tar.gz tmp/udata_search_service-2.0.3.dev272.tar.gz --markdown 20240529/u/udata-search-service/2.0.3.dev265-2.0.3.dev272/README.md --exclude *.pyd
+[2024-05-29 11:30:03] INFO root fetch - processPackages [eradiate]: executing diffoscope
+[2024-05-29 11:30:03] INFO root fetch - processPackages [eradiate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eradiate-0.27.0rc0.tar.gz tmp/eradiate-0.27.0rc1.tar.gz --markdown 20240529/e/eradiate/0.27.0rc0-0.27.0rc1/README.md --exclude *.pyd
+[2024-05-29 11:30:04] INFO root fetch - processPackages [trickkiste]: Remove: archive file [/home/abi/fetcher/tmp/trickkiste-0.0.8.tar.gz]
+[2024-05-29 11:30:04] INFO root fetch - processPackages [trickkiste]: Remove: archive file [/home/abi/fetcher/tmp/trickkiste-0.0.9.tar.gz]
+[2024-05-29 11:30:04] INFO root fetch - main [MainThread]: End processing [trickkiste]: success
+[2024-05-29 11:30:04] INFO root fetch - processPackages [comet-mpm]: Remove: archive file [/home/abi/fetcher/tmp/comet_mpm-0.8.0.tar.gz]
+[2024-05-29 11:30:04] INFO root fetch - processPackages [comet-mpm]: Remove: archive file [/home/abi/fetcher/tmp/comet_mpm-1.0.0.tar.gz]
+[2024-05-29 11:30:04] INFO root fetch - main [MainThread]: End processing [comet-mpm]: success
+[2024-05-29 11:30:04] INFO root fetch - processPackages [spark-congruity]: Remove: archive file [/home/abi/fetcher/tmp/spark_congruity-0.0.1rc3.tar.gz]
+[2024-05-29 11:30:04] INFO root fetch - processPackages [spark-congruity]: Remove: archive file [/home/abi/fetcher/tmp/spark_congruity-0.0.1rc4.tar.gz]
+[2024-05-29 11:30:04] INFO root fetch - main [MainThread]: End processing [spark-congruity]: success
+[2024-05-29 11:30:04] INFO root fetch - processPackages [udata-search-service]: Remove: archive file [/home/abi/fetcher/tmp/udata_search_service-2.0.3.dev265.tar.gz]
+[2024-05-29 11:30:04] INFO root fetch - processPackages [udata-search-service]: Remove: archive file [/home/abi/fetcher/tmp/udata_search_service-2.0.3.dev272.tar.gz]
+[2024-05-29 11:30:04] INFO root fetch - main [MainThread]: End processing [udata-search-service]: success
+[2024-05-29 11:30:06] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.98.tar.gz]
+[2024-05-29 11:30:06] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
+[2024-05-29 11:30:06] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
+[2024-05-29 11:30:06] INFO root fetch - processPackages [eradiate]: Remove: archive file [/home/abi/fetcher/tmp/eradiate-0.27.0rc0.tar.gz]
+[2024-05-29 11:30:06] INFO root fetch - processPackages [eradiate]: Remove: archive file [/home/abi/fetcher/tmp/eradiate-0.27.0rc1.tar.gz]
+[2024-05-29 11:30:06] INFO root fetch - main [MainThread]: End processing [eradiate]: success
+[2024-05-29 11:30:06] INFO root fetch - main [MainThread]: Store serial: [23427412]
