@@ -9387,3 +9387,36 @@
 [2024-05-29 06:11:40] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-1.0.0.tar.gz]
 [2024-05-29 06:11:40] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
 [2024-05-29 06:11:40] INFO root fetch - main [MainThread]: Store serial: [23423825]
+[2024-05-29 06:13:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423825]
+[2024-05-29 06:13:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 06:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AlphaDSSP
+[2024-05-29 06:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sima-torch
+[2024-05-29 06:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neurosym
+[2024-05-29 06:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aicamera
+[2024-05-29 06:13:50] INFO root fetch - processPackages [neurosym]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 06:13:50] WARNING root fetch - processPackages [sima-torch]: Skipping, unable to determine old version
+[2024-05-29 06:13:50] INFO root fetch - main [MainThread]: End processing [sima-torch] error
+[2024-05-29 06:13:50] INFO root fetch - processPackages [aicamera]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-29 06:13:50] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/66/87/42efcd2dada44045cddbcc64177bfa822d2cd1915ad9f075c81d65cdd137/neurosym-0.0.8.tar.gz
+[2024-05-29 06:13:50] INFO root fetch - processPackages [AlphaDSSP]: New version: [0.4.1] Old Version: [0.4]
+[2024-05-29 06:13:50] INFO root fetch - processPackages [aicamera]: Downloading https://files.pythonhosted.org/packages/7e/b2/16fa80995b19ef0733756d2963fbf2993ae6aa76bc6ae30190086c59e6ae/aicamera-2.0.0-py3-none-any.whl
+[2024-05-29 06:13:50] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/b3/d9/0fd09f28366b6afe07c9b07022c327cfcb05f4c54ad12dc10fcb86d94884/neurosym-0.0.9.tar.gz
+[2024-05-29 06:13:51] INFO root fetch - processPackages [AlphaDSSP]: Downloading https://files.pythonhosted.org/packages/d0/99/27e84823bbd0946b4fccef22b664c8eac22d7986d6870936857a14142e14/AlphaDSSP-0.4.tar.gz
+[2024-05-29 06:13:51] INFO root fetch - processPackages [neurosym]: executing diffoscope
+[2024-05-29 06:13:51] INFO root fetch - processPackages [neurosym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosym-0.0.8.tar.gz tmp/neurosym-0.0.9.tar.gz --markdown 20240529/n/neurosym/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 06:13:51] INFO root fetch - processPackages [aicamera]: Downloading https://files.pythonhosted.org/packages/5e/5a/79a2b5b010c9fbc8075610c34d8ac644b2bdace813d0529705eb778ece73/aicamera-2.1.0.tar.gz
+[2024-05-29 06:13:51] INFO root fetch - processPackages [AlphaDSSP]: Downloading https://files.pythonhosted.org/packages/79/9b/fce5baacc81ebcd1caef2f6f1e2b88c5569fa948aaf6c70321c121f8b5bd/AlphaDSSP-0.4.1.tar.gz
+[2024-05-29 06:13:51] INFO root fetch - processPackages [aicamera]: executing diffoscope
+[2024-05-29 06:13:51] INFO root fetch - processPackages [aicamera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicamera-2.0.0-py3-none-any.whl.zip tmp/aicamera-2.1.0.tar.gz --markdown 20240529/a/aicamera/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-29 06:13:51] INFO root fetch - processPackages [AlphaDSSP]: executing diffoscope
+[2024-05-29 06:13:51] INFO root fetch - processPackages [AlphaDSSP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlphaDSSP-0.4.tar.gz tmp/AlphaDSSP-0.4.1.tar.gz --markdown 20240529/A/AlphaDSSP/0.4-0.4.1/README.md --exclude *.pyd
+[2024-05-29 06:13:51] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.8.tar.gz]
+[2024-05-29 06:13:51] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
+[2024-05-29 06:13:51] INFO root fetch - main [MainThread]: End processing [neurosym]: success
+[2024-05-29 06:13:52] INFO root fetch - processPackages [aicamera]: Remove: archive file [/home/abi/fetcher/tmp/aicamera-2.0.0-py3-none-any.whl.zip]
+[2024-05-29 06:13:52] INFO root fetch - processPackages [aicamera]: Remove: archive file [/home/abi/fetcher/tmp/aicamera-2.1.0.tar.gz]
+[2024-05-29 06:13:52] INFO root fetch - main [MainThread]: End processing [aicamera]: success
+[2024-05-29 06:13:52] INFO root fetch - processPackages [AlphaDSSP]: Remove: archive file [/home/abi/fetcher/tmp/AlphaDSSP-0.4.tar.gz]
+[2024-05-29 06:13:52] INFO root fetch - processPackages [AlphaDSSP]: Remove: archive file [/home/abi/fetcher/tmp/AlphaDSSP-0.4.1.tar.gz]
+[2024-05-29 06:13:52] INFO root fetch - main [MainThread]: End processing [AlphaDSSP]: success
+[2024-05-29 06:13:52] INFO root fetch - main [MainThread]: Store serial: [23423839]
