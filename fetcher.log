@@ -2506,3 +2506,65 @@
 [2024-05-29 02:19:13] INFO root fetch - processPackages [mscerts]: Remove: archive file [/home/abi/fetcher/tmp/mscerts-2024.3.27.tar.gz]
 [2024-05-29 02:19:13] INFO root fetch - main [MainThread]: End processing [mscerts]: success
 [2024-05-29 02:19:13] INFO root fetch - main [MainThread]: Store serial: [23421202]
+[2024-05-29 02:21:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421202]
+[2024-05-29 02:21:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 02:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nmuwd
+[2024-05-29 02:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-budibase
+[2024-05-29 02:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spindrift
+[2024-05-29 02:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GameStorageAPI
+[2024-05-29 02:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.cdk-ethereum-node
+[2024-05-29 02:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-computer-assistant
+[2024-05-29 02:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-cr-constructs
+[2024-05-29 02:21:23] INFO root fetch - processPackages [gpt-computer-assistant]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-29 02:21:23] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 02:21:23] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.469] Old Version: [2.1.468]
+[2024-05-29 02:21:23] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 02:21:23] INFO root fetch - processPackages [spindrift]: New version: [4.7] Old Version: [4.6]
+[2024-05-29 02:21:23] INFO root fetch - processPackages [GameStorageAPI]: New version: [1.1.18] Old Version: [0.1.16]
+[2024-05-29 02:21:23] INFO root fetch - processPackages [nmuwd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 02:21:23] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/0d/51/d7a378273e20f14017eca70ce30edb3f54ffc6f43e9407281a996df5c876/gpt_computer_assistant-0.5.0.tar.gz
+[2024-05-29 02:21:23] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-05-29 02:21:23] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-29 02:21:24] INFO root fetch - processPackages [spindrift]: Downloading https://files.pythonhosted.org/packages/e6/6d/c6b006d94e7cd2aed134939af6b367f3a01a2d399634d5150c8c87b08119/spindrift-4.6-py3-none-any.whl
+[2024-05-29 02:21:24] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/5e/7e/605a63af0a331b503ba3969df2b01ff6b17a5b5acd062d75ca14f9945b6f/cdk-cr-constructs-2.1.468.tar.gz
+[2024-05-29 02:21:24] INFO root fetch - processPackages [GameStorageAPI]: Downloading https://files.pythonhosted.org/packages/85/37/75b52303609e69d2a5f9d905537e1b9a649155c7cd168100167aeba7be76/gamestorageapi-0.1.16.tar.gz
+[2024-05-29 02:21:24] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15124255>=10485760
+[2024-05-29 02:21:24] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-29 02:21:24] INFO root fetch - processPackages [nmuwd]: Downloading https://files.pythonhosted.org/packages/44/fd/a1141ab1fbf3ce08581a4159c3eb398fb0620311dfc3d6fbac1da254424b/nmuwd-0.0.8.tar.gz
+[2024-05-29 02:21:24] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-29 02:21:24] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-05-29 02:21:24] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/20/e2/2a13e2338335980629b1ad5904c2b5e855ec660fce92b9966642b10d62f5/gpt_computer_assistant-0.5.1.tar.gz
+[2024-05-29 02:21:24] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-29 02:21:24] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240529/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 02:21:24] INFO root fetch - processPackages [GameStorageAPI]: Downloading https://files.pythonhosted.org/packages/d7/80/6d4508c0baec540de0a069c34df5c34b28b66e59628cd6d619a763bd429f/gamestorageapi-1.1.18.tar.gz
+[2024-05-29 02:21:24] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-05-29 02:21:24] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240529/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 02:21:24] INFO root fetch - processPackages [spindrift]: Downloading https://files.pythonhosted.org/packages/ba/7a/ad2d3f9098a65fd0521e33874323fd780666656ffca9092a803a891c382f/spindrift-4.7-py3-none-any.whl
+[2024-05-29 02:21:24] INFO root fetch - processPackages [gpt-computer-assistant]: executing diffoscope
+[2024-05-29 02:21:24] INFO root fetch - processPackages [gpt-computer-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_computer_assistant-0.5.0.tar.gz tmp/gpt_computer_assistant-0.5.1.tar.gz --markdown 20240529/g/gpt-computer-assistant/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-29 02:21:24] INFO root fetch - processPackages [GameStorageAPI]: executing diffoscope
+[2024-05-29 02:21:24] INFO root fetch - processPackages [GameStorageAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamestorageapi-0.1.16.tar.gz tmp/gamestorageapi-1.1.18.tar.gz --markdown 20240529/G/GameStorageAPI/0.1.16-1.1.18/README.md --exclude *.pyd
+[2024-05-29 02:21:24] INFO root fetch - processPackages [nmuwd]: Downloading https://files.pythonhosted.org/packages/b0/79/c49606bf1da5c61a7c9c0f89274582bbca3825388d388dafae7938b040c0/nmuwd-0.0.9.tar.gz
+[2024-05-29 02:21:24] INFO root fetch - processPackages [spindrift]: executing diffoscope
+[2024-05-29 02:21:24] INFO root fetch - processPackages [spindrift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spindrift-4.6-py3-none-any.whl.zip tmp/spindrift-4.7-py3-none-any.whl.zip --markdown 20240529/s/spindrift/4.6-4.7/README.md --exclude *.pyd
+[2024-05-29 02:21:24] INFO root fetch - processPackages [nmuwd]: executing diffoscope
+[2024-05-29 02:21:24] INFO root fetch - processPackages [nmuwd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmuwd-0.0.8.tar.gz tmp/nmuwd-0.0.9.tar.gz --markdown 20240529/n/nmuwd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 02:21:25] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-05-29 02:21:25] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-05-29 02:21:25] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-05-29 02:21:25] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-29 02:21:25] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-29 02:21:25] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-29 02:21:25] INFO root fetch - processPackages [spindrift]: Remove: archive file [/home/abi/fetcher/tmp/spindrift-4.6-py3-none-any.whl.zip]
+[2024-05-29 02:21:25] INFO root fetch - processPackages [spindrift]: Remove: archive file [/home/abi/fetcher/tmp/spindrift-4.7-py3-none-any.whl.zip]
+[2024-05-29 02:21:25] INFO root fetch - main [MainThread]: End processing [spindrift]: success
+[2024-05-29 02:21:25] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.0.tar.gz]
+[2024-05-29 02:21:25] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.1.tar.gz]
+[2024-05-29 02:21:25] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant]: success
+[2024-05-29 02:21:25] INFO root fetch - processPackages [nmuwd]: Remove: archive file [/home/abi/fetcher/tmp/nmuwd-0.0.8.tar.gz]
+[2024-05-29 02:21:25] INFO root fetch - processPackages [nmuwd]: Remove: archive file [/home/abi/fetcher/tmp/nmuwd-0.0.9.tar.gz]
+[2024-05-29 02:21:25] INFO root fetch - main [MainThread]: End processing [nmuwd]: success
+[2024-05-29 02:21:25] INFO root fetch - processPackages [GameStorageAPI]: Remove: archive file [/home/abi/fetcher/tmp/gamestorageapi-0.1.16.tar.gz]
+[2024-05-29 02:21:25] INFO root fetch - processPackages [GameStorageAPI]: Remove: archive file [/home/abi/fetcher/tmp/gamestorageapi-1.1.18.tar.gz]
+[2024-05-29 02:21:25] INFO root fetch - main [MainThread]: End processing [GameStorageAPI]: success
+[2024-05-29 02:21:25] INFO root fetch - main [MainThread]: Store serial: [23421221]
