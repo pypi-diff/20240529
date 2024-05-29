@@ -19245,3 +19245,51 @@
 [2024-05-29 12:56:12] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-29 12:56:12] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-05-29 12:56:12] INFO root fetch - main [MainThread]: Store serial: [23428489]
+[2024-05-29 12:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428489]
+[2024-05-29 12:58:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 12:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maskalib
+[2024-05-29 12:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: literalai
+[2024-05-29 12:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-base
+[2024-05-29 12:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-cli
+[2024-05-29 12:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-dso
+[2024-05-29 12:58:22] INFO root fetch - processPackages [literalai]: New version: [0.0.603] Old Version: [0.0.602]
+[2024-05-29 12:58:22] INFO root fetch - processPackages [maskalib]: New version: [0.5] Old Version: [0.2]
+[2024-05-29 12:58:22] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/b8/a0/2e8d4f69efbf1643872ec5241e4fae640623053f135b77ceca0f9b4cde99/literalai-0.0.602.tar.gz
+[2024-05-29 12:58:22] INFO root fetch - processPackages [maskalib]: Downloading https://files.pythonhosted.org/packages/b6/a3/09e6972cb6ce11cc2e2a9cff01b2d8cb8e4baaf26728d82ab590dbc66540/maskalib-0.2.tar.gz
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2403.0] Old Version: [1.2402.0]
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2403.0] Old Version: [1.2402.0]
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2403.0] Old Version: [1.2402.0]
+[2024-05-29 12:58:23] INFO root fetch - processPackages [maskalib]: Downloading https://files.pythonhosted.org/packages/6f/66/422546f232353c4ee5cd9c68f6857daf019a121e50a1d1920bf26f34a89c/maskalib-0.5.tar.gz
+[2024-05-29 12:58:23] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/48/f3/25c532f5b41dec39e540b58d626ee1848f499e02d8b265bbc29d013b6288/literalai-0.0.603.tar.gz
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/10/fc/df9e76b827f3415e7a5aead5c1b4502e730341b7879080261ce8ed08b544/gardener_cicd_base-1.2402.0.tar.gz
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/fb/6a/fcd0eb1bf2af32a1885507885a952212022032c8372efe682ee749ce55d3/gardener_cicd_cli-1.2402.0.tar.gz
+[2024-05-29 12:58:23] INFO root fetch - processPackages [maskalib]: executing diffoscope
+[2024-05-29 12:58:23] INFO root fetch - processPackages [maskalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maskalib-0.2.tar.gz tmp/maskalib-0.5.tar.gz --markdown 20240529/m/maskalib/0.2-0.5/README.md --exclude *.pyd
+[2024-05-29 12:58:23] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-05-29 12:58:23] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.602.tar.gz tmp/literalai-0.0.603.tar.gz --markdown 20240529/l/literalai/0.0.602-0.0.603/README.md --exclude *.pyd
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/09/7e/ab26a265464f1a234fcc4eb827de4bd52c28f44ccf1c6baced82ab0e9424/gardener_cicd_dso-1.2402.0.tar.gz
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/7c/3e/c722b6cbe8eead5b5e95adab43a40ae3967e460196dd5403fcc9fc2c476a/gardener_cicd_cli-1.2403.0-py3-none-any.whl
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/0d/68/4597d6a3f9c208c608092a9873769eb9ffbf2d9a60fa111f61c96af62001/gardener_cicd_base-1.2403.0-py3-none-any.whl
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/74/90/7f0a38d1e90349da46a3ac065747bf01fc5b696f512fb51d73619779a65f/gardener_cicd_dso-1.2403.0-py3-none-any.whl
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2402.0.tar.gz tmp/gardener_cicd_cli-1.2403.0-py3-none-any.whl.zip --markdown 20240529/g/gardener-cicd-cli/1.2402.0-1.2403.0/README.md --exclude *.pyd
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-29 12:58:23] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2402.0.tar.gz tmp/gardener_cicd_base-1.2403.0-py3-none-any.whl.zip --markdown 20240529/g/gardener-cicd-base/1.2402.0-1.2403.0/README.md --exclude *.pyd
+[2024-05-29 12:58:23] INFO root fetch - processPackages [maskalib]: Remove: archive file [/home/abi/fetcher/tmp/maskalib-0.2.tar.gz]
+[2024-05-29 12:58:23] INFO root fetch - processPackages [maskalib]: Remove: archive file [/home/abi/fetcher/tmp/maskalib-0.5.tar.gz]
+[2024-05-29 12:58:23] INFO root fetch - main [MainThread]: End processing [maskalib]: success
+[2024-05-29 12:58:24] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-29 12:58:24] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2402.0.tar.gz tmp/gardener_cicd_dso-1.2403.0-py3-none-any.whl.zip --markdown 20240529/g/gardener-cicd-dso/1.2402.0-1.2403.0/README.md --exclude *.pyd
+[2024-05-29 12:58:24] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.602.tar.gz]
+[2024-05-29 12:58:24] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.603.tar.gz]
+[2024-05-29 12:58:24] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-05-29 12:58:24] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2402.0.tar.gz]
+[2024-05-29 12:58:24] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2403.0-py3-none-any.whl.zip]
+[2024-05-29 12:58:24] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-29 12:58:24] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2402.0.tar.gz]
+[2024-05-29 12:58:24] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2403.0-py3-none-any.whl.zip]
+[2024-05-29 12:58:24] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-29 12:58:24] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2402.0.tar.gz]
+[2024-05-29 12:58:24] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2403.0-py3-none-any.whl.zip]
+[2024-05-29 12:58:24] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-29 12:58:24] INFO root fetch - main [MainThread]: Store serial: [23428498]
