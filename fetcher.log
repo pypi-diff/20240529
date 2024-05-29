@@ -11311,3 +11311,36 @@
 [2024-05-29 07:49:43] INFO root fetch - processPackages [odoo14-addons-oca-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_pms-14.0.20240528.0-py3-none-any.whl.zip]
 [2024-05-29 07:49:43] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-pms]: success
 [2024-05-29 07:49:43] INFO root fetch - main [MainThread]: Store serial: [23424578]
+[2024-05-29 07:51:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424578]
+[2024-05-29 07:51:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 07:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-cloudflare
+[2024-05-29 07:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hanky
+[2024-05-29 07:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyscsp
+[2024-05-29 07:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bdup
+[2024-05-29 07:51:52] INFO root fetch - processPackages [bdup]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 07:51:52] WARNING root fetch - processPackages [hanky]: Skipping, unable to determine old version
+[2024-05-29 07:51:52] INFO root fetch - main [MainThread]: End processing [hanky] error
+[2024-05-29 07:51:52] INFO root fetch - processPackages [pyscsp]: New version: [1.0.0] Old Version: [0.9.9]
+[2024-05-29 07:51:52] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-29 07:51:52] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-29 07:51:52] INFO root fetch - processPackages [bdup]: Downloading https://files.pythonhosted.org/packages/63/a2/841da542a2f173c2299e8f967cbe03463f0196d2195d2042050774d0a445/bdup-0.0.1.tar.gz
+[2024-05-29 07:51:52] INFO root fetch - processPackages [pyscsp]: Downloading https://files.pythonhosted.org/packages/eb/0a/f436ac5422bcd9c1c405d7ab90535f31f7aceae4a21b08418c32486d9266/pyscsp-0.9.9.tar.gz
+[2024-05-29 07:51:53] INFO root fetch - processPackages [pyscsp]: Downloading https://files.pythonhosted.org/packages/33/a7/bd09c986922609ae07266150d831c43b3a8b27d2640f1453d75897a3b3f4/pyscsp-1.0.0.tar.gz
+[2024-05-29 07:51:53] INFO root fetch - processPackages [bdup]: Downloading https://files.pythonhosted.org/packages/59/6c/abbc5701388ea66e4cd3ba3b581e411b9b9cea0b6f146e42e4fb92d2c5ef/bdup-0.0.2.tar.gz
+[2024-05-29 07:51:53] INFO root fetch - processPackages [bdup]: executing diffoscope
+[2024-05-29 07:51:53] INFO root fetch - processPackages [bdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdup-0.0.1.tar.gz tmp/bdup-0.0.2.tar.gz --markdown 20240529/b/bdup/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 07:51:53] INFO root fetch - processPackages [pyscsp]: executing diffoscope
+[2024-05-29 07:51:53] INFO root fetch - processPackages [pyscsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscsp-0.9.9.tar.gz tmp/pyscsp-1.0.0.tar.gz --markdown 20240529/p/pyscsp/0.9.9-1.0.0/README.md --exclude *.pyd
+[2024-05-29 07:51:53] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-29 07:51:53] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-29 07:51:53] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240529/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-29 07:51:53] INFO root fetch - processPackages [bdup]: Remove: archive file [/home/abi/fetcher/tmp/bdup-0.0.1.tar.gz]
+[2024-05-29 07:51:53] INFO root fetch - processPackages [bdup]: Remove: archive file [/home/abi/fetcher/tmp/bdup-0.0.2.tar.gz]
+[2024-05-29 07:51:53] INFO root fetch - main [MainThread]: End processing [bdup]: success
+[2024-05-29 07:51:53] INFO root fetch - processPackages [pyscsp]: Remove: archive file [/home/abi/fetcher/tmp/pyscsp-0.9.9.tar.gz]
+[2024-05-29 07:51:53] INFO root fetch - processPackages [pyscsp]: Remove: archive file [/home/abi/fetcher/tmp/pyscsp-1.0.0.tar.gz]
+[2024-05-29 07:51:53] INFO root fetch - main [MainThread]: End processing [pyscsp]: success
+[2024-05-29 07:51:54] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-29 07:51:54] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-29 07:51:54] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-29 07:51:54] INFO root fetch - main [MainThread]: Store serial: [23424599]
