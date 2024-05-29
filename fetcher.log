@@ -12792,3 +12792,33 @@
 [2024-05-29 09:00:02] INFO root fetch - processPackages [seqslab-cli]: Remove: archive file [/home/abi/fetcher/tmp/seqslab-cli-3.3.4.tar.gz]
 [2024-05-29 09:00:02] INFO root fetch - main [MainThread]: End processing [seqslab-cli]: success
 [2024-05-29 09:00:02] INFO root fetch - main [MainThread]: Store serial: [23425276]
+[2024-05-29 09:02:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425276]
+[2024-05-29 09:02:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logistic-regression-module-universal-bank
+[2024-05-29 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-models-nightly
+[2024-05-29 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inflow-haisslab
+[2024-05-29 09:02:13] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 09:02:13] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: Downloading https://files.pythonhosted.org/packages/8c/83/026ebd193110d2cbf51a4dafdb277183e0fd2232b3fc8cd4291d87d88217/logistic_regression_module_universal_bank-0.0.3.tar.gz
+[2024-05-29 09:02:13] INFO root fetch - processPackages [inflow-haisslab]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-05-29 09:02:13] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-05-29 09:02:13] INFO root fetch - processPackages [inflow-haisslab]: Downloading https://files.pythonhosted.org/packages/e2/d2/1a389566e05c378d4ee028f9e7458696ad73d67fb0cc8c85819915622a5d/inflow_haisslab-1.2.7.tar.gz
+[2024-05-29 09:02:13] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-05-29 09:02:13] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: Downloading https://files.pythonhosted.org/packages/08/ba/eaf12c0d78741755aeb574616ce7063daa0c79b5b500a5f7166787db1f29/logistic_regression_module_universal_bank-0.0.4.tar.gz
+[2024-05-29 09:02:14] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: executing diffoscope
+[2024-05-29 09:02:14] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logistic_regression_module_universal_bank-0.0.3.tar.gz tmp/logistic_regression_module_universal_bank-0.0.4.tar.gz --markdown 20240529/l/logistic-regression-module-universal-bank/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 09:02:14] INFO root fetch - processPackages [inflow-haisslab]: Downloading https://files.pythonhosted.org/packages/b2/64/ddfefefe9df6c648ae066240cf1ef22678ec55252c2dbc874c9d6c31fa78/inflow_haisslab-1.2.8.tar.gz
+[2024-05-29 09:02:14] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-05-29 09:02:14] INFO root fetch - processPackages [inflow-haisslab]: executing diffoscope
+[2024-05-29 09:02:14] INFO root fetch - processPackages [inflow-haisslab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inflow_haisslab-1.2.7.tar.gz tmp/inflow_haisslab-1.2.8.tar.gz --markdown 20240529/i/inflow-haisslab/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-05-29 09:02:14] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: Remove: archive file [/home/abi/fetcher/tmp/logistic_regression_module_universal_bank-0.0.3.tar.gz]
+[2024-05-29 09:02:14] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: Remove: archive file [/home/abi/fetcher/tmp/logistic_regression_module_universal_bank-0.0.4.tar.gz]
+[2024-05-29 09:02:14] INFO root fetch - main [MainThread]: End processing [logistic-regression-module-universal-bank]: success
+[2024-05-29 09:02:14] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-05-29 09:02:14] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240529/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-05-29 09:02:15] INFO root fetch - processPackages [inflow-haisslab]: Remove: archive file [/home/abi/fetcher/tmp/inflow_haisslab-1.2.7.tar.gz]
+[2024-05-29 09:02:15] INFO root fetch - processPackages [inflow-haisslab]: Remove: archive file [/home/abi/fetcher/tmp/inflow_haisslab-1.2.8.tar.gz]
+[2024-05-29 09:02:15] INFO root fetch - main [MainThread]: End processing [inflow-haisslab]: success
+[2024-05-29 09:02:17] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-05-29 09:02:17] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-05-29 09:02:17] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-05-29 09:02:17] INFO root fetch - main [MainThread]: Store serial: [23425288]
