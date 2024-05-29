@@ -2346,3 +2346,76 @@
 [2024-05-29 02:12:41] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-3.3.1.tar.gz]
 [2024-05-29 02:12:41] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
 [2024-05-29 02:12:41] INFO root fetch - main [MainThread]: Store serial: [23421073]
+[2024-05-29 02:14:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421073]
+[2024-05-29 02:14:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 02:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-events-notify
+[2024-05-29 02:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ofscraper
+[2024-05-29 02:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openstl
+[2024-05-29 02:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prompt-learner
+[2024-05-29 02:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-nag
+[2024-05-29 02:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-gitlab-runner
+[2024-05-29 02:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-events-notify
+[2024-05-29 02:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-skylight
+[2024-05-29 02:14:49] INFO root fetch - processPackages [prompt-learner]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-29 02:14:49] INFO root fetch - processPackages [ofscraper]: New version: [3.9.8] Old Version: [3.9.7]
+[2024-05-29 02:14:49] INFO root fetch - processPackages [openstl]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-29 02:14:49] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-29 02:14:50] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/1e/e0/ebd66e136513a15f520fc5ca0a7f8903d636913f234f2ffea6efd6dbdd6e/prompt_learner-0.2.6.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 02:14:50] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/b4/d3/4eb23c7e5506667ed2162ea817fb7dd974fde0ec0da1cb0544567176c380/ofscraper-3.9.7.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [openstl]: Downloading https://files.pythonhosted.org/packages/55/ce/ce5c87a17eaf62f4429854f7a9e486749d0d14e82fbf670447a6ec8064e0/openstl-1.1.4-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/0e/28/52298e7b45551b95cac426d854b75af3410cdb6d567933253cee544e13f9/prompt_learner-0.2.7.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/f7/40/e5e745935d4b9d1b0beffcda8c7474b1ce4f988a5c49457f9e735da3f015/ofscraper-3.9.8.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [prompt-learner]: executing diffoscope
+[2024-05-29 02:14:50] INFO root fetch - processPackages [prompt-learner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_learner-0.2.6.tar.gz tmp/prompt_learner-0.2.7.tar.gz --markdown 20240529/p/prompt-learner/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2024-05-29 02:14:50] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.9.7.tar.gz tmp/ofscraper-3.9.8.tar.gz --markdown 20240529/o/ofscraper/3.9.7-3.9.8/README.md --exclude *.pyd
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240529/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240529/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240529/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-29 02:14:50] INFO root fetch - processPackages [openstl]: Downloading https://files.pythonhosted.org/packages/80/38/f06a72d1ab282b905cbf08b021dc60d9755de71bc75fb8bea313b26ee474/openstl-1.1.5-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240529/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-29 02:14:50] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240529/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 02:14:50] INFO root fetch - processPackages [openstl]: executing diffoscope
+[2024-05-29 02:14:50] INFO root fetch - processPackages [openstl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstl-1.1.4-pp39-pypy39_pp73-win_amd64.whl.zip tmp/openstl-1.1.5-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240529/o/openstl/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-29 02:14:51] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.2.6.tar.gz]
+[2024-05-29 02:14:51] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.2.7.tar.gz]
+[2024-05-29 02:14:51] INFO root fetch - main [MainThread]: End processing [prompt-learner]: success
+[2024-05-29 02:14:51] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-05-29 02:14:51] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-05-29 02:14:51] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-05-29 02:14:51] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-29 02:14:51] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-29 02:14:51] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-29 02:14:51] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-29 02:14:51] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-29 02:14:51] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-29 02:14:51] INFO root fetch - processPackages [openstl]: Remove: archive file [/home/abi/fetcher/tmp/openstl-1.1.4-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-29 02:14:51] INFO root fetch - processPackages [openstl]: Remove: archive file [/home/abi/fetcher/tmp/openstl-1.1.5-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-29 02:14:51] INFO root fetch - main [MainThread]: End processing [openstl]: success
+[2024-05-29 02:14:51] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-29 02:14:51] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-29 02:14:51] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-29 02:14:51] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-29 02:14:52] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.7.tar.gz]
+[2024-05-29 02:14:52] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.8.tar.gz]
+[2024-05-29 02:14:52] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2024-05-29 02:14:52] INFO root fetch - main [MainThread]: Store serial: [23421131]
