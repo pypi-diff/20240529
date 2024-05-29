@@ -18120,3 +18120,66 @@
 [2024-05-29 12:10:10] INFO root fetch - processPackages [cysystemd]: Remove: archive file [/home/abi/fetcher/tmp/cysystemd-1.6.1.tar.gz]
 [2024-05-29 12:10:10] INFO root fetch - main [MainThread]: End processing [cysystemd]: success
 [2024-05-29 12:10:10] INFO root fetch - main [MainThread]: Store serial: [23427944]
+[2024-05-29 12:12:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427944]
+[2024-05-29 12:12:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yandexcloud
+[2024-05-29 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dockipy
+[2024-05-29 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqladaptor
+[2024-05-29 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emirpred
+[2024-05-29 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQt6-WebEngineSubwheel-Qt6
+[2024-05-29 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlconcepts
+[2024-05-29 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ya360
+[2024-05-29 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-mailgun
+[2024-05-29 12:12:20] INFO root fetch - processPackages [sqladaptor]: New version: [0.4] Old Version: [0.2.1]
+[2024-05-29 12:12:20] WARNING root fetch - processPackages [emirpred]: Skipping, unable to determine old version
+[2024-05-29 12:12:20] INFO root fetch - main [MainThread]: End processing [emirpred] error
+[2024-05-29 12:12:20] INFO root fetch - processPackages [dockipy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 12:12:20] INFO root fetch - processPackages [sqladaptor]: Downloading https://files.pythonhosted.org/packages/38/10/b8683edf7c847f3a310655e6ec55d7fc1aeddac884fc6aceffa091cb7597/sqladaptor-0.2.1.tar.gz
+[2024-05-29 12:12:20] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/53/78/5a8313f4b73f6dd85bc028e698161305fc679614fd0f5f8db2b83056a016/dockipy-0.0.8.tar.gz
+[2024-05-29 12:12:20] INFO root fetch - processPackages [ya360]: New version: [3.6.2] Old Version: [3.6.1]
+[2024-05-29 12:12:20] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-29 12:12:20] WARNING root fetch - processPackages [PyQt6-WebEngineSubwheel-Qt6]: Skipping, unable to determine old version
+[2024-05-29 12:12:20] INFO root fetch - main [MainThread]: End processing [PyQt6-WebEngineSubwheel-Qt6] error
+[2024-05-29 12:12:20] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1716961562] Old Version: [3.6.0a1716510191]
+[2024-05-29 12:12:20] INFO root fetch - processPackages [mlconcepts]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2024-05-29 12:12:20] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-29 12:12:20] INFO root fetch - processPackages [sqladaptor]: Downloading https://files.pythonhosted.org/packages/f7/59/a7303fda48f42c7371304e301034a4afdbf3063c43e9c2d06dc8ed43c219/sqladaptor-0.4.tar.gz
+[2024-05-29 12:12:20] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/20/dd/5a84aa032c0ed0c2e1fcecc40431ec7787625dad7b044cbc47cc0f04f1eb/dockipy-0.0.9.tar.gz
+[2024-05-29 12:12:20] INFO root fetch - processPackages [ya360]: Downloading https://files.pythonhosted.org/packages/5a/68/0dedf56ebaa9fe6e63fdbf3f511731aa709ae2f2c54117f850fe0685f7e9/ya360-3.6.1.tar.gz
+[2024-05-29 12:12:20] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/66/a0/09dc9397e36d49af596baa4961b36b1b20ede6adc588fac9a598cdf973ff/pulumi_mailgun-3.6.0a1716510191.tar.gz
+[2024-05-29 12:12:20] INFO root fetch - processPackages [mlconcepts]: Downloading https://files.pythonhosted.org/packages/fc/ab/b142b6e75a2c76894b8bb8c669a62c1947b024166a1afdd34a65373c1fe0/mlconcepts-0.0.1a4.tar.gz
+[2024-05-29 12:12:20] INFO root fetch - processPackages [dockipy]: executing diffoscope
+[2024-05-29 12:12:20] INFO root fetch - processPackages [dockipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockipy-0.0.8.tar.gz tmp/dockipy-0.0.9.tar.gz --markdown 20240529/d/dockipy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 12:12:20] INFO root fetch - processPackages [sqladaptor]: executing diffoscope
+[2024-05-29 12:12:20] INFO root fetch - processPackages [sqladaptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladaptor-0.2.1.tar.gz tmp/sqladaptor-0.4.tar.gz --markdown 20240529/s/sqladaptor/0.2.1-0.4/README.md --exclude *.pyd
+[2024-05-29 12:12:20] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/cf/da/7283f199546c5d7076a0e87f1034ae972f5547d322b07353b7ffdc746afc/pulumi_mailgun-3.6.0a1716961562.tar.gz
+[2024-05-29 12:12:20] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-29 12:12:21] INFO root fetch - processPackages [mlconcepts]: Downloading https://files.pythonhosted.org/packages/4b/c3/51f988bfeaf9be9d9edea7c053c83a1bf1f30ea5a6068add74fd7e53e710/mlconcepts-0.0.1a5-pp310-pypy310_pp73-macosx_11_0_arm64.whl
+[2024-05-29 12:12:21] INFO root fetch - processPackages [ya360]: Downloading https://files.pythonhosted.org/packages/51/5a/8f90eb24f25b2808e80f0247a02c26c5d4ac544846894ca7bc04989affed/ya360-3.6.2.tar.gz
+[2024-05-29 12:12:21] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-05-29 12:12:21] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1716510191.tar.gz tmp/pulumi_mailgun-3.6.0a1716961562.tar.gz --markdown 20240529/p/pulumi-mailgun/3.6.0a1716510191-3.6.0a1716961562/README.md --exclude *.pyd
+[2024-05-29 12:12:21] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-29 12:12:21] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240529/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-29 12:12:21] INFO root fetch - processPackages [ya360]: executing diffoscope
+[2024-05-29 12:12:21] INFO root fetch - processPackages [ya360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ya360-3.6.1.tar.gz tmp/ya360-3.6.2.tar.gz --markdown 20240529/y/ya360/3.6.1-3.6.2/README.md --exclude *.pyd
+[2024-05-29 12:12:21] INFO root fetch - processPackages [sqladaptor]: Remove: archive file [/home/abi/fetcher/tmp/sqladaptor-0.2.1.tar.gz]
+[2024-05-29 12:12:21] INFO root fetch - processPackages [sqladaptor]: Remove: archive file [/home/abi/fetcher/tmp/sqladaptor-0.4.tar.gz]
+[2024-05-29 12:12:21] INFO root fetch - main [MainThread]: End processing [sqladaptor]: success
+[2024-05-29 12:12:21] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.8.tar.gz]
+[2024-05-29 12:12:21] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.9.tar.gz]
+[2024-05-29 12:12:21] INFO root fetch - main [MainThread]: End processing [dockipy]: success
+[2024-05-29 12:12:21] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1716510191.tar.gz]
+[2024-05-29 12:12:21] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1716961562.tar.gz]
+[2024-05-29 12:12:21] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-05-29 12:12:21] INFO root fetch - processPackages [mlconcepts]: executing diffoscope
+[2024-05-29 12:12:21] INFO root fetch - processPackages [mlconcepts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlconcepts-0.0.1a4.tar.gz tmp/mlconcepts-0.0.1a5-pp310-pypy310_pp73-macosx_11_0_arm64.whl.zip --markdown 20240529/m/mlconcepts/0.0.1a4-0.0.1a5/README.md --exclude *.pyd
+[2024-05-29 12:12:22] INFO root fetch - processPackages [ya360]: Remove: archive file [/home/abi/fetcher/tmp/ya360-3.6.1.tar.gz]
+[2024-05-29 12:12:22] INFO root fetch - processPackages [ya360]: Remove: archive file [/home/abi/fetcher/tmp/ya360-3.6.2.tar.gz]
+[2024-05-29 12:12:22] INFO root fetch - main [MainThread]: End processing [ya360]: success
+[2024-05-29 12:12:22] INFO root fetch - processPackages [mlconcepts]: Remove: archive file [/home/abi/fetcher/tmp/mlconcepts-0.0.1a4.tar.gz]
+[2024-05-29 12:12:22] INFO root fetch - processPackages [mlconcepts]: Remove: archive file [/home/abi/fetcher/tmp/mlconcepts-0.0.1a5-pp310-pypy310_pp73-macosx_11_0_arm64.whl.zip]
+[2024-05-29 12:12:22] INFO root fetch - main [MainThread]: End processing [mlconcepts]: success
+[2024-05-29 12:12:24] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-05-29 12:12:24] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-05-29 12:12:24] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-29 12:12:24] INFO root fetch - main [MainThread]: Store serial: [23428025]
