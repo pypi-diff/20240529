@@ -2568,3 +2568,15 @@
 [2024-05-29 02:21:25] INFO root fetch - processPackages [GameStorageAPI]: Remove: archive file [/home/abi/fetcher/tmp/gamestorageapi-1.1.18.tar.gz]
 [2024-05-29 02:21:25] INFO root fetch - main [MainThread]: End processing [GameStorageAPI]: success
 [2024-05-29 02:21:25] INFO root fetch - main [MainThread]: Store serial: [23421221]
+[2024-05-29 02:23:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421221]
+[2024-05-29 02:23:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 02:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-aurora-globaldatabase
+[2024-05-29 02:23:34] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-29 02:23:34] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-29 02:23:34] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-29 02:23:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-29 02:23:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240529/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-29 02:23:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-29 02:23:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-29 02:23:35] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-29 02:23:35] INFO root fetch - main [MainThread]: Store serial: [23421225]
