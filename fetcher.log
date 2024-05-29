@@ -18183,3 +18183,45 @@
 [2024-05-29 12:12:24] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
 [2024-05-29 12:12:24] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2024-05-29 12:12:24] INFO root fetch - main [MainThread]: Store serial: [23428025]
+[2024-05-29 12:14:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428025]
+[2024-05-29 12:14:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 12:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: profile-local
+[2024-05-29 12:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ops-scenario
+[2024-05-29 12:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanosearch
+[2024-05-29 12:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aos-prov
+[2024-05-29 12:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ul-data-gateway-sdk
+[2024-05-29 12:14:32] INFO root fetch - processPackages [ops-scenario]: New version: [6.0.4] Old Version: [6.0.3]
+[2024-05-29 12:14:33] INFO root fetch - processPackages [ops-scenario]: Downloading https://files.pythonhosted.org/packages/4a/a7/b3774d2354dffb506ad3e56016c43b9b6f8c712786113c34cea1e7700089/ops-scenario-6.0.3.tar.gz
+[2024-05-29 12:14:33] INFO root fetch - processPackages [profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 12:14:33] WARNING root fetch - processPackages [nanosearch]: Skipping, unable to determine old version
+[2024-05-29 12:14:33] INFO root fetch - main [MainThread]: End processing [nanosearch] error
+[2024-05-29 12:14:33] INFO root fetch - processPackages [aos-prov]: New version: [4.6.0b1] Old Version: [4.5.0b9]
+[2024-05-29 12:14:33] INFO root fetch - processPackages [ul-data-gateway-sdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-29 12:14:33] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/4b/d7/8af14a0850e980f53de36404fc2079c451edc1e65f24be79c595f88f602d/profile-local-0.0.8.tar.gz
+[2024-05-29 12:14:33] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/03/89/5d9410ef3bf7d3437825ec29c4d03ef42c4cf197008ff7283abe01fcd15f/aos_prov-4.5.0b9-py3-none-any.whl
+[2024-05-29 12:14:33] INFO root fetch - processPackages [ops-scenario]: Downloading https://files.pythonhosted.org/packages/a2/bc/29c3cbed19622024653f69751ad8da9c716b060592fbfe5f76ea8631a7e5/ops_scenario-6.0.4.tar.gz
+[2024-05-29 12:14:33] INFO root fetch - processPackages [ul-data-gateway-sdk]: Downloading https://files.pythonhosted.org/packages/03/79/7db4725191c203fb34982e8b4fa533c5ce78a3e111ebedea3ce66523fea0/ul-data-gateway-sdk-0.4.8.tar.gz
+[2024-05-29 12:14:33] INFO root fetch - processPackages [ops-scenario]: executing diffoscope
+[2024-05-29 12:14:33] INFO root fetch - processPackages [ops-scenario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-scenario-6.0.3.tar.gz tmp/ops_scenario-6.0.4.tar.gz --markdown 20240529/o/ops-scenario/6.0.3-6.0.4/README.md --exclude *.pyd
+[2024-05-29 12:14:33] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/a8/54/e07308090c523485559291c7a02f014be5ed9511f87a7701fb7328a58149/profile-local-0.0.9.tar.gz
+[2024-05-29 12:14:33] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/66/1b/e24f3fcc802f07102207dfde4c451d5d509d4779a10abd1b1ed6dad4767f/aos_prov-4.6.0b1-py3-none-any.whl
+[2024-05-29 12:14:33] INFO root fetch - processPackages [profile-local]: executing diffoscope
+[2024-05-29 12:14:33] INFO root fetch - processPackages [profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-local-0.0.8.tar.gz tmp/profile-local-0.0.9.tar.gz --markdown 20240529/p/profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 12:14:33] INFO root fetch - processPackages [aos-prov]: executing diffoscope
+[2024-05-29 12:14:33] INFO root fetch - processPackages [aos-prov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_prov-4.5.0b9-py3-none-any.whl.zip tmp/aos_prov-4.6.0b1-py3-none-any.whl.zip --markdown 20240529/a/aos-prov/4.5.0b9-4.6.0b1/README.md --exclude *.pyd
+[2024-05-29 12:14:33] INFO root fetch - processPackages [ul-data-gateway-sdk]: Downloading https://files.pythonhosted.org/packages/7a/59/191dce191178199a9f3add2fa67c8f4028160639ff1159e0baaa1e06ca4c/ul-data-gateway-sdk-0.4.9.tar.gz
+[2024-05-29 12:14:34] INFO root fetch - processPackages [ul-data-gateway-sdk]: executing diffoscope
+[2024-05-29 12:14:34] INFO root fetch - processPackages [ul-data-gateway-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-gateway-sdk-0.4.8.tar.gz tmp/ul-data-gateway-sdk-0.4.9.tar.gz --markdown 20240529/u/ul-data-gateway-sdk/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-29 12:14:34] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.8.tar.gz]
+[2024-05-29 12:14:34] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.9.tar.gz]
+[2024-05-29 12:14:34] INFO root fetch - main [MainThread]: End processing [profile-local]: success
+[2024-05-29 12:14:34] INFO root fetch - processPackages [ops-scenario]: Remove: archive file [/home/abi/fetcher/tmp/ops-scenario-6.0.3.tar.gz]
+[2024-05-29 12:14:34] INFO root fetch - processPackages [ops-scenario]: Remove: archive file [/home/abi/fetcher/tmp/ops_scenario-6.0.4.tar.gz]
+[2024-05-29 12:14:34] INFO root fetch - main [MainThread]: End processing [ops-scenario]: success
+[2024-05-29 12:14:34] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.5.0b9-py3-none-any.whl.zip]
+[2024-05-29 12:14:34] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.6.0b1-py3-none-any.whl.zip]
+[2024-05-29 12:14:34] INFO root fetch - main [MainThread]: End processing [aos-prov]: success
+[2024-05-29 12:14:35] INFO root fetch - processPackages [ul-data-gateway-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-gateway-sdk-0.4.8.tar.gz]
+[2024-05-29 12:14:35] INFO root fetch - processPackages [ul-data-gateway-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-gateway-sdk-0.4.9.tar.gz]
+[2024-05-29 12:14:35] INFO root fetch - main [MainThread]: End processing [ul-data-gateway-sdk]: success
+[2024-05-29 12:14:35] INFO root fetch - main [MainThread]: Store serial: [23428064]
