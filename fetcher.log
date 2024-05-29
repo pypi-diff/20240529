@@ -18389,3 +18389,56 @@
 [2024-05-29 12:18:59] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.9.2.tar.gz]
 [2024-05-29 12:18:59] INFO root fetch - main [MainThread]: End processing [sommify]: success
 [2024-05-29 12:18:59] INFO root fetch - main [MainThread]: Store serial: [23428164]
+[2024-05-29 12:21:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428164]
+[2024-05-29 12:21:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 12:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyNIExp
+[2024-05-29 12:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocsi
+[2024-05-29 12:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataclasses-avroschema
+[2024-05-29 12:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-admin-assets
+[2024-05-29 12:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: furiosa-models
+[2024-05-29 12:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ratteil
+[2024-05-29 12:21:10] INFO root fetch - processPackages [mkdocsi]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-29 12:21:10] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1558] Old Version: [1.0.0.post1557]
+[2024-05-29 12:21:10] INFO root fetch - processPackages [ratteil]: New version: [2024.5.29b0] Old Version: [1.0.2]
+[2024-05-29 12:21:10] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/c0/df/69881e5bd0d0b8e8d3f965009d246b9d38c2c7ec37aad76043b2dfbee289/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl
+[2024-05-29 12:21:10] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/fe/ee/04d9bd4ebdfa1bf232d32e3c7f086d5c949e1b052c4d40104324e76677cf/mkdocsi-1.3.7.tar.gz
+[2024-05-29 12:21:10] INFO root fetch - processPackages [furiosa-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 12:21:10] INFO root fetch - processPackages [PyNIExp]: New version: [0.28.post3] Old Version: [0.27.3]
+[2024-05-29 12:21:10] INFO root fetch - processPackages [dataclasses-avroschema]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 12:21:10] INFO root fetch - processPackages [ratteil]: Downloading https://files.pythonhosted.org/packages/e4/2e/07c4af78201509b26308dd83cc7711702f3b3ad4cde216cae6e89d026d77/ratteil-1.0.2.tar.gz
+[2024-05-29 12:21:10] INFO root fetch - processPackages [PyNIExp]: Downloading https://files.pythonhosted.org/packages/91/ce/6882551bbccdb851aa49badd2d6b450fbe3f1cb5682447fcfcdd207e9d96/PyNIExp-0.27.3.tar.gz
+[2024-05-29 12:21:10] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/a5/fb/8ce4dad6fb68b86160ad36f9005f6f7f73f9fb007b588515fbe5a9d73588/dataclasses-avroschema-0.8.0.tar.gz
+[2024-05-29 12:21:10] INFO root fetch - processPackages [furiosa-models]: Downloading https://files.pythonhosted.org/packages/80/94/5764ccdb72e23230ef98725cce0923e6dd7fd375fa36d96439f6e76a9223/furiosa-models-0.9.0.tar.gz
+[2024-05-29 12:21:10] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/14/0f/4df8a32fd62928180e72c0f860b352df16a31b559d154b6052a566a76153/mkdocsi-1.3.8.tar.gz
+[2024-05-29 12:21:10] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/30/8d/05117aea895b7372a71d5a3f4476e9d8c9741ce651117f8e118f0bb8ab4c/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl
+[2024-05-29 12:21:10] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 12:21:10] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.3.7.tar.gz tmp/mkdocsi-1.3.8.tar.gz --markdown 20240529/m/mkdocsi/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-29 12:21:10] INFO root fetch - processPackages [PyNIExp]: Downloading https://files.pythonhosted.org/packages/96/12/3e2742fd215d0c7dde38e9df6e5fc0bccf6cdbdce2729c18ec4e2c2b7575/pyniexp-0.28.post3.tar.gz
+[2024-05-29 12:21:10] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-29 12:21:10] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-admin-assets/1.0.0.post1557-1.0.0.post1558/README.md --exclude *.pyd
+[2024-05-29 12:21:10] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/d7/da/865deccd18dc91b8b341a76779391cca2ea3b77382020e10d3c3f44e53d3/dataclasses-avroschema-0.9.0.tar.gz
+[2024-05-29 12:21:10] INFO root fetch - processPackages [PyNIExp]: executing diffoscope
+[2024-05-29 12:21:10] INFO root fetch - processPackages [PyNIExp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNIExp-0.27.3.tar.gz tmp/pyniexp-0.28.post3.tar.gz --markdown 20240529/P/PyNIExp/0.27.3-0.28.post3/README.md --exclude *.pyd
+[2024-05-29 12:21:11] INFO root fetch - processPackages [dataclasses-avroschema]: executing diffoscope
+[2024-05-29 12:21:11] INFO root fetch - processPackages [dataclasses-avroschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-avroschema-0.8.0.tar.gz tmp/dataclasses-avroschema-0.9.0.tar.gz --markdown 20240529/d/dataclasses-avroschema/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 12:21:11] INFO root fetch - processPackages [ratteil]: Downloading https://files.pythonhosted.org/packages/fb/e4/7f670a945f697781a042a105eb32c0784dff0f4a1f54b0e682a0ea5ba6a2/ratteil-2024.5.29b0.tar.gz
+[2024-05-29 12:21:11] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.7.tar.gz]
+[2024-05-29 12:21:11] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.8.tar.gz]
+[2024-05-29 12:21:11] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 12:21:11] INFO root fetch - processPackages [PyNIExp]: Remove: archive file [/home/abi/fetcher/tmp/PyNIExp-0.27.3.tar.gz]
+[2024-05-29 12:21:11] INFO root fetch - processPackages [PyNIExp]: Remove: archive file [/home/abi/fetcher/tmp/pyniexp-0.28.post3.tar.gz]
+[2024-05-29 12:21:11] INFO root fetch - main [MainThread]: End processing [PyNIExp]: success
+[2024-05-29 12:21:11] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.8.0.tar.gz]
+[2024-05-29 12:21:11] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.9.0.tar.gz]
+[2024-05-29 12:21:11] INFO root fetch - main [MainThread]: End processing [dataclasses-avroschema]: success
+[2024-05-29 12:21:12] INFO root fetch - processPackages [ratteil]: executing diffoscope
+[2024-05-29 12:21:12] INFO root fetch - processPackages [ratteil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratteil-1.0.2.tar.gz tmp/ratteil-2024.5.29b0.tar.gz --markdown 20240529/r/ratteil/1.0.2-2024.5.29b0/README.md --exclude *.pyd
+[2024-05-29 12:21:12] INFO root fetch - processPackages [ratteil]: Remove: archive file [/home/abi/fetcher/tmp/ratteil-1.0.2.tar.gz]
+[2024-05-29 12:21:12] INFO root fetch - processPackages [ratteil]: Remove: archive file [/home/abi/fetcher/tmp/ratteil-2024.5.29b0.tar.gz]
+[2024-05-29 12:21:12] INFO root fetch - main [MainThread]: End processing [ratteil]: success
+[2024-05-29 12:21:13] WARNING root fetch - processPackages [furiosa-models]: Skipping package: exceeds size limit 20113768>=10485760
+[2024-05-29 12:21:13] INFO root fetch - main [MainThread]: End processing [furiosa-models] error
+[2024-05-29 12:21:25] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl.zip]
+[2024-05-29 12:21:25] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl.zip]
+[2024-05-29 12:21:25] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-29 12:21:25] INFO root fetch - main [MainThread]: Store serial: [23428182]
