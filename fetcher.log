@@ -10035,3 +10035,33 @@
 [2024-05-29 06:50:24] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.9.tar.gz]
 [2024-05-29 06:50:24] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2024-05-29 06:50:24] INFO root fetch - main [MainThread]: Store serial: [23424058]
+[2024-05-29 06:52:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424058]
+[2024-05-29 06:52:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 06:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-it-fatturapa-in
+[2024-05-29 06:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baddns
+[2024-05-29 06:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-it-vat-registries-rc
+[2024-05-29 06:52:33] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries-rc]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-29 06:52:34] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries-rc]: Downloading https://files.pythonhosted.org/packages/b8/09/da772552cc3c948e65aee10880b3293df53ccc2bd08c86b02b8aaded2797/odoo_addon_l10n_it_vat_registries_rc-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-29 06:52:34] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: New version: [14.0.2.2.3.dev1] Old Version: [14.0.2.2.2.dev4]
+[2024-05-29 06:52:34] INFO root fetch - processPackages [baddns]: New version: [1.1.789] Old Version: [1.1.785]
+[2024-05-29 06:52:34] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries-rc]: Downloading https://files.pythonhosted.org/packages/f5/f4/a88428bc392d21408337b44f68b37aa3cbf5c412474e0a345dc3808b324d/odoo_addon_l10n_it_vat_registries_rc-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-29 06:52:34] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Downloading https://files.pythonhosted.org/packages/d0/34/de06e9d0e8eb0b717756e298669d3feed0f5da42b93d5c3a0cb8120c9968/odoo14_addon_l10n_it_fatturapa_in-14.0.2.2.2.dev4-py3-none-any.whl
+[2024-05-29 06:52:34] INFO root fetch - processPackages [baddns]: Downloading https://files.pythonhosted.org/packages/8b/25/8cf3a0ec7c89c6b57bb733a50c0939331e48424d7cb8caa218eeb0930984/baddns-1.1.785.tar.gz
+[2024-05-29 06:52:34] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries-rc]: executing diffoscope
+[2024-05-29 06:52:34] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries-rc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_vat_registries_rc-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_vat_registries_rc-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-l10n-it-vat-registries-rc/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-29 06:52:34] INFO root fetch - processPackages [baddns]: Downloading https://files.pythonhosted.org/packages/d4/63/7c1443b66f8284b2d1ef6b531ffac90e4cb9250f5405ff77144bc3df1dd4/baddns-1.1.789.tar.gz
+[2024-05-29 06:52:34] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Downloading https://files.pythonhosted.org/packages/ba/2a/30d1b539dcddd23c87523c221ab670e6e438be5255b79e38b8076e503630/odoo14_addon_l10n_it_fatturapa_in-14.0.2.2.3.dev1-py3-none-any.whl
+[2024-05-29 06:52:34] INFO root fetch - processPackages [baddns]: executing diffoscope
+[2024-05-29 06:52:34] INFO root fetch - processPackages [baddns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baddns-1.1.785.tar.gz tmp/baddns-1.1.789.tar.gz --markdown 20240529/b/baddns/1.1.785-1.1.789/README.md --exclude *.pyd
+[2024-05-29 06:52:34] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: executing diffoscope
+[2024-05-29 06:52:34] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.2.2.dev4-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.2.3.dev1-py3-none-any.whl.zip --markdown 20240529/o/odoo14-addon-l10n-it-fatturapa-in/14.0.2.2.2.dev4-14.0.2.2.3.dev1/README.md --exclude *.pyd
+[2024-05-29 06:52:34] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries-rc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_vat_registries_rc-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-29 06:52:34] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries-rc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_vat_registries_rc-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-29 06:52:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-vat-registries-rc]: success
+[2024-05-29 06:52:35] INFO root fetch - processPackages [baddns]: Remove: archive file [/home/abi/fetcher/tmp/baddns-1.1.785.tar.gz]
+[2024-05-29 06:52:35] INFO root fetch - processPackages [baddns]: Remove: archive file [/home/abi/fetcher/tmp/baddns-1.1.789.tar.gz]
+[2024-05-29 06:52:35] INFO root fetch - main [MainThread]: End processing [baddns]: success
+[2024-05-29 06:52:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.2.2.dev4-py3-none-any.whl.zip]
+[2024-05-29 06:52:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.2.3.dev1-py3-none-any.whl.zip]
+[2024-05-29 06:52:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa-in]: success
+[2024-05-29 06:52:35] INFO root fetch - main [MainThread]: Store serial: [23424065]
