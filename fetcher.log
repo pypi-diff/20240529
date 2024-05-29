@@ -9084,3 +9084,60 @@
 [2024-05-29 05:51:37] INFO root fetch - processPackages [sbcli-mc]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mc-1.0.4.zip]
 [2024-05-29 05:51:37] INFO root fetch - main [MainThread]: End processing [sbcli-mc]: success
 [2024-05-29 05:51:37] INFO root fetch - main [MainThread]: Store serial: [23423721]
+[2024-05-29 05:53:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423721]
+[2024-05-29 05:53:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-delivery-price-rule-untaxed
+[2024-05-29 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-delivery-carrier
+[2024-05-29 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dxsp
+[2024-05-29 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otx
+[2024-05-29 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlalchemy-altibase7
+[2024-05-29 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rstms-cloudflare
+[2024-05-29 05:53:46] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: New version: [16.0.20240401.0] Old Version: [16.0.20240215.0]
+[2024-05-29 05:53:46] INFO root fetch - processPackages [sqlalchemy-altibase7]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 05:53:46] INFO root fetch - processPackages [odoo-addon-delivery-price-rule-untaxed]: New version: [15.0.1.0.0.2] Old Version: [15.0.1.0.0.1]
+[2024-05-29 05:53:46] INFO root fetch - processPackages [rstms-cloudflare]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-29 05:53:46] INFO root fetch - processPackages [otx]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-29 05:53:46] INFO root fetch - processPackages [dxsp]: New version: [9.0.7] Old Version: [9.0.6]
+[2024-05-29 05:53:46] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/dd/8c/70f3bed81c46a0a54675a270ef808daa96a47cba6d0284f9f30aeeaee5ac/odoo_addons_oca_delivery_carrier-16.0.20240215.0-py3-none-any.whl
+[2024-05-29 05:53:46] INFO root fetch - processPackages [sqlalchemy-altibase7]: Downloading https://files.pythonhosted.org/packages/63/03/1bb89a70e7a3ffb9eedf9f19491cbc0c88ebd96f3edc9687058a2c89946c/sqlalchemy_altibase7-0.0.2.tar.gz
+[2024-05-29 05:53:46] INFO root fetch - processPackages [odoo-addon-delivery-price-rule-untaxed]: Downloading https://files.pythonhosted.org/packages/d1/05/d392c34ee3b8a7e8fbd930fd888d8e58969552992997771568dee94b814e/odoo_addon_delivery_price_rule_untaxed-15.0.1.0.0.1-py3-none-any.whl
+[2024-05-29 05:53:46] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a1/1f/4b20f69e5b75066726b10760e4d553170d395263325ba26fe170c2978d0b/dxsp-9.0.6.tar.gz
+[2024-05-29 05:53:46] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/18/0b/f09183e3d5632192ce46799caa0adf9de157021fbcb69cda4456e429ad2c/rstms_cloudflare-1.1.1.tar.gz
+[2024-05-29 05:53:46] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/0a/ef/f348de9aab23c510e17e59d0426e3a3948e72af0a2ae0f202dc87b6961e3/otx-1.6.1.tar.gz
+[2024-05-29 05:53:47] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/37/bd/2441910e253bf344b324c06a71ad99c3716b96867573e30d888deb4914bd/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl
+[2024-05-29 05:53:47] INFO root fetch - processPackages [odoo-addon-delivery-price-rule-untaxed]: Downloading https://files.pythonhosted.org/packages/20/07/6bd36e9310f4a9bb179360a1bc6673ec2133a3c12de0ff01dbd5e20475b0/odoo_addon_delivery_price_rule_untaxed-15.0.1.0.0.2-py3-none-any.whl
+[2024-05-29 05:53:47] INFO root fetch - processPackages [sqlalchemy-altibase7]: Downloading https://files.pythonhosted.org/packages/10/be/9657194e04c4e312940a435056cd5e2e16656af4f02163e5db1fe97bdc85/sqlalchemy_altibase7-0.0.3.tar.gz
+[2024-05-29 05:53:47] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/bc/7e/5f3a74e539d71438de19124d625f167cd944f06c2918b937992507bb1c38/rstms_cloudflare-1.1.2.tar.gz
+[2024-05-29 05:53:47] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/c1/02/3119800c1eceb087f71694d8f6d21bce46ec401d2511bf92ed3ee83d9db4/dxsp-9.0.7.tar.gz
+[2024-05-29 05:53:47] INFO root fetch - processPackages [odoo-addon-delivery-price-rule-untaxed]: executing diffoscope
+[2024-05-29 05:53:47] INFO root fetch - processPackages [odoo-addon-delivery-price-rule-untaxed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_price_rule_untaxed-15.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_delivery_price_rule_untaxed-15.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-delivery-price-rule-untaxed/15.0.1.0.0.1-15.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-29 05:53:47] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: executing diffoscope
+[2024-05-29 05:53:47] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_delivery_carrier-16.0.20240215.0-py3-none-any.whl.zip tmp/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl.zip --markdown 20240529/o/odoo-addons-oca-delivery-carrier/16.0.20240215.0-16.0.20240401.0/README.md --exclude *.pyd
+[2024-05-29 05:53:47] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2024-05-29 05:53:47] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-9.0.6.tar.gz tmp/dxsp-9.0.7.tar.gz --markdown 20240529/d/dxsp/9.0.6-9.0.7/README.md --exclude *.pyd
+[2024-05-29 05:53:47] INFO root fetch - processPackages [sqlalchemy-altibase7]: executing diffoscope
+[2024-05-29 05:53:47] INFO root fetch - processPackages [sqlalchemy-altibase7]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_altibase7-0.0.2.tar.gz tmp/sqlalchemy_altibase7-0.0.3.tar.gz --markdown 20240529/s/sqlalchemy-altibase7/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 05:53:47] INFO root fetch - processPackages [rstms-cloudflare]: executing diffoscope
+[2024-05-29 05:53:47] INFO root fetch - processPackages [rstms-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstms_cloudflare-1.1.1.tar.gz tmp/rstms_cloudflare-1.1.2.tar.gz --markdown 20240529/r/rstms-cloudflare/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-29 05:53:47] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/8d/2e/c2f7f6b55a14cc4d55fc165a60896b799af81ebe6e3076c22b9462e0e8f7/otx-1.6.2.tar.gz
+[2024-05-29 05:53:47] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_delivery_carrier-16.0.20240215.0-py3-none-any.whl.zip]
+[2024-05-29 05:53:47] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl.zip]
+[2024-05-29 05:53:47] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-delivery-carrier]: success
+[2024-05-29 05:53:48] INFO root fetch - processPackages [sqlalchemy-altibase7]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_altibase7-0.0.2.tar.gz]
+[2024-05-29 05:53:48] INFO root fetch - processPackages [sqlalchemy-altibase7]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_altibase7-0.0.3.tar.gz]
+[2024-05-29 05:53:48] INFO root fetch - main [MainThread]: End processing [sqlalchemy-altibase7]: success
+[2024-05-29 05:53:48] INFO root fetch - processPackages [odoo-addon-delivery-price-rule-untaxed]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_price_rule_untaxed-15.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-29 05:53:48] INFO root fetch - processPackages [odoo-addon-delivery-price-rule-untaxed]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_price_rule_untaxed-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-29 05:53:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-price-rule-untaxed]: success
+[2024-05-29 05:53:48] INFO root fetch - processPackages [otx]: executing diffoscope
+[2024-05-29 05:53:48] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.6.1.tar.gz tmp/otx-1.6.2.tar.gz --markdown 20240529/o/otx/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-29 05:53:48] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.6.tar.gz]
+[2024-05-29 05:53:48] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.7.tar.gz]
+[2024-05-29 05:53:48] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2024-05-29 05:53:48] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-1.1.1.tar.gz]
+[2024-05-29 05:53:48] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-1.1.2.tar.gz]
+[2024-05-29 05:53:48] INFO root fetch - main [MainThread]: End processing [rstms-cloudflare]: success
+[2024-05-29 05:53:57] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.6.1.tar.gz]
+[2024-05-29 05:53:57] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.6.2.tar.gz]
+[2024-05-29 05:53:57] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2024-05-29 05:53:57] INFO root fetch - main [MainThread]: Store serial: [23423738]
