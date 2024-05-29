@@ -9766,3 +9766,48 @@
 [2024-05-29 06:32:50] INFO root fetch - processPackages [tonic-textual]: Remove: archive file [/home/abi/fetcher/tmp/tonic_textual-2.0.1.tar.gz]
 [2024-05-29 06:32:50] INFO root fetch - main [MainThread]: End processing [tonic-textual]: success
 [2024-05-29 06:32:50] INFO root fetch - main [MainThread]: Store serial: [23423961]
+[2024-05-29 06:34:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423961]
+[2024-05-29 06:34:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 06:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coconut-develop
+[2024-05-29 06:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: furiosa-native-postprocess
+[2024-05-29 06:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-system-utils
+[2024-05-29 06:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-sdk-remote
+[2024-05-29 06:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdss-hal
+[2024-05-29 06:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Tahdheeb
+[2024-05-29 06:34:59] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 06:34:59] INFO root fetch - processPackages [sdss-hal]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-29 06:34:59] INFO root fetch - processPackages [furiosa-native-postprocess]: New version: [0.9.0] Old Version: [0.2.2]
+[2024-05-29 06:34:59] WARNING root fetch - processPackages [Tahdheeb]: Skipping, unable to determine old version
+[2024-05-29 06:34:59] INFO root fetch - main [MainThread]: End processing [Tahdheeb] error
+[2024-05-29 06:34:59] WARNING root fetch - processPackages [core-system-utils]: Skipping, unable to determine old version
+[2024-05-29 06:34:59] INFO root fetch - main [MainThread]: End processing [core-system-utils] error
+[2024-05-29 06:34:59] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/b2/73/ff727800d332ba3412e3135ded7fed3d1b78930e48ab4f978b5038b41b5f/python_sdk_remote-0.0.98.tar.gz
+[2024-05-29 06:34:59] INFO root fetch - processPackages [sdss-hal]: Downloading https://files.pythonhosted.org/packages/8b/b7/4fc476ba8f54e2ab210652ee8c9d4bedff7429f996572cc9abecf598510b/sdss_hal-1.2.0.tar.gz
+[2024-05-29 06:34:59] INFO root fetch - processPackages [coconut-develop]: New version: [3.1.0.post0.dev9] Old Version: [3.1.0.post0.dev8]
+[2024-05-29 06:34:59] INFO root fetch - processPackages [furiosa-native-postprocess]: Downloading https://files.pythonhosted.org/packages/4d/82/0dac7733470ce82d704c7d2bdafbea830a5af568c070845ea41985258965/furiosa_native_postprocess-0.2.2-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 06:34:59] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/c6/6c/d232e7e91dcb30944e7eee0abdeb4922803eca620e93ce6940350682eaeb/python_sdk_remote-0.0.99.tar.gz
+[2024-05-29 06:34:59] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/c9/52/852c50fb7afeae75f0f89a0a02001b8acadbf4ae78724b159a077190c1b0/coconut-develop-3.1.0.post0.dev8.tar.gz
+[2024-05-29 06:34:59] INFO root fetch - processPackages [sdss-hal]: Downloading https://files.pythonhosted.org/packages/46/7f/84c96f7bd92175789817cb3e205aef5f5537f1e2cf09705a86f68a228a99/sdss_hal-1.2.1.tar.gz
+[2024-05-29 06:34:59] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-05-29 06:34:59] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_remote-0.0.98.tar.gz tmp/python_sdk_remote-0.0.99.tar.gz --markdown 20240529/p/python-sdk-remote/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 06:34:59] INFO root fetch - processPackages [sdss-hal]: executing diffoscope
+[2024-05-29 06:34:59] INFO root fetch - processPackages [sdss-hal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_hal-1.2.0.tar.gz tmp/sdss_hal-1.2.1.tar.gz --markdown 20240529/s/sdss-hal/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-29 06:34:59] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/dd/01/30acfa4b7546ecb9a8f3194eae81fcf5daafdddebce842a4acd20d5231ff/coconut-develop-3.1.0.post0.dev9.tar.gz
+[2024-05-29 06:35:00] INFO root fetch - processPackages [furiosa-native-postprocess]: Downloading https://files.pythonhosted.org/packages/20/e5/69e057205753dc2913e495b8a2b071fe75075827982b2072ad3fd1217df6/furiosa_native_postprocess-0.9.0.tar.gz
+[2024-05-29 06:35:00] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2024-05-29 06:35:00] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.1.0.post0.dev8.tar.gz tmp/coconut-develop-3.1.0.post0.dev9.tar.gz --markdown 20240529/c/coconut-develop/3.1.0.post0.dev8-3.1.0.post0.dev9/README.md --exclude *.pyd
+[2024-05-29 06:35:00] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.98.tar.gz]
+[2024-05-29 06:35:00] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.99.tar.gz]
+[2024-05-29 06:35:00] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-05-29 06:35:00] INFO root fetch - processPackages [furiosa-native-postprocess]: executing diffoscope
+[2024-05-29 06:35:00] INFO root fetch - processPackages [furiosa-native-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa_native_postprocess-0.2.2-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/furiosa_native_postprocess-0.9.0.tar.gz --markdown 20240529/f/furiosa-native-postprocess/0.2.2-0.9.0/README.md --exclude *.pyd
+[2024-05-29 06:35:00] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.2.0.tar.gz]
+[2024-05-29 06:35:00] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.2.1.tar.gz]
+[2024-05-29 06:35:00] INFO root fetch - main [MainThread]: End processing [sdss-hal]: success
+[2024-05-29 06:35:01] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev8.tar.gz]
+[2024-05-29 06:35:01] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev9.tar.gz]
+[2024-05-29 06:35:01] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2024-05-29 06:35:01] INFO root fetch - processPackages [furiosa-native-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_native_postprocess-0.2.2-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 06:35:01] INFO root fetch - processPackages [furiosa-native-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_native_postprocess-0.9.0.tar.gz]
+[2024-05-29 06:35:01] INFO root fetch - main [MainThread]: End processing [furiosa-native-postprocess]: success
+[2024-05-29 06:35:01] INFO root fetch - main [MainThread]: Store serial: [23423987]
