@@ -21182,3 +21182,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:10:33] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.3.0rc9.tar.gz]
 [2024-05-29 14:10:33] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
 [2024-05-29 14:10:33] INFO root fetch - main [MainThread]: Store serial: [23429250]
+[2024-05-29 14:12:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429250]
+[2024-05-29 14:12:43] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-29 14:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linien-common
+[2024-05-29 14:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linien-server
+[2024-05-29 14:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blockapi
+[2024-05-29 14:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linien-client
+[2024-05-29 14:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dysmalpy
+[2024-05-29 14:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linien-gui
+[2024-05-29 14:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiogram-broadcaster
+[2024-05-29 14:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cropimg
+[2024-05-29 14:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: brynq-sdk-personio
+[2024-05-29 14:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ou-logger
+[2024-05-29 14:12:43] INFO root fetch - processPackages [linien-client]: New version: [2.0.3rc1] Old Version: [2.0.2]
+[2024-05-29 14:12:43] INFO root fetch - processPackages [linien-server]: New version: [2.0.3rc1] Old Version: [2.0.2]
+[2024-05-29 14:12:43] INFO root fetch - processPackages [linien-gui]: New version: [2.0.3rc1] Old Version: [2.0.2]
+[2024-05-29 14:12:43] WARNING root fetch - processPackages [ou-logger]: Skipping, unable to determine old version
+[2024-05-29 14:12:43] INFO root fetch - processPackages [ou-logger]: Start processing: shmessy
+[2024-05-29 14:12:43] INFO root fetch - main [MainThread]: End processing [ou-logger] error
+[2024-05-29 14:12:43] INFO root fetch - processPackages [cropimg]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 14:12:43] INFO root fetch - processPackages [linien-common]: New version: [2.0.3rc1] Old Version: [2.0.2]
+[2024-05-29 14:12:43] INFO root fetch - processPackages [blockapi]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-29 14:12:43] INFO root fetch - processPackages [aiogram-broadcaster]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-29 14:12:43] INFO root fetch - processPackages [shmessy]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-29 14:12:43] INFO root fetch - processPackages [brynq-sdk-personio]: New version: [0.3.0] Old Version: [0.1.0]
+[2024-05-29 14:12:43] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/a2/d6/9645af193d50d36d77129347905b7ea2e44046324ca80c20a93d9f710252/linien_gui-2.0.2.tar.gz
+[2024-05-29 14:12:43] WARNING root fetch - processPackages [dysmalpy]: Skipping, unable to determine old version
+[2024-05-29 14:12:43] INFO root fetch - processPackages [dysmalpy]: Start processing: streamlit-custom-sidebar-test
+[2024-05-29 14:12:43] INFO root fetch - main [MainThread]: End processing [dysmalpy] error
+[2024-05-29 14:12:43] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/c9/fa/0d33098216e40ce737a978b516f6d411185b920a041255826d58c1a9e934/linien_server-2.0.2.tar.gz
+[2024-05-29 14:12:43] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/a7/ad/6faa83f77eadf6c123b640a8ff8621f8aa46636f93d3ad93b07190dc45ff/linien_client-2.0.2.tar.gz
+[2024-05-29 14:12:43] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/50/38/c585a003abb1b9a6e90d5357913689615d391de4c087ae9ec7fcc840d5a9/linien_common-2.0.2.tar.gz
+[2024-05-29 14:12:43] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/31/4d/7d461a226992bb823af9a205b83532fd5cf942306b4ad4f220a2817a8ee4/blockapi-0.8.1.tar.gz
+[2024-05-29 14:12:43] INFO root fetch - processPackages [cropimg]: Downloading https://files.pythonhosted.org/packages/9b/2c/e251f12e25d4fa0405700d5f5e9cfd34005de540c5523685b47a1b7f0abd/cropimg-0.1.0.tar.gz
+[2024-05-29 14:12:43] INFO root fetch - processPackages [aiogram-broadcaster]: Downloading https://files.pythonhosted.org/packages/d1/16/0f758d3889c387d3a7b98a469209052399c5fdcc7d98d8b151ac84925b0e/aiogram_broadcaster-0.4.6.tar.gz
+[2024-05-29 14:12:43] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 14:12:43] INFO root fetch - processPackages [shmessy]: Downloading https://files.pythonhosted.org/packages/61/5d/83328a71155ec01bc2a5b8506a89b8560d25215f0811babf259ec0f71b2f/shmessy-1.3.6.tar.gz
+[2024-05-29 14:12:43] INFO root fetch - processPackages [brynq-sdk-personio]: Downloading https://files.pythonhosted.org/packages/1f/08/0bbba979eecb49111bab2cde5d5ea39461c66c71e87dd2b9114e62346e94/brynq_sdk_personio-0.1.0.tar.gz
+[2024-05-29 14:12:43] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/76/31/c402018718d3fa15d94e894762f3b09db9d01bc733b9216771505f353e1e/linien_client-2.0.3rc1.tar.gz
+[2024-05-29 14:12:43] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/a9/12/7a345903fd853dc96408822a4014a6d60ffbdbb8cb3ffa8e7d30db034904/linien_gui-2.0.3rc1.tar.gz
+[2024-05-29 14:12:43] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/9c/57/b23bb614c3478748fd840f81985c3f5b9ce0d7dd0de955e19416924ae3c6/linien_common-2.0.3rc1.tar.gz
+[2024-05-29 14:12:44] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/2a/af/457d294dd4b6268e6a009a536cca22b63c85cce738418422012dd10e67f7/linien_server-2.0.3rc1.tar.gz
+[2024-05-29 14:12:44] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/6a/ed/17b1b9e53b4a0bb6d3d31ae17aeaa73238a3bc01d6b208f6b4fb0812d638/blockapi-0.9.0.tar.gz
+[2024-05-29 14:12:44] INFO root fetch - processPackages [shmessy]: Downloading https://files.pythonhosted.org/packages/ce/e4/7a758a858a8d8331ff77ff5d496ae41ba66b9ca222e48b2b00737bc39a29/shmessy-1.3.7.tar.gz
+[2024-05-29 14:12:44] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/cc/e6/8d4f59b6132179599ee5d91de765169c2751c297e1bd4a7ad016c728d7af/streamlit-custom-sidebar-test-0.0.8.tar.gz
+[2024-05-29 14:12:44] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2024-05-29 14:12:44] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_client-2.0.2.tar.gz tmp/linien_client-2.0.3rc1.tar.gz --markdown 20240529/l/linien-client/2.0.2-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-29 14:12:44] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2024-05-29 14:12:44] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_common-2.0.2.tar.gz tmp/linien_common-2.0.3rc1.tar.gz --markdown 20240529/l/linien-common/2.0.2-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-29 14:12:44] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2024-05-29 14:12:44] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_gui-2.0.2.tar.gz tmp/linien_gui-2.0.3rc1.tar.gz --markdown 20240529/l/linien-gui/2.0.2-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-29 14:12:44] INFO root fetch - processPackages [cropimg]: Downloading https://files.pythonhosted.org/packages/dd/7c/888aa8ddf6fb61cd6596ba6bd99cdfbf1f00d021a1619ea5390fbf9669bc/cropimg-0.1.1.tar.gz
+[2024-05-29 14:12:44] INFO root fetch - processPackages [aiogram-broadcaster]: Downloading https://files.pythonhosted.org/packages/9b/54/46709d7d07cf1c1381df666f9bf966cb2f5e00a469c1cc975aa4419ac11d/aiogram_broadcaster-0.4.7.tar.gz
+[2024-05-29 14:12:44] INFO root fetch - processPackages [shmessy]: executing diffoscope
+[2024-05-29 14:12:44] INFO root fetch - processPackages [shmessy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shmessy-1.3.6.tar.gz tmp/shmessy-1.3.7.tar.gz --markdown 20240529/s/shmessy/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-29 14:12:44] INFO root fetch - processPackages [blockapi]: executing diffoscope
+[2024-05-29 14:12:44] INFO root fetch - processPackages [blockapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockapi-0.8.1.tar.gz tmp/blockapi-0.9.0.tar.gz --markdown 20240529/b/blockapi/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-29 14:12:44] INFO root fetch - processPackages [brynq-sdk-personio]: Downloading https://files.pythonhosted.org/packages/b5/91/6693f4151935683f084f546dc9e286b2362a491a3be1ec5b5a767bae3935/brynq_sdk_personio-0.3.0.tar.gz
+[2024-05-29 14:12:44] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2024-05-29 14:12:44] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_server-2.0.2.tar.gz tmp/linien_server-2.0.3rc1.tar.gz --markdown 20240529/l/linien-server/2.0.2-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-29 14:12:44] INFO root fetch - processPackages [cropimg]: executing diffoscope
+[2024-05-29 14:12:44] INFO root fetch - processPackages [cropimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropimg-0.1.0.tar.gz tmp/cropimg-0.1.1.tar.gz --markdown 20240529/c/cropimg/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 14:12:44] INFO root fetch - processPackages [aiogram-broadcaster]: executing diffoscope
+[2024-05-29 14:12:44] INFO root fetch - processPackages [aiogram-broadcaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram_broadcaster-0.4.6.tar.gz tmp/aiogram_broadcaster-0.4.7.tar.gz --markdown 20240529/a/aiogram-broadcaster/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-29 14:12:44] INFO root fetch - processPackages [brynq-sdk-personio]: executing diffoscope
+[2024-05-29 14:12:44] INFO root fetch - processPackages [brynq-sdk-personio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brynq_sdk_personio-0.1.0.tar.gz tmp/brynq_sdk_personio-0.3.0.tar.gz --markdown 20240529/b/brynq-sdk-personio/0.1.0-0.3.0/README.md --exclude *.pyd
+[2024-05-29 14:12:44] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/c5/64/f85ec0da55ad4dc310467708f0a8318497e138284aecaacfba3d552b4099/streamlit-custom-sidebar-test-0.0.9.tar.gz
+[2024-05-29 14:12:45] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien_client-2.0.2.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien_client-2.0.3rc1.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [linien-client]: Start processing: sciobject
+[2024-05-29 14:12:45] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2024-05-29 14:12:45] INFO root fetch - processPackages [sciobject]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: executing diffoscope
+[2024-05-29 14:12:45] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz --markdown 20240529/s/streamlit-custom-sidebar-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 14:12:45] INFO root fetch - processPackages [shmessy]: Remove: archive file [/home/abi/fetcher/tmp/shmessy-1.3.6.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [shmessy]: Remove: archive file [/home/abi/fetcher/tmp/shmessy-1.3.7.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [shmessy]: Start processing: dockipy
+[2024-05-29 14:12:45] INFO root fetch - main [MainThread]: End processing [shmessy]: success
+[2024-05-29 14:12:45] INFO root fetch - processPackages [sciobject]: Downloading https://files.pythonhosted.org/packages/5f/82/4ba48ad1cca4bd972deddb77b8f02e3a8297f82d212fa4565d1ea741e33f/sciobject-0.0.2.tar.gz
+[2024-05-29 14:12:45] INFO root fetch - processPackages [dockipy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [cropimg]: Remove: archive file [/home/abi/fetcher/tmp/cropimg-0.1.0.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [cropimg]: Remove: archive file [/home/abi/fetcher/tmp/cropimg-0.1.1.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - main [MainThread]: End processing [cropimg]: success
+[2024-05-29 14:12:45] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/53/78/5a8313f4b73f6dd85bc028e698161305fc679614fd0f5f8db2b83056a016/dockipy-0.0.8.tar.gz
+[2024-05-29 14:12:45] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.2.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.3rc1.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2024-05-29 14:12:45] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien_server-2.0.2.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien_server-2.0.3rc1.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2024-05-29 14:12:45] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.8.1.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.9.0.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - main [MainThread]: End processing [blockapi]: success
+[2024-05-29 14:12:45] INFO root fetch - processPackages [aiogram-broadcaster]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_broadcaster-0.4.6.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [aiogram-broadcaster]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_broadcaster-0.4.7.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - main [MainThread]: End processing [aiogram-broadcaster]: success
+[2024-05-29 14:12:45] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien_common-2.0.2.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien_common-2.0.3rc1.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2024-05-29 14:12:45] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/20/dd/5a84aa032c0ed0c2e1fcecc40431ec7787625dad7b044cbc47cc0f04f1eb/dockipy-0.0.9.tar.gz
+[2024-05-29 14:12:45] INFO root fetch - processPackages [sciobject]: Downloading https://files.pythonhosted.org/packages/cf/2a/ea0add480a28b89466682d43398dfe060313e990395da63481b79ef8aa17/sciobject-0.0.3.tar.gz
+[2024-05-29 14:12:45] INFO root fetch - processPackages [brynq-sdk-personio]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_personio-0.1.0.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - processPackages [brynq-sdk-personio]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_personio-0.3.0.tar.gz]
+[2024-05-29 14:12:45] INFO root fetch - main [MainThread]: End processing [brynq-sdk-personio]: success
+[2024-05-29 14:12:45] INFO root fetch - processPackages [dockipy]: executing diffoscope
+[2024-05-29 14:12:45] INFO root fetch - processPackages [dockipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockipy-0.0.8.tar.gz tmp/dockipy-0.0.9.tar.gz --markdown 20240529/d/dockipy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 14:12:45] INFO root fetch - processPackages [sciobject]: executing diffoscope
+[2024-05-29 14:12:45] INFO root fetch - processPackages [sciobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciobject-0.0.2.tar.gz tmp/sciobject-0.0.3.tar.gz --markdown 20240529/s/sciobject/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 14:12:46] INFO root fetch - processPackages [sciobject]: Remove: archive file [/home/abi/fetcher/tmp/sciobject-0.0.2.tar.gz]
+[2024-05-29 14:12:46] INFO root fetch - processPackages [sciobject]: Remove: archive file [/home/abi/fetcher/tmp/sciobject-0.0.3.tar.gz]
+[2024-05-29 14:12:46] INFO root fetch - main [MainThread]: End processing [sciobject]: success
+[2024-05-29 14:12:46] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.8.tar.gz]
+[2024-05-29 14:12:46] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.9.tar.gz]
+[2024-05-29 14:12:46] INFO root fetch - main [MainThread]: End processing [dockipy]: success
+[2024-05-29 14:12:56] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz]
+[2024-05-29 14:12:56] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
+[2024-05-29 14:12:56] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
+[2024-05-29 14:12:56] INFO root fetch - main [MainThread]: Store serial: [23429296]
