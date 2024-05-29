@@ -10858,3 +10858,24 @@
 [2024-05-29 07:27:43] INFO root fetch - processPackages [cappa-sqlplag]: Remove: archive file [/home/abi/fetcher/tmp/cappa_sqlplag-0.2.2.tar.gz]
 [2024-05-29 07:27:43] INFO root fetch - main [MainThread]: End processing [cappa-sqlplag]: success
 [2024-05-29 07:27:43] INFO root fetch - main [MainThread]: Store serial: [23424429]
+[2024-05-29 07:29:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424429]
+[2024-05-29 07:29:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 07:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-auth0
+[2024-05-29 07:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-partner-multi-company-pos
+[2024-05-29 07:29:52] INFO root fetch - processPackages [odoo14-addon-partner-multi-company-pos]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev2]
+[2024-05-29 07:29:52] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1716959542] Old Version: [3.4.0a1716504304]
+[2024-05-29 07:29:52] INFO root fetch - processPackages [odoo14-addon-partner-multi-company-pos]: Downloading https://files.pythonhosted.org/packages/ef/a2/b7e11a2b838cccc5ae0a8de211e405efc82a169eb07fb4164b8b038710f6/odoo14_addon_partner_multi_company_pos-14.0.1.0.1.dev2-py3-none-any.whl
+[2024-05-29 07:29:52] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/04/17/28888dbd82b30f147fe4b2fc6aaea7262b9511f401549272abf6ee061207/pulumi_auth0-3.4.0a1716504304.tar.gz
+[2024-05-29 07:29:52] INFO root fetch - processPackages [odoo14-addon-partner-multi-company-pos]: Downloading https://files.pythonhosted.org/packages/73/aa/3023e6af4ccbbd3c2eb65a89fdcba3449304f4db68863953d12f7d66c5fc/odoo14_addon_partner_multi_company_pos-14.0.1.0.1.dev5-py3-none-any.whl
+[2024-05-29 07:29:52] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/fa/89/6782ad0b7f8fcc9906c94a5152639632d8a3cc56e015b3b0c7f3c6546a49/pulumi_auth0-3.4.0a1716959542.tar.gz
+[2024-05-29 07:29:52] INFO root fetch - processPackages [odoo14-addon-partner-multi-company-pos]: executing diffoscope
+[2024-05-29 07:29:52] INFO root fetch - processPackages [odoo14-addon-partner-multi-company-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_multi_company_pos-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_partner_multi_company_pos-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20240529/o/odoo14-addon-partner-multi-company-pos/14.0.1.0.1.dev2-14.0.1.0.1.dev5/README.md --exclude *.pyd
+[2024-05-29 07:29:52] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-05-29 07:29:52] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1716504304.tar.gz tmp/pulumi_auth0-3.4.0a1716959542.tar.gz --markdown 20240529/p/pulumi-auth0/3.4.0a1716504304-3.4.0a1716959542/README.md --exclude *.pyd
+[2024-05-29 07:29:53] INFO root fetch - processPackages [odoo14-addon-partner-multi-company-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_multi_company_pos-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2024-05-29 07:29:53] INFO root fetch - processPackages [odoo14-addon-partner-multi-company-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_multi_company_pos-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-05-29 07:29:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-multi-company-pos]: success
+[2024-05-29 07:29:53] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1716504304.tar.gz]
+[2024-05-29 07:29:53] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1716959542.tar.gz]
+[2024-05-29 07:29:53] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-05-29 07:29:53] INFO root fetch - main [MainThread]: Store serial: [23424435]
