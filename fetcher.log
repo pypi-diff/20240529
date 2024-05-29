@@ -22140,3 +22140,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:43:53] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240529-py3-none-win_amd64.whl.zip]
 [2024-05-29 14:43:53] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-05-29 14:43:53] INFO root fetch - main [MainThread]: Store serial: [23429766]
+[2024-05-29 14:45:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429766]
+[2024-05-29 14:46:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hapi-schema
+[2024-05-29 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfast-sqlite
+[2024-05-29 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs2
+[2024-05-29 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: differt-core
+[2024-05-29 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybalebot
+[2024-05-29 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TDSpy
+[2024-05-29 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kerrgeopy
+[2024-05-29 14:46:02] WARNING root fetch - processPackages [pyfast-sqlite]: Skipping, unable to determine old version
+[2024-05-29 14:46:02] INFO root fetch - main [MainThread]: End processing [pyfast-sqlite] error
+[2024-05-29 14:46:02] INFO root fetch - processPackages [kerrgeopy]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-29 14:46:02] WARNING root fetch - processPackages [TDSpy]: Skipping, unable to determine old version
+[2024-05-29 14:46:02] INFO root fetch - main [MainThread]: End processing [TDSpy] error
+[2024-05-29 14:46:02] INFO root fetch - processPackages [hapi-schema]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-29 14:46:02] INFO root fetch - processPackages [pybalebot]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 14:46:02] INFO root fetch - processPackages [gs2]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-29 14:46:02] INFO root fetch - processPackages [differt-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 14:46:02] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/55/31/b67b6250ce3d8dcb2f4b3b6a940b79283889fe725b9ff2fc97a5dcf6b401/hapi_schema-0.8.8.tar.gz
+[2024-05-29 14:46:02] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/c5/4e/2410c578d132c3fea988dc408e73fddf9945a8ab84f7cfbaa7c82bd7a40b/gs2-1.1.98.tar.gz
+[2024-05-29 14:46:02] INFO root fetch - processPackages [pybalebot]: Downloading https://files.pythonhosted.org/packages/55/89/bd584136e6d262792393b82676cd40c85a097bce14c6036fe647b713d50d/pybalebot-0.0.1.tar.gz
+[2024-05-29 14:46:02] INFO root fetch - processPackages [kerrgeopy]: Downloading https://files.pythonhosted.org/packages/aa/5e/2f1ab160b4e379241ac06275f9303e44741c929eda990f7c2c9371e9a26f/kerrgeopy-0.9.2.tar.gz
+[2024-05-29 14:46:02] INFO root fetch - processPackages [differt-core]: Downloading https://files.pythonhosted.org/packages/e4/69/42cc0ba4f986662991ab57db9abc8dd5ff4e55c29239bbda9c777a048c24/differt_core-0.0.4.tar.gz
+[2024-05-29 14:46:02] INFO root fetch - processPackages [pybalebot]: Downloading https://files.pythonhosted.org/packages/b2/55/4caeb875c90a80ae005f2ea1a0b4db48890ea3bfb27a83e05fad50ce9643/pybalebot-0.0.2.tar.gz
+[2024-05-29 14:46:02] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/a5/d3/103f9b8c52e7302923379d46820256134bcf85ba4e86430d208fa8c70df1/hapi_schema-0.8.9.tar.gz
+[2024-05-29 14:46:03] INFO root fetch - processPackages [differt-core]: Downloading https://files.pythonhosted.org/packages/7e/2e/c1f08a4b067761ed3426efef6d591fc3ff90eb23fb16be8d10e4f35ab3e6/differt_core-0.0.5.tar.gz
+[2024-05-29 14:46:03] INFO root fetch - processPackages [kerrgeopy]: Downloading https://files.pythonhosted.org/packages/c2/bd/ff0b54b2f3fc12c2635f64c1d82df5062b641767253bc02191d629dfad1f/kerrgeopy-0.9.3.tar.gz
+[2024-05-29 14:46:03] INFO root fetch - processPackages [hapi-schema]: executing diffoscope
+[2024-05-29 14:46:03] INFO root fetch - processPackages [hapi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapi_schema-0.8.8.tar.gz tmp/hapi_schema-0.8.9.tar.gz --markdown 20240529/h/hapi-schema/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-29 14:46:03] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/81/a0/4021a82a0acbd1a2e84e6dce76f329b6654d5ebcf3ad4bfebcfcb3152d55/gs2-1.1.99.tar.gz
+[2024-05-29 14:46:03] INFO root fetch - processPackages [pybalebot]: executing diffoscope
+[2024-05-29 14:46:03] INFO root fetch - processPackages [pybalebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybalebot-0.0.1.tar.gz tmp/pybalebot-0.0.2.tar.gz --markdown 20240529/p/pybalebot/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 14:46:03] INFO root fetch - processPackages [differt-core]: executing diffoscope
+[2024-05-29 14:46:03] INFO root fetch - processPackages [differt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/differt_core-0.0.4.tar.gz tmp/differt_core-0.0.5.tar.gz --markdown 20240529/d/differt-core/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 14:46:03] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2024-05-29 14:46:03] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.98.tar.gz tmp/gs2-1.1.99.tar.gz --markdown 20240529/g/gs2/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-29 14:46:03] INFO root fetch - processPackages [kerrgeopy]: executing diffoscope
+[2024-05-29 14:46:03] INFO root fetch - processPackages [kerrgeopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kerrgeopy-0.9.2.tar.gz tmp/kerrgeopy-0.9.3.tar.gz --markdown 20240529/k/kerrgeopy/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-29 14:46:03] INFO root fetch - processPackages [differt-core]: Remove: archive file [/home/abi/fetcher/tmp/differt_core-0.0.4.tar.gz]
+[2024-05-29 14:46:03] INFO root fetch - processPackages [differt-core]: Remove: archive file [/home/abi/fetcher/tmp/differt_core-0.0.5.tar.gz]
+[2024-05-29 14:46:03] INFO root fetch - main [MainThread]: End processing [differt-core]: success
+[2024-05-29 14:46:03] INFO root fetch - processPackages [pybalebot]: Remove: archive file [/home/abi/fetcher/tmp/pybalebot-0.0.1.tar.gz]
+[2024-05-29 14:46:03] INFO root fetch - processPackages [pybalebot]: Remove: archive file [/home/abi/fetcher/tmp/pybalebot-0.0.2.tar.gz]
+[2024-05-29 14:46:03] INFO root fetch - main [MainThread]: End processing [pybalebot]: success
+[2024-05-29 14:46:03] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.8.tar.gz]
+[2024-05-29 14:46:03] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.9.tar.gz]
+[2024-05-29 14:46:03] INFO root fetch - main [MainThread]: End processing [hapi-schema]: success
+[2024-05-29 14:46:04] INFO root fetch - processPackages [kerrgeopy]: Remove: archive file [/home/abi/fetcher/tmp/kerrgeopy-0.9.2.tar.gz]
+[2024-05-29 14:46:04] INFO root fetch - processPackages [kerrgeopy]: Remove: archive file [/home/abi/fetcher/tmp/kerrgeopy-0.9.3.tar.gz]
+[2024-05-29 14:46:04] INFO root fetch - main [MainThread]: End processing [kerrgeopy]: success
+[2024-05-29 14:46:05] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.98.tar.gz]
+[2024-05-29 14:46:05] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
+[2024-05-29 14:46:05] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2024-05-29 14:46:05] INFO root fetch - main [MainThread]: Store serial: [23429824]
