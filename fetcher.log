@@ -21861,3 +21861,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:32:53] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.2.tar.gz]
 [2024-05-29 14:32:53] INFO root fetch - main [MainThread]: End processing [isar]: success
 [2024-05-29 14:32:53] INFO root fetch - main [MainThread]: Store serial: [23429640]
+[2024-05-29 14:34:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429640]
+[2024-05-29 14:35:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 14:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isar
+[2024-05-29 14:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2024-05-29 14:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartlink-local
+[2024-05-29 14:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: database-mysql-local
+[2024-05-29 14:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plyball
+[2024-05-29 14:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aura-tools
+[2024-05-29 14:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chellow
+[2024-05-29 14:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lithic
+[2024-05-29 14:35:02] INFO root fetch - processPackages [aura-tools]: New version: [0.8] Old Version: [0.7]
+[2024-05-29 14:35:02] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.342] Old Version: [0.0.341]
+[2024-05-29 14:35:02] INFO root fetch - processPackages [plyball]: New version: [2.3.0] Old Version: [2.2.72]
+[2024-05-29 14:35:02] INFO root fetch - processPackages [isar]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-29 14:35:02] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 14:35:02] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-05-29 14:35:02] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/24/9e/a40ae5538b353dd0f94cbf122f8b47de58d34ffca0b2e4633c259740b079/isar-1.9.1.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/c3/7b/f2597b7aa6d8d83aed43a22c55ed8d1157f9d4e1af2a2bc205790f7bb976/aura_tools-0.7.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/29/7d/f1bbd3c6dc23858b2baaf85d039cbc7c5feb8135eab7ed4d1b7291fca45d/database_mysql_local-0.0.341.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [lithic]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 14:35:02] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/b2/ac/9d2100bb8a49b5c30f1cc544464db2135b335e3b37d2dfe0b9a968f328ec/plyball-2.2.72.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/d4/72/6c7a79c3af98ebba5bdd7d90f4b9fb469fc0c16c433173845e4f880f8ad2/aura_tools-0.8.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/0c/bd/c87b8c89cd96667a2dc47e515d33dc70dc401f8319ab1c440d614490ed4d/isar-1.9.2.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [kcli]: New version: [99.0.202405291232] Old Version: [99.0.202405291154]
+[2024-05-29 14:35:02] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/59/d1/4b77bd3d15afec27243035efe9cb7ec52264a7cdbb21b887c3336449dcc2/lithic-0.8.0.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/a5/3b/a680822a4cec8d52c765cb4f3b0d49c9ed50dcd744598276a21c65b976f7/plyball-2.3.0.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [aura-tools]: executing diffoscope
+[2024-05-29 14:35:02] INFO root fetch - processPackages [aura-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura_tools-0.7.tar.gz tmp/aura_tools-0.8.tar.gz --markdown 20240529/a/aura-tools/0.7-0.8/README.md --exclude *.pyd
+[2024-05-29 14:35:02] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/b6/62/740452ee966380095530282e3382569550e6ac2b71d386c744dd0b9fcacb/database_mysql_local-0.0.342.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [isar]: executing diffoscope
+[2024-05-29 14:35:02] INFO root fetch - processPackages [isar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isar-1.9.1.tar.gz tmp/isar-1.9.2.tar.gz --markdown 20240529/i/isar/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-29 14:35:02] INFO root fetch - processPackages [plyball]: executing diffoscope
+[2024-05-29 14:35:02] INFO root fetch - processPackages [plyball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plyball-2.2.72.tar.gz tmp/plyball-2.3.0.tar.gz --markdown 20240529/p/plyball/2.2.72-2.3.0/README.md --exclude *.pyd
+[2024-05-29 14:35:02] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-29 14:35:02] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240529/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 14:35:02] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a9/26/b8076d4c0917305b856baf33ff2c3899bb50180a60c4eb589b11216d2930/kcli-99.0.202405291154.tar.gz
+[2024-05-29 14:35:02] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-29 14:35:02] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.341.tar.gz tmp/database_mysql_local-0.0.342.tar.gz --markdown 20240529/d/database-mysql-local/0.0.341-0.0.342/README.md --exclude *.pyd
+[2024-05-29 14:35:03] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-05-29 14:35:03] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240529/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-05-29 14:35:03] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/11/8d/f3dce2caf53a5809b580f08cdad352d9a928b2cf614da9fac7cff2249f1c/lithic-0.9.0.tar.gz
+[2024-05-29 14:35:03] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.7.tar.gz]
+[2024-05-29 14:35:03] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.8.tar.gz]
+[2024-05-29 14:35:03] INFO root fetch - main [MainThread]: End processing [aura-tools]: success
+[2024-05-29 14:35:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/06/f7/cfda2a842ed4b93ee225b917d85eda5754ccecec94a1e5747a590fd8bbf8/kcli-99.0.202405291232.tar.gz
+[2024-05-29 14:35:03] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.2.72.tar.gz]
+[2024-05-29 14:35:03] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.3.0.tar.gz]
+[2024-05-29 14:35:03] INFO root fetch - main [MainThread]: End processing [plyball]: success
+[2024-05-29 14:35:03] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-29 14:35:03] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-29 14:35:03] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-29 14:35:03] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-29 14:35:03] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405291154.tar.gz tmp/kcli-99.0.202405291232.tar.gz --markdown 20240529/k/kcli/99.0.202405291154-99.0.202405291232/README.md --exclude *.pyd
+[2024-05-29 14:35:03] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.1.tar.gz]
+[2024-05-29 14:35:03] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.2.tar.gz]
+[2024-05-29 14:35:03] INFO root fetch - main [MainThread]: End processing [isar]: success
+[2024-05-29 14:35:03] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.341.tar.gz]
+[2024-05-29 14:35:03] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.342.tar.gz]
+[2024-05-29 14:35:03] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-29 14:35:04] INFO root fetch - processPackages [lithic]: executing diffoscope
+[2024-05-29 14:35:04] INFO root fetch - processPackages [lithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lithic-0.8.0.tar.gz tmp/lithic-0.9.0.tar.gz --markdown 20240529/l/lithic/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 14:35:05] INFO root fetch - processPackages [lithic]: Remove: archive file [/home/abi/fetcher/tmp/lithic-0.8.0.tar.gz]
+[2024-05-29 14:35:05] INFO root fetch - processPackages [lithic]: Remove: archive file [/home/abi/fetcher/tmp/lithic-0.9.0.tar.gz]
+[2024-05-29 14:35:05] INFO root fetch - main [MainThread]: End processing [lithic]: success
+[2024-05-29 14:35:05] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-05-29 14:35:05] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-05-29 14:35:05] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-05-29 14:35:05] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405291154.tar.gz]
+[2024-05-29 14:35:05] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405291232.tar.gz]
+[2024-05-29 14:35:05] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-29 14:35:05] INFO root fetch - main [MainThread]: Store serial: [23429673]
