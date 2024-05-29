@@ -10927,3 +10927,27 @@
 [2024-05-29 07:32:07] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1716959416.tar.gz]
 [2024-05-29 07:32:07] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2024-05-29 07:32:07] INFO root fetch - main [MainThread]: Store serial: [23424453]
+[2024-05-29 07:34:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424453]
+[2024-05-29 07:34:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 07:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-artifactory
+[2024-05-29 07:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Simplex
+[2024-05-29 07:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: infraai
+[2024-05-29 07:34:15] WARNING root fetch - processPackages [infraai]: Skipping, unable to determine old version
+[2024-05-29 07:34:15] INFO root fetch - main [MainThread]: End processing [infraai] error
+[2024-05-29 07:34:16] INFO root fetch - processPackages [pulumi-artifactory]: New version: [6.9.0a1716959571] Old Version: [6.9.0a1716504481]
+[2024-05-29 07:34:16] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.8.1rc1] Old Version: [6.8.1]
+[2024-05-29 07:34:16] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/9a/da/d48bd227dfe7388949841acdd26fbc54cd6a8feb232df46529992770f1db/Geode_Simplex-6.8.1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-29 07:34:16] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/10/26/f843e87e0022de6da2f14f61099fe4fe342329b8c4b21825c8257482079a/pulumi_artifactory-6.9.0a1716504481.tar.gz
+[2024-05-29 07:34:16] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/c8/b1/8c5400fc0fbe53b12a91fdf33e71ac0cd7f52aabccd757222f5dee191094/pulumi_artifactory-6.9.0a1716959571.tar.gz
+[2024-05-29 07:34:16] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2024-05-29 07:34:16] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-6.9.0a1716504481.tar.gz tmp/pulumi_artifactory-6.9.0a1716959571.tar.gz --markdown 20240529/p/pulumi-artifactory/6.9.0a1716504481-6.9.0a1716959571/README.md --exclude *.pyd
+[2024-05-29 07:34:17] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/c5/83/ae2ec154346e0b45b610fcf05151c1973fa55d625004fa5223b3979052df/Geode_Simplex-6.8.1rc1-cp39-cp39-win_amd64.whl
+[2024-05-29 07:34:18] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-05-29 07:34:18] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.8.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Simplex-6.8.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240529/G/Geode-Simplex/6.8.1-6.8.1rc1/README.md --exclude *.pyd
+[2024-05-29 07:34:19] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.8.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-29 07:34:19] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.8.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 07:34:19] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-05-29 07:34:19] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.9.0a1716504481.tar.gz]
+[2024-05-29 07:34:19] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.9.0a1716959571.tar.gz]
+[2024-05-29 07:34:19] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2024-05-29 07:34:19] INFO root fetch - main [MainThread]: Store serial: [23424469]
