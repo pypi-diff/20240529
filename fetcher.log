@@ -7543,3 +7543,45 @@
 [2024-05-29 04:16:04] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-1.0.7.tar.gz]
 [2024-05-29 04:16:04] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
 [2024-05-29 04:16:04] INFO root fetch - main [MainThread]: Store serial: [23423149]
+[2024-05-29 04:18:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423149]
+[2024-05-29 04:18:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 04:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RapidanAPI
+[2024-05-29 04:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logistic-ex1
+[2024-05-29 04:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djecorator
+[2024-05-29 04:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pennylane-kq
+[2024-05-29 04:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djmicrosip-exportaimportaprecios
+[2024-05-29 04:18:13] INFO root fetch - processPackages [RapidanAPI]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-29 04:18:13] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-05-29 04:18:13] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: Downloading https://files.pythonhosted.org/packages/80/9a/10aceea910f738d87e8d90246197653f70fe64f113302d21a1ba5ffe99c5/djmicrosip_exportaimportaprecios-1.8.3.tar.gz
+[2024-05-29 04:18:13] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/c1/be/a827da6f0ca46f978c092107d835bb6f307934ad632629c0b6923d4f69a9/RapidanAPI-1.0.7.tar.gz
+[2024-05-29 04:18:13] WARNING root fetch - processPackages [logistic-ex1]: Skipping, unable to determine old version
+[2024-05-29 04:18:13] INFO root fetch - main [MainThread]: End processing [logistic-ex1] error
+[2024-05-29 04:18:13] INFO root fetch - processPackages [djecorator]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-05-29 04:18:13] INFO root fetch - processPackages [pennylane-kq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 04:18:13] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: Downloading https://files.pythonhosted.org/packages/0a/99/c1c245fb65aa720774ae24ba8614f297945a6fb75f8c42ec2846cb7f3a45/djmicrosip_exportaimportaprecios-1.8.4.tar.gz
+[2024-05-29 04:18:13] INFO root fetch - processPackages [djecorator]: Downloading https://files.pythonhosted.org/packages/05/0a/b2aa70b21f3015a4c03ffe6cd5b2c8907e87a3c39db059c04e4f6ff04d9b/djecorator-1.0.3.tar.gz
+[2024-05-29 04:18:13] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/4a/93/27f92567c945db6c74995e4c4dfc17b55f0cfe0afa0f977f90f586513b04/pennylane-kq-0.0.8.tar.gz
+[2024-05-29 04:18:13] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/93/42/530b45ac027c5f91b5711e3d6014a2adcc6906c1e7ccff21129896dc6634/RapidanAPI-1.0.8.tar.gz
+[2024-05-29 04:18:13] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: executing diffoscope
+[2024-05-29 04:18:13] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djmicrosip_exportaimportaprecios-1.8.3.tar.gz tmp/djmicrosip_exportaimportaprecios-1.8.4.tar.gz --markdown 20240529/d/djmicrosip-exportaimportaprecios/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-05-29 04:18:13] INFO root fetch - processPackages [RapidanAPI]: executing diffoscope
+[2024-05-29 04:18:13] INFO root fetch - processPackages [RapidanAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidanAPI-1.0.7.tar.gz tmp/RapidanAPI-1.0.8.tar.gz --markdown 20240529/R/RapidanAPI/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-29 04:18:13] INFO root fetch - processPackages [djecorator]: Downloading https://files.pythonhosted.org/packages/a8/98/b062cb3b055fb837c4d43e1fecd1ff2616ebd4d37f471aee19c067b14673/djecorator-1.1.0.tar.gz
+[2024-05-29 04:18:14] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/19/05/3b95c0beef8bc8cdb63f6d1d6be35bd331b6ba365738d288339fb515ee4e/pennylane-kq-0.0.9.tar.gz
+[2024-05-29 04:18:14] INFO root fetch - processPackages [djecorator]: executing diffoscope
+[2024-05-29 04:18:14] INFO root fetch - processPackages [djecorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djecorator-1.0.3.tar.gz tmp/djecorator-1.1.0.tar.gz --markdown 20240529/d/djecorator/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-05-29 04:18:14] INFO root fetch - processPackages [pennylane-kq]: executing diffoscope
+[2024-05-29 04:18:14] INFO root fetch - processPackages [pennylane-kq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pennylane-kq-0.0.8.tar.gz tmp/pennylane-kq-0.0.9.tar.gz --markdown 20240529/p/pennylane-kq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 04:18:14] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: Remove: archive file [/home/abi/fetcher/tmp/djmicrosip_exportaimportaprecios-1.8.3.tar.gz]
+[2024-05-29 04:18:14] INFO root fetch - processPackages [djmicrosip-exportaimportaprecios]: Remove: archive file [/home/abi/fetcher/tmp/djmicrosip_exportaimportaprecios-1.8.4.tar.gz]
+[2024-05-29 04:18:14] INFO root fetch - main [MainThread]: End processing [djmicrosip-exportaimportaprecios]: success
+[2024-05-29 04:18:14] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.7.tar.gz]
+[2024-05-29 04:18:14] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.8.tar.gz]
+[2024-05-29 04:18:14] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
+[2024-05-29 04:18:14] INFO root fetch - processPackages [djecorator]: Remove: archive file [/home/abi/fetcher/tmp/djecorator-1.0.3.tar.gz]
+[2024-05-29 04:18:14] INFO root fetch - processPackages [djecorator]: Remove: archive file [/home/abi/fetcher/tmp/djecorator-1.1.0.tar.gz]
+[2024-05-29 04:18:14] INFO root fetch - main [MainThread]: End processing [djecorator]: success
+[2024-05-29 04:18:14] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.8.tar.gz]
+[2024-05-29 04:18:14] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.9.tar.gz]
+[2024-05-29 04:18:14] INFO root fetch - main [MainThread]: End processing [pennylane-kq]: success
+[2024-05-29 04:18:14] INFO root fetch - main [MainThread]: Store serial: [23423166]
