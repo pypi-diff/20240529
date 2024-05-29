@@ -13863,3 +13863,42 @@
 [2024-05-29 09:50:47] INFO root fetch - processPackages [jam.py-v5]: Remove: archive file [/home/abi/fetcher/tmp/jam.py-v5-5.5.1.tar.gz]
 [2024-05-29 09:50:47] INFO root fetch - main [MainThread]: End processing [jam.py-v5]: success
 [2024-05-29 09:50:47] INFO root fetch - main [MainThread]: Store serial: [23425863]
+[2024-05-29 09:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425863]
+[2024-05-29 09:52:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 09:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hermitage-alchemy
+[2024-05-29 09:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyxel-sim
+[2024-05-29 09:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fs-tools
+[2024-05-29 09:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openedx-scorm-xblock
+[2024-05-29 09:52:57] INFO root fetch - processPackages [hermitage-alchemy]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-29 09:52:57] INFO root fetch - processPackages [fs-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-29 09:52:57] INFO root fetch - processPackages [hermitage-alchemy]: Downloading https://files.pythonhosted.org/packages/d5/20/65cab8febe194a9534a730925042430cff52f4222b1362ff366d0d6d0733/hermitage_alchemy-0.3.0.tar.gz
+[2024-05-29 09:52:57] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/cd/7d/60b5377d6e0c28706089218966fdda9c0adb2545f1788abc1f757801f8da/fs_tools-0.1.7.tar.gz
+[2024-05-29 09:52:57] INFO root fetch - processPackages [pyxel-sim]: New version: [2.2] Old Version: [2.1.1]
+[2024-05-29 09:52:57] INFO root fetch - processPackages [openedx-scorm-xblock]: New version: [9.5.1] Old Version: [9.5.0]
+[2024-05-29 09:52:58] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/28/68/2e927cedf3c9becd324384e9155b1b7daa05fdc2b3df96c1c8cad882c9a8/fs_tools-0.1.8.tar.gz
+[2024-05-29 09:52:58] INFO root fetch - processPackages [openedx-scorm-xblock]: Downloading https://files.pythonhosted.org/packages/e3/b4/d43a782ea02b47b5eefc762dae36a6021e42032a36a850745b1cf01bd738/openedx-scorm-xblock-9.5.0.tar.gz
+[2024-05-29 09:52:58] INFO root fetch - processPackages [pyxel-sim]: Downloading https://files.pythonhosted.org/packages/b5/63/6bf5aef3a65b84f734e00ef020f2ee78eb0801179890bbfbf0b7ae7e6575/pyxel_sim-2.1.1.tar.gz
+[2024-05-29 09:52:58] INFO root fetch - processPackages [hermitage-alchemy]: Downloading https://files.pythonhosted.org/packages/88/cb/a804806f6768f79e0ddc140a421d233826c029d8fba52df50e9916ab89a0/hermitage_alchemy-0.3.1.tar.gz
+[2024-05-29 09:52:58] INFO root fetch - processPackages [fs-tools]: executing diffoscope
+[2024-05-29 09:52:58] INFO root fetch - processPackages [fs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs_tools-0.1.7.tar.gz tmp/fs_tools-0.1.8.tar.gz --markdown 20240529/f/fs-tools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-29 09:52:58] INFO root fetch - processPackages [hermitage-alchemy]: executing diffoscope
+[2024-05-29 09:52:58] INFO root fetch - processPackages [hermitage-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermitage_alchemy-0.3.0.tar.gz tmp/hermitage_alchemy-0.3.1.tar.gz --markdown 20240529/h/hermitage-alchemy/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-29 09:52:58] INFO root fetch - processPackages [pyxel-sim]: Downloading https://files.pythonhosted.org/packages/6b/b3/c9d9e404314ee394efa1e8c8671c06c667e86ef9e42b9221fda49dc2ab34/pyxel_sim-2.2.tar.gz
+[2024-05-29 09:52:58] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.7.tar.gz]
+[2024-05-29 09:52:58] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.8.tar.gz]
+[2024-05-29 09:52:58] INFO root fetch - main [MainThread]: End processing [fs-tools]: success
+[2024-05-29 09:52:58] INFO root fetch - processPackages [pyxel-sim]: executing diffoscope
+[2024-05-29 09:52:58] INFO root fetch - processPackages [pyxel-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxel_sim-2.1.1.tar.gz tmp/pyxel_sim-2.2.tar.gz --markdown 20240529/p/pyxel-sim/2.1.1-2.2/README.md --exclude *.pyd
+[2024-05-29 09:52:58] INFO root fetch - processPackages [hermitage-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/hermitage_alchemy-0.3.0.tar.gz]
+[2024-05-29 09:52:58] INFO root fetch - processPackages [hermitage-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/hermitage_alchemy-0.3.1.tar.gz]
+[2024-05-29 09:52:58] INFO root fetch - main [MainThread]: End processing [hermitage-alchemy]: success
+[2024-05-29 09:52:59] INFO root fetch - processPackages [openedx-scorm-xblock]: Downloading https://files.pythonhosted.org/packages/b4/71/1866eff725c2b94c444e36e05d94532b0c1fb7a1ac90ffe02b632e6da806/openedx-scorm-xblock-9.5.1.tar.gz
+[2024-05-29 09:52:59] INFO root fetch - processPackages [openedx-scorm-xblock]: executing diffoscope
+[2024-05-29 09:52:59] INFO root fetch - processPackages [openedx-scorm-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-scorm-xblock-9.5.0.tar.gz tmp/openedx-scorm-xblock-9.5.1.tar.gz --markdown 20240529/o/openedx-scorm-xblock/9.5.0-9.5.1/README.md --exclude *.pyd
+[2024-05-29 09:53:00] INFO root fetch - processPackages [openedx-scorm-xblock]: Remove: archive file [/home/abi/fetcher/tmp/openedx-scorm-xblock-9.5.0.tar.gz]
+[2024-05-29 09:53:00] INFO root fetch - processPackages [openedx-scorm-xblock]: Remove: archive file [/home/abi/fetcher/tmp/openedx-scorm-xblock-9.5.1.tar.gz]
+[2024-05-29 09:53:00] INFO root fetch - main [MainThread]: End processing [openedx-scorm-xblock]: success
+[2024-05-29 09:53:00] INFO root fetch - processPackages [pyxel-sim]: Remove: archive file [/home/abi/fetcher/tmp/pyxel_sim-2.1.1.tar.gz]
+[2024-05-29 09:53:00] INFO root fetch - processPackages [pyxel-sim]: Remove: archive file [/home/abi/fetcher/tmp/pyxel_sim-2.2.tar.gz]
+[2024-05-29 09:53:00] INFO root fetch - main [MainThread]: End processing [pyxel-sim]: success
+[2024-05-29 09:53:00] INFO root fetch - main [MainThread]: Store serial: [23425881]
