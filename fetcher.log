@@ -14714,3 +14714,82 @@
 [2024-05-29 10:24:48] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl.zip]
 [2024-05-29 10:24:48] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-05-29 10:24:48] INFO root fetch - main [MainThread]: Store serial: [23426265]
+[2024-05-29 10:26:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426265]
+[2024-05-29 10:26:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: garcia2009
+[2024-05-29 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: silero-vad
+[2024-05-29 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logisticbank
+[2024-05-29 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nkululeko
+[2024-05-29 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prjit
+[2024-05-29 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prototwin-cmdbuff
+[2024-05-29 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocsi
+[2024-05-29 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: burial-mounds
+[2024-05-29 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pdb-numpy
+[2024-05-29 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mkdocsi
+[2024-05-29 10:26:57] INFO root fetch - processPackages [mkdocsi]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-29 10:26:57] INFO root fetch - processPackages [prjit]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 10:26:57] INFO root fetch - processPackages [mkdocsi]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-29 10:26:57] WARNING root fetch - processPackages [logisticbank]: Skipping, unable to determine old version
+[2024-05-29 10:26:57] INFO root fetch - main [MainThread]: End processing [logisticbank] error
+[2024-05-29 10:26:57] INFO root fetch - processPackages [silero-vad]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-29 10:26:57] INFO root fetch - processPackages [burial-mounds]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-29 10:26:57] INFO root fetch - processPackages [pdb-numpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 10:26:57] INFO root fetch - processPackages [garcia2009]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-29 10:26:57] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/3d/ef/40d16f266174d322ee32540a50e58f15e2c3a58bd0545e8c40b3f8360bc4/mkdocsi-1.2.1.tar.gz
+[2024-05-29 10:26:57] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/3d/ef/40d16f266174d322ee32540a50e58f15e2c3a58bd0545e8c40b3f8360bc4/mkdocsi-1.2.1.tar.gz
+[2024-05-29 10:26:57] INFO root fetch - processPackages [prjit]: Downloading https://files.pythonhosted.org/packages/89/be/16ed20037e2486096a724a8d2aa9e361c5c608790984642e6d314e9f93a1/prjit-0.0.3.tar.gz
+[2024-05-29 10:26:57] INFO root fetch - processPackages [nkululeko]: New version: [0.86.0] Old Version: [0.85.2]
+[2024-05-29 10:26:58] WARNING root fetch - processPackages [prototwin-cmdbuff]: Skipping, unable to determine old version
+[2024-05-29 10:26:58] INFO root fetch - main [MainThread]: End processing [prototwin-cmdbuff] error
+[2024-05-29 10:26:58] INFO root fetch - processPackages [silero-vad]: Downloading https://files.pythonhosted.org/packages/01/40/bbcdda29eb675b32106a705a989ebfd1c3785bbab519d959c906bd194345/silero-vad-0.0.5.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [garcia2009]: Downloading https://files.pythonhosted.org/packages/26/cb/0e042f0e7c748234d2ce005bbd76e9471606698d525fe44bef04a0d554a8/garcia2009-1.1.0.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [pdb-numpy]: Downloading https://files.pythonhosted.org/packages/c2/9f/7467ee0f2f05e5ac10209ce12d2e641db8324f06c5c30e916e961a1f4a67/pdb_numpy-0.0.2.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/5f/26/3b9791cfbf9537179fe5c4d5cb5050cef9d48676a8819e7234dc3dd4984a/burial_mounds-0.1.5.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/2b/08/00c93fbb147724923c954e7a5071b8cb6cedfabc4fca8171d0294781daed/nkululeko-0.85.2.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [prjit]: Downloading https://files.pythonhosted.org/packages/65/fe/142af3863ac4ae7c5d95e8098e95477c4c376df40364fc7a1ec07a327d74/prjit-0.0.4.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/ea/8e/43986f6178e4e43aa3f241f005c1758cfdfbbcc3b95d3e6927889f9fea0b/mkdocsi-1.2.2.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/ea/8e/43986f6178e4e43aa3f241f005c1758cfdfbbcc3b95d3e6927889f9fea0b/mkdocsi-1.2.2.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [prjit]: executing diffoscope
+[2024-05-29 10:26:58] INFO root fetch - processPackages [prjit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prjit-0.0.3.tar.gz tmp/prjit-0.0.4.tar.gz --markdown 20240529/p/prjit/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 10:26:58] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 10:26:58] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.2.1.tar.gz tmp/mkdocsi-1.2.2.tar.gz --markdown 20240529/m/mkdocsi/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-29 10:26:58] INFO root fetch - processPackages [garcia2009]: Downloading https://files.pythonhosted.org/packages/84/99/f414236ac286f5be4cb1041f56e0ef4fc8d983ce2e68ef281206ce2ace6b/garcia2009-1.2.0.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 10:26:58] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.2.1.tar.gz tmp/mkdocsi-1.2.2.tar.gz --markdown 20240529/m/mkdocsi/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-29 10:26:58] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/d4/11/53aa8ffcd2c041ffdb34e321b22adf3f48e820501786252023bc1f9389e1/burial_mounds-0.2.0.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [silero-vad]: Downloading https://files.pythonhosted.org/packages/e8/9e/23e8ba013d9361cb86defe2405b4f7434a1f067b53f40437dd0633f2cf47/silero-vad-0.0.6.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [garcia2009]: executing diffoscope
+[2024-05-29 10:26:58] INFO root fetch - processPackages [garcia2009]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garcia2009-1.1.0.tar.gz tmp/garcia2009-1.2.0.tar.gz --markdown 20240529/g/garcia2009/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-29 10:26:58] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/7b/91/cbdf4612cbcf8f060757410d0fe37926bfa9e5ab448af2b34ac907583e1b/nkululeko-0.86.0.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [pdb-numpy]: Downloading https://files.pythonhosted.org/packages/2a/41/b7a03d05446665d4dc60e410cce0de56572969e84c7d8241ba0c2c3fe885/pdb_numpy-0.0.3.tar.gz
+[2024-05-29 10:26:58] INFO root fetch - processPackages [burial-mounds]: executing diffoscope
+[2024-05-29 10:26:58] INFO root fetch - processPackages [burial-mounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burial_mounds-0.1.5.tar.gz tmp/burial_mounds-0.2.0.tar.gz --markdown 20240529/b/burial-mounds/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-29 10:26:58] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-05-29 10:26:58] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.85.2.tar.gz tmp/nkululeko-0.86.0.tar.gz --markdown 20240529/n/nkululeko/0.85.2-0.86.0/README.md --exclude *.pyd
+[2024-05-29 10:26:58] INFO root fetch - processPackages [silero-vad]: executing diffoscope
+[2024-05-29 10:26:58] INFO root fetch - processPackages [silero-vad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silero-vad-0.0.5.tar.gz tmp/silero-vad-0.0.6.tar.gz --markdown 20240529/s/silero-vad/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-29 10:26:58] INFO root fetch - processPackages [pdb-numpy]: executing diffoscope
+[2024-05-29 10:26:58] INFO root fetch - processPackages [pdb-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdb_numpy-0.0.2.tar.gz tmp/pdb_numpy-0.0.3.tar.gz --markdown 20240529/p/pdb-numpy/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 10:26:59] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.1.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.2.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 10:26:59] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 10:26:59] INFO root fetch - processPackages [prjit]: Remove: archive file [/home/abi/fetcher/tmp/prjit-0.0.3.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - processPackages [prjit]: Remove: archive file [/home/abi/fetcher/tmp/prjit-0.0.4.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - main [MainThread]: End processing [prjit]: success
+[2024-05-29 10:26:59] INFO root fetch - processPackages [garcia2009]: Remove: archive file [/home/abi/fetcher/tmp/garcia2009-1.1.0.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - processPackages [garcia2009]: Remove: archive file [/home/abi/fetcher/tmp/garcia2009-1.2.0.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - main [MainThread]: End processing [garcia2009]: success
+[2024-05-29 10:26:59] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.1.5.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.2.0.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - main [MainThread]: End processing [burial-mounds]: success
+[2024-05-29 10:26:59] INFO root fetch - processPackages [silero-vad]: Remove: archive file [/home/abi/fetcher/tmp/silero-vad-0.0.5.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - processPackages [silero-vad]: Remove: archive file [/home/abi/fetcher/tmp/silero-vad-0.0.6.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - main [MainThread]: End processing [silero-vad]: success
+[2024-05-29 10:26:59] INFO root fetch - processPackages [pdb-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pdb_numpy-0.0.2.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - processPackages [pdb-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pdb_numpy-0.0.3.tar.gz]
+[2024-05-29 10:26:59] INFO root fetch - main [MainThread]: End processing [pdb-numpy]: success
+[2024-05-29 10:27:00] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.85.2.tar.gz]
+[2024-05-29 10:27:00] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.86.0.tar.gz]
+[2024-05-29 10:27:00] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-05-29 10:27:00] INFO root fetch - main [MainThread]: Store serial: [23426342]
