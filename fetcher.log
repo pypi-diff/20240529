@@ -3251,3 +3251,27 @@
 [2024-05-29 03:03:26] INFO root fetch - processPackages [altimate-datapilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/altimate-datapilot-cli-0.0.9.tar.gz]
 [2024-05-29 03:03:26] INFO root fetch - main [MainThread]: End processing [altimate-datapilot-cli]: success
 [2024-05-29 03:03:26] INFO root fetch - main [MainThread]: Store serial: [23421532]
+[2024-05-29 03:05:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421532]
+[2024-05-29 03:05:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 03:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langflow
+[2024-05-29 03:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-package-agent-e11
+[2024-05-29 03:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modular-ai
+[2024-05-29 03:05:34] WARNING root fetch - processPackages [example-package-agent-e11]: Skipping, unable to determine old version
+[2024-05-29 03:05:34] INFO root fetch - main [MainThread]: End processing [example-package-agent-e11] error
+[2024-05-29 03:05:34] INFO root fetch - processPackages [modular-ai]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 03:05:34] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-05-29 03:05:34] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-05-29 03:05:34] INFO root fetch - processPackages [modular-ai]: Downloading https://files.pythonhosted.org/packages/2c/f4/42fe55d1a145d37d53dd0e1584ba77014af21dccfd4dfda7c11d7fcf28d2/modular-ai-0.1.0.tar.gz
+[2024-05-29 03:05:34] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-05-29 03:05:34] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-05-29 03:05:34] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240529/l/langflow/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-05-29 03:05:35] INFO root fetch - processPackages [modular-ai]: Downloading https://files.pythonhosted.org/packages/6b/92/a5f88bb7b6c6a415af3da877cd6db26c644c8aa016f804df2cbe193d3923/modular-ai-0.1.1.tar.gz
+[2024-05-29 03:05:35] INFO root fetch - processPackages [modular-ai]: executing diffoscope
+[2024-05-29 03:05:35] INFO root fetch - processPackages [modular-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular-ai-0.1.0.tar.gz tmp/modular-ai-0.1.1.tar.gz --markdown 20240529/m/modular-ai/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 03:05:35] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-05-29 03:05:35] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-05-29 03:05:35] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-05-29 03:05:35] INFO root fetch - processPackages [modular-ai]: Remove: archive file [/home/abi/fetcher/tmp/modular-ai-0.1.0.tar.gz]
+[2024-05-29 03:05:35] INFO root fetch - processPackages [modular-ai]: Remove: archive file [/home/abi/fetcher/tmp/modular-ai-0.1.1.tar.gz]
+[2024-05-29 03:05:35] INFO root fetch - main [MainThread]: End processing [modular-ai]: success
+[2024-05-29 03:05:35] INFO root fetch - main [MainThread]: Store serial: [23421581]
