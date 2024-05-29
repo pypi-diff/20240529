@@ -11066,3 +11066,24 @@
 [2024-05-29 07:40:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-05-29 07:40:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-05-29 07:40:53] INFO root fetch - main [MainThread]: Store serial: [23424505]
+[2024-05-29 07:42:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424505]
+[2024-05-29 07:43:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbot
+[2024-05-29 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solo-cli
+[2024-05-29 07:43:03] INFO root fetch - processPackages [solo-cli]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-29 07:43:03] INFO root fetch - processPackages [bbot]: New version: [1.1.8.3366rc0] Old Version: [1.1.8.3361rc0]
+[2024-05-29 07:43:03] INFO root fetch - processPackages [solo-cli]: Downloading https://files.pythonhosted.org/packages/2b/f2/430da3c8ce41021f9b094b96dededfbbb9be262df81b43bafa8384330401/solo_cli-1.1.1.tar.gz
+[2024-05-29 07:43:03] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/b5/3b/224085bdd51ea8c18e445d2c596c2b94b4999da58e512559920f47d75c6d/bbot-1.1.8.3361rc0.tar.gz
+[2024-05-29 07:43:04] INFO root fetch - processPackages [solo-cli]: Downloading https://files.pythonhosted.org/packages/7a/aa/eef61a5eb77bbdb13926555b36e9284df33cd59612c6114ab83721ac7499/solo_cli-1.1.2.tar.gz
+[2024-05-29 07:43:04] INFO root fetch - processPackages [solo-cli]: executing diffoscope
+[2024-05-29 07:43:04] INFO root fetch - processPackages [solo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solo_cli-1.1.1.tar.gz tmp/solo_cli-1.1.2.tar.gz --markdown 20240529/s/solo-cli/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-29 07:43:04] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/b8/7f/6e2689b4d0efe5cc2518ee1e67217464df50cae92cb9785e1874a746f6f1/bbot-1.1.8.3366rc0.tar.gz
+[2024-05-29 07:43:04] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-05-29 07:43:04] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.8.3361rc0.tar.gz tmp/bbot-1.1.8.3366rc0.tar.gz --markdown 20240529/b/bbot/1.1.8.3361rc0-1.1.8.3366rc0/README.md --exclude *.pyd
+[2024-05-29 07:43:04] INFO root fetch - processPackages [solo-cli]: Remove: archive file [/home/abi/fetcher/tmp/solo_cli-1.1.1.tar.gz]
+[2024-05-29 07:43:04] INFO root fetch - processPackages [solo-cli]: Remove: archive file [/home/abi/fetcher/tmp/solo_cli-1.1.2.tar.gz]
+[2024-05-29 07:43:04] INFO root fetch - main [MainThread]: End processing [solo-cli]: success
+[2024-05-29 07:43:06] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3361rc0.tar.gz]
+[2024-05-29 07:43:06] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3366rc0.tar.gz]
+[2024-05-29 07:43:06] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-05-29 07:43:06] INFO root fetch - main [MainThread]: Store serial: [23424511]
