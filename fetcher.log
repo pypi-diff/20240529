@@ -9045,3 +9045,42 @@
 [2024-05-29 05:49:25] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-4.3.0.tar.gz]
 [2024-05-29 05:49:25] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714]: success
 [2024-05-29 05:49:25] INFO root fetch - main [MainThread]: Store serial: [23423711]
+[2024-05-29 05:51:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423711]
+[2024-05-29 05:51:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3-wget
+[2024-05-29 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-mc
+[2024-05-29 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transparent-classroom
+[2024-05-29 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qtlink
+[2024-05-29 05:51:35] INFO root fetch - processPackages [py3-wget]: New version: [1.0.0] Old Version: [0.0.6]
+[2024-05-29 05:51:35] INFO root fetch - processPackages [sbcli-mc]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-05-29 05:51:36] INFO root fetch - processPackages [transparent-classroom]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 05:51:36] INFO root fetch - processPackages [qtlink]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-29 05:51:36] INFO root fetch - processPackages [py3-wget]: Downloading https://files.pythonhosted.org/packages/57/8f/77475ea2eaad32d961d7d481bcb43e874e4aee4c5d9339f26599ffa2bc0b/py3_wget-0.0.6.tar.gz
+[2024-05-29 05:51:36] INFO root fetch - processPackages [sbcli-mc]: Downloading https://files.pythonhosted.org/packages/0c/bd/6f8734fc11695cdb2aeae9123487ea27f9f3e854361f6bbfd349833aa184/sbcli_mc-1.0.2.zip
+[2024-05-29 05:51:36] INFO root fetch - processPackages [py3-wget]: Downloading https://files.pythonhosted.org/packages/c9/54/7dbd04a5362863176f73846fcc434c1cf345e916f4b9db4bac8e9d90c227/py3_wget-1.0.0.tar.gz
+[2024-05-29 05:51:36] INFO root fetch - processPackages [transparent-classroom]: Downloading https://files.pythonhosted.org/packages/67/0c/a38f8046e74df3b1e5fb651112708b37ce72f296791b852e4470c93f768c/transparent_classroom-0.0.1.tar.gz
+[2024-05-29 05:51:36] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/1e/2a/f0afa86db08fe930e88a52c94dd976db8e567ae3c3a0de8acf7e89709ec4/qtlink-1.2.8.tar.gz
+[2024-05-29 05:51:36] INFO root fetch - processPackages [py3-wget]: executing diffoscope
+[2024-05-29 05:51:36] INFO root fetch - processPackages [py3-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3_wget-0.0.6.tar.gz tmp/py3_wget-1.0.0.tar.gz --markdown 20240529/p/py3-wget/0.0.6-1.0.0/README.md --exclude *.pyd
+[2024-05-29 05:51:36] INFO root fetch - processPackages [sbcli-mc]: Downloading https://files.pythonhosted.org/packages/d5/17/6a74aa71a71feafec3a0d94788daa4c1472f1f7797ed731257abddac1f2a/sbcli_mc-1.0.4.zip
+[2024-05-29 05:51:36] INFO root fetch - processPackages [sbcli-mc]: executing diffoscope
+[2024-05-29 05:51:36] INFO root fetch - processPackages [sbcli-mc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_mc-1.0.2.zip tmp/sbcli_mc-1.0.4.zip --markdown 20240529/s/sbcli-mc/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-05-29 05:51:36] INFO root fetch - processPackages [transparent-classroom]: Downloading https://files.pythonhosted.org/packages/c2/d7/01389c1694c1ac9d3b162145c094cfecd06f1cf19cad82d810f0aca86319/transparent_classroom-0.0.2.tar.gz
+[2024-05-29 05:51:36] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/c6/3c/4a0be6b1937e94fb3f97d962bbc6d21c5edd24d70451ae48565dd4dc2fe8/qtlink-1.2.9.tar.gz
+[2024-05-29 05:51:36] INFO root fetch - processPackages [transparent-classroom]: executing diffoscope
+[2024-05-29 05:51:36] INFO root fetch - processPackages [transparent-classroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transparent_classroom-0.0.1.tar.gz tmp/transparent_classroom-0.0.2.tar.gz --markdown 20240529/t/transparent-classroom/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 05:51:36] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-05-29 05:51:36] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.2.8.tar.gz tmp/qtlink-1.2.9.tar.gz --markdown 20240529/q/qtlink/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-29 05:51:36] INFO root fetch - processPackages [py3-wget]: Remove: archive file [/home/abi/fetcher/tmp/py3_wget-0.0.6.tar.gz]
+[2024-05-29 05:51:36] INFO root fetch - processPackages [py3-wget]: Remove: archive file [/home/abi/fetcher/tmp/py3_wget-1.0.0.tar.gz]
+[2024-05-29 05:51:36] INFO root fetch - main [MainThread]: End processing [py3-wget]: success
+[2024-05-29 05:51:37] INFO root fetch - processPackages [transparent-classroom]: Remove: archive file [/home/abi/fetcher/tmp/transparent_classroom-0.0.1.tar.gz]
+[2024-05-29 05:51:37] INFO root fetch - processPackages [transparent-classroom]: Remove: archive file [/home/abi/fetcher/tmp/transparent_classroom-0.0.2.tar.gz]
+[2024-05-29 05:51:37] INFO root fetch - main [MainThread]: End processing [transparent-classroom]: success
+[2024-05-29 05:51:37] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.8.tar.gz]
+[2024-05-29 05:51:37] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.9.tar.gz]
+[2024-05-29 05:51:37] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-05-29 05:51:37] INFO root fetch - processPackages [sbcli-mc]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mc-1.0.2.zip]
+[2024-05-29 05:51:37] INFO root fetch - processPackages [sbcli-mc]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mc-1.0.4.zip]
+[2024-05-29 05:51:37] INFO root fetch - main [MainThread]: End processing [sbcli-mc]: success
+[2024-05-29 05:51:37] INFO root fetch - main [MainThread]: Store serial: [23423721]
