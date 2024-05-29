@@ -19464,3 +19464,108 @@
 [2024-05-29 13:02:49] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
 [2024-05-29 13:02:49] INFO root fetch - main [MainThread]: End processing [modelbase]: success
 [2024-05-29 13:02:49] INFO root fetch - main [MainThread]: Store serial: [23428561]
+[2024-05-29 13:04:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428561]
+[2024-05-29 13:04:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-29 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelbase
+[2024-05-29 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbagclimenu
+[2024-05-29 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sprdbclient
+[2024-05-29 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocsi
+[2024-05-29 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dash-extensions
+[2024-05-29 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ETH-GTD-cli
+[2024-05-29 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: windmill-api
+[2024-05-29 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cos-ruleengine
+[2024-05-29 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-boto3-sdk-helpers
+[2024-05-29 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wmill
+[2024-05-29 13:04:58] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 13:04:58] INFO root fetch - processPackages [mkdocsi]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-29 13:04:58] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 13:04:58] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2024-05-29 13:04:58] INFO root fetch - processPackages [dash-extensions]: New version: [1.0.9] Old Version: [1.0.8rc2]
+[2024-05-29 13:04:58] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-29 13:04:58] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-29 13:04:58] WARNING root fetch - processPackages [airbagclimenu]: Skipping, unable to determine old version
+[2024-05-29 13:04:58] INFO root fetch - processPackages [airbagclimenu]: Start processing: wmill-pg
+[2024-05-29 13:04:58] INFO root fetch - main [MainThread]: End processing [airbagclimenu] error
+[2024-05-29 13:04:58] INFO root fetch - processPackages [sprdbclient]: New version: [0.13] Old Version: [0.12]
+[2024-05-29 13:04:59] INFO root fetch - processPackages [cos-ruleengine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 13:04:59] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: Downloading https://files.pythonhosted.org/packages/e8/2b/8754e98b61714c28fd1435112efd05a10c431ec84b3687d66a4a69384300/aws_boto3_sdk_helpers-1.0.1.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/ce/65/2b2ed605c460d6951f0ec86b33f71a2b83a1c297551a5b33c49ef02ba3fc/mkdocsi-1.4.0.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/bb/0a/50fa1ec5d25c4299fe860bbee1353c0eb7f1f3a83808556d2c92d59af108/eth_gtd_cli-0.0.98.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/90/bf/520c9147ab71abc1f0767745c2d2975c9d4d0642417c596ca28877805f25/dash_extensions-1.0.8rc2.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-29 13:04:59] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [sprdbclient]: Downloading https://files.pythonhosted.org/packages/80/ae/6d5b1d3fc45b21b7263807c3117318b08290eea9f4aa78292c18eb1a9bee/sprdbclient-0.12.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [cos-ruleengine]: Downloading https://files.pythonhosted.org/packages/ee/f2/b83d102b212a31fc585b31e819ece8bc847c843398a0385f458e38a56f07/cos-ruleengine-0.1.8.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: Downloading https://files.pythonhosted.org/packages/b7/c0/517db524207d9b7f3603aeec008eed9ad52900a9911968ec25d89b776e48/aws_boto3_sdk_helpers-1.0.2.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/3a/3a/941df551139bad5139862c5d9037c073bb93892398261de84ccbd2737322/eth_gtd_cli-0.0.99.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/e1/66/a8f5db00f9fa84387ce660432edeb196d601c0b1bdc1c4751bc7a3d648b4/mkdocsi-1.4.1.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/7f/63/564061f316598022f17cdd48ab443dfc7d05ab959799a2a196f52b2921a1/dash_extensions-1.0.9.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: executing diffoscope
+[2024-05-29 13:04:59] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_boto3_sdk_helpers-1.0.1.tar.gz tmp/aws_boto3_sdk_helpers-1.0.2.tar.gz --markdown 20240529/a/aws-boto3-sdk-helpers/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 13:04:59] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-29 13:04:59] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.98.tar.gz tmp/eth_gtd_cli-0.0.99.tar.gz --markdown 20240529/E/ETH-GTD-cli/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 13:04:59] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2024-05-29 13:04:59] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20240529/m/modelbase/1.9.3-1rc2/README.md --exclude *.pyd
+[2024-05-29 13:04:59] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 13:04:59] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.4.0.tar.gz tmp/mkdocsi-1.4.1.tar.gz --markdown 20240529/m/mkdocsi/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-29 13:04:59] INFO root fetch - processPackages [sprdbclient]: Downloading https://files.pythonhosted.org/packages/59/ef/cf900f29b7a4357d586328931e63deaf65dfb74d92af7fb6f9af4a920381/sprdbclient-0.13.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-29 13:04:59] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240529/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-29 13:04:59] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-29 13:04:59] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240529/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-29 13:04:59] INFO root fetch - processPackages [cos-ruleengine]: Downloading https://files.pythonhosted.org/packages/99/23/f847856821d81c172f7d394b6a8e074ce726036e665452ebd4c08d66f92c/cos-ruleengine-0.1.9.tar.gz
+[2024-05-29 13:04:59] INFO root fetch - processPackages [dash-extensions]: executing diffoscope
+[2024-05-29 13:04:59] INFO root fetch - processPackages [dash-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_extensions-1.0.8rc2.tar.gz tmp/dash_extensions-1.0.9.tar.gz --markdown 20240529/d/dash-extensions/1.0.8rc2-1.0.9/README.md --exclude *.pyd
+[2024-05-29 13:04:59] INFO root fetch - processPackages [sprdbclient]: executing diffoscope
+[2024-05-29 13:04:59] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-29 13:04:59] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240529/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-29 13:04:59] INFO root fetch - processPackages [sprdbclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprdbclient-0.12.tar.gz tmp/sprdbclient-0.13.tar.gz --markdown 20240529/s/sprdbclient/0.12-0.13/README.md --exclude *.pyd
+[2024-05-29 13:05:00] INFO root fetch - processPackages [cos-ruleengine]: executing diffoscope
+[2024-05-29 13:05:00] INFO root fetch - processPackages [cos-ruleengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cos-ruleengine-0.1.8.tar.gz tmp/cos-ruleengine-0.1.9.tar.gz --markdown 20240529/c/cos-ruleengine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 13:05:00] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.4.0.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.4.1.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - processPackages [mkdocsi]: Start processing: drf-2fa
+[2024-05-29 13:05:00] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 13:05:00] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: Remove: archive file [/home/abi/fetcher/tmp/aws_boto3_sdk_helpers-1.0.1.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: Remove: archive file [/home/abi/fetcher/tmp/aws_boto3_sdk_helpers-1.0.2.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - main [MainThread]: End processing [aws-boto3-sdk-helpers]: success
+[2024-05-29 13:05:00] INFO root fetch - processPackages [drf-2fa]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 13:05:00] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2024-05-29 13:05:00] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.98.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.99.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-29 13:05:00] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-29 13:05:00] INFO root fetch - processPackages [sprdbclient]: Remove: archive file [/home/abi/fetcher/tmp/sprdbclient-0.12.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - processPackages [sprdbclient]: Remove: archive file [/home/abi/fetcher/tmp/sprdbclient-0.13.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - processPackages [drf-2fa]: Downloading https://files.pythonhosted.org/packages/a2/63/60d825638a70387eb07a87a9c4fcaf22773d51819f56dedad1de99fd370f/drf-2fa-1.0.0.tar.gz
+[2024-05-29 13:05:00] INFO root fetch - main [MainThread]: End processing [sprdbclient]: success
+[2024-05-29 13:05:00] INFO root fetch - processPackages [cos-ruleengine]: Remove: archive file [/home/abi/fetcher/tmp/cos-ruleengine-0.1.8.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - processPackages [cos-ruleengine]: Remove: archive file [/home/abi/fetcher/tmp/cos-ruleengine-0.1.9.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - main [MainThread]: End processing [cos-ruleengine]: success
+[2024-05-29 13:05:00] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-29 13:05:00] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-29 13:05:01] INFO root fetch - processPackages [drf-2fa]: Downloading https://files.pythonhosted.org/packages/8c/f2/6f8c917703b53e014c3d797fc034fca1f7a4fd6d5e42cf6961de94ebec67/drf-2fa-1.0.1.tar.gz
+[2024-05-29 13:05:01] INFO root fetch - processPackages [drf-2fa]: executing diffoscope
+[2024-05-29 13:05:01] INFO root fetch - processPackages [drf-2fa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-2fa-1.0.0.tar.gz tmp/drf-2fa-1.0.1.tar.gz --markdown 20240529/d/drf-2fa/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 13:05:01] INFO root fetch - processPackages [drf-2fa]: Remove: archive file [/home/abi/fetcher/tmp/drf-2fa-1.0.0.tar.gz]
+[2024-05-29 13:05:01] INFO root fetch - processPackages [drf-2fa]: Remove: archive file [/home/abi/fetcher/tmp/drf-2fa-1.0.1.tar.gz]
+[2024-05-29 13:05:01] INFO root fetch - main [MainThread]: End processing [drf-2fa]: success
+[2024-05-29 13:05:04] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-29 13:05:04] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-29 13:05:04] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-29 13:05:36] INFO root fetch - processPackages [dash-extensions]: Remove: archive file [/home/abi/fetcher/tmp/dash_extensions-1.0.8rc2.tar.gz]
+[2024-05-29 13:05:36] INFO root fetch - processPackages [dash-extensions]: Remove: archive file [/home/abi/fetcher/tmp/dash_extensions-1.0.9.tar.gz]
+[2024-05-29 13:05:36] INFO root fetch - main [MainThread]: End processing [dash-extensions]: success
+[2024-05-29 13:05:36] INFO root fetch - main [MainThread]: Store serial: [23428603]
