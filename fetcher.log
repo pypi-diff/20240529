@@ -9156,3 +9156,68 @@
 [2024-05-29 05:56:07] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.99.tar.gz]
 [2024-05-29 05:56:07] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
 [2024-05-29 05:56:07] INFO root fetch - main [MainThread]: Store serial: [23423745]
+[2024-05-29 05:58:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423745]
+[2024-05-29 05:58:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 05:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gandai
+[2024-05-29 05:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rwkv-simple
+[2024-05-29 05:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stellar-spice
+[2024-05-29 05:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: angle-emb
+[2024-05-29 05:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easyofd
+[2024-05-29 05:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-google
+[2024-05-29 05:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utilmy
+[2024-05-29 05:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: youqu
+[2024-05-29 05:58:17] INFO root fetch - processPackages [utilmy]: New version: [0.1.17169054] Old Version: [0.1.17168949]
+[2024-05-29 05:58:17] INFO root fetch - processPackages [stellar-spice]: New version: [0.4] Old Version: [0.3]
+[2024-05-29 05:58:17] WARNING root fetch - processPackages [rwkv-simple]: Skipping, unable to determine old version
+[2024-05-29 05:58:17] INFO root fetch - main [MainThread]: End processing [rwkv-simple] error
+[2024-05-29 05:58:17] INFO root fetch - processPackages [easyofd]: New version: [0.3.0] Old Version: [0.1.1.5]
+[2024-05-29 05:58:17] INFO root fetch - processPackages [angle-emb]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-29 05:58:17] INFO root fetch - processPackages [gandai]: New version: [1.7.57] Old Version: [1.7.56]
+[2024-05-29 05:58:17] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-05-29 05:58:17] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/22/e5/ee7bf39eb263420c350795d49f5eab86a9e67d52e5ce72d3afc3e0ca6ac3/utilmy-0.1.17168949.tar.gz
+[2024-05-29 05:58:17] INFO root fetch - processPackages [youqu]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-05-29 05:58:17] INFO root fetch - processPackages [stellar-spice]: Downloading https://files.pythonhosted.org/packages/9f/9a/9772e8abbd2d370a8ed9e533c628aa556a5d5ab4d2fa94daee64283bad4f/stellar_spice-0.3.tar.gz
+[2024-05-29 05:58:17] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/d3/a0/bf38889d1575055b7f3f213c8717b84d9cf47591fdb10f925a342ea87d80/gandai-1.7.56.tar.gz
+[2024-05-29 05:58:17] INFO root fetch - processPackages [easyofd]: Downloading https://files.pythonhosted.org/packages/6e/a9/e8da1b0d1da914143282dafe59527c2a28758ca7fabeb7d025e184745242/easyofd-0.1.1.5.tar.gz
+[2024-05-29 05:58:17] INFO root fetch - processPackages [angle-emb]: Downloading https://files.pythonhosted.org/packages/3d/05/669dfd85b2d06171340e936f3ad376fc64ff48e11a9cab7a1f168d7f5fc4/angle_emb-0.4.3.tar.gz
+[2024-05-29 05:58:17] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/38/8e/fcb0358ec1a555837d4cad74bbe97207bd6fe247dc32a5f79b90aaaac8b8/cdktf-cdktf-provider-google-9.0.4.tar.gz
+[2024-05-29 05:58:17] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/74/12/c6e49ba007485b0b638b526460bd96a51778532acc3ed5a638b7eefddc0c/youqu-2.6.1.tar.gz
+[2024-05-29 05:58:17] INFO root fetch - processPackages [stellar-spice]: Downloading https://files.pythonhosted.org/packages/bd/f8/b286ad31eeb4e8e85026897080ac3631c35748096c2cf943f2a9c67266f5/stellar_spice-0.4.tar.gz
+[2024-05-29 05:58:17] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/f4/38/b3653137d7bf020aa219238ce3576409c561b04f6b41b740dccbe9f68e74/gandai-1.7.57.tar.gz
+[2024-05-29 05:58:17] INFO root fetch - processPackages [angle-emb]: Downloading https://files.pythonhosted.org/packages/95/a5/d64d08f6d9005a96bda10b33132e40a544b4a5379d11e93d528f75921567/angle_emb-0.4.4.tar.gz
+[2024-05-29 05:58:17] INFO root fetch - processPackages [easyofd]: Downloading https://files.pythonhosted.org/packages/c7/4a/5a4b7ee358fcfd51919c9300065a3efda04b3b6fb77c4326574a72f4d196/easyofd-0.3.0.tar.gz
+[2024-05-29 05:58:17] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 22123916>=10485760
+[2024-05-29 05:58:17] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2024-05-29 05:58:17] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/cf/6c/5b28a3c029626cccefb0158b38a9c20f21a1aedf3605ee0734eb8f2cbdf0/youqu-2.6.2.tar.gz
+[2024-05-29 05:58:17] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/92/f6/c5cbfa12345b5227990dceabaea4eb55f13d123837542da82754ff37a1e5/utilmy-0.1.17169054.tar.gz
+[2024-05-29 05:58:18] INFO root fetch - processPackages [easyofd]: executing diffoscope
+[2024-05-29 05:58:18] INFO root fetch - processPackages [easyofd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyofd-0.1.1.5.tar.gz tmp/easyofd-0.3.0.tar.gz --markdown 20240529/e/easyofd/0.1.1.5-0.3.0/README.md --exclude *.pyd
+[2024-05-29 05:58:18] INFO root fetch - processPackages [stellar-spice]: executing diffoscope
+[2024-05-29 05:58:18] INFO root fetch - processPackages [stellar-spice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellar_spice-0.3.tar.gz tmp/stellar_spice-0.4.tar.gz --markdown 20240529/s/stellar-spice/0.3-0.4/README.md --exclude *.pyd
+[2024-05-29 05:58:18] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-29 05:58:18] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.56.tar.gz tmp/gandai-1.7.57.tar.gz --markdown 20240529/g/gandai/1.7.56-1.7.57/README.md --exclude *.pyd
+[2024-05-29 05:58:18] INFO root fetch - processPackages [angle-emb]: executing diffoscope
+[2024-05-29 05:58:18] INFO root fetch - processPackages [angle-emb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angle_emb-0.4.3.tar.gz tmp/angle_emb-0.4.4.tar.gz --markdown 20240529/a/angle-emb/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-29 05:58:18] INFO root fetch - processPackages [utilmy]: executing diffoscope
+[2024-05-29 05:58:18] INFO root fetch - processPackages [utilmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilmy-0.1.17168949.tar.gz tmp/utilmy-0.1.17169054.tar.gz --markdown 20240529/u/utilmy/0.1.17168949-0.1.17169054/README.md --exclude *.pyd
+[2024-05-29 05:58:18] INFO root fetch - processPackages [easyofd]: Remove: archive file [/home/abi/fetcher/tmp/easyofd-0.1.1.5.tar.gz]
+[2024-05-29 05:58:18] INFO root fetch - processPackages [easyofd]: Remove: archive file [/home/abi/fetcher/tmp/easyofd-0.3.0.tar.gz]
+[2024-05-29 05:58:18] INFO root fetch - main [MainThread]: End processing [easyofd]: success
+[2024-05-29 05:58:18] INFO root fetch - processPackages [stellar-spice]: Remove: archive file [/home/abi/fetcher/tmp/stellar_spice-0.3.tar.gz]
+[2024-05-29 05:58:18] INFO root fetch - processPackages [stellar-spice]: Remove: archive file [/home/abi/fetcher/tmp/stellar_spice-0.4.tar.gz]
+[2024-05-29 05:58:18] INFO root fetch - main [MainThread]: End processing [stellar-spice]: success
+[2024-05-29 05:58:18] INFO root fetch - processPackages [youqu]: executing diffoscope
+[2024-05-29 05:58:18] INFO root fetch - processPackages [youqu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youqu-2.6.1.tar.gz tmp/youqu-2.6.2.tar.gz --markdown 20240529/y/youqu/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-05-29 05:58:18] INFO root fetch - processPackages [angle-emb]: Remove: archive file [/home/abi/fetcher/tmp/angle_emb-0.4.3.tar.gz]
+[2024-05-29 05:58:18] INFO root fetch - processPackages [angle-emb]: Remove: archive file [/home/abi/fetcher/tmp/angle_emb-0.4.4.tar.gz]
+[2024-05-29 05:58:18] INFO root fetch - main [MainThread]: End processing [angle-emb]: success
+[2024-05-29 05:58:19] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.56.tar.gz]
+[2024-05-29 05:58:19] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.57.tar.gz]
+[2024-05-29 05:58:19] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-29 05:58:20] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.6.1.tar.gz]
+[2024-05-29 05:58:20] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.6.2.tar.gz]
+[2024-05-29 05:58:20] INFO root fetch - main [MainThread]: End processing [youqu]: success
+[2024-05-29 05:58:31] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17168949.tar.gz]
+[2024-05-29 05:58:31] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17169054.tar.gz]
+[2024-05-29 05:58:31] INFO root fetch - main [MainThread]: End processing [utilmy]: success
+[2024-05-29 05:58:31] INFO root fetch - main [MainThread]: Store serial: [23423768]
