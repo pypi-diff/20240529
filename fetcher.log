@@ -11728,3 +11728,60 @@
 [2024-05-29 08:13:52] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.3.tar.gz]
 [2024-05-29 08:13:52] INFO root fetch - main [MainThread]: End processing [unstructured]: success
 [2024-05-29 08:13:52] INFO root fetch - main [MainThread]: Store serial: [23424778]
+[2024-05-29 08:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424778]
+[2024-05-29 08:16:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orso
+[2024-05-29 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oxtapus
+[2024-05-29 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioSAK
+[2024-05-29 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: therix
+[2024-05-29 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretext
+[2024-05-29 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-newrelic
+[2024-05-29 08:16:01] INFO root fetch - processPackages [oxtapus]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-29 08:16:01] INFO root fetch - processPackages [therix]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 08:16:01] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-29 08:16:01] INFO root fetch - processPackages [oxtapus]: Downloading https://files.pythonhosted.org/packages/6a/4c/d12c716f13c97bd5c30a768ff1cfb9e25b89052f322a2a786ec971cea8a2/oxtapus-0.3.2-py3-none-any.whl
+[2024-05-29 08:16:01] INFO root fetch - processPackages [BioSAK]: New version: [1.89.0] Old Version: [1.88.9]
+[2024-05-29 08:16:01] INFO root fetch - processPackages [pretext]: New version: [2.4.2.dev20240529] Old Version: [2.4.2.dev20240524]
+[2024-05-29 08:16:01] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/f1/a8/4a3271dbe063ea17246d65ba9739ec10c81f4c3477759aa094dcb71d3ffd/therix-0.1.8.tar.gz
+[2024-05-29 08:16:01] INFO root fetch - processPackages [orso]: New version: [0.0.99] Old Version: [0.0.97]
+[2024-05-29 08:16:01] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-29 08:16:01] INFO root fetch - processPackages [oxtapus]: Downloading https://files.pythonhosted.org/packages/91/6c/03c622ac1968f37e7ed3e08614ffbc0fc4e7aeb8aa2182d99951b541754e/oxtapus-0.3.3-py3-none-any.whl
+[2024-05-29 08:16:01] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/f6/fa/ce30b5a8d4ddd9e1a9b618d1fa24821d9eb673ceee3d80a6d83f319cd43a/pretext-2.4.2.dev20240524.tar.gz
+[2024-05-29 08:16:01] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/62/97/bf719db985f3e78168efac2d24682565516b6a12a3997626926808793ccb/BioSAK-1.88.9.tar.gz
+[2024-05-29 08:16:01] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/7f/44/c9b678951273a9e9d68f6792efdb0a6d7c20d4d59015b193b974dd2cc5f3/orso-0.0.97.tar.gz
+[2024-05-29 08:16:01] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/05/fd/28e7c0ce7af9ca0f499fda87e401d8c0bbe6ec293fae4635dd0db3f76d70/therix-0.1.9.tar.gz
+[2024-05-29 08:16:01] INFO root fetch - processPackages [oxtapus]: executing diffoscope
+[2024-05-29 08:16:01] INFO root fetch - processPackages [oxtapus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxtapus-0.3.2-py3-none-any.whl.zip tmp/oxtapus-0.3.3-py3-none-any.whl.zip --markdown 20240529/o/oxtapus/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-29 08:16:01] INFO root fetch - processPackages [therix]: executing diffoscope
+[2024-05-29 08:16:01] INFO root fetch - processPackages [therix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/therix-0.1.8.tar.gz tmp/therix-0.1.9.tar.gz --markdown 20240529/t/therix/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 08:16:01] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-29 08:16:02] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-29 08:16:02] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/3b/6f/88d434f36e3a8554a72e5a16792587fa908f98a365e688fd73719090d1ff/pretext-2.4.2.dev20240529.tar.gz
+[2024-05-29 08:16:02] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240529/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-29 08:16:02] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/03/62/532b5a6178cc484d36c6b124c65d4de27ba7fd3af10850166b93c9a661cd/orso-0.0.99.tar.gz
+[2024-05-29 08:16:02] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/4d/d4/b89562e72bd7a42de4b88108e81279b88e81cce94e9d21ef415f1f4f9fac/BioSAK-1.89.0.tar.gz
+[2024-05-29 08:16:02] INFO root fetch - processPackages [orso]: executing diffoscope
+[2024-05-29 08:16:02] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.97.tar.gz tmp/orso-0.0.99.tar.gz --markdown 20240529/o/orso/0.0.97-0.0.99/README.md --exclude *.pyd
+[2024-05-29 08:16:02] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-05-29 08:16:02] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.4.2.dev20240524.tar.gz tmp/pretext-2.4.2.dev20240529.tar.gz --markdown 20240529/p/pretext/2.4.2.dev20240524-2.4.2.dev20240529/README.md --exclude *.pyd
+[2024-05-29 08:16:02] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-05-29 08:16:02] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.88.9.tar.gz tmp/BioSAK-1.89.0.tar.gz --markdown 20240529/B/BioSAK/1.88.9-1.89.0/README.md --exclude *.pyd
+[2024-05-29 08:16:02] INFO root fetch - processPackages [oxtapus]: Remove: archive file [/home/abi/fetcher/tmp/oxtapus-0.3.2-py3-none-any.whl.zip]
+[2024-05-29 08:16:02] INFO root fetch - processPackages [oxtapus]: Remove: archive file [/home/abi/fetcher/tmp/oxtapus-0.3.3-py3-none-any.whl.zip]
+[2024-05-29 08:16:02] INFO root fetch - main [MainThread]: End processing [oxtapus]: success
+[2024-05-29 08:16:02] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.8.tar.gz]
+[2024-05-29 08:16:02] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.9.tar.gz]
+[2024-05-29 08:16:02] INFO root fetch - main [MainThread]: End processing [therix]: success
+[2024-05-29 08:16:03] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.97.tar.gz]
+[2024-05-29 08:16:03] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.99.tar.gz]
+[2024-05-29 08:16:03] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2024-05-29 08:16:03] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-29 08:16:03] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-29 08:16:03] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-29 08:16:03] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.9.tar.gz]
+[2024-05-29 08:16:03] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.89.0.tar.gz]
+[2024-05-29 08:16:03] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-05-29 08:16:05] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.4.2.dev20240524.tar.gz]
+[2024-05-29 08:16:05] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.4.2.dev20240529.tar.gz]
+[2024-05-29 08:16:05] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-05-29 08:16:05] INFO root fetch - main [MainThread]: Store serial: [23424809]
