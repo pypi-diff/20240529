@@ -12771,3 +12771,24 @@
 [2024-05-29 08:57:51] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
 [2024-05-29 08:57:51] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
 [2024-05-29 08:57:51] INFO root fetch - main [MainThread]: Store serial: [23425268]
+[2024-05-29 08:59:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425268]
+[2024-05-29 09:00:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 09:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: refvars
+[2024-05-29 09:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqslab-cli
+[2024-05-29 09:00:00] INFO root fetch - processPackages [refvars]: New version: [0.7] Old Version: [0.6]
+[2024-05-29 09:00:00] INFO root fetch - processPackages [seqslab-cli]: New version: [3.3.4] Old Version: [3.3.3]
+[2024-05-29 09:00:00] INFO root fetch - processPackages [seqslab-cli]: Downloading https://files.pythonhosted.org/packages/4a/9b/ab90fd7acf864444ae6e87d09090bc912ae162f4896b0af125010876ca5c/seqslab-cli-3.3.3.tar.gz
+[2024-05-29 09:00:00] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/d4/91/65f6cb985945e4db520fa4bab1c72c8351a10093430c4af90cc56b28c4e2/refvars-0.6-py3-none-any.whl
+[2024-05-29 09:00:01] INFO root fetch - processPackages [seqslab-cli]: Downloading https://files.pythonhosted.org/packages/e6/8f/869ab8e6f85102a1cd0ce6fb663f785ad6cd7cdb15e7bd91ef4a4636a8ee/seqslab-cli-3.3.4.tar.gz
+[2024-05-29 09:00:01] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/29/1a/f0355fd3eb80898db29f5be6aac8c4b0defcad46ab3afded993efcfb3871/refvars-0.7-py3-none-any.whl
+[2024-05-29 09:00:01] INFO root fetch - processPackages [refvars]: executing diffoscope
+[2024-05-29 09:00:01] INFO root fetch - processPackages [refvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refvars-0.6-py3-none-any.whl.zip tmp/refvars-0.7-py3-none-any.whl.zip --markdown 20240529/r/refvars/0.6-0.7/README.md --exclude *.pyd
+[2024-05-29 09:00:01] INFO root fetch - processPackages [seqslab-cli]: executing diffoscope
+[2024-05-29 09:00:01] INFO root fetch - processPackages [seqslab-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqslab-cli-3.3.3.tar.gz tmp/seqslab-cli-3.3.4.tar.gz --markdown 20240529/s/seqslab-cli/3.3.3-3.3.4/README.md --exclude *.pyd
+[2024-05-29 09:00:01] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.6-py3-none-any.whl.zip]
+[2024-05-29 09:00:01] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.7-py3-none-any.whl.zip]
+[2024-05-29 09:00:01] INFO root fetch - main [MainThread]: End processing [refvars]: success
+[2024-05-29 09:00:02] INFO root fetch - processPackages [seqslab-cli]: Remove: archive file [/home/abi/fetcher/tmp/seqslab-cli-3.3.3.tar.gz]
+[2024-05-29 09:00:02] INFO root fetch - processPackages [seqslab-cli]: Remove: archive file [/home/abi/fetcher/tmp/seqslab-cli-3.3.4.tar.gz]
+[2024-05-29 09:00:02] INFO root fetch - main [MainThread]: End processing [seqslab-cli]: success
+[2024-05-29 09:00:02] INFO root fetch - main [MainThread]: Store serial: [23425276]
