@@ -9811,3 +9811,18 @@
 [2024-05-29 06:35:01] INFO root fetch - processPackages [furiosa-native-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_native_postprocess-0.9.0.tar.gz]
 [2024-05-29 06:35:01] INFO root fetch - main [MainThread]: End processing [furiosa-native-postprocess]: success
 [2024-05-29 06:35:01] INFO root fetch - main [MainThread]: Store serial: [23423987]
+[2024-05-29 06:37:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423987]
+[2024-05-29 06:37:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arrimputer
+[2024-05-29 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-codenerix
+[2024-05-29 06:37:14] INFO root fetch - processPackages [django-codenerix]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-29 06:37:14] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/ae/10/6c1b18ca5b901dda322ef6ebd63aa51cd777f12179630cfe66a52dbefd73/django-codenerix-4.0.8.tar.gz
+[2024-05-29 06:37:14] WARNING root fetch - processPackages [arrimputer]: Skipping, unable to determine old version
+[2024-05-29 06:37:14] INFO root fetch - main [MainThread]: End processing [arrimputer] error
+[2024-05-29 06:37:14] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/fa/74/5c81cb6c9cd40266d8845b61025400c9db3344b5ed8063c6b29f18d4574e/django-codenerix-4.0.9.tar.gz
+[2024-05-29 06:37:15] INFO root fetch - processPackages [django-codenerix]: executing diffoscope
+[2024-05-29 06:37:15] INFO root fetch - processPackages [django-codenerix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-4.0.8.tar.gz tmp/django-codenerix-4.0.9.tar.gz --markdown 20240529/d/django-codenerix/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-29 06:37:19] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.8.tar.gz]
+[2024-05-29 06:37:19] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
+[2024-05-29 06:37:19] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
+[2024-05-29 06:37:19] INFO root fetch - main [MainThread]: Store serial: [23423997]
