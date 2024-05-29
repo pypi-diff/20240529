@@ -13254,3 +13254,24 @@
 [2024-05-29 09:26:42] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.9.1.tar.gz]
 [2024-05-29 09:26:42] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2024-05-29 09:26:42] INFO root fetch - main [MainThread]: Store serial: [23425567]
+[2024-05-29 09:28:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425567]
+[2024-05-29 09:28:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openbot-training-frontend
+[2024-05-29 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-admin-assets
+[2024-05-29 09:28:51] INFO root fetch - processPackages [openbot-training-frontend]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-29 09:28:51] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1556] Old Version: [1.0.0.post1555]
+[2024-05-29 09:28:51] INFO root fetch - processPackages [openbot-training-frontend]: Downloading https://files.pythonhosted.org/packages/1b/8b/93da9f2391b9da7145ac194d4b52729d5c29d114d16db2580d15ba47385d/openbot_training_frontend-0.6.0.tar.gz
+[2024-05-29 09:28:51] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/7a/2e/a148c9fe153c4bf9895b0e254548ed4b4379d94015845fe371afac706a14/nucliadb_admin_assets-1.0.0.post1555-py3-none-any.whl
+[2024-05-29 09:28:51] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/07/8a/80cd1f3956dc2d12807498895cfea939da9e552bca1e42ad2d607e567a3d/nucliadb_admin_assets-1.0.0.post1556-py3-none-any.whl
+[2024-05-29 09:28:51] INFO root fetch - processPackages [openbot-training-frontend]: Downloading https://files.pythonhosted.org/packages/88/fc/5f399cb6f0eb28b146196b22249b8b9739824b0cb7ee1cd61124f292cadb/openbot_training_frontend-0.7.0.tar.gz
+[2024-05-29 09:28:51] INFO root fetch - processPackages [openbot-training-frontend]: executing diffoscope
+[2024-05-29 09:28:51] INFO root fetch - processPackages [openbot-training-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbot_training_frontend-0.6.0.tar.gz tmp/openbot_training_frontend-0.7.0.tar.gz --markdown 20240529/o/openbot-training-frontend/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-29 09:28:52] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-29 09:28:52] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1555-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1556-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-admin-assets/1.0.0.post1555-1.0.0.post1556/README.md --exclude *.pyd
+[2024-05-29 09:29:06] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1555-py3-none-any.whl.zip]
+[2024-05-29 09:29:06] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1556-py3-none-any.whl.zip]
+[2024-05-29 09:29:06] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-29 09:30:23] INFO root fetch - processPackages [openbot-training-frontend]: Remove: archive file [/home/abi/fetcher/tmp/openbot_training_frontend-0.6.0.tar.gz]
+[2024-05-29 09:30:23] INFO root fetch - processPackages [openbot-training-frontend]: Remove: archive file [/home/abi/fetcher/tmp/openbot_training_frontend-0.7.0.tar.gz]
+[2024-05-29 09:30:23] INFO root fetch - main [MainThread]: End processing [openbot-training-frontend]: success
+[2024-05-29 09:30:23] INFO root fetch - main [MainThread]: Store serial: [23425570]
