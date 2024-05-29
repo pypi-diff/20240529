@@ -22952,3 +22952,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:07:52] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-05-29 15:07:52] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-05-29 15:07:52] INFO root fetch - main [MainThread]: Store serial: [23430137]
+[2024-05-29 15:09:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430137]
+[2024-05-29 15:10:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-29 15:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-preinstalled-amazon-linux-ec2
+[2024-05-29 15:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-jobs
+[2024-05-29 15:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nkululeko
+[2024-05-29 15:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anon-traffic
+[2024-05-29 15:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mns-scheduler
+[2024-05-29 15:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Andreani-QA-Api
+[2024-05-29 15:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: voicegain-speech
+[2024-05-29 15:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dotenv-keyvault
+[2024-05-29 15:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anon-traffic
+[2024-05-29 15:10:02] INFO root fetch - processPackages [anon-traffic]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-29 15:10:02] INFO root fetch - processPackages [mns-scheduler]: New version: [1.0.6.5] Old Version: [1.0.6.4]
+[2024-05-29 15:10:02] INFO root fetch - processPackages [nkululeko]: New version: [0.86.0] Old Version: [0.85.2]
+[2024-05-29 15:10:02] INFO root fetch - processPackages [Andreani-QA-Api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 15:10:02] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 15:10:02] INFO root fetch - processPackages [anon-traffic]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-29 15:10:02] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-29 15:10:02] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/2b/08/00c93fbb147724923c954e7a5071b8cb6cedfabc4fca8171d0294781daed/nkululeko-0.85.2.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/49/9e/d613f8b56462d446e5eab9cbf42000a8aa0462a940f28a0014454cc4a93c/mns-scheduler-1.0.6.4.tar.gz
+[2024-05-29 15:10:02] WARNING root fetch - processPackages [dotenv-keyvault]: Skipping, unable to determine old version
+[2024-05-29 15:10:02] INFO root fetch - main [MainThread]: End processing [dotenv-keyvault] error
+[2024-05-29 15:10:02] INFO root fetch - processPackages [Andreani-QA-Api]: Downloading https://files.pythonhosted.org/packages/ef/88/e10f4cb90359e47f007cd6b789733ad670c878bf58e55ccc9546733ac6d3/Andreani_QA_Api-0.0.8.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [voicegain-speech]: New version: [1.99.1] Old Version: [1.99.0]
+[2024-05-29 15:10:02] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Downloading https://files.pythonhosted.org/packages/0e/9b/79ce0dacf55cce7f7a5628da02f6b3955daa091db63a16b61b0e2309a516/cdk-preinstalled-amazon-linux-ec2-0.0.1.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [anon-traffic]: Downloading https://files.pythonhosted.org/packages/d0/12/154daca273535098de552c9a7ede591e0acc6c4bc8e2d65368d2d9d18605/anon_traffic-0.2.0.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [anon-traffic]: Downloading https://files.pythonhosted.org/packages/d0/12/154daca273535098de552c9a7ede591e0acc6c4bc8e2d65368d2d9d18605/anon_traffic-0.2.0.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [voicegain-speech]: Downloading https://files.pythonhosted.org/packages/b3/c1/9396b6373a491fa5c7149a676f46d0bcaf70d68fe190af2cf42aaf331e44/voicegain-speech-1.99.0.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [Andreani-QA-Api]: Downloading https://files.pythonhosted.org/packages/5c/e0/479dd1e423e2b0dbc1c97201b910e15387c5955f1b29b274cf95770327c7/Andreani_QA_Api-0.0.9.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/7b/91/cbdf4612cbcf8f060757410d0fe37926bfa9e5ab448af2b34ac907583e1b/nkululeko-0.86.0.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/be/97/62c177d7be66f2fdf3a6498e0e1ff00b11bafdf5707cb230c72c875a3fd3/mns-scheduler-1.0.6.5.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [Andreani-QA-Api]: executing diffoscope
+[2024-05-29 15:10:02] INFO root fetch - processPackages [Andreani-QA-Api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Andreani_QA_Api-0.0.8.tar.gz tmp/Andreani_QA_Api-0.0.9.tar.gz --markdown 20240529/A/Andreani-QA-Api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 15:10:02] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-29 15:10:02] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240529/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-29 15:10:02] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Downloading https://files.pythonhosted.org/packages/7c/c9/08969ed875281177883ad62d36d8975dd4910b7b2e495877bd88b7d1a260/cdk-preinstalled-amazon-linux-ec2-0.0.2.tar.gz
+[2024-05-29 15:10:02] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-05-29 15:10:02] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.85.2.tar.gz tmp/nkululeko-0.86.0.tar.gz --markdown 20240529/n/nkululeko/0.85.2-0.86.0/README.md --exclude *.pyd
+[2024-05-29 15:10:02] INFO root fetch - processPackages [mns-scheduler]: executing diffoscope
+[2024-05-29 15:10:02] INFO root fetch - processPackages [mns-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns-scheduler-1.0.6.4.tar.gz tmp/mns-scheduler-1.0.6.5.tar.gz --markdown 20240529/m/mns-scheduler/1.0.6.4-1.0.6.5/README.md --exclude *.pyd
+[2024-05-29 15:10:02] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: executing diffoscope
+[2024-05-29 15:10:02] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-preinstalled-amazon-linux-ec2-0.0.1.tar.gz tmp/cdk-preinstalled-amazon-linux-ec2-0.0.2.tar.gz --markdown 20240529/c/cdk-preinstalled-amazon-linux-ec2/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 15:10:03] INFO root fetch - processPackages [anon-traffic]: Downloading https://files.pythonhosted.org/packages/38/8e/0ab1d2035958928bb34134d508ee0750e6a5cf377982ec9e81cfd99b4aaf/anon_traffic-0.3.0.tar.gz
+[2024-05-29 15:10:03] INFO root fetch - processPackages [anon-traffic]: Downloading https://files.pythonhosted.org/packages/38/8e/0ab1d2035958928bb34134d508ee0750e6a5cf377982ec9e81cfd99b4aaf/anon_traffic-0.3.0.tar.gz
+[2024-05-29 15:10:03] INFO root fetch - processPackages [anon-traffic]: executing diffoscope
+[2024-05-29 15:10:03] INFO root fetch - processPackages [anon-traffic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anon_traffic-0.2.0.tar.gz tmp/anon_traffic-0.3.0.tar.gz --markdown 20240529/a/anon-traffic/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-29 15:10:03] INFO root fetch - processPackages [anon-traffic]: executing diffoscope
+[2024-05-29 15:10:03] INFO root fetch - processPackages [anon-traffic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anon_traffic-0.2.0.tar.gz tmp/anon_traffic-0.3.0.tar.gz --markdown 20240529/a/anon-traffic/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-29 15:10:03] INFO root fetch - processPackages [Andreani-QA-Api]: Remove: archive file [/home/abi/fetcher/tmp/Andreani_QA_Api-0.0.8.tar.gz]
+[2024-05-29 15:10:03] INFO root fetch - processPackages [Andreani-QA-Api]: Remove: archive file [/home/abi/fetcher/tmp/Andreani_QA_Api-0.0.9.tar.gz]
+[2024-05-29 15:10:03] INFO root fetch - main [MainThread]: End processing [Andreani-QA-Api]: success
+[2024-05-29 15:10:03] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-29 15:10:03] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-29 15:10:03] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-29 15:10:03] INFO root fetch - processPackages [voicegain-speech]: Downloading https://files.pythonhosted.org/packages/22/6b/8c90dd1b79ea577cdacc1d204bfcc83698e137983ed07b34acab9484fbef/voicegain-speech-1.99.1.tar.gz
+[2024-05-29 15:10:03] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Remove: archive file [/home/abi/fetcher/tmp/cdk-preinstalled-amazon-linux-ec2-0.0.1.tar.gz]
+[2024-05-29 15:10:03] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Remove: archive file [/home/abi/fetcher/tmp/cdk-preinstalled-amazon-linux-ec2-0.0.2.tar.gz]
+[2024-05-29 15:10:03] INFO root fetch - main [MainThread]: End processing [cdk-preinstalled-amazon-linux-ec2]: success
+[2024-05-29 15:10:03] INFO root fetch - processPackages [anon-traffic]: Remove: archive file [/home/abi/fetcher/tmp/anon_traffic-0.2.0.tar.gz]
+[2024-05-29 15:10:03] INFO root fetch - processPackages [anon-traffic]: Remove: archive file [/home/abi/fetcher/tmp/anon_traffic-0.3.0.tar.gz]
+[2024-05-29 15:10:03] INFO root fetch - main [MainThread]: End processing [anon-traffic]: success
+[2024-05-29 15:10:03] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.6.4.tar.gz]
+[2024-05-29 15:10:03] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.6.5.tar.gz]
+[2024-05-29 15:10:03] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
+[2024-05-29 15:10:03] INFO root fetch - main [MainThread]: End processing [anon-traffic]: success
+[2024-05-29 15:10:04] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.85.2.tar.gz]
+[2024-05-29 15:10:04] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.86.0.tar.gz]
+[2024-05-29 15:10:04] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-05-29 15:10:04] INFO root fetch - processPackages [voicegain-speech]: executing diffoscope
+[2024-05-29 15:10:04] INFO root fetch - processPackages [voicegain-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicegain-speech-1.99.0.tar.gz tmp/voicegain-speech-1.99.1.tar.gz --markdown 20240529/v/voicegain-speech/1.99.0-1.99.1/README.md --exclude *.pyd
+[2024-05-29 15:10:09] INFO root fetch - processPackages [voicegain-speech]: Remove: archive file [/home/abi/fetcher/tmp/voicegain-speech-1.99.0.tar.gz]
+[2024-05-29 15:10:09] INFO root fetch - processPackages [voicegain-speech]: Remove: archive file [/home/abi/fetcher/tmp/voicegain-speech-1.99.1.tar.gz]
+[2024-05-29 15:10:09] INFO root fetch - main [MainThread]: End processing [voicegain-speech]: success
+[2024-05-29 15:10:09] INFO root fetch - main [MainThread]: Store serial: [23430167]
