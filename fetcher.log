@@ -2778,3 +2778,33 @@
 [2024-05-29 02:34:35] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240528.tar.gz]
 [2024-05-29 02:34:35] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
 [2024-05-29 02:34:35] INFO root fetch - main [MainThread]: Store serial: [23421309]
+[2024-05-29 02:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421309]
+[2024-05-29 02:36:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 02:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kolena
+[2024-05-29 02:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-oracle
+[2024-05-29 02:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kolena-client
+[2024-05-29 02:36:44] INFO root fetch - processPackages [kolena]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-29 02:36:44] INFO root fetch - processPackages [fastapi-oracle]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 02:36:44] INFO root fetch - processPackages [kolena-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-29 02:36:44] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/0a/d6/97de9a0f80beba1be7fdf36a7755d95f269a93c86487a35a70f230bccde6/kolena-1.8.0.tar.gz
+[2024-05-29 02:36:44] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a3/a7/78d5afa11fb61ba1e3a48b56f90523118e38fe1c910a463478fb21a82f79/kolena_client-1.8.0.tar.gz
+[2024-05-29 02:36:44] INFO root fetch - processPackages [fastapi-oracle]: Downloading https://files.pythonhosted.org/packages/bb/6a/1ea8178445e1f02a24cc132e36b6a5324b65d774c223fe947149fcad6255/fastapi_oracle-0.9.0-py3-none-any.whl
+[2024-05-29 02:36:44] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/96/79/bb655005ebffcb47a9d4a3150f2e8aa233b1219d02d5c56c170ff171f870/kolena-1.9.0.tar.gz
+[2024-05-29 02:36:44] INFO root fetch - processPackages [fastapi-oracle]: Downloading https://files.pythonhosted.org/packages/46/4e/b028b5cb0776c3d3bc6039a60cd96c65e5aac07b0a2568242557d5e8b7fc/fastapi_oracle-0.9.1-py3-none-any.whl
+[2024-05-29 02:36:44] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a8/f0/873193dc29f6f975d384cd4650275c9264bfdf09d2bbeb4e617d8aec3d61/kolena_client-1.9.0.tar.gz
+[2024-05-29 02:36:44] INFO root fetch - processPackages [fastapi-oracle]: executing diffoscope
+[2024-05-29 02:36:44] INFO root fetch - processPackages [fastapi-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_oracle-0.9.0-py3-none-any.whl.zip tmp/fastapi_oracle-0.9.1-py3-none-any.whl.zip --markdown 20240529/f/fastapi-oracle/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-29 02:36:44] INFO root fetch - processPackages [kolena]: executing diffoscope
+[2024-05-29 02:36:44] INFO root fetch - processPackages [kolena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena-1.8.0.tar.gz tmp/kolena-1.9.0.tar.gz --markdown 20240529/k/kolena/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-29 02:36:44] INFO root fetch - processPackages [kolena-client]: executing diffoscope
+[2024-05-29 02:36:44] INFO root fetch - processPackages [kolena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena_client-1.8.0.tar.gz tmp/kolena_client-1.9.0.tar.gz --markdown 20240529/k/kolena-client/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-29 02:36:45] INFO root fetch - processPackages [fastapi-oracle]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_oracle-0.9.0-py3-none-any.whl.zip]
+[2024-05-29 02:36:45] INFO root fetch - processPackages [fastapi-oracle]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_oracle-0.9.1-py3-none-any.whl.zip]
+[2024-05-29 02:36:45] INFO root fetch - main [MainThread]: End processing [fastapi-oracle]: success
+[2024-05-29 02:36:45] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.8.0.tar.gz]
+[2024-05-29 02:36:45] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.9.0.tar.gz]
+[2024-05-29 02:36:45] INFO root fetch - main [MainThread]: End processing [kolena]: success
+[2024-05-29 02:36:45] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-1.8.0.tar.gz]
+[2024-05-29 02:36:45] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-1.9.0.tar.gz]
+[2024-05-29 02:36:45] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
+[2024-05-29 02:36:45] INFO root fetch - main [MainThread]: Store serial: [23421316]
