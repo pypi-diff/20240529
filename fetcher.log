@@ -13116,3 +13116,42 @@
 [2024-05-29 09:17:43] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.9.tar.gz]
 [2024-05-29 09:17:43] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
 [2024-05-29 09:17:43] INFO root fetch - main [MainThread]: Store serial: [23425469]
+[2024-05-29 09:19:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425469]
+[2024-05-29 09:19:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 09:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: differt-core
+[2024-05-29 09:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pldag
+[2024-05-29 09:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-admin-assets
+[2024-05-29 09:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: killercoda-cli
+[2024-05-29 09:19:51] INFO root fetch - processPackages [killercoda-cli]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-05-29 09:19:51] INFO root fetch - processPackages [pldag]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-29 09:19:51] INFO root fetch - processPackages [killercoda-cli]: Downloading https://files.pythonhosted.org/packages/20/b0/0bdf453fc35cc99c7f628aac41697396059c53ecbbcda237054e2e7e85b1/killercoda_cli-1.0.8.tar.gz
+[2024-05-29 09:19:51] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1556] Old Version: [1.0.0.post1555]
+[2024-05-29 09:19:51] INFO root fetch - processPackages [differt-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 09:19:51] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/a8/2b/5e6b55e7983ca014fe7a796baaaec599ab7bb9174c6229a6e5c49fe6dcc3/pldag-0.8.3.tar.gz
+[2024-05-29 09:19:51] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/7a/2e/a148c9fe153c4bf9895b0e254548ed4b4379d94015845fe371afac706a14/nucliadb_admin_assets-1.0.0.post1555-py3-none-any.whl
+[2024-05-29 09:19:52] INFO root fetch - processPackages [differt-core]: Downloading https://files.pythonhosted.org/packages/e4/69/42cc0ba4f986662991ab57db9abc8dd5ff4e55c29239bbda9c777a048c24/differt_core-0.0.4.tar.gz
+[2024-05-29 09:19:52] INFO root fetch - processPackages [killercoda-cli]: Downloading https://files.pythonhosted.org/packages/fc/a2/1ac2f79b0234caed1a73b4ba1b217473400d4defc54f770c57c52d02d3a3/killercoda_cli-1.1.0.tar.gz
+[2024-05-29 09:19:52] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/f7/bd/51813652bb5ff4377892328db1f2d0d0f38c7f284d00b5bb2af6724c3310/pldag-0.8.4.tar.gz
+[2024-05-29 09:19:52] INFO root fetch - processPackages [differt-core]: Downloading https://files.pythonhosted.org/packages/7e/2e/c1f08a4b067761ed3426efef6d591fc3ff90eb23fb16be8d10e4f35ab3e6/differt_core-0.0.5.tar.gz
+[2024-05-29 09:19:52] INFO root fetch - processPackages [killercoda-cli]: executing diffoscope
+[2024-05-29 09:19:52] INFO root fetch - processPackages [killercoda-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/killercoda_cli-1.0.8.tar.gz tmp/killercoda_cli-1.1.0.tar.gz --markdown 20240529/k/killercoda-cli/1.0.8-1.1.0/README.md --exclude *.pyd
+[2024-05-29 09:19:52] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/07/8a/80cd1f3956dc2d12807498895cfea939da9e552bca1e42ad2d607e567a3d/nucliadb_admin_assets-1.0.0.post1556-py3-none-any.whl
+[2024-05-29 09:19:52] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-05-29 09:19:52] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.8.3.tar.gz tmp/pldag-0.8.4.tar.gz --markdown 20240529/p/pldag/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-29 09:19:52] INFO root fetch - processPackages [differt-core]: executing diffoscope
+[2024-05-29 09:19:52] INFO root fetch - processPackages [differt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/differt_core-0.0.4.tar.gz tmp/differt_core-0.0.5.tar.gz --markdown 20240529/d/differt-core/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 09:19:52] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-29 09:19:52] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1555-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1556-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-admin-assets/1.0.0.post1555-1.0.0.post1556/README.md --exclude *.pyd
+[2024-05-29 09:19:52] INFO root fetch - processPackages [killercoda-cli]: Remove: archive file [/home/abi/fetcher/tmp/killercoda_cli-1.0.8.tar.gz]
+[2024-05-29 09:19:52] INFO root fetch - processPackages [killercoda-cli]: Remove: archive file [/home/abi/fetcher/tmp/killercoda_cli-1.1.0.tar.gz]
+[2024-05-29 09:19:52] INFO root fetch - main [MainThread]: End processing [killercoda-cli]: success
+[2024-05-29 09:19:53] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.3.tar.gz]
+[2024-05-29 09:19:53] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.4.tar.gz]
+[2024-05-29 09:19:53] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-05-29 09:19:53] INFO root fetch - processPackages [differt-core]: Remove: archive file [/home/abi/fetcher/tmp/differt_core-0.0.4.tar.gz]
+[2024-05-29 09:19:53] INFO root fetch - processPackages [differt-core]: Remove: archive file [/home/abi/fetcher/tmp/differt_core-0.0.5.tar.gz]
+[2024-05-29 09:19:53] INFO root fetch - main [MainThread]: End processing [differt-core]: success
+[2024-05-29 09:20:07] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1555-py3-none-any.whl.zip]
+[2024-05-29 09:20:07] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1556-py3-none-any.whl.zip]
+[2024-05-29 09:20:07] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-29 09:20:07] INFO root fetch - main [MainThread]: Store serial: [23425533]
