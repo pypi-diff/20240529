@@ -10014,3 +10014,24 @@
 [2024-05-29 06:48:13] INFO root fetch - processPackages [pulumi-render]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_render-0.2.0.tar.gz]
 [2024-05-29 06:48:13] INFO root fetch - main [MainThread]: End processing [pulumi-render]: success
 [2024-05-29 06:48:13] INFO root fetch - main [MainThread]: Store serial: [23424052]
+[2024-05-29 06:50:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424052]
+[2024-05-29 06:50:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 06:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-05-29 06:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phidata
+[2024-05-29 06:50:22] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-29 06:50:22] INFO root fetch - processPackages [phidata]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-05-29 06:50:22] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/aa/0d/aa8c04e9be152bbe8c3b585e508dab23ce7796abb950ae3060303bef3d6e/phidata-2.4.8.tar.gz
+[2024-05-29 06:50:22] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-29 06:50:22] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/af/f2/078560b1bbc6db30e04c13e02a195a38a6552601be938d1ed5895276476e/phidata-2.4.9.tar.gz
+[2024-05-29 06:50:22] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-29 06:50:22] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-05-29 06:50:22] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.4.8.tar.gz tmp/phidata-2.4.9.tar.gz --markdown 20240529/p/phidata/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-05-29 06:50:23] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-29 06:50:23] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240529/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-29 06:50:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-29 06:50:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-29 06:50:23] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-29 06:50:24] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.8.tar.gz]
+[2024-05-29 06:50:24] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.9.tar.gz]
+[2024-05-29 06:50:24] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-05-29 06:50:24] INFO root fetch - main [MainThread]: Store serial: [23424058]
