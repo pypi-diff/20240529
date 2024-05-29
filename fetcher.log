@@ -23157,3 +23157,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:14:35] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-05-29 15:14:35] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-05-29 15:14:35] INFO root fetch - main [MainThread]: Store serial: [23430219]
+[2024-05-29 15:16:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430219]
+[2024-05-29 15:16:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 15:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-timeseries
+[2024-05-29 15:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anon-traffic
+[2024-05-29 15:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-print-category
+[2024-05-29 15:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lit-ecology-classifier
+[2024-05-29 15:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orb-billing
+[2024-05-29 15:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lit-ecology-classifier
+[2024-05-29 15:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: actoolkit
+[2024-05-29 15:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anon-traffic
+[2024-05-29 15:16:44] INFO root fetch - processPackages [anon-traffic]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 15:16:44] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [0.2] Old Version: [0.1]
+[2024-05-29 15:16:44] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [0.2] Old Version: [0.1]
+[2024-05-29 15:16:44] INFO root fetch - processPackages [anon-traffic]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 15:16:45] INFO root fetch - processPackages [actoolkit]: New version: [3.0.2b6] Old Version: [3.0.2b5]
+[2024-05-29 15:16:45] INFO root fetch - processPackages [anon-traffic]: Downloading https://files.pythonhosted.org/packages/7c/88/bf0ba2e6a90592c32f5c41fc143eb3135997a5786cee0238ed53a1021cce/anon_traffic-1.0.1.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [torch-timeseries]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 15:16:45] INFO root fetch - processPackages [odoo-addon-product-print-category]: New version: [16.0.1.0.5] Old Version: [16.0.1.0.4.1]
+[2024-05-29 15:16:45] INFO root fetch - processPackages [anon-traffic]: Downloading https://files.pythonhosted.org/packages/7c/88/bf0ba2e6a90592c32f5c41fc143eb3135997a5786cee0238ed53a1021cce/anon_traffic-1.0.1.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [actoolkit]: Downloading https://files.pythonhosted.org/packages/7f/23/b071299094b16470153dc0b908817e11f0a19be2b2def468aa25c94a933d/actoolkit-3.0.2b5-py3-none-any.whl
+[2024-05-29 15:16:45] INFO root fetch - processPackages [orb-billing]: New version: [1.56.0] Old Version: [1.55.0]
+[2024-05-29 15:16:45] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/64/ff/be5593a03821b9bf0eeabd937d2b85fab82d879323701c560f5a6b934263/lit_ecology_classifier-0.1.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/64/ff/be5593a03821b9bf0eeabd937d2b85fab82d879323701c560f5a6b934263/lit_ecology_classifier-0.1.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/b0/a2/029bc3aa47ade87f571ced4ee05014a179e86759e690b4746fa061d7d582/torch_timeseries-0.0.1.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [odoo-addon-product-print-category]: Downloading https://files.pythonhosted.org/packages/13/37/c54dfa9db951629ef32c8ffc39d574b6e8d158dc3050ca6913eb72e5529e/odoo_addon_product_print_category-16.0.1.0.4.1-py3-none-any.whl
+[2024-05-29 15:16:45] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/e2/d2/f208fec2b7929a4f76719b6fb07054561d5c93d571d9ca51fde0fdb2cb81/orb_billing-1.55.0.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [anon-traffic]: Downloading https://files.pythonhosted.org/packages/60/a0/17b10a8c380da1c81da8c5a7dc03946e79a2dfeeac19a8c3a7ab32c1f861/anon_traffic-1.0.2.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [anon-traffic]: Downloading https://files.pythonhosted.org/packages/60/a0/17b10a8c380da1c81da8c5a7dc03946e79a2dfeeac19a8c3a7ab32c1f861/anon_traffic-1.0.2.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [actoolkit]: Downloading https://files.pythonhosted.org/packages/4d/e3/d055c0cc4613a733c8d099eab6c79c627570858698f3d1c5de082fe93163/actoolkit-3.0.2b6-py3-none-any.whl
+[2024-05-29 15:16:45] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/52/bd/f7608c9127726defd5b517b057330bdccbd793cf2805f9e4558dcf335cbf/lit_ecology_classifier-0.2.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/52/bd/f7608c9127726defd5b517b057330bdccbd793cf2805f9e4558dcf335cbf/lit_ecology_classifier-0.2.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [anon-traffic]: executing diffoscope
+[2024-05-29 15:16:45] INFO root fetch - processPackages [anon-traffic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anon_traffic-1.0.1.tar.gz tmp/anon_traffic-1.0.2.tar.gz --markdown 20240529/a/anon-traffic/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 15:16:45] INFO root fetch - processPackages [anon-traffic]: executing diffoscope
+[2024-05-29 15:16:45] INFO root fetch - processPackages [anon-traffic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anon_traffic-1.0.1.tar.gz tmp/anon_traffic-1.0.2.tar.gz --markdown 20240529/a/anon-traffic/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 15:16:45] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/b5/70/0c44c5adf6dea36a15b5fef021fd9f0100d245fd75aae634519f9b27e393/torch_timeseries-0.0.2.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [actoolkit]: executing diffoscope
+[2024-05-29 15:16:45] INFO root fetch - processPackages [actoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actoolkit-3.0.2b5-py3-none-any.whl.zip tmp/actoolkit-3.0.2b6-py3-none-any.whl.zip --markdown 20240529/a/actoolkit/3.0.2b5-3.0.2b6/README.md --exclude *.pyd
+[2024-05-29 15:16:45] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-05-29 15:16:45] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-0.1.tar.gz tmp/lit_ecology_classifier-0.2.tar.gz --markdown 20240529/l/lit-ecology-classifier/0.1-0.2/README.md --exclude *.pyd
+[2024-05-29 15:16:45] INFO root fetch - processPackages [odoo-addon-product-print-category]: Downloading https://files.pythonhosted.org/packages/60/4b/27e7265a37de54246650d51ddd2526af5c6a77d571c2b0e8734c15844999/odoo_addon_product_print_category-16.0.1.0.5-py3-none-any.whl
+[2024-05-29 15:16:45] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-05-29 15:16:45] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-0.1.tar.gz tmp/lit_ecology_classifier-0.2.tar.gz --markdown 20240529/l/lit-ecology-classifier/0.1-0.2/README.md --exclude *.pyd
+[2024-05-29 15:16:45] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/80/62/73fa8575a0d2153b6930bec1274135af98f4072d29c70c68d5f34f892642/orb_billing-1.56.0.tar.gz
+[2024-05-29 15:16:45] INFO root fetch - processPackages [torch-timeseries]: executing diffoscope
+[2024-05-29 15:16:45] INFO root fetch - processPackages [torch-timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_timeseries-0.0.1.tar.gz tmp/torch_timeseries-0.0.2.tar.gz --markdown 20240529/t/torch-timeseries/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 15:16:45] INFO root fetch - processPackages [odoo-addon-product-print-category]: executing diffoscope
+[2024-05-29 15:16:45] INFO root fetch - processPackages [odoo-addon-product-print-category]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_print_category-16.0.1.0.4.1-py3-none-any.whl.zip tmp/odoo_addon_product_print_category-16.0.1.0.5-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-product-print-category/16.0.1.0.4.1-16.0.1.0.5/README.md --exclude *.pyd
+[2024-05-29 15:16:46] INFO root fetch - processPackages [orb-billing]: executing diffoscope
+[2024-05-29 15:16:46] INFO root fetch - processPackages [orb-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orb_billing-1.55.0.tar.gz tmp/orb_billing-1.56.0.tar.gz --markdown 20240529/o/orb-billing/1.55.0-1.56.0/README.md --exclude *.pyd
+[2024-05-29 15:16:46] INFO root fetch - processPackages [anon-traffic]: Remove: archive file [/home/abi/fetcher/tmp/anon_traffic-1.0.1.tar.gz]
+[2024-05-29 15:16:46] INFO root fetch - processPackages [anon-traffic]: Remove: archive file [/home/abi/fetcher/tmp/anon_traffic-1.0.2.tar.gz]
+[2024-05-29 15:16:46] INFO root fetch - main [MainThread]: End processing [anon-traffic]: success
+[2024-05-29 15:16:46] INFO root fetch - main [MainThread]: End processing [anon-traffic]: success
+[2024-05-29 15:16:46] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.1.tar.gz]
+[2024-05-29 15:16:46] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.2.tar.gz]
+[2024-05-29 15:16:46] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-05-29 15:16:46] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-05-29 15:16:46] INFO root fetch - processPackages [actoolkit]: Remove: archive file [/home/abi/fetcher/tmp/actoolkit-3.0.2b5-py3-none-any.whl.zip]
+[2024-05-29 15:16:46] INFO root fetch - processPackages [actoolkit]: Remove: archive file [/home/abi/fetcher/tmp/actoolkit-3.0.2b6-py3-none-any.whl.zip]
+[2024-05-29 15:16:46] INFO root fetch - main [MainThread]: End processing [actoolkit]: success
+[2024-05-29 15:16:46] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.1.tar.gz]
+[2024-05-29 15:16:46] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.2.tar.gz]
+[2024-05-29 15:16:46] INFO root fetch - main [MainThread]: End processing [torch-timeseries]: success
+[2024-05-29 15:16:46] INFO root fetch - processPackages [odoo-addon-product-print-category]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_print_category-16.0.1.0.4.1-py3-none-any.whl.zip]
+[2024-05-29 15:16:46] INFO root fetch - processPackages [odoo-addon-product-print-category]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_print_category-16.0.1.0.5-py3-none-any.whl.zip]
+[2024-05-29 15:16:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-print-category]: success
+[2024-05-29 15:16:47] INFO root fetch - processPackages [orb-billing]: Remove: archive file [/home/abi/fetcher/tmp/orb_billing-1.55.0.tar.gz]
+[2024-05-29 15:16:47] INFO root fetch - processPackages [orb-billing]: Remove: archive file [/home/abi/fetcher/tmp/orb_billing-1.56.0.tar.gz]
+[2024-05-29 15:16:47] INFO root fetch - main [MainThread]: End processing [orb-billing]: success
+[2024-05-29 15:16:47] INFO root fetch - main [MainThread]: Store serial: [23430241]
