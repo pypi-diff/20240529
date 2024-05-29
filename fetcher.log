@@ -3335,3 +3335,29 @@
 [2024-05-29 03:09:55] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.4.post1.tar.gz]
 [2024-05-29 03:09:55] INFO root fetch - main [MainThread]: End processing [neurocaps]: success
 [2024-05-29 03:09:55] INFO root fetch - main [MainThread]: Store serial: [23421604]
+[2024-05-29 03:11:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421604]
+[2024-05-29 03:12:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 03:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QuLab
+[2024-05-29 03:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hplc-py
+[2024-05-29 03:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tse-motion
+[2024-05-29 03:12:05] INFO root fetch - processPackages [tse-motion]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-29 03:12:05] INFO root fetch - processPackages [hplc-py]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-29 03:12:05] INFO root fetch - processPackages [QuLab]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-29 03:12:05] INFO root fetch - processPackages [tse-motion]: Downloading https://files.pythonhosted.org/packages/e5/97/d76e73edb1a07c789739c10456fd91f9447ff2d09f1f17e544760694559a/tse_motion-0.2.7.tar.gz
+[2024-05-29 03:12:05] INFO root fetch - processPackages [hplc-py]: Downloading https://files.pythonhosted.org/packages/11/b4/cb2c127dee68fefd7643420809b94560cbe579ad44a2e69ef9e50a112aad/hplc-py-0.2.5.tar.gz
+[2024-05-29 03:12:05] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/fb/12/2205e0c65b6a6ef4418983ba02739252e6fb2316c46a37e475d6d2facad9/qulab-2.0.5.tar.gz
+[2024-05-29 03:12:05] WARNING root fetch - processPackages [tse-motion]: Skipping package: exceeds size limit 55050123>=10485760
+[2024-05-29 03:12:05] INFO root fetch - main [MainThread]: End processing [tse-motion] error
+[2024-05-29 03:12:05] INFO root fetch - processPackages [hplc-py]: Downloading https://files.pythonhosted.org/packages/a7/45/d2e488ddfcb0cfee7443a37efc37f4e28ffd00d4c54879286d2fd5c7a641/hplc_py-0.2.6.tar.gz
+[2024-05-29 03:12:05] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/ad/8a/e4de75e066516567fd4d342ec3c26ea820c6c87aae8ee7c18cd8c59e4d23/qulab-2.0.6.tar.gz
+[2024-05-29 03:12:05] INFO root fetch - processPackages [hplc-py]: executing diffoscope
+[2024-05-29 03:12:05] INFO root fetch - processPackages [hplc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hplc-py-0.2.5.tar.gz tmp/hplc_py-0.2.6.tar.gz --markdown 20240529/h/hplc-py/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-29 03:12:05] INFO root fetch - processPackages [QuLab]: executing diffoscope
+[2024-05-29 03:12:05] INFO root fetch - processPackages [QuLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulab-2.0.5.tar.gz tmp/qulab-2.0.6.tar.gz --markdown 20240529/Q/QuLab/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-29 03:12:06] INFO root fetch - processPackages [hplc-py]: Remove: archive file [/home/abi/fetcher/tmp/hplc-py-0.2.5.tar.gz]
+[2024-05-29 03:12:06] INFO root fetch - processPackages [hplc-py]: Remove: archive file [/home/abi/fetcher/tmp/hplc_py-0.2.6.tar.gz]
+[2024-05-29 03:12:06] INFO root fetch - main [MainThread]: End processing [hplc-py]: success
+[2024-05-29 03:12:06] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/qulab-2.0.5.tar.gz]
+[2024-05-29 03:12:06] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/qulab-2.0.6.tar.gz]
+[2024-05-29 03:12:06] INFO root fetch - main [MainThread]: End processing [QuLab]: success
+[2024-05-29 03:12:06] INFO root fetch - main [MainThread]: Store serial: [23421618]
