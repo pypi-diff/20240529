@@ -13538,3 +13538,62 @@
 [2024-05-29 09:37:34] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-05-29 09:37:34] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-05-29 09:37:34] INFO root fetch - main [MainThread]: Store serial: [23425661]
+[2024-05-29 09:39:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425661]
+[2024-05-29 09:39:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 09:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boa-test-constructor
+[2024-05-29 09:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tracebloc-package
+[2024-05-29 09:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: people-local
+[2024-05-29 09:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arasea
+[2024-05-29 09:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neurowarp
+[2024-05-29 09:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recommendation-lib
+[2024-05-29 09:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HABSlib
+[2024-05-29 09:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xfapi
+[2024-05-29 09:39:43] INFO root fetch - processPackages [boa-test-constructor]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-29 09:39:43] INFO root fetch - processPackages [arasea]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-05-29 09:39:43] INFO root fetch - processPackages [xfapi]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 09:39:43] INFO root fetch - processPackages [boa-test-constructor]: Downloading https://files.pythonhosted.org/packages/a4/79/ea53d909800e7396c902d43902f7689f93bb32582c707c05a0e04ff4bdde/boa_test_constructor-0.2.1-py3-none-win_amd64.whl
+[2024-05-29 09:39:43] INFO root fetch - processPackages [HABSlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 09:39:43] INFO root fetch - processPackages [arasea]: Downloading https://files.pythonhosted.org/packages/13/94/89c54cd8920a429691226ca9eb85767e6d403633b3d74c0d974af9abe1de/arasea-3.0.6.tar.gz
+[2024-05-29 09:39:43] INFO root fetch - processPackages [people-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 09:39:43] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/76/78/e22e1aac3f37425b7d31e10f7c1c3056a329c68b0b91361399c5f4f7fe50/xfapi-0.0.3.tar.gz
+[2024-05-29 09:39:43] WARNING root fetch - processPackages [recommendation-lib]: Skipping, unable to determine old version
+[2024-05-29 09:39:43] INFO root fetch - main [MainThread]: End processing [recommendation-lib] error
+[2024-05-29 09:39:43] WARNING root fetch - processPackages [neurowarp]: Skipping, unable to determine old version
+[2024-05-29 09:39:43] INFO root fetch - main [MainThread]: End processing [neurowarp] error
+[2024-05-29 09:39:43] INFO root fetch - processPackages [tracebloc-package]: New version: [0.5.50] Old Version: [0.5.31]
+[2024-05-29 09:39:43] WARNING root fetch - processPackages [boa-test-constructor]: Skipping package: exceeds size limit 19729840>=10485760
+[2024-05-29 09:39:43] INFO root fetch - main [MainThread]: End processing [boa-test-constructor] error
+[2024-05-29 09:39:43] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/92/a2/3472f44ce5fbc12a46ed53af9061d73c2ad2a08f4cfc95d85c9f0d590c52/habslib-0.1.8.tar.gz
+[2024-05-29 09:39:43] INFO root fetch - processPackages [people-local]: Downloading https://files.pythonhosted.org/packages/8b/1c/6315cdb848f482a3caf92189f2b65376a69c68543b2b6f4db62d865cb36e/people-local-0.0.8.tar.gz
+[2024-05-29 09:39:43] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/06/5b/1bc20811e25e198c573f10562cf91fa484e3d9a0acfc739158826c239149/xfapi-0.0.4.tar.gz
+[2024-05-29 09:39:43] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/13/9b/c378ea35c658d9badc2738f398fe72f9dec7f5a41c80710235829743cbea/tracebloc_package-0.5.31.tar.gz
+[2024-05-29 09:39:43] INFO root fetch - processPackages [arasea]: Downloading https://files.pythonhosted.org/packages/d8/dd/f749a0e78e080dcc42684ea4a69699b642936eca690398284d77e2673e97/arasea-3.0.7.tar.gz
+[2024-05-29 09:39:43] INFO root fetch - processPackages [xfapi]: executing diffoscope
+[2024-05-29 09:39:43] INFO root fetch - processPackages [xfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfapi-0.0.3.tar.gz tmp/xfapi-0.0.4.tar.gz --markdown 20240529/x/xfapi/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 09:39:43] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/b2/ea/3eb2099f135cfbcea8c24a4ef575773e1c92246ed65b1611aba761b07ff2/habslib-0.1.9.tar.gz
+[2024-05-29 09:39:43] INFO root fetch - processPackages [arasea]: executing diffoscope
+[2024-05-29 09:39:43] INFO root fetch - processPackages [arasea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arasea-3.0.6.tar.gz tmp/arasea-3.0.7.tar.gz --markdown 20240529/a/arasea/3.0.6-3.0.7/README.md --exclude *.pyd
+[2024-05-29 09:39:43] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/3d/b8/050efdad94053cfa28b0f8e3b979c90242dc5baaf1bac43ad88745ea5ef6/tracebloc_package-0.5.50.tar.gz
+[2024-05-29 09:39:43] INFO root fetch - processPackages [people-local]: Downloading https://files.pythonhosted.org/packages/cc/ba/07a77e133c7523ecf4191eb3efb5529e4cee964e55f5dff0504d09de7d34/people-local-0.0.9.tar.gz
+[2024-05-29 09:39:43] INFO root fetch - processPackages [tracebloc-package]: executing diffoscope
+[2024-05-29 09:39:43] INFO root fetch - processPackages [tracebloc-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-0.5.31.tar.gz tmp/tracebloc_package-0.5.50.tar.gz --markdown 20240529/t/tracebloc-package/0.5.31-0.5.50/README.md --exclude *.pyd
+[2024-05-29 09:39:43] INFO root fetch - processPackages [HABSlib]: executing diffoscope
+[2024-05-29 09:39:43] INFO root fetch - processPackages [HABSlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habslib-0.1.8.tar.gz tmp/habslib-0.1.9.tar.gz --markdown 20240529/H/HABSlib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 09:39:43] INFO root fetch - processPackages [people-local]: executing diffoscope
+[2024-05-29 09:39:43] INFO root fetch - processPackages [people-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/people-local-0.0.8.tar.gz tmp/people-local-0.0.9.tar.gz --markdown 20240529/p/people-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 09:39:44] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.3.tar.gz]
+[2024-05-29 09:39:44] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.4.tar.gz]
+[2024-05-29 09:39:44] INFO root fetch - main [MainThread]: End processing [xfapi]: success
+[2024-05-29 09:39:44] INFO root fetch - processPackages [people-local]: Remove: archive file [/home/abi/fetcher/tmp/people-local-0.0.8.tar.gz]
+[2024-05-29 09:39:44] INFO root fetch - processPackages [people-local]: Remove: archive file [/home/abi/fetcher/tmp/people-local-0.0.9.tar.gz]
+[2024-05-29 09:39:44] INFO root fetch - main [MainThread]: End processing [people-local]: success
+[2024-05-29 09:39:44] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.8.tar.gz]
+[2024-05-29 09:39:44] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.9.tar.gz]
+[2024-05-29 09:39:44] INFO root fetch - main [MainThread]: End processing [HABSlib]: success
+[2024-05-29 09:39:44] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.5.31.tar.gz]
+[2024-05-29 09:39:44] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.5.50.tar.gz]
+[2024-05-29 09:39:44] INFO root fetch - main [MainThread]: End processing [tracebloc-package]: success
+[2024-05-29 09:39:45] INFO root fetch - processPackages [arasea]: Remove: archive file [/home/abi/fetcher/tmp/arasea-3.0.6.tar.gz]
+[2024-05-29 09:39:45] INFO root fetch - processPackages [arasea]: Remove: archive file [/home/abi/fetcher/tmp/arasea-3.0.7.tar.gz]
+[2024-05-29 09:39:45] INFO root fetch - main [MainThread]: End processing [arasea]: success
+[2024-05-29 09:39:45] INFO root fetch - main [MainThread]: Store serial: [23425697]
