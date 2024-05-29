@@ -8640,3 +8640,24 @@
 [2024-05-29 05:23:11] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.9.tar.gz]
 [2024-05-29 05:23:11] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2024-05-29 05:23:11] INFO root fetch - main [MainThread]: Store serial: [23423568]
+[2024-05-29 05:25:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423568]
+[2024-05-29 05:25:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 05:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instruct-qa
+[2024-05-29 05:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-med-image-ml
+[2024-05-29 05:25:19] INFO root fetch - processPackages [instruct-qa]: New version: [0.0.3rc1] Old Version: [0.0.2]
+[2024-05-29 05:25:19] INFO root fetch - processPackages [instruct-qa]: Downloading https://files.pythonhosted.org/packages/ac/9e/f27a23126c8390e6ededc6967048330017c72f2cda7a4e05e19a7c598328/instruct-qa-0.0.2.tar.gz
+[2024-05-29 05:25:19] INFO root fetch - processPackages [multi-med-image-ml]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-29 05:25:20] INFO root fetch - processPackages [instruct-qa]: Downloading https://files.pythonhosted.org/packages/a8/7a/85f13e8862fd1e5fa1d1cf3e40b4db6e1c2f7d9f8d8c9394320289d15414/instruct-qa-0.0.3rc1.tar.gz
+[2024-05-29 05:25:20] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/75/1f/1d9c4dec1f00fcd4bfceb8e91ec669d49fcf4acc591c7ff20084a0af9f07/multi_med_image_ml-0.0.0.tar.gz
+[2024-05-29 05:25:20] INFO root fetch - processPackages [instruct-qa]: executing diffoscope
+[2024-05-29 05:25:20] INFO root fetch - processPackages [instruct-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instruct-qa-0.0.2.tar.gz tmp/instruct-qa-0.0.3rc1.tar.gz --markdown 20240529/i/instruct-qa/0.0.2-0.0.3rc1/README.md --exclude *.pyd
+[2024-05-29 05:25:20] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/74/2f/cf18413ad078bb1ca12ed1d8ea443cd9873d4e82346a9d60aadd41400725/multi_med_image_ml-0.0.1.tar.gz
+[2024-05-29 05:25:20] INFO root fetch - processPackages [instruct-qa]: Remove: archive file [/home/abi/fetcher/tmp/instruct-qa-0.0.2.tar.gz]
+[2024-05-29 05:25:20] INFO root fetch - processPackages [instruct-qa]: Remove: archive file [/home/abi/fetcher/tmp/instruct-qa-0.0.3rc1.tar.gz]
+[2024-05-29 05:25:20] INFO root fetch - main [MainThread]: End processing [instruct-qa]: success
+[2024-05-29 05:25:21] INFO root fetch - processPackages [multi-med-image-ml]: executing diffoscope
+[2024-05-29 05:25:21] INFO root fetch - processPackages [multi-med-image-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_med_image_ml-0.0.0.tar.gz tmp/multi_med_image_ml-0.0.1.tar.gz --markdown 20240529/m/multi-med-image-ml/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-29 05:25:21] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.0.tar.gz]
+[2024-05-29 05:25:21] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.1.tar.gz]
+[2024-05-29 05:25:21] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
+[2024-05-29 05:25:21] INFO root fetch - main [MainThread]: Store serial: [23423574]
