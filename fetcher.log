@@ -13795,3 +13795,71 @@
 [2024-05-29 09:48:35] INFO root fetch - processPackages [candlefl]: Remove: archive file [/home/abi/fetcher/tmp/candlefl-0.2.3.tar.gz]
 [2024-05-29 09:48:35] INFO root fetch - main [MainThread]: End processing [candlefl]: success
 [2024-05-29 09:48:35] INFO root fetch - main [MainThread]: Store serial: [23425785]
+[2024-05-29 09:50:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425785]
+[2024-05-29 09:50:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-29 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-jsc-custom
+[2024-05-29 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: differt-core
+[2024-05-29 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CVE-2018-11784
+[2024-05-29 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: afeng-py-tools
+[2024-05-29 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dashinfer
+[2024-05-29 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jam.py-v5
+[2024-05-29 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gwml
+[2024-05-29 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: p-template-generator
+[2024-05-29 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exipe
+[2024-05-29 09:50:44] INFO root fetch - processPackages [jam.py-v5]: New version: [5.5.1] Old Version: [5.4.136]
+[2024-05-29 09:50:44] WARNING root fetch - processPackages [CVE-2018-11784]: Skipping, unable to determine old version
+[2024-05-29 09:50:44] INFO root fetch - main [MainThread]: End processing [CVE-2018-11784] error
+[2024-05-29 09:50:44] WARNING root fetch - processPackages [exipe]: Skipping, unable to determine old version
+[2024-05-29 09:50:44] INFO root fetch - main [MainThread]: End processing [exipe] error
+[2024-05-29 09:50:44] INFO root fetch - processPackages [gwml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 09:50:44] INFO root fetch - processPackages [p-template-generator]: New version: [0.2.0] Old Version: [0.1.99]
+[2024-05-29 09:50:44] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 09:50:44] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-29 09:50:44] INFO root fetch - processPackages [jupyter-jsc-custom]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-29 09:50:44] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/74/b1/dd13d7aa61b546849dd957ac4f69f05dab5c14922cc210df942bd30f51ce/gwml-0.1.8-py3-none-any.whl
+[2024-05-29 09:50:44] INFO root fetch - processPackages [dashinfer]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-29 09:50:44] INFO root fetch - processPackages [differt-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 09:50:44] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/f6/11/746908384a91b5aacce7afb9782527293e24c5740c72a201daffb937e988/p-template-generator-0.1.99.tar.gz
+[2024-05-29 09:50:44] INFO root fetch - processPackages [jam.py-v5]: Downloading https://files.pythonhosted.org/packages/3c/f5/09a8909ba37ee9a8274a70c7d5a22b910f627b2e9328095526d34b78de1a/jam_py_v5-5.4.136.tar.gz
+[2024-05-29 09:50:44] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/45/0b/d01728bdb4cc42a9c15363d9363f7fcc2fccac498b844711af99cf7346c5/jupyter_jsc_custom-0.9.8.tar.gz
+[2024-05-29 09:50:44] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/3a/0c/f8a96cba8e57cb826eafe85a9f3900402548c20e650346b5215cc9001e54/gwml-0.1.9-py3-none-any.whl
+[2024-05-29 09:50:44] INFO root fetch - processPackages [dashinfer]: Downloading https://files.pythonhosted.org/packages/a9/4e/158a9328a34f8d9ac09ecf5ec85278f519ba88d5f94ad6eac2c7a7c35f13/dashinfer-1.0.4-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-29 09:50:44] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-29 09:50:44] WARNING root fetch - processPackages [dashinfer]: Skipping package: exceeds size limit 20346991>=10485760
+[2024-05-29 09:50:44] INFO root fetch - main [MainThread]: End processing [dashinfer] error
+[2024-05-29 09:50:44] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-29 09:50:44] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.8-py3-none-any.whl.zip tmp/gwml-0.1.9-py3-none-any.whl.zip --markdown 20240529/g/gwml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 09:50:44] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-29 09:50:44] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240529/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 09:50:44] INFO root fetch - processPackages [differt-core]: Downloading https://files.pythonhosted.org/packages/e4/69/42cc0ba4f986662991ab57db9abc8dd5ff4e55c29239bbda9c777a048c24/differt_core-0.0.4.tar.gz
+[2024-05-29 09:50:45] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/22/8c/2c89680a5bfd1d47dcbf10ae7a7fe374d9176b6815cbed2c02f780ec8491/jupyter_jsc_custom-0.9.9.tar.gz
+[2024-05-29 09:50:45] INFO root fetch - processPackages [jupyter-jsc-custom]: executing diffoscope
+[2024-05-29 09:50:45] INFO root fetch - processPackages [jupyter-jsc-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_jsc_custom-0.9.8.tar.gz tmp/jupyter_jsc_custom-0.9.9.tar.gz --markdown 20240529/j/jupyter-jsc-custom/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-29 09:50:45] INFO root fetch - processPackages [jam.py-v5]: Downloading https://files.pythonhosted.org/packages/67/f5/dab45767f55ef47135099d0df074674ae298b30cbfecf24a12ebd6576f31/jam.py-v5-5.5.1.tar.gz
+[2024-05-29 09:50:45] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/17/24/d5d22a34ea20e2443261e283089d47345a1f3402e632ac5a7c4fa461b6df/p_template_generator-0.2.0.tar.gz
+[2024-05-29 09:50:45] INFO root fetch - processPackages [differt-core]: Downloading https://files.pythonhosted.org/packages/7e/2e/c1f08a4b067761ed3426efef6d591fc3ff90eb23fb16be8d10e4f35ab3e6/differt_core-0.0.5.tar.gz
+[2024-05-29 09:50:45] INFO root fetch - processPackages [differt-core]: executing diffoscope
+[2024-05-29 09:50:45] INFO root fetch - processPackages [differt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/differt_core-0.0.4.tar.gz tmp/differt_core-0.0.5.tar.gz --markdown 20240529/d/differt-core/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 09:50:45] INFO root fetch - processPackages [jam.py-v5]: executing diffoscope
+[2024-05-29 09:50:45] INFO root fetch - processPackages [jam.py-v5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jam_py_v5-5.4.136.tar.gz tmp/jam.py-v5-5.5.1.tar.gz --markdown 20240529/j/jam.py-v5/5.4.136-5.5.1/README.md --exclude *.pyd
+[2024-05-29 09:50:45] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.8-py3-none-any.whl.zip]
+[2024-05-29 09:50:45] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.9-py3-none-any.whl.zip]
+[2024-05-29 09:50:45] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-29 09:50:45] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.8.tar.gz]
+[2024-05-29 09:50:45] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.9.tar.gz]
+[2024-05-29 09:50:45] INFO root fetch - main [MainThread]: End processing [jupyter-jsc-custom]: success
+[2024-05-29 09:50:46] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2024-05-29 09:50:46] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.99.tar.gz tmp/p_template_generator-0.2.0.tar.gz --markdown 20240529/p/p-template-generator/0.1.99-0.2.0/README.md --exclude *.pyd
+[2024-05-29 09:50:46] INFO root fetch - processPackages [differt-core]: Remove: archive file [/home/abi/fetcher/tmp/differt_core-0.0.4.tar.gz]
+[2024-05-29 09:50:46] INFO root fetch - processPackages [differt-core]: Remove: archive file [/home/abi/fetcher/tmp/differt_core-0.0.5.tar.gz]
+[2024-05-29 09:50:46] INFO root fetch - main [MainThread]: End processing [differt-core]: success
+[2024-05-29 09:50:46] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-29 09:50:46] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-29 09:50:46] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-29 09:50:47] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
+[2024-05-29 09:50:47] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p_template_generator-0.2.0.tar.gz]
+[2024-05-29 09:50:47] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2024-05-29 09:50:47] INFO root fetch - processPackages [jam.py-v5]: Remove: archive file [/home/abi/fetcher/tmp/jam_py_v5-5.4.136.tar.gz]
+[2024-05-29 09:50:47] INFO root fetch - processPackages [jam.py-v5]: Remove: archive file [/home/abi/fetcher/tmp/jam.py-v5-5.5.1.tar.gz]
+[2024-05-29 09:50:47] INFO root fetch - main [MainThread]: End processing [jam.py-v5]: success
+[2024-05-29 09:50:47] INFO root fetch - main [MainThread]: Store serial: [23425863]
