@@ -11416,3 +11416,51 @@
 [2024-05-29 07:56:17] INFO root fetch - processPackages [arasea]: Remove: archive file [/home/abi/fetcher/tmp/arasea-3.0.7.tar.gz]
 [2024-05-29 07:56:17] INFO root fetch - main [MainThread]: End processing [arasea]: success
 [2024-05-29 07:56:17] INFO root fetch - main [MainThread]: Store serial: [23424622]
+[2024-05-29 07:58:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424622]
+[2024-05-29 07:58:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 07:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-github
+[2024-05-29 07:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-paddle-billing
+[2024-05-29 07:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-http
+[2024-05-29 07:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-hcloud
+[2024-05-29 07:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gwml
+[2024-05-29 07:58:26] INFO root fetch - processPackages [django-paddle-billing]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-29 07:58:26] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-29 07:58:26] INFO root fetch - processPackages [pulumi-http]: New version: [0.1.0a1716961195] Old Version: [0.1.0a1716508709]
+[2024-05-29 07:58:26] INFO root fetch - processPackages [gwml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 07:58:26] INFO root fetch - processPackages [pulumi-github]: New version: [6.3.0a1716961035] Old Version: [6.3.0a1716508083]
+[2024-05-29 07:58:26] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/74/b1/dd13d7aa61b546849dd957ac4f69f05dab5c14922cc210df942bd30f51ce/gwml-0.1.8-py3-none-any.whl
+[2024-05-29 07:58:26] INFO root fetch - processPackages [django-paddle-billing]: Downloading https://files.pythonhosted.org/packages/d9/d8/cea1b88694b0acea06b050b99b7cfdfb9342cab7013637aafc562a84ec8d/django_paddle_billing-0.1.4.tar.gz
+[2024-05-29 07:58:26] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/78/f9/f0c71e9afbb9c37487c6d16e56090d17500d221823eba6cb32abc5969f84/pulumi_http-0.1.0a1716508709.tar.gz
+[2024-05-29 07:58:26] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-29 07:58:26] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/d9/81/7ec0722a2cb98b5865df7093204c68e5ba117800cb4a12ae9475ffbc5c49/pulumi_github-6.3.0a1716508083.tar.gz
+[2024-05-29 07:58:26] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/3a/0c/f8a96cba8e57cb826eafe85a9f3900402548c20e650346b5215cc9001e54/gwml-0.1.9-py3-none-any.whl
+[2024-05-29 07:58:26] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-29 07:58:26] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.8-py3-none-any.whl.zip tmp/gwml-0.1.9-py3-none-any.whl.zip --markdown 20240529/g/gwml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 07:58:26] INFO root fetch - processPackages [django-paddle-billing]: Downloading https://files.pythonhosted.org/packages/83/39/007e1796e06aa036bf010ffacf0c640cdabf5a040b5c27fedd459cd59c3a/django_paddle_billing-0.1.5.tar.gz
+[2024-05-29 07:58:26] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/d3/cd/fab0f6c0a41e7fe98d8a1eb4c7e839144da625b872809ff3c484b5955610/pulumi_http-0.1.0a1716961195.tar.gz
+[2024-05-29 07:58:26] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-29 07:58:27] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/be/8d/c25716c80d538456af1bb3951af794109ab50036305dc1ecfe749c0438e6/pulumi_github-6.3.0a1716961035.tar.gz
+[2024-05-29 07:58:27] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-29 07:58:27] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240529/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-29 07:58:27] INFO root fetch - processPackages [pulumi-http]: executing diffoscope
+[2024-05-29 07:58:27] INFO root fetch - processPackages [pulumi-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_http-0.1.0a1716508709.tar.gz tmp/pulumi_http-0.1.0a1716961195.tar.gz --markdown 20240529/p/pulumi-http/0.1.0a1716508709-0.1.0a1716961195/README.md --exclude *.pyd
+[2024-05-29 07:58:27] INFO root fetch - processPackages [django-paddle-billing]: executing diffoscope
+[2024-05-29 07:58:27] INFO root fetch - processPackages [django-paddle-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_paddle_billing-0.1.4.tar.gz tmp/django_paddle_billing-0.1.5.tar.gz --markdown 20240529/d/django-paddle-billing/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-29 07:58:27] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2024-05-29 07:58:27] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-6.3.0a1716508083.tar.gz tmp/pulumi_github-6.3.0a1716961035.tar.gz --markdown 20240529/p/pulumi-github/6.3.0a1716508083-6.3.0a1716961035/README.md --exclude *.pyd
+[2024-05-29 07:58:27] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.8-py3-none-any.whl.zip]
+[2024-05-29 07:58:27] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.9-py3-none-any.whl.zip]
+[2024-05-29 07:58:27] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-29 07:58:27] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1716508709.tar.gz]
+[2024-05-29 07:58:27] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1716961195.tar.gz]
+[2024-05-29 07:58:27] INFO root fetch - main [MainThread]: End processing [pulumi-http]: success
+[2024-05-29 07:58:28] INFO root fetch - processPackages [django-paddle-billing]: Remove: archive file [/home/abi/fetcher/tmp/django_paddle_billing-0.1.4.tar.gz]
+[2024-05-29 07:58:28] INFO root fetch - processPackages [django-paddle-billing]: Remove: archive file [/home/abi/fetcher/tmp/django_paddle_billing-0.1.5.tar.gz]
+[2024-05-29 07:58:28] INFO root fetch - main [MainThread]: End processing [django-paddle-billing]: success
+[2024-05-29 07:58:28] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-29 07:58:28] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-29 07:58:28] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-29 07:58:28] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1716508083.tar.gz]
+[2024-05-29 07:58:28] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1716961035.tar.gz]
+[2024-05-29 07:58:28] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2024-05-29 07:58:28] INFO root fetch - main [MainThread]: Store serial: [23424634]
