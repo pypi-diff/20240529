@@ -16163,3 +16163,72 @@
 [2024-05-29 11:05:32] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
 [2024-05-29 11:05:32] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
 [2024-05-29 11:05:32] INFO root fetch - main [MainThread]: Store serial: [23427041]
+[2024-05-29 11:07:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427041]
+[2024-05-29 11:07:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 11:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.timeseries
+[2024-05-29 11:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon
+[2024-05-29 11:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dp-launching-app
+[2024-05-29 11:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miniqmt
+[2024-05-29 11:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytbai
+[2024-05-29 11:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MatplotLibAPI
+[2024-05-29 11:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansar-connect
+[2024-05-29 11:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lamin_cli
+[2024-05-29 11:07:42] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240528] Old Version: [1.1.1b20240527]
+[2024-05-29 11:07:42] INFO root fetch - processPackages [dp-launching-app]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-29 11:07:42] INFO root fetch - processPackages [ansar-connect]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 11:07:42] INFO root fetch - processPackages [MatplotLibAPI]: New version: [2.0.2] Old Version: [1.0]
+[2024-05-29 11:07:42] INFO root fetch - processPackages [pytbai]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-29 11:07:42] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240528] Old Version: [1.1.1b20240527]
+[2024-05-29 11:07:42] WARNING root fetch - processPackages [miniqmt]: Skipping, unable to determine old version
+[2024-05-29 11:07:42] INFO root fetch - main [MainThread]: End processing [miniqmt] error
+[2024-05-29 11:07:42] INFO root fetch - processPackages [lamin_cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-29 11:07:42] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/92/6b/ba5810dd4dbb3f987724bdf36f5a39c8103e8d7524fbd33e3d0dc71f4566/autogluon-1.1.1b20240527.tar.gz
+[2024-05-29 11:07:42] INFO root fetch - processPackages [dp-launching-app]: Downloading https://files.pythonhosted.org/packages/5f/df/1bef325a0930ae09490d28d2905d83d9c3712eeff08a4e426ae0719fd1b1/dp-launching-app-0.0.7.tar.gz
+[2024-05-29 11:07:42] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/76/ef/1799e00ff5580e152657472b241fc4a826eb4cd9d92ad55f49b3d52d79d5/pytbai-1.5.8.tar.gz
+[2024-05-29 11:07:42] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/99/47/3186cc0d2f4fe1893dadc94983bdcb01d50ef128fa28aedd87771ffa1a0a/ansar_connect-1.0.2.tar.gz
+[2024-05-29 11:07:42] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/38/51/aee4dd97927b10e2d0d93be0633dc0d98afdd2f32ce664879b29613f1830/autogluon.timeseries-1.1.1b20240527.tar.gz
+[2024-05-29 11:07:43] INFO root fetch - processPackages [MatplotLibAPI]: Downloading https://files.pythonhosted.org/packages/d8/29/202d53232d3d57d28c18bdc4e7d33f6005f9be36d99518c71e864092d475/MatplotLibAPI-1.0.tar.gz
+[2024-05-29 11:07:43] INFO root fetch - processPackages [lamin_cli]: Downloading https://files.pythonhosted.org/packages/b3/65/762e5649503edc943685937f291c7f0fdd23096ee0329017dfbc98bfce33/lamin_cli-0.9.2.tar.gz
+[2024-05-29 11:07:43] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/1a/50/89ada82f1333bb461b5ef140073cb81042e872a6f0e7aa2639d47d95812e/ansar_connect-1.0.3.tar.gz
+[2024-05-29 11:07:43] INFO root fetch - processPackages [dp-launching-app]: Downloading https://files.pythonhosted.org/packages/a1/7d/6078abb1505df10c3031af7e17d3613a10b9cf4c7836ce433f84fb06bedd/dp-launching-app-0.0.8.tar.gz
+[2024-05-29 11:07:43] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/3b/f5/d79019de74cb90908a703ba27bc04781e21c4fd0e87132e49cf38e6ca4e6/pytbai-1.5.9.tar.gz
+[2024-05-29 11:07:43] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/d0/50/a9fd639cffb1cc02467abf583b68fb3839a3c2d2be55752bae052557e77c/autogluon-1.1.1b20240528.tar.gz
+[2024-05-29 11:07:43] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/03/0b/c841548033970d71cc23cbf25bce0f3fab2aaf4f4c531aa0cc990445a474/autogluon.timeseries-1.1.1b20240528.tar.gz
+[2024-05-29 11:07:43] INFO root fetch - processPackages [dp-launching-app]: executing diffoscope
+[2024-05-29 11:07:43] INFO root fetch - processPackages [dp-launching-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dp-launching-app-0.0.7.tar.gz tmp/dp-launching-app-0.0.8.tar.gz --markdown 20240529/d/dp-launching-app/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-29 11:07:43] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-29 11:07:43] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-1.0.2.tar.gz tmp/ansar_connect-1.0.3.tar.gz --markdown 20240529/a/ansar-connect/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 11:07:43] INFO root fetch - processPackages [MatplotLibAPI]: Downloading https://files.pythonhosted.org/packages/1f/07/a907970428eb483cf6902a186852bcd50fc38ffcb72a27cd985cb5d971c3/MatplotLibAPI-2.0.2.tar.gz
+[2024-05-29 11:07:43] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-29 11:07:43] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240527.tar.gz tmp/autogluon-1.1.1b20240528.tar.gz --markdown 20240529/a/autogluon/1.1.1b20240527-1.1.1b20240528/README.md --exclude *.pyd
+[2024-05-29 11:07:43] INFO root fetch - processPackages [MatplotLibAPI]: executing diffoscope
+[2024-05-29 11:07:43] INFO root fetch - processPackages [MatplotLibAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MatplotLibAPI-1.0.tar.gz tmp/MatplotLibAPI-2.0.2.tar.gz --markdown 20240529/M/MatplotLibAPI/1.0-2.0.2/README.md --exclude *.pyd
+[2024-05-29 11:07:43] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2024-05-29 11:07:43] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.5.8.tar.gz tmp/pytbai-1.5.9.tar.gz --markdown 20240529/p/pytbai/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-29 11:07:43] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-29 11:07:43] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240527.tar.gz tmp/autogluon.timeseries-1.1.1b20240528.tar.gz --markdown 20240529/a/autogluon.timeseries/1.1.1b20240527-1.1.1b20240528/README.md --exclude *.pyd
+[2024-05-29 11:07:43] INFO root fetch - processPackages [lamin_cli]: Downloading https://files.pythonhosted.org/packages/d4/e4/7fd525f4a6ed45d5e207ecf462531ba3953864b668bf8d386d1c744212ed/lamin_cli-0.9.3.tar.gz
+[2024-05-29 11:07:43] INFO root fetch - processPackages [lamin_cli]: executing diffoscope
+[2024-05-29 11:07:43] INFO root fetch - processPackages [lamin_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_cli-0.9.2.tar.gz tmp/lamin_cli-0.9.3.tar.gz --markdown 20240529/l/lamin_cli/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-29 11:07:44] INFO root fetch - processPackages [MatplotLibAPI]: Remove: archive file [/home/abi/fetcher/tmp/MatplotLibAPI-1.0.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - processPackages [MatplotLibAPI]: Remove: archive file [/home/abi/fetcher/tmp/MatplotLibAPI-2.0.2.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - main [MainThread]: End processing [MatplotLibAPI]: success
+[2024-05-29 11:07:44] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240527.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240528.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-29 11:07:44] INFO root fetch - processPackages [dp-launching-app]: Remove: archive file [/home/abi/fetcher/tmp/dp-launching-app-0.0.7.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - processPackages [dp-launching-app]: Remove: archive file [/home/abi/fetcher/tmp/dp-launching-app-0.0.8.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - main [MainThread]: End processing [dp-launching-app]: success
+[2024-05-29 11:07:44] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.5.8.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.5.9.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2024-05-29 11:07:44] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-1.0.2.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-1.0.3.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-29 11:07:44] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240527.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240528.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-29 11:07:44] INFO root fetch - processPackages [lamin_cli]: Remove: archive file [/home/abi/fetcher/tmp/lamin_cli-0.9.2.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - processPackages [lamin_cli]: Remove: archive file [/home/abi/fetcher/tmp/lamin_cli-0.9.3.tar.gz]
+[2024-05-29 11:07:44] INFO root fetch - main [MainThread]: End processing [lamin_cli]: success
+[2024-05-29 11:07:44] INFO root fetch - main [MainThread]: Store serial: [23427070]
