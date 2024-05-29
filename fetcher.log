@@ -8477,3 +8477,24 @@
 [2024-05-29 05:12:20] INFO root fetch - processPackages [gitlab-api]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_api-0.7.0-py2.py3-none-any.whl.zip]
 [2024-05-29 05:12:20] INFO root fetch - main [MainThread]: End processing [gitlab-api]: success
 [2024-05-29 05:12:20] INFO root fetch - main [MainThread]: Store serial: [23423514]
+[2024-05-29 05:14:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423514]
+[2024-05-29 05:14:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 05:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotink
+[2024-05-29 05:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazysdk
+[2024-05-29 05:14:29] INFO root fetch - processPackages [lazysdk]: New version: [0.1.97] Old Version: [0.1.96]
+[2024-05-29 05:14:29] INFO root fetch - processPackages [plotink]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-29 05:14:29] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/ee/94/8ea184677ecbab0d281004c2ba9a4b72178b62825fa28cfb005b2f855c07/lazysdk-0.1.96.tar.gz
+[2024-05-29 05:14:29] INFO root fetch - processPackages [plotink]: Downloading https://files.pythonhosted.org/packages/4e/04/2cea443d2487ae51bab6a0f7758cfe34cd09ba7d5b4de57bd4cb88acfcb8/plotink-1.8.0.tar.gz
+[2024-05-29 05:14:29] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/21/f6/0379d5a23c82e170e045fdf239b66a95ecee6e7a8b32767f84b6120df776/lazysdk-0.1.97.tar.gz
+[2024-05-29 05:14:29] INFO root fetch - processPackages [plotink]: Downloading https://files.pythonhosted.org/packages/56/da/1d4eaf5374ef2e627db1ba4caadb259b7cf93ecc9474688f59b85c8a2a3a/plotink-1.9.0.tar.gz
+[2024-05-29 05:14:29] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2024-05-29 05:14:29] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.96.tar.gz tmp/lazysdk-0.1.97.tar.gz --markdown 20240529/l/lazysdk/0.1.96-0.1.97/README.md --exclude *.pyd
+[2024-05-29 05:14:29] INFO root fetch - processPackages [plotink]: executing diffoscope
+[2024-05-29 05:14:29] INFO root fetch - processPackages [plotink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotink-1.8.0.tar.gz tmp/plotink-1.9.0.tar.gz --markdown 20240529/p/plotink/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-29 05:14:30] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.96.tar.gz]
+[2024-05-29 05:14:30] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.97.tar.gz]
+[2024-05-29 05:14:30] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2024-05-29 05:14:30] INFO root fetch - processPackages [plotink]: Remove: archive file [/home/abi/fetcher/tmp/plotink-1.8.0.tar.gz]
+[2024-05-29 05:14:30] INFO root fetch - processPackages [plotink]: Remove: archive file [/home/abi/fetcher/tmp/plotink-1.9.0.tar.gz]
+[2024-05-29 05:14:30] INFO root fetch - main [MainThread]: End processing [plotink]: success
+[2024-05-29 05:14:30] INFO root fetch - main [MainThread]: Store serial: [23423521]
