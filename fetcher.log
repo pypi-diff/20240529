@@ -12708,3 +12708,33 @@
 [2024-05-29 08:53:27] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
 [2024-05-29 08:53:27] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
 [2024-05-29 08:53:27] INFO root fetch - main [MainThread]: Store serial: [23425249]
+[2024-05-29 08:55:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425249]
+[2024-05-29 08:55:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 08:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-wavefront
+[2024-05-29 08:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dtogen
+[2024-05-29 08:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-vault
+[2024-05-29 08:55:36] INFO root fetch - processPackages [dtogen]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 08:55:36] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1716964492] Old Version: [3.2.0a1716513396]
+[2024-05-29 08:55:37] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1716964164] Old Version: [6.2.0a1716513395]
+[2024-05-29 08:55:37] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/7b/d0/2d5e13913727f276f7172df8c66c03ce2992c5d2df2d32bfd311587fb248/dtogen-0.0.8.tar.gz
+[2024-05-29 08:55:37] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/7f/e1/b832250579c6cd3a28030fd694093642f012406c437fb77e6a8dfdfc7a04/pulumi_wavefront-3.2.0a1716513396.tar.gz
+[2024-05-29 08:55:37] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/59/32/de95ecf52250b68bc7922602e1fb993ccd75626c71be5ea79b1635c1b66c/pulumi_vault-6.2.0a1716513395.tar.gz
+[2024-05-29 08:55:37] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/de/7b/1460380c6d1a19bf74454bdf5c43922d866904ffc0ff226c7abd12aa6712/pulumi_wavefront-3.2.0a1716964492.tar.gz
+[2024-05-29 08:55:37] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/23/28/31d5753e9801893d664709f9ca15838c2086e768f2b1eda54714ae6c44a5/dtogen-0.0.9.tar.gz
+[2024-05-29 08:55:37] INFO root fetch - processPackages [dtogen]: executing diffoscope
+[2024-05-29 08:55:37] INFO root fetch - processPackages [dtogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtogen-0.0.8.tar.gz tmp/dtogen-0.0.9.tar.gz --markdown 20240529/d/dtogen/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 08:55:37] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-05-29 08:55:37] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1716513396.tar.gz tmp/pulumi_wavefront-3.2.0a1716964492.tar.gz --markdown 20240529/p/pulumi-wavefront/3.2.0a1716513396-3.2.0a1716964492/README.md --exclude *.pyd
+[2024-05-29 08:55:37] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/fd/58/2d61dcc58d74e26ab2d30024ea715f8c8145d361f7e93ff045078939f8f8/pulumi_vault-6.2.0a1716964164.tar.gz
+[2024-05-29 08:55:37] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-29 08:55:37] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1716513395.tar.gz tmp/pulumi_vault-6.2.0a1716964164.tar.gz --markdown 20240529/p/pulumi-vault/6.2.0a1716513395-6.2.0a1716964164/README.md --exclude *.pyd
+[2024-05-29 08:55:38] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.8.tar.gz]
+[2024-05-29 08:55:38] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.9.tar.gz]
+[2024-05-29 08:55:38] INFO root fetch - main [MainThread]: End processing [dtogen]: success
+[2024-05-29 08:55:38] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1716513396.tar.gz]
+[2024-05-29 08:55:38] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1716964492.tar.gz]
+[2024-05-29 08:55:38] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-05-29 08:55:39] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1716513395.tar.gz]
+[2024-05-29 08:55:39] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1716964164.tar.gz]
+[2024-05-29 08:55:39] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-29 08:55:39] INFO root fetch - main [MainThread]: Store serial: [23425257]
