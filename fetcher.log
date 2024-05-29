@@ -17758,3 +17758,63 @@
 [2024-05-29 11:56:48] INFO root fetch - processPackages [eyes-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/eyes_robotframework-5.9.0-py2.py3-none-any.whl.zip]
 [2024-05-29 11:56:48] INFO root fetch - main [MainThread]: End processing [eyes-robotframework]: success
 [2024-05-29 11:56:48] INFO root fetch - main [MainThread]: Store serial: [23427777]
+[2024-05-29 11:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427777]
+[2024-05-29 11:58:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metrit
+[2024-05-29 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycocap
+[2024-05-29 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serpyco-rs
+[2024-05-29 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezhub
+[2024-05-29 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fairbalance
+[2024-05-29 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wxhelper
+[2024-05-29 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pywapor
+[2024-05-29 11:58:57] INFO root fetch - processPackages [metrit]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 11:58:57] INFO root fetch - processPackages [pywapor]: New version: [3.5.3] Old Version: [3.5.2]
+[2024-05-29 11:58:57] INFO root fetch - processPackages [pycocap]: New version: [1.3.3.dev2] Old Version: [1.2.0]
+[2024-05-29 11:58:57] INFO root fetch - processPackages [metrit]: Downloading https://files.pythonhosted.org/packages/92/55/03138c60a68594a07b6584c296946440b6766e20222563194b28d5381cd7/metrit-0.0.3.tar.gz
+[2024-05-29 11:58:57] INFO root fetch - processPackages [pycocap]: Downloading https://files.pythonhosted.org/packages/36/02/8ec0a1887935f9528dadc41d859f5fefba9b88acb682fa5cc7e65b5ad10d/pycocap-1.2.0.tar.gz
+[2024-05-29 11:58:57] INFO root fetch - processPackages [wxhelper]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-29 11:58:57] WARNING root fetch - processPackages [ezhub]: Skipping, unable to determine old version
+[2024-05-29 11:58:57] INFO root fetch - processPackages [fairbalance]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-29 11:58:57] INFO root fetch - main [MainThread]: End processing [ezhub] error
+[2024-05-29 11:58:57] INFO root fetch - processPackages [pywapor]: Downloading https://files.pythonhosted.org/packages/9a/2a/f5ef1b7e4df3d0194fc064b5ff8fa87e7bb8549860339728d7eec3391c2c/pywapor-3.5.2.tar.gz
+[2024-05-29 11:58:57] INFO root fetch - processPackages [serpyco-rs]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-29 11:58:58] INFO root fetch - processPackages [fairbalance]: Downloading https://files.pythonhosted.org/packages/36/fb/b25648ca95119d297c023146a00af40a4731f7a69aa1d2f6a2b04d0185b7/fairbalance-0.1.6.tar.gz
+[2024-05-29 11:58:58] INFO root fetch - processPackages [wxhelper]: Downloading https://files.pythonhosted.org/packages/bf/df/f8435627ca834f1daf6fb116d94fdc7fce30c2b209487e9572ce3de9458c/wxhelper-0.0.6.tar.gz
+[2024-05-29 11:58:58] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/e0/5b/0456a4b48e4134734972ebef6adf0d5b1835b3a3656ce5016e59f267f184/serpyco_rs-1.9.0.tar.gz
+[2024-05-29 11:58:58] INFO root fetch - processPackages [metrit]: Downloading https://files.pythonhosted.org/packages/b6/9b/3fb18d658f9766aeaa2d34b381343ab9e671f02c267648878862b5b06043/metrit-0.0.4.tar.gz
+[2024-05-29 11:58:58] INFO root fetch - processPackages [pywapor]: Downloading https://files.pythonhosted.org/packages/83/a9/82ca99c9b51ac59aa4794aed72727b920b211ad36c07cd48bc3e6df2dcb8/pywapor-3.5.3.tar.gz
+[2024-05-29 11:58:58] INFO root fetch - processPackages [pycocap]: Downloading https://files.pythonhosted.org/packages/fe/f0/10c30c1dc465dfd8d732cf451608e3fb00c78f0beb5892d35169e3e253f3/pycocap-1.3.3.dev2.tar.gz
+[2024-05-29 11:58:58] INFO root fetch - processPackages [metrit]: executing diffoscope
+[2024-05-29 11:58:58] INFO root fetch - processPackages [metrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrit-0.0.3.tar.gz tmp/metrit-0.0.4.tar.gz --markdown 20240529/m/metrit/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 11:58:58] INFO root fetch - processPackages [pywapor]: executing diffoscope
+[2024-05-29 11:58:58] INFO root fetch - processPackages [pywapor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywapor-3.5.2.tar.gz tmp/pywapor-3.5.3.tar.gz --markdown 20240529/p/pywapor/3.5.2-3.5.3/README.md --exclude *.pyd
+[2024-05-29 11:58:58] INFO root fetch - processPackages [fairbalance]: Downloading https://files.pythonhosted.org/packages/a4/60/4c2466fc977981a8ad4457a60ab781ae4f4ae7cb11f3b7d48fc29ba840a7/fairbalance-0.1.7.tar.gz
+[2024-05-29 11:58:58] INFO root fetch - processPackages [wxhelper]: Downloading https://files.pythonhosted.org/packages/73/60/7f1c8b24a74bbd178753e1571c76501e1f164c92662da0e5e24135d69296/wxhelper-0.0.7.tar.gz
+[2024-05-29 11:58:58] INFO root fetch - processPackages [pycocap]: executing diffoscope
+[2024-05-29 11:58:58] INFO root fetch - processPackages [pycocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycocap-1.2.0.tar.gz tmp/pycocap-1.3.3.dev2.tar.gz --markdown 20240529/p/pycocap/1.2.0-1.3.3.dev2/README.md --exclude *.pyd
+[2024-05-29 11:58:58] INFO root fetch - processPackages [fairbalance]: executing diffoscope
+[2024-05-29 11:58:58] INFO root fetch - processPackages [fairbalance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbalance-0.1.6.tar.gz tmp/fairbalance-0.1.7.tar.gz --markdown 20240529/f/fairbalance/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-29 11:58:58] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/f2/b2/77169720b2eb0d78052d32ff6709ed1bd578ce93afadec3120d83ee33de1/serpyco_rs-1.9.1.tar.gz
+[2024-05-29 11:58:58] INFO root fetch - processPackages [wxhelper]: executing diffoscope
+[2024-05-29 11:58:58] INFO root fetch - processPackages [wxhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxhelper-0.0.6.tar.gz tmp/wxhelper-0.0.7.tar.gz --markdown 20240529/w/wxhelper/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-29 11:58:58] INFO root fetch - processPackages [metrit]: Remove: archive file [/home/abi/fetcher/tmp/metrit-0.0.3.tar.gz]
+[2024-05-29 11:58:58] INFO root fetch - processPackages [metrit]: Remove: archive file [/home/abi/fetcher/tmp/metrit-0.0.4.tar.gz]
+[2024-05-29 11:58:58] INFO root fetch - main [MainThread]: End processing [metrit]: success
+[2024-05-29 11:58:59] INFO root fetch - processPackages [serpyco-rs]: executing diffoscope
+[2024-05-29 11:58:59] INFO root fetch - processPackages [serpyco-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serpyco_rs-1.9.0.tar.gz tmp/serpyco_rs-1.9.1.tar.gz --markdown 20240529/s/serpyco-rs/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-29 11:58:59] INFO root fetch - processPackages [fairbalance]: Remove: archive file [/home/abi/fetcher/tmp/fairbalance-0.1.6.tar.gz]
+[2024-05-29 11:58:59] INFO root fetch - processPackages [fairbalance]: Remove: archive file [/home/abi/fetcher/tmp/fairbalance-0.1.7.tar.gz]
+[2024-05-29 11:58:59] INFO root fetch - main [MainThread]: End processing [fairbalance]: success
+[2024-05-29 11:58:59] INFO root fetch - processPackages [pycocap]: Remove: archive file [/home/abi/fetcher/tmp/pycocap-1.2.0.tar.gz]
+[2024-05-29 11:58:59] INFO root fetch - processPackages [pycocap]: Remove: archive file [/home/abi/fetcher/tmp/pycocap-1.3.3.dev2.tar.gz]
+[2024-05-29 11:58:59] INFO root fetch - main [MainThread]: End processing [pycocap]: success
+[2024-05-29 11:58:59] INFO root fetch - processPackages [wxhelper]: Remove: archive file [/home/abi/fetcher/tmp/wxhelper-0.0.6.tar.gz]
+[2024-05-29 11:58:59] INFO root fetch - processPackages [wxhelper]: Remove: archive file [/home/abi/fetcher/tmp/wxhelper-0.0.7.tar.gz]
+[2024-05-29 11:58:59] INFO root fetch - main [MainThread]: End processing [wxhelper]: success
+[2024-05-29 11:59:00] INFO root fetch - processPackages [pywapor]: Remove: archive file [/home/abi/fetcher/tmp/pywapor-3.5.2.tar.gz]
+[2024-05-29 11:59:00] INFO root fetch - processPackages [pywapor]: Remove: archive file [/home/abi/fetcher/tmp/pywapor-3.5.3.tar.gz]
+[2024-05-29 11:59:00] INFO root fetch - main [MainThread]: End processing [pywapor]: success
+[2024-05-29 11:59:03] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-1.9.0.tar.gz]
+[2024-05-29 11:59:03] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-1.9.1.tar.gz]
+[2024-05-29 11:59:03] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
+[2024-05-29 11:59:03] INFO root fetch - main [MainThread]: Store serial: [23427831]
