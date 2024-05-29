@@ -8718,3 +8718,33 @@
 [2024-05-29 05:29:48] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.7.dev20240528095544.tar.gz]
 [2024-05-29 05:29:48] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2024-05-29 05:29:48] INFO root fetch - main [MainThread]: Store serial: [23423600]
+[2024-05-29 05:31:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423600]
+[2024-05-29 05:31:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 05:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-command-line
+[2024-05-29 05:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalk-harness
+[2024-05-29 05:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bribrain
+[2024-05-29 05:31:56] INFO root fetch - processPackages [bribrain]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-29 05:31:56] INFO root fetch - processPackages [gpt-command-line]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-29 05:31:56] INFO root fetch - processPackages [chalk-harness]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-29 05:31:57] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/77/df/c56e001862529259fa47f363408c960c2ad459cac6ec29588bcf313c24ca/gpt_command_line-0.1.7.tar.gz
+[2024-05-29 05:31:57] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/04/cf/7b5f46fcb7ff618c41cba126b21c03047ab357635bab1cb1fa76c6c31081/chalk-harness-1.9.8.tar.gz
+[2024-05-29 05:31:57] INFO root fetch - processPackages [bribrain]: Downloading https://files.pythonhosted.org/packages/9e/b0/de8688270f44996c34f0c0fb19417fae9974cbbb0e0f3bb54b7d6e5eb7d6/bribrain-1.0.4.tar.gz
+[2024-05-29 05:31:57] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/bc/ff/455166242d571a782ad8944f74c4d681d12b5fe5d97da71ab594f138a041/gpt_command_line-0.2.0.tar.gz
+[2024-05-29 05:31:57] INFO root fetch - processPackages [gpt-command-line]: executing diffoscope
+[2024-05-29 05:31:57] INFO root fetch - processPackages [gpt-command-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_command_line-0.1.7.tar.gz tmp/gpt_command_line-0.2.0.tar.gz --markdown 20240529/g/gpt-command-line/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-05-29 05:31:57] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/71/ea/d40dc649c4c8238582eeede1c8cfae5807f94913301efa0c34aff4e959f8/chalk-harness-1.9.9.tar.gz
+[2024-05-29 05:31:57] INFO root fetch - processPackages [bribrain]: Downloading https://files.pythonhosted.org/packages/30/af/a78c95f775604f969ddcb318d7f6f2c7302a925299055d0fe50bd702c912/bribrain-1.0.5.tar.gz
+[2024-05-29 05:31:57] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2024-05-29 05:31:57] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.9.8.tar.gz tmp/chalk-harness-1.9.9.tar.gz --markdown 20240529/c/chalk-harness/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-29 05:31:57] INFO root fetch - processPackages [bribrain]: executing diffoscope
+[2024-05-29 05:31:57] INFO root fetch - processPackages [bribrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bribrain-1.0.4.tar.gz tmp/bribrain-1.0.5.tar.gz --markdown 20240529/b/bribrain/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-29 05:31:58] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.8.tar.gz]
+[2024-05-29 05:31:58] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.9.tar.gz]
+[2024-05-29 05:31:58] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2024-05-29 05:31:58] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt_command_line-0.1.7.tar.gz]
+[2024-05-29 05:31:58] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt_command_line-0.2.0.tar.gz]
+[2024-05-29 05:31:58] INFO root fetch - main [MainThread]: End processing [gpt-command-line]: success
+[2024-05-29 05:31:58] INFO root fetch - processPackages [bribrain]: Remove: archive file [/home/abi/fetcher/tmp/bribrain-1.0.4.tar.gz]
+[2024-05-29 05:31:58] INFO root fetch - processPackages [bribrain]: Remove: archive file [/home/abi/fetcher/tmp/bribrain-1.0.5.tar.gz]
+[2024-05-29 05:31:58] INFO root fetch - main [MainThread]: End processing [bribrain]: success
+[2024-05-29 05:31:58] INFO root fetch - main [MainThread]: Store serial: [23423609]
