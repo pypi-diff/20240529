@@ -7290,3 +7290,24 @@
 [2024-05-29 03:51:56] INFO root fetch - processPackages [ddeutil-io]: Remove: archive file [/home/abi/fetcher/tmp/ddeutil_io-0.1.8.tar.gz]
 [2024-05-29 03:51:56] INFO root fetch - main [MainThread]: End processing [ddeutil-io]: success
 [2024-05-29 03:51:56] INFO root fetch - main [MainThread]: Store serial: [23422973]
+[2024-05-29 03:53:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23422973]
+[2024-05-29 03:54:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 03:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fosslight-scanner
+[2024-05-29 03:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-typomatic
+[2024-05-29 03:54:04] INFO root fetch - processPackages [fosslight-scanner]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-29 03:54:04] INFO root fetch - processPackages [django-typomatic]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-05-29 03:54:05] INFO root fetch - processPackages [django-typomatic]: Downloading https://files.pythonhosted.org/packages/77/e2/20d7fcf19d4d2d9d289079b6064d46dd905d752cd3745d477585d1852217/django-typomatic-2.5.0.tar.gz
+[2024-05-29 03:54:05] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/29/52/ebbdf6a6e063398271f8932f5b6fefdcd270f750b972a29bf2f956dd3cc7/fosslight_scanner-1.7.8.tar.gz
+[2024-05-29 03:54:05] INFO root fetch - processPackages [django-typomatic]: Downloading https://files.pythonhosted.org/packages/fe/39/0b2a86e6d0b4503674766fcec01620ba0b394a2343bfe702ba891f0255e8/django_typomatic-2.5.1.tar.gz
+[2024-05-29 03:54:05] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/49/60/6eb1e1a4606d6df3400213c55f545bc24a747a7ac1293839763561673e0d/fosslight_scanner-1.7.9.tar.gz
+[2024-05-29 03:54:05] INFO root fetch - processPackages [fosslight-scanner]: executing diffoscope
+[2024-05-29 03:54:05] INFO root fetch - processPackages [fosslight-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_scanner-1.7.8.tar.gz tmp/fosslight_scanner-1.7.9.tar.gz --markdown 20240529/f/fosslight-scanner/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-29 03:54:05] INFO root fetch - processPackages [django-typomatic]: executing diffoscope
+[2024-05-29 03:54:05] INFO root fetch - processPackages [django-typomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-typomatic-2.5.0.tar.gz tmp/django_typomatic-2.5.1.tar.gz --markdown 20240529/d/django-typomatic/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-05-29 03:54:06] INFO root fetch - processPackages [django-typomatic]: Remove: archive file [/home/abi/fetcher/tmp/django-typomatic-2.5.0.tar.gz]
+[2024-05-29 03:54:06] INFO root fetch - processPackages [django-typomatic]: Remove: archive file [/home/abi/fetcher/tmp/django_typomatic-2.5.1.tar.gz]
+[2024-05-29 03:54:06] INFO root fetch - main [MainThread]: End processing [django-typomatic]: success
+[2024-05-29 03:54:06] INFO root fetch - processPackages [fosslight-scanner]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_scanner-1.7.8.tar.gz]
+[2024-05-29 03:54:06] INFO root fetch - processPackages [fosslight-scanner]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_scanner-1.7.9.tar.gz]
+[2024-05-29 03:54:06] INFO root fetch - main [MainThread]: End processing [fosslight-scanner]: success
+[2024-05-29 03:54:06] INFO root fetch - main [MainThread]: Store serial: [23422979]
