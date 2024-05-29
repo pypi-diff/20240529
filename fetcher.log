@@ -10113,3 +10113,21 @@
 [2024-05-29 06:54:46] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa-16.0.1.1.0.2-py3-none-any.whl.zip]
 [2024-05-29 06:54:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa]: success
 [2024-05-29 06:54:46] INFO root fetch - main [MainThread]: Store serial: [23424098]
+[2024-05-29 06:56:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424098]
+[2024-05-29 06:56:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 06:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-codenerix
+[2024-05-29 06:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emirpred
+[2024-05-29 06:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Tahdheeb
+[2024-05-29 06:56:56] WARNING root fetch - processPackages [Tahdheeb]: Skipping, unable to determine old version
+[2024-05-29 06:56:56] INFO root fetch - main [MainThread]: End processing [Tahdheeb] error
+[2024-05-29 06:56:56] INFO root fetch - processPackages [django-codenerix]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-29 06:56:56] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/ae/10/6c1b18ca5b901dda322ef6ebd63aa51cd777f12179630cfe66a52dbefd73/django-codenerix-4.0.8.tar.gz
+[2024-05-29 06:56:56] WARNING root fetch - processPackages [emirpred]: Skipping, unable to determine old version
+[2024-05-29 06:56:56] INFO root fetch - main [MainThread]: End processing [emirpred] error
+[2024-05-29 06:56:56] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/fa/74/5c81cb6c9cd40266d8845b61025400c9db3344b5ed8063c6b29f18d4574e/django-codenerix-4.0.9.tar.gz
+[2024-05-29 06:56:57] INFO root fetch - processPackages [django-codenerix]: executing diffoscope
+[2024-05-29 06:56:57] INFO root fetch - processPackages [django-codenerix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-4.0.8.tar.gz tmp/django-codenerix-4.0.9.tar.gz --markdown 20240529/d/django-codenerix/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-29 06:57:01] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.8.tar.gz]
+[2024-05-29 06:57:01] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
+[2024-05-29 06:57:01] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
+[2024-05-29 06:57:01] INFO root fetch - main [MainThread]: Store serial: [23424125]
