@@ -12181,3 +12181,45 @@
 [2024-05-29 08:36:23] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.3.dev3-py3-none-any.whl.zip]
 [2024-05-29 08:36:23] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
 [2024-05-29 08:36:23] INFO root fetch - main [MainThread]: Store serial: [23425042]
+[2024-05-29 08:38:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425042]
+[2024-05-29 08:38:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 08:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompt-learner
+[2024-05-29 08:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ViNexPy
+[2024-05-29 08:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frinx-conductor-workers
+[2024-05-29 08:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-random
+[2024-05-29 08:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: instruct-qa
+[2024-05-29 08:38:31] INFO root fetch - processPackages [instruct-qa]: New version: [0.0.3rc4] Old Version: [0.0.3rc3]
+[2024-05-29 08:38:31] WARNING root fetch - processPackages [ViNexPy]: Skipping, unable to determine old version
+[2024-05-29 08:38:31] INFO root fetch - main [MainThread]: End processing [ViNexPy] error
+[2024-05-29 08:38:31] INFO root fetch - processPackages [prompt-learner]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-29 08:38:32] INFO root fetch - processPackages [frinx-conductor-workers]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-29 08:38:32] INFO root fetch - processPackages [instruct-qa]: Downloading https://files.pythonhosted.org/packages/d2/9d/248e48900e06ebcc4b1bf798f8174d4e6ce8383a002016ca01dfc0f8c8b8/instruct-qa-0.0.3rc3.tar.gz
+[2024-05-29 08:38:32] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/0e/28/52298e7b45551b95cac426d854b75af3410cdb6d567933253cee544e13f9/prompt_learner-0.2.7.tar.gz
+[2024-05-29 08:38:32] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-05-29 08:38:32] INFO root fetch - processPackages [frinx-conductor-workers]: Downloading https://files.pythonhosted.org/packages/ec/5b/01fdd401eb70f4d37e4379b7e30fe826fa2ac6ad1798162b2cf4cb59785c/frinx_conductor_workers-2.0.0.tar.gz
+[2024-05-29 08:38:32] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/c0/69/c3a00a365b62d9bc95e61e1596a8444bf2f0c00f549714f6b93b518f4af4/prompt_learner-0.2.8.tar.gz
+[2024-05-29 08:38:32] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-05-29 08:38:32] INFO root fetch - processPackages [instruct-qa]: Downloading https://files.pythonhosted.org/packages/1f/b3/403c4c1001292a20ffabdcac83a41434bde529879366338ca9f23a8615b2/instruct-qa-0.0.3rc4.tar.gz
+[2024-05-29 08:38:32] INFO root fetch - processPackages [prompt-learner]: executing diffoscope
+[2024-05-29 08:38:32] INFO root fetch - processPackages [prompt-learner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_learner-0.2.7.tar.gz tmp/prompt_learner-0.2.8.tar.gz --markdown 20240529/p/prompt-learner/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-29 08:38:32] INFO root fetch - processPackages [frinx-conductor-workers]: Downloading https://files.pythonhosted.org/packages/34/8d/ecf2cf45d6bce3fe23a5f4fae09a498fb4945c15552bfc072eb8b2c9dbd3/frinx_conductor_workers-2.1.0.tar.gz
+[2024-05-29 08:38:32] INFO root fetch - processPackages [instruct-qa]: executing diffoscope
+[2024-05-29 08:38:32] INFO root fetch - processPackages [instruct-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instruct-qa-0.0.3rc3.tar.gz tmp/instruct-qa-0.0.3rc4.tar.gz --markdown 20240529/i/instruct-qa/0.0.3rc3-0.0.3rc4/README.md --exclude *.pyd
+[2024-05-29 08:38:32] INFO root fetch - processPackages [frinx-conductor-workers]: executing diffoscope
+[2024-05-29 08:38:32] INFO root fetch - processPackages [frinx-conductor-workers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frinx_conductor_workers-2.0.0.tar.gz tmp/frinx_conductor_workers-2.1.0.tar.gz --markdown 20240529/f/frinx-conductor-workers/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-29 08:38:32] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-05-29 08:38:32] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-05-29 08:38:32] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240529/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-05-29 08:38:33] INFO root fetch - processPackages [instruct-qa]: Remove: archive file [/home/abi/fetcher/tmp/instruct-qa-0.0.3rc3.tar.gz]
+[2024-05-29 08:38:33] INFO root fetch - processPackages [instruct-qa]: Remove: archive file [/home/abi/fetcher/tmp/instruct-qa-0.0.3rc4.tar.gz]
+[2024-05-29 08:38:33] INFO root fetch - main [MainThread]: End processing [instruct-qa]: success
+[2024-05-29 08:38:33] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.2.7.tar.gz]
+[2024-05-29 08:38:33] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.2.8.tar.gz]
+[2024-05-29 08:38:33] INFO root fetch - main [MainThread]: End processing [prompt-learner]: success
+[2024-05-29 08:38:33] INFO root fetch - processPackages [frinx-conductor-workers]: Remove: archive file [/home/abi/fetcher/tmp/frinx_conductor_workers-2.0.0.tar.gz]
+[2024-05-29 08:38:33] INFO root fetch - processPackages [frinx-conductor-workers]: Remove: archive file [/home/abi/fetcher/tmp/frinx_conductor_workers-2.1.0.tar.gz]
+[2024-05-29 08:38:33] INFO root fetch - main [MainThread]: End processing [frinx-conductor-workers]: success
+[2024-05-29 08:38:33] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-05-29 08:38:33] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-05-29 08:38:33] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-05-29 08:38:33] INFO root fetch - main [MainThread]: Store serial: [23425070]
