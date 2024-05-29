@@ -15996,3 +15996,56 @@
 [2024-05-29 11:01:07] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240313.tar.gz]
 [2024-05-29 11:01:07] INFO root fetch - main [MainThread]: End processing [recce-nightly]: success
 [2024-05-29 11:01:07] INFO root fetch - main [MainThread]: Store serial: [23426971]
+[2024-05-29 11:03:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426971]
+[2024-05-29 11:03:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgn-clis
+[2024-05-29 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: annofabapi
+[2024-05-29 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamindb_setup
+[2024-05-29 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: intersphinx_registry
+[2024-05-29 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netgen-mesher
+[2024-05-29 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysensor-analysis
+[2024-05-29 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ctrip-helper
+[2024-05-29 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandasai
+[2024-05-29 11:03:17] WARNING root fetch - processPackages [pgn-clis]: Skipping, unable to determine old version
+[2024-05-29 11:03:17] INFO root fetch - main [MainThread]: End processing [pgn-clis] error
+[2024-05-29 11:03:17] INFO root fetch - processPackages [annofabapi]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 11:03:18] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2403.post4.dev0] Old Version: [6.2.2403.post3.dev0]
+[2024-05-29 11:03:18] INFO root fetch - processPackages [intersphinx_registry]: New version: [0.2405.29] Old Version: [0.2405.27]
+[2024-05-29 11:03:18] WARNING root fetch - processPackages [ctrip-helper]: Skipping, unable to determine old version
+[2024-05-29 11:03:18] INFO root fetch - main [MainThread]: End processing [ctrip-helper] error
+[2024-05-29 11:03:18] WARNING root fetch - processPackages [pysensor-analysis]: Skipping, unable to determine old version
+[2024-05-29 11:03:18] INFO root fetch - main [MainThread]: End processing [pysensor-analysis] error
+[2024-05-29 11:03:18] INFO root fetch - processPackages [annofabapi]: Downloading https://files.pythonhosted.org/packages/c0/2e/1365f767b7a7259c910e2e4ef75dbad4c903cccdbcf4cbe439c189481a66/annofabapi-0.9.0.tar.gz
+[2024-05-29 11:03:18] INFO root fetch - processPackages [lamindb_setup]: New version: [0.73.0] Old Version: [0.72.2]
+[2024-05-29 11:03:18] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/0f/a6/ab4b882d62d5e3b942e4fcc5ccf32030212e46b61d371981d5666c480efa/netgen_mesher-6.2.2403.post3.dev0-cp39-cp39-win_amd64.whl
+[2024-05-29 11:03:18] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20430648>=10485760
+[2024-05-29 11:03:18] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-05-29 11:03:18] INFO root fetch - processPackages [pandasai]: New version: [2.1a1] Old Version: [2.0a9]
+[2024-05-29 11:03:18] INFO root fetch - processPackages [intersphinx_registry]: Downloading https://files.pythonhosted.org/packages/44/23/97e9fdd0457b5a187b3545a4448fa7f9df0d69be9e9e950101253fd1b71a/intersphinx_registry-0.2405.27.tar.gz
+[2024-05-29 11:03:18] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/36/6a/285fee2ddf04ab8b5dc6765e737f16c3954f9a8c6140b9f55c829314475a/lamindb_setup-0.72.2.tar.gz
+[2024-05-29 11:03:18] INFO root fetch - processPackages [annofabapi]: Downloading https://files.pythonhosted.org/packages/ab/d0/a384d57146d424feef92dc9261a602f02b7a71aefb343552eae1ab9de6a2/annofabapi-0.9.1.tar.gz
+[2024-05-29 11:03:18] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/a1/20/3561bdae1b48497693d449a6c68b80514d1748d9bb36a7928867f863159a/pandasai-2.0a9.tar.gz
+[2024-05-29 11:03:18] INFO root fetch - processPackages [annofabapi]: executing diffoscope
+[2024-05-29 11:03:18] INFO root fetch - processPackages [annofabapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabapi-0.9.0.tar.gz tmp/annofabapi-0.9.1.tar.gz --markdown 20240529/a/annofabapi/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-29 11:03:18] INFO root fetch - processPackages [intersphinx_registry]: Downloading https://files.pythonhosted.org/packages/ad/54/2253e7719b92b607ddbfca6e177973b02929650652cbcb477103cc71843b/intersphinx_registry-0.2405.29.tar.gz
+[2024-05-29 11:03:18] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/a6/c0/78d51d8ab2ca505bf881281a6ff7e0d773ad793cdfe178154e267e0296fa/lamindb_setup-0.73.0.tar.gz
+[2024-05-29 11:03:18] INFO root fetch - processPackages [intersphinx_registry]: executing diffoscope
+[2024-05-29 11:03:18] INFO root fetch - processPackages [intersphinx_registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intersphinx_registry-0.2405.27.tar.gz tmp/intersphinx_registry-0.2405.29.tar.gz --markdown 20240529/i/intersphinx_registry/0.2405.27-0.2405.29/README.md --exclude *.pyd
+[2024-05-29 11:03:18] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2024-05-29 11:03:18] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.72.2.tar.gz tmp/lamindb_setup-0.73.0.tar.gz --markdown 20240529/l/lamindb_setup/0.72.2-0.73.0/README.md --exclude *.pyd
+[2024-05-29 11:03:18] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/cd/50/e9dbdfb7342d8b51769d676787741e466d6b38672a9c8f62f0956e706402/pandasai-2.1a1.tar.gz
+[2024-05-29 11:03:18] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2024-05-29 11:03:18] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-2.0a9.tar.gz tmp/pandasai-2.1a1.tar.gz --markdown 20240529/p/pandasai/2.0a9-2.1a1/README.md --exclude *.pyd
+[2024-05-29 11:03:19] INFO root fetch - processPackages [annofabapi]: Remove: archive file [/home/abi/fetcher/tmp/annofabapi-0.9.0.tar.gz]
+[2024-05-29 11:03:19] INFO root fetch - processPackages [annofabapi]: Remove: archive file [/home/abi/fetcher/tmp/annofabapi-0.9.1.tar.gz]
+[2024-05-29 11:03:19] INFO root fetch - main [MainThread]: End processing [annofabapi]: success
+[2024-05-29 11:03:19] INFO root fetch - processPackages [intersphinx_registry]: Remove: archive file [/home/abi/fetcher/tmp/intersphinx_registry-0.2405.27.tar.gz]
+[2024-05-29 11:03:19] INFO root fetch - processPackages [intersphinx_registry]: Remove: archive file [/home/abi/fetcher/tmp/intersphinx_registry-0.2405.29.tar.gz]
+[2024-05-29 11:03:19] INFO root fetch - main [MainThread]: End processing [intersphinx_registry]: success
+[2024-05-29 11:03:19] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.72.2.tar.gz]
+[2024-05-29 11:03:19] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.73.0.tar.gz]
+[2024-05-29 11:03:19] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2024-05-29 11:03:19] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.0a9.tar.gz]
+[2024-05-29 11:03:19] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.1a1.tar.gz]
+[2024-05-29 11:03:19] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2024-05-29 11:03:19] INFO root fetch - main [MainThread]: Store serial: [23427001]
