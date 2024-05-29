@@ -14997,3 +14997,81 @@
 [2024-05-29 10:37:57] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.5.tar.gz]
 [2024-05-29 10:37:57] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
 [2024-05-29 10:37:57] INFO root fetch - main [MainThread]: Store serial: [23426449]
+[2024-05-29 10:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426449]
+[2024-05-29 10:40:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-29 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doptools
+[2024-05-29 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocsi
+[2024-05-29 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logisticbank
+[2024-05-29 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kuzu
+[2024-05-29 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-horizon
+[2024-05-29 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amulet-map-editor
+[2024-05-29 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2024-05-29 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyright
+[2024-05-29 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywapor
+[2024-05-29 10:40:06] INFO root fetch - processPackages [logisticbank]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 10:40:06] INFO root fetch - processPackages [moto]: New version: [5.0.9.dev4] Old Version: [5.0.9.dev2]
+[2024-05-29 10:40:06] INFO root fetch - processPackages [mkdocsi]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-29 10:40:06] INFO root fetch - processPackages [kuzu]: New version: [0.4.3.dev9] Old Version: [0.4.3.dev8]
+[2024-05-29 10:40:06] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/a6/77/60a7386d24ceec15caf6f8898619e61ffeb07fbac782f66530150e7c8c8e/mkdocsi-1.2.4.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [data-horizon]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-29 10:40:06] WARNING root fetch - processPackages [doptools]: Skipping, unable to determine old version
+[2024-05-29 10:40:06] INFO root fetch - main [MainThread]: End processing [doptools] error
+[2024-05-29 10:40:06] INFO root fetch - processPackages [pywapor]: New version: [3.5.3] Old Version: [3.5.2]
+[2024-05-29 10:40:06] INFO root fetch - processPackages [amulet-map-editor]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-29 10:40:06] INFO root fetch - processPackages [pyright]: New version: [1.1.365] Old Version: [1.1.364]
+[2024-05-29 10:40:06] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/8c/65/7162eaa21f2086d35586ac13298c2ee7127cec11827c394a1c4a3a08801e/kuzu-0.4.3.dev8.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [logisticbank]: Downloading https://files.pythonhosted.org/packages/de/6c/af0187227cc42a826394e38dad9497cba2e49c721db23ef6399ab386f814/logisticbank-0.0.1.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/8d/a7/67c2cce55ccae36c1c1d57755220c232cc2ea51f781baf55fa066a9d478b/moto-5.0.9.dev2.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [data-horizon]: Downloading https://files.pythonhosted.org/packages/d8/32/7e76de58a0b64adbfd5bf7cf9c903314b7e4081de4b76f2cb790b7f0c10d/data_horizon-0.2.0.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/22/fe3c93fbda35d1cdacc4caca6d416247cf754bced7899f75801286234efd/amulet-map-editor-0.9.5.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/d3/d5/8d64b8999497bc5a2f2b84746e4f2c4f475ab4287fe548b37c16c19a2225/pyright-1.1.364.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [pywapor]: Downloading https://files.pythonhosted.org/packages/9a/2a/f5ef1b7e4df3d0194fc064b5ff8fa87e7bb8549860339728d7eec3391c2c/pywapor-3.5.2.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/90/97/78fa3bdeacb74884ba57fb1ccf0937a34b233b55a8dc67f8ed6093d69968/mkdocsi-1.2.5.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [logisticbank]: Downloading https://files.pythonhosted.org/packages/7b/8d/5ed571cdd196aa90b54efbc25f65787afbb8a24953149d177ca574c661dc/logisticbank-0.0.2.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 10:40:06] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.2.4.tar.gz tmp/mkdocsi-1.2.5.tar.gz --markdown 20240529/m/mkdocsi/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-29 10:40:06] INFO root fetch - processPackages [data-horizon]: Downloading https://files.pythonhosted.org/packages/7b/19/3146de51f41417efb9b3eedba6d15031e3e9e5e95fd9b02f4cabaf72a7a1/data_horizon-0.2.1.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [logisticbank]: executing diffoscope
+[2024-05-29 10:40:06] INFO root fetch - processPackages [logisticbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logisticbank-0.0.1.tar.gz tmp/logisticbank-0.0.2.tar.gz --markdown 20240529/l/logisticbank/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 10:40:06] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/19/45/ae23d8bb54924eb99364c33b396f4ab1b03116defb85ce470f5b792db157/pyright-1.1.365.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/df/58/55a184ddd23fb47a5a837c33035095e3fcffa62119ae3557cf8e8b4f7f0c/kuzu-0.4.3.dev9.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/6c/53a1a90d5583a066d8244e345ab522afff85e8fd5acd593d8195f9fcb7b7/amulet-map-editor-0.9.6.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/30/15/ba23c0445e34e52ca7ebf202bc4ba115ebb6a87d0163c098a9921ec9581d/moto-5.0.9.dev4.tar.gz
+[2024-05-29 10:40:06] INFO root fetch - processPackages [pywapor]: Downloading https://files.pythonhosted.org/packages/83/a9/82ca99c9b51ac59aa4794aed72727b920b211ad36c07cd48bc3e6df2dcb8/pywapor-3.5.3.tar.gz
+[2024-05-29 10:40:07] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2024-05-29 10:40:07] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.364.tar.gz tmp/pyright-1.1.365.tar.gz --markdown 20240529/p/pyright/1.1.364-1.1.365/README.md --exclude *.pyd
+[2024-05-29 10:40:07] INFO root fetch - processPackages [data-horizon]: executing diffoscope
+[2024-05-29 10:40:07] INFO root fetch - processPackages [data-horizon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_horizon-0.2.0.tar.gz tmp/data_horizon-0.2.1.tar.gz --markdown 20240529/d/data-horizon/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-29 10:40:07] INFO root fetch - processPackages [amulet-map-editor]: executing diffoscope
+[2024-05-29 10:40:07] INFO root fetch - processPackages [amulet-map-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet-map-editor-0.9.5.tar.gz tmp/amulet-map-editor-0.9.6.tar.gz --markdown 20240529/a/amulet-map-editor/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-29 10:40:07] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.4.tar.gz]
+[2024-05-29 10:40:07] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.5.tar.gz]
+[2024-05-29 10:40:07] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 10:40:07] INFO root fetch - processPackages [pywapor]: executing diffoscope
+[2024-05-29 10:40:07] INFO root fetch - processPackages [pywapor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywapor-3.5.2.tar.gz tmp/pywapor-3.5.3.tar.gz --markdown 20240529/p/pywapor/3.5.2-3.5.3/README.md --exclude *.pyd
+[2024-05-29 10:40:07] INFO root fetch - processPackages [logisticbank]: Remove: archive file [/home/abi/fetcher/tmp/logisticbank-0.0.1.tar.gz]
+[2024-05-29 10:40:07] INFO root fetch - processPackages [logisticbank]: Remove: archive file [/home/abi/fetcher/tmp/logisticbank-0.0.2.tar.gz]
+[2024-05-29 10:40:07] INFO root fetch - main [MainThread]: End processing [logisticbank]: success
+[2024-05-29 10:40:07] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-29 10:40:07] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.3.dev8.tar.gz tmp/kuzu-0.4.3.dev9.tar.gz --markdown 20240529/k/kuzu/0.4.3.dev8-0.4.3.dev9/README.md --exclude *.pyd
+[2024-05-29 10:40:07] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.364.tar.gz]
+[2024-05-29 10:40:07] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.365.tar.gz]
+[2024-05-29 10:40:07] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2024-05-29 10:40:08] INFO root fetch - processPackages [data-horizon]: Remove: archive file [/home/abi/fetcher/tmp/data_horizon-0.2.0.tar.gz]
+[2024-05-29 10:40:08] INFO root fetch - processPackages [data-horizon]: Remove: archive file [/home/abi/fetcher/tmp/data_horizon-0.2.1.tar.gz]
+[2024-05-29 10:40:08] INFO root fetch - main [MainThread]: End processing [data-horizon]: success
+[2024-05-29 10:40:08] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-05-29 10:40:08] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.9.dev2.tar.gz tmp/moto-5.0.9.dev4.tar.gz --markdown 20240529/m/moto/5.0.9.dev2-5.0.9.dev4/README.md --exclude *.pyd
+[2024-05-29 10:40:09] INFO root fetch - processPackages [pywapor]: Remove: archive file [/home/abi/fetcher/tmp/pywapor-3.5.2.tar.gz]
+[2024-05-29 10:40:09] INFO root fetch - processPackages [pywapor]: Remove: archive file [/home/abi/fetcher/tmp/pywapor-3.5.3.tar.gz]
+[2024-05-29 10:40:09] INFO root fetch - main [MainThread]: End processing [pywapor]: success
+[2024-05-29 10:40:09] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.5.tar.gz]
+[2024-05-29 10:40:09] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.6.tar.gz]
+[2024-05-29 10:40:09] INFO root fetch - main [MainThread]: End processing [amulet-map-editor]: success
+[2024-05-29 10:40:14] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev8.tar.gz]
+[2024-05-29 10:40:14] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev9.tar.gz]
+[2024-05-29 10:40:14] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-29 10:40:19] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.9.dev2.tar.gz]
+[2024-05-29 10:40:19] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.9.dev4.tar.gz]
+[2024-05-29 10:40:19] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-05-29 10:40:19] INFO root fetch - main [MainThread]: Store serial: [23426509]
