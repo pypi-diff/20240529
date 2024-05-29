@@ -10179,3 +10179,123 @@
 [2024-05-29 07:03:33] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.1.dev1-py3-none-any.whl.zip]
 [2024-05-29 07:03:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-account-edi-ubl]: success
 [2024-05-29 07:03:33] INFO root fetch - main [MainThread]: Store serial: [23424163]
+[2024-05-29 07:05:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424163]
+[2024-05-29 07:05:44] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-29 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeode-core
+[2024-05-29 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py4web
+[2024-05-29 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: furiosa-cli
+[2024-05-29 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: furiosa-common
+[2024-05-29 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: furiosa-device
+[2024-05-29 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: furiosa-litmus
+[2024-05-29 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: furiosa-optimizer
+[2024-05-29 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: furiosa-quantizer
+[2024-05-29 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: furiosa-runtime
+[2024-05-29 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: furiosa-sdk
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-optimizer]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-device]: New version: [0.11.0.dev20231227] Old Version: [0.10.2]
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-sdk]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-common]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-cli]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-litmus]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-runtime]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-quantizer]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2024-05-29 07:05:44] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.21.0rc1]
+[2024-05-29 07:05:44] INFO root fetch - processPackages [py4web]: New version: [1.20240528.1] Old Version: [1.20240509.1]
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-device]: Downloading https://files.pythonhosted.org/packages/87/e1/6b269e40717433b548dccc12f17328d7ca4ddfd8dc29b96a4007a9132423/furiosa_device-0.10.2-py3-none-any.whl
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-cli]: Downloading https://files.pythonhosted.org/packages/96/de/696a597e430ef41323a6c5ad2ea4b504aa72c548739862dd38adec4b9f9d/furiosa-cli-0.9.0rc3.tar.gz
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-optimizer]: Downloading https://files.pythonhosted.org/packages/ad/12/af2ea072acbb658cc51f99b4c5dded22eac9daaf2de80eed8299350c5cb1/furiosa-optimizer-0.9.0rc3.tar.gz
+[2024-05-29 07:05:44] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/37/ac/ce82bb9662bc1a3134afec41988a93d6e101081276ab396a6d789d5d851c/py4web-1.20240509.1.tar.gz
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-sdk]: Downloading https://files.pythonhosted.org/packages/0b/d9/1efe5e5d2409d52fddadc80525309fa473c4b29ac93495730dda342a7605/furiosa_sdk-0.9.1.tar.gz
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-common]: Downloading https://files.pythonhosted.org/packages/16/73/b3beadcf94f5144cc40211bd64931c90bafa07e81c4e567405772ed64996/furiosa-common-0.9.0rc3.tar.gz
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-litmus]: Downloading https://files.pythonhosted.org/packages/18/0d/8b8d1ec4db4a75b102ff3794dfd3bf898bd048a5a7e92abcc7e1af1c4a18/furiosa-litmus-0.9.0rc3.tar.gz
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-runtime]: Downloading https://files.pythonhosted.org/packages/a3/6c/35083d6c9120947d20b39a21ac658746181ad712ce67fe70d927cb76d336/furiosa-runtime-0.9.0rc3.tar.gz
+[2024-05-29 07:05:44] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/54/cf/d5dc81fb3beed3f2db9ea7b055465c27cc3a01462ec98c35c85abbf48b9f/OpenGeode_core-14.21.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-quantizer]: Downloading https://files.pythonhosted.org/packages/34/bc/d8a0d84e2e621174e91bf76b44714a3dbd1d9340aa61904c5b85e20e90ca/furiosa-quantizer-0.9.0rc3.tar.gz
+[2024-05-29 07:05:44] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11771779>=10485760
+[2024-05-29 07:05:44] INFO root fetch - processPackages [OpenGeode-core]: Start processing: furiosa-server
+[2024-05-29 07:05:44] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-29 07:05:44] INFO root fetch - processPackages [furiosa-device]: Downloading https://files.pythonhosted.org/packages/03/36/cf971e1974b2b64bb567841f6eee3501df542ca6c85a7ba8a66acd91acc3/furiosa_device-0.11.0.dev20231227.tar.gz
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-cli]: Downloading https://files.pythonhosted.org/packages/65/dc/2e676986338dbf6fa6fabb9ad15e7996a5b15d7f9ab2803a9397e9a13e04/furiosa_cli-0.9.1.tar.gz
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-sdk]: Downloading https://files.pythonhosted.org/packages/ee/23/36f0830e5fb377c8780d028f5da84c3720cebd7c18d81409f50f8835da52/furiosa_sdk-0.9.2.tar.gz
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-device]: executing diffoscope
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-device]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa_device-0.10.2-py3-none-any.whl.zip tmp/furiosa_device-0.11.0.dev20231227.tar.gz --markdown 20240529/f/furiosa-device/0.10.2-0.11.0.dev20231227/README.md --exclude *.pyd
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-runtime]: Downloading https://files.pythonhosted.org/packages/f7/8a/9657dffa84a2d14662b0cbb1d1b55e7c7e655bf258e570b45f8077de3d68/furiosa_runtime-0.9.1.tar.gz
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-quantizer]: Downloading https://files.pythonhosted.org/packages/a4/10/68ab1860195372f75be81bfe3fc1691afa2268fe9088cfd878ab45f79a21/furiosa_quantizer-0.9.1.tar.gz
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-cli]: executing diffoscope
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa-cli-0.9.0rc3.tar.gz tmp/furiosa_cli-0.9.1.tar.gz --markdown 20240529/f/furiosa-cli/0.9.0rc3-0.9.1/README.md --exclude *.pyd
+[2024-05-29 07:05:45] WARNING root fetch - processPackages [furiosa-optimizer]: Skipping package: exceeds size limit 20707742>=10485760
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-optimizer]: Start processing: DSYiriso
+[2024-05-29 07:05:45] INFO root fetch - main [MainThread]: End processing [furiosa-optimizer] error
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-server]: Downloading https://files.pythonhosted.org/packages/5e/d6/3694e6a0941c2908964ec9685468855867fbd63027acd995833ec55d041b/furiosa_server-0.9.1.tar.gz
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-sdk]: executing diffoscope
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa_sdk-0.9.1.tar.gz tmp/furiosa_sdk-0.9.2.tar.gz --markdown 20240529/f/furiosa-sdk/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-runtime]: executing diffoscope
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa-runtime-0.9.0rc3.tar.gz tmp/furiosa_runtime-0.9.1.tar.gz --markdown 20240529/f/furiosa-runtime/0.9.0rc3-0.9.1/README.md --exclude *.pyd
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-quantizer]: executing diffoscope
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-quantizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa-quantizer-0.9.0rc3.tar.gz tmp/furiosa_quantizer-0.9.1.tar.gz --markdown 20240529/f/furiosa-quantizer/0.9.0rc3-0.9.1/README.md --exclude *.pyd
+[2024-05-29 07:05:45] WARNING root fetch - processPackages [DSYiriso]: Skipping, unable to determine old version
+[2024-05-29 07:05:45] INFO root fetch - processPackages [DSYiriso]: Start processing: furiosa-serving
+[2024-05-29 07:05:45] INFO root fetch - main [MainThread]: End processing [DSYiriso] error
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-litmus]: Downloading https://files.pythonhosted.org/packages/4e/3e/5bd23c9b6627f635cd54a5318e98c79cac4187b87ba4632937df6ad6bc6f/furiosa_litmus-0.9.1.tar.gz
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-serving]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-litmus]: executing diffoscope
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-litmus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa-litmus-0.9.0rc3.tar.gz tmp/furiosa_litmus-0.9.1.tar.gz --markdown 20240529/f/furiosa-litmus/0.9.0rc3-0.9.1/README.md --exclude *.pyd
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-device]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_device-0.10.2-py3-none-any.whl.zip]
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-device]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_device-0.11.0.dev20231227.tar.gz]
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-device]: Start processing: furiosa-tools
+[2024-05-29 07:05:45] INFO root fetch - main [MainThread]: End processing [furiosa-device]: success
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-serving]: Downloading https://files.pythonhosted.org/packages/5e/69/ad76d508560566a3298f0dbd7f2169080e49e36cb243f10c10f780337ae5/furiosa-serving-0.9.0rc3.tar.gz
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-cli]: Remove: archive file [/home/abi/fetcher/tmp/furiosa-cli-0.9.0rc3.tar.gz]
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-cli]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_cli-0.9.1.tar.gz]
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-cli]: Start processing: rapid-pe
+[2024-05-29 07:05:45] INFO root fetch - main [MainThread]: End processing [furiosa-cli]: success
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-quantizer]: Remove: archive file [/home/abi/fetcher/tmp/furiosa-quantizer-0.9.0rc3.tar.gz]
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-quantizer]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_quantizer-0.9.1.tar.gz]
+[2024-05-29 07:05:45] INFO root fetch - main [MainThread]: End processing [furiosa-quantizer]: success
+[2024-05-29 07:05:45] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240528] Old Version: [0.1.2.dev20240527]
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-tools]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_sdk-0.9.1.tar.gz]
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_sdk-0.9.2.tar.gz]
+[2024-05-29 07:05:45] INFO root fetch - main [MainThread]: End processing [furiosa-sdk]: success
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-runtime]: Remove: archive file [/home/abi/fetcher/tmp/furiosa-runtime-0.9.0rc3.tar.gz]
+[2024-05-29 07:05:45] INFO root fetch - processPackages [furiosa-runtime]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_runtime-0.9.1.tar.gz]
+[2024-05-29 07:05:45] INFO root fetch - main [MainThread]: End processing [furiosa-runtime]: success
+[2024-05-29 07:05:45] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/9f/aa/3eed1c44e609b104bb5d2f24ba296a368f1555249ac01b912fe1b71caed3/py4web-1.20240528.1.tar.gz
+[2024-05-29 07:05:45] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/0d/d3/b074d8e5393b9bed208db004a5ee6ea10eca31bfa8594f9ccbb905ee5231/rapid_pe-0.1.2.dev20240527.tar.gz
+[2024-05-29 07:05:46] INFO root fetch - processPackages [furiosa-tools]: Downloading https://files.pythonhosted.org/packages/13/09/cf28665cb2da7e77abb5bbf278614e2cb39d6b827311b96076245be39e38/furiosa-tools-0.9.0rc3.tar.gz
+[2024-05-29 07:05:46] INFO root fetch - processPackages [furiosa-litmus]: Remove: archive file [/home/abi/fetcher/tmp/furiosa-litmus-0.9.0rc3.tar.gz]
+[2024-05-29 07:05:46] INFO root fetch - processPackages [furiosa-litmus]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_litmus-0.9.1.tar.gz]
+[2024-05-29 07:05:46] INFO root fetch - main [MainThread]: End processing [furiosa-litmus]: success
+[2024-05-29 07:05:46] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/3f/ff/63c5f718a394871f5513e5907086e843f3722a3f70d3a9848ad61b6fd1b6/rapid_pe-0.1.2.dev20240528.tar.gz
+[2024-05-29 07:05:46] INFO root fetch - processPackages [furiosa-tools]: Downloading https://files.pythonhosted.org/packages/14/db/9dd3d57910dc20d2b81cdd0101eedd36f59c65adbd8e468f8f9c63f32de4/furiosa_tools-0.9.1.tar.gz
+[2024-05-29 07:05:46] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-29 07:05:46] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240527.tar.gz tmp/rapid_pe-0.1.2.dev20240528.tar.gz --markdown 20240529/r/rapid-pe/0.1.2.dev20240527-0.1.2.dev20240528/README.md --exclude *.pyd
+[2024-05-29 07:05:46] INFO root fetch - processPackages [furiosa-common]: Downloading https://files.pythonhosted.org/packages/70/09/65950e83e29aa9d28538674957ef8f4816f2f5a0345beee06aaa3cbb87c0/furiosa_common-0.9.1.tar.gz
+[2024-05-29 07:05:46] INFO root fetch - processPackages [furiosa-tools]: executing diffoscope
+[2024-05-29 07:05:46] INFO root fetch - processPackages [furiosa-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa-tools-0.9.0rc3.tar.gz tmp/furiosa_tools-0.9.1.tar.gz --markdown 20240529/f/furiosa-tools/0.9.0rc3-0.9.1/README.md --exclude *.pyd
+[2024-05-29 07:05:46] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2024-05-29 07:05:46] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20240509.1.tar.gz tmp/py4web-1.20240528.1.tar.gz --markdown 20240529/p/py4web/1.20240509.1-1.20240528.1/README.md --exclude *.pyd
+[2024-05-29 07:05:46] WARNING root fetch - processPackages [furiosa-server]: Skipping package: exceeds size limit 10788986>=10485760
+[2024-05-29 07:05:46] INFO root fetch - main [MainThread]: End processing [furiosa-server] error
+[2024-05-29 07:05:46] INFO root fetch - processPackages [furiosa-common]: executing diffoscope
+[2024-05-29 07:05:46] INFO root fetch - processPackages [furiosa-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa-common-0.9.0rc3.tar.gz tmp/furiosa_common-0.9.1.tar.gz --markdown 20240529/f/furiosa-common/0.9.0rc3-0.9.1/README.md --exclude *.pyd
+[2024-05-29 07:05:46] INFO root fetch - processPackages [furiosa-serving]: Downloading https://files.pythonhosted.org/packages/3a/1c/a4a3489fd5f1306606734232e36b8aef8dd100f045e0fc132c30142b2098/furiosa_serving-0.9.1.tar.gz
+[2024-05-29 07:05:47] INFO root fetch - processPackages [furiosa-tools]: Remove: archive file [/home/abi/fetcher/tmp/furiosa-tools-0.9.0rc3.tar.gz]
+[2024-05-29 07:05:47] INFO root fetch - processPackages [furiosa-tools]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_tools-0.9.1.tar.gz]
+[2024-05-29 07:05:47] INFO root fetch - main [MainThread]: End processing [furiosa-tools]: success
+[2024-05-29 07:05:47] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240527.tar.gz]
+[2024-05-29 07:05:47] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240528.tar.gz]
+[2024-05-29 07:05:47] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-29 07:05:47] INFO root fetch - processPackages [furiosa-serving]: executing diffoscope
+[2024-05-29 07:05:47] INFO root fetch - processPackages [furiosa-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa-serving-0.9.0rc3.tar.gz tmp/furiosa_serving-0.9.1.tar.gz --markdown 20240529/f/furiosa-serving/0.9.0rc3-0.9.1/README.md --exclude *.pyd
+[2024-05-29 07:05:47] INFO root fetch - processPackages [furiosa-common]: Remove: archive file [/home/abi/fetcher/tmp/furiosa-common-0.9.0rc3.tar.gz]
+[2024-05-29 07:05:47] INFO root fetch - processPackages [furiosa-common]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_common-0.9.1.tar.gz]
+[2024-05-29 07:05:47] INFO root fetch - main [MainThread]: End processing [furiosa-common]: success
+[2024-05-29 07:05:48] INFO root fetch - processPackages [furiosa-serving]: Remove: archive file [/home/abi/fetcher/tmp/furiosa-serving-0.9.0rc3.tar.gz]
+[2024-05-29 07:05:48] INFO root fetch - processPackages [furiosa-serving]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_serving-0.9.1.tar.gz]
+[2024-05-29 07:05:48] INFO root fetch - main [MainThread]: End processing [furiosa-serving]: success
+[2024-05-29 07:05:50] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240509.1.tar.gz]
+[2024-05-29 07:05:50] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240528.1.tar.gz]
+[2024-05-29 07:05:50] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2024-05-29 07:05:50] INFO root fetch - main [MainThread]: Store serial: [23424201]
