@@ -21496,3 +21496,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:21:43] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.8.tar.gz]
 [2024-05-29 14:21:43] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
 [2024-05-29 14:21:43] INFO root fetch - main [MainThread]: Store serial: [23429487]
+[2024-05-29 14:23:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429487]
+[2024-05-29 14:23:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-29 14:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eip712-clearsign
+[2024-05-29 14:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stocknotebridgenew
+[2024-05-29 14:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appmesh
+[2024-05-29 14:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oarepo-model-builder-requests
+[2024-05-29 14:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simplified-automl
+[2024-05-29 14:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphsense-lib
+[2024-05-29 14:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plyball
+[2024-05-29 14:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-ditto
+[2024-05-29 14:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ecodev-core
+[2024-05-29 14:23:52] INFO root fetch - processPackages [graphsense-lib]: New version: [2.2.7] Old Version: [2.2.6]
+[2024-05-29 14:23:52] INFO root fetch - processPackages [stocknotebridgenew]: New version: [5.0.5] Old Version: [5.0.4]
+[2024-05-29 14:23:52] INFO root fetch - processPackages [ecodev-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 14:23:52] INFO root fetch - processPackages [graphsense-lib]: Downloading https://files.pythonhosted.org/packages/b4/57/4b2545b4df241e39a6e56eb6800f919938e358e136ad2b77f7ec8da0a679/graphsense-lib-2.2.6.tar.gz
+[2024-05-29 14:23:52] INFO root fetch - processPackages [plyball]: New version: [2.3.0] Old Version: [2.2.72]
+[2024-05-29 14:23:52] INFO root fetch - processPackages [simplified-automl]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 14:23:52] INFO root fetch - processPackages [stocknotebridgenew]: Downloading https://files.pythonhosted.org/packages/11/5b/f1ff7c125f459c3dba3b7af2569f684edd924d866195e692bcfc42e838c1/stocknotebridgenew-5.0.4.tar.gz
+[2024-05-29 14:23:52] INFO root fetch - processPackages [pytest-ditto]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-29 14:23:52] INFO root fetch - processPackages [eip712-clearsign]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2024-05-29 14:23:52] INFO root fetch - processPackages [appmesh]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-29 14:23:52] INFO root fetch - processPackages [oarepo-model-builder-requests]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-29 14:23:52] WARNING root fetch - processPackages [graphsense-lib]: Skipping package: exceeds size limit 11246307>=10485760
+[2024-05-29 14:23:52] INFO root fetch - main [MainThread]: End processing [graphsense-lib] error
+[2024-05-29 14:23:52] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/b5/a9/766d6853412070aa67063f8b8ba6353109df7a029b4e8c577447655f9dd1/ecodev_core-0.0.8.tar.gz
+[2024-05-29 14:23:52] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/b7/92/7af48ee5300fe2ade150d9bc764ea92edf6c151eae0772734d83e63d240c/appmesh-1.1.7-py3-none-any.whl
+[2024-05-29 14:23:52] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/b2/ac/9d2100bb8a49b5c30f1cc544464db2135b335e3b37d2dfe0b9a968f328ec/plyball-2.2.72.tar.gz
+[2024-05-29 14:23:52] INFO root fetch - processPackages [eip712-clearsign]: Downloading https://files.pythonhosted.org/packages/de/f7/f49907e2c7e21f63a2b721417148fd6fd2fb15f3dbd28c5433da8899249a/eip712_clearsign-2.0.0rc2.tar.gz
+[2024-05-29 14:23:52] INFO root fetch - processPackages [oarepo-model-builder-requests]: Downloading https://files.pythonhosted.org/packages/81/16/d7dc526bddff5a2d5a0e4c5bc615d60dc15bef58d15f70c32f6a499221a8/oarepo-model-builder-requests-4.0.8.tar.gz
+[2024-05-29 14:23:52] INFO root fetch - processPackages [simplified-automl]: Downloading https://files.pythonhosted.org/packages/a4/c4/d4011ad848008ee3c15e5b7f31a8fbbc2284e401985083819dcfcf7b4df4/simplified_automl-0.0.3-py3-none-any.whl
+[2024-05-29 14:23:52] INFO root fetch - processPackages [pytest-ditto]: Downloading https://files.pythonhosted.org/packages/b2/f9/8a812c1d46dfb4adbbbec9133a2faab6fbd2f39aafb4ffb778995fd5a059/pytest_ditto-0.0.3.tar.gz
+[2024-05-29 14:23:52] INFO root fetch - processPackages [stocknotebridgenew]: Downloading https://files.pythonhosted.org/packages/35/ff/e994cdbe5020f81812eeaf61af82abaaa9afff9892c1afe3918990004a06/stocknotebridgenew-5.0.5.tar.gz
+[2024-05-29 14:23:53] INFO root fetch - processPackages [stocknotebridgenew]: executing diffoscope
+[2024-05-29 14:23:53] INFO root fetch - processPackages [stocknotebridgenew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stocknotebridgenew-5.0.4.tar.gz tmp/stocknotebridgenew-5.0.5.tar.gz --markdown 20240529/s/stocknotebridgenew/5.0.4-5.0.5/README.md --exclude *.pyd
+[2024-05-29 14:23:53] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/c8/16/bf50271f51fd2786b245f592964798523369f2a9a6853d301a91fd8cc7f4/appmesh-1.1.8-py3-none-any.whl
+[2024-05-29 14:23:53] INFO root fetch - processPackages [eip712-clearsign]: Downloading https://files.pythonhosted.org/packages/09/89/c2a7a4a1f777ced52dd0ed49b5e6b57a66d84e367c1eaa9b90ecf0dbb74f/eip712_clearsign-2.0.0rc3.tar.gz
+[2024-05-29 14:23:53] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/a5/3b/a680822a4cec8d52c765cb4f3b0d49c9ed50dcd744598276a21c65b976f7/plyball-2.3.0.tar.gz
+[2024-05-29 14:23:53] INFO root fetch - processPackages [simplified-automl]: Downloading https://files.pythonhosted.org/packages/4f/cc/ef5bbc123717e48d7523d73c8db79a0dd18e72cec9a83dece9e8f4a0e7d0/simplified_automl-0.0.4-py3-none-any.whl
+[2024-05-29 14:23:53] INFO root fetch - processPackages [eip712-clearsign]: executing diffoscope
+[2024-05-29 14:23:53] INFO root fetch - processPackages [eip712-clearsign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eip712_clearsign-2.0.0rc2.tar.gz tmp/eip712_clearsign-2.0.0rc3.tar.gz --markdown 20240529/e/eip712-clearsign/2.0.0rc2-2.0.0rc3/README.md --exclude *.pyd
+[2024-05-29 14:23:53] INFO root fetch - processPackages [pytest-ditto]: Downloading https://files.pythonhosted.org/packages/8e/dc/4446e1c5e758e459813fa78b044b1f01e0071dea7f3a4558af52cb6a4722/pytest_ditto-0.1.0.tar.gz
+[2024-05-29 14:23:53] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-29 14:23:53] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-1.1.7-py3-none-any.whl.zip tmp/appmesh-1.1.8-py3-none-any.whl.zip --markdown 20240529/a/appmesh/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-29 14:23:53] INFO root fetch - processPackages [plyball]: executing diffoscope
+[2024-05-29 14:23:53] INFO root fetch - processPackages [plyball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plyball-2.2.72.tar.gz tmp/plyball-2.3.0.tar.gz --markdown 20240529/p/plyball/2.2.72-2.3.0/README.md --exclude *.pyd
+[2024-05-29 14:23:53] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/2b/a0/d654c8a620b75677b176be54783974380dae7715c39ab4ada944771e7e75/ecodev_core-0.0.9.tar.gz
+[2024-05-29 14:23:53] INFO root fetch - processPackages [simplified-automl]: executing diffoscope
+[2024-05-29 14:23:53] INFO root fetch - processPackages [simplified-automl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplified_automl-0.0.3-py3-none-any.whl.zip tmp/simplified_automl-0.0.4-py3-none-any.whl.zip --markdown 20240529/s/simplified-automl/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 14:23:53] INFO root fetch - processPackages [pytest-ditto]: executing diffoscope
+[2024-05-29 14:23:53] INFO root fetch - processPackages [pytest-ditto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_ditto-0.0.3.tar.gz tmp/pytest_ditto-0.1.0.tar.gz --markdown 20240529/p/pytest-ditto/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-29 14:23:53] INFO root fetch - processPackages [oarepo-model-builder-requests]: Downloading https://files.pythonhosted.org/packages/2a/e6/dc6660c6ba6e85055d03646333c22e5a8317a5ba57531e2b1fd83c72470c/oarepo-model-builder-requests-4.0.9.tar.gz
+[2024-05-29 14:23:53] INFO root fetch - processPackages [ecodev-core]: executing diffoscope
+[2024-05-29 14:23:53] INFO root fetch - processPackages [ecodev-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_core-0.0.8.tar.gz tmp/ecodev_core-0.0.9.tar.gz --markdown 20240529/e/ecodev-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 14:23:53] INFO root fetch - processPackages [stocknotebridgenew]: Remove: archive file [/home/abi/fetcher/tmp/stocknotebridgenew-5.0.4.tar.gz]
+[2024-05-29 14:23:53] INFO root fetch - processPackages [stocknotebridgenew]: Remove: archive file [/home/abi/fetcher/tmp/stocknotebridgenew-5.0.5.tar.gz]
+[2024-05-29 14:23:53] INFO root fetch - main [MainThread]: End processing [stocknotebridgenew]: success
+[2024-05-29 14:23:53] INFO root fetch - processPackages [oarepo-model-builder-requests]: executing diffoscope
+[2024-05-29 14:23:53] INFO root fetch - processPackages [oarepo-model-builder-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-requests-4.0.8.tar.gz tmp/oarepo-model-builder-requests-4.0.9.tar.gz --markdown 20240529/o/oarepo-model-builder-requests/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-29 14:23:54] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.1.7-py3-none-any.whl.zip]
+[2024-05-29 14:23:54] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.1.8-py3-none-any.whl.zip]
+[2024-05-29 14:23:54] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-29 14:23:54] INFO root fetch - processPackages [eip712-clearsign]: Remove: archive file [/home/abi/fetcher/tmp/eip712_clearsign-2.0.0rc2.tar.gz]
+[2024-05-29 14:23:54] INFO root fetch - processPackages [eip712-clearsign]: Remove: archive file [/home/abi/fetcher/tmp/eip712_clearsign-2.0.0rc3.tar.gz]
+[2024-05-29 14:23:54] INFO root fetch - main [MainThread]: End processing [eip712-clearsign]: success
+[2024-05-29 14:23:54] INFO root fetch - processPackages [simplified-automl]: Remove: archive file [/home/abi/fetcher/tmp/simplified_automl-0.0.3-py3-none-any.whl.zip]
+[2024-05-29 14:23:54] INFO root fetch - processPackages [simplified-automl]: Remove: archive file [/home/abi/fetcher/tmp/simplified_automl-0.0.4-py3-none-any.whl.zip]
+[2024-05-29 14:23:54] INFO root fetch - main [MainThread]: End processing [simplified-automl]: success
+[2024-05-29 14:23:54] INFO root fetch - processPackages [pytest-ditto]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ditto-0.0.3.tar.gz]
+[2024-05-29 14:23:54] INFO root fetch - processPackages [pytest-ditto]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ditto-0.1.0.tar.gz]
+[2024-05-29 14:23:54] INFO root fetch - main [MainThread]: End processing [pytest-ditto]: success
+[2024-05-29 14:23:54] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.2.72.tar.gz]
+[2024-05-29 14:23:54] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.3.0.tar.gz]
+[2024-05-29 14:23:54] INFO root fetch - main [MainThread]: End processing [plyball]: success
+[2024-05-29 14:23:54] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.8.tar.gz]
+[2024-05-29 14:23:54] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.9.tar.gz]
+[2024-05-29 14:23:54] INFO root fetch - main [MainThread]: End processing [ecodev-core]: success
+[2024-05-29 14:23:54] INFO root fetch - processPackages [oarepo-model-builder-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-requests-4.0.8.tar.gz]
+[2024-05-29 14:23:54] INFO root fetch - processPackages [oarepo-model-builder-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-requests-4.0.9.tar.gz]
+[2024-05-29 14:23:54] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-requests]: success
+[2024-05-29 14:23:54] INFO root fetch - main [MainThread]: Store serial: [23429513]
