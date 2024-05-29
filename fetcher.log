@@ -7792,3 +7792,57 @@
 [2024-05-29 04:29:22] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240528194753.tar.gz]
 [2024-05-29 04:29:22] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-29 04:29:22] INFO root fetch - main [MainThread]: Store serial: [23423245]
+[2024-05-29 04:31:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423245]
+[2024-05-29 04:31:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 04:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: holamundoplayer20
+[2024-05-29 04:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-background-extractor
+[2024-05-29 04:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-alpaca-daily-losers
+[2024-05-29 04:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: humanloop
+[2024-05-29 04:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: freeze-dried-data
+[2024-05-29 04:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: capdata
+[2024-05-29 04:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: loe-simp-app-fw
+[2024-05-29 04:31:31] WARNING root fetch - processPackages [capdata]: Skipping, unable to determine old version
+[2024-05-29 04:31:31] INFO root fetch - main [MainThread]: End processing [capdata] error
+[2024-05-29 04:31:31] INFO root fetch - processPackages [py-alpaca-daily-losers]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-29 04:31:31] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-29 04:31:31] INFO root fetch - processPackages [freeze-dried-data]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-29 04:31:31] WARNING root fetch - processPackages [holamundoplayer20]: Skipping, unable to determine old version
+[2024-05-29 04:31:31] INFO root fetch - main [MainThread]: End processing [holamundoplayer20] error
+[2024-05-29 04:31:31] INFO root fetch - processPackages [video-background-extractor]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-29 04:31:31] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/e5/12/6c773d0336b3dff09182c58d843194362adfae0e35af0080967afd9952b2/py_alpaca_daily_losers-0.3.1.tar.gz
+[2024-05-29 04:31:31] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/08/d4/14554279238d352f7bf2613a48f269e722236ab7a4f4685f660417c00ae4/freeze_dried_data-2.2.1.tar.gz
+[2024-05-29 04:31:31] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/21/da/6771ce88e2f369e028207ac0ca259b4e7839b742cb4e939ba1fa8d364a21/loe_simp_app_fw-1.5.1.tar.gz
+[2024-05-29 04:31:31] INFO root fetch - processPackages [humanloop]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-29 04:31:31] INFO root fetch - processPackages [video-background-extractor]: Downloading https://files.pythonhosted.org/packages/f5/f3/1d32657dbac66ed7d5ea2f3754c45147fb9a66a4d5a5b5c53a44c655f046/video_background_extractor-1.1.2-py3-none-any.whl
+[2024-05-29 04:31:31] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/e4/e8/ee2dba1c5308332b7ec875cf81493936f56881c2b18c79bae958b6dce613/freeze_dried_data-2.2.2.tar.gz
+[2024-05-29 04:31:31] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/98/3a/5e3cb1c41b9099c53c6f6d4f43da85b326d76653623d96226c6dd6a80835/py_alpaca_daily_losers-0.3.2.tar.gz
+[2024-05-29 04:31:31] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f3/0f/6563d7ec6757564521491230927d66f8f32f7eede6f247c15caa702aeddd/humanloop-0.7.8.tar.gz
+[2024-05-29 04:31:31] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/5e/26/e642b3ee5bb53785810c15b02b42f6b7ecb98a7192b35c87a80c3ca339d7/loe_simp_app_fw-1.5.2.tar.gz
+[2024-05-29 04:31:31] INFO root fetch - processPackages [video-background-extractor]: Downloading https://files.pythonhosted.org/packages/90/35/eb8f8bac2c8f94e1025b983d77e1c80e9d7128ea5ce258d842d4bdbb1a1c/video_background_extractor-1.2.0-py3-none-any.whl
+[2024-05-29 04:31:31] INFO root fetch - processPackages [py-alpaca-daily-losers]: executing diffoscope
+[2024-05-29 04:31:31] INFO root fetch - processPackages [py-alpaca-daily-losers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_daily_losers-0.3.1.tar.gz tmp/py_alpaca_daily_losers-0.3.2.tar.gz --markdown 20240529/p/py-alpaca-daily-losers/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-29 04:31:31] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-05-29 04:31:31] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.5.1.tar.gz tmp/loe_simp_app_fw-1.5.2.tar.gz --markdown 20240529/l/loe-simp-app-fw/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-29 04:31:31] INFO root fetch - processPackages [freeze-dried-data]: executing diffoscope
+[2024-05-29 04:31:31] INFO root fetch - processPackages [freeze-dried-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeze_dried_data-2.2.1.tar.gz tmp/freeze_dried_data-2.2.2.tar.gz --markdown 20240529/f/freeze-dried-data/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-29 04:31:31] INFO root fetch - processPackages [video-background-extractor]: executing diffoscope
+[2024-05-29 04:31:31] INFO root fetch - processPackages [video-background-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_background_extractor-1.1.2-py3-none-any.whl.zip tmp/video_background_extractor-1.2.0-py3-none-any.whl.zip --markdown 20240529/v/video-background-extractor/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-29 04:31:32] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/42/49/2e50db62f54004990b08a1ec75901635bb6ce90d3f84155b1af3de5c750f/humanloop-0.7.9.tar.gz
+[2024-05-29 04:31:32] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2024-05-29 04:31:32] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.7.8.tar.gz tmp/humanloop-0.7.9.tar.gz --markdown 20240529/h/humanloop/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-29 04:31:32] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.5.1.tar.gz]
+[2024-05-29 04:31:32] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.5.2.tar.gz]
+[2024-05-29 04:31:32] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-05-29 04:31:32] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-0.3.1.tar.gz]
+[2024-05-29 04:31:32] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-0.3.2.tar.gz]
+[2024-05-29 04:31:32] INFO root fetch - main [MainThread]: End processing [py-alpaca-daily-losers]: success
+[2024-05-29 04:31:32] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.2.1.tar.gz]
+[2024-05-29 04:31:32] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.2.2.tar.gz]
+[2024-05-29 04:31:32] INFO root fetch - main [MainThread]: End processing [freeze-dried-data]: success
+[2024-05-29 04:31:32] INFO root fetch - processPackages [video-background-extractor]: Remove: archive file [/home/abi/fetcher/tmp/video_background_extractor-1.1.2-py3-none-any.whl.zip]
+[2024-05-29 04:31:32] INFO root fetch - processPackages [video-background-extractor]: Remove: archive file [/home/abi/fetcher/tmp/video_background_extractor-1.2.0-py3-none-any.whl.zip]
+[2024-05-29 04:31:32] INFO root fetch - main [MainThread]: End processing [video-background-extractor]: success
+[2024-05-29 04:31:36] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.8.tar.gz]
+[2024-05-29 04:31:36] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
+[2024-05-29 04:31:36] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2024-05-29 04:31:36] INFO root fetch - main [MainThread]: Store serial: [23423267]
