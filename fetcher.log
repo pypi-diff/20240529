@@ -20420,3 +20420,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:39:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
 [2024-05-29 13:39:02] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
 [2024-05-29 13:39:02] INFO root fetch - main [MainThread]: Store serial: [23428949]
+[2024-05-29 13:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428949]
+[2024-05-29 13:41:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bronkhorstControlbm31
+[2024-05-29 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-batch-21
+[2024-05-29 13:41:11] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: New version: [2.5.0b20240529] Old Version: [2.5.0b20240528]
+[2024-05-29 13:41:11] WARNING root fetch - processPackages [bronkhorstControlbm31]: Skipping, unable to determine old version
+[2024-05-29 13:41:11] INFO root fetch - main [MainThread]: End processing [bronkhorstControlbm31] error
+[2024-05-29 13:41:11] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: Downloading https://files.pythonhosted.org/packages/36/ef/816a6b2d6bbe389eb7436ac0846952342cb7206f1b75b641543fdba99b11/bigdl_core_xe_batch_21-2.5.0b20240528-cp39-cp39-win_amd64.whl
+[2024-05-29 13:41:14] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: Downloading https://files.pythonhosted.org/packages/46/c2/ee80d6dfee4397b97df37ef986656df0f63f46d2daac9cb6ea7a40f4c203/bigdl_core_xe_batch_21-2.5.0b20240529-cp310-cp310-manylinux2010_x86_64.whl
+[2024-05-29 13:41:14] WARNING root fetch - processPackages [bigdl-core-xe-batch-21]: Skipping package: exceeds size limit 79513666>=10485760
+[2024-05-29 13:41:14] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-batch-21] error
+[2024-05-29 13:41:14] INFO root fetch - main [MainThread]: Store serial: [23428957]
