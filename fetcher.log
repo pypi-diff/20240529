@@ -20092,3 +20092,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:23:44] INFO root fetch - processPackages [pynrw]: Remove: archive file [/home/abi/fetcher/tmp/pynrw-1.5.0.tar.gz]
 [2024-05-29 13:23:44] INFO root fetch - main [MainThread]: End processing [pynrw]: success
 [2024-05-29 13:23:44] INFO root fetch - main [MainThread]: Store serial: [23428808]
+[2024-05-29 13:25:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428808]
+[2024-05-29 13:25:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tftui
+[2024-05-29 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turboctl
+[2024-05-29 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sciobject
+[2024-05-29 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trust-plutus-namematch
+[2024-05-29 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chellow
+[2024-05-29 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cciutils
+[2024-05-29 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fairbalance
+[2024-05-29 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: consoil
+[2024-05-29 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchrl-nightly
+[2024-05-29 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edwh-auth-rbac
+[2024-05-29 13:25:53] INFO root fetch - processPackages [turboctl]: New version: [1.1.1.dev5] Old Version: [1.1.1.dev4]
+[2024-05-29 13:25:53] INFO root fetch - processPackages [edwh-auth-rbac]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-29 13:25:53] INFO root fetch - processPackages [fairbalance]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-29 13:25:53] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-05-29 13:25:53] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-05-29 13:25:54] INFO root fetch - processPackages [tftui]: New version: [0.9] Old Version: [0.8]
+[2024-05-29 13:25:54] WARNING root fetch - processPackages [consoil]: Skipping, unable to determine old version
+[2024-05-29 13:25:54] INFO root fetch - main [MainThread]: End processing [consoil] error
+[2024-05-29 13:25:54] INFO root fetch - processPackages [trust-plutus-namematch]: New version: [2] Old Version: [1]
+[2024-05-29 13:25:54] WARNING root fetch - processPackages [sciobject]: Skipping, unable to determine old version
+[2024-05-29 13:25:54] INFO root fetch - main [MainThread]: End processing [sciobject] error
+[2024-05-29 13:25:54] INFO root fetch - processPackages [turboctl]: Downloading https://files.pythonhosted.org/packages/aa/5f/3e6a3e0d387d3cea1ac108b767d281a42de176d9c6ade46664212d90969c/turboctl-1.1.1.dev4.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [fairbalance]: Downloading https://files.pythonhosted.org/packages/36/fb/b25648ca95119d297c023146a00af40a4731f7a69aa1d2f6a2b04d0185b7/fairbalance-0.1.6.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/1e/5c/6635e46e877552d532491768d99b1e93ea2d9b79a768f77ac840e5682691/edwh_auth_rbac-0.2.5.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-29 13:25:54] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/07/0e/e2c47460cb0215e7aae18d4d4c18cbbe95dac793324cf3a234c6833a5c7c/tftui-0.8.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/1f/d5/a7b51687f946e4f6526a6694bfaaf4d2fb94e6d203a26beaa9c005b2dc8e/edwh_auth_rbac-0.2.6.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [turboctl]: Downloading https://files.pythonhosted.org/packages/0e/36/c0cd8e3ed712c08c5e1a3a91b6cc13d322cfec9eb9e0674b8df3601c6a6a/turboctl-1.1.1.dev5.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [fairbalance]: Downloading https://files.pythonhosted.org/packages/a4/60/4c2466fc977981a8ad4457a60ab781ae4f4ae7cb11f3b7d48fc29ba840a7/fairbalance-0.1.7.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/dc/af/7849e66816b0987897e2937fe14d3524b386f750c928a1c7107a5feae088/trust_plutus_namematch-1.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/6d/9461214af24f1d24305421c7f45896fa740108e193fceb8f3145648e07e2/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-29 13:25:54] INFO root fetch - processPackages [edwh-auth-rbac]: executing diffoscope
+[2024-05-29 13:25:54] INFO root fetch - processPackages [edwh-auth-rbac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_auth_rbac-0.2.5.tar.gz tmp/edwh_auth_rbac-0.2.6.tar.gz --markdown 20240529/e/edwh-auth-rbac/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-29 13:25:54] INFO root fetch - processPackages [fairbalance]: executing diffoscope
+[2024-05-29 13:25:54] INFO root fetch - processPackages [fairbalance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbalance-0.1.6.tar.gz tmp/fairbalance-0.1.7.tar.gz --markdown 20240529/f/fairbalance/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-29 13:25:54] INFO root fetch - processPackages [turboctl]: executing diffoscope
+[2024-05-29 13:25:54] INFO root fetch - processPackages [turboctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turboctl-1.1.1.dev4.tar.gz tmp/turboctl-1.1.1.dev5.tar.gz --markdown 20240529/t/turboctl/1.1.1.dev4-1.1.1.dev5/README.md --exclude *.pyd
+[2024-05-29 13:25:54] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-05-29 13:25:54] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240529/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-05-29 13:25:54] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/fb/f4/6132cfd40b797a6f137e46a9b1c148912acbaf7c522f20c755d1a193ddbb/tftui-0.9.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-05-29 13:25:54] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240529/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-05-29 13:25:54] INFO root fetch - processPackages [tftui]: executing diffoscope
+[2024-05-29 13:25:54] INFO root fetch - processPackages [tftui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tftui-0.8.tar.gz tmp/tftui-0.9.tar.gz --markdown 20240529/t/tftui/0.8-0.9/README.md --exclude *.pyd
+[2024-05-29 13:25:54] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/94/eb/045efc4241cea0929a7380d6479b6fe725ebba921f59fd35e46f08c13ef5/trust_plutus_namematch-2.tar.gz
+[2024-05-29 13:25:54] INFO root fetch - processPackages [trust-plutus-namematch]: executing diffoscope
+[2024-05-29 13:25:54] INFO root fetch - processPackages [trust-plutus-namematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trust_plutus_namematch-1.tar.gz tmp/trust_plutus_namematch-2.tar.gz --markdown 20240529/t/trust-plutus-namematch/1-2/README.md --exclude *.pyd
+[2024-05-29 13:25:54] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e4/1d21a71adb0d6367cd81a5f47617cabf90f99ac96a421dda991f6aeefff2/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-29 13:25:55] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-29 13:25:55] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240529/t/torchrl-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-29 13:25:55] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-05-29 13:25:55] INFO root fetch - processPackages [turboctl]: Remove: archive file [/home/abi/fetcher/tmp/turboctl-1.1.1.dev4.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - processPackages [turboctl]: Remove: archive file [/home/abi/fetcher/tmp/turboctl-1.1.1.dev5.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - main [MainThread]: End processing [turboctl]: success
+[2024-05-29 13:25:55] INFO root fetch - processPackages [fairbalance]: Remove: archive file [/home/abi/fetcher/tmp/fairbalance-0.1.6.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - processPackages [fairbalance]: Remove: archive file [/home/abi/fetcher/tmp/fairbalance-0.1.7.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - main [MainThread]: End processing [fairbalance]: success
+[2024-05-29 13:25:55] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.8.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.9.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - main [MainThread]: End processing [tftui]: success
+[2024-05-29 13:25:55] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.2.5.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.2.6.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - main [MainThread]: End processing [edwh-auth-rbac]: success
+[2024-05-29 13:25:55] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-1.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-2.tar.gz]
+[2024-05-29 13:25:55] INFO root fetch - main [MainThread]: End processing [trust-plutus-namematch]: success
+[2024-05-29 13:25:56] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 13:25:56] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 13:25:56] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-29 13:25:56] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-05-29 13:25:56] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-05-29 13:25:56] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-05-29 13:25:56] INFO root fetch - main [MainThread]: Store serial: [23428846]
