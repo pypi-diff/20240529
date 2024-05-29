@@ -22718,3 +22718,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:00:11] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.94.2.tar.gz]
 [2024-05-29 15:00:11] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2024-05-29 15:00:11] INFO root fetch - main [MainThread]: Store serial: [23430037]
+[2024-05-29 15:02:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430037]
+[2024-05-29 15:02:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 15:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-05-29 15:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-ditto
+[2024-05-29 15:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anon-traffic
+[2024-05-29 15:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anon-traffic
+[2024-05-29 15:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vunnel
+[2024-05-29 15:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: valmi-connector-lib
+[2024-05-29 15:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvchecker
+[2024-05-29 15:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bml-ocr
+[2024-05-29 15:02:20] WARNING root fetch - processPackages [anon-traffic]: Skipping, unable to determine old version
+[2024-05-29 15:02:20] INFO root fetch - main [MainThread]: End processing [anon-traffic] error
+[2024-05-29 15:02:20] INFO root fetch - processPackages [nvchecker]: New version: [2.9] Old Version: [2.8.post1]
+[2024-05-29 15:02:20] INFO root fetch - processPackages [pytest-ditto]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-29 15:02:20] WARNING root fetch - processPackages [anon-traffic]: Skipping, unable to determine old version
+[2024-05-29 15:02:20] INFO root fetch - main [MainThread]: End processing [anon-traffic] error
+[2024-05-29 15:02:20] WARNING root fetch - processPackages [bml-ocr]: Skipping, unable to determine old version
+[2024-05-29 15:02:20] INFO root fetch - main [MainThread]: End processing [bml-ocr] error
+[2024-05-29 15:02:20] INFO root fetch - processPackages [pytest-ditto]: Downloading https://files.pythonhosted.org/packages/b2/f9/8a812c1d46dfb4adbbbec9133a2faab6fbd2f39aafb4ffb778995fd5a059/pytest_ditto-0.0.3.tar.gz
+[2024-05-29 15:02:20] INFO root fetch - processPackages [vunnel]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-29 15:02:20] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240529130016] Old Version: [3.4.1.dev20240529092926]
+[2024-05-29 15:02:20] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-29 15:02:21] INFO root fetch - processPackages [nvchecker]: Downloading https://files.pythonhosted.org/packages/7a/c0/61b7c2dab2e9d3526d8542ccab27577cf82fa5c4534ce661740dd2670beb/nvchecker-2.8.post1.tar.gz
+[2024-05-29 15:02:21] INFO root fetch - processPackages [pytest-ditto]: Downloading https://files.pythonhosted.org/packages/8e/dc/4446e1c5e758e459813fa78b044b1f01e0071dea7f3a4558af52cb6a4722/pytest_ditto-0.1.0.tar.gz
+[2024-05-29 15:02:21] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/14/4b/0cd0b2affb7b611b32b7024a8016fca7d32db37679e199924c9d8ee241be/localstack_core-3.4.1.dev20240529092926.tar.gz
+[2024-05-29 15:02:21] INFO root fetch - processPackages [vunnel]: Downloading https://files.pythonhosted.org/packages/f6/6a/85f266b939729e0527c20e7f0d1d4bdb18f43de4df5e4de358517863b381/vunnel-0.8.1.tar.gz
+[2024-05-29 15:02:21] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-05-29 15:02:21] INFO root fetch - processPackages [pytest-ditto]: executing diffoscope
+[2024-05-29 15:02:21] INFO root fetch - processPackages [pytest-ditto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_ditto-0.0.3.tar.gz tmp/pytest_ditto-0.1.0.tar.gz --markdown 20240529/p/pytest-ditto/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-29 15:02:21] INFO root fetch - processPackages [nvchecker]: Downloading https://files.pythonhosted.org/packages/c2/71/13c7c02602489b6187aca3bf833f577afc1e10501a3b394f8de5cf4f6ccb/nvchecker-2.9.tar.gz
+[2024-05-29 15:02:21] INFO root fetch - processPackages [nvchecker]: executing diffoscope
+[2024-05-29 15:02:21] INFO root fetch - processPackages [nvchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvchecker-2.8.post1.tar.gz tmp/nvchecker-2.9.tar.gz --markdown 20240529/n/nvchecker/2.8.post1-2.9/README.md --exclude *.pyd
+[2024-05-29 15:02:21] INFO root fetch - processPackages [vunnel]: Downloading https://files.pythonhosted.org/packages/28/00/513fd11c9a1cce9d061a9d193f4a8185a9d477a88073e4bb693a5516e783/vunnel-0.9.0.tar.gz
+[2024-05-29 15:02:21] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/6c/f8/fd60c6e92a214138c8cf914a7f65141fdcecddf87d3da880c043e41c39b7/localstack_core-3.4.1.dev20240529130016.tar.gz
+[2024-05-29 15:02:21] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-05-29 15:02:21] INFO root fetch - processPackages [vunnel]: executing diffoscope
+[2024-05-29 15:02:21] INFO root fetch - processPackages [vunnel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vunnel-0.8.1.tar.gz tmp/vunnel-0.9.0.tar.gz --markdown 20240529/v/vunnel/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-29 15:02:21] INFO root fetch - processPackages [pytest-ditto]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ditto-0.0.3.tar.gz]
+[2024-05-29 15:02:21] INFO root fetch - processPackages [pytest-ditto]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ditto-0.1.0.tar.gz]
+[2024-05-29 15:02:21] INFO root fetch - main [MainThread]: End processing [pytest-ditto]: success
+[2024-05-29 15:02:21] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-29 15:02:21] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240529092926.tar.gz tmp/localstack_core-3.4.1.dev20240529130016.tar.gz --markdown 20240529/l/localstack-core/3.4.1.dev20240529092926-3.4.1.dev20240529130016/README.md --exclude *.pyd
+[2024-05-29 15:02:21] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-05-29 15:02:21] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240529/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-29 15:02:22] INFO root fetch - processPackages [nvchecker]: Remove: archive file [/home/abi/fetcher/tmp/nvchecker-2.8.post1.tar.gz]
+[2024-05-29 15:02:22] INFO root fetch - processPackages [nvchecker]: Remove: archive file [/home/abi/fetcher/tmp/nvchecker-2.9.tar.gz]
+[2024-05-29 15:02:22] INFO root fetch - main [MainThread]: End processing [nvchecker]: success
+[2024-05-29 15:02:22] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-05-29 15:02:22] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-05-29 15:02:22] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-05-29 15:02:22] INFO root fetch - processPackages [vunnel]: Remove: archive file [/home/abi/fetcher/tmp/vunnel-0.8.1.tar.gz]
+[2024-05-29 15:02:22] INFO root fetch - processPackages [vunnel]: Remove: archive file [/home/abi/fetcher/tmp/vunnel-0.9.0.tar.gz]
+[2024-05-29 15:02:22] INFO root fetch - main [MainThread]: End processing [vunnel]: success
+[2024-05-29 15:02:25] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240529092926.tar.gz]
+[2024-05-29 15:02:25] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240529130016.tar.gz]
+[2024-05-29 15:02:25] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-29 15:02:25] INFO root fetch - main [MainThread]: Store serial: [23430064]
