@@ -22056,3 +22056,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:39:29] INFO root fetch - processPackages [DiffeRT]: Remove: archive file [/home/abi/fetcher/tmp/DiffeRT-0.0.9.tar.gz]
 [2024-05-29 14:39:29] INFO root fetch - main [MainThread]: End processing [DiffeRT]: success
 [2024-05-29 14:39:29] INFO root fetch - main [MainThread]: Store serial: [23429724]
+[2024-05-29 14:41:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429724]
+[2024-05-29 14:41:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pldag
+[2024-05-29 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jmpy4
+[2024-05-29 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decaylanguage
+[2024-05-29 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-object-acl
+[2024-05-29 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorcircuit-nightly
+[2024-05-29 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gs2-cdk
+[2024-05-29 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pallas2016
+[2024-05-29 14:41:38] WARNING root fetch - processPackages [jmpy4]: Skipping, unable to determine old version
+[2024-05-29 14:41:38] INFO root fetch - main [MainThread]: End processing [jmpy4] error
+[2024-05-29 14:41:38] INFO root fetch - processPackages [pldag]: New version: [0.8.51] Old Version: [0.8.5]
+[2024-05-29 14:41:38] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-05-29 14:41:38] INFO root fetch - processPackages [decaylanguage]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 14:41:38] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/75/4a/066fa5e50b9d5f8efd01d94175c7e731e34147c48b58a7e35b738822f5c9/pldag-0.8.5.tar.gz
+[2024-05-29 14:41:38] INFO root fetch - processPackages [pallas2016]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-29 14:41:38] WARNING root fetch - processPackages [django-object-acl]: Skipping, unable to determine old version
+[2024-05-29 14:41:38] INFO root fetch - main [MainThread]: End processing [django-object-acl] error
+[2024-05-29 14:41:38] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-05-29 14:41:38] INFO root fetch - processPackages [gs2-cdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 14:41:39] INFO root fetch - processPackages [decaylanguage]: Downloading https://files.pythonhosted.org/packages/d0/e8/fb060b124b16118c5514f0c64d98991721a1a9424965f5bd62ca7d6521b3/DecayLanguage-0.9.0.tar.gz
+[2024-05-29 14:41:39] INFO root fetch - processPackages [pallas2016]: Downloading https://files.pythonhosted.org/packages/b4/e5/51bbb259766aee3344ec759650e7aad3a969f8d7d2e73c284cd530e9c416/pallas2016-1.0.0.tar.gz
+[2024-05-29 14:41:39] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/e3/aa/0f163edc9bc64614a93358063b9233d886f8c00044a4ce8276f11777827e/gs2-cdk-1.0.8.tar.gz
+[2024-05-29 14:41:39] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-05-29 14:41:39] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/fb/db/14cfe38cf8d0e9f95074716cec9e7bd6ef4ce673a73187c9c07184ce5cb1/pldag-0.8.51.tar.gz
+[2024-05-29 14:41:39] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-05-29 14:41:39] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.8.5.tar.gz tmp/pldag-0.8.51.tar.gz --markdown 20240529/p/pldag/0.8.5-0.8.51/README.md --exclude *.pyd
+[2024-05-29 14:41:39] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-05-29 14:41:39] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240529/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-05-29 14:41:39] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/29/69/56532d9a44c725ba36a6010c493491c32d238a25ff3b70b61de2bd6479ef/gs2-cdk-1.0.9.tar.gz
+[2024-05-29 14:41:39] INFO root fetch - processPackages [decaylanguage]: Downloading https://files.pythonhosted.org/packages/11/60/552491124ce5da4f9aecdb4691f14452c55edde94f70cbb3b442b49c92c2/DecayLanguage-0.9.1.tar.gz
+[2024-05-29 14:41:39] INFO root fetch - processPackages [pallas2016]: Downloading https://files.pythonhosted.org/packages/4a/28/e9f4c078124c507ce9d36bc41478ebb1ebf60eb52b7b6cf2d0155ebd4c65/pallas2016-1.1.0.tar.gz
+[2024-05-29 14:41:39] INFO root fetch - processPackages [gs2-cdk]: executing diffoscope
+[2024-05-29 14:41:39] INFO root fetch - processPackages [gs2-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-cdk-1.0.8.tar.gz tmp/gs2-cdk-1.0.9.tar.gz --markdown 20240529/g/gs2-cdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 14:41:39] INFO root fetch - processPackages [pallas2016]: executing diffoscope
+[2024-05-29 14:41:39] INFO root fetch - processPackages [pallas2016]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pallas2016-1.0.0.tar.gz tmp/pallas2016-1.1.0.tar.gz --markdown 20240529/p/pallas2016/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-29 14:41:39] INFO root fetch - processPackages [decaylanguage]: executing diffoscope
+[2024-05-29 14:41:39] INFO root fetch - processPackages [decaylanguage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DecayLanguage-0.9.0.tar.gz tmp/DecayLanguage-0.9.1.tar.gz --markdown 20240529/d/decaylanguage/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-29 14:41:39] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.5.tar.gz]
+[2024-05-29 14:41:39] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.51.tar.gz]
+[2024-05-29 14:41:39] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-05-29 14:41:40] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-05-29 14:41:40] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-05-29 14:41:40] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-05-29 14:41:40] INFO root fetch - processPackages [pallas2016]: Remove: archive file [/home/abi/fetcher/tmp/pallas2016-1.0.0.tar.gz]
+[2024-05-29 14:41:40] INFO root fetch - processPackages [pallas2016]: Remove: archive file [/home/abi/fetcher/tmp/pallas2016-1.1.0.tar.gz]
+[2024-05-29 14:41:40] INFO root fetch - main [MainThread]: End processing [pallas2016]: success
+[2024-05-29 14:41:41] INFO root fetch - processPackages [decaylanguage]: Remove: archive file [/home/abi/fetcher/tmp/DecayLanguage-0.9.0.tar.gz]
+[2024-05-29 14:41:41] INFO root fetch - processPackages [decaylanguage]: Remove: archive file [/home/abi/fetcher/tmp/DecayLanguage-0.9.1.tar.gz]
+[2024-05-29 14:41:41] INFO root fetch - main [MainThread]: End processing [decaylanguage]: success
+[2024-05-29 14:41:41] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.8.tar.gz]
+[2024-05-29 14:41:41] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.9.tar.gz]
+[2024-05-29 14:41:41] INFO root fetch - main [MainThread]: End processing [gs2-cdk]: success
+[2024-05-29 14:41:41] INFO root fetch - main [MainThread]: Store serial: [23429751]
