@@ -10299,3 +10299,48 @@
 [2024-05-29 07:05:50] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240528.1.tar.gz]
 [2024-05-29 07:05:50] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2024-05-29 07:05:50] INFO root fetch - main [MainThread]: Store serial: [23424201]
+[2024-05-29 07:07:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424201]
+[2024-05-29 07:08:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 07:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-standardized-response
+[2024-05-29 07:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kaizen-cloudcode
+[2024-05-29 07:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dselib
+[2024-05-29 07:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: afeng-py-tools
+[2024-05-29 07:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-es-vat-book-invoice-summary
+[2024-05-29 07:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nfinance
+[2024-05-29 07:08:00] INFO root fetch - processPackages [kaizen-cloudcode]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 07:08:00] WARNING root fetch - processPackages [odoo14-addon-l10n-es-vat-book-invoice-summary]: Skipping, unable to determine old version
+[2024-05-29 07:08:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-vat-book-invoice-summary] error
+[2024-05-29 07:08:00] INFO root fetch - processPackages [nfinance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-29 07:08:00] WARNING root fetch - processPackages [dselib]: Skipping, unable to determine old version
+[2024-05-29 07:08:00] INFO root fetch - main [MainThread]: End processing [dselib] error
+[2024-05-29 07:08:00] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/f1/55/f80272be3e1648104bf08d9742ea6432a688a9e6042c034220d53fe3eebe/kaizen_cloudcode-0.1.8.tar.gz
+[2024-05-29 07:08:00] INFO root fetch - processPackages [drf-standardized-response]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-29 07:08:00] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 07:08:00] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/a6/06/adbe0a9d20c0b3550d857d983da73c51099dbefa5add379e638f2b2d83e7/nfinance-0.4.8.tar.gz
+[2024-05-29 07:08:00] INFO root fetch - processPackages [drf-standardized-response]: Downloading https://files.pythonhosted.org/packages/74/9d/ee8cee195b979112c8ae0bb545daa6ccf7010bb44e2bb0bbba319b0868de/drf_standardized_response-1.1.1.tar.gz
+[2024-05-29 07:08:01] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/e4/d9/2c4a647ea9b29da3866ad33e2f70daddb22b06068d121a2e48e92d9a5b18/kaizen_cloudcode-0.1.9.tar.gz
+[2024-05-29 07:08:01] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-29 07:08:01] INFO root fetch - processPackages [kaizen-cloudcode]: executing diffoscope
+[2024-05-29 07:08:01] INFO root fetch - processPackages [kaizen-cloudcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaizen_cloudcode-0.1.8.tar.gz tmp/kaizen_cloudcode-0.1.9.tar.gz --markdown 20240529/k/kaizen-cloudcode/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 07:08:01] INFO root fetch - processPackages [drf-standardized-response]: Downloading https://files.pythonhosted.org/packages/49/a1/4651bdbd46e0cfdadc84f8383d11d0e289a60512b59fc8b8adb4527a22a8/drf_standardized_response-1.1.2.tar.gz
+[2024-05-29 07:08:01] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/34/6b/46ec181950d083608bf8cca8b3597d33fa9138974ed300ac6413a7cc5a17/nfinance-0.4.9.tar.gz
+[2024-05-29 07:08:01] INFO root fetch - processPackages [drf-standardized-response]: executing diffoscope
+[2024-05-29 07:08:01] INFO root fetch - processPackages [drf-standardized-response]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_standardized_response-1.1.1.tar.gz tmp/drf_standardized_response-1.1.2.tar.gz --markdown 20240529/d/drf-standardized-response/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-29 07:08:01] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-05-29 07:08:01] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.4.8.tar.gz tmp/nfinance-0.4.9.tar.gz --markdown 20240529/n/nfinance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-29 07:08:01] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-29 07:08:01] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-29 07:08:01] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240529/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 07:08:01] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.8.tar.gz]
+[2024-05-29 07:08:01] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.9.tar.gz]
+[2024-05-29 07:08:01] INFO root fetch - main [MainThread]: End processing [kaizen-cloudcode]: success
+[2024-05-29 07:08:01] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.8.tar.gz]
+[2024-05-29 07:08:01] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.9.tar.gz]
+[2024-05-29 07:08:01] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-05-29 07:08:02] INFO root fetch - processPackages [drf-standardized-response]: Remove: archive file [/home/abi/fetcher/tmp/drf_standardized_response-1.1.1.tar.gz]
+[2024-05-29 07:08:02] INFO root fetch - processPackages [drf-standardized-response]: Remove: archive file [/home/abi/fetcher/tmp/drf_standardized_response-1.1.2.tar.gz]
+[2024-05-29 07:08:02] INFO root fetch - main [MainThread]: End processing [drf-standardized-response]: success
+[2024-05-29 07:08:02] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-29 07:08:02] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-29 07:08:02] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-29 07:08:02] INFO root fetch - main [MainThread]: Store serial: [23424222]
