@@ -3296,3 +3296,42 @@
 [2024-05-29 03:07:45] INFO root fetch - processPackages [annofabapi]: Remove: archive file [/home/abi/fetcher/tmp/annofabapi-0.9.1.tar.gz]
 [2024-05-29 03:07:45] INFO root fetch - main [MainThread]: End processing [annofabapi]: success
 [2024-05-29 03:07:45] INFO root fetch - main [MainThread]: Store serial: [23421593]
+[2024-05-29 03:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421593]
+[2024-05-29 03:09:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 03:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erp-apis-temp
+[2024-05-29 03:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: askvideos
+[2024-05-29 03:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neurocaps
+[2024-05-29 03:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CtqKit
+[2024-05-29 03:09:53] INFO root fetch - processPackages [askvideos]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 03:09:53] INFO root fetch - processPackages [CtqKit]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-29 03:09:53] INFO root fetch - processPackages [neurocaps]: New version: [0.9.4.post1] Old Version: [0.9.4]
+[2024-05-29 03:09:53] INFO root fetch - processPackages [erp-apis-temp]: New version: [1.0.20] Old Version: [1.0.19]
+[2024-05-29 03:09:54] INFO root fetch - processPackages [askvideos]: Downloading https://files.pythonhosted.org/packages/26/08/f9cff87b8d48d1296cbe5e7d3aea9ce4f9583abdf0726f58e74a9606238e/askvideos-0.1.0.tar.gz
+[2024-05-29 03:09:54] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/d2/1c/f9518135e26a34f48310e3ec202c34aa7afe071c1d319fabc026254eb092/neurocaps-0.9.4.tar.gz
+[2024-05-29 03:09:54] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/93/c8/6155e0c1475c71b2458fc0e1522068baaa645f3cece89d45df1ce44574dc/ctqkit-0.1.7.tar.gz
+[2024-05-29 03:09:54] INFO root fetch - processPackages [erp-apis-temp]: Downloading https://files.pythonhosted.org/packages/66/b1/d5e38cb4ccebc0b5f12d0d8aae24605f8e77fa1cd2ba349806c148f9aa7a/erp_apis_temp-1.0.19-py3-none-any.whl
+[2024-05-29 03:09:54] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/a3/07/64329c13d71f7dc368bbf293885cacbbc61d2a7ce0b6b6b1aa648f81af2e/neurocaps-0.9.4.post1.tar.gz
+[2024-05-29 03:09:54] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/0e/ae/051ab50a97085ad7f203b4e4b8af0f64d6e314f43c3f679fe3fa0364c9a2/ctqkit-0.1.8.tar.gz
+[2024-05-29 03:09:54] INFO root fetch - processPackages [erp-apis-temp]: Downloading https://files.pythonhosted.org/packages/ea/a5/6f4106415b0ec2a8e748c3874290107a84ffaae0fe5f0f0f2934ac443efe/erp_apis_temp-1.0.20-py3-none-any.whl
+[2024-05-29 03:09:54] INFO root fetch - processPackages [askvideos]: Downloading https://files.pythonhosted.org/packages/62/ec/bf69e5040fecfaddabce73fe0f746b9745be01659b98e7bd467679bb5945/askvideos-0.1.1.tar.gz
+[2024-05-29 03:09:54] INFO root fetch - processPackages [erp-apis-temp]: executing diffoscope
+[2024-05-29 03:09:54] INFO root fetch - processPackages [erp-apis-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis_temp-1.0.19-py3-none-any.whl.zip tmp/erp_apis_temp-1.0.20-py3-none-any.whl.zip --markdown 20240529/e/erp-apis-temp/1.0.19-1.0.20/README.md --exclude *.pyd
+[2024-05-29 03:09:54] INFO root fetch - processPackages [neurocaps]: executing diffoscope
+[2024-05-29 03:09:54] INFO root fetch - processPackages [neurocaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurocaps-0.9.4.tar.gz tmp/neurocaps-0.9.4.post1.tar.gz --markdown 20240529/n/neurocaps/0.9.4-0.9.4.post1/README.md --exclude *.pyd
+[2024-05-29 03:09:54] INFO root fetch - processPackages [CtqKit]: executing diffoscope
+[2024-05-29 03:09:54] INFO root fetch - processPackages [CtqKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctqkit-0.1.7.tar.gz tmp/ctqkit-0.1.8.tar.gz --markdown 20240529/C/CtqKit/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-29 03:09:54] INFO root fetch - processPackages [askvideos]: executing diffoscope
+[2024-05-29 03:09:54] INFO root fetch - processPackages [askvideos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askvideos-0.1.0.tar.gz tmp/askvideos-0.1.1.tar.gz --markdown 20240529/a/askvideos/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 03:09:55] INFO root fetch - processPackages [askvideos]: Remove: archive file [/home/abi/fetcher/tmp/askvideos-0.1.0.tar.gz]
+[2024-05-29 03:09:55] INFO root fetch - processPackages [askvideos]: Remove: archive file [/home/abi/fetcher/tmp/askvideos-0.1.1.tar.gz]
+[2024-05-29 03:09:55] INFO root fetch - main [MainThread]: End processing [askvideos]: success
+[2024-05-29 03:09:55] INFO root fetch - processPackages [erp-apis-temp]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis_temp-1.0.19-py3-none-any.whl.zip]
+[2024-05-29 03:09:55] INFO root fetch - processPackages [erp-apis-temp]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis_temp-1.0.20-py3-none-any.whl.zip]
+[2024-05-29 03:09:55] INFO root fetch - main [MainThread]: End processing [erp-apis-temp]: success
+[2024-05-29 03:09:55] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.7.tar.gz]
+[2024-05-29 03:09:55] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.8.tar.gz]
+[2024-05-29 03:09:55] INFO root fetch - main [MainThread]: End processing [CtqKit]: success
+[2024-05-29 03:09:55] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.4.tar.gz]
+[2024-05-29 03:09:55] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.4.post1.tar.gz]
+[2024-05-29 03:09:55] INFO root fetch - main [MainThread]: End processing [neurocaps]: success
+[2024-05-29 03:09:55] INFO root fetch - main [MainThread]: Store serial: [23421604]
