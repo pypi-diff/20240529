@@ -22371,3 +22371,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:50:29] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-29 14:50:29] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-29 14:50:29] INFO root fetch - main [MainThread]: Store serial: [23429906]
+[2024-05-29 14:52:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429906]
+[2024-05-29 14:52:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-29 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: setech
+[2024-05-29 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anon-traffic
+[2024-05-29 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws-native
+[2024-05-29 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mistral-common
+[2024-05-29 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rerun-sdk
+[2024-05-29 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agptools
+[2024-05-29 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pagegen
+[2024-05-29 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iati-sphinx-theme
+[2024-05-29 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clear-skies-aws
+[2024-05-29 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-af
+[2024-05-29 14:52:39] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 14:52:39] INFO root fetch - processPackages [dbt-af]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-29 14:52:39] INFO root fetch - processPackages [rerun-sdk]: New version: [0.9.1rc4] Old Version: [0.9.1rc3]
+[2024-05-29 14:52:39] WARNING root fetch - processPackages [anon-traffic]: Skipping, unable to determine old version
+[2024-05-29 14:52:39] INFO root fetch - processPackages [anon-traffic]: Start processing: clear-skies
+[2024-05-29 14:52:39] INFO root fetch - main [MainThread]: End processing [anon-traffic] error
+[2024-05-29 14:52:39] INFO root fetch - processPackages [setech]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-29 14:52:39] INFO root fetch - processPackages [pagegen]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-29 14:52:39] WARNING root fetch - processPackages [iati-sphinx-theme]: Skipping, unable to determine old version
+[2024-05-29 14:52:39] INFO root fetch - processPackages [iati-sphinx-theme]: Start processing: poni2006
+[2024-05-29 14:52:39] INFO root fetch - main [MainThread]: End processing [iati-sphinx-theme] error
+[2024-05-29 14:52:39] INFO root fetch - processPackages [mistral-common]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-29 14:52:39] INFO root fetch - processPackages [clear-skies-aws]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-29 14:52:39] INFO root fetch - processPackages [dbt-af]: Downloading https://files.pythonhosted.org/packages/c4/25/7316f97401fbab8341844c10ca644c1ca899f56679e8c2217d4d0ddf8ed1/dbt_af-0.4.3.tar.gz
+[2024-05-29 14:52:39] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-29 14:52:39] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-29 14:52:39] INFO root fetch - processPackages [rerun-sdk]: Downloading https://files.pythonhosted.org/packages/d1/e1/b91b14b05fd2b89460faeff3f73002a52c230fe72d4ba52093856793107e/rerun_sdk-0.9.1rc3-cp38-abi3-win_amd64.whl
+[2024-05-29 14:52:39] WARNING root fetch - processPackages [rerun-sdk]: Skipping package: exceeds size limit 23779013>=10485760
+[2024-05-29 14:52:39] INFO root fetch - main [MainThread]: End processing [rerun-sdk] error
+[2024-05-29 14:52:39] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2024-05-29 14:52:39] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-29 14:52:39] INFO root fetch - processPackages [poni2006]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-29 14:52:40] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/2e/38/31e0c5e3246ec2002bd1302abbe75d2e720cc53130061af7aff809aa2692/setech-1.3.3.tar.gz
+[2024-05-29 14:52:40] INFO root fetch - processPackages [pagegen]: Downloading https://files.pythonhosted.org/packages/46/d5/39ebc46b611a83678a610663875351ecc4f03aca864f37b1cdf881095d46/pagegen-3.9.1-py3-none-any.whl
+[2024-05-29 14:52:40] INFO root fetch - processPackages [mistral-common]: Downloading https://files.pythonhosted.org/packages/33/36/1a690b58d7b6d53f9c1990540505ffd9090eb4a4231ecaf75f31d14ea5b7/mistral_common-1.1.0.tar.gz
+[2024-05-29 14:52:40] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-29 14:52:40] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/46/d9/c1521b6471e0de705bbd5db3a714156622c0fd7703932be7d42fe2b17877/clear_skies_aws-1.9.1.tar.gz
+[2024-05-29 14:52:40] INFO root fetch - processPackages [dbt-af]: Downloading https://files.pythonhosted.org/packages/a7/93/47f0c0b14b317b22732d55dba11ac0f719c48649eece95cccc70f4d142e3/dbt_af-0.5.0.tar.gz
+[2024-05-29 14:52:40] INFO root fetch - processPackages [poni2006]: Downloading https://files.pythonhosted.org/packages/4a/b8/0ef6ecb57336cc1b74163166e34b11989adfc605873050b5350f909814bc/poni2006-1.1.0.tar.gz
+[2024-05-29 14:52:40] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-29 14:52:40] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2024-05-29 14:52:40] INFO root fetch - processPackages [dbt-af]: executing diffoscope
+[2024-05-29 14:52:40] INFO root fetch - processPackages [dbt-af]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_af-0.4.3.tar.gz tmp/dbt_af-0.5.0.tar.gz --markdown 20240529/d/dbt-af/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-29 14:52:40] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-29 14:52:40] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240529/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 14:52:40] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2024-05-29 14:52:40] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20240529/c/clear-skies/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-29 14:52:40] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/65/8e/5f197352637bad333b500fd00b75b840a3d2afb538d0f28da7c6d70ed003/setech-1.3.4.tar.gz
+[2024-05-29 14:52:40] INFO root fetch - processPackages [pagegen]: Downloading https://files.pythonhosted.org/packages/3f/85/8de259311a6eb3921f8262fd8976962de554d2a059d7ed466bb3e4586963/pagegen-3.9.2-py3-none-any.whl
+[2024-05-29 14:52:40] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/c7/b5/9d0f47c41e0d88059aa81c8966e5d7a9f993e2024f0ddf742b8e49659a3e/clear_skies_aws-1.9.2.tar.gz
+[2024-05-29 14:52:40] INFO root fetch - processPackages [mistral-common]: Downloading https://files.pythonhosted.org/packages/32/9c/aad004ca516eee5359991f1823547455ef62f441a12dd3fc3bad09090339/mistral_common-1.2.0.tar.gz
+[2024-05-29 14:52:40] INFO root fetch - processPackages [setech]: executing diffoscope
+[2024-05-29 14:52:40] INFO root fetch - processPackages [setech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setech-1.3.3.tar.gz tmp/setech-1.3.4.tar.gz --markdown 20240529/s/setech/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-29 14:52:40] INFO root fetch - processPackages [poni2006]: Downloading https://files.pythonhosted.org/packages/5d/45/2f6db53fcc3cc327369eb489274cc712587c810cd481ee8629e3100e3e33/poni2006-1.2.0.tar.gz
+[2024-05-29 14:52:40] INFO root fetch - processPackages [clear-skies-aws]: executing diffoscope
+[2024-05-29 14:52:40] INFO root fetch - processPackages [clear-skies-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear_skies_aws-1.9.1.tar.gz tmp/clear_skies_aws-1.9.2.tar.gz --markdown 20240529/c/clear-skies-aws/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-29 14:52:40] INFO root fetch - processPackages [pagegen]: executing diffoscope
+[2024-05-29 14:52:40] INFO root fetch - processPackages [pagegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pagegen-3.9.1-py3-none-any.whl.zip tmp/pagegen-3.9.2-py3-none-any.whl.zip --markdown 20240529/p/pagegen/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-29 14:52:40] INFO root fetch - processPackages [mistral-common]: executing diffoscope
+[2024-05-29 14:52:40] INFO root fetch - processPackages [mistral-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistral_common-1.1.0.tar.gz tmp/mistral_common-1.2.0.tar.gz --markdown 20240529/m/mistral-common/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-29 14:52:40] INFO root fetch - processPackages [poni2006]: executing diffoscope
+[2024-05-29 14:52:40] INFO root fetch - processPackages [poni2006]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poni2006-1.1.0.tar.gz tmp/poni2006-1.2.0.tar.gz --markdown 20240529/p/poni2006/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-29 14:52:41] INFO root fetch - processPackages [dbt-af]: Remove: archive file [/home/abi/fetcher/tmp/dbt_af-0.4.3.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - processPackages [dbt-af]: Remove: archive file [/home/abi/fetcher/tmp/dbt_af-0.5.0.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - main [MainThread]: End processing [dbt-af]: success
+[2024-05-29 14:52:41] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-29 14:52:41] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-29 14:52:41] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-29 14:52:41] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.3.3.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.3.4.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - main [MainThread]: End processing [setech]: success
+[2024-05-29 14:52:41] INFO root fetch - processPackages [clear-skies-aws]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_aws-1.9.1.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - processPackages [clear-skies-aws]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_aws-1.9.2.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - main [MainThread]: End processing [clear-skies-aws]: success
+[2024-05-29 14:52:41] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.8.0.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2024-05-29 14:52:41] INFO root fetch - processPackages [poni2006]: Remove: archive file [/home/abi/fetcher/tmp/poni2006-1.1.0.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - processPackages [poni2006]: Remove: archive file [/home/abi/fetcher/tmp/poni2006-1.2.0.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - main [MainThread]: End processing [poni2006]: success
+[2024-05-29 14:52:41] INFO root fetch - processPackages [pagegen]: Remove: archive file [/home/abi/fetcher/tmp/pagegen-3.9.1-py3-none-any.whl.zip]
+[2024-05-29 14:52:41] INFO root fetch - processPackages [pagegen]: Remove: archive file [/home/abi/fetcher/tmp/pagegen-3.9.2-py3-none-any.whl.zip]
+[2024-05-29 14:52:41] INFO root fetch - main [MainThread]: End processing [pagegen]: success
+[2024-05-29 14:52:41] INFO root fetch - processPackages [mistral-common]: Remove: archive file [/home/abi/fetcher/tmp/mistral_common-1.1.0.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - processPackages [mistral-common]: Remove: archive file [/home/abi/fetcher/tmp/mistral_common-1.2.0.tar.gz]
+[2024-05-29 14:52:41] INFO root fetch - main [MainThread]: End processing [mistral-common]: success
+[2024-05-29 14:52:42] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-29 14:52:44] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-29 14:52:44] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240529/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-29 14:52:58] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-29 14:52:58] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-29 14:52:58] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-29 14:52:58] INFO root fetch - main [MainThread]: Store serial: [23429947]
