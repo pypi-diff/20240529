@@ -7179,3 +7179,15 @@
 [2024-05-29 03:37:31] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-29 03:37:31] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-29 03:37:31] INFO root fetch - main [MainThread]: Store serial: [23422538]
+[2024-05-29 03:39:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23422538]
+[2024-05-29 03:39:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 03:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myfaasmctl
+[2024-05-29 03:39:40] INFO root fetch - processPackages [myfaasmctl]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-29 03:39:40] INFO root fetch - processPackages [myfaasmctl]: Downloading https://files.pythonhosted.org/packages/c9/3e/3d32ee69181d13d57d26f7e204c3b361561036d6026376dd8cfe42804206/myfaasmctl-0.0.5.tar.gz
+[2024-05-29 03:39:41] INFO root fetch - processPackages [myfaasmctl]: Downloading https://files.pythonhosted.org/packages/4a/ec/f6014398436c8af122a213d6bba832592a9fbbe2459a0fd9519e9c11b13b/myfaasmctl-0.0.6.tar.gz
+[2024-05-29 03:39:41] INFO root fetch - processPackages [myfaasmctl]: executing diffoscope
+[2024-05-29 03:39:41] INFO root fetch - processPackages [myfaasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfaasmctl-0.0.5.tar.gz tmp/myfaasmctl-0.0.6.tar.gz --markdown 20240529/m/myfaasmctl/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-29 03:39:41] INFO root fetch - processPackages [myfaasmctl]: Remove: archive file [/home/abi/fetcher/tmp/myfaasmctl-0.0.5.tar.gz]
+[2024-05-29 03:39:41] INFO root fetch - processPackages [myfaasmctl]: Remove: archive file [/home/abi/fetcher/tmp/myfaasmctl-0.0.6.tar.gz]
+[2024-05-29 03:39:41] INFO root fetch - main [MainThread]: End processing [myfaasmctl]: success
+[2024-05-29 03:39:41] INFO root fetch - main [MainThread]: Store serial: [23422633]
