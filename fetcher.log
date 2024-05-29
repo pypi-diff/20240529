@@ -12026,3 +12026,38 @@
 [2024-05-29 08:27:34] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_report_commitment_date-16.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-05-29 08:27:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-report-commitment-date]: success
 [2024-05-29 08:27:34] INFO root fetch - main [MainThread]: Store serial: [23424960]
+[2024-05-29 08:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424960]
+[2024-05-29 08:29:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huhk
+[2024-05-29 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-okta
+[2024-05-29 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thx
+[2024-05-29 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-sdwan
+[2024-05-29 08:29:44] INFO root fetch - processPackages [pulumi-sdwan]: New version: [0.1.0a1716883043] Old Version: [0.1.0a1716879684]
+[2024-05-29 08:29:44] INFO root fetch - processPackages [pulumi-sdwan]: Downloading https://files.pythonhosted.org/packages/65/50/acf1c4afc5c8d2b43864686e9bd2fe5e6bbea727d88579e675ed7caf2d1c/pulumi_sdwan-0.1.0a1716879684.tar.gz
+[2024-05-29 08:29:44] INFO root fetch - processPackages [thx]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-05-29 08:29:44] INFO root fetch - processPackages [huhk]: New version: [3.8.5] Old Version: [3.8.3]
+[2024-05-29 08:29:44] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1716962572] Old Version: [4.9.0a1716519542]
+[2024-05-29 08:29:44] INFO root fetch - processPackages [thx]: Downloading https://files.pythonhosted.org/packages/47/75/3e36dd5f46ced5e1828a2e4fc2f461ac3df9a906a081f66b4525957a9c28/thx-0.5.1.tar.gz
+[2024-05-29 08:29:44] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/e1/c5/923d9f784810516e5aa970c92ebed7e71f37139026efe64780fd9f322ccd/huhk-3.8.3.tar.gz
+[2024-05-29 08:29:44] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/f2/d9/069f1bb5b622b0b4d8d7843c337d7688902b2bc9f590ddeef42c1ad6d2d1/pulumi_okta-4.9.0a1716519542.tar.gz
+[2024-05-29 08:29:44] WARNING root fetch - processPackages [huhk]: Skipping package: exceeds size limit 21166075>=10485760
+[2024-05-29 08:29:44] INFO root fetch - main [MainThread]: End processing [huhk] error
+[2024-05-29 08:29:44] INFO root fetch - processPackages [thx]: Downloading https://files.pythonhosted.org/packages/9a/46/80db7e259f549967e6250c6c56549e7ba6c283cae022a6f1afdbfd3aa2c8/thx-0.6.0.tar.gz
+[2024-05-29 08:29:44] INFO root fetch - processPackages [pulumi-sdwan]: Downloading https://files.pythonhosted.org/packages/28/b3/83496f37a4958fbc01c77ce4eb29490a4ab747d9ea182b1983fad6969891/pulumi_sdwan-0.1.0a1716883043.tar.gz
+[2024-05-29 08:29:44] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/fc/71/ab9325cb24e325068001b41c8cabcd85d9c9ee415df7946f5454e811cccf/pulumi_okta-4.9.0a1716962572.tar.gz
+[2024-05-29 08:29:45] INFO root fetch - processPackages [thx]: executing diffoscope
+[2024-05-29 08:29:45] INFO root fetch - processPackages [thx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thx-0.5.1.tar.gz tmp/thx-0.6.0.tar.gz --markdown 20240529/t/thx/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-05-29 08:29:45] INFO root fetch - processPackages [pulumi-sdwan]: executing diffoscope
+[2024-05-29 08:29:45] INFO root fetch - processPackages [pulumi-sdwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sdwan-0.1.0a1716879684.tar.gz tmp/pulumi_sdwan-0.1.0a1716883043.tar.gz --markdown 20240529/p/pulumi-sdwan/0.1.0a1716879684-0.1.0a1716883043/README.md --exclude *.pyd
+[2024-05-29 08:29:45] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-29 08:29:45] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1716519542.tar.gz tmp/pulumi_okta-4.9.0a1716962572.tar.gz --markdown 20240529/p/pulumi-okta/4.9.0a1716519542-4.9.0a1716962572/README.md --exclude *.pyd
+[2024-05-29 08:29:45] INFO root fetch - processPackages [thx]: Remove: archive file [/home/abi/fetcher/tmp/thx-0.5.1.tar.gz]
+[2024-05-29 08:29:45] INFO root fetch - processPackages [thx]: Remove: archive file [/home/abi/fetcher/tmp/thx-0.6.0.tar.gz]
+[2024-05-29 08:29:45] INFO root fetch - main [MainThread]: End processing [thx]: success
+[2024-05-29 08:29:46] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1716519542.tar.gz]
+[2024-05-29 08:29:46] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1716962572.tar.gz]
+[2024-05-29 08:29:46] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-29 08:29:47] INFO root fetch - processPackages [pulumi-sdwan]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sdwan-0.1.0a1716879684.tar.gz]
+[2024-05-29 08:29:47] INFO root fetch - processPackages [pulumi-sdwan]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sdwan-0.1.0a1716883043.tar.gz]
+[2024-05-29 08:29:47] INFO root fetch - main [MainThread]: End processing [pulumi-sdwan]: success
+[2024-05-29 08:29:47] INFO root fetch - main [MainThread]: Store serial: [23424980]
