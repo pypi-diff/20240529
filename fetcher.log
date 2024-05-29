@@ -17974,3 +17974,63 @@
 [2024-05-29 12:03:34] INFO root fetch - processPackages [aa-market-manager]: Remove: archive file [/home/abi/fetcher/tmp/aa-market-manager-0.9.3a0.tar.gz]
 [2024-05-29 12:03:34] INFO root fetch - main [MainThread]: End processing [aa-market-manager]: success
 [2024-05-29 12:03:34] INFO root fetch - main [MainThread]: Store serial: [23427883]
+[2024-05-29 12:05:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427883]
+[2024-05-29 12:05:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 12:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clean-python
+[2024-05-29 12:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocsi
+[2024-05-29 12:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gmalglib
+[2024-05-29 12:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qwak-core
+[2024-05-29 12:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aishalib
+[2024-05-29 12:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zfx
+[2024-05-29 12:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secretvalidate
+[2024-05-29 12:05:43] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 12:05:43] INFO root fetch - processPackages [mkdocsi]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-29 12:05:43] INFO root fetch - processPackages [gmalglib]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-29 12:05:43] INFO root fetch - processPackages [clean-python]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-29 12:05:43] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-29 12:05:43] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/bd/c2/cab75fd591a8a0e523710dcd7cb658bc49d11ad336f4c3abd3f825f6e754/clean-python-0.9.5.tar.gz
+[2024-05-29 12:05:43] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/8c/79/2cb70c5a9d82cbf43e052d94993d3275a1a8f8c1a3a00a277178836e8294/mkdocsi-1.3.6.tar.gz
+[2024-05-29 12:05:43] WARNING root fetch - processPackages [aishalib]: Skipping, unable to determine old version
+[2024-05-29 12:05:43] INFO root fetch - main [MainThread]: End processing [aishalib] error
+[2024-05-29 12:05:43] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-29 12:05:43] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-29 12:05:43] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/62/c9/31b7f816b5e0ba1728ccaf39921a36e3ecd167d4c7ed822b4e579a989051/gmalglib-0.5.6.tar.gz
+[2024-05-29 12:05:43] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-29 12:05:44] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/fe/ee/04d9bd4ebdfa1bf232d32e3c7f086d5c949e1b052c4d40104324e76677cf/mkdocsi-1.3.7.tar.gz
+[2024-05-29 12:05:44] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-29 12:05:44] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/5f/6e/6f96232599f1e881c2a03f70ea85b49e4dbe86d8ac6044cf072d203f8c84/clean-python-0.9.6.tar.gz
+[2024-05-29 12:05:44] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/2a/74/f1fedcd5b126c4af0184fc7bc616c4941f414eb51cc2fc523514708f3cae/secretvalidate-0.0.1a8.tar.gz
+[2024-05-29 12:05:44] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-29 12:05:44] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-29 12:05:44] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240529/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 12:05:44] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 12:05:44] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.3.6.tar.gz tmp/mkdocsi-1.3.7.tar.gz --markdown 20240529/m/mkdocsi/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-29 12:05:44] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/47/b7/918751a81e5adf5180449f1ec6bc1cdbaf27b6b45c60803bcaeda2ab1d3d/gmalglib-0.5.7.tar.gz
+[2024-05-29 12:05:44] INFO root fetch - processPackages [clean-python]: executing diffoscope
+[2024-05-29 12:05:44] INFO root fetch - processPackages [clean-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-python-0.9.5.tar.gz tmp/clean-python-0.9.6.tar.gz --markdown 20240529/c/clean-python/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-29 12:05:44] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-29 12:05:44] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240529/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-29 12:05:44] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/57/86/54b1f11aebe768d2014fd8f4bb1e90e29a764014e1104c5ccf64e6433d48/secretvalidate-0.0.1a9.tar.gz
+[2024-05-29 12:05:44] INFO root fetch - processPackages [gmalglib]: executing diffoscope
+[2024-05-29 12:05:44] INFO root fetch - processPackages [gmalglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmalglib-0.5.6.tar.gz tmp/gmalglib-0.5.7.tar.gz --markdown 20240529/g/gmalglib/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-29 12:05:44] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-05-29 12:05:44] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a8.tar.gz tmp/secretvalidate-0.0.1a9.tar.gz --markdown 20240529/s/secretvalidate/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-29 12:05:44] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.6.tar.gz]
+[2024-05-29 12:05:44] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.7.tar.gz]
+[2024-05-29 12:05:44] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 12:05:44] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-29 12:05:44] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-29 12:05:44] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-29 12:05:45] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.5.tar.gz]
+[2024-05-29 12:05:45] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.6.tar.gz]
+[2024-05-29 12:05:45] INFO root fetch - main [MainThread]: End processing [clean-python]: success
+[2024-05-29 12:05:45] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.5.6.tar.gz]
+[2024-05-29 12:05:45] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.5.7.tar.gz]
+[2024-05-29 12:05:45] INFO root fetch - main [MainThread]: End processing [gmalglib]: success
+[2024-05-29 12:05:45] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a8.tar.gz]
+[2024-05-29 12:05:45] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a9.tar.gz]
+[2024-05-29 12:05:45] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-05-29 12:05:46] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-29 12:05:46] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-29 12:05:46] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-29 12:05:46] INFO root fetch - main [MainThread]: Store serial: [23427907]
