@@ -10951,3 +10951,33 @@
 [2024-05-29 07:34:19] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.9.0a1716959571.tar.gz]
 [2024-05-29 07:34:19] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-29 07:34:19] INFO root fetch - main [MainThread]: Store serial: [23424469]
+[2024-05-29 07:36:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424469]
+[2024-05-29 07:36:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 07:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyEventEngine
+[2024-05-29 07:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azuread
+[2024-05-29 07:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-governance
+[2024-05-29 07:36:27] INFO root fetch - processPackages [PyEventEngine]: New version: [0.3.0.post2] Old Version: [0.3.0.post1]
+[2024-05-29 07:36:28] INFO root fetch - processPackages [PyEventEngine]: Downloading https://files.pythonhosted.org/packages/fc/bd/f486855fc31b33b97e781168af4fb156a5c23a2db7655abd1d70eccd858d/pyeventengine-0.3.0.post1.tar.gz
+[2024-05-29 07:36:28] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-05-29 07:36:28] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-29 07:36:28] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-05-29 07:36:28] INFO root fetch - processPackages [PyEventEngine]: Downloading https://files.pythonhosted.org/packages/08/53/668da70abb633272cf84127a5cc24c86355f1d4f0503f415a1b4c445f189/pyeventengine-0.3.0.post2.tar.gz
+[2024-05-29 07:36:28] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-29 07:36:28] INFO root fetch - processPackages [PyEventEngine]: executing diffoscope
+[2024-05-29 07:36:28] INFO root fetch - processPackages [PyEventEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeventengine-0.3.0.post1.tar.gz tmp/pyeventengine-0.3.0.post2.tar.gz --markdown 20240529/P/PyEventEngine/0.3.0.post1-0.3.0.post2/README.md --exclude *.pyd
+[2024-05-29 07:36:28] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-05-29 07:36:28] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-29 07:36:28] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-05-29 07:36:28] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240529/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-05-29 07:36:28] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-29 07:36:28] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240529/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-29 07:36:28] INFO root fetch - processPackages [PyEventEngine]: Remove: archive file [/home/abi/fetcher/tmp/pyeventengine-0.3.0.post1.tar.gz]
+[2024-05-29 07:36:28] INFO root fetch - processPackages [PyEventEngine]: Remove: archive file [/home/abi/fetcher/tmp/pyeventengine-0.3.0.post2.tar.gz]
+[2024-05-29 07:36:28] INFO root fetch - main [MainThread]: End processing [PyEventEngine]: success
+[2024-05-29 07:36:29] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-05-29 07:36:29] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-05-29 07:36:29] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-05-29 07:36:29] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-29 07:36:29] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-29 07:36:29] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-29 07:36:29] INFO root fetch - main [MainThread]: Store serial: [23424480]
