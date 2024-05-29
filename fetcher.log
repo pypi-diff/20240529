@@ -13275,3 +13275,135 @@
 [2024-05-29 09:30:23] INFO root fetch - processPackages [openbot-training-frontend]: Remove: archive file [/home/abi/fetcher/tmp/openbot_training_frontend-0.7.0.tar.gz]
 [2024-05-29 09:30:23] INFO root fetch - main [MainThread]: End processing [openbot-training-frontend]: success
 [2024-05-29 09:30:23] INFO root fetch - main [MainThread]: Store serial: [23425570]
+[2024-05-29 09:32:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425570]
+[2024-05-29 09:32:32] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-29 09:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-admin-assets
+[2024-05-29 09:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lk-utils
+[2024-05-29 09:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CVE-2018-11784
+[2024-05-29 09:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zenml-nightly
+[2024-05-29 09:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: os-file-stream-handler
+[2024-05-29 09:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xfapi
+[2024-05-29 09:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ops-scenario
+[2024-05-29 09:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelagnosticsafeaipackage
+[2024-05-29 09:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aioli-sdk
+[2024-05-29 09:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flatpack
+[2024-05-29 09:32:32] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1557] Old Version: [1.0.0.post1556]
+[2024-05-29 09:32:32] INFO root fetch - processPackages [zenml-nightly]: New version: [0.58.0.dev20240528] Old Version: [0.57.1.dev20240527]
+[2024-05-29 09:32:32] INFO root fetch - processPackages [aioli-sdk]: New version: [0.2.4.dev9] Old Version: [0.2.4.dev8]
+[2024-05-29 09:32:32] INFO root fetch - processPackages [xfapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 09:32:32] INFO root fetch - processPackages [modelagnosticsafeaipackage]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-29 09:32:32] INFO root fetch - processPackages [os-file-stream-handler]: New version: [1.12] Old Version: [1.11]
+[2024-05-29 09:32:32] WARNING root fetch - processPackages [CVE-2018-11784]: Skipping, unable to determine old version
+[2024-05-29 09:32:32] INFO root fetch - processPackages [CVE-2018-11784]: Start processing: sphinx-docsearch
+[2024-05-29 09:32:32] INFO root fetch - main [MainThread]: End processing [CVE-2018-11784] error
+[2024-05-29 09:32:32] INFO root fetch - processPackages [lk-utils]: New version: [2.9.5] Old Version: [2.9.4]
+[2024-05-29 09:32:32] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/07/8a/80cd1f3956dc2d12807498895cfea939da9e552bca1e42ad2d607e567a3d/nucliadb_admin_assets-1.0.0.post1556-py3-none-any.whl
+[2024-05-29 09:32:32] INFO root fetch - processPackages [zenml-nightly]: Downloading https://files.pythonhosted.org/packages/37/f5/b9f988d83f0d3ce64a7cd4e185ddd901fb920eb92ce64771ad83a424e56f/zenml_nightly-0.57.1.dev20240527.tar.gz
+[2024-05-29 09:32:32] INFO root fetch - processPackages [ops-scenario]: New version: [6.0.4] Old Version: [6.0.3]
+[2024-05-29 09:32:32] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/63/80/eac545f3234f5de3977f6d9f78253b5c237b2838a53f430ee4f1c40ef452/xfapi-0.0.1.tar.gz
+[2024-05-29 09:32:32] INFO root fetch - processPackages [flatpack]: New version: [3.5.1] Old Version: [3.5.0]
+[2024-05-29 09:32:32] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/41/22/a68a0b8afa86af8f7495b222843e5a457fea1e1881f3bc96eed5c464e540/aioli_sdk-0.2.4.dev8.tar.gz
+[2024-05-29 09:32:32] INFO root fetch - processPackages [sphinx-docsearch]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-29 09:32:32] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Downloading https://files.pythonhosted.org/packages/cd/b3/1212f03108cc3a687ff2c383783aad0975471ad93d87a089451b9f7f0a87/modelagnosticsafeaipackage-0.5.0.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [os-file-stream-handler]: Downloading https://files.pythonhosted.org/packages/2f/8a/e7ebee68029d5fd258b1f2d9b17e2bb90393d7e5b9b39a003aa15391d1d3/os_file_stream_handler-1.11.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [lk-utils]: Downloading https://files.pythonhosted.org/packages/cb/f7/c4b9be2e0d2e13589b444492578943979b82f000d436c31db3edf6d3ac51/lk_utils-2.9.4-py3-none-any.whl
+[2024-05-29 09:32:33] INFO root fetch - processPackages [ops-scenario]: Downloading https://files.pythonhosted.org/packages/4a/a7/b3774d2354dffb506ad3e56016c43b9b6f8c712786113c34cea1e7700089/ops-scenario-6.0.3.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/d0/cd/ca399b352786ed401d901d38ac73b979cca761cb7aa43139564585f88377/xfapi-0.0.2.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/cd/25/d9848a3a017be39218d1ccb6f4e8007a0c7781325b6e49f176c030e37d80/aioli_sdk-0.2.4.dev9.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [sphinx-docsearch]: Downloading https://files.pythonhosted.org/packages/41/56/25b6d66ac99d19e64d281a5b5153472507a7c9b14280df187b7514352113/sphinx_docsearch-0.0.6.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/19/88/3a37eda430cd892f1cfbe9f2843944e87af48acdddf3c972346d01939e4a/flatpack-3.5.0.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/c0/df/69881e5bd0d0b8e8d3f965009d246b9d38c2c7ec37aad76043b2dfbee289/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl
+[2024-05-29 09:32:33] INFO root fetch - processPackages [xfapi]: executing diffoscope
+[2024-05-29 09:32:33] INFO root fetch - processPackages [xfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfapi-0.0.1.tar.gz tmp/xfapi-0.0.2.tar.gz --markdown 20240529/x/xfapi/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 09:32:33] INFO root fetch - processPackages [aioli-sdk]: executing diffoscope
+[2024-05-29 09:32:33] INFO root fetch - processPackages [aioli-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioli_sdk-0.2.4.dev8.tar.gz tmp/aioli_sdk-0.2.4.dev9.tar.gz --markdown 20240529/a/aioli-sdk/0.2.4.dev8-0.2.4.dev9/README.md --exclude *.pyd
+[2024-05-29 09:32:33] INFO root fetch - processPackages [os-file-stream-handler]: Downloading https://files.pythonhosted.org/packages/66/ca/8ce6930df58bdf0c1c8743206a0074e3a9253a192be7cf4bb75d79364bb7/os_file_stream_handler-1.12.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [lk-utils]: Downloading https://files.pythonhosted.org/packages/c7/63/9023448692862a9032e16dfd5b896240f2cdcf94f51b4f1898a763c48218/lk_utils-2.9.5-py3-none-any.whl
+[2024-05-29 09:32:33] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Downloading https://files.pythonhosted.org/packages/73/13/56eb3825d27e6be0dffe6ca68f25343e3ec524b0c17ae92e8f297f6e1b85/modelagnosticsafeaipackage-0.6.0.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [zenml-nightly]: Downloading https://files.pythonhosted.org/packages/16/97/d4743c97ce7a9d206df9e70f881f4faecde217ee3e0c463edc34d777316a/zenml_nightly-0.58.0.dev20240528.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-29 09:32:33] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1556-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-admin-assets/1.0.0.post1556-1.0.0.post1557/README.md --exclude *.pyd
+[2024-05-29 09:32:33] INFO root fetch - processPackages [os-file-stream-handler]: executing diffoscope
+[2024-05-29 09:32:33] INFO root fetch - processPackages [os-file-stream-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os_file_stream_handler-1.11.tar.gz tmp/os_file_stream_handler-1.12.tar.gz --markdown 20240529/o/os-file-stream-handler/1.11-1.12/README.md --exclude *.pyd
+[2024-05-29 09:32:33] INFO root fetch - processPackages [ops-scenario]: Downloading https://files.pythonhosted.org/packages/a2/bc/29c3cbed19622024653f69751ad8da9c716b060592fbfe5f76ea8631a7e5/ops_scenario-6.0.4.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [lk-utils]: executing diffoscope
+[2024-05-29 09:32:33] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/60/45/843ebb674c88442ae2a7e026b22b9cb6a89a69576dfbe9019bbf86ad80f6/flatpack-3.5.1.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [lk-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_utils-2.9.4-py3-none-any.whl.zip tmp/lk_utils-2.9.5-py3-none-any.whl.zip --markdown 20240529/l/lk-utils/2.9.4-2.9.5/README.md --exclude *.pyd
+[2024-05-29 09:32:33] INFO root fetch - processPackages [sphinx-docsearch]: Downloading https://files.pythonhosted.org/packages/54/0c/22384edf5c4e873a940376d35f7c41038744bc044b2b5bd7b36aed86abb9/sphinx_docsearch-0.0.7.tar.gz
+[2024-05-29 09:32:33] INFO root fetch - processPackages [modelagnosticsafeaipackage]: executing diffoscope
+[2024-05-29 09:32:33] INFO root fetch - processPackages [modelagnosticsafeaipackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelagnosticsafeaipackage-0.5.0.tar.gz tmp/modelagnosticsafeaipackage-0.6.0.tar.gz --markdown 20240529/m/modelagnosticsafeaipackage/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-29 09:32:33] INFO root fetch - processPackages [ops-scenario]: executing diffoscope
+[2024-05-29 09:32:33] INFO root fetch - processPackages [ops-scenario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-scenario-6.0.3.tar.gz tmp/ops_scenario-6.0.4.tar.gz --markdown 20240529/o/ops-scenario/6.0.3-6.0.4/README.md --exclude *.pyd
+[2024-05-29 09:32:33] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-29 09:32:33] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.5.0.tar.gz tmp/flatpack-3.5.1.tar.gz --markdown 20240529/f/flatpack/3.5.0-3.5.1/README.md --exclude *.pyd
+[2024-05-29 09:32:33] INFO root fetch - processPackages [sphinx-docsearch]: executing diffoscope
+[2024-05-29 09:32:33] INFO root fetch - processPackages [sphinx-docsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_docsearch-0.0.6.tar.gz tmp/sphinx_docsearch-0.0.7.tar.gz --markdown 20240529/s/sphinx-docsearch/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-29 09:32:34] INFO root fetch - processPackages [zenml-nightly]: executing diffoscope
+[2024-05-29 09:32:34] INFO root fetch - processPackages [zenml-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenml_nightly-0.57.1.dev20240527.tar.gz tmp/zenml_nightly-0.58.0.dev20240528.tar.gz --markdown 20240529/z/zenml-nightly/0.57.1.dev20240527-0.58.0.dev20240528/README.md --exclude *.pyd
+[2024-05-29 09:32:34] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.1.tar.gz]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.2.tar.gz]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [xfapi]: Start processing: sunholo
+[2024-05-29 09:32:34] INFO root fetch - main [MainThread]: End processing [xfapi]: success
+[2024-05-29 09:32:34] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [os-file-stream-handler]: Remove: archive file [/home/abi/fetcher/tmp/os_file_stream_handler-1.11.tar.gz]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [os-file-stream-handler]: Remove: archive file [/home/abi/fetcher/tmp/os_file_stream_handler-1.12.tar.gz]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [os-file-stream-handler]: Start processing: ETH-GTD-cli
+[2024-05-29 09:32:34] INFO root fetch - main [MainThread]: End processing [os-file-stream-handler]: success
+[2024-05-29 09:32:34] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-29 09:32:34] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [lk-utils]: Remove: archive file [/home/abi/fetcher/tmp/lk_utils-2.9.4-py3-none-any.whl.zip]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [lk-utils]: Remove: archive file [/home/abi/fetcher/tmp/lk_utils-2.9.5-py3-none-any.whl.zip]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [lk-utils]: Start processing: xfapi
+[2024-05-29 09:32:34] INFO root fetch - main [MainThread]: End processing [lk-utils]: success
+[2024-05-29 09:32:34] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-29 09:32:34] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/bb/0a/50fa1ec5d25c4299fe860bbee1353c0eb7f1f3a83808556d2c92d59af108/eth_gtd_cli-0.0.98.tar.gz
+[2024-05-29 09:32:34] INFO root fetch - processPackages [xfapi]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Remove: archive file [/home/abi/fetcher/tmp/modelagnosticsafeaipackage-0.5.0.tar.gz]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Remove: archive file [/home/abi/fetcher/tmp/modelagnosticsafeaipackage-0.6.0.tar.gz]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Start processing: streamlit-nightly
+[2024-05-29 09:32:34] INFO root fetch - main [MainThread]: End processing [modelagnosticsafeaipackage]: success
+[2024-05-29 09:32:34] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-29 09:32:34] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240529/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-29 09:32:34] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.35.1.dev20240527] Old Version: [1.35.1.dev20240526]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [sphinx-docsearch]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_docsearch-0.0.6.tar.gz]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [sphinx-docsearch]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_docsearch-0.0.7.tar.gz]
+[2024-05-29 09:32:34] INFO root fetch - main [MainThread]: End processing [sphinx-docsearch]: success
+[2024-05-29 09:32:34] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/76/78/e22e1aac3f37425b7d31e10f7c1c3056a329c68b0b91361399c5f4f7fe50/xfapi-0.0.3.tar.gz
+[2024-05-29 09:32:34] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/3a/3a/941df551139bad5139862c5d9037c073bb93892398261de84ccbd2737322/eth_gtd_cli-0.0.99.tar.gz
+[2024-05-29 09:32:34] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.0.tar.gz]
+[2024-05-29 09:32:34] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.1.tar.gz]
+[2024-05-29 09:32:34] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-29 09:32:34] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/6b/18/f1593d37c2666728ab0f87795c68e95f73d0bf013a138265692577abed5e/streamlit_nightly-1.35.1.dev20240526.tar.gz
+[2024-05-29 09:32:35] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev8.tar.gz]
+[2024-05-29 09:32:35] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev9.tar.gz]
+[2024-05-29 09:32:35] INFO root fetch - main [MainThread]: End processing [aioli-sdk]: success
+[2024-05-29 09:32:35] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-29 09:32:35] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.98.tar.gz tmp/eth_gtd_cli-0.0.99.tar.gz --markdown 20240529/E/ETH-GTD-cli/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 09:32:35] INFO root fetch - processPackages [ops-scenario]: Remove: archive file [/home/abi/fetcher/tmp/ops-scenario-6.0.3.tar.gz]
+[2024-05-29 09:32:35] INFO root fetch - processPackages [ops-scenario]: Remove: archive file [/home/abi/fetcher/tmp/ops_scenario-6.0.4.tar.gz]
+[2024-05-29 09:32:35] INFO root fetch - main [MainThread]: End processing [ops-scenario]: success
+[2024-05-29 09:32:35] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/06/5b/1bc20811e25e198c573f10562cf91fa484e3d9a0acfc739158826c239149/xfapi-0.0.4.tar.gz
+[2024-05-29 09:32:35] INFO root fetch - processPackages [xfapi]: executing diffoscope
+[2024-05-29 09:32:35] INFO root fetch - processPackages [xfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfapi-0.0.3.tar.gz tmp/xfapi-0.0.4.tar.gz --markdown 20240529/x/xfapi/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 09:32:35] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/60/47/75737a60863fb42ddcd20a01d3fc3af37e11bea460c12b35c49e00d59ce8/streamlit_nightly-1.35.1.dev20240527.tar.gz
+[2024-05-29 09:32:35] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.98.tar.gz]
+[2024-05-29 09:32:35] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.99.tar.gz]
+[2024-05-29 09:32:35] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-29 09:32:35] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1556-py3-none-any.whl.zip]
+[2024-05-29 09:32:35] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl.zip]
+[2024-05-29 09:32:35] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-29 09:32:35] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-29 09:32:35] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-29 09:32:35] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-29 09:32:35] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.3.tar.gz]
+[2024-05-29 09:32:35] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.4.tar.gz]
+[2024-05-29 09:32:35] INFO root fetch - main [MainThread]: End processing [xfapi]: success
+[2024-05-29 09:32:36] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-29 09:32:36] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.35.1.dev20240526.tar.gz tmp/streamlit_nightly-1.35.1.dev20240527.tar.gz --markdown 20240529/s/streamlit-nightly/1.35.1.dev20240526-1.35.1.dev20240527/README.md --exclude *.pyd
+[2024-05-29 09:33:06] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240526.tar.gz]
+[2024-05-29 09:33:06] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240527.tar.gz]
+[2024-05-29 09:33:06] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-29 09:33:09] INFO root fetch - processPackages [zenml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/zenml_nightly-0.57.1.dev20240527.tar.gz]
+[2024-05-29 09:33:09] INFO root fetch - processPackages [zenml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/zenml_nightly-0.58.0.dev20240528.tar.gz]
+[2024-05-29 09:33:09] INFO root fetch - main [MainThread]: End processing [zenml-nightly]: success
+[2024-05-29 09:33:09] INFO root fetch - main [MainThread]: Store serial: [23425613]
