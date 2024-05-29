@@ -7714,3 +7714,42 @@
 [2024-05-29 04:24:46] INFO root fetch - processPackages [geefcc]: Remove: archive file [/home/abi/fetcher/tmp/geefcc-0.1.2.tar.gz]
 [2024-05-29 04:24:46] INFO root fetch - main [MainThread]: End processing [geefcc]: success
 [2024-05-29 04:24:46] INFO root fetch - main [MainThread]: Store serial: [23423222]
+[2024-05-29 04:26:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423222]
+[2024-05-29 04:26:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 04:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GnosisTech
+[2024-05-29 04:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-docker
+[2024-05-29 04:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbcli-mc
+[2024-05-29 04:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2024-05-29 04:26:54] INFO root fetch - processPackages [GnosisTech]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-29 04:26:54] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.5.28] Old Version: [2024.5.27]
+[2024-05-29 04:26:54] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/35/92/599109038f48fa654e58b5f1da874aa446a661ff2aa0c46bc26afa181935/gnosistech-0.1.4.tar.gz
+[2024-05-29 04:26:54] INFO root fetch - processPackages [sbcli-mc]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 04:26:54] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/69/e2/53caf20f93bc8cbc57fd335a175e2bba24457513bf07628f21836da6ca02/naif_eop_high_prec-2024.5.27.tar.gz
+[2024-05-29 04:26:54] INFO root fetch - processPackages [types-docker]: New version: [7.0.0.20240529] Old Version: [7.0.0.20240528]
+[2024-05-29 04:26:55] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/b4/00/d177891f0b7356dfb9f833e9f7f5d1d121399c9c74994c0d644a342d732e/types-docker-7.0.0.20240528.tar.gz
+[2024-05-29 04:26:55] INFO root fetch - processPackages [sbcli-mc]: Downloading https://files.pythonhosted.org/packages/2a/71/d6deb3a3facfc501c08b6960e94c59aaea4fcbc360b68d64c0cd29860439/sbcli_mc-1.0.1.zip
+[2024-05-29 04:26:55] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/64/63/3f2f0c3ba6e7f895733a0b3e869b8cdd2f29f0fc409929c101677fd453af/gnosistech-0.1.5.tar.gz
+[2024-05-29 04:26:55] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/2e/2c/5f144f2028cc4992755289dea577dcb317a0c5b4b8c2af75b7e7459b44bb/naif_eop_high_prec-2024.5.28.tar.gz
+[2024-05-29 04:26:55] INFO root fetch - processPackages [GnosisTech]: executing diffoscope
+[2024-05-29 04:26:55] INFO root fetch - processPackages [GnosisTech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnosistech-0.1.4.tar.gz tmp/gnosistech-0.1.5.tar.gz --markdown 20240529/G/GnosisTech/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-29 04:26:55] INFO root fetch - processPackages [sbcli-mc]: Downloading https://files.pythonhosted.org/packages/0c/bd/6f8734fc11695cdb2aeae9123487ea27f9f3e854361f6bbfd349833aa184/sbcli_mc-1.0.2.zip
+[2024-05-29 04:26:55] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/3b/27/fd0307d3223d6caa7b6dac3d899810aa23417e39d73b81cd3bc3edfcab58/types-docker-7.0.0.20240529.tar.gz
+[2024-05-29 04:26:55] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-05-29 04:26:55] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.5.27.tar.gz tmp/naif_eop_high_prec-2024.5.28.tar.gz --markdown 20240529/n/naif-eop-high-prec/2024.5.27-2024.5.28/README.md --exclude *.pyd
+[2024-05-29 04:26:55] INFO root fetch - processPackages [sbcli-mc]: executing diffoscope
+[2024-05-29 04:26:55] INFO root fetch - processPackages [sbcli-mc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_mc-1.0.1.zip tmp/sbcli_mc-1.0.2.zip --markdown 20240529/s/sbcli-mc/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 04:26:55] INFO root fetch - processPackages [types-docker]: executing diffoscope
+[2024-05-29 04:26:55] INFO root fetch - processPackages [types-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docker-7.0.0.20240528.tar.gz tmp/types-docker-7.0.0.20240529.tar.gz --markdown 20240529/t/types-docker/7.0.0.20240528-7.0.0.20240529/README.md --exclude *.pyd
+[2024-05-29 04:26:55] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.4.tar.gz]
+[2024-05-29 04:26:55] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.5.tar.gz]
+[2024-05-29 04:26:55] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
+[2024-05-29 04:26:56] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240528.tar.gz]
+[2024-05-29 04:26:56] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240529.tar.gz]
+[2024-05-29 04:26:56] INFO root fetch - main [MainThread]: End processing [types-docker]: success
+[2024-05-29 04:26:56] INFO root fetch - processPackages [sbcli-mc]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mc-1.0.1.zip]
+[2024-05-29 04:26:56] INFO root fetch - processPackages [sbcli-mc]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mc-1.0.2.zip]
+[2024-05-29 04:26:56] INFO root fetch - main [MainThread]: End processing [sbcli-mc]: success
+[2024-05-29 04:26:59] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.27.tar.gz]
+[2024-05-29 04:26:59] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.28.tar.gz]
+[2024-05-29 04:26:59] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-05-29 04:26:59] INFO root fetch - main [MainThread]: Store serial: [23423233]
