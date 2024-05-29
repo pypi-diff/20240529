@@ -18881,3 +18881,41 @@
 [2024-05-29 12:38:56] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
 [2024-05-29 12:38:56] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-05-29 12:38:56] INFO root fetch - main [MainThread]: Store serial: [23428342]
+[2024-05-29 12:40:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428342]
+[2024-05-29 12:41:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 12:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skypilot-nightly
+[2024-05-29 12:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-meta
+[2024-05-29 12:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymemgpt-nightly
+[2024-05-29 12:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sms-message-aws-sns-local
+[2024-05-29 12:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-linkedin-pages
+[2024-05-29 12:41:05] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-29 12:41:05] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-29 12:41:05] INFO root fetch - processPackages [airbyte-source-linkedin-pages]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 12:41:05] INFO root fetch - processPackages [sms-message-aws-sns-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 12:41:05] WARNING root fetch - processPackages [wagtail-meta]: Skipping, unable to determine old version
+[2024-05-29 12:41:05] INFO root fetch - main [MainThread]: End processing [wagtail-meta] error
+[2024-05-29 12:41:05] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240529] Old Version: [1.0.0.dev20240527]
+[2024-05-29 12:41:05] INFO root fetch - processPackages [airbyte-source-linkedin-pages]: Downloading https://files.pythonhosted.org/packages/24/ca/69e2905abdd487aebb9f38638cdc37206245361ddfe68e298f5ba0f9c660/airbyte-source-linkedin-pages-1.0.2.tar.gz
+[2024-05-29 12:41:05] INFO root fetch - processPackages [sms-message-aws-sns-local]: Downloading https://files.pythonhosted.org/packages/b5/8c/2d497590b930ee0ea12a669b5747b1e2d251363d62238bd1fc127811dfff/sms_message_aws_sns_local-0.0.8.tar.gz
+[2024-05-29 12:41:05] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-29 12:41:05] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/5f/4d/86606c4f5dca9a5a6cae44dc45756d1cf677ac839cb9e8384168e9b50151/skypilot_nightly-1.0.0.dev20240527.tar.gz
+[2024-05-29 12:41:05] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-29 12:41:05] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240529/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-29 12:41:05] ERROR root fetch - processPackages [airbyte-source-linkedin-pages]: Unable to fetch info: No such project/version 'airbyte-source-linkedin-pages' 1.0.3
+[2024-05-29 12:41:05] INFO root fetch - main [MainThread]: End processing [airbyte-source-linkedin-pages] error
+[2024-05-29 12:41:05] INFO root fetch - processPackages [sms-message-aws-sns-local]: Downloading https://files.pythonhosted.org/packages/9b/5a/3c25e8cc34e9a8c618a8a50e247085efee93fa786a9823257a0523b560de/sms_message_aws_sns_local-0.0.9.tar.gz
+[2024-05-29 12:41:05] INFO root fetch - processPackages [sms-message-aws-sns-local]: executing diffoscope
+[2024-05-29 12:41:05] INFO root fetch - processPackages [sms-message-aws-sns-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sms_message_aws_sns_local-0.0.8.tar.gz tmp/sms_message_aws_sns_local-0.0.9.tar.gz --markdown 20240529/s/sms-message-aws-sns-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 12:41:05] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/fa/97/44622f3946f6e38cdfee6e2bca2ca7708c59471bd8715fc6cff86dae6d6b/skypilot_nightly-1.0.0.dev20240529.tar.gz
+[2024-05-29 12:41:06] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-29 12:41:06] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240527.tar.gz tmp/skypilot_nightly-1.0.0.dev20240529.tar.gz --markdown 20240529/s/skypilot-nightly/1.0.0.dev20240527-1.0.0.dev20240529/README.md --exclude *.pyd
+[2024-05-29 12:41:06] INFO root fetch - processPackages [sms-message-aws-sns-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_aws_sns_local-0.0.8.tar.gz]
+[2024-05-29 12:41:06] INFO root fetch - processPackages [sms-message-aws-sns-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_aws_sns_local-0.0.9.tar.gz]
+[2024-05-29 12:41:06] INFO root fetch - main [MainThread]: End processing [sms-message-aws-sns-local]: success
+[2024-05-29 12:41:06] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-29 12:41:06] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-29 12:41:06] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-29 12:41:07] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240527.tar.gz]
+[2024-05-29 12:41:07] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240529.tar.gz]
+[2024-05-29 12:41:07] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-29 12:41:07] INFO root fetch - main [MainThread]: Store serial: [23428358]
