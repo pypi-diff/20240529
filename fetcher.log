@@ -10167,3 +10167,15 @@
 [2024-05-29 07:01:23] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.2.0.tar.gz]
 [2024-05-29 07:01:23] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
 [2024-05-29 07:01:23] INFO root fetch - main [MainThread]: Store serial: [23424161]
+[2024-05-29 07:03:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424161]
+[2024-05-29 07:03:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 07:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-ro-account-edi-ubl
+[2024-05-29 07:03:32] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2024-05-29 07:03:32] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/dd/8a/fcf024c906f4ffcf1fdb4729121cb2b7e33f19b685e7b423f9e0a32e9300/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.0-py3-none-any.whl
+[2024-05-29 07:03:33] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/99/b8/7133f1ae688e9819904a9b2000a8378d671a5230dfd06bcf15deba0db595/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.1.dev1-py3-none-any.whl
+[2024-05-29 07:03:33] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: executing diffoscope
+[2024-05-29 07:03:33] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20240529/o/odoo14-addon-l10n-ro-account-edi-ubl/14.0.1.9.0-14.0.1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-29 07:03:33] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-05-29 07:03:33] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2024-05-29 07:03:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-account-edi-ubl]: success
+[2024-05-29 07:03:33] INFO root fetch - main [MainThread]: Store serial: [23424163]
