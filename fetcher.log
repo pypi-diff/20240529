@@ -20978,3 +20978,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:01:19] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.2.tar.gz]
 [2024-05-29 14:01:19] INFO root fetch - main [MainThread]: End processing [bus-user]: success
 [2024-05-29 14:01:19] INFO root fetch - main [MainThread]: Store serial: [23429178]
+[2024-05-29 14:03:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429178]
+[2024-05-29 14:03:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metal-python
+[2024-05-29 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-05-29 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osbot-aws
+[2024-05-29 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-gateway-pop
+[2024-05-29 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tweets-to-topic-network
+[2024-05-29 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-gateway-pop-py2
+[2024-05-29 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fast-sqlite-python
+[2024-05-29 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ArcDLNexus
+[2024-05-29 14:03:28] INFO root fetch - processPackages [ArcDLNexus]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-29 14:03:28] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-29 14:03:28] INFO root fetch - processPackages [osbot-aws]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-05-29 14:03:28] INFO root fetch - processPackages [ArcDLNexus]: Downloading https://files.pythonhosted.org/packages/f4/02/fbe368f607ee637ed855886b520a4637785dee3eb0ed8f6747f5b47c92c0/arcdlnexus-0.1.2.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [tweets-to-topic-network]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-29 14:03:28] INFO root fetch - processPackages [alibabacloud-gateway-pop]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 14:03:28] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-29 14:03:28] INFO root fetch - processPackages [alibabacloud-gateway-pop-py2]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 14:03:28] INFO root fetch - processPackages [metal-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-29 14:03:28] WARNING root fetch - processPackages [fast-sqlite-python]: Skipping, unable to determine old version
+[2024-05-29 14:03:28] INFO root fetch - main [MainThread]: End processing [fast-sqlite-python] error
+[2024-05-29 14:03:28] INFO root fetch - processPackages [osbot-aws]: Downloading https://files.pythonhosted.org/packages/e3/fd/06852c61c7468df12e0accc957bbc9fcf3622223811ae809652b24fa8b57/osbot_aws-2.6.0.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/da/87/ea7df78e12e58839edf84e22e55f4828fa269abd4eda5b854ca1a3f2ae3c/metal_python-0.9.4.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [tweets-to-topic-network]: Downloading https://files.pythonhosted.org/packages/e1/a2/60f489ef89bbbbfbe7f348d2952b7274feb4f37c66e71a312a037fe045a0/tweets_to_topic_network-0.1.4.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [alibabacloud-gateway-pop]: Downloading https://files.pythonhosted.org/packages/06/e5/0748044cb09e7084cc76ee60ea6e147fb45fbb6334a8d443ad7958e46d87/alibabacloud_gateway_pop-0.0.3.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-29 14:03:28] INFO root fetch - processPackages [alibabacloud-gateway-pop-py2]: Downloading https://files.pythonhosted.org/packages/70/a0/689920b50d5799e768095ccb258c06ec9364128b43c233013bf13973b874/alibabacloud_gateway_pop_py2-0.0.3.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [ArcDLNexus]: Downloading https://files.pythonhosted.org/packages/45/23/d3d75c379ecd54cf6aa0927839fd44e60dc87519f1c85c400dc2f4b8e1f5/arcdlnexus-0.1.3.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-29 14:03:28] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240529/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-29 14:03:28] INFO root fetch - processPackages [ArcDLNexus]: executing diffoscope
+[2024-05-29 14:03:28] INFO root fetch - processPackages [ArcDLNexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcdlnexus-0.1.2.tar.gz tmp/arcdlnexus-0.1.3.tar.gz --markdown 20240529/A/ArcDLNexus/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-29 14:03:28] INFO root fetch - processPackages [osbot-aws]: Downloading https://files.pythonhosted.org/packages/f5/90/bed402efb9c72b55130caa05d60dc74a01cfbab086fa867f7fca9893a7fb/osbot_aws-2.7.0.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/d5/0e/f54a789448e772fa8f88c2a2f7da9e92cfc6a441cc42a238b2013db9901e/metal_python-0.9.5.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [alibabacloud-gateway-pop]: Downloading https://files.pythonhosted.org/packages/2c/c3/1f12876f4cc5bb559e6bd81a5b8774d8a84b2606c8786f5cf0addd70bfb7/alibabacloud_gateway_pop-0.0.4.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [tweets-to-topic-network]: Downloading https://files.pythonhosted.org/packages/c7/f9/f76d57fc65c9f5d272beba0c98400a99e255a8ab7d4020a21bae60264832/tweets_to_topic_network-0.1.5.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [osbot-aws]: executing diffoscope
+[2024-05-29 14:03:28] INFO root fetch - processPackages [osbot-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osbot_aws-2.6.0.tar.gz tmp/osbot_aws-2.7.0.tar.gz --markdown 20240529/o/osbot-aws/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-05-29 14:03:28] INFO root fetch - processPackages [alibabacloud-gateway-pop-py2]: Downloading https://files.pythonhosted.org/packages/e1/c2/480dc8d62e63316973ecff4897b7e66618180e7234737ed3991e0efe4e92/alibabacloud_gateway_pop_py2-0.0.4.tar.gz
+[2024-05-29 14:03:28] INFO root fetch - processPackages [metal-python]: executing diffoscope
+[2024-05-29 14:03:28] INFO root fetch - processPackages [metal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_python-0.9.4.tar.gz tmp/metal_python-0.9.5.tar.gz --markdown 20240529/m/metal-python/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-29 14:03:29] INFO root fetch - processPackages [tweets-to-topic-network]: executing diffoscope
+[2024-05-29 14:03:29] INFO root fetch - processPackages [tweets-to-topic-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweets_to_topic_network-0.1.4.tar.gz tmp/tweets_to_topic_network-0.1.5.tar.gz --markdown 20240529/t/tweets-to-topic-network/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-29 14:03:29] INFO root fetch - processPackages [alibabacloud-gateway-pop]: executing diffoscope
+[2024-05-29 14:03:29] INFO root fetch - processPackages [alibabacloud-gateway-pop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gateway_pop-0.0.3.tar.gz tmp/alibabacloud_gateway_pop-0.0.4.tar.gz --markdown 20240529/a/alibabacloud-gateway-pop/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 14:03:29] INFO root fetch - processPackages [alibabacloud-gateway-pop-py2]: executing diffoscope
+[2024-05-29 14:03:29] INFO root fetch - processPackages [alibabacloud-gateway-pop-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gateway_pop_py2-0.0.3.tar.gz tmp/alibabacloud_gateway_pop_py2-0.0.4.tar.gz --markdown 20240529/a/alibabacloud-gateway-pop-py2/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 14:03:29] INFO root fetch - processPackages [ArcDLNexus]: Remove: archive file [/home/abi/fetcher/tmp/arcdlnexus-0.1.2.tar.gz]
+[2024-05-29 14:03:29] INFO root fetch - processPackages [ArcDLNexus]: Remove: archive file [/home/abi/fetcher/tmp/arcdlnexus-0.1.3.tar.gz]
+[2024-05-29 14:03:29] INFO root fetch - main [MainThread]: End processing [ArcDLNexus]: success
+[2024-05-29 14:03:29] INFO root fetch - processPackages [alibabacloud-gateway-pop]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gateway_pop-0.0.3.tar.gz]
+[2024-05-29 14:03:29] INFO root fetch - processPackages [alibabacloud-gateway-pop]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gateway_pop-0.0.4.tar.gz]
+[2024-05-29 14:03:29] INFO root fetch - main [MainThread]: End processing [alibabacloud-gateway-pop]: success
+[2024-05-29 14:03:29] INFO root fetch - processPackages [tweets-to-topic-network]: Remove: archive file [/home/abi/fetcher/tmp/tweets_to_topic_network-0.1.4.tar.gz]
+[2024-05-29 14:03:29] INFO root fetch - processPackages [tweets-to-topic-network]: Remove: archive file [/home/abi/fetcher/tmp/tweets_to_topic_network-0.1.5.tar.gz]
+[2024-05-29 14:03:29] INFO root fetch - main [MainThread]: End processing [tweets-to-topic-network]: success
+[2024-05-29 14:03:29] INFO root fetch - processPackages [alibabacloud-gateway-pop-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gateway_pop_py2-0.0.3.tar.gz]
+[2024-05-29 14:03:29] INFO root fetch - processPackages [alibabacloud-gateway-pop-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gateway_pop_py2-0.0.4.tar.gz]
+[2024-05-29 14:03:29] INFO root fetch - main [MainThread]: End processing [alibabacloud-gateway-pop-py2]: success
+[2024-05-29 14:03:29] INFO root fetch - processPackages [osbot-aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-2.6.0.tar.gz]
+[2024-05-29 14:03:29] INFO root fetch - processPackages [osbot-aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-2.7.0.tar.gz]
+[2024-05-29 14:03:29] INFO root fetch - main [MainThread]: End processing [osbot-aws]: success
+[2024-05-29 14:03:30] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-29 14:03:30] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-29 14:03:30] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-29 14:03:31] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.4.tar.gz]
+[2024-05-29 14:03:31] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
+[2024-05-29 14:03:31] INFO root fetch - main [MainThread]: End processing [metal-python]: success
+[2024-05-29 14:03:31] INFO root fetch - main [MainThread]: Store serial: [23429200]
