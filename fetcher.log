@@ -18701,3 +18701,69 @@
 [2024-05-29 12:32:23] INFO root fetch - processPackages [bitfount]: Remove: archive file [/home/abi/fetcher/tmp/bitfount-0.9.5.tar.gz]
 [2024-05-29 12:32:23] INFO root fetch - main [MainThread]: End processing [bitfount]: success
 [2024-05-29 12:32:23] INFO root fetch - main [MainThread]: Store serial: [23428288]
+[2024-05-29 12:34:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428288]
+[2024-05-29 12:34:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: safeaipackage
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocsi
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyanglianwater
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datacontract
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-dbchat
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ArcDLNexus
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ArcDLNexus]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 12:34:32] INFO root fetch - processPackages [mkdocsi]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-05-29 12:34:32] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-29 12:34:32] INFO root fetch - processPackages [safeaipackage]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-29 12:34:32] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/aa/b0/a202d828cb29dded2c700c865efb8d0743dbf868c1b6a05d66f84eba7518/mkdocsi-1.3.9.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [datacontract]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-29 12:34:32] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-29 12:34:32] INFO root fetch - processPackages [pyanglianwater]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ArcDLNexus]: Downloading https://files.pythonhosted.org/packages/08/a1/baca4fb1a8c7657da21d29172e97ff4905b52647f75821216c130e55e79c/arcdlnexus-0.1.0.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/b0/3b/a64e68c53d773a6ab5a350db4af58ea593cdf6465b5243f937a2de106f83/pyrt_lib_rasmusklitgaard-0.4.8.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [safeaipackage]: Downloading https://files.pythonhosted.org/packages/64/9c/872ccde1a226385d1c61a19ec9cca051dc61c0a023f4df74ac4c4c71a59c/safeaipackage-0.4.1.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [datacontract]: Downloading https://files.pythonhosted.org/packages/a3/ad/683dfce467661588207500d7933514634568b80e7e818d751e49aa3eeb7a/datacontract-0.0.1.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [pyanglianwater]: Downloading https://files.pythonhosted.org/packages/77/d9/d598dda31d10cef8cfc028ce03964da09f1b2dece60b26444ca3c0d261fe/pyanglianwater-0.3.0.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/ce/65/2b2ed605c460d6951f0ec86b33f71a2b83a1c297551a5b33c49ef02ba3fc/mkdocsi-1.4.0.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/2a/e7/25f2f7c22a9735e928cdf1c78957d63cb329e39a301e55b6fb60af3695f6/pyrt_lib_rasmusklitgaard-0.4.9.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 12:34:32] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.3.9.tar.gz tmp/mkdocsi-1.4.0.tar.gz --markdown 20240529/m/mkdocsi/1.3.9-1.4.0/README.md --exclude *.pyd
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ArcDLNexus]: Downloading https://files.pythonhosted.org/packages/da/a3/161aebd21ea609777a5634ef2a70d9cb6d42b0f888a25b57317684356598/arcdlnexus-0.1.1.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [safeaipackage]: Downloading https://files.pythonhosted.org/packages/cd/11/17b66905bb5e0b4f91bf0f9bd5d8b6d280323511eb1bebfbdf356113cbde/safeaipackage-0.5.0.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-05-29 12:34:32] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.4.8.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.4.9.tar.gz --markdown 20240529/p/pyrt-lib-rasmusklitgaard/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-29 12:34:32] INFO root fetch - processPackages [datacontract]: Downloading https://files.pythonhosted.org/packages/a7/8b/8618b261f47ab3a503f5b920fa4d8db511f9005b0c91e0ba639d2c355a8f/datacontract-0.1.0.tar.gz
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ArcDLNexus]: executing diffoscope
+[2024-05-29 12:34:32] INFO root fetch - processPackages [ArcDLNexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcdlnexus-0.1.0.tar.gz tmp/arcdlnexus-0.1.1.tar.gz --markdown 20240529/A/ArcDLNexus/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 12:34:32] INFO root fetch - processPackages [pyanglianwater]: Downloading https://files.pythonhosted.org/packages/28/04/1b91211345b4fb2b9cf991839678a8c0c2c1f359db460f58d881421d7596/pyanglianwater-0.3.1.tar.gz
+[2024-05-29 12:34:33] INFO root fetch - processPackages [datacontract]: executing diffoscope
+[2024-05-29 12:34:33] INFO root fetch - processPackages [datacontract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacontract-0.0.1.tar.gz tmp/datacontract-0.1.0.tar.gz --markdown 20240529/d/datacontract/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-29 12:34:33] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-29 12:34:33] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240529/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-29 12:34:33] INFO root fetch - processPackages [safeaipackage]: executing diffoscope
+[2024-05-29 12:34:33] INFO root fetch - processPackages [safeaipackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeaipackage-0.4.1.tar.gz tmp/safeaipackage-0.5.0.tar.gz --markdown 20240529/s/safeaipackage/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-29 12:34:33] INFO root fetch - processPackages [pyanglianwater]: executing diffoscope
+[2024-05-29 12:34:33] INFO root fetch - processPackages [pyanglianwater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanglianwater-0.3.0.tar.gz tmp/pyanglianwater-0.3.1.tar.gz --markdown 20240529/p/pyanglianwater/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-29 12:34:33] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.9.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.4.0.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 12:34:33] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.4.8.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.4.9.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-05-29 12:34:33] INFO root fetch - processPackages [datacontract]: Remove: archive file [/home/abi/fetcher/tmp/datacontract-0.0.1.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - processPackages [datacontract]: Remove: archive file [/home/abi/fetcher/tmp/datacontract-0.1.0.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - main [MainThread]: End processing [datacontract]: success
+[2024-05-29 12:34:33] INFO root fetch - processPackages [safeaipackage]: Remove: archive file [/home/abi/fetcher/tmp/safeaipackage-0.4.1.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - processPackages [safeaipackage]: Remove: archive file [/home/abi/fetcher/tmp/safeaipackage-0.5.0.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - main [MainThread]: End processing [safeaipackage]: success
+[2024-05-29 12:34:33] INFO root fetch - processPackages [ArcDLNexus]: Remove: archive file [/home/abi/fetcher/tmp/arcdlnexus-0.1.0.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - processPackages [ArcDLNexus]: Remove: archive file [/home/abi/fetcher/tmp/arcdlnexus-0.1.1.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - main [MainThread]: End processing [ArcDLNexus]: success
+[2024-05-29 12:34:33] INFO root fetch - processPackages [pyanglianwater]: Remove: archive file [/home/abi/fetcher/tmp/pyanglianwater-0.3.0.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - processPackages [pyanglianwater]: Remove: archive file [/home/abi/fetcher/tmp/pyanglianwater-0.3.1.tar.gz]
+[2024-05-29 12:34:33] INFO root fetch - main [MainThread]: End processing [pyanglianwater]: success
+[2024-05-29 12:34:34] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-29 12:34:34] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-29 12:34:34] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-29 12:34:34] INFO root fetch - main [MainThread]: Store serial: [23428309]
