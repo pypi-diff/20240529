@@ -8754,3 +8754,51 @@
 [2024-05-29 05:34:06] WARNING root fetch - processPackages [fluidstack]: Skipping, unable to determine old version
 [2024-05-29 05:34:06] INFO root fetch - main [MainThread]: End processing [fluidstack] error
 [2024-05-29 05:34:06] INFO root fetch - main [MainThread]: Store serial: [23423614]
+[2024-05-29 05:36:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423614]
+[2024-05-29 05:36:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 05:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypothesis
+[2024-05-29 05:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vgis-spider
+[2024-05-29 05:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muttfuzz
+[2024-05-29 05:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-repository-loader
+[2024-05-29 05:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphpca
+[2024-05-29 05:36:15] INFO root fetch - processPackages [vgis-spider]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-29 05:36:15] INFO root fetch - processPackages [muttfuzz]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-29 05:36:15] INFO root fetch - processPackages [graphpca]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-29 05:36:15] INFO root fetch - processPackages [hypothesis]: New version: [6.99.9] Old Version: [6.99.8]
+[2024-05-29 05:36:15] INFO root fetch - processPackages [gpt-repository-loader]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 05:36:15] INFO root fetch - processPackages [vgis-spider]: Downloading https://files.pythonhosted.org/packages/2b/0b/3e9185559a77b3acdf30d7a7dca93daf9890d69b3d8a9a812e45c90bb149/vgis_spider-1.1.3.tar.gz
+[2024-05-29 05:36:15] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/93/65/2da87375a028de379319d48e16524784f5382a7ccc9f6204961afe89ee40/muttfuzz-0.8.2-py3-none-any.whl
+[2024-05-29 05:36:15] INFO root fetch - processPackages [graphpca]: Downloading https://files.pythonhosted.org/packages/54/d3/7aef1cc9637a8c129c16254094a1ec75e7504c9bf3fef6f3cb9558f1daeb/graphpca-1.0.0.tar.gz
+[2024-05-29 05:36:15] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/d0/49/c41dfc6bca0eb0af93b2ecef16e99aa41f9a25e4bed45bfc37cb97018f93/hypothesis-6.99.8.tar.gz
+[2024-05-29 05:36:15] INFO root fetch - processPackages [gpt-repository-loader]: Downloading https://files.pythonhosted.org/packages/c7/33/206b9cdc41c9454097bc360d3d531188b8e784eb278f70afd660efe9a7ae/gpt-repository-loader-0.9.0.tar.gz
+[2024-05-29 05:36:15] INFO root fetch - processPackages [vgis-spider]: Downloading https://files.pythonhosted.org/packages/78/1c/21336a2063217d15415d1a267a5c87557b30deff2e41862ac8920221a657/vgis_spider-1.1.4.tar.gz
+[2024-05-29 05:36:15] INFO root fetch - processPackages [graphpca]: Downloading https://files.pythonhosted.org/packages/47/04/094ef02010103e4ed54b91c79a864ffbdbc2f06ace543dc4da5241a59796/graphpca-1.1.0.tar.gz
+[2024-05-29 05:36:15] INFO root fetch - processPackages [vgis-spider]: executing diffoscope
+[2024-05-29 05:36:15] INFO root fetch - processPackages [vgis-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_spider-1.1.3.tar.gz tmp/vgis_spider-1.1.4.tar.gz --markdown 20240529/v/vgis-spider/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-29 05:36:15] INFO root fetch - processPackages [graphpca]: executing diffoscope
+[2024-05-29 05:36:15] INFO root fetch - processPackages [graphpca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphpca-1.0.0.tar.gz tmp/graphpca-1.1.0.tar.gz --markdown 20240529/g/graphpca/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-29 05:36:15] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/e9/3a/2198c090a89db2383325000b7428c99bdea49dcb3e311d2cf33e46c912d2/muttfuzz-0.8.3-py3-none-any.whl
+[2024-05-29 05:36:16] INFO root fetch - processPackages [gpt-repository-loader]: Downloading https://files.pythonhosted.org/packages/4a/e9/00f7b20f8e923760f4874861af6cfc4be1021cbe555cd3759c06ca7992e7/gpt-repository-loader-0.9.1.tar.gz
+[2024-05-29 05:36:16] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-05-29 05:36:16] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.8.2-py3-none-any.whl.zip tmp/muttfuzz-0.8.3-py3-none-any.whl.zip --markdown 20240529/m/muttfuzz/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-29 05:36:16] INFO root fetch - processPackages [gpt-repository-loader]: executing diffoscope
+[2024-05-29 05:36:16] INFO root fetch - processPackages [gpt-repository-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-repository-loader-0.9.0.tar.gz tmp/gpt-repository-loader-0.9.1.tar.gz --markdown 20240529/g/gpt-repository-loader/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-29 05:36:16] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/ac/92/326716e57f625acc4f38608fd73f88985561fd58ee6df19d44230d70bba0/hypothesis-6.99.9.tar.gz
+[2024-05-29 05:36:16] INFO root fetch - processPackages [vgis-spider]: Remove: archive file [/home/abi/fetcher/tmp/vgis_spider-1.1.3.tar.gz]
+[2024-05-29 05:36:16] INFO root fetch - processPackages [vgis-spider]: Remove: archive file [/home/abi/fetcher/tmp/vgis_spider-1.1.4.tar.gz]
+[2024-05-29 05:36:16] INFO root fetch - main [MainThread]: End processing [vgis-spider]: success
+[2024-05-29 05:36:16] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2024-05-29 05:36:16] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.99.8.tar.gz tmp/hypothesis-6.99.9.tar.gz --markdown 20240529/h/hypothesis/6.99.8-6.99.9/README.md --exclude *.pyd
+[2024-05-29 05:36:16] INFO root fetch - processPackages [graphpca]: Remove: archive file [/home/abi/fetcher/tmp/graphpca-1.0.0.tar.gz]
+[2024-05-29 05:36:16] INFO root fetch - processPackages [graphpca]: Remove: archive file [/home/abi/fetcher/tmp/graphpca-1.1.0.tar.gz]
+[2024-05-29 05:36:16] INFO root fetch - main [MainThread]: End processing [graphpca]: success
+[2024-05-29 05:36:16] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.2-py3-none-any.whl.zip]
+[2024-05-29 05:36:16] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.3-py3-none-any.whl.zip]
+[2024-05-29 05:36:16] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-05-29 05:36:16] INFO root fetch - processPackages [gpt-repository-loader]: Remove: archive file [/home/abi/fetcher/tmp/gpt-repository-loader-0.9.0.tar.gz]
+[2024-05-29 05:36:16] INFO root fetch - processPackages [gpt-repository-loader]: Remove: archive file [/home/abi/fetcher/tmp/gpt-repository-loader-0.9.1.tar.gz]
+[2024-05-29 05:36:16] INFO root fetch - main [MainThread]: End processing [gpt-repository-loader]: success
+[2024-05-29 05:36:17] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.99.8.tar.gz]
+[2024-05-29 05:36:17] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.99.9.tar.gz]
+[2024-05-29 05:36:17] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2024-05-29 05:36:17] INFO root fetch - main [MainThread]: Store serial: [23423628]
