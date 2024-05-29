@@ -7585,3 +7585,15 @@
 [2024-05-29 04:18:14] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.9.tar.gz]
 [2024-05-29 04:18:14] INFO root fetch - main [MainThread]: End processing [pennylane-kq]: success
 [2024-05-29 04:18:14] INFO root fetch - main [MainThread]: Store serial: [23423166]
+[2024-05-29 04:20:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423166]
+[2024-05-29 04:20:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 04:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-cloudapp-frame
+[2024-05-29 04:20:23] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-29 04:20:23] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-29 04:20:23] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-29 04:20:23] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-29 04:20:23] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240529/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-29 04:20:25] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-29 04:20:25] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-29 04:20:25] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-29 04:20:25] INFO root fetch - main [MainThread]: Store serial: [23423171]
