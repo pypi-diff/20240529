@@ -12507,3 +12507,93 @@
 [2024-05-29 08:47:24] INFO root fetch - processPackages [confattr]: Remove: archive file [/home/abi/fetcher/tmp/confattr-1.6.1.tar.gz]
 [2024-05-29 08:47:24] INFO root fetch - main [MainThread]: End processing [confattr]: success
 [2024-05-29 08:47:24] INFO root fetch - main [MainThread]: Store serial: [23425171]
+[2024-05-29 08:49:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425171]
+[2024-05-29 08:49:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-29 08:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sf-heu
+[2024-05-29 08:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-tailscale
+[2024-05-29 08:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-tier-validation
+[2024-05-29 08:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: afeng-py-tools
+[2024-05-29 08:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clinvar-this
+[2024-05-29 08:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-rancher2
+[2024-05-29 08:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-base-rule-visibility-restriction
+[2024-05-29 08:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-server-ux
+[2024-05-29 08:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: epyk
+[2024-05-29 08:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vns-explorer
+[2024-05-29 08:49:35] INFO root fetch - processPackages [clinvar-this]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 08:49:35] WARNING root fetch - processPackages [vns-explorer]: Skipping, unable to determine old version
+[2024-05-29 08:49:35] INFO root fetch - processPackages [vns-explorer]: Start processing: w3ml
+[2024-05-29 08:49:35] INFO root fetch - main [MainThread]: End processing [vns-explorer] error
+[2024-05-29 08:49:35] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 08:49:35] INFO root fetch - processPackages [epyk]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-29 08:49:35] WARNING root fetch - processPackages [w3ml]: Skipping, unable to determine old version
+[2024-05-29 08:49:35] INFO root fetch - main [MainThread]: End processing [w3ml] error
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addon-base-rule-visibility-restriction]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-05-29 08:49:35] INFO root fetch - processPackages [clinvar-this]: Downloading https://files.pythonhosted.org/packages/92/dd/adb9732c07e53d7480023492ef32db0b94046095bc789a51e02ee77a502a/clinvar-this-0.8.0.tar.gz
+[2024-05-29 08:49:35] INFO root fetch - processPackages [sf-heu]: New version: [0.6.0.dev20240529] Old Version: [0.6.0.dev0]
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20240528.0] Old Version: [16.0.20240518.0]
+[2024-05-29 08:49:35] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-05-29 08:49:35] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1716963242] Old Version: [6.2.0a1716512649]
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [17.0.1.5.1.2] Old Version: [17.0.1.5.1.1]
+[2024-05-29 08:49:35] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-29 08:49:35] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/2b/b7/d8534d999b9d58a4412b4db34fefcdfbe6c581e844864d76492fdcb43548/epyk-1.9.8-py3-none-any.whl
+[2024-05-29 08:49:35] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addon-base-rule-visibility-restriction]: Downloading https://files.pythonhosted.org/packages/56/94/22684674f0886c2da0f1e0a47b34d30835668c8f1ec10c96235b0ca38a78/odoo_addon_base_rule_visibility_restriction-16.0.1.0.0.1-py3-none-any.whl
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/18/d0/7e9cb3a10ae6c420ce4904cf26d54b865f0be663ba3b132ad9ea24cba986/odoo_addons_oca_server_ux-16.0.20240518.0-py3-none-any.whl
+[2024-05-29 08:49:35] INFO root fetch - processPackages [sf-heu]: Downloading https://files.pythonhosted.org/packages/2d/6f/317527f1b36d39255ee1a053e01c75e35893d3edb7731ef8efb27f3b1ec4/sf_heu-0.6.0.dev0-cp310-cp310-manylinux_2_28_aarch64.whl
+[2024-05-29 08:49:35] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/57/05/be979add4b361267d3473bafb386afebcc847588d243a4e0691c163dc14a/pulumi_rancher2-6.2.0a1716512649.tar.gz
+[2024-05-29 08:49:35] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/56/f1/54e5707b84be7467b9dcc3f4d64cf220d9a8b175ccbd115a40d28e073717/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl
+[2024-05-29 08:49:35] INFO root fetch - processPackages [clinvar-this]: Downloading https://files.pythonhosted.org/packages/96/12/05c118fa1e44d1d7496dbdfbfe8d91f7ddf24d30b25205020eb29ecf4ad2/clinvar-this-0.9.0.tar.gz
+[2024-05-29 08:49:35] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/16/be/cd2f93881ffe92a847a9cfff5f05b11b2f5cd93f2b1c552a7982a06aab4e/epyk-1.9.9-py3-none-any.whl
+[2024-05-29 08:49:35] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-29 08:49:35] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240529/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 08:49:35] INFO root fetch - processPackages [clinvar-this]: executing diffoscope
+[2024-05-29 08:49:35] INFO root fetch - processPackages [clinvar-this]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinvar-this-0.8.0.tar.gz tmp/clinvar-this-0.9.0.tar.gz --markdown 20240529/c/clinvar-this/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 08:49:35] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addon-base-rule-visibility-restriction]: Downloading https://files.pythonhosted.org/packages/97/48/63315d504392b8316e8d17e87c43044ce3c258bce165bf53be45e5b740fa/odoo_addon_base_rule_visibility_restriction-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/fa/e7/8dbfd0c4c7511f036dd9b45b95d3582c2ec22680f55521e121187fe75dd6/odoo_addons_oca_server_ux-16.0.20240528.0-py3-none-any.whl
+[2024-05-29 08:49:35] INFO root fetch - processPackages [epyk]: executing diffoscope
+[2024-05-29 08:49:35] INFO root fetch - processPackages [epyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyk-1.9.8-py3-none-any.whl.zip tmp/epyk-1.9.9-py3-none-any.whl.zip --markdown 20240529/e/epyk/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-29 08:49:35] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-05-29 08:49:35] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240529/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-05-29 08:49:35] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/bb/c3/42873f070442b528a1e89f8857fcbb4bddaedbac6800476cb9fdc9a6376e/pulumi_rancher2-6.2.0a1716963242.tar.gz
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/64/78/cff42998e5761f7a858fb7dd027d40b85cb82d87e122b390d7e95b76fbda/odoo_addon_base_tier_validation-17.0.1.5.1.2-py3-none-any.whl
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addon-base-rule-visibility-restriction]: executing diffoscope
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addon-base-rule-visibility-restriction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_rule_visibility_restriction-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_base_rule_visibility_restriction-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-base-rule-visibility-restriction/16.0.1.0.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2024-05-29 08:49:35] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20240518.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20240528.0-py3-none-any.whl.zip --markdown 20240529/o/odoo-addons-oca-server-ux/16.0.20240518.0-16.0.20240528.0/README.md --exclude *.pyd
+[2024-05-29 08:49:36] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2024-05-29 08:49:36] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-17.0.1.5.1.2-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-base-tier-validation/17.0.1.5.1.1-17.0.1.5.1.2/README.md --exclude *.pyd
+[2024-05-29 08:49:36] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-05-29 08:49:36] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1716512649.tar.gz tmp/pulumi_rancher2-6.2.0a1716963242.tar.gz --markdown 20240529/p/pulumi-rancher2/6.2.0a1716512649-6.2.0a1716963242/README.md --exclude *.pyd
+[2024-05-29 08:49:36] INFO root fetch - processPackages [sf-heu]: Downloading https://files.pythonhosted.org/packages/59/b3/5cd85115b6a814473bac6e223dcf566fd7ee012abd2fc22747cb4d6ac548/sf_heu-0.6.0.dev20240529-cp310-cp310-manylinux_2_28_aarch64.whl
+[2024-05-29 08:49:36] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-05-29 08:49:36] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-05-29 08:49:36] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-05-29 08:49:36] INFO root fetch - processPackages [clinvar-this]: Remove: archive file [/home/abi/fetcher/tmp/clinvar-this-0.8.0.tar.gz]
+[2024-05-29 08:49:36] INFO root fetch - processPackages [clinvar-this]: Remove: archive file [/home/abi/fetcher/tmp/clinvar-this-0.9.0.tar.gz]
+[2024-05-29 08:49:36] INFO root fetch - main [MainThread]: End processing [clinvar-this]: success
+[2024-05-29 08:49:36] INFO root fetch - processPackages [odoo-addon-base-rule-visibility-restriction]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_rule_visibility_restriction-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-29 08:49:36] INFO root fetch - processPackages [odoo-addon-base-rule-visibility-restriction]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_rule_visibility_restriction-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-29 08:49:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-rule-visibility-restriction]: success
+[2024-05-29 08:49:37] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl.zip]
+[2024-05-29 08:49:37] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.1.2-py3-none-any.whl.zip]
+[2024-05-29 08:49:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2024-05-29 08:49:37] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20240518.0-py3-none-any.whl.zip]
+[2024-05-29 08:49:37] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20240528.0-py3-none-any.whl.zip]
+[2024-05-29 08:49:37] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2024-05-29 08:49:37] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-29 08:49:37] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-29 08:49:37] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-29 08:49:37] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1716512649.tar.gz]
+[2024-05-29 08:49:37] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1716963242.tar.gz]
+[2024-05-29 08:49:37] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-05-29 08:49:37] INFO root fetch - processPackages [sf-heu]: executing diffoscope
+[2024-05-29 08:49:37] INFO root fetch - processPackages [sf-heu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf_heu-0.6.0.dev0-cp310-cp310-manylinux_2_28_aarch64.whl.zip tmp/sf_heu-0.6.0.dev20240529-cp310-cp310-manylinux_2_28_aarch64.whl.zip --markdown 20240529/s/sf-heu/0.6.0.dev0-0.6.0.dev20240529/README.md --exclude *.pyd
+[2024-05-29 08:49:38] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.8-py3-none-any.whl.zip]
+[2024-05-29 08:49:38] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
+[2024-05-29 08:49:38] INFO root fetch - main [MainThread]: End processing [epyk]: success
+[2024-05-29 08:51:06] INFO root fetch - processPackages [sf-heu]: Remove: archive file [/home/abi/fetcher/tmp/sf_heu-0.6.0.dev0-cp310-cp310-manylinux_2_28_aarch64.whl.zip]
+[2024-05-29 08:51:06] INFO root fetch - processPackages [sf-heu]: Remove: archive file [/home/abi/fetcher/tmp/sf_heu-0.6.0.dev20240529-cp310-cp310-manylinux_2_28_aarch64.whl.zip]
+[2024-05-29 08:51:06] INFO root fetch - main [MainThread]: End processing [sf-heu]: success
+[2024-05-29 08:51:06] INFO root fetch - main [MainThread]: Store serial: [23425202]
