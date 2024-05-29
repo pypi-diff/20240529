@@ -8748,3 +8748,9 @@
 [2024-05-29 05:31:58] INFO root fetch - processPackages [bribrain]: Remove: archive file [/home/abi/fetcher/tmp/bribrain-1.0.5.tar.gz]
 [2024-05-29 05:31:58] INFO root fetch - main [MainThread]: End processing [bribrain]: success
 [2024-05-29 05:31:58] INFO root fetch - main [MainThread]: Store serial: [23423609]
+[2024-05-29 05:34:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423609]
+[2024-05-29 05:34:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 05:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fluidstack
+[2024-05-29 05:34:06] WARNING root fetch - processPackages [fluidstack]: Skipping, unable to determine old version
+[2024-05-29 05:34:06] INFO root fetch - main [MainThread]: End processing [fluidstack] error
+[2024-05-29 05:34:06] INFO root fetch - main [MainThread]: Store serial: [23423614]
