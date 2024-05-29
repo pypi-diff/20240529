@@ -12597,3 +12597,114 @@
 [2024-05-29 08:51:06] INFO root fetch - processPackages [sf-heu]: Remove: archive file [/home/abi/fetcher/tmp/sf_heu-0.6.0.dev20240529-cp310-cp310-manylinux_2_28_aarch64.whl.zip]
 [2024-05-29 08:51:06] INFO root fetch - main [MainThread]: End processing [sf-heu]: success
 [2024-05-29 08:51:06] INFO root fetch - main [MainThread]: Store serial: [23425202]
+[2024-05-29 08:53:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425202]
+[2024-05-29 08:53:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-29 08:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-splunk
+[2024-05-29 08:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-tls
+[2024-05-29 08:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sensord
+[2024-05-29 08:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-snowflake
+[2024-05-29 08:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: extruct
+[2024-05-29 08:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyiskra
+[2024-05-29 08:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-mail-gateway
+[2024-05-29 08:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-sumologic
+[2024-05-29 08:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-mail-tracking
+[2024-05-29 08:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: guan
+[2024-05-29 08:53:24] INFO root fetch - processPackages [odoo-addon-mail-gateway]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-29 08:53:24] WARNING root fetch - processPackages [sensord]: Skipping, unable to determine old version
+[2024-05-29 08:53:24] INFO root fetch - processPackages [sensord]: Start processing: pulumi-spotinst
+[2024-05-29 08:53:24] INFO root fetch - main [MainThread]: End processing [sensord] error
+[2024-05-29 08:53:24] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [16.0.1.0.4.8] Old Version: [16.0.1.0.4.69]
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pyiskra]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1716964117] Old Version: [5.1.0a1716513054]
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1716963716] Old Version: [1.3.0a1716513058]
+[2024-05-29 08:53:24] INFO root fetch - processPackages [odoo-addon-mail-gateway]: Downloading https://files.pythonhosted.org/packages/c3/ca/26963139987cdf340ffc14ddc92b430757f41031534a983aa881fea94f13/odoo_addon_mail_gateway-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-29 08:53:24] INFO root fetch - processPackages [extruct]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 08:53:24] INFO root fetch - processPackages [guan]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-29 08:53:24] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/f9/f9/38e28e6da24765240b12956f4ee860d40984a8c5ca70b6f857830cc08104/odoo_addon_mail_tracking-16.0.1.0.4.69-py3-none-any.whl
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pyiskra]: Downloading https://files.pythonhosted.org/packages/20/28/a4245602c7af81e28fd6b8febe5ff4066d2f1e3781868e6e23a270ea479b/pyiskra-1.0.0.tar.gz
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/ad/af/efaf9d9bbceee67f019063a964751be16ebcc904b479662d24f642f00265/pulumi_tls-5.1.0a1716513054.tar.gz
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/2d/e5/b78b9f6889ed1b4f4f955f7b89d3a9b817bbe057db9d3087415e515e7505/pulumi_splunk-1.3.0a1716513058.tar.gz
+[2024-05-29 08:53:24] INFO root fetch - processPackages [extruct]: Downloading https://files.pythonhosted.org/packages/0a/00/626eb7b1c121fe2dab32f65176b456014fd7096ea7dbae474c31159ddecd/extruct-0.8.0.tar.gz
+[2024-05-29 08:53:24] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/83/e1/6b686ecb9b6d4816a6835f0fe2c00899526ca31fe7fe9fb3a31f123331f3/guan-0.1.98.tar.gz
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pyiskra]: Downloading https://files.pythonhosted.org/packages/9b/72/a3cdc76902d3973765374ee6624c7671b5c40ba69809a772b8d1223b0dce/pyiskra-1.0.1.tar.gz
+[2024-05-29 08:53:24] INFO root fetch - processPackages [odoo-addon-mail-gateway]: Downloading https://files.pythonhosted.org/packages/41/af/892653247b4679dd3a5ca6ab90e1a3ccaa39987a06bebad4e33069f7240f/odoo_addon_mail_gateway-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-05-29 08:53:24] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pyiskra]: executing diffoscope
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pyiskra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiskra-1.0.0.tar.gz tmp/pyiskra-1.0.1.tar.gz --markdown 20240529/p/pyiskra/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 08:53:25] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/a9/b5/fe980727422eb439e605ad729f40089261801552e5074675cce97c3dbd4f/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl
+[2024-05-29 08:53:25] INFO root fetch - processPackages [odoo-addon-mail-gateway]: executing diffoscope
+[2024-05-29 08:53:25] INFO root fetch - processPackages [odoo-addon-mail-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_gateway-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mail_gateway-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-mail-gateway/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/83/84/c21862eeee0fb2f256ec7c3c0675c330c164be15e4f53d02677203c8d0b1/pulumi_tls-5.1.0a1716964117.tar.gz
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/75/0c/ecfaab3c79f0011127f9b6c69b3fccd769918034bac371e9da56ef7d7d1c/pulumi_splunk-1.3.0a1716963716.tar.gz
+[2024-05-29 08:53:25] INFO root fetch - processPackages [extruct]: Downloading https://files.pythonhosted.org/packages/ed/13/620454e44500ad1f75a36c8904e62c4ada5bbf8e7e6ff8dcdaa05a9059cf/extruct-0.9.0.tar.gz
+[2024-05-29 08:53:25] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2024-05-29 08:53:25] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-16.0.1.0.4.69-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-mail-tracking/16.0.1.0.4.69-16.0.1.0.4.8/README.md --exclude *.pyd
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-29 08:53:25] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/23/9b/7e086c2a15515ecf196da0393766200ec49ac8a52033424da629a3b9055e/guan-0.1.99.tar.gz
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1716513054.tar.gz tmp/pulumi_tls-5.1.0a1716964117.tar.gz --markdown 20240529/p/pulumi-tls/5.1.0a1716513054-5.1.0a1716964117/README.md --exclude *.pyd
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1716513058.tar.gz tmp/pulumi_splunk-1.3.0a1716963716.tar.gz --markdown 20240529/p/pulumi-splunk/1.3.0a1716513058-1.3.0a1716963716/README.md --exclude *.pyd
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240529/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-29 08:53:25] INFO root fetch - processPackages [guan]: executing diffoscope
+[2024-05-29 08:53:25] INFO root fetch - processPackages [guan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guan-0.1.98.tar.gz tmp/guan-0.1.99.tar.gz --markdown 20240529/g/guan/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-05-29 08:53:25] INFO root fetch - processPackages [extruct]: executing diffoscope
+[2024-05-29 08:53:25] INFO root fetch - processPackages [extruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extruct-0.8.0.tar.gz tmp/extruct-0.9.0.tar.gz --markdown 20240529/e/extruct/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240529/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240529/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pyiskra]: Remove: archive file [/home/abi/fetcher/tmp/pyiskra-1.0.0.tar.gz]
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pyiskra]: Remove: archive file [/home/abi/fetcher/tmp/pyiskra-1.0.1.tar.gz]
+[2024-05-29 08:53:25] INFO root fetch - processPackages [pyiskra]: Start processing: torch-cosine-annealing
+[2024-05-29 08:53:25] INFO root fetch - main [MainThread]: End processing [pyiskra]: success
+[2024-05-29 08:53:26] WARNING root fetch - processPackages [torch-cosine-annealing]: Skipping, unable to determine old version
+[2024-05-29 08:53:26] INFO root fetch - processPackages [torch-cosine-annealing]: Start processing: baostockhelloworld
+[2024-05-29 08:53:26] INFO root fetch - main [MainThread]: End processing [torch-cosine-annealing] error
+[2024-05-29 08:53:26] INFO root fetch - processPackages [odoo-addon-mail-gateway]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_gateway-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-29 08:53:26] INFO root fetch - processPackages [odoo-addon-mail-gateway]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_gateway-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-29 08:53:26] INFO root fetch - processPackages [odoo-addon-mail-gateway]: Start processing: pulumi-venafi
+[2024-05-29 08:53:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-gateway]: success
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1716513054.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1716964117.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-29 08:53:26] WARNING root fetch - processPackages [baostockhelloworld]: Skipping, unable to determine old version
+[2024-05-29 08:53:26] INFO root fetch - main [MainThread]: End processing [baostockhelloworld] error
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.9.0a1713292049] Old Version: [1.9.0a1712991486]
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1716513058.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1716963716.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2024-05-29 08:53:26] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.98.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.99.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - main [MainThread]: End processing [guan]: success
+[2024-05-29 08:53:26] INFO root fetch - processPackages [extruct]: Remove: archive file [/home/abi/fetcher/tmp/extruct-0.8.0.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - processPackages [extruct]: Remove: archive file [/home/abi/fetcher/tmp/extruct-0.9.0.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - main [MainThread]: End processing [extruct]: success
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/d4/ba/b7bda1ab1fe8291faacca84d278acd6abaf9f99bfd9ed88965e8fcc7d6af/pulumi_venafi-1.9.0a1712991486.tar.gz
+[2024-05-29 08:53:26] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.69-py3-none-any.whl.zip]
+[2024-05-29 08:53:26] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip]
+[2024-05-29 08:53:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-05-29 08:53:26] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-05-29 08:53:27] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/db/01/dcb11920f0787807e87c2c697ce7f79b7068f63cdc9de29171958916432b/pulumi_venafi-1.9.0a1713292049.tar.gz
+[2024-05-29 08:53:27] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-05-29 08:53:27] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.9.0a1712991486.tar.gz tmp/pulumi_venafi-1.9.0a1713292049.tar.gz --markdown 20240529/p/pulumi-venafi/1.9.0a1712991486-1.9.0a1713292049/README.md --exclude *.pyd
+[2024-05-29 08:53:27] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1712991486.tar.gz]
+[2024-05-29 08:53:27] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
+[2024-05-29 08:53:27] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-05-29 08:53:27] INFO root fetch - main [MainThread]: Store serial: [23425249]
