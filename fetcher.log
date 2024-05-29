@@ -14868,3 +14868,42 @@
 [2024-05-29 10:29:13] INFO root fetch - processPackages [ARCtrl]: Remove: archive file [/home/abi/fetcher/tmp/arctrl-2.0.0a4.tar.gz]
 [2024-05-29 10:29:13] INFO root fetch - main [MainThread]: End processing [ARCtrl]: success
 [2024-05-29 10:29:13] INFO root fetch - main [MainThread]: Store serial: [23426396]
+[2024-05-29 10:31:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426396]
+[2024-05-29 10:31:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 10:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itkdb-gtk
+[2024-05-29 10:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agricore_sp_models
+[2024-05-29 10:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragon-baseline
+[2024-05-29 10:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyproject-creator
+[2024-05-29 10:31:22] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-29 10:31:22] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-05-29 10:31:22] INFO root fetch - processPackages [dragon-baseline]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-29 10:31:22] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.9.1.dev1] Old Version: [0.9.0]
+[2024-05-29 10:31:22] INFO root fetch - processPackages [pyproject-creator]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-29 10:31:22] INFO root fetch - processPackages [dragon-baseline]: Downloading https://files.pythonhosted.org/packages/fd/4d/527d3b92771ebd4521ba177e945fefa93191dbe9f04c6ccc3929e3fe8201/dragon_baseline-0.2.1.tar.gz
+[2024-05-29 10:31:22] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/1a/b8/7833d7c1b2daafa9d6f24f8602ffcdba3f8ef0d826aa1c272cabd5e979af/itkdb_gtk-0.9.0.tar.gz
+[2024-05-29 10:31:22] INFO root fetch - processPackages [pyproject-creator]: Downloading https://files.pythonhosted.org/packages/5a/91/11b1ba98643f5b40fa916873fa5bab9d0cc96a4f5e8316d5e67a0b01782c/pyproject_creator-0.1.2.tar.gz
+[2024-05-29 10:31:22] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-05-29 10:31:22] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-05-29 10:31:22] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240529/a/agricore_sp_models/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-29 10:31:22] INFO root fetch - processPackages [dragon-baseline]: Downloading https://files.pythonhosted.org/packages/dc/8f/26cef37efdbbd98e3194e8990b91a18a5e8cbc5ec43c4b3d7da038342e1a/dragon_baseline-0.2.2.tar.gz
+[2024-05-29 10:31:22] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/13/a7/03d30164cba13b0c5f9cc41ec7d8e1db06d82f1e660a01ed20eaf8aa0a95/itkdb_gtk-0.9.1.dev1.tar.gz
+[2024-05-29 10:31:22] INFO root fetch - processPackages [pyproject-creator]: Downloading https://files.pythonhosted.org/packages/e9/89/d4e8f730cc0ae1330a401924ed88c251677e4b3101bbfcfb9676895c2ecc/pyproject_creator-0.2.0.tar.gz
+[2024-05-29 10:31:22] INFO root fetch - processPackages [dragon-baseline]: executing diffoscope
+[2024-05-29 10:31:22] INFO root fetch - processPackages [dragon-baseline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragon_baseline-0.2.1.tar.gz tmp/dragon_baseline-0.2.2.tar.gz --markdown 20240529/d/dragon-baseline/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-29 10:31:22] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2024-05-29 10:31:22] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.9.0.tar.gz tmp/itkdb_gtk-0.9.1.dev1.tar.gz --markdown 20240529/i/itkdb-gtk/0.9.0-0.9.1.dev1/README.md --exclude *.pyd
+[2024-05-29 10:31:23] INFO root fetch - processPackages [pyproject-creator]: executing diffoscope
+[2024-05-29 10:31:23] INFO root fetch - processPackages [pyproject-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_creator-0.1.2.tar.gz tmp/pyproject_creator-0.2.0.tar.gz --markdown 20240529/p/pyproject-creator/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-29 10:31:23] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-05-29 10:31:23] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-05-29 10:31:23] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-05-29 10:31:23] INFO root fetch - processPackages [dragon-baseline]: Remove: archive file [/home/abi/fetcher/tmp/dragon_baseline-0.2.1.tar.gz]
+[2024-05-29 10:31:23] INFO root fetch - processPackages [dragon-baseline]: Remove: archive file [/home/abi/fetcher/tmp/dragon_baseline-0.2.2.tar.gz]
+[2024-05-29 10:31:23] INFO root fetch - main [MainThread]: End processing [dragon-baseline]: success
+[2024-05-29 10:31:23] INFO root fetch - processPackages [pyproject-creator]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_creator-0.1.2.tar.gz]
+[2024-05-29 10:31:23] INFO root fetch - processPackages [pyproject-creator]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_creator-0.2.0.tar.gz]
+[2024-05-29 10:31:23] INFO root fetch - main [MainThread]: End processing [pyproject-creator]: success
+[2024-05-29 10:31:23] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.0.tar.gz]
+[2024-05-29 10:31:23] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.1.dev1.tar.gz]
+[2024-05-29 10:31:23] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2024-05-29 10:31:23] INFO root fetch - main [MainThread]: Store serial: [23426410]
