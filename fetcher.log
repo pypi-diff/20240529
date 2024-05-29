@@ -14189,3 +14189,48 @@
 [2024-05-29 10:01:55] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.5.tar.gz]
 [2024-05-29 10:01:55] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
 [2024-05-29 10:01:55] INFO root fetch - main [MainThread]: Store serial: [23425981]
+[2024-05-29 10:04:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425981]
+[2024-05-29 10:04:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 10:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudnetpy-qc
+[2024-05-29 10:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osbee
+[2024-05-29 10:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aTeam-PySparkLibrary
+[2024-05-29 10:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logisticbank
+[2024-05-29 10:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TenorGrabber
+[2024-05-29 10:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest_robotframework
+[2024-05-29 10:04:06] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-05-29 10:04:06] WARNING root fetch - processPackages [TenorGrabber]: Skipping, unable to determine old version
+[2024-05-29 10:04:06] INFO root fetch - main [MainThread]: End processing [TenorGrabber] error
+[2024-05-29 10:04:06] INFO root fetch - processPackages [osbee]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-29 10:04:06] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/db/d6/437e8c1503adb9edb4b8221139137dbeb690bf51b3dd792be02a14e4d82f/cloudnetpy_qc-1.9.4.tar.gz
+[2024-05-29 10:04:06] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 10:04:06] WARNING root fetch - processPackages [logisticbank]: Skipping, unable to determine old version
+[2024-05-29 10:04:06] INFO root fetch - main [MainThread]: End processing [logisticbank] error
+[2024-05-29 10:04:06] INFO root fetch - processPackages [pytest_robotframework]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-05-29 10:04:06] INFO root fetch - processPackages [osbee]: Downloading https://files.pythonhosted.org/packages/5b/d7/e527b0920a173d850f54ea2d0c21197308acd0c71d3bda2aef0d0956bbbc/osbee-0.1.1.tar.gz
+[2024-05-29 10:04:06] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/2b/37/8700176a21e67e769e2ce546f74d753adeb243a4497dcb1bd3859a131986/cloudnetpy_qc-1.9.5.tar.gz
+[2024-05-29 10:04:06] INFO root fetch - processPackages [pytest_robotframework]: Downloading https://files.pythonhosted.org/packages/a4/8b/d0dce2a77c5d9486c19e54572bfbcca6480f842502644d5b08ad613b0517/pytest_robotframework-4.2.0.tar.gz
+[2024-05-29 10:04:06] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-05-29 10:04:06] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2024-05-29 10:04:06] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.4.tar.gz tmp/cloudnetpy_qc-1.9.5.tar.gz --markdown 20240529/c/cloudnetpy-qc/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-05-29 10:04:06] INFO root fetch - processPackages [osbee]: Downloading https://files.pythonhosted.org/packages/12/45/52325f75130ca529abe6224d8b956a985c3fad7002d91ba9ef7d332a0d7d/osbee-0.2.0.tar.gz
+[2024-05-29 10:04:06] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-05-29 10:04:06] INFO root fetch - processPackages [pytest_robotframework]: Downloading https://files.pythonhosted.org/packages/2f/03/ade92463293dfc394f987dda898d717d3863935ac768962155e439cee9bf/pytest_robotframework-4.2.1.tar.gz
+[2024-05-29 10:04:06] INFO root fetch - processPackages [osbee]: executing diffoscope
+[2024-05-29 10:04:06] INFO root fetch - processPackages [osbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osbee-0.1.1.tar.gz tmp/osbee-0.2.0.tar.gz --markdown 20240529/o/osbee/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-29 10:04:06] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-05-29 10:04:06] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240529/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 10:04:07] INFO root fetch - processPackages [pytest_robotframework]: executing diffoscope
+[2024-05-29 10:04:07] INFO root fetch - processPackages [pytest_robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_robotframework-4.2.0.tar.gz tmp/pytest_robotframework-4.2.1.tar.gz --markdown 20240529/p/pytest_robotframework/4.2.0-4.2.1/README.md --exclude *.pyd
+[2024-05-29 10:04:07] INFO root fetch - processPackages [osbee]: Remove: archive file [/home/abi/fetcher/tmp/osbee-0.1.1.tar.gz]
+[2024-05-29 10:04:07] INFO root fetch - processPackages [osbee]: Remove: archive file [/home/abi/fetcher/tmp/osbee-0.2.0.tar.gz]
+[2024-05-29 10:04:07] INFO root fetch - main [MainThread]: End processing [osbee]: success
+[2024-05-29 10:04:07] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-05-29 10:04:07] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-05-29 10:04:07] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-05-29 10:04:07] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.4.tar.gz]
+[2024-05-29 10:04:07] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.5.tar.gz]
+[2024-05-29 10:04:07] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2024-05-29 10:04:07] INFO root fetch - processPackages [pytest_robotframework]: Remove: archive file [/home/abi/fetcher/tmp/pytest_robotframework-4.2.0.tar.gz]
+[2024-05-29 10:04:07] INFO root fetch - processPackages [pytest_robotframework]: Remove: archive file [/home/abi/fetcher/tmp/pytest_robotframework-4.2.1.tar.gz]
+[2024-05-29 10:04:07] INFO root fetch - main [MainThread]: End processing [pytest_robotframework]: success
+[2024-05-29 10:04:07] INFO root fetch - main [MainThread]: Store serial: [23426003]
