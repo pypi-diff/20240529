@@ -20301,3 +20301,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:34:39] INFO root fetch - processPackages [svectordb]: Remove: archive file [/home/abi/fetcher/tmp/svectordb-0.0.6.tar.gz]
 [2024-05-29 13:34:39] INFO root fetch - main [MainThread]: End processing [svectordb]: success
 [2024-05-29 13:34:39] INFO root fetch - main [MainThread]: Store serial: [23428911]
+[2024-05-29 13:36:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428911]
+[2024-05-29 13:36:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 13:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fs-tools
+[2024-05-29 13:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onchainpay-api
+[2024-05-29 13:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wllegal
+[2024-05-29 13:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unacatlib
+[2024-05-29 13:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyanfis
+[2024-05-29 13:36:48] INFO root fetch - processPackages [fs-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-29 13:36:48] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/cd/7d/60b5377d6e0c28706089218966fdda9c0adb2545f1788abc1f757801f8da/fs_tools-0.1.7.tar.gz
+[2024-05-29 13:36:48] INFO root fetch - processPackages [onchainpay-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 13:36:48] INFO root fetch - processPackages [unacatlib]: New version: [0.0.83] Old Version: [0.0.82]
+[2024-05-29 13:36:48] INFO root fetch - processPackages [wllegal]: New version: [2024.1] Old Version: [2023.5]
+[2024-05-29 13:36:48] INFO root fetch - processPackages [pyanfis]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-29 13:36:49] INFO root fetch - processPackages [onchainpay-api]: Downloading https://files.pythonhosted.org/packages/0b/6c/69ad8a59a5e492b6f3ce17bcd81393257e2b0201eba3c979ffadab346f37/onchainpay_api-0.0.3.tar.gz
+[2024-05-29 13:36:49] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/28/68/2e927cedf3c9becd324384e9155b1b7daa05fdc2b3df96c1c8cad882c9a8/fs_tools-0.1.8.tar.gz
+[2024-05-29 13:36:49] INFO root fetch - processPackages [wllegal]: Downloading https://files.pythonhosted.org/packages/f8/fa/d7e06077c931f9d4ff4394588273b809b377a7ea55a63bd99482dc8ed30d/wllegal-2023.5.tar.gz
+[2024-05-29 13:36:49] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/64/3f/bd9ffada447a4c75d1ee038007d8bb8333e16e221a2c3499bd55a1a0836b/unacatlib-0.0.82-py2.py3-none-any.whl
+[2024-05-29 13:36:49] INFO root fetch - processPackages [pyanfis]: Downloading https://files.pythonhosted.org/packages/82/20/c395c908b484e47aa15ab14e18c38dd176751a37df9162ee1602b9f04e07/pyanfis-0.1.5.tar.gz
+[2024-05-29 13:36:49] INFO root fetch - processPackages [fs-tools]: executing diffoscope
+[2024-05-29 13:36:49] INFO root fetch - processPackages [fs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs_tools-0.1.7.tar.gz tmp/fs_tools-0.1.8.tar.gz --markdown 20240529/f/fs-tools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-29 13:36:49] INFO root fetch - processPackages [onchainpay-api]: Downloading https://files.pythonhosted.org/packages/8f/5b/dc0a55242b8b8574a129c860caf114a3a691ec3b99b435e97a7a4404fae3/onchainpay_api-0.0.4-py3-none-any.whl
+[2024-05-29 13:36:49] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/96/68/1f6ab9088895919564b3cb43e82198fe9e44345984412a2a088732b6b088/unacatlib-0.0.83-py2.py3-none-any.whl
+[2024-05-29 13:36:49] INFO root fetch - processPackages [pyanfis]: Downloading https://files.pythonhosted.org/packages/f5/8b/2f057375c1cc4c7d164d60cda482a8ab1387d78fc1aa52c44c71c1ff6be3/pyanfis-0.1.6.tar.gz
+[2024-05-29 13:36:49] INFO root fetch - processPackages [onchainpay-api]: executing diffoscope
+[2024-05-29 13:36:49] INFO root fetch - processPackages [onchainpay-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onchainpay_api-0.0.3.tar.gz tmp/onchainpay_api-0.0.4-py3-none-any.whl.zip --markdown 20240529/o/onchainpay-api/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 13:36:49] INFO root fetch - processPackages [pyanfis]: executing diffoscope
+[2024-05-29 13:36:49] INFO root fetch - processPackages [pyanfis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanfis-0.1.5.tar.gz tmp/pyanfis-0.1.6.tar.gz --markdown 20240529/p/pyanfis/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-29 13:36:49] INFO root fetch - processPackages [wllegal]: Downloading https://files.pythonhosted.org/packages/5b/82/2848372f4e326295a3189e3800229dfad27da74c23e2a97c6199fcd95fa7/wllegal-2024.1.tar.gz
+[2024-05-29 13:36:49] INFO root fetch - processPackages [unacatlib]: executing diffoscope
+[2024-05-29 13:36:49] INFO root fetch - processPackages [unacatlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unacatlib-0.0.82-py2.py3-none-any.whl.zip tmp/unacatlib-0.0.83-py2.py3-none-any.whl.zip --markdown 20240529/u/unacatlib/0.0.82-0.0.83/README.md --exclude *.pyd
+[2024-05-29 13:36:49] INFO root fetch - processPackages [wllegal]: executing diffoscope
+[2024-05-29 13:36:49] INFO root fetch - processPackages [wllegal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wllegal-2023.5.tar.gz tmp/wllegal-2024.1.tar.gz --markdown 20240529/w/wllegal/2023.5-2024.1/README.md --exclude *.pyd
+[2024-05-29 13:36:49] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.7.tar.gz]
+[2024-05-29 13:36:49] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.8.tar.gz]
+[2024-05-29 13:36:49] INFO root fetch - main [MainThread]: End processing [fs-tools]: success
+[2024-05-29 13:36:50] INFO root fetch - processPackages [pyanfis]: Remove: archive file [/home/abi/fetcher/tmp/pyanfis-0.1.5.tar.gz]
+[2024-05-29 13:36:50] INFO root fetch - processPackages [pyanfis]: Remove: archive file [/home/abi/fetcher/tmp/pyanfis-0.1.6.tar.gz]
+[2024-05-29 13:36:50] INFO root fetch - main [MainThread]: End processing [pyanfis]: success
+[2024-05-29 13:36:50] INFO root fetch - processPackages [onchainpay-api]: Remove: archive file [/home/abi/fetcher/tmp/onchainpay_api-0.0.3.tar.gz]
+[2024-05-29 13:36:50] INFO root fetch - processPackages [onchainpay-api]: Remove: archive file [/home/abi/fetcher/tmp/onchainpay_api-0.0.4-py3-none-any.whl.zip]
+[2024-05-29 13:36:50] INFO root fetch - main [MainThread]: End processing [onchainpay-api]: success
+[2024-05-29 13:36:50] INFO root fetch - processPackages [unacatlib]: Remove: archive file [/home/abi/fetcher/tmp/unacatlib-0.0.82-py2.py3-none-any.whl.zip]
+[2024-05-29 13:36:50] INFO root fetch - processPackages [unacatlib]: Remove: archive file [/home/abi/fetcher/tmp/unacatlib-0.0.83-py2.py3-none-any.whl.zip]
+[2024-05-29 13:36:50] INFO root fetch - main [MainThread]: End processing [unacatlib]: success
+[2024-05-29 13:36:51] INFO root fetch - processPackages [wllegal]: Remove: archive file [/home/abi/fetcher/tmp/wllegal-2023.5.tar.gz]
+[2024-05-29 13:36:51] INFO root fetch - processPackages [wllegal]: Remove: archive file [/home/abi/fetcher/tmp/wllegal-2024.1.tar.gz]
+[2024-05-29 13:36:51] INFO root fetch - main [MainThread]: End processing [wllegal]: success
+[2024-05-29 13:36:51] INFO root fetch - main [MainThread]: Store serial: [23428925]
