@@ -19012,3 +19012,57 @@
 [2024-05-29 12:45:30] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_supplier_calendar-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-05-29 12:45:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-supplier-calendar]: success
 [2024-05-29 12:45:30] INFO root fetch - main [MainThread]: Store serial: [23428389]
+[2024-05-29 12:47:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428389]
+[2024-05-29 12:47:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-records-lom
+[2024-05-29 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pami
+[2024-05-29 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: git-time-tracking
+[2024-05-29 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: messages-local
+[2024-05-29 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: corderius-play
+[2024-05-29 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: textual
+[2024-05-29 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ou-logger
+[2024-05-29 12:47:39] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 12:47:39] INFO root fetch - processPackages [pami]: New version: [2024.5.7.1] Old Version: [2024.5.29.1]
+[2024-05-29 12:47:39] WARNING root fetch - processPackages [git-time-tracking]: Skipping, unable to determine old version
+[2024-05-29 12:47:39] INFO root fetch - main [MainThread]: End processing [git-time-tracking] error
+[2024-05-29 12:47:39] WARNING root fetch - processPackages [ou-logger]: Skipping, unable to determine old version
+[2024-05-29 12:47:39] INFO root fetch - main [MainThread]: End processing [ou-logger] error
+[2024-05-29 12:47:39] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2024-05-29 12:47:39] INFO root fetch - processPackages [invenio-records-lom]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-29 12:47:39] INFO root fetch - processPackages [corderius-play]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-29 12:47:39] INFO root fetch - processPackages [messages-local]: New version: [0.0.62] Old Version: [0.0.61]
+[2024-05-29 12:47:39] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/f2/fe/e18b3e8e7728b1562e8bab3e5009e5c72ba3341eac575be13bba9abb1f22/pami-2024.5.29.1.tar.gz
+[2024-05-29 12:47:39] INFO root fetch - processPackages [corderius-play]: Downloading https://files.pythonhosted.org/packages/c8/b4/39a1a9ea2fe541518d9eea856b54a22929d3db5fe8ac728f095bfccaa3a5/corderius_play-1.0.2.tar.gz
+[2024-05-29 12:47:39] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/a7/d9/b366af89a5d223ea850fb149d543d8535f1a63df7d6aaf194b788ade4a81/invenio-records-lom-0.8.1.tar.gz
+[2024-05-29 12:47:39] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/68/d9/7169f64c8fa0b02f419b9a0d45dfdb0ef5f9d50f41bd52bcca64b0ee6c30/messages_local-0.0.61.tar.gz
+[2024-05-29 12:47:39] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2024-05-29 12:47:39] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/39/e1/8492945bb9b7c83adec0ca90e4a331b9a95ff3680d392a1889bc98aa3823/pami-2024.5.7.1.tar.gz
+[2024-05-29 12:47:39] INFO root fetch - processPackages [textual]: executing diffoscope
+[2024-05-29 12:47:39] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20240529/t/textual/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-29 12:47:39] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/d2/a1/a4f27a3949cb9641f050db71c0e20941c366e57450ec499c9f5e40d718c4/invenio-records-lom-0.9.0.tar.gz
+[2024-05-29 12:47:39] INFO root fetch - processPackages [corderius-play]: Downloading https://files.pythonhosted.org/packages/56/70/ba1fd1e0292677fdaed30407924260496b0c73f7e0b9c0ec867e46b78440/corderius_play-1.1.0.tar.gz
+[2024-05-29 12:47:39] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/d8/a2/fc73896ef735bf7eb4382a385790c2cb5b53e12f20e4b3696aaecaff981b/messages_local-0.0.62.tar.gz
+[2024-05-29 12:47:40] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-05-29 12:47:40] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.5.29.1.tar.gz tmp/pami-2024.5.7.1.tar.gz --markdown 20240529/p/pami/2024.5.29.1-2024.5.7.1/README.md --exclude *.pyd
+[2024-05-29 12:47:40] INFO root fetch - processPackages [invenio-records-lom]: executing diffoscope
+[2024-05-29 12:47:40] INFO root fetch - processPackages [invenio-records-lom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-lom-0.8.1.tar.gz tmp/invenio-records-lom-0.9.0.tar.gz --markdown 20240529/i/invenio-records-lom/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-29 12:47:40] INFO root fetch - processPackages [messages-local]: executing diffoscope
+[2024-05-29 12:47:40] INFO root fetch - processPackages [messages-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messages_local-0.0.61.tar.gz tmp/messages_local-0.0.62.tar.gz --markdown 20240529/m/messages-local/0.0.61-0.0.62/README.md --exclude *.pyd
+[2024-05-29 12:47:40] INFO root fetch - processPackages [corderius-play]: executing diffoscope
+[2024-05-29 12:47:40] INFO root fetch - processPackages [corderius-play]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corderius_play-1.0.2.tar.gz tmp/corderius_play-1.1.0.tar.gz --markdown 20240529/c/corderius-play/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-29 12:47:40] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.61.tar.gz]
+[2024-05-29 12:47:40] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.62.tar.gz]
+[2024-05-29 12:47:40] INFO root fetch - main [MainThread]: End processing [messages-local]: success
+[2024-05-29 12:47:40] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2024-05-29 12:47:40] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2024-05-29 12:47:40] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2024-05-29 12:47:41] INFO root fetch - processPackages [corderius-play]: Remove: archive file [/home/abi/fetcher/tmp/corderius_play-1.0.2.tar.gz]
+[2024-05-29 12:47:41] INFO root fetch - processPackages [corderius-play]: Remove: archive file [/home/abi/fetcher/tmp/corderius_play-1.1.0.tar.gz]
+[2024-05-29 12:47:41] INFO root fetch - main [MainThread]: End processing [corderius-play]: success
+[2024-05-29 12:47:41] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.8.1.tar.gz]
+[2024-05-29 12:47:41] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.9.0.tar.gz]
+[2024-05-29 12:47:41] INFO root fetch - main [MainThread]: End processing [invenio-records-lom]: success
+[2024-05-29 12:47:42] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.29.1.tar.gz]
+[2024-05-29 12:47:42] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.7.1.tar.gz]
+[2024-05-29 12:47:42] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-05-29 12:47:42] INFO root fetch - main [MainThread]: Store serial: [23428413]
