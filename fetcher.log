@@ -20349,3 +20349,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:36:51] INFO root fetch - processPackages [wllegal]: Remove: archive file [/home/abi/fetcher/tmp/wllegal-2024.1.tar.gz]
 [2024-05-29 13:36:51] INFO root fetch - main [MainThread]: End processing [wllegal]: success
 [2024-05-29 13:36:51] INFO root fetch - main [MainThread]: Store serial: [23428925]
+[2024-05-29 13:38:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428925]
+[2024-05-29 13:39:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2024-05-29 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-archiver-nightly
+[2024-05-29 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-workflow-archiver-nightly
+[2024-05-29 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clear-skies-twilio
+[2024-05-29 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangoldp-energiepartagee
+[2024-05-29 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TenorGrabber
+[2024-05-29 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drf-2fa
+[2024-05-29 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whataspp-message-inforu-local
+[2024-05-29 13:39:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-29 13:39:00] INFO root fetch - processPackages [drf-2fa]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 13:39:00] INFO root fetch - processPackages [whataspp-message-inforu-local]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-05-29 13:39:00] INFO root fetch - processPackages [TenorGrabber]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 13:39:00] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-29 13:39:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-29 13:39:00] INFO root fetch - processPackages [clear-skies-twilio]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 13:39:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/38/34/a73ff276b5dc5c3f2e6e02c0282c2f5aedce8951e022f3add74d284d17a6/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-29 13:39:00] INFO root fetch - processPackages [drf-2fa]: Downloading https://files.pythonhosted.org/packages/8c/f2/6f8c917703b53e014c3d797fc034fca1f7a4fd6d5e42cf6961de94ebec67/drf-2fa-1.0.1.tar.gz
+[2024-05-29 13:39:00] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-29 13:39:00] INFO root fetch - processPackages [whataspp-message-inforu-local]: Downloading https://files.pythonhosted.org/packages/60/2f/eed6028af7f4682c9459bfc1c0fc773cfac7425b760ea7d8a850ab6e0940/whataspp_message_inforu_local-0.0.14.tar.gz
+[2024-05-29 13:39:00] INFO root fetch - processPackages [TenorGrabber]: Downloading https://files.pythonhosted.org/packages/31/b9/37abb5171c66d6ed0b4cfb63671b4df8ed65237f1d69512e672880e7fb0a/tenorgrabber-1.0.1.tar.gz
+[2024-05-29 13:39:00] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/39/78/71d3bda9b58dfb022af392de084f78f15d848683db00d19d604fd076ecff/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-29 13:39:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-29 13:39:00] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/8c/43/921f1201a16b139e5df27112c5f8b7328ee4289bfc10ce1f76883a5ba87d/torchserve_nightly-2024.5.8-py3-none-any.whl
+[2024-05-29 13:39:00] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24333047>=10485760
+[2024-05-29 13:39:00] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-29 13:39:00] INFO root fetch - processPackages [clear-skies-twilio]: Downloading https://files.pythonhosted.org/packages/82/63/b37e325302a4b7f0f5613199fc4e4cd27118ca004b6ac745d323d23ad14b/clear_skies_twilio-0.9.0.tar.gz
+[2024-05-29 13:39:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5c/3d/7e9f420b3d052022aab0ce6e49d396d1d147acccfc51748d2cfa54ae3390/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-29 13:39:01] INFO root fetch - processPackages [whataspp-message-inforu-local]: Downloading https://files.pythonhosted.org/packages/73/0d/ccefaf03507df0179dcd0a1901c3d67171a7c956dd7ad44ca275bf27e579/whataspp_message_inforu_local-0.0.15.tar.gz
+[2024-05-29 13:39:01] INFO root fetch - processPackages [drf-2fa]: Downloading https://files.pythonhosted.org/packages/70/26/96af4159fa05f8ab296e6a6f59b7ba60ad6b77a25c2d5613be17e6a6b08f/drf-2fa-1.0.2.tar.gz
+[2024-05-29 13:39:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-29 13:39:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/55/73/d6cac6137d8889445aa6a2fbae4644d9528d66859fb2e8149098c685de95/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-29 13:39:01] INFO root fetch - processPackages [TenorGrabber]: Downloading https://files.pythonhosted.org/packages/3f/39/3e3a6c0051b9dc751144423e8107c277a24244668bf3dd34f9aaf05b606a/tenorgrabber-1.0.2.tar.gz
+[2024-05-29 13:39:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-29 13:39:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240529/t/torch-model-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-29 13:39:01] INFO root fetch - processPackages [whataspp-message-inforu-local]: executing diffoscope
+[2024-05-29 13:39:01] INFO root fetch - processPackages [whataspp-message-inforu-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whataspp_message_inforu_local-0.0.14.tar.gz tmp/whataspp_message_inforu_local-0.0.15.tar.gz --markdown 20240529/w/whataspp-message-inforu-local/0.0.14-0.0.15/README.md --exclude *.pyd
+[2024-05-29 13:39:01] INFO root fetch - processPackages [drf-2fa]: executing diffoscope
+[2024-05-29 13:39:01] INFO root fetch - processPackages [drf-2fa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-2fa-1.0.1.tar.gz tmp/drf-2fa-1.0.2.tar.gz --markdown 20240529/d/drf-2fa/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 13:39:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-29 13:39:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240529/t/torch-workflow-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-29 13:39:01] INFO root fetch - processPackages [TenorGrabber]: executing diffoscope
+[2024-05-29 13:39:01] INFO root fetch - processPackages [TenorGrabber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenorgrabber-1.0.1.tar.gz tmp/tenorgrabber-1.0.2.tar.gz --markdown 20240529/T/TenorGrabber/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 13:39:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-29 13:39:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240529/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-29 13:39:01] INFO root fetch - processPackages [clear-skies-twilio]: Downloading https://files.pythonhosted.org/packages/91/2d/366fe9700726a8ccc4c43e4b3ab52ec1c0c5f88ef8f818b4349c77be8990/clear_skies_twilio-0.9.1.tar.gz
+[2024-05-29 13:39:01] INFO root fetch - processPackages [clear-skies-twilio]: executing diffoscope
+[2024-05-29 13:39:01] INFO root fetch - processPackages [clear-skies-twilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear_skies_twilio-0.9.0.tar.gz tmp/clear_skies_twilio-0.9.1.tar.gz --markdown 20240529/c/clear-skies-twilio/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-29 13:39:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-29 13:39:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-29 13:39:01] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-29 13:39:01] INFO root fetch - processPackages [whataspp-message-inforu-local]: Remove: archive file [/home/abi/fetcher/tmp/whataspp_message_inforu_local-0.0.14.tar.gz]
+[2024-05-29 13:39:01] INFO root fetch - processPackages [whataspp-message-inforu-local]: Remove: archive file [/home/abi/fetcher/tmp/whataspp_message_inforu_local-0.0.15.tar.gz]
+[2024-05-29 13:39:01] INFO root fetch - main [MainThread]: End processing [whataspp-message-inforu-local]: success
+[2024-05-29 13:39:02] INFO root fetch - processPackages [TenorGrabber]: Remove: archive file [/home/abi/fetcher/tmp/tenorgrabber-1.0.1.tar.gz]
+[2024-05-29 13:39:02] INFO root fetch - processPackages [TenorGrabber]: Remove: archive file [/home/abi/fetcher/tmp/tenorgrabber-1.0.2.tar.gz]
+[2024-05-29 13:39:02] INFO root fetch - main [MainThread]: End processing [TenorGrabber]: success
+[2024-05-29 13:39:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-29 13:39:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-29 13:39:02] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-29 13:39:02] INFO root fetch - processPackages [drf-2fa]: Remove: archive file [/home/abi/fetcher/tmp/drf-2fa-1.0.1.tar.gz]
+[2024-05-29 13:39:02] INFO root fetch - processPackages [drf-2fa]: Remove: archive file [/home/abi/fetcher/tmp/drf-2fa-1.0.2.tar.gz]
+[2024-05-29 13:39:02] INFO root fetch - main [MainThread]: End processing [drf-2fa]: success
+[2024-05-29 13:39:02] INFO root fetch - processPackages [clear-skies-twilio]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_twilio-0.9.0.tar.gz]
+[2024-05-29 13:39:02] INFO root fetch - processPackages [clear-skies-twilio]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_twilio-0.9.1.tar.gz]
+[2024-05-29 13:39:02] INFO root fetch - main [MainThread]: End processing [clear-skies-twilio]: success
+[2024-05-29 13:39:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-29 13:39:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-29 13:39:02] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-29 13:39:02] INFO root fetch - main [MainThread]: Store serial: [23428949]
