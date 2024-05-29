@@ -10392,3 +10392,27 @@
 [2024-05-29 07:14:35] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.7.0rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-29 07:14:35] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
 [2024-05-29 07:14:35] INFO root fetch - main [MainThread]: Store serial: [23424253]
+[2024-05-29 07:16:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424253]
+[2024-05-29 07:16:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 07:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradientmessagebox
+[2024-05-29 07:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django_herobiz_dental
+[2024-05-29 07:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Conversion
+[2024-05-29 07:16:43] INFO root fetch - processPackages [django_herobiz_dental]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-05-29 07:16:43] WARNING root fetch - processPackages [gradientmessagebox]: Skipping, unable to determine old version
+[2024-05-29 07:16:43] INFO root fetch - main [MainThread]: End processing [gradientmessagebox] error
+[2024-05-29 07:16:43] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.3.1rc1] Old Version: [5.3.1]
+[2024-05-29 07:16:44] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/ea/de/672a9266dcfaf9a09fb6d6c91817e2e5254014e6ceb9699d56865a4f604b/django_herobiz_dental-3.3.0.tar.gz
+[2024-05-29 07:16:44] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/a4/2e/b07b3d9a1da030ff0aef4dbaaaf02821b88a35ca43123a7886b5dcbfe9cf/Geode_Conversion-5.3.1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-29 07:16:44] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/28/14/1e883c58134cee4ddf82861fa147ec3914066514621a71f4622849ec79a4/django_herobiz_dental-3.3.1.tar.gz
+[2024-05-29 07:16:44] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/6e/a3/6708c3e35e3160277617e238d311c5af213c06a45b55942755014dcd5064/Geode_Conversion-5.3.1rc1-cp39-cp39-win_amd64.whl
+[2024-05-29 07:16:45] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-05-29 07:16:45] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-3.3.0.tar.gz tmp/django_herobiz_dental-3.3.1.tar.gz --markdown 20240529/d/django_herobiz_dental/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-05-29 07:16:45] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2024-05-29 07:16:45] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.3.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Conversion-5.3.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240529/G/Geode-Conversion/5.3.1-5.3.1rc1/README.md --exclude *.pyd
+[2024-05-29 07:16:45] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.3.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-29 07:16:45] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.3.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 07:16:45] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2024-05-29 07:16:46] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-3.3.0.tar.gz]
+[2024-05-29 07:16:46] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-3.3.1.tar.gz]
+[2024-05-29 07:16:46] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-05-29 07:16:46] INFO root fetch - main [MainThread]: Store serial: [23424272]
