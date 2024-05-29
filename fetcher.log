@@ -11785,3 +11785,69 @@
 [2024-05-29 08:16:05] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.4.2.dev20240529.tar.gz]
 [2024-05-29 08:16:05] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2024-05-29 08:16:05] INFO root fetch - main [MainThread]: Store serial: [23424809]
+[2024-05-29 08:18:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424809]
+[2024-05-29 08:18:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-mysql
+[2024-05-29 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-nomad
+[2024-05-29 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audio-toolkit
+[2024-05-29 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uztagger
+[2024-05-29 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: winterapi
+[2024-05-29 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bliss-bind
+[2024-05-29 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fake-bpy-module-latest
+[2024-05-29 08:18:16] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 08:18:16] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240528] Old Version: [20240524]
+[2024-05-29 08:18:16] INFO root fetch - processPackages [winterapi]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-29 08:18:16] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-05-29 08:18:16] INFO root fetch - processPackages [uztagger]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 08:18:16] INFO root fetch - processPackages [bliss-bind]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-29 08:18:16] INFO root fetch - processPackages [pulumi-nomad]: New version: [2.3.0a1716962018] Old Version: [2.3.0a1716511123]
+[2024-05-29 08:18:16] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.3.0a1716962075] Old Version: [3.3.0a1716510697]
+[2024-05-29 08:18:16] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/c8/d9/f92ba292561805c06eb688ea8eb3c44a8c519bc6a092d040084582809e98/fake_bpy_module_latest-20240524.tar.gz
+[2024-05-29 08:18:16] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-05-29 08:18:16] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/7c/d8/ba1e83757c98e88f4cc7f988aa2ae63caaecbf47fab5b7c7b164f63cf666/pulumi_mysql-3.3.0a1716510697.tar.gz
+[2024-05-29 08:18:17] INFO root fetch - processPackages [winterapi]: Downloading https://files.pythonhosted.org/packages/65/c0/74a8d986b022784c56154fbe180f17f30701c03aef14c1b0a05c1f341bb7/winterapi-1.4.0.tar.gz
+[2024-05-29 08:18:17] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/8a/38/49846cd8392e28491bb0e58bd06121cd2b80457aaa662f0f825644159697/pulumi_nomad-2.3.0a1716511123.tar.gz
+[2024-05-29 08:18:17] INFO root fetch - processPackages [bliss-bind]: Downloading https://files.pythonhosted.org/packages/55/02/5025a40823fad8f9acbfe405e0f7adc74070971fd669ff6fe436af9feea7/bliss_bind-0.1.0-cp39-cp39-win_amd64.whl
+[2024-05-29 08:18:17] INFO root fetch - processPackages [uztagger]: Downloading https://files.pythonhosted.org/packages/b0/6e/d6e95598a5b980e9a714e99393c243fd453d1933e398ec1566d3b8a950ed/uztagger-0.0.8-py3-none-any.whl
+[2024-05-29 08:18:17] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/1c/17/014f1daa7a38e5330e244e160d02f352f17941f2f12c3c624e8723c0fa02/fake_bpy_module_latest-20240528.tar.gz
+[2024-05-29 08:18:17] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-05-29 08:18:17] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240529/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 08:18:17] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/90/5b/aa75d90db163045616d722e51c15b79bf0a88211edeafd922b3ef8137af8/pulumi_mysql-3.3.0a1716962075.tar.gz
+[2024-05-29 08:18:17] INFO root fetch - processPackages [winterapi]: Downloading https://files.pythonhosted.org/packages/08/52/27b88851bdd4ea6de271387ee71731cfd6e67e1fc4199f085cee9b31e025/winterapi-1.4.1.tar.gz
+[2024-05-29 08:18:17] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-29 08:18:17] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240524.tar.gz tmp/fake_bpy_module_latest-20240528.tar.gz --markdown 20240529/f/fake-bpy-module-latest/20240524-20240528/README.md --exclude *.pyd
+[2024-05-29 08:18:17] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/74/62/1c002dd3a5054303a8febbd89c4961fe0564938e018aa472ea765d27bebf/pulumi_nomad-2.3.0a1716962018.tar.gz
+[2024-05-29 08:18:17] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2024-05-29 08:18:17] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.3.0a1716510697.tar.gz tmp/pulumi_mysql-3.3.0a1716962075.tar.gz --markdown 20240529/p/pulumi-mysql/3.3.0a1716510697-3.3.0a1716962075/README.md --exclude *.pyd
+[2024-05-29 08:18:17] INFO root fetch - processPackages [winterapi]: executing diffoscope
+[2024-05-29 08:18:17] INFO root fetch - processPackages [winterapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winterapi-1.4.0.tar.gz tmp/winterapi-1.4.1.tar.gz --markdown 20240529/w/winterapi/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-29 08:18:17] INFO root fetch - processPackages [bliss-bind]: Downloading https://files.pythonhosted.org/packages/18/63/f8b6210d30518a11ff3292ee056392bbb32f205f05ec32c071af24f29d09/bliss_bind-0.2.0-cp39-cp39-win_amd64.whl
+[2024-05-29 08:18:17] INFO root fetch - processPackages [uztagger]: Downloading https://files.pythonhosted.org/packages/57/11/8627b1d1bc9b2053fcee2c202e99e2042547747ece6abfb8e67dafe8123f/uztagger-0.0.9-py3-none-any.whl
+[2024-05-29 08:18:17] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2024-05-29 08:18:17] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-2.3.0a1716511123.tar.gz tmp/pulumi_nomad-2.3.0a1716962018.tar.gz --markdown 20240529/p/pulumi-nomad/2.3.0a1716511123-2.3.0a1716962018/README.md --exclude *.pyd
+[2024-05-29 08:18:17] INFO root fetch - processPackages [uztagger]: executing diffoscope
+[2024-05-29 08:18:17] INFO root fetch - processPackages [uztagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uztagger-0.0.8-py3-none-any.whl.zip tmp/uztagger-0.0.9-py3-none-any.whl.zip --markdown 20240529/u/uztagger/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 08:18:17] INFO root fetch - processPackages [bliss-bind]: executing diffoscope
+[2024-05-29 08:18:17] INFO root fetch - processPackages [bliss-bind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bliss_bind-0.1.0-cp39-cp39-win_amd64.whl.zip tmp/bliss_bind-0.2.0-cp39-cp39-win_amd64.whl.zip --markdown 20240529/b/bliss-bind/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-29 08:18:17] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-05-29 08:18:17] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-05-29 08:18:17] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-05-29 08:18:18] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1716510697.tar.gz]
+[2024-05-29 08:18:18] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1716962075.tar.gz]
+[2024-05-29 08:18:18] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2024-05-29 08:18:18] INFO root fetch - processPackages [winterapi]: Remove: archive file [/home/abi/fetcher/tmp/winterapi-1.4.0.tar.gz]
+[2024-05-29 08:18:18] INFO root fetch - processPackages [winterapi]: Remove: archive file [/home/abi/fetcher/tmp/winterapi-1.4.1.tar.gz]
+[2024-05-29 08:18:18] INFO root fetch - main [MainThread]: End processing [winterapi]: success
+[2024-05-29 08:18:18] INFO root fetch - processPackages [uztagger]: Remove: archive file [/home/abi/fetcher/tmp/uztagger-0.0.8-py3-none-any.whl.zip]
+[2024-05-29 08:18:18] INFO root fetch - processPackages [uztagger]: Remove: archive file [/home/abi/fetcher/tmp/uztagger-0.0.9-py3-none-any.whl.zip]
+[2024-05-29 08:18:18] INFO root fetch - main [MainThread]: End processing [uztagger]: success
+[2024-05-29 08:18:18] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1716511123.tar.gz]
+[2024-05-29 08:18:18] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1716962018.tar.gz]
+[2024-05-29 08:18:18] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2024-05-29 08:18:20] INFO root fetch - processPackages [bliss-bind]: Remove: archive file [/home/abi/fetcher/tmp/bliss_bind-0.1.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 08:18:20] INFO root fetch - processPackages [bliss-bind]: Remove: archive file [/home/abi/fetcher/tmp/bliss_bind-0.2.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 08:18:20] INFO root fetch - main [MainThread]: End processing [bliss-bind]: success
+[2024-05-29 08:18:25] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240524.tar.gz]
+[2024-05-29 08:18:25] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240528.tar.gz]
+[2024-05-29 08:18:25] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-29 08:18:25] INFO root fetch - main [MainThread]: Store serial: [23424846]
