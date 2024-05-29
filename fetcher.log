@@ -12879,3 +12879,51 @@
 [2024-05-29 09:04:30] INFO root fetch - processPackages [lightning-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lightning_sdk-0.1.9-py3-none-any.whl.zip]
 [2024-05-29 09:04:30] INFO root fetch - main [MainThread]: End processing [lightning-sdk]: success
 [2024-05-29 09:04:30] INFO root fetch - main [MainThread]: Store serial: [23425308]
+[2024-05-29 09:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425308]
+[2024-05-29 09:06:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 09:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ok-script
+[2024-05-29 09:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mathrixpy
+[2024-05-29 09:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mg-pso-gui
+[2024-05-29 09:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-picking-auto-create-lot
+[2024-05-29 09:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: restful-dnspod-log
+[2024-05-29 09:06:40] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 09:06:40] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-29 09:06:40] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-05-29 09:06:40] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.9]
+[2024-05-29 09:06:40] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/df/83/034ff30ffab79111af61b23ddbbacb0dc8d0faee9958bec000f788ee7a76/mg-pso-gui-0.1.98.tar.gz
+[2024-05-29 09:06:40] INFO root fetch - processPackages [restful-dnspod-log]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 09:06:40] INFO root fetch - processPackages [mathrixpy]: New version: [1.3] Old Version: [1.1]
+[2024-05-29 09:06:40] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Downloading https://files.pythonhosted.org/packages/c1/28/bc783fe43095766f4867c5e23fe6af2f479fb2ed659c44341e3cb0ca7ba4/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-29 09:06:40] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-05-29 09:06:40] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/5e/bd/27b27f07d2d1a41c60a2ff22be3071f7fa1355c16f9d3d34a3bf60d469ef/mathrixpy-1.1.tar.gz
+[2024-05-29 09:06:40] INFO root fetch - processPackages [restful-dnspod-log]: Downloading https://files.pythonhosted.org/packages/44/9d/644c7a744a1bf3440ab5220a2d2390ab712fcea9ab4bd97cdeaa0a7de98b/restful_dnspod_log-1.0.1.tar.gz
+[2024-05-29 09:06:40] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/02/26/25a563653e3f76ef0cdf3b09aef810d638a12dd3cab560f67bf7a0c694e9/mg-pso-gui-0.1.99.tar.gz
+[2024-05-29 09:06:40] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-05-29 09:06:40] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240529/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 09:06:40] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Downloading https://files.pythonhosted.org/packages/ec/a9/fb3ce41276a2f668dd13d3fe63f0427b8cc0cbe2c959593eb194630047b3/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.1-py3-none-any.whl
+[2024-05-29 09:06:40] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-29 09:06:40] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.98.tar.gz tmp/mg-pso-gui-0.1.99.tar.gz --markdown 20240529/m/mg-pso-gui/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-29 09:06:40] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: executing diffoscope
+[2024-05-29 09:06:40] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-stock-picking-auto-create-lot/16.0.1.0.0.9-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-29 09:06:40] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/20/16/8ac3b84777b13456c48d49164d06217605b2517418ce4b86ecbfdd53d0d4/mathrixpy-1.3.tar.gz
+[2024-05-29 09:06:40] INFO root fetch - processPackages [mathrixpy]: executing diffoscope
+[2024-05-29 09:06:40] INFO root fetch - processPackages [mathrixpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathrixpy-1.1.tar.gz tmp/mathrixpy-1.3.tar.gz --markdown 20240529/m/mathrixpy/1.1-1.3/README.md --exclude *.pyd
+[2024-05-29 09:06:40] INFO root fetch - processPackages [restful-dnspod-log]: Downloading https://files.pythonhosted.org/packages/9c/e6/f8cd339bdf19c731d3efd0426281d6c9bbfee49c1f46e7c0e599afdf3e42/restful_dnspod_log-1.0.2.tar.gz
+[2024-05-29 09:06:41] INFO root fetch - processPackages [restful-dnspod-log]: executing diffoscope
+[2024-05-29 09:06:41] INFO root fetch - processPackages [restful-dnspod-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restful_dnspod_log-1.0.1.tar.gz tmp/restful_dnspod_log-1.0.2.tar.gz --markdown 20240529/r/restful-dnspod-log/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 09:06:41] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-29 09:06:41] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-29 09:06:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-auto-create-lot]: success
+[2024-05-29 09:06:41] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-05-29 09:06:41] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-05-29 09:06:41] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-05-29 09:06:41] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-1.1.tar.gz]
+[2024-05-29 09:06:41] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-1.3.tar.gz]
+[2024-05-29 09:06:41] INFO root fetch - main [MainThread]: End processing [mathrixpy]: success
+[2024-05-29 09:06:41] INFO root fetch - processPackages [restful-dnspod-log]: Remove: archive file [/home/abi/fetcher/tmp/restful_dnspod_log-1.0.1.tar.gz]
+[2024-05-29 09:06:41] INFO root fetch - processPackages [restful-dnspod-log]: Remove: archive file [/home/abi/fetcher/tmp/restful_dnspod_log-1.0.2.tar.gz]
+[2024-05-29 09:06:41] INFO root fetch - main [MainThread]: End processing [restful-dnspod-log]: success
+[2024-05-29 09:06:41] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.98.tar.gz]
+[2024-05-29 09:06:41] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.99.tar.gz]
+[2024-05-29 09:06:41] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-29 09:06:41] INFO root fetch - main [MainThread]: Store serial: [23425327]
