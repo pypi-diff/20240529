@@ -7597,3 +7597,60 @@
 [2024-05-29 04:20:25] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
 [2024-05-29 04:20:25] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2024-05-29 04:20:25] INFO root fetch - main [MainThread]: Store serial: [23423171]
+[2024-05-29 04:22:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423171]
+[2024-05-29 04:22:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 04:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liminal-sdk-python
+[2024-05-29 04:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodespecs
+[2024-05-29 04:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GnosisTech
+[2024-05-29 04:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loe-simp-app-fw
+[2024-05-29 04:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pennylane-kq
+[2024-05-29 04:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hspf-reader
+[2024-05-29 04:22:33] INFO root fetch - processPackages [nodespecs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 04:22:33] INFO root fetch - processPackages [GnosisTech]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-29 04:22:33] INFO root fetch - processPackages [liminal-sdk-python]: New version: [2024.5.0b3] Old Version: [2024.5.0b2]
+[2024-05-29 04:22:33] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-29 04:22:33] INFO root fetch - processPackages [pennylane-kq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 04:22:33] INFO root fetch - processPackages [hspf-reader]: New version: [1.1.0] Old Version: [1.0.7]
+[2024-05-29 04:22:33] INFO root fetch - processPackages [nodespecs]: Downloading https://files.pythonhosted.org/packages/52/a0/fd5c3bd7428fd16c03171629234a2d7da112e6a3e63403357feee7ed2338/nodespecs-0.0.8.tar.gz
+[2024-05-29 04:22:33] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/d3/7d/d935caf1d268cd52177d8687dd9d438a5f9f602f76fee8c8d84f1a60d4af/gnosistech-0.1.2.tar.gz
+[2024-05-29 04:22:33] INFO root fetch - processPackages [liminal-sdk-python]: Downloading https://files.pythonhosted.org/packages/1b/f8/f2f5c4dc697ccdb8afd448ac641743c3ed23af4dc77ea938bfa0b9329098/liminal_sdk_python-2024.5.0b2.tar.gz
+[2024-05-29 04:22:33] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/8f/82/295c955e72d831a5612c6e0121768a8ccd54b990bf3fd90cec68da4e6c11/loe_simp_app_fw-1.5.0.tar.gz
+[2024-05-29 04:22:33] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/4a/93/27f92567c945db6c74995e4c4dfc17b55f0cfe0afa0f977f90f586513b04/pennylane-kq-0.0.8.tar.gz
+[2024-05-29 04:22:34] INFO root fetch - processPackages [hspf-reader]: Downloading https://files.pythonhosted.org/packages/60/71/fc3a1bf0f59d3e8ccc45cc8fc40e3e8237cfd4a5989435d3c4bf4aa829f1/hspf_reader-1.0.7.tar.gz
+[2024-05-29 04:22:34] INFO root fetch - processPackages [liminal-sdk-python]: Downloading https://files.pythonhosted.org/packages/35/a0/77fa016ab2ff4b0e3e6e344c8167fd87f2fddbac5c047e6d784ba0668e62/liminal_sdk_python-2024.5.0b3.tar.gz
+[2024-05-29 04:22:34] INFO root fetch - processPackages [nodespecs]: Downloading https://files.pythonhosted.org/packages/3e/92/de755043cf73a78654d2fc630d58f430edfd83587d2e6e3f99fc497957e9/nodespecs-0.0.9.tar.gz
+[2024-05-29 04:22:34] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/eb/68/2ed4d62c947bfb0d564541f0e1acad06e4c2c42143d0606d52fa6fd10044/gnosistech-0.1.3.tar.gz
+[2024-05-29 04:22:34] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/19/05/3b95c0beef8bc8cdb63f6d1d6be35bd331b6ba365738d288339fb515ee4e/pennylane-kq-0.0.9.tar.gz
+[2024-05-29 04:22:34] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/21/da/6771ce88e2f369e028207ac0ca259b4e7839b742cb4e939ba1fa8d364a21/loe_simp_app_fw-1.5.1.tar.gz
+[2024-05-29 04:22:34] INFO root fetch - processPackages [liminal-sdk-python]: executing diffoscope
+[2024-05-29 04:22:34] INFO root fetch - processPackages [liminal-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liminal_sdk_python-2024.5.0b2.tar.gz tmp/liminal_sdk_python-2024.5.0b3.tar.gz --markdown 20240529/l/liminal-sdk-python/2024.5.0b2-2024.5.0b3/README.md --exclude *.pyd
+[2024-05-29 04:22:34] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-05-29 04:22:34] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.5.0.tar.gz tmp/loe_simp_app_fw-1.5.1.tar.gz --markdown 20240529/l/loe-simp-app-fw/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-29 04:22:34] INFO root fetch - processPackages [pennylane-kq]: executing diffoscope
+[2024-05-29 04:22:34] INFO root fetch - processPackages [nodespecs]: executing diffoscope
+[2024-05-29 04:22:34] INFO root fetch - processPackages [pennylane-kq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pennylane-kq-0.0.8.tar.gz tmp/pennylane-kq-0.0.9.tar.gz --markdown 20240529/p/pennylane-kq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 04:22:34] INFO root fetch - processPackages [nodespecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodespecs-0.0.8.tar.gz tmp/nodespecs-0.0.9.tar.gz --markdown 20240529/n/nodespecs/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 04:22:34] INFO root fetch - processPackages [GnosisTech]: executing diffoscope
+[2024-05-29 04:22:34] INFO root fetch - processPackages [GnosisTech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnosistech-0.1.2.tar.gz tmp/gnosistech-0.1.3.tar.gz --markdown 20240529/G/GnosisTech/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-29 04:22:34] INFO root fetch - processPackages [hspf-reader]: Downloading https://files.pythonhosted.org/packages/bc/73/74ec993d799dac531c1bc0128c65d9ca922c4b5c567a3b51d14cb49a0d72/hspf_reader-1.1.0.tar.gz
+[2024-05-29 04:22:35] INFO root fetch - processPackages [hspf-reader]: executing diffoscope
+[2024-05-29 04:22:35] INFO root fetch - processPackages [hspf-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspf_reader-1.0.7.tar.gz tmp/hspf_reader-1.1.0.tar.gz --markdown 20240529/h/hspf-reader/1.0.7-1.1.0/README.md --exclude *.pyd
+[2024-05-29 04:22:35] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.8.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.9.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - main [MainThread]: End processing [pennylane-kq]: success
+[2024-05-29 04:22:35] INFO root fetch - processPackages [nodespecs]: Remove: archive file [/home/abi/fetcher/tmp/nodespecs-0.0.8.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - processPackages [nodespecs]: Remove: archive file [/home/abi/fetcher/tmp/nodespecs-0.0.9.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - main [MainThread]: End processing [nodespecs]: success
+[2024-05-29 04:22:35] INFO root fetch - processPackages [liminal-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/liminal_sdk_python-2024.5.0b2.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - processPackages [liminal-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/liminal_sdk_python-2024.5.0b3.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - main [MainThread]: End processing [liminal-sdk-python]: success
+[2024-05-29 04:22:35] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.5.0.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.5.1.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-05-29 04:22:35] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.2.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.3.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
+[2024-05-29 04:22:35] INFO root fetch - processPackages [hspf-reader]: Remove: archive file [/home/abi/fetcher/tmp/hspf_reader-1.0.7.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - processPackages [hspf-reader]: Remove: archive file [/home/abi/fetcher/tmp/hspf_reader-1.1.0.tar.gz]
+[2024-05-29 04:22:35] INFO root fetch - main [MainThread]: End processing [hspf-reader]: success
+[2024-05-29 04:22:35] INFO root fetch - main [MainThread]: Store serial: [23423201]
