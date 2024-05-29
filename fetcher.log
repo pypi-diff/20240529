@@ -7191,3 +7191,24 @@
 [2024-05-29 03:39:41] INFO root fetch - processPackages [myfaasmctl]: Remove: archive file [/home/abi/fetcher/tmp/myfaasmctl-0.0.6.tar.gz]
 [2024-05-29 03:39:41] INFO root fetch - main [MainThread]: End processing [myfaasmctl]: success
 [2024-05-29 03:39:41] INFO root fetch - main [MainThread]: Store serial: [23422633]
+[2024-05-29 03:41:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23422633]
+[2024-05-29 03:41:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 03:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datagen-kuma
+[2024-05-29 03:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuLab
+[2024-05-29 03:41:50] INFO root fetch - processPackages [datagen-kuma]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 03:41:50] INFO root fetch - processPackages [QuLab]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-29 03:41:50] INFO root fetch - processPackages [datagen-kuma]: Downloading https://files.pythonhosted.org/packages/ec/49/f80e76cbd677e5b9be6267681c2fa072f31e0907dc73dbe7abc19238f68a/datagen_kuma-0.0.1.tar.gz
+[2024-05-29 03:41:50] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/ad/8a/e4de75e066516567fd4d342ec3c26ea820c6c87aae8ee7c18cd8c59e4d23/qulab-2.0.6.tar.gz
+[2024-05-29 03:41:50] INFO root fetch - processPackages [datagen-kuma]: Downloading https://files.pythonhosted.org/packages/1f/18/6d551ddea2e71777257344307f44dde27873326f2c8f5d7d4131ab62b22f/datagen_kuma-0.0.2.tar.gz
+[2024-05-29 03:41:50] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/42/cd/1cbccb85c3a2427ec704e08ad4b03fbbfcf8116509b6b1fe595efb399ccc/qulab-2.0.7.tar.gz
+[2024-05-29 03:41:50] INFO root fetch - processPackages [datagen-kuma]: executing diffoscope
+[2024-05-29 03:41:50] INFO root fetch - processPackages [datagen-kuma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_kuma-0.0.1.tar.gz tmp/datagen_kuma-0.0.2.tar.gz --markdown 20240529/d/datagen-kuma/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 03:41:50] INFO root fetch - processPackages [QuLab]: executing diffoscope
+[2024-05-29 03:41:50] INFO root fetch - processPackages [QuLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulab-2.0.6.tar.gz tmp/qulab-2.0.7.tar.gz --markdown 20240529/Q/QuLab/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-29 03:41:51] INFO root fetch - processPackages [datagen-kuma]: Remove: archive file [/home/abi/fetcher/tmp/datagen_kuma-0.0.1.tar.gz]
+[2024-05-29 03:41:51] INFO root fetch - processPackages [datagen-kuma]: Remove: archive file [/home/abi/fetcher/tmp/datagen_kuma-0.0.2.tar.gz]
+[2024-05-29 03:41:51] INFO root fetch - main [MainThread]: End processing [datagen-kuma]: success
+[2024-05-29 03:41:51] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/qulab-2.0.6.tar.gz]
+[2024-05-29 03:41:51] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/qulab-2.0.7.tar.gz]
+[2024-05-29 03:41:51] INFO root fetch - main [MainThread]: End processing [QuLab]: success
+[2024-05-29 03:41:51] INFO root fetch - main [MainThread]: Store serial: [23422703]
