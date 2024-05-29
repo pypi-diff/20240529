@@ -2315,3 +2315,34 @@
 [2024-05-29 02:10:26] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-29 02:10:26] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-29 02:10:26] INFO root fetch - main [MainThread]: Store serial: [23421062]
+[2024-05-29 02:12:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421062]
+[2024-05-29 02:12:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 02:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: warn-transformer
+[2024-05-29 02:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eeggan
+[2024-05-29 02:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gnssrefl
+[2024-05-29 02:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-quantizers-nightly
+[2024-05-29 02:12:36] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240528.post1119] Old Version: [1.5.0.20240527.post1114]
+[2024-05-29 02:12:36] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.99] Old Version: [1.3.98]
+[2024-05-29 02:12:36] INFO root fetch - processPackages [eeggan]: New version: [2.0.0a5] Old Version: [2.0.0a4]
+[2024-05-29 02:12:36] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/d4/be/59d098d91acb173ff13bc99e25e579e20ba7eb1dfc469f2f2295786c012a/mct-quantizers-nightly-1.5.0.20240527.post1114.tar.gz
+[2024-05-29 02:12:36] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/b8/99/d6c890a82a61166d1783e52251ba393e28b663b82ae80de85f67cf32c5e8/warn-transformer-1.3.98.tar.gz
+[2024-05-29 02:12:36] INFO root fetch - processPackages [gnssrefl]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-05-29 02:12:36] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 25743623>=10485760
+[2024-05-29 02:12:36] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2024-05-29 02:12:36] INFO root fetch - processPackages [eeggan]: Downloading https://files.pythonhosted.org/packages/03/a9/1334d421c87509ce25637688b0521ec6de974eb39cb6c331e0d0486175ce/eeggan-2.0.0a4.tar.gz
+[2024-05-29 02:12:36] WARNING root fetch - processPackages [eeggan]: Skipping package: exceeds size limit 15727773>=10485760
+[2024-05-29 02:12:36] INFO root fetch - main [MainThread]: End processing [eeggan] error
+[2024-05-29 02:12:37] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/ea/0c/77537791d0b95c7f3df4f7e232ec2201ddb11d4a0c3afa05e809f97b4456/gnssrefl-3.3.0.tar.gz
+[2024-05-29 02:12:37] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/e0/bd/095be984656122adc3e9276a0101c32a55d311d7fa4e9dc7fd7e2bc4bf06/mct-quantizers-nightly-1.5.0.20240528.post1119.tar.gz
+[2024-05-29 02:12:37] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-29 02:12:37] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240527.post1114.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240528.post1119.tar.gz --markdown 20240529/m/mct-quantizers-nightly/1.5.0.20240527.post1114-1.5.0.20240528.post1119/README.md --exclude *.pyd
+[2024-05-29 02:12:38] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/67/ee/e4944369ac97b81f877a0c2af8f48f933243dfe5f2807554956d7cf19ccc/gnssrefl-3.3.1.tar.gz
+[2024-05-29 02:12:38] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240527.post1114.tar.gz]
+[2024-05-29 02:12:38] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240528.post1119.tar.gz]
+[2024-05-29 02:12:38] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-29 02:12:38] INFO root fetch - processPackages [gnssrefl]: executing diffoscope
+[2024-05-29 02:12:38] INFO root fetch - processPackages [gnssrefl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssrefl-3.3.0.tar.gz tmp/gnssrefl-3.3.1.tar.gz --markdown 20240529/g/gnssrefl/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-05-29 02:12:41] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-3.3.0.tar.gz]
+[2024-05-29 02:12:41] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-3.3.1.tar.gz]
+[2024-05-29 02:12:41] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
+[2024-05-29 02:12:41] INFO root fetch - main [MainThread]: Store serial: [23421073]
