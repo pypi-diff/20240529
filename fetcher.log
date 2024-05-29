@@ -10789,3 +10789,51 @@
 [2024-05-29 07:23:22] INFO root fetch - processPackages [watchmen-indicator-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_surface-16.6.9.tar.gz]
 [2024-05-29 07:23:22] INFO root fetch - main [MainThread]: End processing [watchmen-indicator-surface]: success
 [2024-05-29 07:23:22] INFO root fetch - main [MainThread]: Store serial: [23424409]
+[2024-05-29 07:25:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424409]
+[2024-05-29 07:25:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 07:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nftpy
+[2024-05-29 07:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-archive
+[2024-05-29 07:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logicplum-ai
+[2024-05-29 07:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nfinance
+[2024-05-29 07:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-manufacture-reporting
+[2024-05-29 07:25:31] INFO root fetch - processPackages [nftpy]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-29 07:25:31] INFO root fetch - processPackages [nfinance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-29 07:25:31] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: New version: [16.0.20240528.0] Old Version: [16.0.20240221.0]
+[2024-05-29 07:25:31] INFO root fetch - processPackages [logicplum-ai]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-29 07:25:31] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1716959382] Old Version: [0.1.0a1716504266]
+[2024-05-29 07:25:31] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/a6/06/adbe0a9d20c0b3550d857d983da73c51099dbefa5add379e638f2b2d83e7/nfinance-0.4.8.tar.gz
+[2024-05-29 07:25:31] INFO root fetch - processPackages [nftpy]: Downloading https://files.pythonhosted.org/packages/f4/70/643b4459cfaf2fc078bfeed1dace679858f5075614fcbc8d206bdfa13e52/nftpy-1.1.1.tar.gz
+[2024-05-29 07:25:31] INFO root fetch - processPackages [logicplum-ai]: Downloading https://files.pythonhosted.org/packages/e8/a3/19824c159063beb7e394a076928823b599e34ec3c6b349475ad773fa8085/logicplum-ai-1.3.8.tar.gz
+[2024-05-29 07:25:31] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: Downloading https://files.pythonhosted.org/packages/ef/67/654430f19bf29294820666c11a73c273902c7c8c4dc294824ed549a018f5/odoo_addons_oca_manufacture_reporting-16.0.20240221.0-py3-none-any.whl
+[2024-05-29 07:25:31] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/34/6b/46ec181950d083608bf8cca8b3597d33fa9138974ed300ac6413a7cc5a17/nfinance-0.4.9.tar.gz
+[2024-05-29 07:25:31] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/9d/56/8cccc1c1662b7f9d17c2a449f1294e70faee72bf5e477c5ef2ee1b6b1e1e/pulumi_archive-0.1.0a1716504266.tar.gz
+[2024-05-29 07:25:31] INFO root fetch - processPackages [nftpy]: Downloading https://files.pythonhosted.org/packages/bd/b5/635ea6058e2432501a5c4cba54e68e6ee11c79f83eacfbf5940ca6d82105/nftpy-1.1.2.tar.gz
+[2024-05-29 07:25:31] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-05-29 07:25:31] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.4.8.tar.gz tmp/nfinance-0.4.9.tar.gz --markdown 20240529/n/nfinance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-29 07:25:31] INFO root fetch - processPackages [nftpy]: executing diffoscope
+[2024-05-29 07:25:31] INFO root fetch - processPackages [nftpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nftpy-1.1.1.tar.gz tmp/nftpy-1.1.2.tar.gz --markdown 20240529/n/nftpy/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-29 07:25:31] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: Downloading https://files.pythonhosted.org/packages/d9/66/03ec8bd560cf46a8d9b416048c1a4cc695169fc0dca8d538c4720460d6f4/odoo_addons_oca_manufacture_reporting-16.0.20240528.0-py3-none-any.whl
+[2024-05-29 07:25:31] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/79/29/9157c2e5e6987617e851d36d64bc6a38aa3447ae5617dae4143386cc93b1/pulumi_archive-0.1.0a1716959382.tar.gz
+[2024-05-29 07:25:32] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: executing diffoscope
+[2024-05-29 07:25:32] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_manufacture_reporting-16.0.20240221.0-py3-none-any.whl.zip tmp/odoo_addons_oca_manufacture_reporting-16.0.20240528.0-py3-none-any.whl.zip --markdown 20240529/o/odoo-addons-oca-manufacture-reporting/16.0.20240221.0-16.0.20240528.0/README.md --exclude *.pyd
+[2024-05-29 07:25:32] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-29 07:25:32] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.1.0a1716504266.tar.gz tmp/pulumi_archive-0.1.0a1716959382.tar.gz --markdown 20240529/p/pulumi-archive/0.1.0a1716504266-0.1.0a1716959382/README.md --exclude *.pyd
+[2024-05-29 07:25:32] INFO root fetch - processPackages [logicplum-ai]: Downloading https://files.pythonhosted.org/packages/3a/9f/884641e1ce78daf2e900e5187bc0f4f9e57ab8791805b6200b40b3dc482e/logicplum_ai-1.3.9.tar.gz
+[2024-05-29 07:25:32] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.8.tar.gz]
+[2024-05-29 07:25:32] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.9.tar.gz]
+[2024-05-29 07:25:32] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-05-29 07:25:32] INFO root fetch - processPackages [nftpy]: Remove: archive file [/home/abi/fetcher/tmp/nftpy-1.1.1.tar.gz]
+[2024-05-29 07:25:32] INFO root fetch - processPackages [nftpy]: Remove: archive file [/home/abi/fetcher/tmp/nftpy-1.1.2.tar.gz]
+[2024-05-29 07:25:32] INFO root fetch - main [MainThread]: End processing [nftpy]: success
+[2024-05-29 07:25:32] INFO root fetch - processPackages [logicplum-ai]: executing diffoscope
+[2024-05-29 07:25:32] INFO root fetch - processPackages [logicplum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logicplum-ai-1.3.8.tar.gz tmp/logicplum_ai-1.3.9.tar.gz --markdown 20240529/l/logicplum-ai/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-29 07:25:32] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture_reporting-16.0.20240221.0-py3-none-any.whl.zip]
+[2024-05-29 07:25:32] INFO root fetch - processPackages [odoo-addons-oca-manufacture-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture_reporting-16.0.20240528.0-py3-none-any.whl.zip]
+[2024-05-29 07:25:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-manufacture-reporting]: success
+[2024-05-29 07:25:32] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1716504266.tar.gz]
+[2024-05-29 07:25:32] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1716959382.tar.gz]
+[2024-05-29 07:25:32] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-29 07:25:33] INFO root fetch - processPackages [logicplum-ai]: Remove: archive file [/home/abi/fetcher/tmp/logicplum-ai-1.3.8.tar.gz]
+[2024-05-29 07:25:33] INFO root fetch - processPackages [logicplum-ai]: Remove: archive file [/home/abi/fetcher/tmp/logicplum_ai-1.3.9.tar.gz]
+[2024-05-29 07:25:33] INFO root fetch - main [MainThread]: End processing [logicplum-ai]: success
+[2024-05-29 07:25:33] INFO root fetch - main [MainThread]: Store serial: [23424424]
