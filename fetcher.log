@@ -9420,3 +9420,15 @@
 [2024-05-29 06:13:52] INFO root fetch - processPackages [AlphaDSSP]: Remove: archive file [/home/abi/fetcher/tmp/AlphaDSSP-0.4.1.tar.gz]
 [2024-05-29 06:13:52] INFO root fetch - main [MainThread]: End processing [AlphaDSSP]: success
 [2024-05-29 06:13:52] INFO root fetch - main [MainThread]: Store serial: [23423839]
+[2024-05-29 06:15:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423839]
+[2024-05-29 06:16:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 06:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scikit-robot
+[2024-05-29 06:16:00] INFO root fetch - processPackages [scikit-robot]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 06:16:01] INFO root fetch - processPackages [scikit-robot]: Downloading https://files.pythonhosted.org/packages/ea/5f/c190dc52a33c54ebfaa592b9e1ddf945c15b9ae65dd27d9826b5a9d792a2/scikit-robot-0.0.8.tar.gz
+[2024-05-29 06:16:01] INFO root fetch - processPackages [scikit-robot]: Downloading https://files.pythonhosted.org/packages/de/72/5cfd650a69fa6c2eac08c9bce28f0517ba5662ee06a3bd9316c94d4bcc70/scikit-robot-0.0.9.tar.gz
+[2024-05-29 06:16:01] INFO root fetch - processPackages [scikit-robot]: executing diffoscope
+[2024-05-29 06:16:01] INFO root fetch - processPackages [scikit-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-robot-0.0.8.tar.gz tmp/scikit-robot-0.0.9.tar.gz --markdown 20240529/s/scikit-robot/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 06:16:02] INFO root fetch - processPackages [scikit-robot]: Remove: archive file [/home/abi/fetcher/tmp/scikit-robot-0.0.8.tar.gz]
+[2024-05-29 06:16:02] INFO root fetch - processPackages [scikit-robot]: Remove: archive file [/home/abi/fetcher/tmp/scikit-robot-0.0.9.tar.gz]
+[2024-05-29 06:16:02] INFO root fetch - main [MainThread]: End processing [scikit-robot]: success
+[2024-05-29 06:16:02] INFO root fetch - main [MainThread]: Store serial: [23423842]
