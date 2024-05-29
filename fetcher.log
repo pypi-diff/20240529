@@ -9552,3 +9552,36 @@
 [2024-05-29 06:22:38] INFO root fetch - processPackages [alphainspect]: Remove: archive file [/home/abi/fetcher/tmp/alphainspect-0.4.4.tar.gz]
 [2024-05-29 06:22:38] INFO root fetch - main [MainThread]: End processing [alphainspect]: success
 [2024-05-29 06:22:38] INFO root fetch - main [MainThread]: Store serial: [23423887]
+[2024-05-29 06:24:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423887]
+[2024-05-29 06:24:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 06:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openbot-training-frontend
+[2024-05-29 06:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: captif-slp
+[2024-05-29 06:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dom-pipackage
+[2024-05-29 06:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TineAutomationToolkit
+[2024-05-29 06:24:47] INFO root fetch - processPackages [openbot-training-frontend]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-29 06:24:47] INFO root fetch - processPackages [openbot-training-frontend]: Downloading https://files.pythonhosted.org/packages/27/64/3d518ec824133ba6f62fa03d9c0a25a9c0adcff2733c6626b08b835e4d4f/openbot_training_frontend-0.5.0.tar.gz
+[2024-05-29 06:24:47] WARNING root fetch - processPackages [dom-pipackage]: Skipping, unable to determine old version
+[2024-05-29 06:24:47] INFO root fetch - main [MainThread]: End processing [dom-pipackage] error
+[2024-05-29 06:24:47] INFO root fetch - processPackages [TineAutomationToolkit]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-29 06:24:47] INFO root fetch - processPackages [captif-slp]: New version: [0.9] Old Version: [0.8]
+[2024-05-29 06:24:47] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/75/c7/7fb5e638eb2c7b5d22b7e0d723ee989855703084d4e73e59b9177bafba52/captif-slp-0.8.tar.gz
+[2024-05-29 06:24:47] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/6c/2d/0d81f0f91022bba008e90342edf7260ab14a4e1d5c28c8208972a6251620/TineAutomationToolkit-1.1.1.tar.gz
+[2024-05-29 06:24:47] INFO root fetch - processPackages [openbot-training-frontend]: Downloading https://files.pythonhosted.org/packages/1b/8b/93da9f2391b9da7145ac194d4b52729d5c29d114d16db2580d15ba47385d/openbot_training_frontend-0.6.0.tar.gz
+[2024-05-29 06:24:47] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/51/2d/f660f256d1bb670d0297e69740f968b195d654e2012df0f5a2b9a087eb99/TineAutomationToolkit-1.1.2.tar.gz
+[2024-05-29 06:24:47] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/08/59/6bc2fe7908f5fe4b6d93eb6f7c0c450a0e43b7ade9ce1906f1d0269f6d1f/captif-slp-0.9.tar.gz
+[2024-05-29 06:24:48] INFO root fetch - processPackages [captif-slp]: executing diffoscope
+[2024-05-29 06:24:48] INFO root fetch - processPackages [captif-slp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif-slp-0.8.tar.gz tmp/captif-slp-0.9.tar.gz --markdown 20240529/c/captif-slp/0.8-0.9/README.md --exclude *.pyd
+[2024-05-29 06:24:48] INFO root fetch - processPackages [openbot-training-frontend]: executing diffoscope
+[2024-05-29 06:24:48] INFO root fetch - processPackages [openbot-training-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbot_training_frontend-0.5.0.tar.gz tmp/openbot_training_frontend-0.6.0.tar.gz --markdown 20240529/o/openbot-training-frontend/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-29 06:24:48] INFO root fetch - processPackages [TineAutomationToolkit]: executing diffoscope
+[2024-05-29 06:24:48] INFO root fetch - processPackages [TineAutomationToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TineAutomationToolkit-1.1.1.tar.gz tmp/TineAutomationToolkit-1.1.2.tar.gz --markdown 20240529/T/TineAutomationToolkit/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-29 06:24:48] INFO root fetch - processPackages [captif-slp]: Remove: archive file [/home/abi/fetcher/tmp/captif-slp-0.8.tar.gz]
+[2024-05-29 06:24:48] INFO root fetch - processPackages [captif-slp]: Remove: archive file [/home/abi/fetcher/tmp/captif-slp-0.9.tar.gz]
+[2024-05-29 06:24:48] INFO root fetch - main [MainThread]: End processing [captif-slp]: success
+[2024-05-29 06:24:48] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.1.1.tar.gz]
+[2024-05-29 06:24:48] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.1.2.tar.gz]
+[2024-05-29 06:24:48] INFO root fetch - main [MainThread]: End processing [TineAutomationToolkit]: success
+[2024-05-29 06:26:16] INFO root fetch - processPackages [openbot-training-frontend]: Remove: archive file [/home/abi/fetcher/tmp/openbot_training_frontend-0.5.0.tar.gz]
+[2024-05-29 06:26:16] INFO root fetch - processPackages [openbot-training-frontend]: Remove: archive file [/home/abi/fetcher/tmp/openbot_training_frontend-0.6.0.tar.gz]
+[2024-05-29 06:26:16] INFO root fetch - main [MainThread]: End processing [openbot-training-frontend]: success
+[2024-05-29 06:26:16] INFO root fetch - main [MainThread]: Store serial: [23423900]
