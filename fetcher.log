@@ -8992,3 +8992,56 @@
 [2024-05-29 05:47:13] INFO root fetch - processPackages [lessweb]: Remove: archive file [/home/abi/fetcher/tmp/lessweb-1.4.0.tar.gz]
 [2024-05-29 05:47:13] INFO root fetch - main [MainThread]: End processing [lessweb]: success
 [2024-05-29 05:47:13] INFO root fetch - main [MainThread]: Store serial: [23423690]
+[2024-05-29 05:49:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423690]
+[2024-05-29 05:49:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 05:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pons
+[2024-05-29 05:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySide6-QtAds
+[2024-05-29 05:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-cloudapi20160714
+[2024-05-29 05:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MyLLM
+[2024-05-29 05:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-time
+[2024-05-29 05:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bagbag
+[2024-05-29 05:49:22] INFO root fetch - processPackages [PySide6-QtAds]: New version: [4.2.1.2] Old Version: [4.2.1.1]
+[2024-05-29 05:49:22] INFO root fetch - processPackages [bagbag]: New version: [0.68.9] Old Version: [0.68.8]
+[2024-05-29 05:49:22] INFO root fetch - processPackages [PySide6-QtAds]: Downloading https://files.pythonhosted.org/packages/92/05/f54b590745700891fdf70de2f3d69a37a335241d17c3bbc1ea948da3ff2b/pyside6_qtads-4.2.1.1.tar.gz
+[2024-05-29 05:49:22] INFO root fetch - processPackages [pons]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-29 05:49:22] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/78/96/cec1b60756a800353138acafbcdaf59362f72a46b4a91cae324ae5b6118b/bagbag-0.68.8.tar.gz
+[2024-05-29 05:49:22] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: New version: [4.3.0] Old Version: [4.2.1]
+[2024-05-29 05:49:22] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-05-29 05:49:22] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: New version: [9.0.2] Old Version: [9.0.1]
+[2024-05-29 05:49:22] WARNING root fetch - processPackages [PySide6-QtAds]: Skipping package: exceeds size limit 21547688>=10485760
+[2024-05-29 05:49:22] INFO root fetch - main [MainThread]: End processing [PySide6-QtAds] error
+[2024-05-29 05:49:22] INFO root fetch - processPackages [pons]: Downloading https://files.pythonhosted.org/packages/71/31/a9252f6e1e130a151f74e90e9621c716c849a3acbf697dd22350379dfaea/pons-0.7.0.tar.gz
+[2024-05-29 05:49:23] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/14/90/e91a403840106b9c1eec9c8f6db689e75d7f48f2117f42115d23957d59db/alibabacloud_cloudapi20160714-4.2.1.tar.gz
+[2024-05-29 05:49:23] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-05-29 05:49:23] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: Downloading https://files.pythonhosted.org/packages/9b/14/05444557615e528c26b1deda349697c39f35475d2249d5e52e407125517d/cdktf-cdktf-provider-time-9.0.1.tar.gz
+[2024-05-29 05:49:23] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/a7/ce/36d9c874c6e340bb1da40a8b9b41a914e0760f19171ede585a00fb45323d/bagbag-0.68.9.tar.gz
+[2024-05-29 05:49:23] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-29 05:49:23] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.8.tar.gz tmp/bagbag-0.68.9.tar.gz --markdown 20240529/b/bagbag/0.68.8-0.68.9/README.md --exclude *.pyd
+[2024-05-29 05:49:23] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/2a/c1/9a91678029f61c65e4103222dd5e219de38f0fa1617907222f748e100795/alibabacloud_cloudapi20160714-4.3.0.tar.gz
+[2024-05-29 05:49:23] INFO root fetch - processPackages [pons]: Downloading https://files.pythonhosted.org/packages/5d/86/be5167e189d720c4d14054186d0d90de244b2a0cb728b453785ab8ee8245/pons-0.8.0.tar.gz
+[2024-05-29 05:49:23] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-05-29 05:49:23] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: executing diffoscope
+[2024-05-29 05:49:23] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714-4.2.1.tar.gz tmp/alibabacloud_cloudapi20160714-4.3.0.tar.gz --markdown 20240529/a/alibabacloud-cloudapi20160714/4.2.1-4.3.0/README.md --exclude *.pyd
+[2024-05-29 05:49:23] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: Downloading https://files.pythonhosted.org/packages/a7/94/b91ebe5bf5a02d3f6bee2a5a8112c9e2f689b0d237088fcc29f849be89f4/cdktf-cdktf-provider-time-9.0.2.tar.gz
+[2024-05-29 05:49:23] INFO root fetch - processPackages [pons]: executing diffoscope
+[2024-05-29 05:49:23] INFO root fetch - processPackages [pons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pons-0.7.0.tar.gz tmp/pons-0.8.0.tar.gz --markdown 20240529/p/pons/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-29 05:49:23] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-05-29 05:49:23] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240529/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-05-29 05:49:23] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: executing diffoscope
+[2024-05-29 05:49:23] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-time-9.0.1.tar.gz tmp/cdktf-cdktf-provider-time-9.0.2.tar.gz --markdown 20240529/c/cdktf-cdktf-provider-time/9.0.1-9.0.2/README.md --exclude *.pyd
+[2024-05-29 05:49:24] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-05-29 05:49:24] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-05-29 05:49:24] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-05-29 05:49:24] INFO root fetch - processPackages [pons]: Remove: archive file [/home/abi/fetcher/tmp/pons-0.7.0.tar.gz]
+[2024-05-29 05:49:24] INFO root fetch - processPackages [pons]: Remove: archive file [/home/abi/fetcher/tmp/pons-0.8.0.tar.gz]
+[2024-05-29 05:49:24] INFO root fetch - main [MainThread]: End processing [pons]: success
+[2024-05-29 05:49:24] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-time-9.0.1.tar.gz]
+[2024-05-29 05:49:24] INFO root fetch - processPackages [cdktf-cdktf-provider-time]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-time-9.0.2.tar.gz]
+[2024-05-29 05:49:24] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-time]: success
+[2024-05-29 05:49:24] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.8.tar.gz]
+[2024-05-29 05:49:24] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.9.tar.gz]
+[2024-05-29 05:49:24] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-29 05:49:25] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-4.2.1.tar.gz]
+[2024-05-29 05:49:25] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-4.3.0.tar.gz]
+[2024-05-29 05:49:25] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714]: success
+[2024-05-29 05:49:25] INFO root fetch - main [MainThread]: Store serial: [23423711]
