@@ -8080,3 +8080,69 @@
 [2024-05-29 04:46:57] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.1.tar.gz]
 [2024-05-29 04:46:57] INFO root fetch - main [MainThread]: End processing [openllm]: success
 [2024-05-29 04:46:57] INFO root fetch - main [MainThread]: Store serial: [23423356]
+[2024-05-29 04:49:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423356]
+[2024-05-29 04:49:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-29 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-toolkit
+[2024-05-29 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: first-order
+[2024-05-29 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loe-simp-app-fw
+[2024-05-29 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audio-toolkit
+[2024-05-29 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-skill-speedtest
+[2024-05-29 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-lock-date-update
+[2024-05-29 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sourcery-nightly
+[2024-05-29 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-journal-lock-date
+[2024-05-29 04:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-move-template
+[2024-05-29 04:49:07] WARNING root fetch - processPackages [ovos-skill-speedtest]: Skipping, unable to determine old version
+[2024-05-29 04:49:07] INFO root fetch - main [MainThread]: End processing [ovos-skill-speedtest] error
+[2024-05-29 04:49:07] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 04:49:07] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 04:49:07] WARNING root fetch - processPackages [first-order]: Skipping, unable to determine old version
+[2024-05-29 04:49:07] INFO root fetch - main [MainThread]: End processing [first-order] error
+[2024-05-29 04:49:07] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.6.0] Old Version: [1.5.3]
+[2024-05-29 04:49:07] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-29 04:49:07] INFO root fetch - processPackages [odoo-addon-account-move-template]: New version: [17.0.1.0.0.9] Old Version: [17.0.1.0.0.8]
+[2024-05-29 04:49:07] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.4]
+[2024-05-29 04:49:07] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: New version: [17.0.1.0.1.3] Old Version: [17.0.1.0.1.2]
+[2024-05-29 04:49:07] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-29 04:49:08] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-05-29 04:49:08] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-05-29 04:49:08] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/96/51/5e5d6567fd1a3a36b967f3a4e202f7cd0481d4c7fa69b1469121f4ae23ae/loe_simp_app_fw-1.5.3.tar.gz
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: Downloading https://files.pythonhosted.org/packages/ca/32/8276021cf128c6f61725789ad1d84b2f622886832093cab1b63c6fe8c2f7/odoo_addon_account_lock_date_update-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/0a/b1/330b03cf3a0123be9fb88ed9b275621371f21b7dfee4abbb73f052cb15a7/odoo_addon_account_move_template-17.0.1.0.0.8-py3-none-any.whl
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Downloading https://files.pythonhosted.org/packages/3b/1c/cdeb3daf9d32026701e98ea373157b6599b10360de97057d952470302032/odoo_addon_account_journal_lock_date-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-29 04:49:08] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-05-29 04:49:08] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-29 04:49:08] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-29 04:49:08] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-05-29 04:49:08] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/6e/b7/f72d04eab945863d5162acf61d7fbd020a70af784458b4ed3cc1b7b40bb0/loe_simp_app_fw-1.6.0.tar.gz
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/2f/4b/09f11af3e3923578b9a58b1b08afae4d8da7244bb052ed977f9701589872/odoo_addon_account_move_template-17.0.1.0.0.9-py3-none-any.whl
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Downloading https://files.pythonhosted.org/packages/be/90/32244199fb9fc351f0c9c616c9f6947815030478a54d097228bfc8c27691/odoo_addon_account_journal_lock_date-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: Downloading https://files.pythonhosted.org/packages/8c/fc/3ee5824c202c316c0223756c2e19a0108e194bf3607f0b85bbec0558dd56/odoo_addon_account_lock_date_update-17.0.1.0.1.3-py3-none-any.whl
+[2024-05-29 04:49:08] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-05-29 04:49:08] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240529/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 04:49:08] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-05-29 04:49:08] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240529/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 04:49:08] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-05-29 04:49:08] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.5.3.tar.gz tmp/loe_simp_app_fw-1.6.0.tar.gz --markdown 20240529/l/loe-simp-app-fw/1.5.3-1.6.0/README.md --exclude *.pyd
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: executing diffoscope
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-account-journal-lock-date/17.0.1.0.0.4-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: executing diffoscope
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_lock_date_update-17.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_lock_date_update-17.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-account-lock-date-update/17.0.1.0.1.2-17.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-move-template]: executing diffoscope
+[2024-05-29 04:49:08] INFO root fetch - processPackages [odoo-addon-account-move-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_template-17.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_move_template-17.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-account-move-template/17.0.1.0.0.8-17.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-29 04:49:09] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-05-29 04:49:09] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-05-29 04:49:09] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-05-29 04:49:09] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-05-29 04:49:09] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.5.3.tar.gz]
+[2024-05-29 04:49:09] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.6.0.tar.gz]
+[2024-05-29 04:49:09] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-05-29 04:49:09] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_lock_date_update-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-29 04:49:09] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_lock_date_update-17.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-29 04:49:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-lock-date-update]: success
+[2024-05-29 04:49:09] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-29 04:49:09] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-29 04:49:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-journal-lock-date]: success
+[2024-05-29 04:49:09] INFO root fetch - processPackages [odoo-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_template-17.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-29 04:49:09] INFO root fetch - processPackages [odoo-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_template-17.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-29 04:49:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-template]: success
+[2024-05-29 04:49:09] INFO root fetch - main [MainThread]: Store serial: [23423382]
