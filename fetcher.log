@@ -21936,3 +21936,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:35:05] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405291232.tar.gz]
 [2024-05-29 14:35:05] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-29 14:35:05] INFO root fetch - main [MainThread]: Store serial: [23429673]
+[2024-05-29 14:37:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429673]
+[2024-05-29 14:37:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Geode-Conversion
+[2024-05-29 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fairbalance
+[2024-05-29 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brapi-proxy
+[2024-05-29 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ANNarchy
+[2024-05-29 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2024-05-29 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-dbchat
+[2024-05-29 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chrome-for-testing-manager
+[2024-05-29 14:37:15] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-29 14:37:15] INFO root fetch - processPackages [fairbalance]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-29 14:37:15] WARNING root fetch - processPackages [chrome-for-testing-manager]: Skipping, unable to determine old version
+[2024-05-29 14:37:15] INFO root fetch - main [MainThread]: End processing [chrome-for-testing-manager] error
+[2024-05-29 14:37:15] INFO root fetch - processPackages [kfish]: New version: [99.0.202405291157] Old Version: [99.0.202405290953]
+[2024-05-29 14:37:15] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-29 14:37:15] INFO root fetch - processPackages [fairbalance]: Downloading https://files.pythonhosted.org/packages/a4/60/4c2466fc977981a8ad4457a60ab781ae4f4ae7cb11f3b7d48fc29ba840a7/fairbalance-0.1.7.tar.gz
+[2024-05-29 14:37:15] INFO root fetch - processPackages [ANNarchy]: New version: [4.8.0.1] Old Version: [4.7.3]
+[2024-05-29 14:37:15] INFO root fetch - processPackages [brapi-proxy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 14:37:15] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/41/40/df3e0f8d1aa8d8f8b3815a59769e277dbadeaccb62c345344f7f7e0bc1d3/kfish-99.0.202405290953-py3-none-any.whl
+[2024-05-29 14:37:15] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.4.0rc1] Old Version: [5.3.1rc1]
+[2024-05-29 14:37:15] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-29 14:37:15] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/e5/04/830128de8bf638591f399b4facbc6e91ee1c7e68369ef7c50878eda347f7/brapi_proxy-0.0.8.tar.gz
+[2024-05-29 14:37:15] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/44/2d/fe085bdf742b650034e74415334d35214709d5c463b6077bb0f6a3bd9b59/ANNarchy-4.7.3.tar.gz
+[2024-05-29 14:37:15] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/6e/a3/6708c3e35e3160277617e238d311c5af213c06a45b55942755014dcd5064/Geode_Conversion-5.3.1rc1-cp39-cp39-win_amd64.whl
+[2024-05-29 14:37:15] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/72/d5/f39f43356d7efb7a1148ab595a9cb0a153a1ee110455d68a04093c265517/kfish-99.0.202405291157-py3-none-any.whl
+[2024-05-29 14:37:15] INFO root fetch - processPackages [fairbalance]: Downloading https://files.pythonhosted.org/packages/ca/6f/97fcf18702e8103b00397674a56aeb9122e8bc3bc079bf3c9886520db3c9/fairbalance-0.1.8.tar.gz
+[2024-05-29 14:37:15] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-29 14:37:15] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240529/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-29 14:37:15] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-29 14:37:15] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405290953-py3-none-any.whl.zip tmp/kfish-99.0.202405291157-py3-none-any.whl.zip --markdown 20240529/k/kfish/99.0.202405290953-99.0.202405291157/README.md --exclude *.pyd
+[2024-05-29 14:37:15] INFO root fetch - processPackages [fairbalance]: executing diffoscope
+[2024-05-29 14:37:15] INFO root fetch - processPackages [fairbalance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbalance-0.1.7.tar.gz tmp/fairbalance-0.1.8.tar.gz --markdown 20240529/f/fairbalance/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-29 14:37:15] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/78/53/a3c28b1776c1c428be285c108ffcfeeb2f2e3a97bac6d6d3d2e84fecfb2b/brapi_proxy-0.0.9.tar.gz
+[2024-05-29 14:37:15] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/b2/9f/24745a281be2e025633387e6e564ec0a16ce60cec69ba66ae1539a9eb5e8/annarchy-4.8.0.1.tar.gz
+[2024-05-29 14:37:15] INFO root fetch - processPackages [brapi-proxy]: executing diffoscope
+[2024-05-29 14:37:15] INFO root fetch - processPackages [brapi-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brapi_proxy-0.0.8.tar.gz tmp/brapi_proxy-0.0.9.tar.gz --markdown 20240529/b/brapi-proxy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 14:37:16] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/ba/9f/7a4137968a29107b8326765d979c4a7b8446f65c520bf11128d11679901c/Geode_Conversion-5.4.0rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-29 14:37:16] INFO root fetch - processPackages [ANNarchy]: executing diffoscope
+[2024-05-29 14:37:16] INFO root fetch - processPackages [ANNarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANNarchy-4.7.3.tar.gz tmp/annarchy-4.8.0.1.tar.gz --markdown 20240529/A/ANNarchy/4.7.3-4.8.0.1/README.md --exclude *.pyd
+[2024-05-29 14:37:16] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405290953-py3-none-any.whl.zip]
+[2024-05-29 14:37:16] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405291157-py3-none-any.whl.zip]
+[2024-05-29 14:37:16] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-29 14:37:16] INFO root fetch - processPackages [fairbalance]: Remove: archive file [/home/abi/fetcher/tmp/fairbalance-0.1.7.tar.gz]
+[2024-05-29 14:37:16] INFO root fetch - processPackages [fairbalance]: Remove: archive file [/home/abi/fetcher/tmp/fairbalance-0.1.8.tar.gz]
+[2024-05-29 14:37:16] INFO root fetch - main [MainThread]: End processing [fairbalance]: success
+[2024-05-29 14:37:16] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2024-05-29 14:37:16] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.3.1rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.4.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240529/G/Geode-Conversion/5.3.1rc1-5.4.0rc1/README.md --exclude *.pyd
+[2024-05-29 14:37:16] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-29 14:37:16] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-29 14:37:16] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-29 14:37:16] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.8.tar.gz]
+[2024-05-29 14:37:16] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.9.tar.gz]
+[2024-05-29 14:37:16] INFO root fetch - main [MainThread]: End processing [brapi-proxy]: success
+[2024-05-29 14:37:17] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.3.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 14:37:17] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.4.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-29 14:37:17] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2024-05-29 14:37:18] INFO root fetch - processPackages [ANNarchy]: Remove: archive file [/home/abi/fetcher/tmp/ANNarchy-4.7.3.tar.gz]
+[2024-05-29 14:37:18] INFO root fetch - processPackages [ANNarchy]: Remove: archive file [/home/abi/fetcher/tmp/annarchy-4.8.0.1.tar.gz]
+[2024-05-29 14:37:18] INFO root fetch - main [MainThread]: End processing [ANNarchy]: success
+[2024-05-29 14:37:18] INFO root fetch - main [MainThread]: Store serial: [23429701]
