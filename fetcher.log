@@ -20275,3 +20275,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:32:29] INFO root fetch - processPackages [llm-microscope]: Remove: archive file [/home/abi/fetcher/tmp/llm_microscope-0.0.3.tar.gz]
 [2024-05-29 13:32:29] INFO root fetch - main [MainThread]: End processing [llm-microscope]: success
 [2024-05-29 13:32:29] INFO root fetch - main [MainThread]: Store serial: [23428902]
+[2024-05-29 13:34:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428902]
+[2024-05-29 13:34:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 13:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: svectordb
+[2024-05-29 13:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wolfhece
+[2024-05-29 13:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-microscope
+[2024-05-29 13:34:38] INFO root fetch - processPackages [llm-microscope]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 13:34:38] INFO root fetch - processPackages [llm-microscope]: Downloading https://files.pythonhosted.org/packages/a0/7a/c440ade8cae3eb29c4e8a617c0defb1fcd0e426a8e67888ff814f1191201/llm_microscope-0.0.2.tar.gz
+[2024-05-29 13:34:38] INFO root fetch - processPackages [wolfhece]: New version: [2.0.55] Old Version: [2.0.54]
+[2024-05-29 13:34:38] INFO root fetch - processPackages [svectordb]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-29 13:34:38] INFO root fetch - processPackages [wolfhece]: Downloading https://files.pythonhosted.org/packages/a9/e3/f50017277b86143494ba004b9c36edba99e91eceb7c04edbeaa044b0c89f/wolfhece-2.0.54-py3-none-any.whl
+[2024-05-29 13:34:38] INFO root fetch - processPackages [llm-microscope]: Downloading https://files.pythonhosted.org/packages/e9/ce/1ca9096084973d6af405fe75cb19c01a0bf5be9ca6e5355f8681320d51fd/llm_microscope-0.0.3.tar.gz
+[2024-05-29 13:34:38] INFO root fetch - processPackages [svectordb]: Downloading https://files.pythonhosted.org/packages/b5/a6/118e664c42693fefa3ec8b845ed72cdf2901828c34da3e9c0e71b6a1f02e/svectordb-0.0.5.tar.gz
+[2024-05-29 13:34:38] WARNING root fetch - processPackages [wolfhece]: Skipping package: exceeds size limit 160033912>=10485760
+[2024-05-29 13:34:38] INFO root fetch - main [MainThread]: End processing [wolfhece] error
+[2024-05-29 13:34:38] INFO root fetch - processPackages [llm-microscope]: executing diffoscope
+[2024-05-29 13:34:38] INFO root fetch - processPackages [llm-microscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_microscope-0.0.2.tar.gz tmp/llm_microscope-0.0.3.tar.gz --markdown 20240529/l/llm-microscope/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 13:34:38] INFO root fetch - processPackages [svectordb]: Downloading https://files.pythonhosted.org/packages/46/b3/81830e6442a2776a8fa45e0e5bb8dc3276791e7dcfd2617969c2dcf81e8d/svectordb-0.0.6.tar.gz
+[2024-05-29 13:34:38] INFO root fetch - processPackages [svectordb]: executing diffoscope
+[2024-05-29 13:34:38] INFO root fetch - processPackages [svectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svectordb-0.0.5.tar.gz tmp/svectordb-0.0.6.tar.gz --markdown 20240529/s/svectordb/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-29 13:34:39] INFO root fetch - processPackages [llm-microscope]: Remove: archive file [/home/abi/fetcher/tmp/llm_microscope-0.0.2.tar.gz]
+[2024-05-29 13:34:39] INFO root fetch - processPackages [llm-microscope]: Remove: archive file [/home/abi/fetcher/tmp/llm_microscope-0.0.3.tar.gz]
+[2024-05-29 13:34:39] INFO root fetch - main [MainThread]: End processing [llm-microscope]: success
+[2024-05-29 13:34:39] INFO root fetch - processPackages [svectordb]: Remove: archive file [/home/abi/fetcher/tmp/svectordb-0.0.5.tar.gz]
+[2024-05-29 13:34:39] INFO root fetch - processPackages [svectordb]: Remove: archive file [/home/abi/fetcher/tmp/svectordb-0.0.6.tar.gz]
+[2024-05-29 13:34:39] INFO root fetch - main [MainThread]: End processing [svectordb]: success
+[2024-05-29 13:34:39] INFO root fetch - main [MainThread]: Store serial: [23428911]
