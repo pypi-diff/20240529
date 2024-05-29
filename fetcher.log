@@ -18442,3 +18442,35 @@
 [2024-05-29 12:21:25] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl.zip]
 [2024-05-29 12:21:25] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-05-29 12:21:25] INFO root fetch - main [MainThread]: Store serial: [23428182]
+[2024-05-29 12:23:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428182]
+[2024-05-29 12:23:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 12:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-aising
+[2024-05-29 12:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySimultan
+[2024-05-29 12:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: email-message-aws-ses-local
+[2024-05-29 12:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ArcDLNexus
+[2024-05-29 12:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wp-enhanced
+[2024-05-29 12:23:34] WARNING root fetch - processPackages [ArcDLNexus]: Skipping, unable to determine old version
+[2024-05-29 12:23:34] INFO root fetch - main [MainThread]: End processing [ArcDLNexus] error
+[2024-05-29 12:23:34] INFO root fetch - processPackages [PySimultan]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-29 12:23:34] INFO root fetch - processPackages [PySimultan]: Downloading https://files.pythonhosted.org/packages/5b/30/8632b7ff1f5dd3a30ab8d8ec4669a99eaa17968311d2f3d0e124fac35335/pysimultan-0.2.4.tar.gz
+[2024-05-29 12:23:34] INFO root fetch - processPackages [email-message-aws-ses-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 12:23:34] WARNING root fetch - processPackages [nonebot-plugin-aising]: Skipping, unable to determine old version
+[2024-05-29 12:23:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aising] error
+[2024-05-29 12:23:34] WARNING root fetch - processPackages [PySimultan]: Skipping package: exceeds size limit 12483850>=10485760
+[2024-05-29 12:23:34] INFO root fetch - main [MainThread]: End processing [PySimultan] error
+[2024-05-29 12:23:34] INFO root fetch - processPackages [wp-enhanced]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-29 12:23:34] INFO root fetch - processPackages [email-message-aws-ses-local]: Downloading https://files.pythonhosted.org/packages/b4/06/abcf076cee1bca5ed99cc67d6ad9c391b5539665469378a096c6d3b5df92/email-message-aws-ses-local-0.0.8.tar.gz
+[2024-05-29 12:23:34] INFO root fetch - processPackages [wp-enhanced]: Downloading https://files.pythonhosted.org/packages/38/9b/c6308f27df637818e8db9d0193182c4338edfd0f3c3e1025d09e0011ac8e/wp_enhanced-0.8.9.tar.gz
+[2024-05-29 12:23:34] INFO root fetch - processPackages [wp-enhanced]: Downloading https://files.pythonhosted.org/packages/d7/a1/a5c5deeabaeda453b57c878154367e4d05c16c4e487204af0d5ba32df0c3/wp_enhanced-0.9.0.tar.gz
+[2024-05-29 12:23:35] INFO root fetch - processPackages [wp-enhanced]: executing diffoscope
+[2024-05-29 12:23:35] INFO root fetch - processPackages [wp-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wp_enhanced-0.8.9.tar.gz tmp/wp_enhanced-0.9.0.tar.gz --markdown 20240529/w/wp-enhanced/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-29 12:23:35] INFO root fetch - processPackages [wp-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/wp_enhanced-0.8.9.tar.gz]
+[2024-05-29 12:23:35] INFO root fetch - processPackages [wp-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/wp_enhanced-0.9.0.tar.gz]
+[2024-05-29 12:23:35] INFO root fetch - main [MainThread]: End processing [wp-enhanced]: success
+[2024-05-29 12:23:35] INFO root fetch - processPackages [email-message-aws-ses-local]: Downloading https://files.pythonhosted.org/packages/b9/a2/eb1f9bd1ef69048af1a1a5b8d55297f0b4b02dd6d0c4b9a6031f13b60bff/email-message-aws-ses-local-0.0.9.tar.gz
+[2024-05-29 12:23:35] INFO root fetch - processPackages [email-message-aws-ses-local]: executing diffoscope
+[2024-05-29 12:23:35] INFO root fetch - processPackages [email-message-aws-ses-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-message-aws-ses-local-0.0.8.tar.gz tmp/email-message-aws-ses-local-0.0.9.tar.gz --markdown 20240529/e/email-message-aws-ses-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 12:23:36] INFO root fetch - processPackages [email-message-aws-ses-local]: Remove: archive file [/home/abi/fetcher/tmp/email-message-aws-ses-local-0.0.8.tar.gz]
+[2024-05-29 12:23:36] INFO root fetch - processPackages [email-message-aws-ses-local]: Remove: archive file [/home/abi/fetcher/tmp/email-message-aws-ses-local-0.0.9.tar.gz]
+[2024-05-29 12:23:36] INFO root fetch - main [MainThread]: End processing [email-message-aws-ses-local]: success
+[2024-05-29 12:23:36] INFO root fetch - main [MainThread]: Store serial: [23428200]
