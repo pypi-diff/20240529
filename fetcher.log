@@ -21780,3 +21780,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:28:29] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
 [2024-05-29 14:28:29] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2024-05-29 14:28:29] INFO root fetch - main [MainThread]: Store serial: [23429601]
+[2024-05-29 14:30:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429601]
+[2024-05-29 14:30:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 14:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veg2hab
+[2024-05-29 14:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astro-test-package
+[2024-05-29 14:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stocknotebridgenew
+[2024-05-29 14:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-cognite-reveal
+[2024-05-29 14:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aura-tools
+[2024-05-29 14:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svectordb
+[2024-05-29 14:30:38] INFO root fetch - processPackages [streamlit-cognite-reveal]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 14:30:38] INFO root fetch - processPackages [svectordb]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-29 14:30:38] INFO root fetch - processPackages [stocknotebridgenew]: New version: [5.0.6] Old Version: [5.0.5]
+[2024-05-29 14:30:38] INFO root fetch - processPackages [streamlit-cognite-reveal]: Downloading https://files.pythonhosted.org/packages/b8/20/b4d846373ef307c14b86bcc78d2061d81a830e5d9baf63e1ee4862b913d8/streamlit_cognite_reveal-0.0.3.tar.gz
+[2024-05-29 14:30:38] WARNING root fetch - processPackages [astro-test-package]: Skipping, unable to determine old version
+[2024-05-29 14:30:38] INFO root fetch - main [MainThread]: End processing [astro-test-package] error
+[2024-05-29 14:30:38] INFO root fetch - processPackages [svectordb]: Downloading https://files.pythonhosted.org/packages/b5/a6/118e664c42693fefa3ec8b845ed72cdf2901828c34da3e9c0e71b6a1f02e/svectordb-0.0.5.tar.gz
+[2024-05-29 14:30:38] INFO root fetch - processPackages [stocknotebridgenew]: Downloading https://files.pythonhosted.org/packages/35/ff/e994cdbe5020f81812eeaf61af82abaaa9afff9892c1afe3918990004a06/stocknotebridgenew-5.0.5.tar.gz
+[2024-05-29 14:30:38] INFO root fetch - processPackages [aura-tools]: New version: [0.8] Old Version: [0.7]
+[2024-05-29 14:30:38] INFO root fetch - processPackages [veg2hab]: New version: [0.2.3a0] Old Version: [0.2.2a1]
+[2024-05-29 14:30:39] INFO root fetch - processPackages [svectordb]: Downloading https://files.pythonhosted.org/packages/46/b3/81830e6442a2776a8fa45e0e5bb8dc3276791e7dcfd2617969c2dcf81e8d/svectordb-0.0.6.tar.gz
+[2024-05-29 14:30:39] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/c3/7b/f2597b7aa6d8d83aed43a22c55ed8d1157f9d4e1af2a2bc205790f7bb976/aura_tools-0.7.tar.gz
+[2024-05-29 14:30:39] INFO root fetch - processPackages [veg2hab]: Downloading https://files.pythonhosted.org/packages/7f/55/6bbeb620c6d7028e5ab22a7803bb237ae1c0bd055d81ff7d7192de9e32ef/veg2hab-0.2.2a1.tar.gz
+[2024-05-29 14:30:39] INFO root fetch - processPackages [stocknotebridgenew]: Downloading https://files.pythonhosted.org/packages/d7/a0/ddf7d23a22673a602094c7ff3fbbf1f0d0c4a1d7a59c342d2061556967a2/stocknotebridgenew-5.0.6.tar.gz
+[2024-05-29 14:30:39] INFO root fetch - processPackages [svectordb]: executing diffoscope
+[2024-05-29 14:30:39] INFO root fetch - processPackages [svectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svectordb-0.0.5.tar.gz tmp/svectordb-0.0.6.tar.gz --markdown 20240529/s/svectordb/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-29 14:30:39] INFO root fetch - processPackages [stocknotebridgenew]: executing diffoscope
+[2024-05-29 14:30:39] INFO root fetch - processPackages [stocknotebridgenew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stocknotebridgenew-5.0.5.tar.gz tmp/stocknotebridgenew-5.0.6.tar.gz --markdown 20240529/s/stocknotebridgenew/5.0.5-5.0.6/README.md --exclude *.pyd
+[2024-05-29 14:30:39] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/d4/72/6c7a79c3af98ebba5bdd7d90f4b9fb469fc0c16c433173845e4f880f8ad2/aura_tools-0.8.tar.gz
+[2024-05-29 14:30:39] INFO root fetch - processPackages [streamlit-cognite-reveal]: Downloading https://files.pythonhosted.org/packages/ee/13/ab1c6a62327c2ff822c98c2b6b126935a540939cba462f5f2e62dd51ccda/streamlit_cognite_reveal-0.0.4.tar.gz
+[2024-05-29 14:30:39] INFO root fetch - processPackages [aura-tools]: executing diffoscope
+[2024-05-29 14:30:39] INFO root fetch - processPackages [aura-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura_tools-0.7.tar.gz tmp/aura_tools-0.8.tar.gz --markdown 20240529/a/aura-tools/0.7-0.8/README.md --exclude *.pyd
+[2024-05-29 14:30:39] INFO root fetch - processPackages [streamlit-cognite-reveal]: executing diffoscope
+[2024-05-29 14:30:39] INFO root fetch - processPackages [streamlit-cognite-reveal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_cognite_reveal-0.0.3.tar.gz tmp/streamlit_cognite_reveal-0.0.4.tar.gz --markdown 20240529/s/streamlit-cognite-reveal/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 14:30:39] INFO root fetch - processPackages [veg2hab]: Downloading https://files.pythonhosted.org/packages/bb/26/8e2ccaa6fa0a9c7ab38b48c8e57b2ce9359edb41944d4f6af2ddf1180504/veg2hab-0.2.3a0.tar.gz
+[2024-05-29 14:30:39] INFO root fetch - processPackages [stocknotebridgenew]: Remove: archive file [/home/abi/fetcher/tmp/stocknotebridgenew-5.0.5.tar.gz]
+[2024-05-29 14:30:39] INFO root fetch - processPackages [stocknotebridgenew]: Remove: archive file [/home/abi/fetcher/tmp/stocknotebridgenew-5.0.6.tar.gz]
+[2024-05-29 14:30:39] INFO root fetch - main [MainThread]: End processing [stocknotebridgenew]: success
+[2024-05-29 14:30:40] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.7.tar.gz]
+[2024-05-29 14:30:40] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.8.tar.gz]
+[2024-05-29 14:30:40] INFO root fetch - main [MainThread]: End processing [aura-tools]: success
+[2024-05-29 14:30:40] INFO root fetch - processPackages [svectordb]: Remove: archive file [/home/abi/fetcher/tmp/svectordb-0.0.5.tar.gz]
+[2024-05-29 14:30:40] INFO root fetch - processPackages [svectordb]: Remove: archive file [/home/abi/fetcher/tmp/svectordb-0.0.6.tar.gz]
+[2024-05-29 14:30:40] INFO root fetch - main [MainThread]: End processing [svectordb]: success
+[2024-05-29 14:30:40] INFO root fetch - processPackages [veg2hab]: executing diffoscope
+[2024-05-29 14:30:40] INFO root fetch - processPackages [veg2hab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veg2hab-0.2.2a1.tar.gz tmp/veg2hab-0.2.3a0.tar.gz --markdown 20240529/v/veg2hab/0.2.2a1-0.2.3a0/README.md --exclude *.pyd
+[2024-05-29 14:30:40] INFO root fetch - processPackages [streamlit-cognite-reveal]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_cognite_reveal-0.0.3.tar.gz]
+[2024-05-29 14:30:40] INFO root fetch - processPackages [streamlit-cognite-reveal]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_cognite_reveal-0.0.4.tar.gz]
+[2024-05-29 14:30:40] INFO root fetch - main [MainThread]: End processing [streamlit-cognite-reveal]: success
+[2024-05-29 14:30:42] INFO root fetch - processPackages [veg2hab]: Remove: archive file [/home/abi/fetcher/tmp/veg2hab-0.2.2a1.tar.gz]
+[2024-05-29 14:30:42] INFO root fetch - processPackages [veg2hab]: Remove: archive file [/home/abi/fetcher/tmp/veg2hab-0.2.3a0.tar.gz]
+[2024-05-29 14:30:42] INFO root fetch - main [MainThread]: End processing [veg2hab]: success
+[2024-05-29 14:30:42] INFO root fetch - main [MainThread]: Store serial: [23429623]
