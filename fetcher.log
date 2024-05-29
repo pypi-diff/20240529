@@ -8802,3 +8802,33 @@
 [2024-05-29 05:36:17] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.99.9.tar.gz]
 [2024-05-29 05:36:17] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
 [2024-05-29 05:36:17] INFO root fetch - main [MainThread]: Store serial: [23423628]
+[2024-05-29 05:38:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423628]
+[2024-05-29 05:38:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 05:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-contract
+[2024-05-29 05:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-contract-sale-generation
+[2024-05-29 05:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py3-wget
+[2024-05-29 05:38:26] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: New version: [16.0.1.1.0.6] Old Version: [16.0.1.1.0.5]
+[2024-05-29 05:38:26] INFO root fetch - processPackages [py3-wget]: New version: [1.0.0] Old Version: [0.0.6]
+[2024-05-29 05:38:26] INFO root fetch - processPackages [odoo-addon-contract]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1.1]
+[2024-05-29 05:38:26] INFO root fetch - processPackages [py3-wget]: Downloading https://files.pythonhosted.org/packages/57/8f/77475ea2eaad32d961d7d481bcb43e874e4aee4c5d9339f26599ffa2bc0b/py3_wget-0.0.6.tar.gz
+[2024-05-29 05:38:26] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Downloading https://files.pythonhosted.org/packages/71/e4/6e3c7a14ef6caa54daee70695f477501b3ab5719b4bd9bea840dd7a9bac0/odoo_addon_contract_sale_generation-16.0.1.1.0.5-py3-none-any.whl
+[2024-05-29 05:38:26] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/5e/79/543b0de81844856f553c5dbabb89262a3131bf868a32cc83d51ece924b2b/odoo_addon_contract-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-29 05:38:26] INFO root fetch - processPackages [py3-wget]: Downloading https://files.pythonhosted.org/packages/c9/54/7dbd04a5362863176f73846fcc434c1cf345e916f4b9db4bac8e9d90c227/py3_wget-1.0.0.tar.gz
+[2024-05-29 05:38:26] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Downloading https://files.pythonhosted.org/packages/d1/85/072fc16bd8035d422c63babde8681294ba58f2c7c21744d710377cf9452b/odoo_addon_contract_sale_generation-16.0.1.1.0.6-py3-none-any.whl
+[2024-05-29 05:38:26] INFO root fetch - processPackages [py3-wget]: executing diffoscope
+[2024-05-29 05:38:26] INFO root fetch - processPackages [py3-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3_wget-0.0.6.tar.gz tmp/py3_wget-1.0.0.tar.gz --markdown 20240529/p/py3-wget/0.0.6-1.0.0/README.md --exclude *.pyd
+[2024-05-29 05:38:26] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: executing diffoscope
+[2024-05-29 05:38:26] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract_sale_generation-16.0.1.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_contract_sale_generation-16.0.1.1.0.6-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-contract-sale-generation/16.0.1.1.0.5-16.0.1.1.0.6/README.md --exclude *.pyd
+[2024-05-29 05:38:27] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/43/48/98e39360a5f22bf76ab3e94cb13134d2a74eb256dd94a61864a2e11c471e/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-29 05:38:27] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2024-05-29 05:38:27] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-contract/17.0.1.0.1.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-29 05:38:27] INFO root fetch - processPackages [py3-wget]: Remove: archive file [/home/abi/fetcher/tmp/py3_wget-0.0.6.tar.gz]
+[2024-05-29 05:38:27] INFO root fetch - processPackages [py3-wget]: Remove: archive file [/home/abi/fetcher/tmp/py3_wget-1.0.0.tar.gz]
+[2024-05-29 05:38:27] INFO root fetch - main [MainThread]: End processing [py3-wget]: success
+[2024-05-29 05:38:27] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract_sale_generation-16.0.1.1.0.5-py3-none-any.whl.zip]
+[2024-05-29 05:38:27] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract_sale_generation-16.0.1.1.0.6-py3-none-any.whl.zip]
+[2024-05-29 05:38:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract-sale-generation]: success
+[2024-05-29 05:38:28] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-29 05:38:28] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-29 05:38:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2024-05-29 05:38:28] INFO root fetch - main [MainThread]: Store serial: [23423635]
