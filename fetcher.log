@@ -14964,3 +14964,36 @@
 [2024-05-29 10:35:44] INFO root fetch - processPackages [pulumi-nutanix]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nutanix-0.0.48.tar.gz]
 [2024-05-29 10:35:44] INFO root fetch - main [MainThread]: End processing [pulumi-nutanix]: success
 [2024-05-29 10:35:44] INFO root fetch - main [MainThread]: Store serial: [23426438]
+[2024-05-29 10:37:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426438]
+[2024-05-29 10:37:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fms-robot-plugin
+[2024-05-29 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grain-zip-deployer
+[2024-05-29 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krules-companion-sync
+[2024-05-29 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nanomotif
+[2024-05-29 10:37:53] INFO root fetch - processPackages [grain-zip-deployer]: New version: [2025.5.28.2] Old Version: [2025.5.28.1]
+[2024-05-29 10:37:53] WARNING root fetch - processPackages [krules-companion-sync]: Skipping, unable to determine old version
+[2024-05-29 10:37:53] INFO root fetch - main [MainThread]: End processing [krules-companion-sync] error
+[2024-05-29 10:37:53] INFO root fetch - processPackages [grain-zip-deployer]: Downloading https://files.pythonhosted.org/packages/8b/21/3f382ef4a8dbde3fd91cbf9e540714c817fe8e4ad0fd0c13e952568f289d/grain_zip_deployer-2025.5.28.1.tar.gz
+[2024-05-29 10:37:53] INFO root fetch - processPackages [fms-robot-plugin]: New version: [0.3.0rc6] Old Version: [0.3.0rc5]
+[2024-05-29 10:37:53] INFO root fetch - processPackages [nanomotif]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-29 10:37:53] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/e1/b7/ccd8cfb614f33f75510ef93addfac5454321017dabc681d665e4f8d02f9c/fms_robot_plugin-0.3.0rc5.tar.gz
+[2024-05-29 10:37:53] INFO root fetch - processPackages [grain-zip-deployer]: Downloading https://files.pythonhosted.org/packages/4d/c9/8f0f600c042485fd7b4b341f34a808d32c17231104bf490e5aaea32acb52/grain_zip_deployer-2025.5.28.2.tar.gz
+[2024-05-29 10:37:53] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/e5/db/0718c75accf797c0561565c89a258d881086ee2a1e6b443c86382f4a0b7c/nanomotif-0.4.4.tar.gz
+[2024-05-29 10:37:53] INFO root fetch - processPackages [grain-zip-deployer]: executing diffoscope
+[2024-05-29 10:37:53] INFO root fetch - processPackages [grain-zip-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grain_zip_deployer-2025.5.28.1.tar.gz tmp/grain_zip_deployer-2025.5.28.2.tar.gz --markdown 20240529/g/grain-zip-deployer/2025.5.28.1-2025.5.28.2/README.md --exclude *.pyd
+[2024-05-29 10:37:54] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/0f/c5/05ce5d3d1f09b13133096beb1351a9d0526f9d10e50a5702acfff7ef1193/fms_robot_plugin-0.3.0rc6.tar.gz
+[2024-05-29 10:37:54] INFO root fetch - processPackages [fms-robot-plugin]: executing diffoscope
+[2024-05-29 10:37:54] INFO root fetch - processPackages [fms-robot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fms_robot_plugin-0.3.0rc5.tar.gz tmp/fms_robot_plugin-0.3.0rc6.tar.gz --markdown 20240529/f/fms-robot-plugin/0.3.0rc5-0.3.0rc6/README.md --exclude *.pyd
+[2024-05-29 10:37:54] INFO root fetch - processPackages [grain-zip-deployer]: Remove: archive file [/home/abi/fetcher/tmp/grain_zip_deployer-2025.5.28.1.tar.gz]
+[2024-05-29 10:37:54] INFO root fetch - processPackages [grain-zip-deployer]: Remove: archive file [/home/abi/fetcher/tmp/grain_zip_deployer-2025.5.28.2.tar.gz]
+[2024-05-29 10:37:54] INFO root fetch - main [MainThread]: End processing [grain-zip-deployer]: success
+[2024-05-29 10:37:54] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/fc/7e/53212727744550b75f5141d640e23f5ad28d7a224402f84ee30074aa008e/nanomotif-0.4.5.tar.gz
+[2024-05-29 10:37:54] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.3.0rc5.tar.gz]
+[2024-05-29 10:37:54] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.3.0rc6.tar.gz]
+[2024-05-29 10:37:54] INFO root fetch - main [MainThread]: End processing [fms-robot-plugin]: success
+[2024-05-29 10:37:55] INFO root fetch - processPackages [nanomotif]: executing diffoscope
+[2024-05-29 10:37:55] INFO root fetch - processPackages [nanomotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomotif-0.4.4.tar.gz tmp/nanomotif-0.4.5.tar.gz --markdown 20240529/n/nanomotif/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-29 10:37:57] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.4.tar.gz]
+[2024-05-29 10:37:57] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.5.tar.gz]
+[2024-05-29 10:37:57] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
+[2024-05-29 10:37:57] INFO root fetch - main [MainThread]: Store serial: [23426449]
