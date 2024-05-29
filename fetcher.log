@@ -22110,3 +22110,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:41:41] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.9.tar.gz]
 [2024-05-29 14:41:41] INFO root fetch - main [MainThread]: End processing [gs2-cdk]: success
 [2024-05-29 14:41:41] INFO root fetch - main [MainThread]: Store serial: [23429751]
+[2024-05-29 14:43:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429751]
+[2024-05-29 14:43:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 14:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-llm
+[2024-05-29 14:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: environment-helpers
+[2024-05-29 14:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-preinstalled-amazon-linux-ec2
+[2024-05-29 14:43:50] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-29 14:43:50] INFO root fetch - processPackages [environment-helpers]: New version: [0.1.1.post1] Old Version: [0.1.1]
+[2024-05-29 14:43:50] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240529] Old Version: [2.5.0b20240528]
+[2024-05-29 14:43:50] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Downloading https://files.pythonhosted.org/packages/bc/88/d9c3a78a3c0307e0a44e32a6a72c15eb604f1e3aa441d254dcada2143f0d/cdk-preinstalled-amazon-linux-ec2-0.0.0.tar.gz
+[2024-05-29 14:43:50] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/96/20/860fca2b83834c35da9bfeae658161f6f6b4f0200982cc8e5d9022c778a8/bigdl_llm-2.5.0b20240528-py3-none-win_amd64.whl
+[2024-05-29 14:43:50] INFO root fetch - processPackages [environment-helpers]: Downloading https://files.pythonhosted.org/packages/c8/6e/9df3e3bd1fc82d91b56ee292bc6e20f41ebda02bd6c14b41506928f74f2c/environment_helpers-0.1.1.tar.gz
+[2024-05-29 14:43:50] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Downloading https://files.pythonhosted.org/packages/0e/9b/79ce0dacf55cce7f7a5628da02f6b3955daa091db63a16b61b0e2309a516/cdk-preinstalled-amazon-linux-ec2-0.0.1.tar.gz
+[2024-05-29 14:43:50] INFO root fetch - processPackages [environment-helpers]: Downloading https://files.pythonhosted.org/packages/c3/77/ff25107689948de23607fbadf5e31664bc5a4fd4da1a4854cfc0161becb1/environment_helpers-0.1.1.post1.tar.gz
+[2024-05-29 14:43:50] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: executing diffoscope
+[2024-05-29 14:43:50] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-preinstalled-amazon-linux-ec2-0.0.0.tar.gz tmp/cdk-preinstalled-amazon-linux-ec2-0.0.1.tar.gz --markdown 20240529/c/cdk-preinstalled-amazon-linux-ec2/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-29 14:43:50] INFO root fetch - processPackages [environment-helpers]: executing diffoscope
+[2024-05-29 14:43:50] INFO root fetch - processPackages [environment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/environment_helpers-0.1.1.tar.gz tmp/environment_helpers-0.1.1.post1.tar.gz --markdown 20240529/e/environment-helpers/0.1.1-0.1.1.post1/README.md --exclude *.pyd
+[2024-05-29 14:43:50] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/62/76/bae6751de445c8c0bffae6b4049899bfd6cedc7e7a5dd9b19b37791f9788/bigdl_llm-2.5.0b20240529-py3-none-win_amd64.whl
+[2024-05-29 14:43:51] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Remove: archive file [/home/abi/fetcher/tmp/cdk-preinstalled-amazon-linux-ec2-0.0.0.tar.gz]
+[2024-05-29 14:43:51] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Remove: archive file [/home/abi/fetcher/tmp/cdk-preinstalled-amazon-linux-ec2-0.0.1.tar.gz]
+[2024-05-29 14:43:51] INFO root fetch - main [MainThread]: End processing [cdk-preinstalled-amazon-linux-ec2]: success
+[2024-05-29 14:43:51] INFO root fetch - processPackages [environment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/environment_helpers-0.1.1.tar.gz]
+[2024-05-29 14:43:51] INFO root fetch - processPackages [environment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/environment_helpers-0.1.1.post1.tar.gz]
+[2024-05-29 14:43:51] INFO root fetch - main [MainThread]: End processing [environment-helpers]: success
+[2024-05-29 14:43:52] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-29 14:43:52] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240528-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240529-py3-none-win_amd64.whl.zip --markdown 20240529/b/bigdl-llm/2.5.0b20240528-2.5.0b20240529/README.md --exclude *.pyd
+[2024-05-29 14:43:53] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240528-py3-none-win_amd64.whl.zip]
+[2024-05-29 14:43:53] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240529-py3-none-win_amd64.whl.zip]
+[2024-05-29 14:43:53] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-29 14:43:53] INFO root fetch - main [MainThread]: Store serial: [23429766]
