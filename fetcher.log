@@ -2976,3 +2976,32 @@
 [2024-05-29 02:47:49] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
 [2024-05-29 02:47:49] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-05-29 02:47:49] INFO root fetch - main [MainThread]: Store serial: [23421396]
+[2024-05-29 02:49:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421396]
+[2024-05-29 02:49:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 02:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: viser
+[2024-05-29 02:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RapidanAPI
+[2024-05-29 02:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-vector-stores-hologres
+[2024-05-29 02:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eeggan
+[2024-05-29 02:49:58] INFO root fetch - processPackages [eeggan]: New version: [2.0.0a7] Old Version: [2.0.0a6]
+[2024-05-29 02:49:58] INFO root fetch - processPackages [RapidanAPI]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-29 02:49:58] WARNING root fetch - processPackages [llama-index-vector-stores-hologres]: Skipping, unable to determine old version
+[2024-05-29 02:49:58] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-hologres] error
+[2024-05-29 02:49:58] INFO root fetch - processPackages [viser]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 02:49:58] INFO root fetch - processPackages [eeggan]: Downloading https://files.pythonhosted.org/packages/4c/45/9afc59b8166f7f0b407146458620db1334d6bc8fd78b4e9a01b0a84efe59/eeggan-2.0.0a6.tar.gz
+[2024-05-29 02:49:58] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/89/e0/307e2c586c874a65002c0f71e5d6e3de715e95665d2187c406dc08f2811d/RapidanAPI-1.0.6.tar.gz
+[2024-05-29 02:49:58] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/43/1c/d574f1040f257213ab3e861ee33711d900666dbbaf4a2be7b1e32213f27b/viser-0.1.8.tar.gz
+[2024-05-29 02:49:58] WARNING root fetch - processPackages [eeggan]: Skipping package: exceeds size limit 15727978>=10485760
+[2024-05-29 02:49:58] INFO root fetch - main [MainThread]: End processing [eeggan] error
+[2024-05-29 02:49:59] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/c1/be/a827da6f0ca46f978c092107d835bb6f307934ad632629c0b6923d4f69a9/RapidanAPI-1.0.7.tar.gz
+[2024-05-29 02:49:59] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/c6/11/037d11188de9d326de379226a46229a7f59bdf1b4f74bf70f34d7d278638/viser-0.1.9.tar.gz
+[2024-05-29 02:49:59] INFO root fetch - processPackages [RapidanAPI]: executing diffoscope
+[2024-05-29 02:49:59] INFO root fetch - processPackages [RapidanAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidanAPI-1.0.6.tar.gz tmp/RapidanAPI-1.0.7.tar.gz --markdown 20240529/R/RapidanAPI/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-29 02:49:59] INFO root fetch - processPackages [viser]: executing diffoscope
+[2024-05-29 02:49:59] INFO root fetch - processPackages [viser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viser-0.1.8.tar.gz tmp/viser-0.1.9.tar.gz --markdown 20240529/v/viser/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 02:49:59] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.6.tar.gz]
+[2024-05-29 02:49:59] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.7.tar.gz]
+[2024-05-29 02:49:59] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
+[2024-05-29 02:50:00] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.1.8.tar.gz]
+[2024-05-29 02:50:00] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.1.9.tar.gz]
+[2024-05-29 02:50:00] INFO root fetch - main [MainThread]: End processing [viser]: success
+[2024-05-29 02:50:00] INFO root fetch - main [MainThread]: Store serial: [23421410]
