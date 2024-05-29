@@ -9280,3 +9280,42 @@
 [2024-05-29 06:02:59] WARNING root fetch - processPackages [PySide6-QtAds]: Skipping package: exceeds size limit 21547568>=10485760
 [2024-05-29 06:02:59] INFO root fetch - main [MainThread]: End processing [PySide6-QtAds] error
 [2024-05-29 06:02:59] INFO root fetch - main [MainThread]: Store serial: [23423793]
+[2024-05-29 06:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423793]
+[2024-05-29 06:05:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 06:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starlette-exporter
+[2024-05-29 06:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: message-send-local
+[2024-05-29 06:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RapidanAPI
+[2024-05-29 06:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: image-functions
+[2024-05-29 06:05:08] INFO root fetch - processPackages [RapidanAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 06:05:08] INFO root fetch - processPackages [image-functions]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 06:05:08] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/93/42/530b45ac027c5f91b5711e3d6014a2adcc6906c1e7ccff21129896dc6634/RapidanAPI-1.0.8.tar.gz
+[2024-05-29 06:05:08] INFO root fetch - processPackages [image-functions]: Downloading https://files.pythonhosted.org/packages/0b/2e/5e56355923ef0bee3b0cc2d534a49a46e9fc2b1084057145a9ab85079182/image_functions-0.1.0.tar.gz
+[2024-05-29 06:05:09] INFO root fetch - processPackages [starlette-exporter]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-29 06:05:09] INFO root fetch - processPackages [message-send-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 06:05:09] INFO root fetch - processPackages [starlette-exporter]: Downloading https://files.pythonhosted.org/packages/53/6b/28970acc4e7fd300e216b8c75708bdf1afe9c9b0217614a385ec004684c4/starlette_exporter-0.8.2.tar.gz
+[2024-05-29 06:05:09] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/3e/db/20078e6bce901b0dbb9011faa9575f415223a54413a0d1d8a39235f01f78/message-send-local-0.0.8.tar.gz
+[2024-05-29 06:05:09] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/12/fc/9a6cc2d05c47996e22f3b623bac3d3ce1627cc066955d8aa06751112d121/RapidanAPI-1.0.9.tar.gz
+[2024-05-29 06:05:09] INFO root fetch - processPackages [image-functions]: Downloading https://files.pythonhosted.org/packages/ea/32/dea08377ab66023340ab84ef503e1817a45a3001ca449dae2898105c0a20/image_functions-0.1.1.tar.gz
+[2024-05-29 06:05:09] INFO root fetch - processPackages [RapidanAPI]: executing diffoscope
+[2024-05-29 06:05:09] INFO root fetch - processPackages [RapidanAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidanAPI-1.0.8.tar.gz tmp/RapidanAPI-1.0.9.tar.gz --markdown 20240529/R/RapidanAPI/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 06:05:09] INFO root fetch - processPackages [image-functions]: executing diffoscope
+[2024-05-29 06:05:09] INFO root fetch - processPackages [image-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_functions-0.1.0.tar.gz tmp/image_functions-0.1.1.tar.gz --markdown 20240529/i/image-functions/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 06:05:09] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/db/66/5da108296f6700eab97b86794abc1bd0796a98314fbe82224556c81fed80/message-send-local-0.0.9.tar.gz
+[2024-05-29 06:05:09] INFO root fetch - processPackages [starlette-exporter]: Downloading https://files.pythonhosted.org/packages/53/05/a94f659324d7d3c19b37b2e8ede981c13d24232f87c47c984c33af456891/starlette_exporter-0.9.0.tar.gz
+[2024-05-29 06:05:09] INFO root fetch - processPackages [message-send-local]: executing diffoscope
+[2024-05-29 06:05:09] INFO root fetch - processPackages [message-send-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-send-local-0.0.8.tar.gz tmp/message-send-local-0.0.9.tar.gz --markdown 20240529/m/message-send-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 06:05:09] INFO root fetch - processPackages [starlette-exporter]: executing diffoscope
+[2024-05-29 06:05:09] INFO root fetch - processPackages [starlette-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_exporter-0.8.2.tar.gz tmp/starlette_exporter-0.9.0.tar.gz --markdown 20240529/s/starlette-exporter/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-29 06:05:09] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.8.tar.gz]
+[2024-05-29 06:05:09] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.9.tar.gz]
+[2024-05-29 06:05:09] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
+[2024-05-29 06:05:10] INFO root fetch - processPackages [image-functions]: Remove: archive file [/home/abi/fetcher/tmp/image_functions-0.1.0.tar.gz]
+[2024-05-29 06:05:10] INFO root fetch - processPackages [image-functions]: Remove: archive file [/home/abi/fetcher/tmp/image_functions-0.1.1.tar.gz]
+[2024-05-29 06:05:10] INFO root fetch - main [MainThread]: End processing [image-functions]: success
+[2024-05-29 06:05:10] INFO root fetch - processPackages [starlette-exporter]: Remove: archive file [/home/abi/fetcher/tmp/starlette_exporter-0.8.2.tar.gz]
+[2024-05-29 06:05:10] INFO root fetch - processPackages [starlette-exporter]: Remove: archive file [/home/abi/fetcher/tmp/starlette_exporter-0.9.0.tar.gz]
+[2024-05-29 06:05:10] INFO root fetch - main [MainThread]: End processing [starlette-exporter]: success
+[2024-05-29 06:05:10] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.8.tar.gz]
+[2024-05-29 06:05:10] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.9.tar.gz]
+[2024-05-29 06:05:10] INFO root fetch - main [MainThread]: End processing [message-send-local]: success
+[2024-05-29 06:05:10] INFO root fetch - main [MainThread]: Store serial: [23423805]
