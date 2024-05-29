@@ -17409,3 +17409,54 @@
 [2024-05-29 11:45:47] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-7.1.0.tar.gz]
 [2024-05-29 11:45:47] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2024-05-29 11:45:47] INFO root fetch - main [MainThread]: Store serial: [23427606]
+[2024-05-29 11:47:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427606]
+[2024-05-29 11:47:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 11:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zope.container
+[2024-05-29 11:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brainglobe-segmentation
+[2024-05-29 11:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ppw-util
+[2024-05-29 11:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdo-sdk-python
+[2024-05-29 11:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: httpauth
+[2024-05-29 11:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: medlyn2002
+[2024-05-29 11:47:57] WARNING root fetch - processPackages [ppw-util]: Skipping, unable to determine old version
+[2024-05-29 11:47:57] INFO root fetch - main [MainThread]: End processing [ppw-util] error
+[2024-05-29 11:47:57] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-29 11:47:57] INFO root fetch - processPackages [httpauth]: New version: [0.4.1] Old Version: [0.4]
+[2024-05-29 11:47:57] INFO root fetch - processPackages [brainglobe-segmentation]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-29 11:47:57] INFO root fetch - processPackages [zope.container]: New version: [6.0] Old Version: [5.2]
+[2024-05-29 11:47:57] INFO root fetch - processPackages [medlyn2002]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-29 11:47:57] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-29 11:47:57] INFO root fetch - processPackages [brainglobe-segmentation]: Downloading https://files.pythonhosted.org/packages/6f/80/33c9b24a9e9175f7b6b73abec3f9052f2a76853be151e476e4bb09fc1953/brainglobe-segmentation-1.2.3.tar.gz
+[2024-05-29 11:47:57] INFO root fetch - processPackages [httpauth]: Downloading https://files.pythonhosted.org/packages/cd/9a/a8a8fd91783278c93f8a928ba6ec84b20af5d32234832adbeb55a8324993/httpauth-0.4.tar.gz
+[2024-05-29 11:47:57] INFO root fetch - processPackages [zope.container]: Downloading https://files.pythonhosted.org/packages/8a/db/4c353d14cf58e5a9d8e68f3fed9c57deca264a46f39fa16b8296ad810615/zope.container-5.2.tar.gz
+[2024-05-29 11:47:57] INFO root fetch - processPackages [medlyn2002]: Downloading https://files.pythonhosted.org/packages/2c/6d/f315b0d3cbc76bd07e85c4043d3b984ee14cee875831036819b12d4b0765/medlyn2002-1.0.0.tar.gz
+[2024-05-29 11:47:58] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-29 11:47:58] INFO root fetch - processPackages [brainglobe-segmentation]: Downloading https://files.pythonhosted.org/packages/6a/27/004664493ea6a765826f27acdd2924cee283bc13656dfe7ac5938dfc5b9c/brainglobe_segmentation-1.2.4.tar.gz
+[2024-05-29 11:47:58] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-29 11:47:58] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240529/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-29 11:47:58] INFO root fetch - processPackages [httpauth]: Downloading https://files.pythonhosted.org/packages/96/48/7e10e412e53041d4f9c8a2eba56b96560e3757a61ef6a80dc5035af7a7a8/httpauth-0.4.1.tar.gz
+[2024-05-29 11:47:58] INFO root fetch - processPackages [brainglobe-segmentation]: executing diffoscope
+[2024-05-29 11:47:58] INFO root fetch - processPackages [brainglobe-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainglobe-segmentation-1.2.3.tar.gz tmp/brainglobe_segmentation-1.2.4.tar.gz --markdown 20240529/b/brainglobe-segmentation/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-29 11:47:58] INFO root fetch - processPackages [medlyn2002]: Downloading https://files.pythonhosted.org/packages/cc/83/ef7c645910a3ea49a32f9f8f3a249882d207762e36037caf24d902fe0fdb/medlyn2002-1.1.0.tar.gz
+[2024-05-29 11:47:58] INFO root fetch - processPackages [httpauth]: executing diffoscope
+[2024-05-29 11:47:58] INFO root fetch - processPackages [httpauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpauth-0.4.tar.gz tmp/httpauth-0.4.1.tar.gz --markdown 20240529/h/httpauth/0.4-0.4.1/README.md --exclude *.pyd
+[2024-05-29 11:47:58] INFO root fetch - processPackages [zope.container]: Downloading https://files.pythonhosted.org/packages/06/fc/952213c02ae7c1041655b335ba19da27ee303d31f9331428b7220a5414dd/zope.container-6.0-cp39-cp39-win_amd64.whl
+[2024-05-29 11:47:58] INFO root fetch - processPackages [medlyn2002]: executing diffoscope
+[2024-05-29 11:47:58] INFO root fetch - processPackages [medlyn2002]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medlyn2002-1.0.0.tar.gz tmp/medlyn2002-1.1.0.tar.gz --markdown 20240529/m/medlyn2002/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-29 11:47:58] INFO root fetch - processPackages [zope.container]: executing diffoscope
+[2024-05-29 11:47:58] INFO root fetch - processPackages [zope.container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.container-5.2.tar.gz tmp/zope.container-6.0-cp39-cp39-win_amd64.whl.zip --markdown 20240529/z/zope.container/5.2-6.0/README.md --exclude *.pyd
+[2024-05-29 11:47:59] INFO root fetch - processPackages [httpauth]: Remove: archive file [/home/abi/fetcher/tmp/httpauth-0.4.tar.gz]
+[2024-05-29 11:47:59] INFO root fetch - processPackages [httpauth]: Remove: archive file [/home/abi/fetcher/tmp/httpauth-0.4.1.tar.gz]
+[2024-05-29 11:47:59] INFO root fetch - main [MainThread]: End processing [httpauth]: success
+[2024-05-29 11:47:59] INFO root fetch - processPackages [brainglobe-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/brainglobe-segmentation-1.2.3.tar.gz]
+[2024-05-29 11:47:59] INFO root fetch - processPackages [brainglobe-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/brainglobe_segmentation-1.2.4.tar.gz]
+[2024-05-29 11:47:59] INFO root fetch - main [MainThread]: End processing [brainglobe-segmentation]: success
+[2024-05-29 11:47:59] INFO root fetch - processPackages [medlyn2002]: Remove: archive file [/home/abi/fetcher/tmp/medlyn2002-1.0.0.tar.gz]
+[2024-05-29 11:47:59] INFO root fetch - processPackages [medlyn2002]: Remove: archive file [/home/abi/fetcher/tmp/medlyn2002-1.1.0.tar.gz]
+[2024-05-29 11:47:59] INFO root fetch - main [MainThread]: End processing [medlyn2002]: success
+[2024-05-29 11:47:59] INFO root fetch - processPackages [zope.container]: Remove: archive file [/home/abi/fetcher/tmp/zope.container-5.2.tar.gz]
+[2024-05-29 11:47:59] INFO root fetch - processPackages [zope.container]: Remove: archive file [/home/abi/fetcher/tmp/zope.container-6.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 11:47:59] INFO root fetch - main [MainThread]: End processing [zope.container]: success
+[2024-05-29 11:47:59] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-29 11:47:59] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-29 11:47:59] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-29 11:47:59] INFO root fetch - main [MainThread]: Store serial: [23427635]
