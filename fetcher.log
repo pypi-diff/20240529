@@ -18225,3 +18225,86 @@
 [2024-05-29 12:14:35] INFO root fetch - processPackages [ul-data-gateway-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-gateway-sdk-0.4.9.tar.gz]
 [2024-05-29 12:14:35] INFO root fetch - main [MainThread]: End processing [ul-data-gateway-sdk]: success
 [2024-05-29 12:14:35] INFO root fetch - main [MainThread]: Store serial: [23428064]
+[2024-05-29 12:16:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428064]
+[2024-05-29 12:16:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctube
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-dev
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composabl-cli-dev
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl-core-dev
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-api-dev
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-train-dev
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: emirpred
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vy-lambda-tools
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iac-init
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nvfuser-cu121
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ctube]: New version: [0.1.1] Old Version: [0.0.9]
+[2024-05-29 12:16:45] WARNING root fetch - processPackages [emirpred]: Skipping, unable to determine old version
+[2024-05-29 12:16:45] INFO root fetch - main [MainThread]: End processing [emirpred] error
+[2024-05-29 12:16:45] INFO root fetch - processPackages [iac-init]: New version: [0.8.3] Old Version: [0.8.0]
+[2024-05-29 12:16:45] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev98] Old Version: [0.8.0.dev96]
+[2024-05-29 12:16:45] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev98] Old Version: [0.8.0.dev96]
+[2024-05-29 12:16:45] INFO root fetch - processPackages [ctube]: Downloading https://files.pythonhosted.org/packages/41/4d/82cc7853894ea0f49c9c37d892fa3e9f31c4881f935699e48555b9bf7cbe/ctube-0.0.9.tar.gz
+[2024-05-29 12:16:45] INFO root fetch - processPackages [vy-lambda-tools]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-29 12:16:45] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev98] Old Version: [0.8.0.dev96]
+[2024-05-29 12:16:45] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.5.dev20240529] Old Version: [0.2.5.dev20240528]
+[2024-05-29 12:16:45] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/fd/8b/52c2d86e0f495c209116758cc5331466f0d3a5c7660ee3b0c74513c44e77/iac_init-0.8.0.tar.gz
+[2024-05-29 12:16:45] INFO root fetch - processPackages [composabl-api-dev]: New version: [0.8.0.dev98] Old Version: [0.8.0.dev96]
+[2024-05-29 12:16:45] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev98] Old Version: [0.8.0.dev96]
+[2024-05-29 12:16:45] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/c7/7f/fee7bb2c2a3f23e9e24aaa029a80702b2bbd40cbcb07083d649bbfb1bf58/composabl_core_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:16:45] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/e8/12/222030550496cbead984025b1d143962dcdc24c85ec099fcd5f0556c6712/composabl_cli_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:16:45] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/3c/7c/d32f5eb169a72ed34b20fa48678b8629874ed25d0aaaff08414f3f6092d1/vy_lambda_tools-0.4.2.tar.gz
+[2024-05-29 12:16:46] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 26461716>=10485760
+[2024-05-29 12:16:46] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-05-29 12:16:46] INFO root fetch - processPackages [ctube]: Downloading https://files.pythonhosted.org/packages/a0/46/4b1f54fabd339c7aba73b4d5b23b40e1a986955c7737e3af952453f7e13b/ctube-0.1.1.tar.gz
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/46/1f/1daa74345b6ba9c96c8ff55112cd0193e3fdf3eef7df4b33a338eee73925/composabl_train_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/9f/80/090f2c819dd24f99216f75642dcb3c7f99bfab67979377f423b549d673d6/composabl_api_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/c2/4b/97c909f88bbb93d19ae958bd758b646331d5f772311ca3794d229e45773c/composabl_dev-0.8.0.dev96-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:16:46] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/4d/77/7c6a49639b6c87e6162153c8799e3038c901b485a6ff4e59aac8517d0742/nvfuser_cu121-0.2.5.dev20240528.tar.gz
+[2024-05-29 12:16:46] INFO root fetch - processPackages [ctube]: executing diffoscope
+[2024-05-29 12:16:46] INFO root fetch - processPackages [ctube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctube-0.0.9.tar.gz tmp/ctube-0.1.1.tar.gz --markdown 20240529/c/ctube/0.0.9-0.1.1/README.md --exclude *.pyd
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/bb/b0/4da79ff7ddd189d9b21a561a055622eb01188dd08534f44f211e109fc307/composabl_cli_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:16:46] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/6a/eb/da3b0909ce758d50ab08405e5831f9cf5191a84755b13351428a7575bc72/vy_lambda_tools-0.4.3.tar.gz
+[2024-05-29 12:16:46] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/96/cf/e7faa7378f7e665d89e26a410409e879c2e46f157a847bcac994dc1b07e0/iac_init-0.8.3.tar.gz
+[2024-05-29 12:16:46] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/a6/95/4b7c5974413974432a34fefe19746171742833fd8a69b141f3bfb0fc30fa/nvfuser_cu121-0.2.5.dev20240529.tar.gz
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/42/eb/63f073415e0f788fd74bd4739fbd9f89fb8d411a7e94c932b7f7b58f6a74/composabl_dev-0.8.0.dev98-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:16:46] INFO root fetch - processPackages [vy-lambda-tools]: executing diffoscope
+[2024-05-29 12:16:46] INFO root fetch - processPackages [vy-lambda-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vy_lambda_tools-0.4.2.tar.gz tmp/vy_lambda_tools-0.4.3.tar.gz --markdown 20240529/v/vy-lambda-tools/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-29 12:16:46] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-29 12:16:46] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.8.0.tar.gz tmp/iac_init-0.8.3.tar.gz --markdown 20240529/i/iac-init/0.8.0-0.8.3/README.md --exclude *.pyd
+[2024-05-29 12:16:46] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-29 12:16:46] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.5.dev20240528.tar.gz tmp/nvfuser_cu121-0.2.5.dev20240529.tar.gz --markdown 20240529/n/nvfuser-cu121/0.2.5.dev20240528-0.2.5.dev20240529/README.md --exclude *.pyd
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev96-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev98-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240529/c/composabl-dev/0.8.0.dev96-0.8.0.dev98/README.md --exclude *.pyd
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/fe/51/d8fdf4c3e9228a27486d76c7191d40e2f38f02c7a975f64176307fa4f1d5/composabl_api_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240529/c/composabl-cli-dev/0.8.0.dev96-0.8.0.dev98/README.md --exclude *.pyd
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/cd/93/9d6051f96c04a5e6ee00be1cca9547a82d3561dcde526378f5ad4bd57c94/composabl_train_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:16:46] INFO root fetch - processPackages [ctube]: Remove: archive file [/home/abi/fetcher/tmp/ctube-0.0.9.tar.gz]
+[2024-05-29 12:16:46] INFO root fetch - processPackages [ctube]: Remove: archive file [/home/abi/fetcher/tmp/ctube-0.1.1.tar.gz]
+[2024-05-29 12:16:46] INFO root fetch - main [MainThread]: End processing [ctube]: success
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-api-dev]: executing diffoscope
+[2024-05-29 12:16:46] INFO root fetch - processPackages [composabl-api-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_api_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_api_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240529/c/composabl-api-dev/0.8.0.dev96-0.8.0.dev98/README.md --exclude *.pyd
+[2024-05-29 12:16:47] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev96-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:16:47] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev98-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:16:47] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-05-29 12:16:47] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.2.tar.gz]
+[2024-05-29 12:16:47] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.3.tar.gz]
+[2024-05-29 12:16:47] INFO root fetch - main [MainThread]: End processing [vy-lambda-tools]: success
+[2024-05-29 12:16:47] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-05-29 12:16:47] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240529/c/composabl-train-dev/0.8.0.dev96-0.8.0.dev98/README.md --exclude *.pyd
+[2024-05-29 12:16:47] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240528.tar.gz]
+[2024-05-29 12:16:47] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240529.tar.gz]
+[2024-05-29 12:16:47] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-29 12:16:47] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.0.tar.gz]
+[2024-05-29 12:16:47] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.3.tar.gz]
+[2024-05-29 12:16:47] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-29 12:16:47] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:16:47] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:16:47] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-05-29 12:16:47] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:16:47] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:16:47] INFO root fetch - main [MainThread]: End processing [composabl-api-dev]: success
+[2024-05-29 12:16:48] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:16:48] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:16:48] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-05-29 12:16:48] INFO root fetch - main [MainThread]: Store serial: [23428133]
