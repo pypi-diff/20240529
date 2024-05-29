@@ -20884,3 +20884,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:56:52] INFO root fetch - processPackages [pygohcl]: Remove: archive file [/home/abi/fetcher/tmp/pygohcl-1.0.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-29 13:56:52] INFO root fetch - main [MainThread]: End processing [pygohcl]: success
 [2024-05-29 13:56:52] INFO root fetch - main [MainThread]: Store serial: [23429146]
+[2024-05-29 13:59:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429146]
+[2024-05-29 13:59:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 13:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfbs
+[2024-05-29 13:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2024-05-29 13:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oahspe
+[2024-05-29 13:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sema4ai-actions
+[2024-05-29 13:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aura-tools
+[2024-05-29 13:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swh.model
+[2024-05-29 13:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyCoreWLAN
+[2024-05-29 13:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyCoreWLAN
+[2024-05-29 13:59:06] INFO root fetch - processPackages [oahspe]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-29 13:59:06] INFO root fetch - processPackages [aura-tools]: New version: [0.5] Old Version: [0.4]
+[2024-05-29 13:59:06] INFO root fetch - processPackages [kfish]: New version: [99.0.202405290953] Old Version: [99.0.202405280853]
+[2024-05-29 13:59:06] INFO root fetch - processPackages [oahspe]: Downloading https://files.pythonhosted.org/packages/63/d2/a52d1b01ea7453fe8d49f2fae479960841b9861529fd1396cad0538d7106/oahspe-0.0.6.tar.gz
+[2024-05-29 13:59:06] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/89/6f/a0751a649b3d58534a4371390732fe2fb08b20c4ecb68f58e788dee2f49f/aura_tools-0.4.tar.gz
+[2024-05-29 13:59:06] INFO root fetch - processPackages [pyCoreWLAN]: New version: [1.0.4] Old Version: [1.0.0]
+[2024-05-29 13:59:06] INFO root fetch - processPackages [pyCoreWLAN]: New version: [1.0.4] Old Version: [1.0.0]
+[2024-05-29 13:59:06] INFO root fetch - processPackages [sema4ai-actions]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 13:59:06] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c6/30/9990204bc61e82f7144f28e2232707ceecdde07353dc3063449c75d88ddc/kfish-99.0.202405280853-py3-none-any.whl
+[2024-05-29 13:59:06] INFO root fetch - processPackages [cfbs]: New version: [4.1.0] Old Version: [4.0.9]
+[2024-05-29 13:59:06] INFO root fetch - processPackages [swh.model]: New version: [6.9.1] Old Version: [6.9.0]
+[2024-05-29 13:59:06] INFO root fetch - processPackages [pyCoreWLAN]: Downloading https://files.pythonhosted.org/packages/3e/96/abb3b21ca5d01656025ba93d806df90e772a96a8b1e8a31cc3d11ff110b0/pycorewlan-1.0.0.tar.gz
+[2024-05-29 13:59:06] INFO root fetch - processPackages [pyCoreWLAN]: Downloading https://files.pythonhosted.org/packages/3e/96/abb3b21ca5d01656025ba93d806df90e772a96a8b1e8a31cc3d11ff110b0/pycorewlan-1.0.0.tar.gz
+[2024-05-29 13:59:06] INFO root fetch - processPackages [sema4ai-actions]: Downloading https://files.pythonhosted.org/packages/b6/9b/25cff3d8bcb2871c07b28a0e9697dcebedd257638efd902962997a6cc626/sema4ai_actions-0.8.0.tar.gz
+[2024-05-29 13:59:06] INFO root fetch - processPackages [cfbs]: Downloading https://files.pythonhosted.org/packages/73/e6/b0c1f66eba0900326b40fac5f80d9c8811942f50c31885f0446c952e38ed/cfbs-4.0.9.tar.gz
+[2024-05-29 13:59:06] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/41/40/df3e0f8d1aa8d8f8b3815a59769e277dbadeaccb62c345344f7f7e0bc1d3/kfish-99.0.202405290953-py3-none-any.whl
+[2024-05-29 13:59:06] INFO root fetch - processPackages [swh.model]: Downloading https://files.pythonhosted.org/packages/48/09/7daf1bf4052acdb9c63b8f539a77ccb7a51debcfc09b41ecf4ef6e433370/swh.model-6.9.0.tar.gz
+[2024-05-29 13:59:06] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/1e/76/141850282bb5cdb0c9a933931ce8c78f47d89c2eeeb69fbc1bf6f7f7b8dc/aura_tools-0.5.tar.gz
+[2024-05-29 13:59:06] INFO root fetch - processPackages [oahspe]: Downloading https://files.pythonhosted.org/packages/f1/2f/0d69ae5cc957a9385c090417c461736e608213b03b104f76f3b3e0ede9f7/oahspe-0.0.7.tar.gz
+[2024-05-29 13:59:07] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-29 13:59:07] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405280853-py3-none-any.whl.zip tmp/kfish-99.0.202405290953-py3-none-any.whl.zip --markdown 20240529/k/kfish/99.0.202405280853-99.0.202405290953/README.md --exclude *.pyd
+[2024-05-29 13:59:07] INFO root fetch - processPackages [aura-tools]: executing diffoscope
+[2024-05-29 13:59:07] INFO root fetch - processPackages [aura-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura_tools-0.4.tar.gz tmp/aura_tools-0.5.tar.gz --markdown 20240529/a/aura-tools/0.4-0.5/README.md --exclude *.pyd
+[2024-05-29 13:59:07] INFO root fetch - processPackages [oahspe]: executing diffoscope
+[2024-05-29 13:59:07] INFO root fetch - processPackages [oahspe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oahspe-0.0.6.tar.gz tmp/oahspe-0.0.7.tar.gz --markdown 20240529/o/oahspe/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-29 13:59:07] INFO root fetch - processPackages [cfbs]: Downloading https://files.pythonhosted.org/packages/13/21/2caa5dba5c78984b17ba4e97ae7574f79ea5324fb781789a588d17929ecf/cfbs-4.1.0.tar.gz
+[2024-05-29 13:59:07] INFO root fetch - processPackages [pyCoreWLAN]: Downloading https://files.pythonhosted.org/packages/b3/37/a18af84125c2f02a1ca39f7d82ade7da80af983eb6221ca461c8bf9f16b7/pycorewlan-1.0.4.tar.gz
+[2024-05-29 13:59:07] INFO root fetch - processPackages [pyCoreWLAN]: Downloading https://files.pythonhosted.org/packages/b3/37/a18af84125c2f02a1ca39f7d82ade7da80af983eb6221ca461c8bf9f16b7/pycorewlan-1.0.4.tar.gz
+[2024-05-29 13:59:07] INFO root fetch - processPackages [sema4ai-actions]: Downloading https://files.pythonhosted.org/packages/57/65/c2fa6f3c9b75c22600c310b38da24e6e17251658ae2695a4a75d3bc3fb07/sema4ai_actions-0.9.0.tar.gz
+[2024-05-29 13:59:07] INFO root fetch - processPackages [cfbs]: executing diffoscope
+[2024-05-29 13:59:07] INFO root fetch - processPackages [cfbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfbs-4.0.9.tar.gz tmp/cfbs-4.1.0.tar.gz --markdown 20240529/c/cfbs/4.0.9-4.1.0/README.md --exclude *.pyd
+[2024-05-29 13:59:07] INFO root fetch - processPackages [swh.model]: Downloading https://files.pythonhosted.org/packages/5f/a5/89473df1b68b094ebf1f43ec77fb5655991065099689a576bdf120d282f9/swh.model-6.9.1.tar.gz
+[2024-05-29 13:59:07] INFO root fetch - processPackages [swh.model]: executing diffoscope
+[2024-05-29 13:59:07] INFO root fetch - processPackages [swh.model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.model-6.9.0.tar.gz tmp/swh.model-6.9.1.tar.gz --markdown 20240529/s/swh.model/6.9.0-6.9.1/README.md --exclude *.pyd
+[2024-05-29 13:59:07] INFO root fetch - processPackages [pyCoreWLAN]: executing diffoscope
+[2024-05-29 13:59:07] INFO root fetch - processPackages [pyCoreWLAN]: executing diffoscope
+[2024-05-29 13:59:07] INFO root fetch - processPackages [pyCoreWLAN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycorewlan-1.0.0.tar.gz tmp/pycorewlan-1.0.4.tar.gz --markdown 20240529/p/pyCoreWLAN/1.0.0-1.0.4/README.md --exclude *.pyd
+[2024-05-29 13:59:07] INFO root fetch - processPackages [pyCoreWLAN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycorewlan-1.0.0.tar.gz tmp/pycorewlan-1.0.4.tar.gz --markdown 20240529/p/pyCoreWLAN/1.0.0-1.0.4/README.md --exclude *.pyd
+[2024-05-29 13:59:07] INFO root fetch - processPackages [sema4ai-actions]: executing diffoscope
+[2024-05-29 13:59:07] INFO root fetch - processPackages [sema4ai-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sema4ai_actions-0.8.0.tar.gz tmp/sema4ai_actions-0.9.0.tar.gz --markdown 20240529/s/sema4ai-actions/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 13:59:07] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405280853-py3-none-any.whl.zip]
+[2024-05-29 13:59:07] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405290953-py3-none-any.whl.zip]
+[2024-05-29 13:59:07] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-29 13:59:07] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.4.tar.gz]
+[2024-05-29 13:59:07] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.5.tar.gz]
+[2024-05-29 13:59:07] INFO root fetch - main [MainThread]: End processing [aura-tools]: success
+[2024-05-29 13:59:07] INFO root fetch - processPackages [oahspe]: Remove: archive file [/home/abi/fetcher/tmp/oahspe-0.0.6.tar.gz]
+[2024-05-29 13:59:07] INFO root fetch - processPackages [oahspe]: Remove: archive file [/home/abi/fetcher/tmp/oahspe-0.0.7.tar.gz]
+[2024-05-29 13:59:07] INFO root fetch - main [MainThread]: End processing [oahspe]: success
+[2024-05-29 13:59:08] INFO root fetch - processPackages [cfbs]: Remove: archive file [/home/abi/fetcher/tmp/cfbs-4.0.9.tar.gz]
+[2024-05-29 13:59:08] INFO root fetch - processPackages [cfbs]: Remove: archive file [/home/abi/fetcher/tmp/cfbs-4.1.0.tar.gz]
+[2024-05-29 13:59:08] INFO root fetch - main [MainThread]: End processing [cfbs]: success
+[2024-05-29 13:59:08] INFO root fetch - processPackages [pyCoreWLAN]: Remove: archive file [/home/abi/fetcher/tmp/pycorewlan-1.0.0.tar.gz]
+[2024-05-29 13:59:08] INFO root fetch - processPackages [pyCoreWLAN]: Remove: archive file [/home/abi/fetcher/tmp/pycorewlan-1.0.4.tar.gz]
+[2024-05-29 13:59:08] INFO root fetch - main [MainThread]: End processing [pyCoreWLAN]: success
+[2024-05-29 13:59:08] INFO root fetch - main [MainThread]: End processing [pyCoreWLAN]: success
+[2024-05-29 13:59:08] INFO root fetch - processPackages [sema4ai-actions]: Remove: archive file [/home/abi/fetcher/tmp/sema4ai_actions-0.8.0.tar.gz]
+[2024-05-29 13:59:08] INFO root fetch - processPackages [sema4ai-actions]: Remove: archive file [/home/abi/fetcher/tmp/sema4ai_actions-0.9.0.tar.gz]
+[2024-05-29 13:59:08] INFO root fetch - main [MainThread]: End processing [sema4ai-actions]: success
+[2024-05-29 13:59:08] INFO root fetch - processPackages [swh.model]: Remove: archive file [/home/abi/fetcher/tmp/swh.model-6.9.0.tar.gz]
+[2024-05-29 13:59:08] INFO root fetch - processPackages [swh.model]: Remove: archive file [/home/abi/fetcher/tmp/swh.model-6.9.1.tar.gz]
+[2024-05-29 13:59:08] INFO root fetch - main [MainThread]: End processing [swh.model]: success
+[2024-05-29 13:59:08] INFO root fetch - main [MainThread]: Store serial: [23429170]
