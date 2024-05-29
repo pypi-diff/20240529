@@ -14138,3 +14138,54 @@
 [2024-05-29 09:59:42] INFO root fetch - processPackages [greatlibrarian]: Remove: archive file [/home/abi/fetcher/tmp/greatlibrarian-0.0.9.tar.gz]
 [2024-05-29 09:59:42] INFO root fetch - main [MainThread]: End processing [greatlibrarian]: success
 [2024-05-29 09:59:42] INFO root fetch - main [MainThread]: Store serial: [23425965]
+[2024-05-29 10:01:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425965]
+[2024-05-29 10:01:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 10:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-29 10:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stoobly-agent
+[2024-05-29 10:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CVE-2015-1635
+[2024-05-29 10:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysqream-blue
+[2024-05-29 10:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xfapi
+[2024-05-29 10:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudnetpy-qc
+[2024-05-29 10:01:53] INFO root fetch - processPackages [xfapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-29 10:01:53] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-29 10:01:53] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/3b/c3/d62248db9e688e034ee521d67dc1620b48a7eec232db147ccfc0b524b474/xfapi-0.0.6.tar.gz
+[2024-05-29 10:01:53] WARNING root fetch - processPackages [CVE-2015-1635]: Skipping, unable to determine old version
+[2024-05-29 10:01:53] INFO root fetch - main [MainThread]: End processing [CVE-2015-1635] error
+[2024-05-29 10:01:53] INFO root fetch - processPackages [pysqream-blue]: New version: [1.0.47] Old Version: [1.0.46]
+[2024-05-29 10:01:53] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-29 10:01:53] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-05-29 10:01:53] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-29 10:01:53] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2024-05-29 10:01:53] INFO root fetch - processPackages [pysqream-blue]: Downloading https://files.pythonhosted.org/packages/99/a2/c96cba8759f83f77b4e37935e7a1c331d198e706f9f95033dc1e5d05e60f/pysqream-blue-1.0.46.tar.gz
+[2024-05-29 10:01:53] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/7c/5a/6d1056e9573677d52463ffcf9aba206055d7f9a092281e6574e70332c7da/xfapi-0.0.7.tar.gz
+[2024-05-29 10:01:53] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/db/d6/437e8c1503adb9edb4b8221139137dbeb690bf51b3dd792be02a14e4d82f/cloudnetpy_qc-1.9.4.tar.gz
+[2024-05-29 10:01:53] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-29 10:01:54] INFO root fetch - processPackages [xfapi]: executing diffoscope
+[2024-05-29 10:01:54] INFO root fetch - processPackages [xfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfapi-0.0.6.tar.gz tmp/xfapi-0.0.7.tar.gz --markdown 20240529/x/xfapi/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-29 10:01:54] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-29 10:01:54] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240529/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-29 10:01:54] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2024-05-29 10:01:54] INFO root fetch - processPackages [pysqream-blue]: Downloading https://files.pythonhosted.org/packages/2c/5d/f32385643a22846cfde32af20f188b4c819039a242b39a82bda19a6f90a6/pysqream-blue-1.0.47.tar.gz
+[2024-05-29 10:01:54] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2024-05-29 10:01:54] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20240529/s/stoobly-agent/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-29 10:01:54] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/2b/37/8700176a21e67e769e2ce546f74d753adeb243a4497dcb1bd3859a131986/cloudnetpy_qc-1.9.5.tar.gz
+[2024-05-29 10:01:54] INFO root fetch - processPackages [pysqream-blue]: executing diffoscope
+[2024-05-29 10:01:54] INFO root fetch - processPackages [pysqream-blue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqream-blue-1.0.46.tar.gz tmp/pysqream-blue-1.0.47.tar.gz --markdown 20240529/p/pysqream-blue/1.0.46-1.0.47/README.md --exclude *.pyd
+[2024-05-29 10:01:54] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2024-05-29 10:01:54] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.4.tar.gz tmp/cloudnetpy_qc-1.9.5.tar.gz --markdown 20240529/c/cloudnetpy-qc/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-05-29 10:01:54] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.6.tar.gz]
+[2024-05-29 10:01:54] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.7.tar.gz]
+[2024-05-29 10:01:54] INFO root fetch - main [MainThread]: End processing [xfapi]: success
+[2024-05-29 10:01:54] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-29 10:01:54] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-29 10:01:54] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-29 10:01:55] INFO root fetch - processPackages [pysqream-blue]: Remove: archive file [/home/abi/fetcher/tmp/pysqream-blue-1.0.46.tar.gz]
+[2024-05-29 10:01:55] INFO root fetch - processPackages [pysqream-blue]: Remove: archive file [/home/abi/fetcher/tmp/pysqream-blue-1.0.47.tar.gz]
+[2024-05-29 10:01:55] INFO root fetch - main [MainThread]: End processing [pysqream-blue]: success
+[2024-05-29 10:01:55] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2024-05-29 10:01:55] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2024-05-29 10:01:55] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2024-05-29 10:01:55] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.4.tar.gz]
+[2024-05-29 10:01:55] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.5.tar.gz]
+[2024-05-29 10:01:55] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2024-05-29 10:01:55] INFO root fetch - main [MainThread]: Store serial: [23425981]
