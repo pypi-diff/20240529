@@ -9492,3 +9492,42 @@
 [2024-05-29 06:18:15] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.2.9.tar.gz]
 [2024-05-29 06:18:15] INFO root fetch - main [MainThread]: End processing [getdaft]: success
 [2024-05-29 06:18:15] INFO root fetch - main [MainThread]: Store serial: [23423870]
+[2024-05-29 06:20:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423870]
+[2024-05-29 06:20:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 06:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latch
+[2024-05-29 06:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irispie
+[2024-05-29 06:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muttfuzz
+[2024-05-29 06:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-helpdesk-mgmt
+[2024-05-29 06:20:24] INFO root fetch - processPackages [muttfuzz]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-29 06:20:24] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: New version: [14.0.2.9.1.dev6] Old Version: [14.0.2.9.1.dev5]
+[2024-05-29 06:20:24] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-29 06:20:24] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-29 06:20:24] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/33/ca/22d095b02714ad6bb3d93df29d5531741e492f2500ad0fa89498206980d4/muttfuzz-0.8.5-py3-none-any.whl
+[2024-05-29 06:20:24] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/b1/38/4b75975869d917a86b1699095d04a9b059c4716a5b0788e911a4bcc17651/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl
+[2024-05-29 06:20:25] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-05-29 06:20:25] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2024-05-29 06:20:25] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/d7/78/98d41e46b809fea6d59b3d084399ad90800b6eac86cdef51a200e5a9777b/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl
+[2024-05-29 06:20:25] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/2b/c9/7ba9db66c82ae65eaa40ab83bedd6c669fed1b8e7e2143f2f2da1bd0b66a/muttfuzz-0.8.6-py3-none-any.whl
+[2024-05-29 06:20:25] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: executing diffoscope
+[2024-05-29 06:20:25] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip --markdown 20240529/o/odoo14-addon-helpdesk-mgmt/14.0.2.9.1.dev5-14.0.2.9.1.dev6/README.md --exclude *.pyd
+[2024-05-29 06:20:25] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-05-29 06:20:25] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.8.5-py3-none-any.whl.zip tmp/muttfuzz-0.8.6-py3-none-any.whl.zip --markdown 20240529/m/muttfuzz/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-29 06:20:25] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2024-05-29 06:20:25] INFO root fetch - processPackages [latch]: executing diffoscope
+[2024-05-29 06:20:25] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20240529/l/latch/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-29 06:20:25] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.5-py3-none-any.whl.zip]
+[2024-05-29 06:20:25] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.6-py3-none-any.whl.zip]
+[2024-05-29 06:20:25] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-05-29 06:20:26] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-05-29 06:20:26] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip]
+[2024-05-29 06:20:26] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip]
+[2024-05-29 06:20:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
+[2024-05-29 06:20:26] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2024-05-29 06:20:26] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2024-05-29 06:20:26] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2024-05-29 06:20:26] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-05-29 06:20:26] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240529/i/irispie/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-29 06:20:28] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-05-29 06:20:28] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-05-29 06:20:28] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-05-29 06:20:28] INFO root fetch - main [MainThread]: Store serial: [23423881]
