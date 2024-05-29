@@ -9916,3 +9916,33 @@
 [2024-05-29 06:41:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.1.1.dev3-py3-none-any.whl.zip]
 [2024-05-29 06:41:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-sale-blanket-order]: success
 [2024-05-29 06:41:42] INFO root fetch - main [MainThread]: Store serial: [23424023]
+[2024-05-29 06:43:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424023]
+[2024-05-29 06:43:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mg-pso-gui
+[2024-05-29 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SilverStreamingApplicationPoC
+[2024-05-29 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edumfa
+[2024-05-29 06:43:50] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-29 06:43:50] INFO root fetch - processPackages [edumfa]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-29 06:43:50] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-05-29 06:43:50] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/df/83/034ff30ffab79111af61b23ddbbacb0dc8d0faee9958bec000f788ee7a76/mg-pso-gui-0.1.98.tar.gz
+[2024-05-29 06:43:50] INFO root fetch - processPackages [edumfa]: Downloading https://files.pythonhosted.org/packages/8c/34/fd161cc8f5d77a151fa9e882eb6fcdc9225e0489f8dac4322d9e8265f9f5/edumfa-2.0.2.tar.gz
+[2024-05-29 06:43:50] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-05-29 06:43:50] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/02/26/25a563653e3f76ef0cdf3b09aef810d638a12dd3cab560f67bf7a0c694e9/mg-pso-gui-0.1.99.tar.gz
+[2024-05-29 06:43:51] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-29 06:43:51] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.98.tar.gz tmp/mg-pso-gui-0.1.99.tar.gz --markdown 20240529/m/mg-pso-gui/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-29 06:43:51] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-05-29 06:43:51] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-05-29 06:43:51] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240529/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-05-29 06:43:51] INFO root fetch - processPackages [edumfa]: Downloading https://files.pythonhosted.org/packages/62/28/9e0d2e3aec9cac553e9b1da914da6364f7415f1b22c53a23cc265c3402ad/edumfa-2.0.3.tar.gz
+[2024-05-29 06:43:51] INFO root fetch - processPackages [edumfa]: executing diffoscope
+[2024-05-29 06:43:51] INFO root fetch - processPackages [edumfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edumfa-2.0.2.tar.gz tmp/edumfa-2.0.3.tar.gz --markdown 20240529/e/edumfa/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-29 06:43:51] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.98.tar.gz]
+[2024-05-29 06:43:51] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.99.tar.gz]
+[2024-05-29 06:43:51] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-29 06:43:51] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-05-29 06:43:51] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-05-29 06:43:51] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-05-29 06:43:55] INFO root fetch - processPackages [edumfa]: Remove: archive file [/home/abi/fetcher/tmp/edumfa-2.0.2.tar.gz]
+[2024-05-29 06:43:55] INFO root fetch - processPackages [edumfa]: Remove: archive file [/home/abi/fetcher/tmp/edumfa-2.0.3.tar.gz]
+[2024-05-29 06:43:55] INFO root fetch - main [MainThread]: End processing [edumfa]: success
+[2024-05-29 06:43:55] INFO root fetch - main [MainThread]: Store serial: [23424031]
