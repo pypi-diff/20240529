@@ -19293,3 +19293,123 @@
 [2024-05-29 12:58:24] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2403.0-py3-none-any.whl.zip]
 [2024-05-29 12:58:24] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
 [2024-05-29 12:58:24] INFO root fetch - main [MainThread]: Store serial: [23428498]
+[2024-05-29 13:00:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428498]
+[2024-05-29 13:00:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-29 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-cicd-dso
+[2024-05-29 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-libs
+[2024-05-29 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-05-29 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-whd
+[2024-05-29 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangoldp-energiepartagee
+[2024-05-29 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-oci
+[2024-05-29 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kojen
+[2024-05-29 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: turboctl
+[2024-05-29 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mal-toolbox
+[2024-05-29 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: celitech-sdk
+[2024-05-29 13:00:35] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-29 13:00:35] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2403.0] Old Version: [1.2402.0]
+[2024-05-29 13:00:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-29 13:00:35] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/b0/3b/a64e68c53d773a6ab5a350db4af58ea593cdf6465b5243f937a2de106f83/pyrt_lib_rasmusklitgaard-0.4.8.tar.gz
+[2024-05-29 13:00:35] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/09/7e/ab26a265464f1a234fcc4eb827de4bd52c28f44ccf1c6baced82ab0e9424/gardener_cicd_dso-1.2402.0.tar.gz
+[2024-05-29 13:00:35] INFO root fetch - processPackages [mal-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 13:00:35] INFO root fetch - processPackages [turboctl]: New version: [1.1.1.dev5] Old Version: [1.1.1.dev4]
+[2024-05-29 13:00:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-29 13:00:35] INFO root fetch - processPackages [celitech-sdk]: New version: [1.1.59] Old Version: [1.1.58]
+[2024-05-29 13:00:35] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2403.0] Old Version: [1.2402.0]
+[2024-05-29 13:00:35] INFO root fetch - processPackages [kojen]: New version: [1.3.30] Old Version: [1.2.30]
+[2024-05-29 13:00:35] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2403.0] Old Version: [1.2402.0]
+[2024-05-29 13:00:35] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-05-29 13:00:35] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/2a/e7/25f2f7c22a9735e928cdf1c78957d63cb329e39a301e55b6fb60af3695f6/pyrt_lib_rasmusklitgaard-0.4.9.tar.gz
+[2024-05-29 13:00:35] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/74/90/7f0a38d1e90349da46a3ac065747bf01fc5b696f512fb51d73619779a65f/gardener_cicd_dso-1.2403.0-py3-none-any.whl
+[2024-05-29 13:00:35] INFO root fetch - processPackages [turboctl]: Downloading https://files.pythonhosted.org/packages/aa/5f/3e6a3e0d387d3cea1ac108b767d281a42de176d9c6ade46664212d90969c/turboctl-1.1.1.dev4.tar.gz
+[2024-05-29 13:00:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-29 13:00:35] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/47/85/10bda697bead1004d703968ce9cb75ba2309f408c27cd62637d9ca94cc25/gardener_cicd_whd-1.2402.0.tar.gz
+[2024-05-29 13:00:35] INFO root fetch - processPackages [mal-toolbox]: Downloading https://files.pythonhosted.org/packages/da/94/d1975f7b0d3b496b7c245534ba53e332dc4e8edd9f74395eb5451eae1d5c/mal_toolbox-0.0.8-py3-none-any.whl
+[2024-05-29 13:00:35] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/6a/21/11aca95c4c9bc2e8d3e7c9d844c1661776e9ce8b9cbea5dffb108d2b7f09/celitech_sdk-1.1.58.tar.gz
+[2024-05-29 13:00:35] INFO root fetch - processPackages [kojen]: Downloading https://files.pythonhosted.org/packages/fc/67/ce46b2dca5813638a42c99137e106869f81fbde83aeb347233940dff2dcf/kojen-1.2.30.tar.gz
+[2024-05-29 13:00:35] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/37/a0/ee30da61a1863f6dac36a0d9435ed47e5979981a0a8a69b115b5be9f4002/gardener_cicd_libs-1.2402.0.tar.gz
+[2024-05-29 13:00:35] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-05-29 13:00:35] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-05-29 13:00:35] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.4.8.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.4.9.tar.gz --markdown 20240529/p/pyrt-lib-rasmusklitgaard/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-29 13:00:35] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-29 13:00:35] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2402.0.tar.gz tmp/gardener_cicd_dso-1.2403.0-py3-none-any.whl.zip --markdown 20240529/g/gardener-cicd-dso/1.2402.0-1.2403.0/README.md --exclude *.pyd
+[2024-05-29 13:00:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-29 13:00:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240529/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/12/0d/4696f0d85d651683b7972f764b7416bb701828572ae062c6f979b6c7fc3f/gardener_cicd_whd-1.2403.0.tar.gz
+[2024-05-29 13:00:36] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/6c/4f/b095ce3c70136fb84f70e9a360a4ba77c07da90d67f435369d11c5a5224c/celitech_sdk-1.1.59.tar.gz
+[2024-05-29 13:00:36] INFO root fetch - processPackages [turboctl]: Downloading https://files.pythonhosted.org/packages/0e/36/c0cd8e3ed712c08c5e1a3a91b6cc13d322cfec9eb9e0674b8df3601c6a6a/turboctl-1.1.1.dev5.tar.gz
+[2024-05-29 13:00:36] INFO root fetch - processPackages [mal-toolbox]: Downloading https://files.pythonhosted.org/packages/43/04/a3947b63ee2dc52298ce2df6a9af62fb76495dfda933c79baa7caccbbf34/mal_toolbox-0.0.9-py3-none-any.whl
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/fa/6a/159684f0db6e9642c4f23d9aa55cbea9d068024a64be0d578bce2308a888/gardener_cicd_libs-1.2403.0.tar.gz
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-05-29 13:00:36] INFO root fetch - processPackages [turboctl]: executing diffoscope
+[2024-05-29 13:00:36] INFO root fetch - processPackages [turboctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turboctl-1.1.1.dev4.tar.gz tmp/turboctl-1.1.1.dev5.tar.gz --markdown 20240529/t/turboctl/1.1.1.dev4-1.1.1.dev5/README.md --exclude *.pyd
+[2024-05-29 13:00:36] INFO root fetch - processPackages [kojen]: Downloading https://files.pythonhosted.org/packages/5f/a5/bdadd3a18d74a88d4f7d1ac01ec77293ad30b9ebacfddb7b9f7c2e36d55b/kojen-1.3.30.tar.gz
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2402.0.tar.gz tmp/gardener_cicd_whd-1.2403.0.tar.gz --markdown 20240529/g/gardener-cicd-whd/1.2402.0-1.2403.0/README.md --exclude *.pyd
+[2024-05-29 13:00:36] INFO root fetch - processPackages [mal-toolbox]: executing diffoscope
+[2024-05-29 13:00:36] INFO root fetch - processPackages [mal-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mal_toolbox-0.0.8-py3-none-any.whl.zip tmp/mal_toolbox-0.0.9-py3-none-any.whl.zip --markdown 20240529/m/mal-toolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 13:00:36] INFO root fetch - processPackages [celitech-sdk]: executing diffoscope
+[2024-05-29 13:00:36] INFO root fetch - processPackages [celitech-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celitech_sdk-1.1.58.tar.gz tmp/celitech_sdk-1.1.59.tar.gz --markdown 20240529/c/celitech-sdk/1.1.58-1.1.59/README.md --exclude *.pyd
+[2024-05-29 13:00:36] INFO root fetch - processPackages [kojen]: executing diffoscope
+[2024-05-29 13:00:36] INFO root fetch - processPackages [kojen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kojen-1.2.30.tar.gz tmp/kojen-1.3.30.tar.gz --markdown 20240529/k/kojen/1.2.30-1.3.30/README.md --exclude *.pyd
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240529/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2402.0.tar.gz tmp/gardener_cicd_libs-1.2403.0.tar.gz --markdown 20240529/g/gardener-cicd-libs/1.2402.0-1.2403.0/README.md --exclude *.pyd
+[2024-05-29 13:00:36] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.4.8.tar.gz]
+[2024-05-29 13:00:36] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.4.9.tar.gz]
+[2024-05-29 13:00:36] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Start processing: odoo-addon-account-reconcile-oca
+[2024-05-29 13:00:36] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2402.0.tar.gz]
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2403.0-py3-none-any.whl.zip]
+[2024-05-29 13:00:36] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: iac-init
+[2024-05-29 13:00:36] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-29 13:00:36] INFO root fetch - processPackages [iac-init]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-29 13:00:36] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.1.1]
+[2024-05-29 13:00:36] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/96/cf/e7faa7378f7e665d89e26a410409e879c2e46f157a847bcac994dc1b07e0/iac_init-0.8.3.tar.gz
+[2024-05-29 13:00:37] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/ec/a7/75561acb27a5ebc8d7a450fc0740ad19188001a2549c0ca8fa76246f9c81/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-29 13:00:37] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/a4/68/67170b4c3e11c6d25f8e3f54f19f6c4034ae779486333abf6bbb082f7ddc/iac_init-0.8.4.tar.gz
+[2024-05-29 13:00:37] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2402.0.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2403.0.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: aws-boto3-sdk-helpers
+[2024-05-29 13:00:37] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-05-29 13:00:37] INFO root fetch - processPackages [mal-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/mal_toolbox-0.0.8-py3-none-any.whl.zip]
+[2024-05-29 13:00:37] INFO root fetch - processPackages [mal-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/mal_toolbox-0.0.9-py3-none-any.whl.zip]
+[2024-05-29 13:00:37] INFO root fetch - main [MainThread]: End processing [mal-toolbox]: success
+[2024-05-29 13:00:37] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-29 13:00:37] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-05-29 13:00:37] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-29 13:00:37] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.8.3.tar.gz tmp/iac_init-0.8.4.tar.gz --markdown 20240529/i/iac-init/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-29 13:00:37] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 13:00:37] INFO root fetch - processPackages [kojen]: Remove: archive file [/home/abi/fetcher/tmp/kojen-1.2.30.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - processPackages [kojen]: Remove: archive file [/home/abi/fetcher/tmp/kojen-1.3.30.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - main [MainThread]: End processing [kojen]: success
+[2024-05-29 13:00:37] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/21/17/7b10fed1ec3fa160be226b55f93ff9b8a6e7cabeab5f91cb582fbf1886ad/odoo_addon_account_reconcile_oca-17.0.1.1.0-py3-none-any.whl
+[2024-05-29 13:00:37] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech_sdk-1.1.58.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech_sdk-1.1.59.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - main [MainThread]: End processing [celitech-sdk]: success
+[2024-05-29 13:00:37] INFO root fetch - processPackages [turboctl]: Remove: archive file [/home/abi/fetcher/tmp/turboctl-1.1.1.dev4.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - processPackages [turboctl]: Remove: archive file [/home/abi/fetcher/tmp/turboctl-1.1.1.dev5.tar.gz]
+[2024-05-29 13:00:37] INFO root fetch - main [MainThread]: End processing [turboctl]: success
+[2024-05-29 13:00:37] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-05-29 13:00:37] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-account-reconcile-oca/17.0.1.0.1.1-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-29 13:00:37] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: Downloading https://files.pythonhosted.org/packages/e8/2b/8754e98b61714c28fd1435112efd05a10c431ec84b3687d66a4a69384300/aws_boto3_sdk_helpers-1.0.1.tar.gz
+[2024-05-29 13:00:38] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2402.0.tar.gz]
+[2024-05-29 13:00:38] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2403.0.tar.gz]
+[2024-05-29 13:00:38] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-05-29 13:00:38] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: Downloading https://files.pythonhosted.org/packages/b7/c0/517db524207d9b7f3603aeec008eed9ad52900a9911968ec25d89b776e48/aws_boto3_sdk_helpers-1.0.2.tar.gz
+[2024-05-29 13:00:38] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.3.tar.gz]
+[2024-05-29 13:00:38] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.4.tar.gz]
+[2024-05-29 13:00:38] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-29 13:00:38] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: executing diffoscope
+[2024-05-29 13:00:38] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_boto3_sdk_helpers-1.0.1.tar.gz tmp/aws_boto3_sdk_helpers-1.0.2.tar.gz --markdown 20240529/a/aws-boto3-sdk-helpers/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 13:00:38] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-29 13:00:38] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-29 13:00:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-05-29 13:00:38] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: Remove: archive file [/home/abi/fetcher/tmp/aws_boto3_sdk_helpers-1.0.1.tar.gz]
+[2024-05-29 13:00:38] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: Remove: archive file [/home/abi/fetcher/tmp/aws_boto3_sdk_helpers-1.0.2.tar.gz]
+[2024-05-29 13:00:38] INFO root fetch - main [MainThread]: End processing [aws-boto3-sdk-helpers]: success
+[2024-05-29 13:00:38] INFO root fetch - main [MainThread]: Store serial: [23428546]
