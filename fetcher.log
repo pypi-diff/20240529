@@ -16956,3 +16956,69 @@
 [2024-05-29 11:30:06] INFO root fetch - processPackages [eradiate]: Remove: archive file [/home/abi/fetcher/tmp/eradiate-0.27.0rc1.tar.gz]
 [2024-05-29 11:30:06] INFO root fetch - main [MainThread]: End processing [eradiate]: success
 [2024-05-29 11:30:06] INFO root fetch - main [MainThread]: Store serial: [23427412]
+[2024-05-29 11:32:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427412]
+[2024-05-29 11:32:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-mongo-backend
+[2024-05-29 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-theme-tuw
+[2024-05-29 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfpack
+[2024-05-29 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typeid
+[2024-05-29 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: i-PI
+[2024-05-29 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdb-numpy
+[2024-05-29 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DatastreamPy
+[2024-05-29 11:32:16] INFO root fetch - processPackages [pdb-numpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 11:32:16] INFO root fetch - processPackages [cfpack]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 11:32:16] INFO root fetch - processPackages [django-mongo-backend]: New version: [0.27.1] Old Version: [0.27]
+[2024-05-29 11:32:17] INFO root fetch - processPackages [pdb-numpy]: Downloading https://files.pythonhosted.org/packages/2a/41/b7a03d05446665d4dc60e410cce0de56572969e84c7d8241ba0c2c3fe885/pdb_numpy-0.0.3.tar.gz
+[2024-05-29 11:32:17] INFO root fetch - processPackages [typeid]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-29 11:32:17] INFO root fetch - processPackages [i-PI]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-29 11:32:17] INFO root fetch - processPackages [DatastreamPy]: New version: [2.0.30] Old Version: [2.0.28]
+[2024-05-29 11:32:17] INFO root fetch - processPackages [invenio-theme-tuw]: New version: [2024.1.4] Old Version: [2024.1.3]
+[2024-05-29 11:32:17] INFO root fetch - processPackages [cfpack]: Downloading https://files.pythonhosted.org/packages/b7/61/9d956ec5d9bc7107937f5d077372bf620810eabf7b1e68d02126cb3e94c4/cfpack-0.1.8.tar.gz
+[2024-05-29 11:32:17] INFO root fetch - processPackages [django-mongo-backend]: Downloading https://files.pythonhosted.org/packages/3f/13/1c5ac8f3016b5e09ff35b2946bb8c07e4ed796d51f58c07faf8234e22985/django_mongo_backend-0.27.tar.gz
+[2024-05-29 11:32:17] INFO root fetch - processPackages [typeid]: Downloading https://files.pythonhosted.org/packages/32/e0/d63f1dd93f16aa54bf4a4b17d5f145244104ba1c00df88b0c730e8cd0a03/typeid-0.3.0.tar.gz
+[2024-05-29 11:32:17] INFO root fetch - processPackages [i-PI]: Downloading https://files.pythonhosted.org/packages/a7/68/952b2ace260bdea4a98d167640c0cf371f9ac0cde1897a2a195d4484cb71/i-PI-2.4.0.tar.gz
+[2024-05-29 11:32:17] INFO root fetch - processPackages [invenio-theme-tuw]: Downloading https://files.pythonhosted.org/packages/4c/5b/8c283093fd4cbde82c1333c67b17a8fe5f0fccbceb69f465f68869fb5444/invenio_theme_tuw-2024.1.3.tar.gz
+[2024-05-29 11:32:17] INFO root fetch - processPackages [DatastreamPy]: Downloading https://files.pythonhosted.org/packages/c0/6d/5ecec19871b1efd89b5460f81dd3ef13cdf4cddafd0e74043d17c361d003/DatastreamPy-2.0.28-py3-none-any.whl
+[2024-05-29 11:32:17] INFO root fetch - processPackages [cfpack]: Downloading https://files.pythonhosted.org/packages/11/a8/6c49194619f4d76a20b40a90766277b04c3db144a2a6d73a70801be1b22e/cfpack-0.1.9.tar.gz
+[2024-05-29 11:32:17] INFO root fetch - processPackages [pdb-numpy]: Downloading https://files.pythonhosted.org/packages/df/b6/cb631e9d626ee815db6ec5bd1d66f83ba09d728106d0d72f2188e88ae880/pdb_numpy-0.0.4.tar.gz
+[2024-05-29 11:32:17] INFO root fetch - processPackages [django-mongo-backend]: Downloading https://files.pythonhosted.org/packages/a5/2c/2fadbfb48dedeba9d60a68321f2a821e847b590826da0f17aaab12a2af3c/django_mongo_backend-0.27.1.tar.gz
+[2024-05-29 11:32:17] INFO root fetch - processPackages [cfpack]: executing diffoscope
+[2024-05-29 11:32:17] INFO root fetch - processPackages [cfpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfpack-0.1.8.tar.gz tmp/cfpack-0.1.9.tar.gz --markdown 20240529/c/cfpack/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 11:32:17] INFO root fetch - processPackages [pdb-numpy]: executing diffoscope
+[2024-05-29 11:32:17] INFO root fetch - processPackages [pdb-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdb_numpy-0.0.3.tar.gz tmp/pdb_numpy-0.0.4.tar.gz --markdown 20240529/p/pdb-numpy/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 11:32:17] INFO root fetch - processPackages [django-mongo-backend]: executing diffoscope
+[2024-05-29 11:32:17] INFO root fetch - processPackages [django-mongo-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_mongo_backend-0.27.tar.gz tmp/django_mongo_backend-0.27.1.tar.gz --markdown 20240529/d/django-mongo-backend/0.27-0.27.1/README.md --exclude *.pyd
+[2024-05-29 11:32:17] INFO root fetch - processPackages [typeid]: Downloading https://files.pythonhosted.org/packages/62/59/dde79b8f64490be86cf84dd50d59dedf5d716293b5400ddac6cd54fbc25d/typeid-0.3.1.tar.gz
+[2024-05-29 11:32:17] INFO root fetch - processPackages [i-PI]: Downloading https://files.pythonhosted.org/packages/b6/7a/a8abb7c1c1e64228cea5bbf22c46ced85b346e1cce47f7559ab7a484c3a2/i_PI-2.4.1-py2-none-any.whl
+[2024-05-29 11:32:17] INFO root fetch - processPackages [DatastreamPy]: Downloading https://files.pythonhosted.org/packages/78/71/f6f751ff0078e18448307d3ac0b4a7b53f243d75febb3244acfdcff4aa4e/DatastreamPy-2.0.30-py3-none-any.whl
+[2024-05-29 11:32:17] INFO root fetch - processPackages [typeid]: executing diffoscope
+[2024-05-29 11:32:17] INFO root fetch - processPackages [typeid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeid-0.3.0.tar.gz tmp/typeid-0.3.1.tar.gz --markdown 20240529/t/typeid/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-29 11:32:17] INFO root fetch - processPackages [DatastreamPy]: executing diffoscope
+[2024-05-29 11:32:17] INFO root fetch - processPackages [DatastreamPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DatastreamPy-2.0.28-py3-none-any.whl.zip tmp/DatastreamPy-2.0.30-py3-none-any.whl.zip --markdown 20240529/D/DatastreamPy/2.0.28-2.0.30/README.md --exclude *.pyd
+[2024-05-29 11:32:17] INFO root fetch - processPackages [i-PI]: executing diffoscope
+[2024-05-29 11:32:17] INFO root fetch - processPackages [i-PI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i-PI-2.4.0.tar.gz tmp/i_PI-2.4.1-py2-none-any.whl.zip --markdown 20240529/i/i-PI/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-29 11:32:18] INFO root fetch - processPackages [invenio-theme-tuw]: Downloading https://files.pythonhosted.org/packages/eb/90/ae73046647fe85c257af0f848eff91472c24b6525494984606d7eb9e0077/invenio_theme_tuw-2024.1.4.tar.gz
+[2024-05-29 11:32:18] INFO root fetch - processPackages [cfpack]: Remove: archive file [/home/abi/fetcher/tmp/cfpack-0.1.8.tar.gz]
+[2024-05-29 11:32:18] INFO root fetch - processPackages [cfpack]: Remove: archive file [/home/abi/fetcher/tmp/cfpack-0.1.9.tar.gz]
+[2024-05-29 11:32:18] INFO root fetch - main [MainThread]: End processing [cfpack]: success
+[2024-05-29 11:32:18] INFO root fetch - processPackages [django-mongo-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_mongo_backend-0.27.tar.gz]
+[2024-05-29 11:32:18] INFO root fetch - processPackages [django-mongo-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_mongo_backend-0.27.1.tar.gz]
+[2024-05-29 11:32:18] INFO root fetch - main [MainThread]: End processing [django-mongo-backend]: success
+[2024-05-29 11:32:18] INFO root fetch - processPackages [pdb-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pdb_numpy-0.0.3.tar.gz]
+[2024-05-29 11:32:18] INFO root fetch - processPackages [pdb-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pdb_numpy-0.0.4.tar.gz]
+[2024-05-29 11:32:18] INFO root fetch - main [MainThread]: End processing [pdb-numpy]: success
+[2024-05-29 11:32:18] INFO root fetch - processPackages [typeid]: Remove: archive file [/home/abi/fetcher/tmp/typeid-0.3.0.tar.gz]
+[2024-05-29 11:32:18] INFO root fetch - processPackages [typeid]: Remove: archive file [/home/abi/fetcher/tmp/typeid-0.3.1.tar.gz]
+[2024-05-29 11:32:18] INFO root fetch - main [MainThread]: End processing [typeid]: success
+[2024-05-29 11:32:18] INFO root fetch - processPackages [i-PI]: Remove: archive file [/home/abi/fetcher/tmp/i-PI-2.4.0.tar.gz]
+[2024-05-29 11:32:18] INFO root fetch - processPackages [i-PI]: Remove: archive file [/home/abi/fetcher/tmp/i_PI-2.4.1-py2-none-any.whl.zip]
+[2024-05-29 11:32:18] INFO root fetch - main [MainThread]: End processing [i-PI]: success
+[2024-05-29 11:32:18] INFO root fetch - processPackages [invenio-theme-tuw]: executing diffoscope
+[2024-05-29 11:32:18] INFO root fetch - processPackages [invenio-theme-tuw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio_theme_tuw-2024.1.3.tar.gz tmp/invenio_theme_tuw-2024.1.4.tar.gz --markdown 20240529/i/invenio-theme-tuw/2024.1.3-2024.1.4/README.md --exclude *.pyd
+[2024-05-29 11:32:18] INFO root fetch - processPackages [DatastreamPy]: Remove: archive file [/home/abi/fetcher/tmp/DatastreamPy-2.0.28-py3-none-any.whl.zip]
+[2024-05-29 11:32:18] INFO root fetch - processPackages [DatastreamPy]: Remove: archive file [/home/abi/fetcher/tmp/DatastreamPy-2.0.30-py3-none-any.whl.zip]
+[2024-05-29 11:32:18] INFO root fetch - main [MainThread]: End processing [DatastreamPy]: success
+[2024-05-29 11:32:19] INFO root fetch - processPackages [invenio-theme-tuw]: Remove: archive file [/home/abi/fetcher/tmp/invenio_theme_tuw-2024.1.3.tar.gz]
+[2024-05-29 11:32:19] INFO root fetch - processPackages [invenio-theme-tuw]: Remove: archive file [/home/abi/fetcher/tmp/invenio_theme_tuw-2024.1.4.tar.gz]
+[2024-05-29 11:32:19] INFO root fetch - main [MainThread]: End processing [invenio-theme-tuw]: success
+[2024-05-29 11:32:19] INFO root fetch - main [MainThread]: Store serial: [23427432]
