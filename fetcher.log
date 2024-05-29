@@ -20017,3 +20017,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:19:22] INFO root fetch - processPackages [nnef-tools]: Remove: archive file [/home/abi/fetcher/tmp/nnef_tools-1.0.5.tar.gz]
 [2024-05-29 13:19:22] INFO root fetch - main [MainThread]: End processing [nnef-tools]: success
 [2024-05-29 13:19:22] INFO root fetch - main [MainThread]: Store serial: [23428784]
+[2024-05-29 13:21:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428784]
+[2024-05-29 13:21:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-time-tracking
+[2024-05-29 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digimat.mbio
+[2024-05-29 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nlpx
+[2024-05-29 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Orange3-SingleCell
+[2024-05-29 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyftms
+[2024-05-29 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbagclimenu
+[2024-05-29 13:21:31] INFO root fetch - processPackages [pyftms]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 13:21:31] WARNING root fetch - processPackages [airbagclimenu]: Skipping, unable to determine old version
+[2024-05-29 13:21:31] INFO root fetch - main [MainThread]: End processing [airbagclimenu] error
+[2024-05-29 13:21:31] WARNING root fetch - processPackages [git-time-tracking]: Skipping, unable to determine old version
+[2024-05-29 13:21:31] INFO root fetch - main [MainThread]: End processing [git-time-tracking] error
+[2024-05-29 13:21:31] INFO root fetch - processPackages [nlpx]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-05-29 13:21:31] INFO root fetch - processPackages [pyftms]: Downloading https://files.pythonhosted.org/packages/e8/c1/00795fd702ba65bc4b66a92165dbea138eb379b1e98700d196ed1c273543/pyftms-0.1.0.tar.gz
+[2024-05-29 13:21:31] INFO root fetch - processPackages [Orange3-SingleCell]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-05-29 13:21:31] INFO root fetch - processPackages [digimat.mbio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 13:21:31] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/42/5c/9f12b958bd7e60c5f495c7c6e8e58bc9b6149495a2cf3ed6a9987c606bf0/nlpx-1.2.7.tar.gz
+[2024-05-29 13:21:31] INFO root fetch - processPackages [pyftms]: Downloading https://files.pythonhosted.org/packages/dd/c4/fd0c27dd94a78204cf96f00d99d3534144f3a30b695d9d314d3e21909e66/pyftms-0.1.1.tar.gz
+[2024-05-29 13:21:31] INFO root fetch - processPackages [Orange3-SingleCell]: Downloading https://files.pythonhosted.org/packages/c1/dd/c7e76c4a3cf5d08aa5ffb5c10472a6a0e6aa3900c2287b9400413a2eaf41/Orange3-SingleCell-1.6.0.tar.gz
+[2024-05-29 13:21:31] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/71/e2/320c5b884cd4c2ec53c579c63ffa353c0113149d9856b2cbe51c5a7dc258/digimat.mbio-0.1.8.tar.gz
+[2024-05-29 13:21:31] INFO root fetch - processPackages [pyftms]: executing diffoscope
+[2024-05-29 13:21:31] INFO root fetch - processPackages [pyftms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyftms-0.1.0.tar.gz tmp/pyftms-0.1.1.tar.gz --markdown 20240529/p/pyftms/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 13:21:31] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/d4/e6/e1a55092d73734d7a9a9894076301bba2fa5292f224f1fafb9537e91997e/nlpx-1.2.8.tar.gz
+[2024-05-29 13:21:32] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-29 13:21:32] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.2.7.tar.gz tmp/nlpx-1.2.8.tar.gz --markdown 20240529/n/nlpx/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-05-29 13:21:32] INFO root fetch - processPackages [Orange3-SingleCell]: Downloading https://files.pythonhosted.org/packages/d5/87/1b1a469eb89935f0b8df90b610d2b31b7c52749e0c20378cde95b5e20774/orange3_singlecell-1.7.0.tar.gz
+[2024-05-29 13:21:32] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/39/6e/5bdff2534466d804cce6dfcbaca73554b2c423069c02d31759fddbe8406b/digimat.mbio-0.1.9.tar.gz
+[2024-05-29 13:21:32] INFO root fetch - processPackages [digimat.mbio]: executing diffoscope
+[2024-05-29 13:21:32] INFO root fetch - processPackages [digimat.mbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.mbio-0.1.8.tar.gz tmp/digimat.mbio-0.1.9.tar.gz --markdown 20240529/d/digimat.mbio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 13:21:32] INFO root fetch - processPackages [Orange3-SingleCell]: executing diffoscope
+[2024-05-29 13:21:32] INFO root fetch - processPackages [Orange3-SingleCell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Orange3-SingleCell-1.6.0.tar.gz tmp/orange3_singlecell-1.7.0.tar.gz --markdown 20240529/O/Orange3-SingleCell/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-05-29 13:21:32] INFO root fetch - processPackages [pyftms]: Remove: archive file [/home/abi/fetcher/tmp/pyftms-0.1.0.tar.gz]
+[2024-05-29 13:21:32] INFO root fetch - processPackages [pyftms]: Remove: archive file [/home/abi/fetcher/tmp/pyftms-0.1.1.tar.gz]
+[2024-05-29 13:21:32] INFO root fetch - main [MainThread]: End processing [pyftms]: success
+[2024-05-29 13:21:32] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.7.tar.gz]
+[2024-05-29 13:21:32] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.8.tar.gz]
+[2024-05-29 13:21:32] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-29 13:21:32] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.8.tar.gz]
+[2024-05-29 13:21:32] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.9.tar.gz]
+[2024-05-29 13:21:32] INFO root fetch - main [MainThread]: End processing [digimat.mbio]: success
+[2024-05-29 13:21:33] INFO root fetch - processPackages [Orange3-SingleCell]: Remove: archive file [/home/abi/fetcher/tmp/Orange3-SingleCell-1.6.0.tar.gz]
+[2024-05-29 13:21:33] INFO root fetch - processPackages [Orange3-SingleCell]: Remove: archive file [/home/abi/fetcher/tmp/orange3_singlecell-1.7.0.tar.gz]
+[2024-05-29 13:21:33] INFO root fetch - main [MainThread]: End processing [Orange3-SingleCell]: success
+[2024-05-29 13:21:33] INFO root fetch - main [MainThread]: Store serial: [23428799]
