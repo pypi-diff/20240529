@@ -15352,3 +15352,91 @@
 [2024-05-29 10:47:35] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.1b3.tar.gz]
 [2024-05-29 10:47:35] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
 [2024-05-29 10:47:35] INFO root fetch - main [MainThread]: Store serial: [23426635]
+[2024-05-29 10:49:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426635]
+[2024-05-29 10:49:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-29 10:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mltrainer
+[2024-05-29 10:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: veetility
+[2024-05-29 10:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-cognite-reveal
+[2024-05-29 10:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grain-zip-deployer
+[2024-05-29 10:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocsi
+[2024-05-29 10:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eenhoorntje-llm-lib
+[2024-05-29 10:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anaplan-sdk
+[2024-05-29 10:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: broken-source
+[2024-05-29 10:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chemfusekit
+[2024-05-29 10:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: afeng-py-tools
+[2024-05-29 10:49:45] WARNING root fetch - processPackages [streamlit-cognite-reveal]: Skipping, unable to determine old version
+[2024-05-29 10:49:45] INFO root fetch - processPackages [streamlit-cognite-reveal]: Start processing: mkdocsi
+[2024-05-29 10:49:45] INFO root fetch - main [MainThread]: End processing [streamlit-cognite-reveal] error
+[2024-05-29 10:49:45] INFO root fetch - processPackages [grain-zip-deployer]: New version: [2024.5.29.3] Old Version: [2024.5.29.2]
+[2024-05-29 10:49:45] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.1b3] Old Version: [1.1.1b2]
+[2024-05-29 10:49:45] INFO root fetch - processPackages [mkdocsi]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-29 10:49:45] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 10:49:45] INFO root fetch - processPackages [mkdocsi]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-29 10:49:45] INFO root fetch - processPackages [mltrainer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 10:49:45] INFO root fetch - processPackages [eenhoorntje-llm-lib]: New version: [0.9] Old Version: [0.8]
+[2024-05-29 10:49:45] WARNING root fetch - processPackages [anaplan-sdk]: Skipping, unable to determine old version
+[2024-05-29 10:49:45] INFO root fetch - main [MainThread]: End processing [anaplan-sdk] error
+[2024-05-29 10:49:45] INFO root fetch - processPackages [broken-source]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-29 10:49:45] INFO root fetch - processPackages [grain-zip-deployer]: Downloading https://files.pythonhosted.org/packages/c2/ac/295effec3661f3677f4c6deed54515aa3d06d08ebc772d1d8c7f0204a59d/grain_zip_deployer-2024.5.29.2.tar.gz
+[2024-05-29 10:49:45] INFO root fetch - processPackages [veetility]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-29 10:49:45] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/ae/5a/e125a8abbb2e6ccff2566dd46d6b5810baf62dccfb244e7676f1f5fc6e2e/mkdocsi-1.2.8.tar.gz
+[2024-05-29 10:49:45] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-29 10:49:45] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/64/2d/8128a90075337356107046b571f747b586645aecaa976dac17f9d8e43804/chemfusekit-1.1.1b2.tar.gz
+[2024-05-29 10:49:45] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/ae/5a/e125a8abbb2e6ccff2566dd46d6b5810baf62dccfb244e7676f1f5fc6e2e/mkdocsi-1.2.8.tar.gz
+[2024-05-29 10:49:45] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/58/53/c1bd6020de71ee2c61bd61f6c2d4ad72551fc6b613896bfdf423f9900b0a/eenhoorntje_llm_lib-0.8.tar.gz
+[2024-05-29 10:49:45] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/e6/5a/f736c89e38ff9beda52ab6d5420869536980e567e1b4f3e2e48bd90998e2/mltrainer-0.1.8.tar.gz
+[2024-05-29 10:49:45] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b1/91/d8b87c6abe2c889c3b9e77c15ec30245caafbf6a8440b068ccaf89a1dfd8/veetility-0.3.8.tar.gz
+[2024-05-29 10:49:45] INFO root fetch - processPackages [broken-source]: Downloading https://files.pythonhosted.org/packages/ed/05/861b4185139f20bcd32b10f4c26198d7c9bfc734519ade6dae7da5f62d40/broken_source-0.3.1-py3-none-any.whl
+[2024-05-29 10:49:46] INFO root fetch - processPackages [grain-zip-deployer]: Downloading https://files.pythonhosted.org/packages/11/ff/f58796d55e5e63b8f8f102df66600c4f5e0b6bada43e9d7d3d1440369ec0/grain_zip_deployer-2024.5.29.3.tar.gz
+[2024-05-29 10:49:46] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-29 10:49:46] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/31/1c/ff26990c865d932a0937de7c1ae5a26e8155bf6734928bddd65873340b9d/mkdocsi-1.2.9.tar.gz
+[2024-05-29 10:49:46] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/31/1c/ff26990c865d932a0937de7c1ae5a26e8155bf6734928bddd65873340b9d/mkdocsi-1.2.9.tar.gz
+[2024-05-29 10:49:46] INFO root fetch - processPackages [grain-zip-deployer]: executing diffoscope
+[2024-05-29 10:49:46] INFO root fetch - processPackages [grain-zip-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grain_zip_deployer-2024.5.29.2.tar.gz tmp/grain_zip_deployer-2024.5.29.3.tar.gz --markdown 20240529/g/grain-zip-deployer/2024.5.29.2-2024.5.29.3/README.md --exclude *.pyd
+[2024-05-29 10:49:46] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/f8/02/68b495233d766f64c43e263ccb530cdc3839f63876908cd08d12667d3e51/chemfusekit-1.1.1b3.tar.gz
+[2024-05-29 10:49:46] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/6b/11/c58a3da50ee0ab313c0bb6c3b32dfcc29ee0022b5157d9e22cbdc4e456be/eenhoorntje_llm_lib-0.9.tar.gz
+[2024-05-29 10:49:46] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/34/f2/a69102724de6ab89a96fd8d1a185837a0b689bbc97c4ee2d67286ba12d8d/mltrainer-0.1.9.tar.gz
+[2024-05-29 10:49:46] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-29 10:49:46] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240529/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 10:49:46] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/11/82/1008ece571d6c80a1af3fa7278018907f24f3f4b91a4e73422cbb2b9ae4b/veetility-0.3.9.tar.gz
+[2024-05-29 10:49:46] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 10:49:46] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 10:49:46] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.2.8.tar.gz tmp/mkdocsi-1.2.9.tar.gz --markdown 20240529/m/mkdocsi/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-29 10:49:46] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.2.8.tar.gz tmp/mkdocsi-1.2.9.tar.gz --markdown 20240529/m/mkdocsi/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-29 10:49:46] INFO root fetch - processPackages [broken-source]: Downloading https://files.pythonhosted.org/packages/a0/ce/e7f43f167d7fa96470801837f6398dd80638a17f2fb0ee0158e32992f636/broken_source-0.3.2-py3-none-any.whl
+[2024-05-29 10:49:46] INFO root fetch - processPackages [mltrainer]: executing diffoscope
+[2024-05-29 10:49:46] INFO root fetch - processPackages [mltrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltrainer-0.1.8.tar.gz tmp/mltrainer-0.1.9.tar.gz --markdown 20240529/m/mltrainer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 10:49:46] INFO root fetch - processPackages [eenhoorntje-llm-lib]: executing diffoscope
+[2024-05-29 10:49:46] INFO root fetch - processPackages [eenhoorntje-llm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eenhoorntje_llm_lib-0.8.tar.gz tmp/eenhoorntje_llm_lib-0.9.tar.gz --markdown 20240529/e/eenhoorntje-llm-lib/0.8-0.9/README.md --exclude *.pyd
+[2024-05-29 10:49:46] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2024-05-29 10:49:46] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.3.8.tar.gz tmp/veetility-0.3.9.tar.gz --markdown 20240529/v/veetility/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-29 10:49:46] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-05-29 10:49:46] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.1b2.tar.gz tmp/chemfusekit-1.1.1b3.tar.gz --markdown 20240529/c/chemfusekit/1.1.1b2-1.1.1b3/README.md --exclude *.pyd
+[2024-05-29 10:49:46] INFO root fetch - processPackages [broken-source]: executing diffoscope
+[2024-05-29 10:49:46] INFO root fetch - processPackages [broken-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/broken_source-0.3.1-py3-none-any.whl.zip tmp/broken_source-0.3.2-py3-none-any.whl.zip --markdown 20240529/b/broken-source/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-29 10:49:47] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.8.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.9.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 10:49:47] INFO root fetch - processPackages [grain-zip-deployer]: Remove: archive file [/home/abi/fetcher/tmp/grain_zip_deployer-2024.5.29.2.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - processPackages [grain-zip-deployer]: Remove: archive file [/home/abi/fetcher/tmp/grain_zip_deployer-2024.5.29.3.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - main [MainThread]: End processing [grain-zip-deployer]: success
+[2024-05-29 10:49:47] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 10:49:47] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.8.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.9.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - main [MainThread]: End processing [eenhoorntje-llm-lib]: success
+[2024-05-29 10:49:47] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.8.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.9.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - main [MainThread]: End processing [mltrainer]: success
+[2024-05-29 10:49:47] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.3.8.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.3.9.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2024-05-29 10:49:47] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-29 10:49:47] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-29 10:49:47] INFO root fetch - processPackages [broken-source]: Remove: archive file [/home/abi/fetcher/tmp/broken_source-0.3.1-py3-none-any.whl.zip]
+[2024-05-29 10:49:47] INFO root fetch - processPackages [broken-source]: Remove: archive file [/home/abi/fetcher/tmp/broken_source-0.3.2-py3-none-any.whl.zip]
+[2024-05-29 10:49:47] INFO root fetch - main [MainThread]: End processing [broken-source]: success
+[2024-05-29 10:49:53] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.1b2.tar.gz]
+[2024-05-29 10:49:53] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.1b3.tar.gz]
+[2024-05-29 10:49:53] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
+[2024-05-29 10:49:53] INFO root fetch - main [MainThread]: Store serial: [23426667]
