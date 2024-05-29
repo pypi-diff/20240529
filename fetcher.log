@@ -7478,3 +7478,53 @@
 [2024-05-29 04:09:21] INFO root fetch - processPackages [nodespecs]: Remove: archive file [/home/abi/fetcher/tmp/nodespecs-0.0.9.tar.gz]
 [2024-05-29 04:09:21] INFO root fetch - main [MainThread]: End processing [nodespecs]: success
 [2024-05-29 04:09:21] INFO root fetch - main [MainThread]: Store serial: [23423121]
+[2024-05-29 04:11:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423121]
+[2024-05-29 04:11:29] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-29 04:13:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423121]
+[2024-05-29 04:13:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 04:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RapidanAPI
+[2024-05-29 04:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dt-utils
+[2024-05-29 04:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adios2
+[2024-05-29 04:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scri
+[2024-05-29 04:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loe-simp-app-fw
+[2024-05-29 04:13:34] INFO root fetch - processPackages [dt-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 04:13:34] INFO root fetch - processPackages [RapidanAPI]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-29 04:13:34] INFO root fetch - processPackages [dt-utils]: Downloading https://files.pythonhosted.org/packages/2a/e0/3992213a5b7628671270003e1069cb0f7eb75bccb89c85c4898687e55757/dt_utils-0.0.3.tar.gz
+[2024-05-29 04:13:34] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-29 04:13:34] INFO root fetch - processPackages [scri]: New version: [2022.8.9] Old Version: [2022.8.8]
+[2024-05-29 04:13:34] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/89/e0/307e2c586c874a65002c0f71e5d6e3de715e95665d2187c406dc08f2811d/RapidanAPI-1.0.6.tar.gz
+[2024-05-29 04:13:34] INFO root fetch - processPackages [adios2]: New version: [2.9.0] Old Version: [2.10.0.1132]
+[2024-05-29 04:13:34] INFO root fetch - processPackages [dt-utils]: Downloading https://files.pythonhosted.org/packages/c2/2a/4079ae889de8fb7c1ed0fb8fe44ef4387622e803d799791384fe0a51ebc5/dt_utils-0.0.4.tar.gz
+[2024-05-29 04:13:34] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/c1/be/a827da6f0ca46f978c092107d835bb6f307934ad632629c0b6923d4f69a9/RapidanAPI-1.0.7.tar.gz
+[2024-05-29 04:13:34] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/8f/82/295c955e72d831a5612c6e0121768a8ccd54b990bf3fd90cec68da4e6c11/loe_simp_app_fw-1.5.0.tar.gz
+[2024-05-29 04:13:34] INFO root fetch - processPackages [scri]: Downloading https://files.pythonhosted.org/packages/06/a1/843f84cf6efd6dcd4bbfc4fd7b92e60d29afe55cf321a2ee6e0d8ba2c3c6/scri-2022.8.8.tar.gz
+[2024-05-29 04:13:34] INFO root fetch - processPackages [adios2]: Downloading https://files.pythonhosted.org/packages/6f/45/e529e6818782dddd55c52e34c8448a8f3361e02221ba9c72b12fa7c2e19e/adios2-2.10.0.1132.tar.gz
+[2024-05-29 04:13:34] INFO root fetch - processPackages [dt-utils]: executing diffoscope
+[2024-05-29 04:13:34] INFO root fetch - processPackages [dt-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt_utils-0.0.3.tar.gz tmp/dt_utils-0.0.4.tar.gz --markdown 20240529/d/dt-utils/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 04:13:34] INFO root fetch - processPackages [RapidanAPI]: executing diffoscope
+[2024-05-29 04:13:34] INFO root fetch - processPackages [RapidanAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidanAPI-1.0.6.tar.gz tmp/RapidanAPI-1.0.7.tar.gz --markdown 20240529/R/RapidanAPI/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-29 04:13:35] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/21/da/6771ce88e2f369e028207ac0ca259b4e7839b742cb4e939ba1fa8d364a21/loe_simp_app_fw-1.5.1.tar.gz
+[2024-05-29 04:13:35] INFO root fetch - processPackages [scri]: Downloading https://files.pythonhosted.org/packages/12/c6/86db24b7a4ef54f3e54907479ac9021373208ddb071cc5a2158090639538/scri-2022.8.9.tar.gz
+[2024-05-29 04:13:35] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-05-29 04:13:35] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.5.0.tar.gz tmp/loe_simp_app_fw-1.5.1.tar.gz --markdown 20240529/l/loe-simp-app-fw/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-29 04:13:35] INFO root fetch - processPackages [scri]: executing diffoscope
+[2024-05-29 04:13:35] INFO root fetch - processPackages [scri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scri-2022.8.8.tar.gz tmp/scri-2022.8.9.tar.gz --markdown 20240529/s/scri/2022.8.8-2022.8.9/README.md --exclude *.pyd
+[2024-05-29 04:13:35] INFO root fetch - processPackages [adios2]: Downloading https://files.pythonhosted.org/packages/3c/3c/adf68f3b9ea6d837562d368e0d9a951487b80a0b7f0717080e816a6cc35b/adios2-2.9.0.tar.gz
+[2024-05-29 04:13:35] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.6.tar.gz]
+[2024-05-29 04:13:35] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.7.tar.gz]
+[2024-05-29 04:13:35] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
+[2024-05-29 04:13:35] INFO root fetch - processPackages [dt-utils]: Remove: archive file [/home/abi/fetcher/tmp/dt_utils-0.0.3.tar.gz]
+[2024-05-29 04:13:35] INFO root fetch - processPackages [dt-utils]: Remove: archive file [/home/abi/fetcher/tmp/dt_utils-0.0.4.tar.gz]
+[2024-05-29 04:13:35] INFO root fetch - main [MainThread]: End processing [dt-utils]: success
+[2024-05-29 04:13:35] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.5.0.tar.gz]
+[2024-05-29 04:13:35] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.5.1.tar.gz]
+[2024-05-29 04:13:35] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-05-29 04:13:35] INFO root fetch - processPackages [adios2]: executing diffoscope
+[2024-05-29 04:13:35] INFO root fetch - processPackages [adios2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adios2-2.10.0.1132.tar.gz tmp/adios2-2.9.0.tar.gz --markdown 20240529/a/adios2/2.10.0.1132-2.9.0/README.md --exclude *.pyd
+[2024-05-29 04:13:36] INFO root fetch - processPackages [scri]: Remove: archive file [/home/abi/fetcher/tmp/scri-2022.8.8.tar.gz]
+[2024-05-29 04:13:36] INFO root fetch - processPackages [scri]: Remove: archive file [/home/abi/fetcher/tmp/scri-2022.8.9.tar.gz]
+[2024-05-29 04:13:36] INFO root fetch - main [MainThread]: End processing [scri]: success
+[2024-05-29 04:13:53] INFO root fetch - processPackages [adios2]: Remove: archive file [/home/abi/fetcher/tmp/adios2-2.10.0.1132.tar.gz]
+[2024-05-29 04:13:53] INFO root fetch - processPackages [adios2]: Remove: archive file [/home/abi/fetcher/tmp/adios2-2.9.0.tar.gz]
+[2024-05-29 04:13:53] INFO root fetch - main [MainThread]: End processing [adios2]: success
+[2024-05-29 04:13:53] INFO root fetch - main [MainThread]: Store serial: [23423144]
