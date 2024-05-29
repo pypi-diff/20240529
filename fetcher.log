@@ -17640,3 +17640,121 @@
 [2024-05-29 11:54:36] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
 [2024-05-29 11:54:36] INFO root fetch - main [MainThread]: End processing [codegrade]: success
 [2024-05-29 11:54:36] INFO root fetch - main [MainThread]: Store serial: [23427732]
+[2024-05-29 11:56:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427732]
+[2024-05-29 11:56:45] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-29 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: avocado-job-gmail
+[2024-05-29 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flywheel-cli
+[2024-05-29 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eencijfer
+[2024-05-29 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emirpred
+[2024-05-29 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-osubot
+[2024-05-29 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eyes-images
+[2024-05-29 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gliner
+[2024-05-29 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eyes-common
+[2024-05-29 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: core-universal
+[2024-05-29 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edwh-auth-rbac
+[2024-05-29 11:56:45] WARNING root fetch - processPackages [avocado-job-gmail]: Skipping, unable to determine old version
+[2024-05-29 11:56:45] INFO root fetch - processPackages [avocado-job-gmail]: Start processing: eyes-selenium
+[2024-05-29 11:56:45] INFO root fetch - main [MainThread]: End processing [avocado-job-gmail] error
+[2024-05-29 11:56:45] INFO root fetch - processPackages [gliner]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-29 11:56:45] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.4.0] Old Version: [6.3.2]
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eencijfer]: New version: [2024.4.1] Old Version: [2024.4.0]
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-images]: New version: [5.23.9] Old Version: [5.23.8]
+[2024-05-29 11:56:46] INFO root fetch - processPackages [core-universal]: New version: [4.9.1] Old Version: [4.8.0]
+[2024-05-29 11:56:46] WARNING root fetch - processPackages [emirpred]: Skipping, unable to determine old version
+[2024-05-29 11:56:46] INFO root fetch - processPackages [emirpred]: Start processing: eyes-playwright
+[2024-05-29 11:56:46] INFO root fetch - main [MainThread]: End processing [emirpred] error
+[2024-05-29 11:56:46] INFO root fetch - processPackages [edwh-auth-rbac]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-29 11:56:46] INFO root fetch - processPackages [gliner]: Downloading https://files.pythonhosted.org/packages/99/0f/0c07f92fdcf204f672b875dbf9792f8399c9819d69e83ddc8772b6ae744b/gliner-0.2.0.tar.gz
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-common]: New version: [5.27.9] Old Version: [5.27.7]
+[2024-05-29 11:56:46] INFO root fetch - processPackages [flywheel-cli]: New version: [9.0.3] Old Version: [9.0.2.dev1]
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-selenium]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-29 11:56:46] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/e6/d6/2d9a2ea15c4bccaf5d66f28209effcdf53878313330e6938a3aee6467496/nonebot-plugin-osubot-6.3.2.tar.gz
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-playwright]: New version: [5.25.9] Old Version: [5.25.7]
+[2024-05-29 11:56:46] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29720813>=10485760
+[2024-05-29 11:56:46] INFO root fetch - processPackages [nonebot-plugin-osubot]: Start processing: pyedb
+[2024-05-29 11:56:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eencijfer]: Downloading https://files.pythonhosted.org/packages/fe/e2/85973be861a5954f03e63c717f306df66be683f88e51410d47bfde0c33c5/eencijfer-2024.4.0.tar.gz
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-images]: Downloading https://files.pythonhosted.org/packages/0e/bc/374be9797ee9d5b1dc7ac9c25b82eb794fe7aa4f501bed2b3e7552586b51/eyes_images-5.23.8-py2.py3-none-any.whl
+[2024-05-29 11:56:46] INFO root fetch - processPackages [pyedb]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-29 11:56:46] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/fd/df/0e5a8fb3dd2af98a55fa812ffe5542bbd496482fbd0daa338870f4f7e4af/core_universal-4.8.0-py2.py3-none-win_amd64.whl
+[2024-05-29 11:56:46] INFO root fetch - processPackages [gliner]: Downloading https://files.pythonhosted.org/packages/a2/6d/7a0b899319c1694170a49dc2811421b9c4d79dc97499cdf568aa98e66f76/gliner-0.2.1.tar.gz
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-common]: Downloading https://files.pythonhosted.org/packages/38/21/f30445655987b0537647ec58d3602dd5f2959e6302b8b78852420c14f5b5/eyes_common-5.27.7-py2.py3-none-any.whl
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-selenium]: Downloading https://files.pythonhosted.org/packages/ce/26/457d40e82171dcfe45eda1b142a903be4aeb73e0295cf4cfb05aa6987ce4/eyes_selenium-5.8.0.tar.gz
+[2024-05-29 11:56:46] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/cd/8c/888e6a210974b8635a94ad1a71290a597e3bb5cf05736f9b6089b1e4f9ee/flywheel_cli-9.0.2.dev1-py3-none-any.whl
+[2024-05-29 11:56:46] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/1e/5c/6635e46e877552d532491768d99b1e93ea2d9b79a768f77ac840e5682691/edwh_auth_rbac-0.2.5.tar.gz
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-playwright]: Downloading https://files.pythonhosted.org/packages/67/f9/9cff1b0a6242481d89a85ae5bb7342b05dfb80255b8947510b68f31f125a/eyes_playwright-5.25.7-py3-none-any.whl
+[2024-05-29 11:56:46] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 37650350>=10485760
+[2024-05-29 11:56:46] INFO root fetch - processPackages [core-universal]: Start processing: eyes-robotframework
+[2024-05-29 11:56:46] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2024-05-29 11:56:46] INFO root fetch - processPackages [gliner]: executing diffoscope
+[2024-05-29 11:56:46] INFO root fetch - processPackages [gliner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gliner-0.2.0.tar.gz tmp/gliner-0.2.1.tar.gz --markdown 20240529/g/gliner/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-29 11:56:46] INFO root fetch - processPackages [pyedb]: Downloading https://files.pythonhosted.org/packages/1d/a0/1ca6725ca5f90ba5dfa9bc42e4933336e9d92ff7a8a994a774ac663a5a4b/pyedb-0.8.1.tar.gz
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eencijfer]: Downloading https://files.pythonhosted.org/packages/96/01/08cd6e6effcfae4d8123086343e5287a6fdae95af41cd80c8fd43fd20449/eencijfer-2024.4.1.tar.gz
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-images]: Downloading https://files.pythonhosted.org/packages/61/28/c8c1c84f56fa9fe191ac4ac4a2749e2e4dc8dbbe9774950fc72d27e2ca33/eyes_images-5.23.9-py2.py3-none-any.whl
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-robotframework]: New version: [5.9.0] Old Version: [5.8.1]
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-common]: Downloading https://files.pythonhosted.org/packages/e6/7e/6d157159822c73502293c2a916c34ae8b3f071c82d80a9c0283c081d87f8/eyes_common-5.27.9-py2.py3-none-any.whl
+[2024-05-29 11:56:46] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/1f/d5/a7b51687f946e4f6526a6694bfaaf4d2fb94e6d203a26beaa9c005b2dc8e/edwh_auth_rbac-0.2.6.tar.gz
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-images]: executing diffoscope
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_images-5.23.8-py2.py3-none-any.whl.zip tmp/eyes_images-5.23.9-py2.py3-none-any.whl.zip --markdown 20240529/e/eyes-images/5.23.8-5.23.9/README.md --exclude *.pyd
+[2024-05-29 11:56:46] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/ca/5b/e1a470e13fabcd0f52c475b54da7f9f10c25fd5d419bd22de69fe2838457/flywheel_cli-9.0.3-py3-none-any.whl
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-playwright]: Downloading https://files.pythonhosted.org/packages/79/2d/4616334ddb541a1e7ae2b88943d0cb32621e39ea6f9b2db7b69f25b30690/eyes_playwright-5.25.9-py3-none-any.whl
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eencijfer]: executing diffoscope
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eencijfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eencijfer-2024.4.0.tar.gz tmp/eencijfer-2024.4.1.tar.gz --markdown 20240529/e/eencijfer/2024.4.0-2024.4.1/README.md --exclude *.pyd
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-selenium]: Downloading https://files.pythonhosted.org/packages/94/46/bdd8b2f661c4edefb5da178809217d15b736cfd984b3eca1afe213575308/eyes_selenium-5.9.0-py2.py3-none-any.whl
+[2024-05-29 11:56:46] INFO root fetch - processPackages [eyes-robotframework]: Downloading https://files.pythonhosted.org/packages/8f/07/16bad5d6312d4ecba4288a79afb17dc3e13da50304c95beff7cdf51b2371/eyes_robotframework-5.8.1-py2.py3-none-any.whl
+[2024-05-29 11:56:47] INFO root fetch - processPackages [flywheel-cli]: executing diffoscope
+[2024-05-29 11:56:47] INFO root fetch - processPackages [flywheel-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flywheel_cli-9.0.2.dev1-py3-none-any.whl.zip tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip --markdown 20240529/f/flywheel-cli/9.0.2.dev1-9.0.3/README.md --exclude *.pyd
+[2024-05-29 11:56:47] INFO root fetch - processPackages [edwh-auth-rbac]: executing diffoscope
+[2024-05-29 11:56:47] INFO root fetch - processPackages [edwh-auth-rbac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_auth_rbac-0.2.5.tar.gz tmp/edwh_auth_rbac-0.2.6.tar.gz --markdown 20240529/e/edwh-auth-rbac/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-common]: executing diffoscope
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_common-5.27.7-py2.py3-none-any.whl.zip tmp/eyes_common-5.27.9-py2.py3-none-any.whl.zip --markdown 20240529/e/eyes-common/5.27.7-5.27.9/README.md --exclude *.pyd
+[2024-05-29 11:56:47] INFO root fetch - processPackages [pyedb]: Downloading https://files.pythonhosted.org/packages/94/3b/ad9e0a3052ec38d580c535c66662dd560e159c05d8418fc62c51a04ddc6f/pyedb-0.9.0.tar.gz
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-playwright]: executing diffoscope
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_playwright-5.25.7-py3-none-any.whl.zip tmp/eyes_playwright-5.25.9-py3-none-any.whl.zip --markdown 20240529/e/eyes-playwright/5.25.7-5.25.9/README.md --exclude *.pyd
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-selenium]: executing diffoscope
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_selenium-5.8.0.tar.gz tmp/eyes_selenium-5.9.0-py2.py3-none-any.whl.zip --markdown 20240529/e/eyes-selenium/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-29 11:56:47] INFO root fetch - processPackages [pyedb]: executing diffoscope
+[2024-05-29 11:56:47] INFO root fetch - processPackages [pyedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedb-0.8.1.tar.gz tmp/pyedb-0.9.0.tar.gz --markdown 20240529/p/pyedb/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-29 11:56:47] INFO root fetch - processPackages [gliner]: Remove: archive file [/home/abi/fetcher/tmp/gliner-0.2.0.tar.gz]
+[2024-05-29 11:56:47] INFO root fetch - processPackages [gliner]: Remove: archive file [/home/abi/fetcher/tmp/gliner-0.2.1.tar.gz]
+[2024-05-29 11:56:47] INFO root fetch - processPackages [gliner]: Start processing: metrit
+[2024-05-29 11:56:47] INFO root fetch - main [MainThread]: End processing [gliner]: success
+[2024-05-29 11:56:47] INFO root fetch - processPackages [metrit]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-29 11:56:47] INFO root fetch - processPackages [metrit]: Downloading https://files.pythonhosted.org/packages/17/eb/3b5cff2695d7952ffad560f8d05237babfa8be18b9bbe487fce2869d834f/metrit-0.0.1.tar.gz
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-images]: Remove: archive file [/home/abi/fetcher/tmp/eyes_images-5.23.8-py2.py3-none-any.whl.zip]
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-images]: Remove: archive file [/home/abi/fetcher/tmp/eyes_images-5.23.9-py2.py3-none-any.whl.zip]
+[2024-05-29 11:56:47] INFO root fetch - main [MainThread]: End processing [eyes-images]: success
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-robotframework]: Downloading https://files.pythonhosted.org/packages/40/cd/befa1ed0e10992e7957c319d39d71b391cde687201b8f906018b7f1e3c20/eyes_robotframework-5.9.0-py2.py3-none-any.whl
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eencijfer]: Remove: archive file [/home/abi/fetcher/tmp/eencijfer-2024.4.0.tar.gz]
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eencijfer]: Remove: archive file [/home/abi/fetcher/tmp/eencijfer-2024.4.1.tar.gz]
+[2024-05-29 11:56:47] INFO root fetch - main [MainThread]: End processing [eencijfer]: success
+[2024-05-29 11:56:47] INFO root fetch - processPackages [metrit]: Downloading https://files.pythonhosted.org/packages/92/55/03138c60a68594a07b6584c296946440b6766e20222563194b28d5381cd7/metrit-0.0.3.tar.gz
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-robotframework]: executing diffoscope
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_robotframework-5.8.1-py2.py3-none-any.whl.zip tmp/eyes_robotframework-5.9.0-py2.py3-none-any.whl.zip --markdown 20240529/e/eyes-robotframework/5.8.1-5.9.0/README.md --exclude *.pyd
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-selenium]: Remove: archive file [/home/abi/fetcher/tmp/eyes_selenium-5.8.0.tar.gz]
+[2024-05-29 11:56:47] INFO root fetch - processPackages [eyes-selenium]: Remove: archive file [/home/abi/fetcher/tmp/eyes_selenium-5.9.0-py2.py3-none-any.whl.zip]
+[2024-05-29 11:56:47] INFO root fetch - main [MainThread]: End processing [eyes-selenium]: success
+[2024-05-29 11:56:47] INFO root fetch - processPackages [metrit]: executing diffoscope
+[2024-05-29 11:56:47] INFO root fetch - processPackages [metrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrit-0.0.1.tar.gz tmp/metrit-0.0.3.tar.gz --markdown 20240529/m/metrit/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-29 11:56:48] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.2.dev1-py3-none-any.whl.zip]
+[2024-05-29 11:56:48] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip]
+[2024-05-29 11:56:48] INFO root fetch - main [MainThread]: End processing [flywheel-cli]: success
+[2024-05-29 11:56:48] INFO root fetch - processPackages [eyes-playwright]: Remove: archive file [/home/abi/fetcher/tmp/eyes_playwright-5.25.7-py3-none-any.whl.zip]
+[2024-05-29 11:56:48] INFO root fetch - processPackages [eyes-playwright]: Remove: archive file [/home/abi/fetcher/tmp/eyes_playwright-5.25.9-py3-none-any.whl.zip]
+[2024-05-29 11:56:48] INFO root fetch - main [MainThread]: End processing [eyes-playwright]: success
+[2024-05-29 11:56:48] INFO root fetch - processPackages [eyes-common]: Remove: archive file [/home/abi/fetcher/tmp/eyes_common-5.27.7-py2.py3-none-any.whl.zip]
+[2024-05-29 11:56:48] INFO root fetch - processPackages [eyes-common]: Remove: archive file [/home/abi/fetcher/tmp/eyes_common-5.27.9-py2.py3-none-any.whl.zip]
+[2024-05-29 11:56:48] INFO root fetch - main [MainThread]: End processing [eyes-common]: success
+[2024-05-29 11:56:48] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.2.5.tar.gz]
+[2024-05-29 11:56:48] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.2.6.tar.gz]
+[2024-05-29 11:56:48] INFO root fetch - main [MainThread]: End processing [edwh-auth-rbac]: success
+[2024-05-29 11:56:48] INFO root fetch - processPackages [metrit]: Remove: archive file [/home/abi/fetcher/tmp/metrit-0.0.1.tar.gz]
+[2024-05-29 11:56:48] INFO root fetch - processPackages [metrit]: Remove: archive file [/home/abi/fetcher/tmp/metrit-0.0.3.tar.gz]
+[2024-05-29 11:56:48] INFO root fetch - main [MainThread]: End processing [metrit]: success
+[2024-05-29 11:56:48] INFO root fetch - processPackages [pyedb]: Remove: archive file [/home/abi/fetcher/tmp/pyedb-0.8.1.tar.gz]
+[2024-05-29 11:56:48] INFO root fetch - processPackages [pyedb]: Remove: archive file [/home/abi/fetcher/tmp/pyedb-0.9.0.tar.gz]
+[2024-05-29 11:56:48] INFO root fetch - main [MainThread]: End processing [pyedb]: success
+[2024-05-29 11:56:48] INFO root fetch - processPackages [eyes-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/eyes_robotframework-5.8.1-py2.py3-none-any.whl.zip]
+[2024-05-29 11:56:48] INFO root fetch - processPackages [eyes-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/eyes_robotframework-5.9.0-py2.py3-none-any.whl.zip]
+[2024-05-29 11:56:48] INFO root fetch - main [MainThread]: End processing [eyes-robotframework]: success
+[2024-05-29 11:56:48] INFO root fetch - main [MainThread]: Store serial: [23427777]
