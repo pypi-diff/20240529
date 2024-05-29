@@ -19698,3 +19698,59 @@
 [2024-05-29 13:10:33] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.99.tar.gz]
 [2024-05-29 13:10:33] INFO root fetch - main [MainThread]: End processing [xdat]: success
 [2024-05-29 13:10:33] INFO root fetch - main [MainThread]: Store serial: [23428661]
+[2024-05-29 13:12:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428661]
+[2024-05-29 13:12:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinybird-cli
+[2024-05-29 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkrcomponents
+[2024-05-29 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rl-language
+[2024-05-29 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyaicodingcube
+[2024-05-29 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rantoniuk.cloudwatch-retention-setter
+[2024-05-29 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zen-engine
+[2024-05-29 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xingpyc
+[2024-05-29 13:12:44] WARNING root fetch - processPackages [pyaicodingcube]: Skipping, unable to determine old version
+[2024-05-29 13:12:44] INFO root fetch - main [MainThread]: End processing [pyaicodingcube] error
+[2024-05-29 13:12:44] INFO root fetch - processPackages [rantoniuk.cloudwatch-retention-setter]: New version: [1.0.0] Old Version: [0.0.15]
+[2024-05-29 13:12:44] INFO root fetch - processPackages [rl-language]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 13:12:44] INFO root fetch - processPackages [tinybird-cli]: New version: [4.0.2.dev0] Old Version: [4.0.1.dev0]
+[2024-05-29 13:12:44] INFO root fetch - processPackages [pkrcomponents]: New version: [1.7.4] Old Version: [1.7.3]
+[2024-05-29 13:12:44] INFO root fetch - processPackages [xingpyc]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-29 13:12:44] INFO root fetch - processPackages [zen-engine]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-29 13:12:44] INFO root fetch - processPackages [rantoniuk.cloudwatch-retention-setter]: Downloading https://files.pythonhosted.org/packages/51/2c/7dbad499632c50db0fe9721d07a252c9f582e06c4bb3b0e40deed5088c77/rantoniuk.cloudwatch-retention-setter-0.0.15.tar.gz
+[2024-05-29 13:12:44] INFO root fetch - processPackages [rl-language]: Downloading https://files.pythonhosted.org/packages/a2/26/4a8838daf3b3419cfa98a65ae63fbd9886314f8bf0f7bf598dc4a79753eb/rl_language-0.1.0.tar.gz
+[2024-05-29 13:12:44] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/2d/f8/1f62635ed58149d2da350b363d3136579fc63cbb39c6c62880b64cfa8259/pkrcomponents-1.7.3.tar.gz
+[2024-05-29 13:12:44] INFO root fetch - processPackages [xingpyc]: Downloading https://files.pythonhosted.org/packages/32/5d/60c65e55f3c733082df3b214984afba6338be66c6d6435509a2284169c55/xingpyc-0.2.4.tar.gz
+[2024-05-29 13:12:44] WARNING root fetch - processPackages [rl-language]: Skipping package: exceeds size limit 51179924>=10485760
+[2024-05-29 13:12:44] INFO root fetch - main [MainThread]: End processing [rl-language] error
+[2024-05-29 13:12:44] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/25/01/4fcd134e493f24ad61cb4ea78cf3b10747f96b67a336da8c221b9ae284d4/tinybird-cli-4.0.1.dev0.tar.gz
+[2024-05-29 13:12:44] INFO root fetch - processPackages [zen-engine]: Downloading https://files.pythonhosted.org/packages/6e/ad/d244cdf3ebdfeda3c3e02e8891ff07830ad0cb05a777748c1a24c5ce8940/zen_engine-0.8.2.tar.gz
+[2024-05-29 13:12:45] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/67/01/0db31c3bf35e15ef7a8c8f782ed8b474298280ffe3ce947052bc29b8db18/pkrcomponents-1.7.4.tar.gz
+[2024-05-29 13:12:45] INFO root fetch - processPackages [rantoniuk.cloudwatch-retention-setter]: Downloading https://files.pythonhosted.org/packages/82/b7/88cb283f59663be433b6fab943b0ae087b3661b0293085e21f984aa96604/rantoniuk.cloudwatch-retention-setter-1.0.0.tar.gz
+[2024-05-29 13:12:45] INFO root fetch - processPackages [xingpyc]: Downloading https://files.pythonhosted.org/packages/ea/33/b3ee9ce990523d2f14918c3683ace746b79a67f6962b1ba1f16bc2f14158/xingpyc-0.2.5.tar.gz
+[2024-05-29 13:12:45] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/82/59/a26d5e9a0979f5232468a02401f7f0af0dd0d177afb071d0e2c383c76946/tinybird-cli-4.0.2.dev0.tar.gz
+[2024-05-29 13:12:45] INFO root fetch - processPackages [pkrcomponents]: executing diffoscope
+[2024-05-29 13:12:45] INFO root fetch - processPackages [pkrcomponents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkrcomponents-1.7.3.tar.gz tmp/pkrcomponents-1.7.4.tar.gz --markdown 20240529/p/pkrcomponents/1.7.3-1.7.4/README.md --exclude *.pyd
+[2024-05-29 13:12:45] INFO root fetch - processPackages [rantoniuk.cloudwatch-retention-setter]: executing diffoscope
+[2024-05-29 13:12:45] INFO root fetch - processPackages [rantoniuk.cloudwatch-retention-setter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rantoniuk.cloudwatch-retention-setter-0.0.15.tar.gz tmp/rantoniuk.cloudwatch-retention-setter-1.0.0.tar.gz --markdown 20240529/r/rantoniuk.cloudwatch-retention-setter/0.0.15-1.0.0/README.md --exclude *.pyd
+[2024-05-29 13:12:45] INFO root fetch - processPackages [zen-engine]: Downloading https://files.pythonhosted.org/packages/41/07/36133340d64d4610226f7993bfe5c64baf071906e70b8ef41d4852442c85/zen_engine-0.9.0.tar.gz
+[2024-05-29 13:12:45] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-05-29 13:12:45] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-4.0.1.dev0.tar.gz tmp/tinybird-cli-4.0.2.dev0.tar.gz --markdown 20240529/t/tinybird-cli/4.0.1.dev0-4.0.2.dev0/README.md --exclude *.pyd
+[2024-05-29 13:12:45] INFO root fetch - processPackages [xingpyc]: executing diffoscope
+[2024-05-29 13:12:45] INFO root fetch - processPackages [xingpyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xingpyc-0.2.4.tar.gz tmp/xingpyc-0.2.5.tar.gz --markdown 20240529/x/xingpyc/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-29 13:12:45] INFO root fetch - processPackages [zen-engine]: executing diffoscope
+[2024-05-29 13:12:45] INFO root fetch - processPackages [zen-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen_engine-0.8.2.tar.gz tmp/zen_engine-0.9.0.tar.gz --markdown 20240529/z/zen-engine/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-29 13:12:46] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.7.3.tar.gz]
+[2024-05-29 13:12:46] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.7.4.tar.gz]
+[2024-05-29 13:12:46] INFO root fetch - main [MainThread]: End processing [pkrcomponents]: success
+[2024-05-29 13:12:46] INFO root fetch - processPackages [rantoniuk.cloudwatch-retention-setter]: Remove: archive file [/home/abi/fetcher/tmp/rantoniuk.cloudwatch-retention-setter-0.0.15.tar.gz]
+[2024-05-29 13:12:46] INFO root fetch - processPackages [rantoniuk.cloudwatch-retention-setter]: Remove: archive file [/home/abi/fetcher/tmp/rantoniuk.cloudwatch-retention-setter-1.0.0.tar.gz]
+[2024-05-29 13:12:46] INFO root fetch - main [MainThread]: End processing [rantoniuk.cloudwatch-retention-setter]: success
+[2024-05-29 13:12:46] INFO root fetch - processPackages [xingpyc]: Remove: archive file [/home/abi/fetcher/tmp/xingpyc-0.2.4.tar.gz]
+[2024-05-29 13:12:46] INFO root fetch - processPackages [xingpyc]: Remove: archive file [/home/abi/fetcher/tmp/xingpyc-0.2.5.tar.gz]
+[2024-05-29 13:12:46] INFO root fetch - main [MainThread]: End processing [xingpyc]: success
+[2024-05-29 13:12:46] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-4.0.1.dev0.tar.gz]
+[2024-05-29 13:12:46] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-4.0.2.dev0.tar.gz]
+[2024-05-29 13:12:46] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-05-29 13:12:46] INFO root fetch - processPackages [zen-engine]: Remove: archive file [/home/abi/fetcher/tmp/zen_engine-0.8.2.tar.gz]
+[2024-05-29 13:12:46] INFO root fetch - processPackages [zen-engine]: Remove: archive file [/home/abi/fetcher/tmp/zen_engine-0.9.0.tar.gz]
+[2024-05-29 13:12:46] INFO root fetch - main [MainThread]: End processing [zen-engine]: success
+[2024-05-29 13:12:46] INFO root fetch - main [MainThread]: Store serial: [23428712]
