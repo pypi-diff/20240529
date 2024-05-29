@@ -8283,3 +8283,30 @@
 [2024-05-29 05:01:24] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.9.0.tar.gz]
 [2024-05-29 05:01:24] INFO root fetch - main [MainThread]: End processing [dbgear]: success
 [2024-05-29 05:01:24] INFO root fetch - main [MainThread]: Store serial: [23423444]
+[2024-05-29 05:03:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423444]
+[2024-05-29 05:03:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 05:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pomodoro-AHP
+[2024-05-29 05:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RapidanAPI
+[2024-05-29 05:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazy-mongo
+[2024-05-29 05:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluffpaddingcypher
+[2024-05-29 05:03:33] WARNING root fetch - processPackages [bluffpaddingcypher]: Skipping, unable to determine old version
+[2024-05-29 05:03:33] INFO root fetch - main [MainThread]: End processing [bluffpaddingcypher] error
+[2024-05-29 05:03:33] WARNING root fetch - processPackages [Pomodoro-AHP]: Skipping, unable to determine old version
+[2024-05-29 05:03:33] INFO root fetch - main [MainThread]: End processing [Pomodoro-AHP] error
+[2024-05-29 05:03:33] INFO root fetch - processPackages [lazy-mongo]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-05-29 05:03:33] INFO root fetch - processPackages [RapidanAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 05:03:33] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/93/42/530b45ac027c5f91b5711e3d6014a2adcc6906c1e7ccff21129896dc6634/RapidanAPI-1.0.8.tar.gz
+[2024-05-29 05:03:33] INFO root fetch - processPackages [lazy-mongo]: Downloading https://files.pythonhosted.org/packages/a3/d5/848ae4d0c86168b19518f6a2256356d649967a896b20328f3b09b52ab599/lazy_mongo-0.2.4.tar.gz
+[2024-05-29 05:03:33] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/12/fc/9a6cc2d05c47996e22f3b623bac3d3ce1627cc066955d8aa06751112d121/RapidanAPI-1.0.9.tar.gz
+[2024-05-29 05:03:33] INFO root fetch - processPackages [RapidanAPI]: executing diffoscope
+[2024-05-29 05:03:33] INFO root fetch - processPackages [RapidanAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidanAPI-1.0.8.tar.gz tmp/RapidanAPI-1.0.9.tar.gz --markdown 20240529/R/RapidanAPI/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 05:03:33] INFO root fetch - processPackages [lazy-mongo]: Downloading https://files.pythonhosted.org/packages/ae/b6/a69c8da321da34b5be813d3ed08dd99d1994cfc3201d478d8a34723b67e6/lazy_mongo-0.3.0.tar.gz
+[2024-05-29 05:03:34] INFO root fetch - processPackages [lazy-mongo]: executing diffoscope
+[2024-05-29 05:03:34] INFO root fetch - processPackages [lazy-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_mongo-0.2.4.tar.gz tmp/lazy_mongo-0.3.0.tar.gz --markdown 20240529/l/lazy-mongo/0.2.4-0.3.0/README.md --exclude *.pyd
+[2024-05-29 05:03:34] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.8.tar.gz]
+[2024-05-29 05:03:34] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.9.tar.gz]
+[2024-05-29 05:03:34] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
+[2024-05-29 05:03:34] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.2.4.tar.gz]
+[2024-05-29 05:03:34] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.3.0.tar.gz]
+[2024-05-29 05:03:34] INFO root fetch - main [MainThread]: End processing [lazy-mongo]: success
+[2024-05-29 05:03:34] INFO root fetch - main [MainThread]: Store serial: [23423456]
