@@ -17295,3 +17295,66 @@
 [2024-05-29 11:41:22] INFO root fetch - processPackages [RIIGID]: Remove: archive file [/home/abi/fetcher/tmp/RIIGID-1.0.5.tar.gz]
 [2024-05-29 11:41:22] INFO root fetch - main [MainThread]: End processing [RIIGID]: success
 [2024-05-29 11:41:22] INFO root fetch - main [MainThread]: Store serial: [23427546]
+[2024-05-29 11:43:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427546]
+[2024-05-29 11:43:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 11:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sheeprl
+[2024-05-29 11:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-manager
+[2024-05-29 11:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glidergun
+[2024-05-29 11:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nutpie
+[2024-05-29 11:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cto-cli
+[2024-05-29 11:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hangulpy
+[2024-05-29 11:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: defca
+[2024-05-29 11:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vulp
+[2024-05-29 11:43:31] WARNING root fetch - processPackages [hangulpy]: Skipping, unable to determine old version
+[2024-05-29 11:43:31] INFO root fetch - main [MainThread]: End processing [hangulpy] error
+[2024-05-29 11:43:31] INFO root fetch - processPackages [torch-model-manager]: New version: [1.0.1.dev2] Old Version: [1.0.1.dev1]
+[2024-05-29 11:43:31] INFO root fetch - processPackages [cto-cli]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-29 11:43:31] INFO root fetch - processPackages [glidergun]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-29 11:43:31] WARNING root fetch - processPackages [defca]: Skipping, unable to determine old version
+[2024-05-29 11:43:31] INFO root fetch - main [MainThread]: End processing [defca] error
+[2024-05-29 11:43:31] INFO root fetch - processPackages [sheeprl]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-29 11:43:31] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/3f/da/1873bc5632b3b7256f4fe4a180f789d2cfe149c5342f33a8552ef04ff953/torch_model_manager-1.0.1.dev1.tar.gz
+[2024-05-29 11:43:31] INFO root fetch - processPackages [nutpie]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-29 11:43:31] INFO root fetch - processPackages [vulp]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-29 11:43:31] INFO root fetch - processPackages [cto-cli]: Downloading https://files.pythonhosted.org/packages/ad/a2/a8fe7cbcabbc1b7e02cc96ec41ca253ffbd1a6b20235254148ec66577145/cto_cli-0.2.0.tar.gz
+[2024-05-29 11:43:31] INFO root fetch - processPackages [glidergun]: Downloading https://files.pythonhosted.org/packages/6e/93/81ce64106bbb71de2b7c1fa68ced585b1d1bbabe458822ee203b62800f4d/glidergun-0.5.8.tar.gz
+[2024-05-29 11:43:31] INFO root fetch - processPackages [sheeprl]: Downloading https://files.pythonhosted.org/packages/49/33/21c95bef07fb14e26ee59432bff65b29a47f7c64f547cfccd77db0134b5a/sheeprl-0.5.6.tar.gz
+[2024-05-29 11:43:31] INFO root fetch - processPackages [nutpie]: Downloading https://files.pythonhosted.org/packages/ee/9c/15fef2da392cc2834ab0ff377d9c0dff31a3e3a6a46c140e123f4bfafc9f/nutpie-0.9.1.tar.gz
+[2024-05-29 11:43:31] INFO root fetch - processPackages [vulp]: Downloading https://files.pythonhosted.org/packages/d1/05/6ce57553c9782a02c83078495884f33db87ce78cdaa87a74de3a762e13c1/vulp-2.3.0.tar.gz
+[2024-05-29 11:43:31] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/2e/55/7e53f7909980a787909439a5a5ae44a76e1111555a04b187db243265374f/torch_model_manager-1.0.1.dev2.tar.gz
+[2024-05-29 11:43:31] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-29 11:43:31] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-1.0.1.dev1.tar.gz tmp/torch_model_manager-1.0.1.dev2.tar.gz --markdown 20240529/t/torch-model-manager/1.0.1.dev1-1.0.1.dev2/README.md --exclude *.pyd
+[2024-05-29 11:43:31] INFO root fetch - processPackages [glidergun]: Downloading https://files.pythonhosted.org/packages/a9/4b/c9d2c0371d850c9756e82948d6fc8de7acbac9009218f979d74039dd2fa1/glidergun-0.5.9.tar.gz
+[2024-05-29 11:43:32] INFO root fetch - processPackages [sheeprl]: Downloading https://files.pythonhosted.org/packages/a0/ba/1d90b4dc71a777b8a1f904936c1098ce712fe4f13a034c5b9d06cd567dc2/sheeprl-0.5.7.tar.gz
+[2024-05-29 11:43:32] INFO root fetch - processPackages [cto-cli]: Downloading https://files.pythonhosted.org/packages/5b/1d/558c0894bbe3e1458973c6792e624f41757118fec7c9ae25cd683d557efe/cto_cli-0.3.0.tar.gz
+[2024-05-29 11:43:32] INFO root fetch - processPackages [vulp]: Downloading https://files.pythonhosted.org/packages/27/a1/65e0794a221ee756a75fc1374c278364d0335a9f5ff68aef4d58a26dad70/vulp-2.4.0-py3-none-any.whl
+[2024-05-29 11:43:32] INFO root fetch - processPackages [glidergun]: executing diffoscope
+[2024-05-29 11:43:32] INFO root fetch - processPackages [glidergun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glidergun-0.5.8.tar.gz tmp/glidergun-0.5.9.tar.gz --markdown 20240529/g/glidergun/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-29 11:43:32] INFO root fetch - processPackages [sheeprl]: executing diffoscope
+[2024-05-29 11:43:32] INFO root fetch - processPackages [sheeprl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheeprl-0.5.6.tar.gz tmp/sheeprl-0.5.7.tar.gz --markdown 20240529/s/sheeprl/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-29 11:43:32] INFO root fetch - processPackages [cto-cli]: executing diffoscope
+[2024-05-29 11:43:32] INFO root fetch - processPackages [cto-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cto_cli-0.2.0.tar.gz tmp/cto_cli-0.3.0.tar.gz --markdown 20240529/c/cto-cli/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-29 11:43:32] INFO root fetch - processPackages [nutpie]: Downloading https://files.pythonhosted.org/packages/2d/c6/003c256c8cf5a635318aa196cedc0c75276cbedce727d9e3489508af23ad/nutpie-0.9.2.tar.gz
+[2024-05-29 11:43:32] INFO root fetch - processPackages [nutpie]: executing diffoscope
+[2024-05-29 11:43:32] INFO root fetch - processPackages [nutpie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutpie-0.9.1.tar.gz tmp/nutpie-0.9.2.tar.gz --markdown 20240529/n/nutpie/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-29 11:43:32] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-1.0.1.dev1.tar.gz]
+[2024-05-29 11:43:32] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-1.0.1.dev2.tar.gz]
+[2024-05-29 11:43:32] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-29 11:43:32] INFO root fetch - processPackages [vulp]: executing diffoscope
+[2024-05-29 11:43:32] INFO root fetch - processPackages [vulp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulp-2.3.0.tar.gz tmp/vulp-2.4.0-py3-none-any.whl.zip --markdown 20240529/v/vulp/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-29 11:43:32] INFO root fetch - processPackages [glidergun]: Remove: archive file [/home/abi/fetcher/tmp/glidergun-0.5.8.tar.gz]
+[2024-05-29 11:43:32] INFO root fetch - processPackages [glidergun]: Remove: archive file [/home/abi/fetcher/tmp/glidergun-0.5.9.tar.gz]
+[2024-05-29 11:43:32] INFO root fetch - main [MainThread]: End processing [glidergun]: success
+[2024-05-29 11:43:32] INFO root fetch - processPackages [cto-cli]: Remove: archive file [/home/abi/fetcher/tmp/cto_cli-0.2.0.tar.gz]
+[2024-05-29 11:43:32] INFO root fetch - processPackages [cto-cli]: Remove: archive file [/home/abi/fetcher/tmp/cto_cli-0.3.0.tar.gz]
+[2024-05-29 11:43:32] INFO root fetch - main [MainThread]: End processing [cto-cli]: success
+[2024-05-29 11:43:33] INFO root fetch - processPackages [nutpie]: Remove: archive file [/home/abi/fetcher/tmp/nutpie-0.9.1.tar.gz]
+[2024-05-29 11:43:33] INFO root fetch - processPackages [nutpie]: Remove: archive file [/home/abi/fetcher/tmp/nutpie-0.9.2.tar.gz]
+[2024-05-29 11:43:33] INFO root fetch - main [MainThread]: End processing [nutpie]: success
+[2024-05-29 11:43:33] INFO root fetch - processPackages [vulp]: Remove: archive file [/home/abi/fetcher/tmp/vulp-2.3.0.tar.gz]
+[2024-05-29 11:43:33] INFO root fetch - processPackages [vulp]: Remove: archive file [/home/abi/fetcher/tmp/vulp-2.4.0-py3-none-any.whl.zip]
+[2024-05-29 11:43:33] INFO root fetch - main [MainThread]: End processing [vulp]: success
+[2024-05-29 11:43:33] INFO root fetch - processPackages [sheeprl]: Remove: archive file [/home/abi/fetcher/tmp/sheeprl-0.5.6.tar.gz]
+[2024-05-29 11:43:33] INFO root fetch - processPackages [sheeprl]: Remove: archive file [/home/abi/fetcher/tmp/sheeprl-0.5.7.tar.gz]
+[2024-05-29 11:43:33] INFO root fetch - main [MainThread]: End processing [sheeprl]: success
+[2024-05-29 11:43:33] INFO root fetch - main [MainThread]: Store serial: [23427585]
