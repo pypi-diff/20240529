@@ -14027,3 +14027,48 @@
 [2024-05-29 09:55:17] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
 [2024-05-29 09:55:17] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
 [2024-05-29 09:55:17] INFO root fetch - main [MainThread]: Store serial: [23425923]
+[2024-05-29 09:57:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425923]
+[2024-05-29 09:57:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 09:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: objdet
+[2024-05-29 09:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyAlgoEngine
+[2024-05-29 09:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: USJ-diptools
+[2024-05-29 09:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maptekomf-maptek
+[2024-05-29 09:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyFina
+[2024-05-29 09:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edge-containers-cli
+[2024-05-29 09:57:27] INFO root fetch - processPackages [PyAlgoEngine]: New version: [0.4.0] Old Version: [0.3.9.post4]
+[2024-05-29 09:57:27] WARNING root fetch - processPackages [objdet]: Skipping, unable to determine old version
+[2024-05-29 09:57:27] INFO root fetch - main [MainThread]: End processing [objdet] error
+[2024-05-29 09:57:27] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/8d/d7/9cc3d830ab0d313eb7f729e762812f1fa37406b140275ab38f82bb3ddf47/PyAlgoEngine-0.3.9.post4.tar.gz
+[2024-05-29 09:57:27] INFO root fetch - processPackages [maptekomf-maptek]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-29 09:57:27] WARNING root fetch - processPackages [USJ-diptools]: Skipping, unable to determine old version
+[2024-05-29 09:57:27] INFO root fetch - main [MainThread]: End processing [USJ-diptools] error
+[2024-05-29 09:57:27] INFO root fetch - processPackages [PyFina]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 09:57:27] INFO root fetch - processPackages [edge-containers-cli]: New version: [3.5.3] Old Version: [3.5.2]
+[2024-05-29 09:57:27] INFO root fetch - processPackages [maptekomf-maptek]: Downloading https://files.pythonhosted.org/packages/2b/92/d73e26d3082750b15d7a7b76fd4edee4e32f9e51a6eeb0f5b39650da9f68/maptekomf_maptek-1.0.3-py3-none-any.whl
+[2024-05-29 09:57:27] INFO root fetch - processPackages [PyFina]: Downloading https://files.pythonhosted.org/packages/f8/a8/b5a2b860c3e1974dd6d35ba56855e4c02a31d25650ea9c1a841f05387817/PyFina-0.0.3.tar.gz
+[2024-05-29 09:57:27] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/fc/f6/5b819cd830f711ff540e989da44f30f896e1d9ba7257478f104dc1426e7b/pyalgoengine-0.4.0.tar.gz
+[2024-05-29 09:57:27] INFO root fetch - processPackages [edge-containers-cli]: Downloading https://files.pythonhosted.org/packages/0b/0e/cb744b53168c0c3cfec21ba31b5d098d6e246e49c788603450bf074501c8/edge_containers_cli-3.5.2.tar.gz
+[2024-05-29 09:57:27] INFO root fetch - processPackages [PyAlgoEngine]: executing diffoscope
+[2024-05-29 09:57:27] INFO root fetch - processPackages [PyAlgoEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAlgoEngine-0.3.9.post4.tar.gz tmp/pyalgoengine-0.4.0.tar.gz --markdown 20240529/P/PyAlgoEngine/0.3.9.post4-0.4.0/README.md --exclude *.pyd
+[2024-05-29 09:57:27] INFO root fetch - processPackages [PyFina]: Downloading https://files.pythonhosted.org/packages/2d/c3/46b5652bb04715d0f0f031b7aadf1061123101e1ed25e3a63f4e32fee99d/pyfina-0.0.4.tar.gz
+[2024-05-29 09:57:27] INFO root fetch - processPackages [edge-containers-cli]: Downloading https://files.pythonhosted.org/packages/60/bd/721858d0e97b30748b4b4414dda17a1b3095c67e29f22437ec8a3b851bed/edge_containers_cli-3.5.3.tar.gz
+[2024-05-29 09:57:27] INFO root fetch - processPackages [maptekomf-maptek]: Downloading https://files.pythonhosted.org/packages/aa/88/10f90b99e62630a5e3f57bd387d1cb9e7142407152420a7bc1c746915877/maptekomf_maptek-1.0.4-py3-none-any.whl
+[2024-05-29 09:57:27] INFO root fetch - processPackages [PyFina]: executing diffoscope
+[2024-05-29 09:57:27] INFO root fetch - processPackages [PyFina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFina-0.0.3.tar.gz tmp/pyfina-0.0.4.tar.gz --markdown 20240529/P/PyFina/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 09:57:28] INFO root fetch - processPackages [edge-containers-cli]: executing diffoscope
+[2024-05-29 09:57:28] INFO root fetch - processPackages [edge-containers-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_containers_cli-3.5.2.tar.gz tmp/edge_containers_cli-3.5.3.tar.gz --markdown 20240529/e/edge-containers-cli/3.5.2-3.5.3/README.md --exclude *.pyd
+[2024-05-29 09:57:28] INFO root fetch - processPackages [maptekomf-maptek]: executing diffoscope
+[2024-05-29 09:57:28] INFO root fetch - processPackages [maptekomf-maptek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maptekomf_maptek-1.0.3-py3-none-any.whl.zip tmp/maptekomf_maptek-1.0.4-py3-none-any.whl.zip --markdown 20240529/m/maptekomf-maptek/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-29 09:57:28] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.9.post4.tar.gz]
+[2024-05-29 09:57:28] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/pyalgoengine-0.4.0.tar.gz]
+[2024-05-29 09:57:28] INFO root fetch - main [MainThread]: End processing [PyAlgoEngine]: success
+[2024-05-29 09:57:28] INFO root fetch - processPackages [PyFina]: Remove: archive file [/home/abi/fetcher/tmp/PyFina-0.0.3.tar.gz]
+[2024-05-29 09:57:28] INFO root fetch - processPackages [PyFina]: Remove: archive file [/home/abi/fetcher/tmp/pyfina-0.0.4.tar.gz]
+[2024-05-29 09:57:28] INFO root fetch - main [MainThread]: End processing [PyFina]: success
+[2024-05-29 09:57:28] INFO root fetch - processPackages [maptekomf-maptek]: Remove: archive file [/home/abi/fetcher/tmp/maptekomf_maptek-1.0.3-py3-none-any.whl.zip]
+[2024-05-29 09:57:28] INFO root fetch - processPackages [maptekomf-maptek]: Remove: archive file [/home/abi/fetcher/tmp/maptekomf_maptek-1.0.4-py3-none-any.whl.zip]
+[2024-05-29 09:57:28] INFO root fetch - main [MainThread]: End processing [maptekomf-maptek]: success
+[2024-05-29 09:57:28] INFO root fetch - processPackages [edge-containers-cli]: Remove: archive file [/home/abi/fetcher/tmp/edge_containers_cli-3.5.2.tar.gz]
+[2024-05-29 09:57:28] INFO root fetch - processPackages [edge-containers-cli]: Remove: archive file [/home/abi/fetcher/tmp/edge_containers_cli-3.5.3.tar.gz]
+[2024-05-29 09:57:28] INFO root fetch - main [MainThread]: End processing [edge-containers-cli]: success
+[2024-05-29 09:57:28] INFO root fetch - main [MainThread]: Store serial: [23425943]
