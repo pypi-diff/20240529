@@ -8379,3 +8379,41 @@
 [2024-05-29 05:07:59] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
 [2024-05-29 05:07:59] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
 [2024-05-29 05:07:59] INFO root fetch - main [MainThread]: Store serial: [23423478]
+[2024-05-29 05:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423478]
+[2024-05-29 05:10:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 05:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySide6-QtAds
+[2024-05-29 05:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CVE-2021-24917
+[2024-05-29 05:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazy-mongo
+[2024-05-29 05:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snowcross
+[2024-05-29 05:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: instruct-qa
+[2024-05-29 05:10:08] INFO root fetch - processPackages [lazy-mongo]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-05-29 05:10:08] INFO root fetch - processPackages [snowcross]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-29 05:10:08] INFO root fetch - processPackages [snowcross]: Downloading https://files.pythonhosted.org/packages/01/e7/d239798f4b2c791eb2bc7fbcb9befd5b6f4135aadfcb245716b072889b51/snowcross-0.4.0.tar.gz
+[2024-05-29 05:10:08] INFO root fetch - processPackages [lazy-mongo]: Downloading https://files.pythonhosted.org/packages/a3/d5/848ae4d0c86168b19518f6a2256356d649967a896b20328f3b09b52ab599/lazy_mongo-0.2.4.tar.gz
+[2024-05-29 05:10:08] INFO root fetch - processPackages [PySide6-QtAds]: New version: [4.2.1.2] Old Version: [4.2.1.1]
+[2024-05-29 05:10:08] WARNING root fetch - processPackages [CVE-2021-24917]: Skipping, unable to determine old version
+[2024-05-29 05:10:08] INFO root fetch - main [MainThread]: End processing [CVE-2021-24917] error
+[2024-05-29 05:10:08] INFO root fetch - processPackages [instruct-qa]: New version: [0.0.3rc1] Old Version: [0.0.2]
+[2024-05-29 05:10:08] INFO root fetch - processPackages [lazy-mongo]: Downloading https://files.pythonhosted.org/packages/ae/b6/a69c8da321da34b5be813d3ed08dd99d1994cfc3201d478d8a34723b67e6/lazy_mongo-0.3.0.tar.gz
+[2024-05-29 05:10:08] INFO root fetch - processPackages [snowcross]: Downloading https://files.pythonhosted.org/packages/00/bb/f9ef6dac9312c9b95a50d8ed480f296ad221433bb442c1084693f7278c14/snowcross-0.5.0.tar.gz
+[2024-05-29 05:10:08] INFO root fetch - processPackages [PySide6-QtAds]: Downloading https://files.pythonhosted.org/packages/92/05/f54b590745700891fdf70de2f3d69a37a335241d17c3bbc1ea948da3ff2b/pyside6_qtads-4.2.1.1.tar.gz
+[2024-05-29 05:10:08] INFO root fetch - processPackages [instruct-qa]: Downloading https://files.pythonhosted.org/packages/ac/9e/f27a23126c8390e6ededc6967048330017c72f2cda7a4e05e19a7c598328/instruct-qa-0.0.2.tar.gz
+[2024-05-29 05:10:08] INFO root fetch - processPackages [lazy-mongo]: executing diffoscope
+[2024-05-29 05:10:08] INFO root fetch - processPackages [lazy-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_mongo-0.2.4.tar.gz tmp/lazy_mongo-0.3.0.tar.gz --markdown 20240529/l/lazy-mongo/0.2.4-0.3.0/README.md --exclude *.pyd
+[2024-05-29 05:10:08] WARNING root fetch - processPackages [PySide6-QtAds]: Skipping package: exceeds size limit 21547688>=10485760
+[2024-05-29 05:10:08] INFO root fetch - main [MainThread]: End processing [PySide6-QtAds] error
+[2024-05-29 05:10:08] INFO root fetch - processPackages [snowcross]: executing diffoscope
+[2024-05-29 05:10:08] INFO root fetch - processPackages [snowcross]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowcross-0.4.0.tar.gz tmp/snowcross-0.5.0.tar.gz --markdown 20240529/s/snowcross/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-29 05:10:09] INFO root fetch - processPackages [instruct-qa]: Downloading https://files.pythonhosted.org/packages/a8/7a/85f13e8862fd1e5fa1d1cf3e40b4db6e1c2f7d9f8d8c9394320289d15414/instruct-qa-0.0.3rc1.tar.gz
+[2024-05-29 05:10:09] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.2.4.tar.gz]
+[2024-05-29 05:10:09] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.3.0.tar.gz]
+[2024-05-29 05:10:09] INFO root fetch - main [MainThread]: End processing [lazy-mongo]: success
+[2024-05-29 05:10:09] INFO root fetch - processPackages [snowcross]: Remove: archive file [/home/abi/fetcher/tmp/snowcross-0.4.0.tar.gz]
+[2024-05-29 05:10:09] INFO root fetch - processPackages [snowcross]: Remove: archive file [/home/abi/fetcher/tmp/snowcross-0.5.0.tar.gz]
+[2024-05-29 05:10:09] INFO root fetch - main [MainThread]: End processing [snowcross]: success
+[2024-05-29 05:10:09] INFO root fetch - processPackages [instruct-qa]: executing diffoscope
+[2024-05-29 05:10:09] INFO root fetch - processPackages [instruct-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instruct-qa-0.0.2.tar.gz tmp/instruct-qa-0.0.3rc1.tar.gz --markdown 20240529/i/instruct-qa/0.0.2-0.0.3rc1/README.md --exclude *.pyd
+[2024-05-29 05:10:10] INFO root fetch - processPackages [instruct-qa]: Remove: archive file [/home/abi/fetcher/tmp/instruct-qa-0.0.2.tar.gz]
+[2024-05-29 05:10:10] INFO root fetch - processPackages [instruct-qa]: Remove: archive file [/home/abi/fetcher/tmp/instruct-qa-0.0.3rc1.tar.gz]
+[2024-05-29 05:10:10] INFO root fetch - main [MainThread]: End processing [instruct-qa]: success
+[2024-05-29 05:10:10] INFO root fetch - main [MainThread]: Store serial: [23423494]
