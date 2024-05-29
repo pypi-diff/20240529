@@ -2856,3 +2856,48 @@
 [2024-05-29 02:41:08] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
 [2024-05-29 02:41:08] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
 [2024-05-29 02:41:08] INFO root fetch - main [MainThread]: Store serial: [23421342]
+[2024-05-29 02:43:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421342]
+[2024-05-29 02:43:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 02:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2024-05-29 02:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-package-agent-e11
+[2024-05-29 02:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkfile
+[2024-05-29 02:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-template
+[2024-05-29 02:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manimx
+[2024-05-29 02:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mirabolic
+[2024-05-29 02:43:18] INFO root fetch - processPackages [checkfile]: New version: [85.43.55] Old Version: [85.43.54]
+[2024-05-29 02:43:18] WARNING root fetch - processPackages [manimx]: Skipping, unable to determine old version
+[2024-05-29 02:43:18] INFO root fetch - main [MainThread]: End processing [manimx] error
+[2024-05-29 02:43:18] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-29 02:43:18] WARNING root fetch - processPackages [example-package-agent-e11]: Skipping, unable to determine old version
+[2024-05-29 02:43:18] INFO root fetch - main [MainThread]: End processing [example-package-agent-e11] error
+[2024-05-29 02:43:18] INFO root fetch - processPackages [mirabolic]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-29 02:43:18] INFO root fetch - processPackages [checkfile]: Downloading https://files.pythonhosted.org/packages/96/0a/91215bc6b38a392dbf4fc59bdc8a9270f324ac346df9bca2a136c2a3b794/checkfile-85.43.54.tar.gz
+[2024-05-29 02:43:18] INFO root fetch - processPackages [azure-template]: New version: [0.1.0b971103] Old Version: [0.1.0b954542]
+[2024-05-29 02:43:18] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-29 02:43:18] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-29 02:43:18] INFO root fetch - processPackages [azure-template]: Downloading https://files.pythonhosted.org/packages/82/04/b1cf5ee1227ca7899decd531cd1521ea523ed4cbdc8ce0e3d7e58ca8331c/azure-template-0.1.0b954542.zip
+[2024-05-29 02:43:18] INFO root fetch - processPackages [mirabolic]: Downloading https://files.pythonhosted.org/packages/4f/49/67c3d20d9f25ea3ae213ed7152c6d9a3a5ba17dd391f7e9c2a230b15daf5/mirabolic-0.2.3.tar.gz
+[2024-05-29 02:43:18] INFO root fetch - processPackages [checkfile]: Downloading https://files.pythonhosted.org/packages/2f/3a/c36f40ddea2156b0174486134018fb04043f83293b33580f60a08bbd725a/checkfile-85.43.55.tar.gz
+[2024-05-29 02:43:19] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-29 02:43:19] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240529/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-29 02:43:19] INFO root fetch - processPackages [checkfile]: executing diffoscope
+[2024-05-29 02:43:19] INFO root fetch - processPackages [checkfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkfile-85.43.54.tar.gz tmp/checkfile-85.43.55.tar.gz --markdown 20240529/c/checkfile/85.43.54-85.43.55/README.md --exclude *.pyd
+[2024-05-29 02:43:19] INFO root fetch - processPackages [mirabolic]: Downloading https://files.pythonhosted.org/packages/63/02/90afafe31253caa5180e4c880d35891cf5df5ac838ec2a4980b38e7f0329/mirabolic-0.2.4.tar.gz
+[2024-05-29 02:43:19] INFO root fetch - processPackages [mirabolic]: executing diffoscope
+[2024-05-29 02:43:19] INFO root fetch - processPackages [mirabolic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirabolic-0.2.3.tar.gz tmp/mirabolic-0.2.4.tar.gz --markdown 20240529/m/mirabolic/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-29 02:43:19] INFO root fetch - processPackages [checkfile]: Remove: archive file [/home/abi/fetcher/tmp/checkfile-85.43.54.tar.gz]
+[2024-05-29 02:43:19] INFO root fetch - processPackages [checkfile]: Remove: archive file [/home/abi/fetcher/tmp/checkfile-85.43.55.tar.gz]
+[2024-05-29 02:43:19] INFO root fetch - main [MainThread]: End processing [checkfile]: success
+[2024-05-29 02:43:19] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-29 02:43:19] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-29 02:43:19] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-29 02:43:19] INFO root fetch - processPackages [mirabolic]: Remove: archive file [/home/abi/fetcher/tmp/mirabolic-0.2.3.tar.gz]
+[2024-05-29 02:43:19] INFO root fetch - processPackages [mirabolic]: Remove: archive file [/home/abi/fetcher/tmp/mirabolic-0.2.4.tar.gz]
+[2024-05-29 02:43:19] INFO root fetch - main [MainThread]: End processing [mirabolic]: success
+[2024-05-29 02:43:20] INFO root fetch - processPackages [azure-template]: Downloading https://files.pythonhosted.org/packages/a3/ab/51e8db029e6b46655758882e5ee630afbf245243726a418c4125d2ae7e4e/azure-template-0.1.0b971103.zip
+[2024-05-29 02:43:20] INFO root fetch - processPackages [azure-template]: executing diffoscope
+[2024-05-29 02:43:20] INFO root fetch - processPackages [azure-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-template-0.1.0b954542.zip tmp/azure-template-0.1.0b971103.zip --markdown 20240529/a/azure-template/0.1.0b954542-0.1.0b971103/README.md --exclude *.pyd
+[2024-05-29 02:43:21] INFO root fetch - processPackages [azure-template]: Remove: archive file [/home/abi/fetcher/tmp/azure-template-0.1.0b954542.zip]
+[2024-05-29 02:43:21] INFO root fetch - processPackages [azure-template]: Remove: archive file [/home/abi/fetcher/tmp/azure-template-0.1.0b971103.zip]
+[2024-05-29 02:43:21] INFO root fetch - main [MainThread]: End processing [azure-template]: success
+[2024-05-29 02:43:21] INFO root fetch - main [MainThread]: Store serial: [23421362]
