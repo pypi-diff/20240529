@@ -17818,3 +17818,108 @@
 [2024-05-29 11:59:03] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-1.9.1.tar.gz]
 [2024-05-29 11:59:03] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
 [2024-05-29 11:59:03] INFO root fetch - main [MainThread]: Store serial: [23427831]
+[2024-05-29 12:01:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427831]
+[2024-05-29 12:01:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-29 12:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pympipool
+[2024-05-29 12:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-sqlalchemy
+[2024-05-29 12:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: garpix-order
+[2024-05-29 12:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfx
+[2024-05-29 12:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-riskplus
+[2024-05-29 12:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pushcart
+[2024-05-29 12:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocsi
+[2024-05-29 12:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycouchdb
+[2024-05-29 12:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: congreso
+[2024-05-29 12:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logos-sdk
+[2024-05-29 12:01:19] INFO root fetch - processPackages [mkdocsi]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-29 12:01:19] INFO root fetch - processPackages [streamlit-sqlalchemy]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-05-29 12:01:19] INFO root fetch - processPackages [pympipool]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-29 12:01:19] INFO root fetch - processPackages [garpix-order]: New version: [1.0.0rc5] Old Version: [1.0.0rc4]
+[2024-05-29 12:01:19] INFO root fetch - processPackages [logos-sdk]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-05-29 12:01:19] WARNING root fetch - processPackages [congreso]: Skipping, unable to determine old version
+[2024-05-29 12:01:19] INFO root fetch - processPackages [congreso]: Start processing: Navix
+[2024-05-29 12:01:19] INFO root fetch - main [MainThread]: End processing [congreso] error
+[2024-05-29 12:01:19] INFO root fetch - processPackages [pycouchdb]: New version: [1.9] Old Version: [1.8]
+[2024-05-29 12:01:19] INFO root fetch - processPackages [pushcart]: New version: [1.7.5] Old Version: [1.7.4]
+[2024-05-29 12:01:19] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 12:01:19] INFO root fetch - processPackages [antchain-riskplus]: New version: [1.9.5] Old Version: [1.9.3]
+[2024-05-29 12:01:19] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/ae/cd/3381766b44c400300e53d0e39b86caa68fc03a090df82d2037d7ee3e4eba/mkdocsi-1.3.4.tar.gz
+[2024-05-29 12:01:19] INFO root fetch - processPackages [streamlit-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/25/27/4764c9bac9c85c8fc9c74bd579b7b9efef5b1c3ea4e3e4543d80acf779a8/streamlit_sqlalchemy-0.2.0.tar.gz
+[2024-05-29 12:01:19] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/1e/58/f0dff2e3aa3382e672b974d7f808e6cb37fd375044ec71300eb9f85791ab/pympipool-0.8.3.tar.gz
+[2024-05-29 12:01:19] INFO root fetch - processPackages [Navix]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-29 12:01:19] INFO root fetch - processPackages [pycouchdb]: Downloading https://files.pythonhosted.org/packages/dd/fc/6e076514570126d7f1a3dd865db6214ffb1f4b91c69317ebb59b257ab9a6/pycouchdb-1.8.tar.gz
+[2024-05-29 12:01:19] INFO root fetch - processPackages [garpix-order]: Downloading https://files.pythonhosted.org/packages/04/9a/9d192d0b5d9ebc745ade28ebe8308f5456687c2b4f70a553447f8d18b685/garpix_order-1.0.0rc4.tar.gz
+[2024-05-29 12:01:19] INFO root fetch - processPackages [logos-sdk]: Downloading https://files.pythonhosted.org/packages/7c/b1/1c5e2f277c2ceb0015145d236ae0fe49156ba75a4ad0ea364fddc972d4dc/logos_sdk-0.0.23.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/bf/c1/dbe03c2d25af3fa0175660a07bf2ec833509da27dea50cc2c6116d0311e4/antchain_riskplus-1.9.3.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [pushcart]: Downloading https://files.pythonhosted.org/packages/8a/96/dd76ef99ae39eb2c42380b69a0eebc0eb11697bcc4bad7a0746f4a4da02c/pushcart-1.7.4.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/2e/03/5cdaed29e460a9b175f0f1f97f9d0f72cb0b7ab286d80d2d93bc01ca73e5/mkdocsi-1.3.5.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/1f/69/e7e4150a51eee4de5c6472f0b78e0b3649d4670de48f7796e86ffdf27f8f/Navix-0.4.0.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/c0/d2/4e9deb3dd86dc0722d58a5a24d3f1b893745e520f94ee519ba4878112678/pympipool-0.8.4.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 12:01:20] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.3.4.tar.gz tmp/mkdocsi-1.3.5.tar.gz --markdown 20240529/m/mkdocsi/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-29 12:01:20] INFO root fetch - processPackages [garpix-order]: Downloading https://files.pythonhosted.org/packages/2e/d8/6e3af3b6226358dd7d167cd3f7915489f2289e6bc84ba5f9a9110f781a98/garpix_order-1.0.0rc5.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [logos-sdk]: Downloading https://files.pythonhosted.org/packages/ed/42/8f66e6f475e34511de86b2fb1f9c2b1a203d9b472999a5867ae613030a45/logos_sdk-0.0.24.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [streamlit-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/fc/b0/2733aedc334e94a98dd58264f0dad72f2d526ea98c138d75bbd1af2da0e8/streamlit_sqlalchemy-0.2.2.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [pycouchdb]: Downloading https://files.pythonhosted.org/packages/4f/65/258bf30572385b13a9a8879c337fd1781651f436ddfbdb732db194ea0f05/pycouchdb-1.9.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [pympipool]: executing diffoscope
+[2024-05-29 12:01:20] INFO root fetch - processPackages [pympipool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympipool-0.8.3.tar.gz tmp/pympipool-0.8.4.tar.gz --markdown 20240529/p/pympipool/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-29 12:01:20] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/12/c2/d3710d50579d01a29713d277bd95ab4c8f88ed9d297a3ffb73afbd01cb30/antchain_riskplus-1.9.5.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [pushcart]: Downloading https://files.pythonhosted.org/packages/66/63/092ad27a09343892d0b881b2566b4b46e63c5d9cd4804f85d99e0a18bf67/pushcart-1.7.5.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [garpix-order]: executing diffoscope
+[2024-05-29 12:01:20] INFO root fetch - processPackages [garpix-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_order-1.0.0rc4.tar.gz tmp/garpix_order-1.0.0rc5.tar.gz --markdown 20240529/g/garpix-order/1.0.0rc4-1.0.0rc5/README.md --exclude *.pyd
+[2024-05-29 12:01:20] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/b0/13/e9341fc1f3f56e1f5531ac7ed109d83f405855c7af3ab2d4c598da9bf393/navix-0.5.0.tar.gz
+[2024-05-29 12:01:20] INFO root fetch - processPackages [pycouchdb]: executing diffoscope
+[2024-05-29 12:01:20] INFO root fetch - processPackages [pycouchdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycouchdb-1.8.tar.gz tmp/pycouchdb-1.9.tar.gz --markdown 20240529/p/pycouchdb/1.8-1.9/README.md --exclude *.pyd
+[2024-05-29 12:01:20] INFO root fetch - processPackages [logos-sdk]: executing diffoscope
+[2024-05-29 12:01:20] INFO root fetch - processPackages [logos-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logos_sdk-0.0.23.tar.gz tmp/logos_sdk-0.0.24.tar.gz --markdown 20240529/l/logos-sdk/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-05-29 12:01:20] INFO root fetch - processPackages [antchain-riskplus]: executing diffoscope
+[2024-05-29 12:01:20] INFO root fetch - processPackages [antchain-riskplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_riskplus-1.9.3.tar.gz tmp/antchain_riskplus-1.9.5.tar.gz --markdown 20240529/a/antchain-riskplus/1.9.3-1.9.5/README.md --exclude *.pyd
+[2024-05-29 12:01:20] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-29 12:01:20] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240529/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 12:01:20] INFO root fetch - processPackages [pushcart]: executing diffoscope
+[2024-05-29 12:01:20] INFO root fetch - processPackages [pushcart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pushcart-1.7.4.tar.gz tmp/pushcart-1.7.5.tar.gz --markdown 20240529/p/pushcart/1.7.4-1.7.5/README.md --exclude *.pyd
+[2024-05-29 12:01:20] INFO root fetch - processPackages [Navix]: executing diffoscope
+[2024-05-29 12:01:20] INFO root fetch - processPackages [Navix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Navix-0.4.0.tar.gz tmp/navix-0.5.0.tar.gz --markdown 20240529/N/Navix/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-29 12:01:20] INFO root fetch - processPackages [streamlit-sqlalchemy]: executing diffoscope
+[2024-05-29 12:01:20] INFO root fetch - processPackages [streamlit-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_sqlalchemy-0.2.0.tar.gz tmp/streamlit_sqlalchemy-0.2.2.tar.gz --markdown 20240529/s/streamlit-sqlalchemy/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-05-29 12:01:21] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.4.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.5.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - processPackages [mkdocsi]: Start processing: scrapyd-api
+[2024-05-29 12:01:21] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 12:01:21] INFO root fetch - processPackages [garpix-order]: Remove: archive file [/home/abi/fetcher/tmp/garpix_order-1.0.0rc4.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - processPackages [garpix-order]: Remove: archive file [/home/abi/fetcher/tmp/garpix_order-1.0.0rc5.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - main [MainThread]: End processing [garpix-order]: success
+[2024-05-29 12:01:21] INFO root fetch - processPackages [pycouchdb]: Remove: archive file [/home/abi/fetcher/tmp/pycouchdb-1.8.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - processPackages [pycouchdb]: Remove: archive file [/home/abi/fetcher/tmp/pycouchdb-1.9.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - main [MainThread]: End processing [pycouchdb]: success
+[2024-05-29 12:01:21] INFO root fetch - processPackages [scrapyd-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 12:01:21] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-29 12:01:21] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.8.3.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.8.4.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - main [MainThread]: End processing [pympipool]: success
+[2024-05-29 12:01:21] INFO root fetch - processPackages [logos-sdk]: Remove: archive file [/home/abi/fetcher/tmp/logos_sdk-0.0.23.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - processPackages [logos-sdk]: Remove: archive file [/home/abi/fetcher/tmp/logos_sdk-0.0.24.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - main [MainThread]: End processing [logos-sdk]: success
+[2024-05-29 12:01:21] INFO root fetch - processPackages [pushcart]: Remove: archive file [/home/abi/fetcher/tmp/pushcart-1.7.4.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - processPackages [pushcart]: Remove: archive file [/home/abi/fetcher/tmp/pushcart-1.7.5.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - main [MainThread]: End processing [pushcart]: success
+[2024-05-29 12:01:21] INFO root fetch - processPackages [scrapyd-api]: Downloading https://files.pythonhosted.org/packages/43/ae/5e967d448a9547c4468b317c6884bdd6fdb2ed5248f0351a98df5c198e90/scrapyd-api-0.0.1.tar.gz
+[2024-05-29 12:01:21] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.3.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.5.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
+[2024-05-29 12:01:21] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/Navix-0.4.0.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/navix-0.5.0.tar.gz]
+[2024-05-29 12:01:21] INFO root fetch - main [MainThread]: End processing [Navix]: success
+[2024-05-29 12:01:22] INFO root fetch - processPackages [scrapyd-api]: Downloading https://files.pythonhosted.org/packages/9d/ae/ee652704828d6be018508948b321821ce4f41100f6e7f25357ab044958d6/scrapyd_api-0.0.2.tar.gz
+[2024-05-29 12:01:22] INFO root fetch - processPackages [scrapyd-api]: executing diffoscope
+[2024-05-29 12:01:22] INFO root fetch - processPackages [scrapyd-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapyd-api-0.0.1.tar.gz tmp/scrapyd_api-0.0.2.tar.gz --markdown 20240529/s/scrapyd-api/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 12:01:22] INFO root fetch - processPackages [streamlit-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_sqlalchemy-0.2.0.tar.gz]
+[2024-05-29 12:01:22] INFO root fetch - processPackages [streamlit-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_sqlalchemy-0.2.2.tar.gz]
+[2024-05-29 12:01:22] INFO root fetch - main [MainThread]: End processing [streamlit-sqlalchemy]: success
+[2024-05-29 12:01:22] INFO root fetch - processPackages [scrapyd-api]: Remove: archive file [/home/abi/fetcher/tmp/scrapyd-api-0.0.1.tar.gz]
+[2024-05-29 12:01:22] INFO root fetch - processPackages [scrapyd-api]: Remove: archive file [/home/abi/fetcher/tmp/scrapyd_api-0.0.2.tar.gz]
+[2024-05-29 12:01:22] INFO root fetch - main [MainThread]: End processing [scrapyd-api]: success
+[2024-05-29 12:01:22] INFO root fetch - main [MainThread]: Store serial: [23427868]
