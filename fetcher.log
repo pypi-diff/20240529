@@ -19792,3 +19792,141 @@
 [2024-05-29 13:14:59] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.9.tar.gz]
 [2024-05-29 13:14:59] INFO root fetch - main [MainThread]: End processing [botasaurus-driver]: success
 [2024-05-29 13:14:59] INFO root fetch - main [MainThread]: Store serial: [23428740]
+[2024-05-29 13:17:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428740]
+[2024-05-29 13:17:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 13:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-qanova
+[2024-05-29 13:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firex-flame
+[2024-05-29 13:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tpu-mlir
+[2024-05-29 13:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jarvis-ironman
+[2024-05-29 13:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe-21
+[2024-05-29 13:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-xe-addons-21
+[2024-05-29 13:17:08] INFO root fetch - processPackages [jarvis-ironman]: New version: [4.5] Old Version: [4.4.2]
+[2024-05-29 13:17:08] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240529] Old Version: [2.5.0b20240528]
+[2024-05-29 13:17:08] INFO root fetch - processPackages [firex-flame]: New version: [2.6.86] Old Version: [2.6.85]
+[2024-05-29 13:17:08] INFO root fetch - processPackages [pytest-qanova]: New version: [0.1] Old Version: [0.0.1.dev1]
+[2024-05-29 13:17:08] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/c3/46/7bcb6026ae22b872afdb0d80af7f1b3c23fe7485a3edfe2ac7b7a167f6b1/jarvis_ironman-4.4.2-py3-none-any.whl
+[2024-05-29 13:17:08] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: New version: [2.5.0b20240529] Old Version: [2.5.0b20240528]
+[2024-05-29 13:17:08] INFO root fetch - processPackages [tpu-mlir]: New version: [1.8] Old Version: [1.7]
+[2024-05-29 13:17:08] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/f9/95/a0b85539b5df6cede5ca2f4f93bfd99859d2246f495e6584475369897a90/bigdl_core_xe_21-2.5.0b20240528-cp39-cp39-win_amd64.whl
+[2024-05-29 13:17:08] INFO root fetch - processPackages [pytest-qanova]: Downloading https://files.pythonhosted.org/packages/d4/f6/67e82b5bddad122847f17cb018086f48a926bfc664cdc63cdfdb7462d83f/pytest_qanova-0.0.1.dev1-py3-none-any.whl
+[2024-05-29 13:17:08] INFO root fetch - processPackages [firex-flame]: Downloading https://files.pythonhosted.org/packages/ec/b9/58ae97a71d57fdefe71b40ea3aa8f7c4e0addae739a2efe4d0471cf4e2f0/firex_flame-2.6.85.tar.gz
+[2024-05-29 13:17:08] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: Downloading https://files.pythonhosted.org/packages/db/74/ddcb07c7127811cb20feb479eb1e87a0e410f1a3dab5e2089736d9246825/bigdl_core_xe_addons_21-2.5.0b20240528-cp39-cp39-win_amd64.whl
+[2024-05-29 13:17:08] INFO root fetch - processPackages [tpu-mlir]: Downloading https://files.pythonhosted.org/packages/cc/95/6f547021316e88c8cd51e861f8227ecccbff3efa4ddf05195f353328bb46/tpu_mlir-1.7-py3-none-any.whl
+[2024-05-29 13:17:08] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 24670721>=10485760
+[2024-05-29 13:17:08] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-29 13:17:08] WARNING root fetch - processPackages [tpu-mlir]: Skipping package: exceeds size limit 150022110>=10485760
+[2024-05-29 13:17:08] INFO root fetch - main [MainThread]: End processing [tpu-mlir] error
+[2024-05-29 13:17:08] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/49/4b/26847a76024a59b54f06aa46bed577d7b049ac29e07dc54ae40dd0859968/jarvis_ironman-4.5-py3-none-any.whl
+[2024-05-29 13:17:09] INFO root fetch - processPackages [pytest-qanova]: Downloading https://files.pythonhosted.org/packages/aa/74/ed0187e689a1773ae5ae1238ce5bfea949eaac7f777e3c7d5032b95f2e10/pytest_qanova-0.1.tar.gz
+[2024-05-29 13:17:09] INFO root fetch - processPackages [firex-flame]: Downloading https://files.pythonhosted.org/packages/69/d6/da3837fa0cdf48a03560b191d2572fd5cc4f9c7cff483eb34a0d813c56af/firex_flame-2.6.86.tar.gz
+[2024-05-29 13:17:09] INFO root fetch - processPackages [pytest-qanova]: executing diffoscope
+[2024-05-29 13:17:09] INFO root fetch - processPackages [pytest-qanova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_qanova-0.0.1.dev1-py3-none-any.whl.zip tmp/pytest_qanova-0.1.tar.gz --markdown 20240529/p/pytest-qanova/0.0.1.dev1-0.1/README.md --exclude *.pyd
+[2024-05-29 13:17:09] INFO root fetch - processPackages [firex-flame]: executing diffoscope
+[2024-05-29 13:17:09] INFO root fetch - processPackages [firex-flame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firex_flame-2.6.85.tar.gz tmp/firex_flame-2.6.86.tar.gz --markdown 20240529/f/firex-flame/2.6.85-2.6.86/README.md --exclude *.pyd
+[2024-05-29 13:17:09] INFO root fetch - processPackages [jarvis-ironman]: executing diffoscope
+[2024-05-29 13:17:09] INFO root fetch - processPackages [jarvis-ironman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ironman-4.4.2-py3-none-any.whl.zip tmp/jarvis_ironman-4.5-py3-none-any.whl.zip --markdown 20240529/j/jarvis-ironman/4.4.2-4.5/README.md --exclude *.pyd
+[2024-05-29 13:17:09] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: Downloading https://files.pythonhosted.org/packages/8a/6f/4ee28172c4b2cbac22c7307bfe7a590068bb3b217ec04ec7298060c7d964/bigdl_core_xe_addons_21-2.5.0b20240529-cp310-cp310-win_amd64.whl
+[2024-05-29 13:17:09] INFO root fetch - processPackages [pytest-qanova]: Remove: archive file [/home/abi/fetcher/tmp/pytest_qanova-0.0.1.dev1-py3-none-any.whl.zip]
+[2024-05-29 13:17:09] INFO root fetch - processPackages [pytest-qanova]: Remove: archive file [/home/abi/fetcher/tmp/pytest_qanova-0.1.tar.gz]
+[2024-05-29 13:17:09] INFO root fetch - main [MainThread]: End processing [pytest-qanova]: success
+[2024-05-29 13:17:09] INFO root fetch - processPackages [firex-flame]: Remove: archive file [/home/abi/fetcher/tmp/firex_flame-2.6.85.tar.gz]
+[2024-05-29 13:17:09] INFO root fetch - processPackages [firex-flame]: Remove: archive file [/home/abi/fetcher/tmp/firex_flame-2.6.86.tar.gz]
+[2024-05-29 13:17:09] INFO root fetch - main [MainThread]: End processing [firex-flame]: success
+[2024-05-29 13:17:10] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: executing diffoscope
+[2024-05-29 13:17:10] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_addons_21-2.5.0b20240528-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_addons_21-2.5.0b20240529-cp310-cp310-win_amd64.whl.zip --markdown 20240529/b/bigdl-core-xe-addons-21/2.5.0b20240528-2.5.0b20240529/README.md --exclude *.pyd
+[2024-05-29 13:17:10] ERROR root fetch - processPackages [bigdl-core-xe-addons-21]: Diffoscope failed: time="2024-05-29T13:17:10+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139713272880528)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139713407098368)
+
+[2024-05-29 13:17:10] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-addons-21] error
+[2024-05-29 13:17:11] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-4.4.2-py3-none-any.whl.zip]
+[2024-05-29 13:17:11] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-4.5-py3-none-any.whl.zip]
+[2024-05-29 13:17:11] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
+[2024-05-29 13:17:11] INFO root fetch - main [MainThread]: Store serial: [23428755]
