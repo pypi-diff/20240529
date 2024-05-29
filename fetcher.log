@@ -8233,3 +8233,20 @@
 [2024-05-29 04:55:42] INFO root fetch - processPackages [nnabla-rl]: Remove: archive file [/home/abi/fetcher/tmp/nnabla_rl-0.9.0-py3-none-any.whl.zip]
 [2024-05-29 04:55:42] INFO root fetch - main [MainThread]: End processing [nnabla-rl]: success
 [2024-05-29 04:55:42] INFO root fetch - main [MainThread]: Store serial: [23423419]
+[2024-05-29 04:57:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423419]
+[2024-05-29 04:57:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 04:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: storybuilder
+[2024-05-29 04:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nnabla-ext-cuda120
+[2024-05-29 04:57:51] INFO root fetch - processPackages [storybuilder]: New version: [0.0.9] Old Version: [0.0.41]
+[2024-05-29 04:57:51] INFO root fetch - processPackages [nnabla-ext-cuda120]: New version: [1.39.0] Old Version: [1.38.0]
+[2024-05-29 04:57:51] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/25/e7/62f12a0ad20186a145614f35f7b1ba1f1dd37ec5efd6a7e967b5126475c0/storybuilder-0.0.41-py3-none-any.whl
+[2024-05-29 04:57:51] INFO root fetch - processPackages [nnabla-ext-cuda120]: Downloading https://files.pythonhosted.org/packages/4b/57/72bdcc0d9c55e8767fe67a1528ac391ec2c411a59bb52677756ba3cbc1e0/nnabla_ext_cuda120-1.38.0-cp39-cp39-win_amd64.whl
+[2024-05-29 04:57:52] WARNING root fetch - processPackages [nnabla-ext-cuda120]: Skipping package: exceeds size limit 123563002>=10485760
+[2024-05-29 04:57:52] INFO root fetch - main [MainThread]: End processing [nnabla-ext-cuda120] error
+[2024-05-29 04:57:52] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/12/10/5d96510eab046eea9f159c71332ebb594fc10fcb9e2a1618e641fc06adac/storybuilder-0.0.9-py3-none-any.whl
+[2024-05-29 04:57:52] INFO root fetch - processPackages [storybuilder]: executing diffoscope
+[2024-05-29 04:57:52] INFO root fetch - processPackages [storybuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storybuilder-0.0.41-py3-none-any.whl.zip tmp/storybuilder-0.0.9-py3-none-any.whl.zip --markdown 20240529/s/storybuilder/0.0.41-0.0.9/README.md --exclude *.pyd
+[2024-05-29 04:57:53] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.41-py3-none-any.whl.zip]
+[2024-05-29 04:57:53] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.9-py3-none-any.whl.zip]
+[2024-05-29 04:57:53] INFO root fetch - main [MainThread]: End processing [storybuilder]: success
+[2024-05-29 04:57:53] INFO root fetch - main [MainThread]: Store serial: [23423427]
