@@ -14645,3 +14645,72 @@
 [2024-05-29 10:22:23] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl.zip]
 [2024-05-29 10:22:23] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-05-29 10:22:23] INFO root fetch - main [MainThread]: Store serial: [23426235]
+[2024-05-29 10:24:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426235]
+[2024-05-29 10:24:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 10:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-admin-assets
+[2024-05-29 10:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idc-index
+[2024-05-29 10:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PSO-Logger
+[2024-05-29 10:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prjit
+[2024-05-29 10:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocsi
+[2024-05-29 10:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QuLab
+[2024-05-29 10:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wealthwatchdog
+[2024-05-29 10:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qtmodel
+[2024-05-29 10:24:33] INFO root fetch - processPackages [prjit]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 10:24:33] INFO root fetch - processPackages [mkdocsi]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-29 10:24:33] INFO root fetch - processPackages [PSO-Logger]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-29 10:24:33] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1558] Old Version: [1.0.0.post1557]
+[2024-05-29 10:24:33] INFO root fetch - processPackages [prjit]: Downloading https://files.pythonhosted.org/packages/e4/02/1e8a92e37ea6f008dd5862e843eb15edfe668bee9de2c5848d1002ec3a9e/prjit-0.0.2.tar.gz
+[2024-05-29 10:24:33] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/1a/20/542da77c4be4e52386ead32695ddeb6b50c3fd8de4982527fb75d8f8ff98/mkdocsi-1.2.0.tar.gz
+[2024-05-29 10:24:33] INFO root fetch - processPackages [qtmodel]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-29 10:24:33] INFO root fetch - processPackages [idc-index]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-29 10:24:33] WARNING root fetch - processPackages [wealthwatchdog]: Skipping, unable to determine old version
+[2024-05-29 10:24:33] INFO root fetch - main [MainThread]: End processing [wealthwatchdog] error
+[2024-05-29 10:24:33] INFO root fetch - processPackages [QuLab]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-29 10:24:33] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/c0/df/69881e5bd0d0b8e8d3f965009d246b9d38c2c7ec37aad76043b2dfbee289/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl
+[2024-05-29 10:24:33] INFO root fetch - processPackages [PSO-Logger]: Downloading https://files.pythonhosted.org/packages/ec/86/2b6c361ad20f9fd79030772f5c4fbde24e9c296432292ac0f0a2d10ecc1c/pso_logger-0.1.0.tar.gz
+[2024-05-29 10:24:33] INFO root fetch - processPackages [idc-index]: Downloading https://files.pythonhosted.org/packages/85/ca/763f8bbe3bd1abb00124b3bf021818af3608041c99c88afe53abde94c784/idc_index-0.5.7.tar.gz
+[2024-05-29 10:24:33] INFO root fetch - processPackages [prjit]: Downloading https://files.pythonhosted.org/packages/89/be/16ed20037e2486096a724a8d2aa9e361c5c608790984642e6d314e9f93a1/prjit-0.0.3.tar.gz
+[2024-05-29 10:24:33] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/34/16/d79b1c2addcfbbc1437a459c7b3c17a723da8a9a74665f5ae69779d48424/qtmodel-0.3.8.tar.gz
+[2024-05-29 10:24:33] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/39/5a/3d9ffba88552c9a99664726edd714536d8a3650b566ecd4b532e0aa93f1a/qulab-2.0.8.tar.gz
+[2024-05-29 10:24:33] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/30/8d/05117aea895b7372a71d5a3f4476e9d8c9741ce651117f8e118f0bb8ab4c/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl
+[2024-05-29 10:24:33] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/3d/ef/40d16f266174d322ee32540a50e58f15e2c3a58bd0545e8c40b3f8360bc4/mkdocsi-1.2.1.tar.gz
+[2024-05-29 10:24:34] INFO root fetch - processPackages [prjit]: executing diffoscope
+[2024-05-29 10:24:34] INFO root fetch - processPackages [prjit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prjit-0.0.2.tar.gz tmp/prjit-0.0.3.tar.gz --markdown 20240529/p/prjit/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 10:24:34] INFO root fetch - processPackages [PSO-Logger]: Downloading https://files.pythonhosted.org/packages/9d/bd/622d94f164bda3fa4087040ba9357c19165435ac9e2b859c04c854e42c35/pso_logger-1.0.0.tar.gz
+[2024-05-29 10:24:34] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 10:24:34] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.2.0.tar.gz tmp/mkdocsi-1.2.1.tar.gz --markdown 20240529/m/mkdocsi/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-29 10:24:34] INFO root fetch - processPackages [idc-index]: Downloading https://files.pythonhosted.org/packages/49/32/4009166284a37f1df896f9e294fb3ec1afdd4034dec6f22f1a3e967ee7ba/idc_index-0.5.8.tar.gz
+[2024-05-29 10:24:34] INFO root fetch - processPackages [PSO-Logger]: executing diffoscope
+[2024-05-29 10:24:34] INFO root fetch - processPackages [PSO-Logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pso_logger-0.1.0.tar.gz tmp/pso_logger-1.0.0.tar.gz --markdown 20240529/P/PSO-Logger/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-29 10:24:34] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/35/6c/7238dfab9f1aff2eedefe79be062d3a02568335a85e1968de783d5f154bd/qulab-2.0.9.tar.gz
+[2024-05-29 10:24:34] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-29 10:24:34] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-admin-assets/1.0.0.post1557-1.0.0.post1558/README.md --exclude *.pyd
+[2024-05-29 10:24:34] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/75/a5/dd150e2abd2377b90cce48aa96134a633c690238b5aadb2bd0b4c2d61da4/qtmodel-0.3.9.tar.gz
+[2024-05-29 10:24:34] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-05-29 10:24:34] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.3.8.tar.gz tmp/qtmodel-0.3.9.tar.gz --markdown 20240529/q/qtmodel/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-29 10:24:34] INFO root fetch - processPackages [idc-index]: executing diffoscope
+[2024-05-29 10:24:34] INFO root fetch - processPackages [idc-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idc_index-0.5.7.tar.gz tmp/idc_index-0.5.8.tar.gz --markdown 20240529/i/idc-index/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-29 10:24:34] INFO root fetch - processPackages [QuLab]: executing diffoscope
+[2024-05-29 10:24:34] INFO root fetch - processPackages [QuLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulab-2.0.8.tar.gz tmp/qulab-2.0.9.tar.gz --markdown 20240529/Q/QuLab/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-29 10:24:34] INFO root fetch - processPackages [prjit]: Remove: archive file [/home/abi/fetcher/tmp/prjit-0.0.2.tar.gz]
+[2024-05-29 10:24:34] INFO root fetch - processPackages [prjit]: Remove: archive file [/home/abi/fetcher/tmp/prjit-0.0.3.tar.gz]
+[2024-05-29 10:24:34] INFO root fetch - main [MainThread]: End processing [prjit]: success
+[2024-05-29 10:24:34] INFO root fetch - processPackages [PSO-Logger]: Remove: archive file [/home/abi/fetcher/tmp/pso_logger-0.1.0.tar.gz]
+[2024-05-29 10:24:34] INFO root fetch - processPackages [PSO-Logger]: Remove: archive file [/home/abi/fetcher/tmp/pso_logger-1.0.0.tar.gz]
+[2024-05-29 10:24:34] INFO root fetch - main [MainThread]: End processing [PSO-Logger]: success
+[2024-05-29 10:24:34] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.0.tar.gz]
+[2024-05-29 10:24:34] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.1.tar.gz]
+[2024-05-29 10:24:34] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 10:24:35] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.8.tar.gz]
+[2024-05-29 10:24:35] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.9.tar.gz]
+[2024-05-29 10:24:35] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-05-29 10:24:35] INFO root fetch - processPackages [idc-index]: Remove: archive file [/home/abi/fetcher/tmp/idc_index-0.5.7.tar.gz]
+[2024-05-29 10:24:35] INFO root fetch - processPackages [idc-index]: Remove: archive file [/home/abi/fetcher/tmp/idc_index-0.5.8.tar.gz]
+[2024-05-29 10:24:35] INFO root fetch - main [MainThread]: End processing [idc-index]: success
+[2024-05-29 10:24:35] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/qulab-2.0.8.tar.gz]
+[2024-05-29 10:24:35] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/qulab-2.0.9.tar.gz]
+[2024-05-29 10:24:35] INFO root fetch - main [MainThread]: End processing [QuLab]: success
+[2024-05-29 10:24:48] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1557-py3-none-any.whl.zip]
+[2024-05-29 10:24:48] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1558-py3-none-any.whl.zip]
+[2024-05-29 10:24:48] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-29 10:24:48] INFO root fetch - main [MainThread]: Store serial: [23426265]
