@@ -19413,3 +19413,54 @@
 [2024-05-29 13:00:38] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: Remove: archive file [/home/abi/fetcher/tmp/aws_boto3_sdk_helpers-1.0.2.tar.gz]
 [2024-05-29 13:00:38] INFO root fetch - main [MainThread]: End processing [aws-boto3-sdk-helpers]: success
 [2024-05-29 13:00:38] INFO root fetch - main [MainThread]: Store serial: [23428546]
+[2024-05-29 13:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428546]
+[2024-05-29 13:02:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: realtime
+[2024-05-29 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-energiepartagee
+[2024-05-29 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lapa-authentication
+[2024-05-29 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-socio-grpc
+[2024-05-29 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbfgsb
+[2024-05-29 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modelbase
+[2024-05-29 13:02:47] WARNING root fetch - processPackages [lbfgsb]: Skipping, unable to determine old version
+[2024-05-29 13:02:47] INFO root fetch - main [MainThread]: End processing [lbfgsb] error
+[2024-05-29 13:02:48] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-29 13:02:48] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-29 13:02:48] INFO root fetch - processPackages [realtime]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-29 13:02:48] INFO root fetch - processPackages [lapa-authentication]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 13:02:48] INFO root fetch - processPackages [django-socio-grpc]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-29 13:02:48] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2024-05-29 13:02:48] INFO root fetch - processPackages [realtime]: Downloading https://files.pythonhosted.org/packages/f0/0d/46442dc898027522f6a3c4f09f2e4e99477dfd132895a4f1bb2241dddd00/realtime-1.0.4.tar.gz
+[2024-05-29 13:02:48] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-29 13:02:48] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7e/d6/0213129823e862591828fc556e6b339d32cd58621898f0696900155db751/django-socio-grpc-0.8.9.tar.gz
+[2024-05-29 13:02:48] INFO root fetch - processPackages [lapa-authentication]: Downloading https://files.pythonhosted.org/packages/e4/81/0147afd631665625024e3fd8d46c8583702b5670db8ba001ee02e08e5bdd/lapa_authentication-0.0.8.tar.gz
+[2024-05-29 13:02:48] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2024-05-29 13:02:48] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-29 13:02:48] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240529/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-29 13:02:48] INFO root fetch - processPackages [realtime]: Downloading https://files.pythonhosted.org/packages/28/12/08240c92962b934c78d1f475e1b99b135c690c267e849e52b92d1d1a3b2a/realtime-1.0.5.tar.gz
+[2024-05-29 13:02:48] INFO root fetch - processPackages [realtime]: executing diffoscope
+[2024-05-29 13:02:48] INFO root fetch - processPackages [realtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realtime-1.0.4.tar.gz tmp/realtime-1.0.5.tar.gz --markdown 20240529/r/realtime/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-29 13:02:48] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7a/b0/8b962693ba3765edd0e0291489b777069cfb9989fddf435614a684afb60d/django-socio-grpc-0.9.0.tar.gz
+[2024-05-29 13:02:48] INFO root fetch - processPackages [lapa-authentication]: Downloading https://files.pythonhosted.org/packages/93/c0/03721c8dad872ab6d551fde61c36e0304a43fb6afe00c5037f5e7e16a865/lapa_authentication-0.0.9.tar.gz
+[2024-05-29 13:02:48] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2024-05-29 13:02:49] INFO root fetch - processPackages [django-socio-grpc]: executing diffoscope
+[2024-05-29 13:02:49] INFO root fetch - processPackages [django-socio-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-socio-grpc-0.8.9.tar.gz tmp/django-socio-grpc-0.9.0.tar.gz --markdown 20240529/d/django-socio-grpc/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-29 13:02:49] INFO root fetch - processPackages [lapa-authentication]: executing diffoscope
+[2024-05-29 13:02:49] INFO root fetch - processPackages [lapa-authentication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lapa_authentication-0.0.8.tar.gz tmp/lapa_authentication-0.0.9.tar.gz --markdown 20240529/l/lapa-authentication/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 13:02:49] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2024-05-29 13:02:49] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20240529/m/modelbase/1.9.3-1rc2/README.md --exclude *.pyd
+[2024-05-29 13:02:49] INFO root fetch - processPackages [realtime]: Remove: archive file [/home/abi/fetcher/tmp/realtime-1.0.4.tar.gz]
+[2024-05-29 13:02:49] INFO root fetch - processPackages [realtime]: Remove: archive file [/home/abi/fetcher/tmp/realtime-1.0.5.tar.gz]
+[2024-05-29 13:02:49] INFO root fetch - main [MainThread]: End processing [realtime]: success
+[2024-05-29 13:02:49] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-29 13:02:49] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-29 13:02:49] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-29 13:02:49] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.8.9.tar.gz]
+[2024-05-29 13:02:49] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.9.0.tar.gz]
+[2024-05-29 13:02:49] INFO root fetch - main [MainThread]: End processing [django-socio-grpc]: success
+[2024-05-29 13:02:49] INFO root fetch - processPackages [lapa-authentication]: Remove: archive file [/home/abi/fetcher/tmp/lapa_authentication-0.0.8.tar.gz]
+[2024-05-29 13:02:49] INFO root fetch - processPackages [lapa-authentication]: Remove: archive file [/home/abi/fetcher/tmp/lapa_authentication-0.0.9.tar.gz]
+[2024-05-29 13:02:49] INFO root fetch - main [MainThread]: End processing [lapa-authentication]: success
+[2024-05-29 13:02:49] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2024-05-29 13:02:49] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2024-05-29 13:02:49] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2024-05-29 13:02:49] INFO root fetch - main [MainThread]: Store serial: [23428561]
