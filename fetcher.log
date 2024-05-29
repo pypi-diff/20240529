@@ -20471,3 +20471,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:43:25] INFO root fetch - processPackages [surrealist]: Remove: archive file [/home/abi/fetcher/tmp/surrealist-0.5.2.tar.gz]
 [2024-05-29 13:43:25] INFO root fetch - main [MainThread]: End processing [surrealist]: success
 [2024-05-29 13:43:25] INFO root fetch - main [MainThread]: Store serial: [23428969]
+[2024-05-29 13:45:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428969]
+[2024-05-29 13:45:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aura-tools
+[2024-05-29 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lgjsfinance
+[2024-05-29 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lift-utils
+[2024-05-29 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onchainpay-api
+[2024-05-29 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apollopayment-api
+[2024-05-29 13:45:34] INFO root fetch - processPackages [onchainpay-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 13:45:34] INFO root fetch - processPackages [aura-tools]: New version: [0.2] Old Version: [0.1]
+[2024-05-29 13:45:34] INFO root fetch - processPackages [onchainpay-api]: Downloading https://files.pythonhosted.org/packages/0b/6c/69ad8a59a5e492b6f3ce17bcd81393257e2b0201eba3c979ffadab346f37/onchainpay_api-0.0.3.tar.gz
+[2024-05-29 13:45:34] WARNING root fetch - processPackages [apollopayment-api]: Skipping, unable to determine old version
+[2024-05-29 13:45:34] INFO root fetch - main [MainThread]: End processing [apollopayment-api] error
+[2024-05-29 13:45:34] INFO root fetch - processPackages [lgjsfinance]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-29 13:45:34] INFO root fetch - processPackages [lift-utils]: New version: [0.2] Old Version: [0.1.1]
+[2024-05-29 13:45:34] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/dc/43/6fedc7e95af97e4cdd4fa48c8871bfffc71cbcd1829586807642a41cb94f/aura_tools-0.1.tar.gz
+[2024-05-29 13:45:34] INFO root fetch - processPackages [lgjsfinance]: Downloading https://files.pythonhosted.org/packages/e7/57/af6f55a4aac9b74213ba62bb1b8670ef33781edf72ec4945f9827fbf4c45/lgjsfinance-0.0.6.tar.gz
+[2024-05-29 13:45:34] INFO root fetch - processPackages [onchainpay-api]: Downloading https://files.pythonhosted.org/packages/8f/5b/dc0a55242b8b8574a129c860caf114a3a691ec3b99b435e97a7a4404fae3/onchainpay_api-0.0.4-py3-none-any.whl
+[2024-05-29 13:45:34] INFO root fetch - processPackages [lift-utils]: Downloading https://files.pythonhosted.org/packages/f3/fe/1781df37ba752237aac520710a6339b62ad03235b4dd155bd8e8477438e2/lift_utils-0.1.1.tar.gz
+[2024-05-29 13:45:35] INFO root fetch - processPackages [onchainpay-api]: executing diffoscope
+[2024-05-29 13:45:35] INFO root fetch - processPackages [onchainpay-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onchainpay_api-0.0.3.tar.gz tmp/onchainpay_api-0.0.4-py3-none-any.whl.zip --markdown 20240529/o/onchainpay-api/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 13:45:35] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/da/87/01f33d62ac10575f3a809ecdadd037d972eb03bd6d3961f83ed88f593fc0/aura_tools-0.2.tar.gz
+[2024-05-29 13:45:35] INFO root fetch - processPackages [aura-tools]: executing diffoscope
+[2024-05-29 13:45:35] INFO root fetch - processPackages [aura-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura_tools-0.1.tar.gz tmp/aura_tools-0.2.tar.gz --markdown 20240529/a/aura-tools/0.1-0.2/README.md --exclude *.pyd
+[2024-05-29 13:45:35] INFO root fetch - processPackages [lift-utils]: Downloading https://files.pythonhosted.org/packages/d9/bb/d1305616e03a434e2dbd39f138cd9009162b567b04050ea7e57dd8d02f42/lift_utils-0.2.tar.gz
+[2024-05-29 13:45:35] INFO root fetch - processPackages [lgjsfinance]: Downloading https://files.pythonhosted.org/packages/57/53/9b50a2fa6a3282036997f8e1a848ea0e5f3dd7033dd31425eb912cbcacb5/lgjsfinance-0.0.7.tar.gz
+[2024-05-29 13:45:35] INFO root fetch - processPackages [lift-utils]: executing diffoscope
+[2024-05-29 13:45:35] INFO root fetch - processPackages [lift-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lift_utils-0.1.1.tar.gz tmp/lift_utils-0.2.tar.gz --markdown 20240529/l/lift-utils/0.1.1-0.2/README.md --exclude *.pyd
+[2024-05-29 13:45:35] INFO root fetch - processPackages [lgjsfinance]: executing diffoscope
+[2024-05-29 13:45:35] INFO root fetch - processPackages [lgjsfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lgjsfinance-0.0.6.tar.gz tmp/lgjsfinance-0.0.7.tar.gz --markdown 20240529/l/lgjsfinance/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-29 13:45:35] INFO root fetch - processPackages [onchainpay-api]: Remove: archive file [/home/abi/fetcher/tmp/onchainpay_api-0.0.3.tar.gz]
+[2024-05-29 13:45:35] INFO root fetch - processPackages [onchainpay-api]: Remove: archive file [/home/abi/fetcher/tmp/onchainpay_api-0.0.4-py3-none-any.whl.zip]
+[2024-05-29 13:45:35] INFO root fetch - main [MainThread]: End processing [onchainpay-api]: success
+[2024-05-29 13:45:35] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.1.tar.gz]
+[2024-05-29 13:45:35] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.2.tar.gz]
+[2024-05-29 13:45:35] INFO root fetch - main [MainThread]: End processing [aura-tools]: success
+[2024-05-29 13:45:36] INFO root fetch - processPackages [lgjsfinance]: Remove: archive file [/home/abi/fetcher/tmp/lgjsfinance-0.0.6.tar.gz]
+[2024-05-29 13:45:36] INFO root fetch - processPackages [lgjsfinance]: Remove: archive file [/home/abi/fetcher/tmp/lgjsfinance-0.0.7.tar.gz]
+[2024-05-29 13:45:36] INFO root fetch - main [MainThread]: End processing [lgjsfinance]: success
+[2024-05-29 13:45:36] INFO root fetch - processPackages [lift-utils]: Remove: archive file [/home/abi/fetcher/tmp/lift_utils-0.1.1.tar.gz]
+[2024-05-29 13:45:36] INFO root fetch - processPackages [lift-utils]: Remove: archive file [/home/abi/fetcher/tmp/lift_utils-0.2.tar.gz]
+[2024-05-29 13:45:36] INFO root fetch - main [MainThread]: End processing [lift-utils]: success
+[2024-05-29 13:45:36] INFO root fetch - main [MainThread]: Store serial: [23428983]
