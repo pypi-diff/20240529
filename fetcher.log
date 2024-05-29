@@ -2737,3 +2737,24 @@
 [2024-05-29 02:30:15] INFO root fetch - processPackages [qai-hub-models]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub_models-0.7.0-py3-none-any.whl.zip]
 [2024-05-29 02:30:15] INFO root fetch - main [MainThread]: End processing [qai-hub-models]: success
 [2024-05-29 02:30:15] INFO root fetch - main [MainThread]: Store serial: [23421295]
+[2024-05-29 02:32:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421295]
+[2024-05-29 02:32:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 02:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfactory
+[2024-05-29 02:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lognition
+[2024-05-29 02:32:24] INFO root fetch - processPackages [lognition]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 02:32:24] INFO root fetch - processPackages [kfactory]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-29 02:32:24] INFO root fetch - processPackages [kfactory]: Downloading https://files.pythonhosted.org/packages/0f/b6/721b57bf8b2ae07b65396295ba273e13669561ae94fadbe9eb4afd8e9b00/kfactory-0.9.2.tar.gz
+[2024-05-29 02:32:24] INFO root fetch - processPackages [lognition]: Downloading https://files.pythonhosted.org/packages/58/3d/8915883bff6532f943c31ad8ab8e82260627f40ea920a070ad4fa9847557/lognition-0.0.2.tar.gz
+[2024-05-29 02:32:24] INFO root fetch - processPackages [kfactory]: Downloading https://files.pythonhosted.org/packages/c9/36/7559666b6cdc35c7cc7128cb3f2c99b3f5fcdca3d73c396d4c13a34f7466/kfactory-0.9.3.tar.gz
+[2024-05-29 02:32:24] INFO root fetch - processPackages [lognition]: Downloading https://files.pythonhosted.org/packages/07/e2/2c626a88ad143fd94198c60277f14cec11ce9a3d616fca9b83e4fc84bdef/lognition-0.0.3.tar.gz
+[2024-05-29 02:32:24] INFO root fetch - processPackages [lognition]: executing diffoscope
+[2024-05-29 02:32:24] INFO root fetch - processPackages [lognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognition-0.0.2.tar.gz tmp/lognition-0.0.3.tar.gz --markdown 20240529/l/lognition/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 02:32:25] INFO root fetch - processPackages [kfactory]: executing diffoscope
+[2024-05-29 02:32:25] INFO root fetch - processPackages [kfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfactory-0.9.2.tar.gz tmp/kfactory-0.9.3.tar.gz --markdown 20240529/k/kfactory/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-29 02:32:25] INFO root fetch - processPackages [lognition]: Remove: archive file [/home/abi/fetcher/tmp/lognition-0.0.2.tar.gz]
+[2024-05-29 02:32:25] INFO root fetch - processPackages [lognition]: Remove: archive file [/home/abi/fetcher/tmp/lognition-0.0.3.tar.gz]
+[2024-05-29 02:32:25] INFO root fetch - main [MainThread]: End processing [lognition]: success
+[2024-05-29 02:32:25] INFO root fetch - processPackages [kfactory]: Remove: archive file [/home/abi/fetcher/tmp/kfactory-0.9.2.tar.gz]
+[2024-05-29 02:32:25] INFO root fetch - processPackages [kfactory]: Remove: archive file [/home/abi/fetcher/tmp/kfactory-0.9.3.tar.gz]
+[2024-05-29 02:32:25] INFO root fetch - main [MainThread]: End processing [kfactory]: success
+[2024-05-29 02:32:25] INFO root fetch - main [MainThread]: Store serial: [23421301]
