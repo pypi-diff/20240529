@@ -11002,3 +11002,67 @@
 [2024-05-29 07:38:41] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
 [2024-05-29 07:38:41] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2024-05-29 07:38:41] INFO root fetch - main [MainThread]: Store serial: [23424486]
+[2024-05-29 07:40:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424486]
+[2024-05-29 07:40:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 07:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-openupgrade-scripts
+[2024-05-29 07:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudinit
+[2024-05-29 07:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azuredevops
+[2024-05-29 07:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-intelligentcreation20240313
+[2024-05-29 07:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solo-cli
+[2024-05-29 07:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydflow
+[2024-05-29 07:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-openupgrade-scripts
+[2024-05-29 07:40:50] INFO root fetch - processPackages [solo-cli]: New version: [1.1.1] Old Version: [1.0.0]
+[2024-05-29 07:40:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.3] Old Version: [17.0.1.0.1.2]
+[2024-05-29 07:40:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.3] Old Version: [17.0.1.0.1.2]
+[2024-05-29 07:40:50] INFO root fetch - processPackages [pydflow]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-29 07:40:50] INFO root fetch - processPackages [solo-cli]: Downloading https://files.pythonhosted.org/packages/9f/7b/f5e59324c1e20b9d4192415c3dd39bc27fcd1b89229666f5ef12ea659645/solo_cli-1.0.0.tar.gz
+[2024-05-29 07:40:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/2e/07/cd2a4ed7796c54648aaa9877e518fbf9fbf32efb82f079e0a29a9bc2c6a8/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-29 07:40:50] INFO root fetch - processPackages [alibabacloud-intelligentcreation20240313]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-29 07:40:50] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1716960021] Old Version: [1.5.0a1716566662]
+[2024-05-29 07:40:50] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.2.0a1716959871] Old Version: [3.2.0a1716513772]
+[2024-05-29 07:40:50] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/8d/22/584c02b6b9a49c26a40cc22b7f10af25724fe70df5357e5a527c2c36729a/pydflow-1.8.8.tar.gz
+[2024-05-29 07:40:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/2e/07/cd2a4ed7796c54648aaa9877e518fbf9fbf32efb82f079e0a29a9bc2c6a8/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-29 07:40:50] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/11/69/f57a4b261f67d8ea03264656c7c907a339933ba604dba0f357f0fd50427b/pulumi_cloudinit-1.5.0a1716566662.tar.gz
+[2024-05-29 07:40:50] INFO root fetch - processPackages [solo-cli]: Downloading https://files.pythonhosted.org/packages/2b/f2/430da3c8ce41021f9b094b96dededfbbb9be262df81b43bafa8384330401/solo_cli-1.1.1.tar.gz
+[2024-05-29 07:40:50] INFO root fetch - processPackages [alibabacloud-intelligentcreation20240313]: Downloading https://files.pythonhosted.org/packages/02/d2/5566b9a0ae824c18bc50bd39b0a2ef07856026716575c6994b25357d7c57/alibabacloud_intelligentcreation20240313-1.0.0.tar.gz
+[2024-05-29 07:40:50] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/5b/d9/141c8e1c9dc066a7a5cb96f641cc1636b17f04e5c9e7cfec37baf7db0ee5/pulumi_azuredevops-3.2.0a1716513772.tar.gz
+[2024-05-29 07:40:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/f2/91/02310927fe11638961035a9674b0da49957cf5a36fe9d4f8296940bc73b9/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl
+[2024-05-29 07:40:50] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/b8/ee/62435e12ce818ae5c15b7256f01e225eb1dd5e3d49e3bde8e913944b4caa/pydflow-1.8.9.tar.gz
+[2024-05-29 07:40:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/f2/91/02310927fe11638961035a9674b0da49957cf5a36fe9d4f8296940bc73b9/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl
+[2024-05-29 07:40:50] INFO root fetch - processPackages [solo-cli]: executing diffoscope
+[2024-05-29 07:40:50] INFO root fetch - processPackages [solo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solo_cli-1.0.0.tar.gz tmp/solo_cli-1.1.1.tar.gz --markdown 20240529/s/solo-cli/1.0.0-1.1.1/README.md --exclude *.pyd
+[2024-05-29 07:40:50] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2024-05-29 07:40:50] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.8.8.tar.gz tmp/pydflow-1.8.9.tar.gz --markdown 20240529/p/pydflow/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-29 07:40:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-05-29 07:40:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-openupgrade-scripts/17.0.1.0.1.2-17.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-29 07:40:50] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/83/40/a1f91baeddbb1b8a33b15e2813f627409d2ebae627d1b50165f79a7517c4/pulumi_cloudinit-1.5.0a1716960021.tar.gz
+[2024-05-29 07:40:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-05-29 07:40:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-openupgrade-scripts/17.0.1.0.1.2-17.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-29 07:40:51] INFO root fetch - processPackages [alibabacloud-intelligentcreation20240313]: Downloading https://files.pythonhosted.org/packages/64/d9/c9f98e92a1dc474b57dc9afe2fe70f7e067de516850a1b0e8e1c074f2cb8/alibabacloud_intelligentcreation20240313-2.0.0.tar.gz
+[2024-05-29 07:40:51] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/32/01/62a22cd84e18ad72029985f4043f05d19fa948516e64dc26583a1cdd7bac/pulumi_azuredevops-3.2.0a1716959871.tar.gz
+[2024-05-29 07:40:51] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-05-29 07:40:51] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1716566662.tar.gz tmp/pulumi_cloudinit-1.5.0a1716960021.tar.gz --markdown 20240529/p/pulumi-cloudinit/1.5.0a1716566662-1.5.0a1716960021/README.md --exclude *.pyd
+[2024-05-29 07:40:51] INFO root fetch - processPackages [alibabacloud-intelligentcreation20240313]: executing diffoscope
+[2024-05-29 07:40:51] INFO root fetch - processPackages [alibabacloud-intelligentcreation20240313]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_intelligentcreation20240313-1.0.0.tar.gz tmp/alibabacloud_intelligentcreation20240313-2.0.0.tar.gz --markdown 20240529/a/alibabacloud-intelligentcreation20240313/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-29 07:40:51] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-05-29 07:40:51] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.2.0a1716513772.tar.gz tmp/pulumi_azuredevops-3.2.0a1716959871.tar.gz --markdown 20240529/p/pulumi-azuredevops/3.2.0a1716513772-3.2.0a1716959871/README.md --exclude *.pyd
+[2024-05-29 07:40:51] INFO root fetch - processPackages [solo-cli]: Remove: archive file [/home/abi/fetcher/tmp/solo_cli-1.0.0.tar.gz]
+[2024-05-29 07:40:51] INFO root fetch - processPackages [solo-cli]: Remove: archive file [/home/abi/fetcher/tmp/solo_cli-1.1.1.tar.gz]
+[2024-05-29 07:40:51] INFO root fetch - main [MainThread]: End processing [solo-cli]: success
+[2024-05-29 07:40:51] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1716566662.tar.gz]
+[2024-05-29 07:40:51] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1716960021.tar.gz]
+[2024-05-29 07:40:51] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-05-29 07:40:51] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.8.tar.gz]
+[2024-05-29 07:40:51] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.9.tar.gz]
+[2024-05-29 07:40:51] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2024-05-29 07:40:51] INFO root fetch - processPackages [alibabacloud-intelligentcreation20240313]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_intelligentcreation20240313-1.0.0.tar.gz]
+[2024-05-29 07:40:51] INFO root fetch - processPackages [alibabacloud-intelligentcreation20240313]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_intelligentcreation20240313-2.0.0.tar.gz]
+[2024-05-29 07:40:51] INFO root fetch - main [MainThread]: End processing [alibabacloud-intelligentcreation20240313]: success
+[2024-05-29 07:40:52] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.2.0a1716513772.tar.gz]
+[2024-05-29 07:40:52] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.2.0a1716959871.tar.gz]
+[2024-05-29 07:40:52] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-05-29 07:40:53] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-29 07:40:53] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-29 07:40:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-05-29 07:40:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-05-29 07:40:53] INFO root fetch - main [MainThread]: Store serial: [23424505]
