@@ -13017,3 +13017,33 @@
 [2024-05-29 09:11:07] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
 [2024-05-29 09:11:07] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-29 09:11:07] INFO root fetch - main [MainThread]: Store serial: [23425357]
+[2024-05-29 09:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425357]
+[2024-05-29 09:13:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 09:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-skywalking-onepiece
+[2024-05-29 09:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-django-azure
+[2024-05-29 09:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DiffeRT
+[2024-05-29 09:13:17] INFO root fetch - processPackages [apache-skywalking-onepiece]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-29 09:13:17] INFO root fetch - processPackages [apache-skywalking-onepiece]: Downloading https://files.pythonhosted.org/packages/ac/01/710e17e763614b34ecfc336c8cdf4c1e5270ff175f95e03ea07a9b530985/apache_skywalking_onepiece-1.1.1.tar.gz
+[2024-05-29 09:13:17] INFO root fetch - processPackages [pulumi-django-azure]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 09:13:17] INFO root fetch - processPackages [DiffeRT]: New version: [0.15] Old Version: [0.0.9]
+[2024-05-29 09:13:17] INFO root fetch - processPackages [pulumi-django-azure]: Downloading https://files.pythonhosted.org/packages/5b/cb/6ef348e1a57bcebbf27ff5a3d91ac1b6bbb1ad70bdb49193c9cde480b238/pulumi-django-azure-1.0.8.tar.gz
+[2024-05-29 09:13:17] INFO root fetch - processPackages [DiffeRT]: Downloading https://files.pythonhosted.org/packages/12/b3/af5f23b0e4a2c04da5b0aff65519323b88ad0c7f5e517bfb3d6266a76467/DiffeRT-0.0.9.tar.gz
+[2024-05-29 09:13:18] INFO root fetch - processPackages [apache-skywalking-onepiece]: Downloading https://files.pythonhosted.org/packages/5e/a7/11fcf0fd653a565714041a10e8cadba670ad7a02fe77e8c3157d60f483dc/apache_skywalking_onepiece-1.1.2.tar.gz
+[2024-05-29 09:13:18] INFO root fetch - processPackages [pulumi-django-azure]: Downloading https://files.pythonhosted.org/packages/92/4b/9387f2d0301a276af7cec8c4ab5ca874af01fccd5e9721aefc361612fb53/pulumi_django_azure-1.0.9.tar.gz
+[2024-05-29 09:13:18] INFO root fetch - processPackages [apache-skywalking-onepiece]: executing diffoscope
+[2024-05-29 09:13:18] INFO root fetch - processPackages [apache-skywalking-onepiece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_skywalking_onepiece-1.1.1.tar.gz tmp/apache_skywalking_onepiece-1.1.2.tar.gz --markdown 20240529/a/apache-skywalking-onepiece/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-29 09:13:18] INFO root fetch - processPackages [DiffeRT]: Downloading https://files.pythonhosted.org/packages/31/94/7e2c9ed63b4c50909800a27c52ad94a88740fa18b69a25bf651565093cd1/differt-0.15.tar.gz
+[2024-05-29 09:13:18] INFO root fetch - processPackages [pulumi-django-azure]: executing diffoscope
+[2024-05-29 09:13:18] INFO root fetch - processPackages [pulumi-django-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-django-azure-1.0.8.tar.gz tmp/pulumi_django_azure-1.0.9.tar.gz --markdown 20240529/p/pulumi-django-azure/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 09:13:18] INFO root fetch - processPackages [DiffeRT]: executing diffoscope
+[2024-05-29 09:13:18] INFO root fetch - processPackages [DiffeRT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DiffeRT-0.0.9.tar.gz tmp/differt-0.15.tar.gz --markdown 20240529/D/DiffeRT/0.0.9-0.15/README.md --exclude *.pyd
+[2024-05-29 09:13:18] INFO root fetch - processPackages [pulumi-django-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-django-azure-1.0.8.tar.gz]
+[2024-05-29 09:13:18] INFO root fetch - processPackages [pulumi-django-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_django_azure-1.0.9.tar.gz]
+[2024-05-29 09:13:18] INFO root fetch - main [MainThread]: End processing [pulumi-django-azure]: success
+[2024-05-29 09:13:19] INFO root fetch - processPackages [DiffeRT]: Remove: archive file [/home/abi/fetcher/tmp/DiffeRT-0.0.9.tar.gz]
+[2024-05-29 09:13:19] INFO root fetch - processPackages [DiffeRT]: Remove: archive file [/home/abi/fetcher/tmp/differt-0.15.tar.gz]
+[2024-05-29 09:13:19] INFO root fetch - main [MainThread]: End processing [DiffeRT]: success
+[2024-05-29 09:13:19] INFO root fetch - processPackages [apache-skywalking-onepiece]: Remove: archive file [/home/abi/fetcher/tmp/apache_skywalking_onepiece-1.1.1.tar.gz]
+[2024-05-29 09:13:19] INFO root fetch - processPackages [apache-skywalking-onepiece]: Remove: archive file [/home/abi/fetcher/tmp/apache_skywalking_onepiece-1.1.2.tar.gz]
+[2024-05-29 09:13:19] INFO root fetch - main [MainThread]: End processing [apache-skywalking-onepiece]: success
+[2024-05-29 09:13:19] INFO root fetch - main [MainThread]: Store serial: [23425372]
