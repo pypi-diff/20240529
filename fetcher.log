@@ -23073,3 +23073,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:12:20] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-2.1.4.tar.gz]
 [2024-05-29 15:12:20] INFO root fetch - main [MainThread]: End processing [bblib]: success
 [2024-05-29 15:12:20] INFO root fetch - main [MainThread]: Store serial: [23430193]
+[2024-05-29 15:14:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430193]
+[2024-05-29 15:14:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-29 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lokzzpylib
+[2024-05-29 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capellambse
+[2024-05-29 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: govuk-frontend-wtf
+[2024-05-29 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metal-python
+[2024-05-29 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whitebox
+[2024-05-29 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: direnumerate
+[2024-05-29 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xplainable-client
+[2024-05-29 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mimllearning
+[2024-05-29 15:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autodynatrace
+[2024-05-29 15:14:29] INFO root fetch - processPackages [metal-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-29 15:14:29] INFO root fetch - processPackages [xplainable-client]: New version: [1.2.5.post4] Old Version: [1.2.5.post3]
+[2024-05-29 15:14:29] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-05-29 15:14:29] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/da/87/ea7df78e12e58839edf84e22e55f4828fa269abd4eda5b854ca1a3f2ae3c/metal_python-0.9.4.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev90] Old Version: [0.2.dev9]
+[2024-05-29 15:14:29] INFO root fetch - processPackages [govuk-frontend-wtf]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-29 15:14:29] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/56/23/6ce819bbd25f04942bf14398ae52c454b470030167403eaf87970e2d844f/xplainable_client-1.2.5.post3.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [whitebox]: New version: [2.3.4] Old Version: [2.3.3]
+[2024-05-29 15:14:29] INFO root fetch - processPackages [direnumerate]: New version: [4.0rc1] Old Version: [4.0a6]
+[2024-05-29 15:14:29] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [mimllearning]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-29 15:14:29] INFO root fetch - processPackages [autodynatrace]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-29 15:14:29] INFO root fetch - processPackages [govuk-frontend-wtf]: Downloading https://files.pythonhosted.org/packages/10/07/ca7e420a9ea213d0ac26740ff38e4009e142d73804e5aaacb000bf7b50c5/govuk-frontend-wtf-3.0.0.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/ed/d1/74736fa81439c1b7caf003105fdd3e138e635491041c739693408ade5c8e/direnumerate-4.0a6.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/d5/0e/f54a789448e772fa8f88c2a2f7da9e92cfc6a441cc42a238b2013db9901e/metal_python-0.9.5.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/d2/b3/87b8f5c10d5ff5cbe23d28e3faecc4f6f19fc43cd453209ee58b914621c6/mimllearning-0.5.8.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [whitebox]: Downloading https://files.pythonhosted.org/packages/25/16/a80b6ad2f3b1a2548bef027112dce8d4a6637198de035ab8540f5b00f112/whitebox-2.3.3.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [autodynatrace]: Downloading https://files.pythonhosted.org/packages/4a/71/b7ead504a1bb31f57fa1983aa1ad8e5e461fdf3320fef5fa964beab161bf/autodynatrace-2.1.0.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/2e/e1/7ee8fb696408bc44054f5b5f29de45342f688bf28285790fdc3c35658d1a/xplainable_client-1.2.5.post4.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [metal-python]: executing diffoscope
+[2024-05-29 15:14:29] INFO root fetch - processPackages [metal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_python-0.9.4.tar.gz tmp/metal_python-0.9.5.tar.gz --markdown 20240529/m/metal-python/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-29 15:14:29] INFO root fetch - processPackages [govuk-frontend-wtf]: Downloading https://files.pythonhosted.org/packages/2e/04/b0f0a386d7890755b4c4b0683dd060f9e39cb285d5919159652c3496b0c2/govuk_frontend_wtf-3.1.0.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/a2/8f/932015856154d69caa80f91c6cd4f3de898e1dad6fa8374e2480ad1e96ea/lokzzpylib-0.2.dev90.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [xplainable-client]: executing diffoscope
+[2024-05-29 15:14:29] INFO root fetch - processPackages [xplainable-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplainable_client-1.2.5.post3.tar.gz tmp/xplainable_client-1.2.5.post4.tar.gz --markdown 20240529/x/xplainable-client/1.2.5.post3-1.2.5.post4/README.md --exclude *.pyd
+[2024-05-29 15:14:29] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/86/72/d9f5f8da4e53329368271b1e9f6f59a308a48923609d6bf85ae5c9831795/direnumerate-4.0rc1.tar.gz
+[2024-05-29 15:14:29] INFO root fetch - processPackages [govuk-frontend-wtf]: executing diffoscope
+[2024-05-29 15:14:29] INFO root fetch - processPackages [govuk-frontend-wtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govuk-frontend-wtf-3.0.0.tar.gz tmp/govuk_frontend_wtf-3.1.0.tar.gz --markdown 20240529/g/govuk-frontend-wtf/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-29 15:14:29] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2024-05-29 15:14:29] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev9.tar.gz tmp/lokzzpylib-0.2.dev90.tar.gz --markdown 20240529/l/lokzzpylib/0.2.dev9-0.2.dev90/README.md --exclude *.pyd
+[2024-05-29 15:14:30] INFO root fetch - processPackages [whitebox]: Downloading https://files.pythonhosted.org/packages/d4/c3/93ea14a9d5424ea5d0252494a014c6f188182895891884b9d45163601c6e/whitebox-2.3.4.tar.gz
+[2024-05-29 15:14:30] INFO root fetch - processPackages [autodynatrace]: Downloading https://files.pythonhosted.org/packages/1d/17/5a2543a9068d8eb2b0581fd94a4c9772b158a1c744946ad6b44d3d55541e/autodynatrace-2.1.1.tar.gz
+[2024-05-29 15:14:30] INFO root fetch - processPackages [direnumerate]: executing diffoscope
+[2024-05-29 15:14:30] INFO root fetch - processPackages [direnumerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direnumerate-4.0a6.tar.gz tmp/direnumerate-4.0rc1.tar.gz --markdown 20240529/d/direnumerate/4.0a6-4.0rc1/README.md --exclude *.pyd
+[2024-05-29 15:14:30] INFO root fetch - processPackages [whitebox]: executing diffoscope
+[2024-05-29 15:14:30] INFO root fetch - processPackages [whitebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitebox-2.3.3.tar.gz tmp/whitebox-2.3.4.tar.gz --markdown 20240529/w/whitebox/2.3.3-2.3.4/README.md --exclude *.pyd
+[2024-05-29 15:14:30] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-05-29 15:14:30] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240529/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-05-29 15:14:30] INFO root fetch - processPackages [autodynatrace]: executing diffoscope
+[2024-05-29 15:14:30] INFO root fetch - processPackages [autodynatrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodynatrace-2.1.0.tar.gz tmp/autodynatrace-2.1.1.tar.gz --markdown 20240529/a/autodynatrace/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-29 15:14:30] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/41/4c/aef517b03341ea8031423a65e9a40cfa58845de36d6cbca2d6c4a11eb61c/mimllearning-0.5.9.tar.gz
+[2024-05-29 15:14:30] INFO root fetch - processPackages [govuk-frontend-wtf]: Remove: archive file [/home/abi/fetcher/tmp/govuk-frontend-wtf-3.0.0.tar.gz]
+[2024-05-29 15:14:30] INFO root fetch - processPackages [govuk-frontend-wtf]: Remove: archive file [/home/abi/fetcher/tmp/govuk_frontend_wtf-3.1.0.tar.gz]
+[2024-05-29 15:14:30] INFO root fetch - main [MainThread]: End processing [govuk-frontend-wtf]: success
+[2024-05-29 15:14:30] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.post3.tar.gz]
+[2024-05-29 15:14:30] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.post4.tar.gz]
+[2024-05-29 15:14:30] INFO root fetch - main [MainThread]: End processing [xplainable-client]: success
+[2024-05-29 15:14:30] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2024-05-29 15:14:30] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev90.tar.gz]
+[2024-05-29 15:14:30] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2024-05-29 15:14:30] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-4.0a6.tar.gz]
+[2024-05-29 15:14:30] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-4.0rc1.tar.gz]
+[2024-05-29 15:14:30] INFO root fetch - main [MainThread]: End processing [direnumerate]: success
+[2024-05-29 15:14:31] INFO root fetch - processPackages [autodynatrace]: Remove: archive file [/home/abi/fetcher/tmp/autodynatrace-2.1.0.tar.gz]
+[2024-05-29 15:14:31] INFO root fetch - processPackages [autodynatrace]: Remove: archive file [/home/abi/fetcher/tmp/autodynatrace-2.1.1.tar.gz]
+[2024-05-29 15:14:31] INFO root fetch - main [MainThread]: End processing [autodynatrace]: success
+[2024-05-29 15:14:31] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-29 15:14:31] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.5.8.tar.gz tmp/mimllearning-0.5.9.tar.gz --markdown 20240529/m/mimllearning/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-29 15:14:31] INFO root fetch - processPackages [whitebox]: Remove: archive file [/home/abi/fetcher/tmp/whitebox-2.3.3.tar.gz]
+[2024-05-29 15:14:31] INFO root fetch - processPackages [whitebox]: Remove: archive file [/home/abi/fetcher/tmp/whitebox-2.3.4.tar.gz]
+[2024-05-29 15:14:31] INFO root fetch - main [MainThread]: End processing [whitebox]: success
+[2024-05-29 15:14:32] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.4.tar.gz]
+[2024-05-29 15:14:32] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
+[2024-05-29 15:14:32] INFO root fetch - main [MainThread]: End processing [metal-python]: success
+[2024-05-29 15:14:34] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.5.8.tar.gz]
+[2024-05-29 15:14:34] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.5.9.tar.gz]
+[2024-05-29 15:14:34] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-29 15:14:35] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-05-29 15:14:35] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-05-29 15:14:35] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-05-29 15:14:35] INFO root fetch - main [MainThread]: Store serial: [23430219]
