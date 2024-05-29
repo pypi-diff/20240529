@@ -23594,3 +23594,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:29:15] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-29 15:29:15] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-29 15:29:15] INFO root fetch - main [MainThread]: Store serial: [23430444]
+[2024-05-29 15:31:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430444]
+[2024-05-29 15:31:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 15:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-sitewide
+[2024-05-29 15:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qwak-core
+[2024-05-29 15:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybalance
+[2024-05-29 15:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anaplan-sdk
+[2024-05-29 15:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-dbtcloud
+[2024-05-29 15:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lit-ecology-classifier
+[2024-05-29 15:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyannote-onnx
+[2024-05-29 15:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-repo-client
+[2024-05-29 15:31:25] INFO root fetch - processPackages [pyannote-onnx]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-29 15:31:25] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-29 15:31:25] INFO root fetch - processPackages [anaplan-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 15:31:25] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-29 15:31:25] INFO root fetch - processPackages [pybalance]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 15:31:25] INFO root fetch - processPackages [pulumi-dbtcloud]: New version: [0.2.0a1716988489] Old Version: [0.2.0a1716506595]
+[2024-05-29 15:31:25] INFO root fetch - processPackages [django-sitewide]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 15:31:25] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/01/6c/db5e03c23a1def17fdcc9becb2c664b86eea45013bde9752bacb6009f77e/pyannote-onnx-0.0.6.tar.gz
+[2024-05-29 15:31:25] INFO root fetch - processPackages [anaplan-sdk]: Downloading https://files.pythonhosted.org/packages/05/32/ef3270192206fea96e5a9fd32978b38a8afb42e2048c73ef62bbe61108d7/anaplan_sdk-0.0.1.tar.gz
+[2024-05-29 15:31:25] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-29 15:31:25] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/98/cd/27a444ec6fa0cfb9cee80938c20229abbaad4a045f9640825056ffa6840a/lit_ecology_classifier-0.2.1.tar.gz
+[2024-05-29 15:31:25] INFO root fetch - processPackages [data-repo-client]: New version: [2.74.0] Old Version: [2.73.0]
+[2024-05-29 15:31:25] INFO root fetch - processPackages [pybalance]: Downloading https://files.pythonhosted.org/packages/26/f2/4fae1d177014047cce3ba2ca4752fa25595a7cfe2bf1fd6403d2684665f1/pybalance-0.1.1.tar.gz
+[2024-05-29 15:31:25] INFO root fetch - processPackages [django-sitewide]: Downloading https://files.pythonhosted.org/packages/16/2c/87b4704498c8a80a9be1df8976ba461d2111e4d180bc5a4b2f78c6503508/django-sitewide-0.1.8.tar.gz
+[2024-05-29 15:31:25] INFO root fetch - processPackages [pulumi-dbtcloud]: Downloading https://files.pythonhosted.org/packages/94/da/88af73e0444900a8462f9f0d6ef205dacd58521f345b909e14203c3bad9f/pulumi_dbtcloud-0.2.0a1716506595.tar.gz
+[2024-05-29 15:31:26] INFO root fetch - processPackages [anaplan-sdk]: Downloading https://files.pythonhosted.org/packages/2b/4e/38f8f8f417ec65406e298d256830e8eee2e4f9891e36f4a3c2213eb9875a/anaplan_sdk-0.0.2.tar.gz
+[2024-05-29 15:31:26] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-29 15:31:26] INFO root fetch - processPackages [anaplan-sdk]: executing diffoscope
+[2024-05-29 15:31:26] INFO root fetch - processPackages [anaplan-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaplan_sdk-0.0.1.tar.gz tmp/anaplan_sdk-0.0.2.tar.gz --markdown 20240529/a/anaplan-sdk/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 15:31:26] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/12/e7/8874e8ab12099c04e8d2b867c66caa32515cb15091328bdb21ca96ff8e02/data-repo-client-2.73.0.tar.gz
+[2024-05-29 15:31:26] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/f9/7d/2c2b48094df89cd11c46cc0fcf41f9a5d27bc2340a30f6784baed0e9af45/lit_ecology_classifier-0.2.2.tar.gz
+[2024-05-29 15:31:26] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-29 15:31:26] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240529/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-29 15:31:26] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-05-29 15:31:26] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-0.2.1.tar.gz tmp/lit_ecology_classifier-0.2.2.tar.gz --markdown 20240529/l/lit-ecology-classifier/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-29 15:31:26] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/71/b9/674c8a3bf2386cd524f08fbfd0c508ef5a14043c0ad31ccd0d656eb7f2f1/pyannote-onnx-0.0.7.tar.gz
+[2024-05-29 15:31:26] INFO root fetch - processPackages [pybalance]: Downloading https://files.pythonhosted.org/packages/dc/ca/fb2b2e908a47d50f4cf1aacdd45f6c9c97dac489f313967240c73ec4f458/pybalance-0.1.2.tar.gz
+[2024-05-29 15:31:26] INFO root fetch - processPackages [pulumi-dbtcloud]: Downloading https://files.pythonhosted.org/packages/43/85/e5079304acc8805d43ee56989335796663602c42b558ed29debc9593f3ec/pulumi_dbtcloud-0.2.0a1716988489.tar.gz
+[2024-05-29 15:31:26] INFO root fetch - processPackages [django-sitewide]: Downloading https://files.pythonhosted.org/packages/1a/60/e047098f7037417eb3d0a50d5dd803295aea3add7356a2e98aa27c4699b8/django-sitewide-0.1.9.tar.gz
+[2024-05-29 15:31:26] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/c5/69/c6551e1d2477244b1604b2be4dedded859da5b00cb06a470289b3644bb8c/data-repo-client-2.74.0.tar.gz
+[2024-05-29 15:31:26] INFO root fetch - processPackages [pulumi-dbtcloud]: executing diffoscope
+[2024-05-29 15:31:26] INFO root fetch - processPackages [pulumi-dbtcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dbtcloud-0.2.0a1716506595.tar.gz tmp/pulumi_dbtcloud-0.2.0a1716988489.tar.gz --markdown 20240529/p/pulumi-dbtcloud/0.2.0a1716506595-0.2.0a1716988489/README.md --exclude *.pyd
+[2024-05-29 15:31:26] INFO root fetch - processPackages [django-sitewide]: executing diffoscope
+[2024-05-29 15:31:26] INFO root fetch - processPackages [django-sitewide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sitewide-0.1.8.tar.gz tmp/django-sitewide-0.1.9.tar.gz --markdown 20240529/d/django-sitewide/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 15:31:26] INFO root fetch - processPackages [pyannote-onnx]: executing diffoscope
+[2024-05-29 15:31:26] INFO root fetch - processPackages [pyannote-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyannote-onnx-0.0.6.tar.gz tmp/pyannote-onnx-0.0.7.tar.gz --markdown 20240529/p/pyannote-onnx/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-29 15:31:26] INFO root fetch - processPackages [anaplan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anaplan_sdk-0.0.1.tar.gz]
+[2024-05-29 15:31:26] INFO root fetch - processPackages [anaplan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anaplan_sdk-0.0.2.tar.gz]
+[2024-05-29 15:31:26] INFO root fetch - main [MainThread]: End processing [anaplan-sdk]: success
+[2024-05-29 15:31:26] INFO root fetch - processPackages [pybalance]: executing diffoscope
+[2024-05-29 15:31:26] INFO root fetch - processPackages [pybalance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybalance-0.1.1.tar.gz tmp/pybalance-0.1.2.tar.gz --markdown 20240529/p/pybalance/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-29 15:31:27] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.2.1.tar.gz]
+[2024-05-29 15:31:27] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.2.2.tar.gz]
+[2024-05-29 15:31:27] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-05-29 15:31:27] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-05-29 15:31:27] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.73.0.tar.gz tmp/data-repo-client-2.74.0.tar.gz --markdown 20240529/d/data-repo-client/2.73.0-2.74.0/README.md --exclude *.pyd
+[2024-05-29 15:31:27] INFO root fetch - processPackages [django-sitewide]: Remove: archive file [/home/abi/fetcher/tmp/django-sitewide-0.1.8.tar.gz]
+[2024-05-29 15:31:27] INFO root fetch - processPackages [django-sitewide]: Remove: archive file [/home/abi/fetcher/tmp/django-sitewide-0.1.9.tar.gz]
+[2024-05-29 15:31:27] INFO root fetch - main [MainThread]: End processing [django-sitewide]: success
+[2024-05-29 15:31:27] INFO root fetch - processPackages [pulumi-dbtcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dbtcloud-0.2.0a1716506595.tar.gz]
+[2024-05-29 15:31:27] INFO root fetch - processPackages [pulumi-dbtcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dbtcloud-0.2.0a1716988489.tar.gz]
+[2024-05-29 15:31:27] INFO root fetch - main [MainThread]: End processing [pulumi-dbtcloud]: success
+[2024-05-29 15:31:27] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.6.tar.gz]
+[2024-05-29 15:31:27] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.7.tar.gz]
+[2024-05-29 15:31:27] INFO root fetch - main [MainThread]: End processing [pyannote-onnx]: success
+[2024-05-29 15:31:27] INFO root fetch - processPackages [pybalance]: Remove: archive file [/home/abi/fetcher/tmp/pybalance-0.1.1.tar.gz]
+[2024-05-29 15:31:27] INFO root fetch - processPackages [pybalance]: Remove: archive file [/home/abi/fetcher/tmp/pybalance-0.1.2.tar.gz]
+[2024-05-29 15:31:27] INFO root fetch - main [MainThread]: End processing [pybalance]: success
+[2024-05-29 15:31:29] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-29 15:31:29] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-29 15:31:29] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-29 15:31:29] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.73.0.tar.gz]
+[2024-05-29 15:31:29] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.74.0.tar.gz]
+[2024-05-29 15:31:29] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-05-29 15:31:29] INFO root fetch - main [MainThread]: Store serial: [23430465]
