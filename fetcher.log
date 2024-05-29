@@ -8661,3 +8661,39 @@
 [2024-05-29 05:25:21] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.1.tar.gz]
 [2024-05-29 05:25:21] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
 [2024-05-29 05:25:21] INFO root fetch - main [MainThread]: Store serial: [23423574]
+[2024-05-29 05:27:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423574]
+[2024-05-29 05:27:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybare
+[2024-05-29 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MCPTool
+[2024-05-29 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vgis-spider
+[2024-05-29 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chip-cud-prompt
+[2024-05-29 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-mongodbatlas
+[2024-05-29 05:27:30] WARNING root fetch - processPackages [chip-cud-prompt]: Skipping, unable to determine old version
+[2024-05-29 05:27:30] INFO root fetch - main [MainThread]: End processing [chip-cud-prompt] error
+[2024-05-29 05:27:30] INFO root fetch - processPackages [vgis-spider]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-29 05:27:30] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-29 05:27:30] INFO root fetch - processPackages [pybare]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-05-29 05:27:30] ERROR root fetch - processPackages [MCPTool]: Unable to get metadata: No such project 'MCPTool'
+[2024-05-29 05:27:30] INFO root fetch - main [MainThread]: End processing [MCPTool] error
+[2024-05-29 05:27:30] INFO root fetch - processPackages [pybare]: Downloading https://files.pythonhosted.org/packages/6a/aa/8618bcb212ce015db8eeee6b72a01b8cd86dfe3625145730bdc65323cc63/pybare-0.1.1.tar.gz
+[2024-05-29 05:27:30] INFO root fetch - processPackages [vgis-spider]: Downloading https://files.pythonhosted.org/packages/2b/0b/3e9185559a77b3acdf30d7a7dca93daf9890d69b3d8a9a812e45c90bb149/vgis_spider-1.1.3.tar.gz
+[2024-05-29 05:27:30] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/20/b4/9e39765ecf9965cca6d31c730151d872dbccd32e18fb1e57cab672689e51/cdktf-cdktf-provider-mongodbatlas-7.2.0.tar.gz
+[2024-05-29 05:27:30] INFO root fetch - processPackages [pybare]: Downloading https://files.pythonhosted.org/packages/11/cf/24eaae4c827e5a835861ed3e4517f87fec9ffd0da309f0b12e2f85811567/pybare-1.0.0.tar.gz
+[2024-05-29 05:27:30] INFO root fetch - processPackages [pybare]: executing diffoscope
+[2024-05-29 05:27:30] INFO root fetch - processPackages [pybare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybare-0.1.1.tar.gz tmp/pybare-1.0.0.tar.gz --markdown 20240529/p/pybare/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-05-29 05:27:30] INFO root fetch - processPackages [vgis-spider]: Downloading https://files.pythonhosted.org/packages/78/1c/21336a2063217d15415d1a267a5c87557b30deff2e41862ac8920221a657/vgis_spider-1.1.4.tar.gz
+[2024-05-29 05:27:31] INFO root fetch - processPackages [vgis-spider]: executing diffoscope
+[2024-05-29 05:27:31] INFO root fetch - processPackages [vgis-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_spider-1.1.3.tar.gz tmp/vgis_spider-1.1.4.tar.gz --markdown 20240529/v/vgis-spider/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-29 05:27:31] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/06/66/bbcacf0c57f8448b5570043adbcface917a30a2b949a719f7a445498cc2b/cdktf-cdktf-provider-mongodbatlas-7.2.1.tar.gz
+[2024-05-29 05:27:31] INFO root fetch - processPackages [pybare]: Remove: archive file [/home/abi/fetcher/tmp/pybare-0.1.1.tar.gz]
+[2024-05-29 05:27:31] INFO root fetch - processPackages [pybare]: Remove: archive file [/home/abi/fetcher/tmp/pybare-1.0.0.tar.gz]
+[2024-05-29 05:27:31] INFO root fetch - main [MainThread]: End processing [pybare]: success
+[2024-05-29 05:27:31] INFO root fetch - processPackages [vgis-spider]: Remove: archive file [/home/abi/fetcher/tmp/vgis_spider-1.1.3.tar.gz]
+[2024-05-29 05:27:31] INFO root fetch - processPackages [vgis-spider]: Remove: archive file [/home/abi/fetcher/tmp/vgis_spider-1.1.4.tar.gz]
+[2024-05-29 05:27:31] INFO root fetch - main [MainThread]: End processing [vgis-spider]: success
+[2024-05-29 05:27:31] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: executing diffoscope
+[2024-05-29 05:27:31] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-mongodbatlas-7.2.0.tar.gz tmp/cdktf-cdktf-provider-mongodbatlas-7.2.1.tar.gz --markdown 20240529/c/cdktf-cdktf-provider-mongodbatlas/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-29 05:27:36] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-7.2.0.tar.gz]
+[2024-05-29 05:27:36] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-7.2.1.tar.gz]
+[2024-05-29 05:27:36] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-mongodbatlas]: success
+[2024-05-29 05:27:36] INFO root fetch - main [MainThread]: Store serial: [23423595]
