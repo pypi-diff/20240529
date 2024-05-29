@@ -14408,3 +14408,54 @@
 [2024-05-29 10:12:52] INFO root fetch - processPackages [scippuncertainty]: Remove: archive file [/home/abi/fetcher/tmp/scippuncertainty-24.5.0.tar.gz]
 [2024-05-29 10:12:52] INFO root fetch - main [MainThread]: End processing [scippuncertainty]: success
 [2024-05-29 10:12:52] INFO root fetch - main [MainThread]: Store serial: [23426084]
+[2024-05-29 10:14:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426084]
+[2024-05-29 10:15:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypas-cli
+[2024-05-29 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clean-python
+[2024-05-29 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nrich
+[2024-05-29 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prototwin-cmdbuff
+[2024-05-29 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foyou-cli
+[2024-05-29 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-smartcrop
+[2024-05-29 10:15:01] INFO root fetch - processPackages [clean-python]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-29 10:15:01] INFO root fetch - processPackages [prototwin-cmdbuff]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 10:15:01] INFO root fetch - processPackages [pypas-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 10:15:01] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/bd/c2/cab75fd591a8a0e523710dcd7cb658bc49d11ad336f4c3abd3f825f6e754/clean-python-0.9.5.tar.gz
+[2024-05-29 10:15:01] INFO root fetch - processPackages [nrich]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-29 10:15:01] INFO root fetch - processPackages [pypas-cli]: Downloading https://files.pythonhosted.org/packages/3f/85/316e6acdb86911feee444109de03abffbb1d0278b470e38be73c2df0cb82/pypas_cli-0.0.3.tar.gz
+[2024-05-29 10:15:01] INFO root fetch - processPackages [foyou-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 10:15:01] INFO root fetch - processPackages [prototwin-cmdbuff]: Downloading https://files.pythonhosted.org/packages/50/d2/458ec37d3f1a95c0ebcf77e2276e1ce2d1a479edb4aedd3bd98cae45d71f/prototwin_cmdbuff-1.0.2-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-29 10:15:01] WARNING root fetch - processPackages [pytorch-smartcrop]: Skipping, unable to determine old version
+[2024-05-29 10:15:01] INFO root fetch - main [MainThread]: End processing [pytorch-smartcrop] error
+[2024-05-29 10:15:01] INFO root fetch - processPackages [nrich]: Downloading https://files.pythonhosted.org/packages/95/51/8d8f903b4853e8080fc450c592a3eea5b5b53eed701bdeb3824d8f74039d/nrich-0.1.0.tar.gz
+[2024-05-29 10:15:01] INFO root fetch - processPackages [pypas-cli]: Downloading https://files.pythonhosted.org/packages/36/74/835d4efe8de29d6c90d7955d3883be36d757bfff609fe05391fe6f449511/pypas_cli-0.0.4.tar.gz
+[2024-05-29 10:15:01] INFO root fetch - processPackages [prototwin-cmdbuff]: Downloading https://files.pythonhosted.org/packages/6d/02/4a5bddcc055fbe545710d6be365a690a0596abf0f7895aae8590a48e8077/prototwin_cmdbuff-1.0.3-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-29 10:15:01] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/5f/6e/6f96232599f1e881c2a03f70ea85b49e4dbe86d8ac6044cf072d203f8c84/clean-python-0.9.6.tar.gz
+[2024-05-29 10:15:01] INFO root fetch - processPackages [foyou-cli]: Downloading https://files.pythonhosted.org/packages/55/9a/471532162a823e4d1cac3eb68b7404aadfe65c6ee18b4a95a9c17fdf9abb/foyou-cli-0.0.8.tar.gz
+[2024-05-29 10:15:01] INFO root fetch - processPackages [pypas-cli]: executing diffoscope
+[2024-05-29 10:15:01] INFO root fetch - processPackages [pypas-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypas_cli-0.0.3.tar.gz tmp/pypas_cli-0.0.4.tar.gz --markdown 20240529/p/pypas-cli/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 10:15:01] INFO root fetch - processPackages [prototwin-cmdbuff]: executing diffoscope
+[2024-05-29 10:15:01] INFO root fetch - processPackages [prototwin-cmdbuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prototwin_cmdbuff-1.0.2-pp39-pypy39_pp73-win_amd64.whl.zip tmp/prototwin_cmdbuff-1.0.3-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240529/p/prototwin-cmdbuff/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 10:15:02] INFO root fetch - processPackages [clean-python]: executing diffoscope
+[2024-05-29 10:15:02] INFO root fetch - processPackages [clean-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-python-0.9.5.tar.gz tmp/clean-python-0.9.6.tar.gz --markdown 20240529/c/clean-python/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-29 10:15:02] INFO root fetch - processPackages [nrich]: Downloading https://files.pythonhosted.org/packages/7e/9d/d779dd0e47d55b725c4bf8bcd0ebc987c75b88ff367c79cdf15e6d64f9e8/nrich-0.1.2.tar.gz
+[2024-05-29 10:15:02] INFO root fetch - processPackages [nrich]: executing diffoscope
+[2024-05-29 10:15:02] INFO root fetch - processPackages [nrich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrich-0.1.0.tar.gz tmp/nrich-0.1.2.tar.gz --markdown 20240529/n/nrich/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-29 10:15:02] INFO root fetch - processPackages [foyou-cli]: Downloading https://files.pythonhosted.org/packages/9a/ac/a25ab426c6eee0f04bab42f3811012d00694a825290384e5ec9f25ae7ad8/foyou-cli-0.0.9.tar.gz
+[2024-05-29 10:15:02] INFO root fetch - processPackages [prototwin-cmdbuff]: Remove: archive file [/home/abi/fetcher/tmp/prototwin_cmdbuff-1.0.2-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-29 10:15:02] INFO root fetch - processPackages [prototwin-cmdbuff]: Remove: archive file [/home/abi/fetcher/tmp/prototwin_cmdbuff-1.0.3-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-29 10:15:02] INFO root fetch - main [MainThread]: End processing [prototwin-cmdbuff]: success
+[2024-05-29 10:15:02] INFO root fetch - processPackages [foyou-cli]: executing diffoscope
+[2024-05-29 10:15:02] INFO root fetch - processPackages [foyou-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foyou-cli-0.0.8.tar.gz tmp/foyou-cli-0.0.9.tar.gz --markdown 20240529/f/foyou-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 10:15:02] INFO root fetch - processPackages [pypas-cli]: Remove: archive file [/home/abi/fetcher/tmp/pypas_cli-0.0.3.tar.gz]
+[2024-05-29 10:15:02] INFO root fetch - processPackages [pypas-cli]: Remove: archive file [/home/abi/fetcher/tmp/pypas_cli-0.0.4.tar.gz]
+[2024-05-29 10:15:02] INFO root fetch - main [MainThread]: End processing [pypas-cli]: success
+[2024-05-29 10:15:02] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.5.tar.gz]
+[2024-05-29 10:15:02] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.6.tar.gz]
+[2024-05-29 10:15:02] INFO root fetch - main [MainThread]: End processing [clean-python]: success
+[2024-05-29 10:15:02] INFO root fetch - processPackages [nrich]: Remove: archive file [/home/abi/fetcher/tmp/nrich-0.1.0.tar.gz]
+[2024-05-29 10:15:02] INFO root fetch - processPackages [nrich]: Remove: archive file [/home/abi/fetcher/tmp/nrich-0.1.2.tar.gz]
+[2024-05-29 10:15:02] INFO root fetch - main [MainThread]: End processing [nrich]: success
+[2024-05-29 10:15:03] INFO root fetch - processPackages [foyou-cli]: Remove: archive file [/home/abi/fetcher/tmp/foyou-cli-0.0.8.tar.gz]
+[2024-05-29 10:15:03] INFO root fetch - processPackages [foyou-cli]: Remove: archive file [/home/abi/fetcher/tmp/foyou-cli-0.0.9.tar.gz]
+[2024-05-29 10:15:03] INFO root fetch - main [MainThread]: End processing [foyou-cli]: success
+[2024-05-29 10:15:03] INFO root fetch - main [MainThread]: Store serial: [23426134]
