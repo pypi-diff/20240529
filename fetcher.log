@@ -8832,3 +8832,82 @@
 [2024-05-29 05:38:28] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-05-29 05:38:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
 [2024-05-29 05:38:28] INFO root fetch - main [MainThread]: Store serial: [23423635]
+[2024-05-29 05:40:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423635]
+[2024-05-29 05:40:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-dnsimple
+[2024-05-29 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-mc
+[2024-05-29 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muttfuzz
+[2024-05-29 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-digitalocean
+[2024-05-29 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: krabby
+[2024-05-29 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: e4ting
+[2024-05-29 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zrcl
+[2024-05-29 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: verbose-terminal
+[2024-05-29 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: muttfuzz
+[2024-05-29 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CVE-2018-0296
+[2024-05-29 05:40:37] INFO root fetch - processPackages [sbcli-mc]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-29 05:40:37] INFO root fetch - processPackages [muttfuzz]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-29 05:40:37] INFO root fetch - processPackages [muttfuzz]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-29 05:40:37] WARNING root fetch - processPackages [verbose-terminal]: Skipping, unable to determine old version
+[2024-05-29 05:40:37] INFO root fetch - main [MainThread]: End processing [verbose-terminal] error
+[2024-05-29 05:40:37] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/e9/3a/2198c090a89db2383325000b7428c99bdea49dcb3e311d2cf33e46c912d2/muttfuzz-0.8.3-py3-none-any.whl
+[2024-05-29 05:40:37] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/e9/3a/2198c090a89db2383325000b7428c99bdea49dcb3e311d2cf33e46c912d2/muttfuzz-0.8.3-py3-none-any.whl
+[2024-05-29 05:40:37] WARNING root fetch - processPackages [CVE-2018-0296]: Skipping, unable to determine old version
+[2024-05-29 05:40:37] INFO root fetch - main [MainThread]: End processing [CVE-2018-0296] error
+[2024-05-29 05:40:37] INFO root fetch - processPackages [zrcl]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-29 05:40:37] INFO root fetch - processPackages [e4ting]: New version: [1.1.3555] Old Version: [1.1.3495]
+[2024-05-29 05:40:37] INFO root fetch - processPackages [krabby]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 05:40:37] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-05-29 05:40:37] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: New version: [9.2.0] Old Version: [9.1.0]
+[2024-05-29 05:40:37] INFO root fetch - processPackages [sbcli-mc]: Downloading https://files.pythonhosted.org/packages/2a/71/d6deb3a3facfc501c08b6960e94c59aaea4fcbc360b68d64c0cd29860439/sbcli_mc-1.0.1.zip
+[2024-05-29 05:40:37] INFO root fetch - processPackages [zrcl]: Downloading https://files.pythonhosted.org/packages/6a/0f/702cd7f925165ed3853636c023388633f29a7bee86abf844f32b625284c5/zrcl-0.3.0.tar.gz
+[2024-05-29 05:40:37] INFO root fetch - processPackages [e4ting]: Downloading https://files.pythonhosted.org/packages/39/da/54e383e1a08426ac6473e8cb06c7131415736e5a49532bcfa01cb41e5465/e4ting-1.1.3495-py3-none-any.whl
+[2024-05-29 05:40:37] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/81/43/322c72eedc21fb3ea17c8e0132cc5362e3d6a6f1b2b94a4f12affb177990/krabby-0.1.8.tar.gz
+[2024-05-29 05:40:37] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/2e/6c/a7df4c4ad7f38f74d32540e1217748e42244e347a42bae8c2279fbd344bd/cdktf-cdktf-provider-digitalocean-9.0.0.tar.gz
+[2024-05-29 05:40:37] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: Downloading https://files.pythonhosted.org/packages/9f/78/406375802f8159b42115c87f5a5aeb753381dfdb570b9bf7fb02685954b0/cdktf-cdktf-provider-dnsimple-9.1.0.tar.gz
+[2024-05-29 05:40:37] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/78/ac/27a9eace474d44dd010deed72cd0309ea184af52f4bd265f2ab2f63d2ab0/muttfuzz-0.8.4-py3-none-any.whl
+[2024-05-29 05:40:37] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/78/ac/27a9eace474d44dd010deed72cd0309ea184af52f4bd265f2ab2f63d2ab0/muttfuzz-0.8.4-py3-none-any.whl
+[2024-05-29 05:40:37] INFO root fetch - processPackages [sbcli-mc]: Downloading https://files.pythonhosted.org/packages/0c/bd/6f8734fc11695cdb2aeae9123487ea27f9f3e854361f6bbfd349833aa184/sbcli_mc-1.0.2.zip
+[2024-05-29 05:40:37] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-05-29 05:40:37] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.8.3-py3-none-any.whl.zip tmp/muttfuzz-0.8.4-py3-none-any.whl.zip --markdown 20240529/m/muttfuzz/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-29 05:40:37] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-05-29 05:40:37] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.8.3-py3-none-any.whl.zip tmp/muttfuzz-0.8.4-py3-none-any.whl.zip --markdown 20240529/m/muttfuzz/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-29 05:40:37] INFO root fetch - processPackages [sbcli-mc]: executing diffoscope
+[2024-05-29 05:40:37] INFO root fetch - processPackages [sbcli-mc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_mc-1.0.1.zip tmp/sbcli_mc-1.0.2.zip --markdown 20240529/s/sbcli-mc/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-29 05:40:37] INFO root fetch - processPackages [e4ting]: Downloading https://files.pythonhosted.org/packages/56/97/3f2e1d16d29608c51f4d59d890fa30b8f9803a22aef9fe73e5a76d711e3d/e4ting-1.1.3555-py3-none-any.whl
+[2024-05-29 05:40:37] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/14/b2/dde75359c4b87fe1fe26ff24086bc515e612ff9253940b1e509844c4c7c2/krabby-0.1.9.tar.gz
+[2024-05-29 05:40:37] INFO root fetch - processPackages [zrcl]: Downloading https://files.pythonhosted.org/packages/12/42/4145500ed8b069d4eed47054ed1902a00f8fa524957e82636256ed3f682c/zrcl-0.3.1.tar.gz
+[2024-05-29 05:40:37] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: Downloading https://files.pythonhosted.org/packages/ba/04/6804f89fb85ad324fcad3864b3c1812ab432ab6392382bd2b7f1fd2eb92f/cdktf-cdktf-provider-dnsimple-9.2.0.tar.gz
+[2024-05-29 05:40:37] INFO root fetch - processPackages [krabby]: executing diffoscope
+[2024-05-29 05:40:37] INFO root fetch - processPackages [krabby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krabby-0.1.8.tar.gz tmp/krabby-0.1.9.tar.gz --markdown 20240529/k/krabby/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 05:40:38] INFO root fetch - processPackages [e4ting]: executing diffoscope
+[2024-05-29 05:40:38] INFO root fetch - processPackages [e4ting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e4ting-1.1.3495-py3-none-any.whl.zip tmp/e4ting-1.1.3555-py3-none-any.whl.zip --markdown 20240529/e/e4ting/1.1.3495-1.1.3555/README.md --exclude *.pyd
+[2024-05-29 05:40:38] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: executing diffoscope
+[2024-05-29 05:40:38] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-dnsimple-9.1.0.tar.gz tmp/cdktf-cdktf-provider-dnsimple-9.2.0.tar.gz --markdown 20240529/c/cdktf-cdktf-provider-dnsimple/9.1.0-9.2.0/README.md --exclude *.pyd
+[2024-05-29 05:40:38] INFO root fetch - processPackages [zrcl]: executing diffoscope
+[2024-05-29 05:40:38] INFO root fetch - processPackages [zrcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrcl-0.3.0.tar.gz tmp/zrcl-0.3.1.tar.gz --markdown 20240529/z/zrcl/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-29 05:40:38] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/37/54/0c54d24323faaeb7a81b959a3875d565f3f927309e36279e4db1165fee68/cdktf-cdktf-provider-digitalocean-9.0.1.tar.gz
+[2024-05-29 05:40:38] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.3-py3-none-any.whl.zip]
+[2024-05-29 05:40:38] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.4-py3-none-any.whl.zip]
+[2024-05-29 05:40:38] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-05-29 05:40:38] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-05-29 05:40:38] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.8.tar.gz]
+[2024-05-29 05:40:38] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.9.tar.gz]
+[2024-05-29 05:40:38] INFO root fetch - main [MainThread]: End processing [krabby]: success
+[2024-05-29 05:40:38] INFO root fetch - processPackages [e4ting]: Remove: archive file [/home/abi/fetcher/tmp/e4ting-1.1.3495-py3-none-any.whl.zip]
+[2024-05-29 05:40:38] INFO root fetch - processPackages [e4ting]: Remove: archive file [/home/abi/fetcher/tmp/e4ting-1.1.3555-py3-none-any.whl.zip]
+[2024-05-29 05:40:38] INFO root fetch - main [MainThread]: End processing [e4ting]: success
+[2024-05-29 05:40:38] INFO root fetch - processPackages [zrcl]: Remove: archive file [/home/abi/fetcher/tmp/zrcl-0.3.0.tar.gz]
+[2024-05-29 05:40:38] INFO root fetch - processPackages [zrcl]: Remove: archive file [/home/abi/fetcher/tmp/zrcl-0.3.1.tar.gz]
+[2024-05-29 05:40:38] INFO root fetch - main [MainThread]: End processing [zrcl]: success
+[2024-05-29 05:40:38] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-dnsimple-9.1.0.tar.gz]
+[2024-05-29 05:40:38] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-dnsimple-9.2.0.tar.gz]
+[2024-05-29 05:40:38] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-dnsimple]: success
+[2024-05-29 05:40:38] INFO root fetch - processPackages [sbcli-mc]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mc-1.0.1.zip]
+[2024-05-29 05:40:38] INFO root fetch - processPackages [sbcli-mc]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mc-1.0.2.zip]
+[2024-05-29 05:40:38] INFO root fetch - main [MainThread]: End processing [sbcli-mc]: success
+[2024-05-29 05:40:39] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: executing diffoscope
+[2024-05-29 05:40:39] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-digitalocean-9.0.0.tar.gz tmp/cdktf-cdktf-provider-digitalocean-9.0.1.tar.gz --markdown 20240529/c/cdktf-cdktf-provider-digitalocean/9.0.0-9.0.1/README.md --exclude *.pyd
+[2024-05-29 05:40:42] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-digitalocean-9.0.0.tar.gz]
+[2024-05-29 05:40:42] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-digitalocean-9.0.1.tar.gz]
+[2024-05-29 05:40:42] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-digitalocean]: success
+[2024-05-29 05:40:42] INFO root fetch - main [MainThread]: Store serial: [23423666]
