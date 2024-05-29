@@ -7263,3 +7263,18 @@
 [2024-05-29 03:47:34] INFO root fetch - processPackages [image-center]: Remove: archive file [/home/abi/fetcher/tmp/image_center-2024.5.29.tar.gz]
 [2024-05-29 03:47:34] INFO root fetch - main [MainThread]: End processing [image-center]: success
 [2024-05-29 03:47:34] INFO root fetch - main [MainThread]: Store serial: [23422878]
+[2024-05-29 03:49:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23422878]
+[2024-05-29 03:49:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 03:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datatype-writer
+[2024-05-29 03:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meetlify
+[2024-05-29 03:49:43] WARNING root fetch - processPackages [datatype-writer]: Skipping, unable to determine old version
+[2024-05-29 03:49:43] INFO root fetch - main [MainThread]: End processing [datatype-writer] error
+[2024-05-29 03:49:43] INFO root fetch - processPackages [meetlify]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 03:49:44] INFO root fetch - processPackages [meetlify]: Downloading https://files.pythonhosted.org/packages/99/8d/861aa07156a830b693439fa2b0ddf6a1db7e017c9a0e0448c9ca9f184b48/meetlify-0.1.8.tar.gz
+[2024-05-29 03:49:44] INFO root fetch - processPackages [meetlify]: Downloading https://files.pythonhosted.org/packages/3b/8f/790dc36acae1a0564d61a656d1f9956b23a132f02d17dabd4c89cdc33816/meetlify-0.1.9.tar.gz
+[2024-05-29 03:49:45] INFO root fetch - processPackages [meetlify]: executing diffoscope
+[2024-05-29 03:49:45] INFO root fetch - processPackages [meetlify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meetlify-0.1.8.tar.gz tmp/meetlify-0.1.9.tar.gz --markdown 20240529/m/meetlify/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 03:49:46] INFO root fetch - processPackages [meetlify]: Remove: archive file [/home/abi/fetcher/tmp/meetlify-0.1.8.tar.gz]
+[2024-05-29 03:49:46] INFO root fetch - processPackages [meetlify]: Remove: archive file [/home/abi/fetcher/tmp/meetlify-0.1.9.tar.gz]
+[2024-05-29 03:49:46] INFO root fetch - main [MainThread]: End processing [meetlify]: success
+[2024-05-29 03:49:46] INFO root fetch - main [MainThread]: Store serial: [23422947]
