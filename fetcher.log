@@ -21729,3 +21729,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:26:13] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-4.4.3.tar.gz]
 [2024-05-29 14:26:13] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2024-05-29 14:26:13] INFO root fetch - main [MainThread]: Store serial: [23429567]
+[2024-05-29 14:28:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429567]
+[2024-05-29 14:28:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 14:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openagents-grpc-proto
+[2024-05-29 14:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: safe-ds
+[2024-05-29 14:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sgtpy
+[2024-05-29 14:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccxt
+[2024-05-29 14:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: numpy-rms
+[2024-05-29 14:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solar-registry
+[2024-05-29 14:28:23] INFO root fetch - processPackages [openagents-grpc-proto]: New version: [0.9.1] Old Version: [0.9]
+[2024-05-29 14:28:23] INFO root fetch - processPackages [solar-registry]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-29 14:28:23] WARNING root fetch - processPackages [numpy-rms]: Skipping, unable to determine old version
+[2024-05-29 14:28:23] INFO root fetch - main [MainThread]: End processing [numpy-rms] error
+[2024-05-29 14:28:23] INFO root fetch - processPackages [ccxt]: New version: [4.3.9] Old Version: [4.3.8]
+[2024-05-29 14:28:23] INFO root fetch - processPackages [openagents-grpc-proto]: Downloading https://files.pythonhosted.org/packages/f4/1a/049ba56dd38c706cbcd750dcb4b2fa02a9105cac0b73dc6a382bd3cac7f9/openagents_grpc_proto-0.9.tar.gz
+[2024-05-29 14:28:23] INFO root fetch - processPackages [sgtpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 14:28:23] INFO root fetch - processPackages [safe-ds]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 14:28:23] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/45/eb/8d24d3055d4b3002f7b628938ded413fd169f8ad8cb8b36137f884920892/solar_registry-0.3.3.tar.gz
+[2024-05-29 14:28:23] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/1c/a1/3a1a3f9672e43a2620d2ab195c398183c3594751d3a306bd022e7ceccbb7/ccxt-4.3.8.tar.gz
+[2024-05-29 14:28:23] INFO root fetch - processPackages [sgtpy]: Downloading https://files.pythonhosted.org/packages/68/e8/01c8784d265dcc65ee5306ae1ef7d491a95de5ea1bfa1685c2ed6c8cdef6/SGTPy-0.0.8.tar.gz
+[2024-05-29 14:28:23] INFO root fetch - processPackages [safe-ds]: Downloading https://files.pythonhosted.org/packages/09/f6/a6b32c0bddd70e357b5ee90c9b88c336cc90c5fb454915f0b87e3d58a1b6/safe_ds-0.8.0.tar.gz
+[2024-05-29 14:28:23] INFO root fetch - processPackages [openagents-grpc-proto]: Downloading https://files.pythonhosted.org/packages/95/fa/1326cd3bfed8b130f89b5fd44d43496edcf7cd7aeec55fb8fcd26d9d7aaa/openagents_grpc_proto-0.9.1.tar.gz
+[2024-05-29 14:28:23] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/87/70/6cc0aedc7a1ad86e9e5e86ba9b4d0c602e30f9e5eec3ccac8a05922127dd/solar_registry-0.3.4.tar.gz
+[2024-05-29 14:28:23] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-29 14:28:23] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.3.3.tar.gz tmp/solar_registry-0.3.4.tar.gz --markdown 20240529/s/solar-registry/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-29 14:28:23] INFO root fetch - processPackages [openagents-grpc-proto]: executing diffoscope
+[2024-05-29 14:28:23] INFO root fetch - processPackages [openagents-grpc-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagents_grpc_proto-0.9.tar.gz tmp/openagents_grpc_proto-0.9.1.tar.gz --markdown 20240529/o/openagents-grpc-proto/0.9-0.9.1/README.md --exclude *.pyd
+[2024-05-29 14:28:23] INFO root fetch - processPackages [safe-ds]: Downloading https://files.pythonhosted.org/packages/bd/f8/60207d42597a9f68aa486aee74213d0424e53d4bd7cce2a8b050d148f4ed/safe_ds-0.9.0.tar.gz
+[2024-05-29 14:28:23] INFO root fetch - processPackages [sgtpy]: Downloading https://files.pythonhosted.org/packages/fe/f2/2b7f0b913291ce725478eaab4c3ad9e63537a0ef86defcaa09affe6294b2/SGTPy-0.0.9.tar.gz
+[2024-05-29 14:28:24] INFO root fetch - processPackages [safe-ds]: executing diffoscope
+[2024-05-29 14:28:24] INFO root fetch - processPackages [safe-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_ds-0.8.0.tar.gz tmp/safe_ds-0.9.0.tar.gz --markdown 20240529/s/safe-ds/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 14:28:24] INFO root fetch - processPackages [sgtpy]: executing diffoscope
+[2024-05-29 14:28:24] INFO root fetch - processPackages [sgtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SGTPy-0.0.8.tar.gz tmp/SGTPy-0.0.9.tar.gz --markdown 20240529/s/sgtpy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 14:28:24] INFO root fetch - processPackages [openagents-grpc-proto]: Remove: archive file [/home/abi/fetcher/tmp/openagents_grpc_proto-0.9.tar.gz]
+[2024-05-29 14:28:24] INFO root fetch - processPackages [openagents-grpc-proto]: Remove: archive file [/home/abi/fetcher/tmp/openagents_grpc_proto-0.9.1.tar.gz]
+[2024-05-29 14:28:24] INFO root fetch - main [MainThread]: End processing [openagents-grpc-proto]: success
+[2024-05-29 14:28:24] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.3.3.tar.gz]
+[2024-05-29 14:28:24] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.3.4.tar.gz]
+[2024-05-29 14:28:24] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-29 14:28:24] INFO root fetch - processPackages [safe-ds]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds-0.8.0.tar.gz]
+[2024-05-29 14:28:24] INFO root fetch - processPackages [safe-ds]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds-0.9.0.tar.gz]
+[2024-05-29 14:28:24] INFO root fetch - main [MainThread]: End processing [safe-ds]: success
+[2024-05-29 14:28:25] INFO root fetch - processPackages [sgtpy]: Remove: archive file [/home/abi/fetcher/tmp/SGTPy-0.0.8.tar.gz]
+[2024-05-29 14:28:25] INFO root fetch - processPackages [sgtpy]: Remove: archive file [/home/abi/fetcher/tmp/SGTPy-0.0.9.tar.gz]
+[2024-05-29 14:28:25] INFO root fetch - main [MainThread]: End processing [sgtpy]: success
+[2024-05-29 14:28:25] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/f0/34/c7c38c5c0bec0a22183d7eed68184bef3efe315a8570460824012267cbac/ccxt-4.3.9.tar.gz
+[2024-05-29 14:28:25] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-05-29 14:28:25] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.3.8.tar.gz tmp/ccxt-4.3.9.tar.gz --markdown 20240529/c/ccxt/4.3.8-4.3.9/README.md --exclude *.pyd
+[2024-05-29 14:28:29] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.8.tar.gz]
+[2024-05-29 14:28:29] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
+[2024-05-29 14:28:29] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-05-29 14:28:29] INFO root fetch - main [MainThread]: Store serial: [23429601]
