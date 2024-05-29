@@ -21831,3 +21831,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:30:42] INFO root fetch - processPackages [veg2hab]: Remove: archive file [/home/abi/fetcher/tmp/veg2hab-0.2.3a0.tar.gz]
 [2024-05-29 14:30:42] INFO root fetch - main [MainThread]: End processing [veg2hab]: success
 [2024-05-29 14:30:42] INFO root fetch - main [MainThread]: Store serial: [23429623]
+[2024-05-29 14:32:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429623]
+[2024-05-29 14:32:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 14:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerebrumscanner
+[2024-05-29 14:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: st-common-data
+[2024-05-29 14:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isar
+[2024-05-29 14:32:51] INFO root fetch - processPackages [cerebrumscanner]: New version: [0.0.2] Old Version: [0.0.1b5]
+[2024-05-29 14:32:51] INFO root fetch - processPackages [isar]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-29 14:32:51] INFO root fetch - processPackages [st-common-data]: New version: [0.2.9.9] Old Version: [0.2.9.8]
+[2024-05-29 14:32:51] INFO root fetch - processPackages [st-common-data]: Downloading https://files.pythonhosted.org/packages/14/93/06eddf9c0eebf87bdf8520724236729e16a1ad838dd1a6a01fbcc9c71082/st_common_data-0.2.9.8.tar.gz
+[2024-05-29 14:32:51] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/8a/51/713ae1f07cac55b7edca3b6ac906e419d23cb2067e463cd9a20a38809793/cerebrumscanner-0.0.1b5.tar.gz
+[2024-05-29 14:32:51] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/24/9e/a40ae5538b353dd0f94cbf122f8b47de58d34ffca0b2e4633c259740b079/isar-1.9.1.tar.gz
+[2024-05-29 14:32:51] INFO root fetch - processPackages [st-common-data]: Downloading https://files.pythonhosted.org/packages/81/b2/a5db2fbd76cec4a7d6721506235b35e4264bad234e31d9d2c2f3395efb1a/st_common_data-0.2.9.9.tar.gz
+[2024-05-29 14:32:51] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/be/4c/a341670b250e9bd66e3cfc128d062e5ec7d5dc0371069c33015a58e6a54a/cerebrumscanner-0.0.2.tar.gz
+[2024-05-29 14:32:52] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/0c/bd/c87b8c89cd96667a2dc47e515d33dc70dc401f8319ab1c440d614490ed4d/isar-1.9.2.tar.gz
+[2024-05-29 14:32:52] INFO root fetch - processPackages [st-common-data]: executing diffoscope
+[2024-05-29 14:32:52] INFO root fetch - processPackages [st-common-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_common_data-0.2.9.8.tar.gz tmp/st_common_data-0.2.9.9.tar.gz --markdown 20240529/s/st-common-data/0.2.9.8-0.2.9.9/README.md --exclude *.pyd
+[2024-05-29 14:32:52] INFO root fetch - processPackages [cerebrumscanner]: executing diffoscope
+[2024-05-29 14:32:52] INFO root fetch - processPackages [cerebrumscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrumscanner-0.0.1b5.tar.gz tmp/cerebrumscanner-0.0.2.tar.gz --markdown 20240529/c/cerebrumscanner/0.0.1b5-0.0.2/README.md --exclude *.pyd
+[2024-05-29 14:32:52] INFO root fetch - processPackages [isar]: executing diffoscope
+[2024-05-29 14:32:52] INFO root fetch - processPackages [isar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isar-1.9.1.tar.gz tmp/isar-1.9.2.tar.gz --markdown 20240529/i/isar/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-29 14:32:52] INFO root fetch - processPackages [st-common-data]: Remove: archive file [/home/abi/fetcher/tmp/st_common_data-0.2.9.8.tar.gz]
+[2024-05-29 14:32:52] INFO root fetch - processPackages [st-common-data]: Remove: archive file [/home/abi/fetcher/tmp/st_common_data-0.2.9.9.tar.gz]
+[2024-05-29 14:32:52] INFO root fetch - main [MainThread]: End processing [st-common-data]: success
+[2024-05-29 14:32:52] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b5.tar.gz]
+[2024-05-29 14:32:52] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.2.tar.gz]
+[2024-05-29 14:32:52] INFO root fetch - main [MainThread]: End processing [cerebrumscanner]: success
+[2024-05-29 14:32:53] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.1.tar.gz]
+[2024-05-29 14:32:53] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.2.tar.gz]
+[2024-05-29 14:32:53] INFO root fetch - main [MainThread]: End processing [isar]: success
+[2024-05-29 14:32:53] INFO root fetch - main [MainThread]: Store serial: [23429640]
