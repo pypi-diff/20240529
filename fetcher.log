@@ -13750,3 +13750,48 @@
 [2024-05-29 09:46:24] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
 [2024-05-29 09:46:24] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-29 09:46:24] INFO root fetch - main [MainThread]: Store serial: [23425765]
+[2024-05-29 09:48:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425765]
+[2024-05-29 09:48:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 09:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudforet-console-api-v2
+[2024-05-29 09:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gsctl
+[2024-05-29 09:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bootpay-backend
+[2024-05-29 09:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: candlefl
+[2024-05-29 09:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nimbletl
+[2024-05-29 09:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TenorGrabber
+[2024-05-29 09:48:34] INFO root fetch - processPackages [nimbletl]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-29 09:48:34] INFO root fetch - processPackages [nimbletl]: Downloading https://files.pythonhosted.org/packages/28/d4/569ca8c83662067293594d653345e8bda3350808eadc20de56d9fc02c31d/nimbletl-0.1.5.tar.gz
+[2024-05-29 09:48:34] INFO root fetch - processPackages [candlefl]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-29 09:48:34] INFO root fetch - processPackages [bootpay-backend]: New version: [2.1.0] Old Version: [2.0.9]
+[2024-05-29 09:48:34] WARNING root fetch - processPackages [gsctl]: Skipping, unable to determine old version
+[2024-05-29 09:48:34] INFO root fetch - main [MainThread]: End processing [gsctl] error
+[2024-05-29 09:48:34] WARNING root fetch - processPackages [TenorGrabber]: Skipping, unable to determine old version
+[2024-05-29 09:48:34] INFO root fetch - main [MainThread]: End processing [TenorGrabber] error
+[2024-05-29 09:48:34] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-29 09:48:34] INFO root fetch - processPackages [candlefl]: Downloading https://files.pythonhosted.org/packages/d9/9b/b7cedeed1a82fdf9b352d490008dd1da2c52c4e3d8a2710ad79d99d663eb/candlefl-0.2.2.tar.gz
+[2024-05-29 09:48:34] INFO root fetch - processPackages [bootpay-backend]: Downloading https://files.pythonhosted.org/packages/2d/95/4a01884ece0cc38693cf75177dfd2402193dec741dddfe81af336ddc8857/bootpay_backend-2.0.9.tar.gz
+[2024-05-29 09:48:34] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-05-29 09:48:34] INFO root fetch - processPackages [nimbletl]: Downloading https://files.pythonhosted.org/packages/34/53/f74263a58a3de130049c3245b41342536443d51aa8783a4dd40ed04cb926/nimbletl-0.1.6.tar.gz
+[2024-05-29 09:48:34] INFO root fetch - processPackages [nimbletl]: executing diffoscope
+[2024-05-29 09:48:34] INFO root fetch - processPackages [nimbletl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nimbletl-0.1.5.tar.gz tmp/nimbletl-0.1.6.tar.gz --markdown 20240529/n/nimbletl/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-29 09:48:34] INFO root fetch - processPackages [candlefl]: Downloading https://files.pythonhosted.org/packages/17/30/6151c96c84e0ec02f632fa3758757a0e27b01df050feba086fa2654de61f/candlefl-0.2.3.tar.gz
+[2024-05-29 09:48:34] INFO root fetch - processPackages [bootpay-backend]: Downloading https://files.pythonhosted.org/packages/22/9e/b9697b90b34618bec77d63ba41590ee9274215d913ab8cb34397b2288b75/bootpay_backend-2.1.0.tar.gz
+[2024-05-29 09:48:35] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/cc/3a/2cab122ef371d628e0e339e8a0b5233e79840b362512069527bd9fce8f78/cloudforet-console-api-v2-2.0.dev99.tar.gz
+[2024-05-29 09:48:35] INFO root fetch - processPackages [candlefl]: executing diffoscope
+[2024-05-29 09:48:35] INFO root fetch - processPackages [candlefl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/candlefl-0.2.2.tar.gz tmp/candlefl-0.2.3.tar.gz --markdown 20240529/c/candlefl/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-29 09:48:35] INFO root fetch - processPackages [bootpay-backend]: executing diffoscope
+[2024-05-29 09:48:35] INFO root fetch - processPackages [bootpay-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootpay_backend-2.0.9.tar.gz tmp/bootpay_backend-2.1.0.tar.gz --markdown 20240529/b/bootpay-backend/2.0.9-2.1.0/README.md --exclude *.pyd
+[2024-05-29 09:48:35] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-05-29 09:48:35] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz --markdown 20240529/c/cloudforet-console-api-v2/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-29 09:48:35] INFO root fetch - processPackages [nimbletl]: Remove: archive file [/home/abi/fetcher/tmp/nimbletl-0.1.5.tar.gz]
+[2024-05-29 09:48:35] INFO root fetch - processPackages [nimbletl]: Remove: archive file [/home/abi/fetcher/tmp/nimbletl-0.1.6.tar.gz]
+[2024-05-29 09:48:35] INFO root fetch - main [MainThread]: End processing [nimbletl]: success
+[2024-05-29 09:48:35] INFO root fetch - processPackages [bootpay-backend]: Remove: archive file [/home/abi/fetcher/tmp/bootpay_backend-2.0.9.tar.gz]
+[2024-05-29 09:48:35] INFO root fetch - processPackages [bootpay-backend]: Remove: archive file [/home/abi/fetcher/tmp/bootpay_backend-2.1.0.tar.gz]
+[2024-05-29 09:48:35] INFO root fetch - main [MainThread]: End processing [bootpay-backend]: success
+[2024-05-29 09:48:35] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-05-29 09:48:35] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
+[2024-05-29 09:48:35] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-05-29 09:48:35] INFO root fetch - processPackages [candlefl]: Remove: archive file [/home/abi/fetcher/tmp/candlefl-0.2.2.tar.gz]
+[2024-05-29 09:48:35] INFO root fetch - processPackages [candlefl]: Remove: archive file [/home/abi/fetcher/tmp/candlefl-0.2.3.tar.gz]
+[2024-05-29 09:48:35] INFO root fetch - main [MainThread]: End processing [candlefl]: success
+[2024-05-29 09:48:35] INFO root fetch - main [MainThread]: Store serial: [23425785]
