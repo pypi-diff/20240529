@@ -18919,3 +18919,72 @@
 [2024-05-29 12:41:07] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240529.tar.gz]
 [2024-05-29 12:41:07] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-05-29 12:41:07] INFO root fetch - main [MainThread]: Store serial: [23428358]
+[2024-05-29 12:43:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428358]
+[2024-05-29 12:43:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 12:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e2e-cli
+[2024-05-29 12:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prediction-market-agent-tooling
+[2024-05-29 12:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-computer-assistant
+[2024-05-29 12:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parkapi-sources
+[2024-05-29 12:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-meta
+[2024-05-29 12:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ultralytics
+[2024-05-29 12:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyjabber
+[2024-05-29 12:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: schoolware-api
+[2024-05-29 12:43:17] INFO root fetch - processPackages [gpt-computer-assistant]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-29 12:43:17] WARNING root fetch - processPackages [wagtail-meta]: Skipping, unable to determine old version
+[2024-05-29 12:43:17] INFO root fetch - main [MainThread]: End processing [wagtail-meta] error
+[2024-05-29 12:43:17] INFO root fetch - processPackages [ultralytics]: New version: [8.2.9] Old Version: [8.2.8]
+[2024-05-29 12:43:17] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/9e/e0/5d44a87911499edcf82cb8482be3542269099c27587c789cce94ecae82c5/gpt_computer_assistant-0.5.4.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2d/1f/773ce923d52559a9246fe5b3e4d86c67714d941216658acdb23bf9d46212/ultralytics-8.2.8.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [parkapi-sources]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-29 12:43:17] INFO root fetch - processPackages [schoolware-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-29 12:43:17] INFO root fetch - processPackages [e2e-cli]: New version: [0.9.9.9] Old Version: [0.9.9.8]
+[2024-05-29 12:43:17] INFO root fetch - processPackages [pyjabber]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 12:43:17] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-05-29 12:43:17] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/ec/1b/ad4f51ec93196297c0b54e02688fb85b060154257686a6d769a190c1695d/e2e_cli-0.9.9.8.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [parkapi-sources]: Downloading https://files.pythonhosted.org/packages/73/e2/3b8f30fe11ada0598f13ae05ae07a51b0d7cf7d26ad7e92619771078501e/parkapi_sources-0.4.2.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/40/cc/d5bea290bbf870b8c32f51179b33743c8bd2603c836bdadb915d8182e2dd/prediction_market_agent_tooling-0.9.1.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/68/93/678c58f2e54c656007d20182638425195dfd0459835e6be20ca097990f44/schoolware_api-1.8.0.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/17/6e/89a05ffed4bbaae94368f45323ff75db71965c94c1259457ef61dc551645/ultralytics-8.2.9.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [pyjabber]: Downloading https://files.pythonhosted.org/packages/f7/ae/590b9f4809c4618efe0ee648f58181e6c36522eac627e852ebd63ab37f01/pyjabber-0.1.0.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/51/d4/1e5866f531863e4c2f6b22477e2cabbdd3b29a329560f61f083622e168bd/gpt_computer_assistant-0.5.5.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [gpt-computer-assistant]: executing diffoscope
+[2024-05-29 12:43:17] INFO root fetch - processPackages [gpt-computer-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_computer_assistant-0.5.4.tar.gz tmp/gpt_computer_assistant-0.5.5.tar.gz --markdown 20240529/g/gpt-computer-assistant/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-29 12:43:17] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-05-29 12:43:17] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.2.8.tar.gz tmp/ultralytics-8.2.9.tar.gz --markdown 20240529/u/ultralytics/8.2.8-8.2.9/README.md --exclude *.pyd
+[2024-05-29 12:43:17] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/2c/17/6b9526b52dfcdaf571b3cd941b0a0b14db378f0c8b89a1c361109cb73c26/prediction_market_agent_tooling-0.9.3.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [parkapi-sources]: Downloading https://files.pythonhosted.org/packages/06/48/cc7d5fb604c7f637d3deafd70cda07a36b3af2a7b4922494191b625f9365/parkapi_sources-0.4.3.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/cc/fe/f6dc0978925707ba4bed62a3b1e1ac6d18857331343c1ca7f8a18e071351/e2e_cli-0.9.9.9.tar.gz
+[2024-05-29 12:43:17] INFO root fetch - processPackages [e2e-cli]: executing diffoscope
+[2024-05-29 12:43:17] INFO root fetch - processPackages [e2e-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2e_cli-0.9.9.8.tar.gz tmp/e2e_cli-0.9.9.9.tar.gz --markdown 20240529/e/e2e-cli/0.9.9.8-0.9.9.9/README.md --exclude *.pyd
+[2024-05-29 12:43:18] INFO root fetch - processPackages [pyjabber]: Downloading https://files.pythonhosted.org/packages/ec/21/1c843ae7f9b2e4b15924b96356bd932bfcd021a482ab7ece1471e8dc85cc/pyjabber-0.1.1.tar.gz
+[2024-05-29 12:43:18] INFO root fetch - processPackages [parkapi-sources]: executing diffoscope
+[2024-05-29 12:43:18] INFO root fetch - processPackages [parkapi-sources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parkapi_sources-0.4.2.tar.gz tmp/parkapi_sources-0.4.3.tar.gz --markdown 20240529/p/parkapi-sources/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-29 12:43:18] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-05-29 12:43:18] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.9.1.tar.gz tmp/prediction_market_agent_tooling-0.9.3.tar.gz --markdown 20240529/p/prediction-market-agent-tooling/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-05-29 12:43:18] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/de/ad/2d477e7a9223531570ca14f88f63624dbf9aa7175b701ceaf98c7d0419e4/schoolware_api-1.9.0.tar.gz
+[2024-05-29 12:43:18] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2024-05-29 12:43:18] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.8.0.tar.gz tmp/schoolware_api-1.9.0.tar.gz --markdown 20240529/s/schoolware-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-29 12:43:18] INFO root fetch - processPackages [pyjabber]: executing diffoscope
+[2024-05-29 12:43:18] INFO root fetch - processPackages [pyjabber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjabber-0.1.0.tar.gz tmp/pyjabber-0.1.1.tar.gz --markdown 20240529/p/pyjabber/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 12:43:18] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.4.tar.gz]
+[2024-05-29 12:43:18] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.5.tar.gz]
+[2024-05-29 12:43:18] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant]: success
+[2024-05-29 12:43:18] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.1.tar.gz]
+[2024-05-29 12:43:18] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.3.tar.gz]
+[2024-05-29 12:43:18] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-05-29 12:43:18] INFO root fetch - processPackages [schoolware-api]: Remove: archive file [/home/abi/fetcher/tmp/schoolware_api-1.8.0.tar.gz]
+[2024-05-29 12:43:19] INFO root fetch - processPackages [schoolware-api]: Remove: archive file [/home/abi/fetcher/tmp/schoolware_api-1.9.0.tar.gz]
+[2024-05-29 12:43:19] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2024-05-29 12:43:19] INFO root fetch - processPackages [e2e-cli]: Remove: archive file [/home/abi/fetcher/tmp/e2e_cli-0.9.9.8.tar.gz]
+[2024-05-29 12:43:19] INFO root fetch - processPackages [e2e-cli]: Remove: archive file [/home/abi/fetcher/tmp/e2e_cli-0.9.9.9.tar.gz]
+[2024-05-29 12:43:19] INFO root fetch - main [MainThread]: End processing [e2e-cli]: success
+[2024-05-29 12:43:19] INFO root fetch - processPackages [pyjabber]: Remove: archive file [/home/abi/fetcher/tmp/pyjabber-0.1.0.tar.gz]
+[2024-05-29 12:43:19] INFO root fetch - processPackages [pyjabber]: Remove: archive file [/home/abi/fetcher/tmp/pyjabber-0.1.1.tar.gz]
+[2024-05-29 12:43:19] INFO root fetch - main [MainThread]: End processing [pyjabber]: success
+[2024-05-29 12:43:19] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.8.tar.gz]
+[2024-05-29 12:43:19] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.9.tar.gz]
+[2024-05-29 12:43:19] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-05-29 12:43:19] INFO root fetch - processPackages [parkapi-sources]: Remove: archive file [/home/abi/fetcher/tmp/parkapi_sources-0.4.2.tar.gz]
+[2024-05-29 12:43:19] INFO root fetch - processPackages [parkapi-sources]: Remove: archive file [/home/abi/fetcher/tmp/parkapi_sources-0.4.3.tar.gz]
+[2024-05-29 12:43:19] INFO root fetch - main [MainThread]: End processing [parkapi-sources]: success
+[2024-05-29 12:43:19] INFO root fetch - main [MainThread]: Store serial: [23428379]
