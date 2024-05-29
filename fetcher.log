@@ -20513,3 +20513,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:45:36] INFO root fetch - processPackages [lift-utils]: Remove: archive file [/home/abi/fetcher/tmp/lift_utils-0.2.tar.gz]
 [2024-05-29 13:45:36] INFO root fetch - main [MainThread]: End processing [lift-utils]: success
 [2024-05-29 13:45:36] INFO root fetch - main [MainThread]: Store serial: [23428983]
+[2024-05-29 13:47:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428983]
+[2024-05-29 13:47:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 13:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbrownell-DevTools
+[2024-05-29 13:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-mailchimp-integration
+[2024-05-29 13:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aura-tools
+[2024-05-29 13:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtail-zoom-integration
+[2024-05-29 13:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yabasi
+[2024-05-29 13:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blaze-double-bot
+[2024-05-29 13:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clean-python
+[2024-05-29 13:47:44] INFO root fetch - processPackages [aura-tools]: New version: [0.3] Old Version: [0.2]
+[2024-05-29 13:47:44] INFO root fetch - processPackages [clean-python]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-29 13:47:44] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/da/87/01f33d62ac10575f3a809ecdadd037d972eb03bd6d3961f83ed88f593fc0/aura_tools-0.2.tar.gz
+[2024-05-29 13:47:44] INFO root fetch - processPackages [wagtail-zoom-integration]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-29 13:47:44] INFO root fetch - processPackages [dbrownell-DevTools]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-29 13:47:44] INFO root fetch - processPackages [wagtail-mailchimp-integration]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-29 13:47:44] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/bd/c2/cab75fd591a8a0e523710dcd7cb658bc49d11ad336f4c3abd3f825f6e754/clean-python-0.9.5.tar.gz
+[2024-05-29 13:47:44] WARNING root fetch - processPackages [blaze-double-bot]: Skipping, unable to determine old version
+[2024-05-29 13:47:44] INFO root fetch - main [MainThread]: End processing [blaze-double-bot] error
+[2024-05-29 13:47:44] INFO root fetch - processPackages [yabasi]: New version: [0.3] Old Version: [0.2]
+[2024-05-29 13:47:45] INFO root fetch - processPackages [wagtail-zoom-integration]: Downloading https://files.pythonhosted.org/packages/1e/11/a56c1c972035a9ceb4d3be9b6d5546da0144decebfee1e77c2796dfe1232/wagtail_zoom_integration-0.0.7.tar.gz
+[2024-05-29 13:47:45] INFO root fetch - processPackages [yabasi]: Downloading https://files.pythonhosted.org/packages/3d/db/2c5cd3ddf59470d311af1ab59ca89a3b084aadee99e4220ab03089d7f521/yabasi-0.2.tar.gz
+[2024-05-29 13:47:45] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Downloading https://files.pythonhosted.org/packages/2f/48/c59e4fd39e151b96c15ef54a7b7ec51bf5a5ecf89af75e0a40111c6c85fc/wagtail-mailchimp-integration-0.0.9.tar.gz
+[2024-05-29 13:47:45] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/5f/6e/6f96232599f1e881c2a03f70ea85b49e4dbe86d8ac6044cf072d203f8c84/clean-python-0.9.6.tar.gz
+[2024-05-29 13:47:45] INFO root fetch - processPackages [dbrownell-DevTools]: Downloading https://files.pythonhosted.org/packages/e4/4d/0e19372b5607400e51d720966eaf41f18a1b6b007cc87ac6eb6d9f8becb6/dbrownell_DevTools-0.8.1-py3-none-any.whl
+[2024-05-29 13:47:45] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/69/e3/735f3cf7617511a7383701be579736d6c46b5c6d4d9ef1db5f7b25958a5f/aura_tools-0.3.tar.gz
+[2024-05-29 13:47:45] INFO root fetch - processPackages [clean-python]: executing diffoscope
+[2024-05-29 13:47:45] INFO root fetch - processPackages [clean-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-python-0.9.5.tar.gz tmp/clean-python-0.9.6.tar.gz --markdown 20240529/c/clean-python/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-29 13:47:45] INFO root fetch - processPackages [aura-tools]: executing diffoscope
+[2024-05-29 13:47:45] INFO root fetch - processPackages [aura-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura_tools-0.2.tar.gz tmp/aura_tools-0.3.tar.gz --markdown 20240529/a/aura-tools/0.2-0.3/README.md --exclude *.pyd
+[2024-05-29 13:47:45] INFO root fetch - processPackages [wagtail-zoom-integration]: Downloading https://files.pythonhosted.org/packages/a4/67/6dbceee74777a6cf4a9973a0fa7e529f2513aad5a0ba8f5beeddd128ccfe/wagtail_zoom_integration-0.0.8.tar.gz
+[2024-05-29 13:47:45] INFO root fetch - processPackages [dbrownell-DevTools]: Downloading https://files.pythonhosted.org/packages/6a/4c/d64b516137d9b57df6580e99ae3c7beb287715418efefbdf0c8260ba6e5d/dbrownell_DevTools-0.9.0-py3-none-any.whl
+[2024-05-29 13:47:45] INFO root fetch - processPackages [wagtail-zoom-integration]: executing diffoscope
+[2024-05-29 13:47:45] INFO root fetch - processPackages [wagtail-zoom-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_zoom_integration-0.0.7.tar.gz tmp/wagtail_zoom_integration-0.0.8.tar.gz --markdown 20240529/w/wagtail-zoom-integration/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-29 13:47:45] INFO root fetch - processPackages [yabasi]: Downloading https://files.pythonhosted.org/packages/d8/e5/331b62aae490dcc3b53e0f2dfa72a97ac381d671a74ae98dbd59cb4878ae/yabasi-0.3.tar.gz
+[2024-05-29 13:47:45] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Downloading https://files.pythonhosted.org/packages/c8/50/98d2d22288cdd9f9a94f495d3a93d187e950352eda82c67cdc7e182cc732/wagtail_mailchimp_integration-0.1.0.tar.gz
+[2024-05-29 13:47:45] INFO root fetch - processPackages [dbrownell-DevTools]: executing diffoscope
+[2024-05-29 13:47:45] INFO root fetch - processPackages [dbrownell-DevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbrownell_DevTools-0.8.1-py3-none-any.whl.zip tmp/dbrownell_DevTools-0.9.0-py3-none-any.whl.zip --markdown 20240529/d/dbrownell-DevTools/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-29 13:47:45] INFO root fetch - processPackages [yabasi]: executing diffoscope
+[2024-05-29 13:47:45] INFO root fetch - processPackages [yabasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yabasi-0.2.tar.gz tmp/yabasi-0.3.tar.gz --markdown 20240529/y/yabasi/0.2-0.3/README.md --exclude *.pyd
+[2024-05-29 13:47:45] INFO root fetch - processPackages [wagtail-mailchimp-integration]: executing diffoscope
+[2024-05-29 13:47:45] INFO root fetch - processPackages [wagtail-mailchimp-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-mailchimp-integration-0.0.9.tar.gz tmp/wagtail_mailchimp_integration-0.1.0.tar.gz --markdown 20240529/w/wagtail-mailchimp-integration/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-29 13:47:46] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.2.tar.gz]
+[2024-05-29 13:47:46] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.3.tar.gz]
+[2024-05-29 13:47:46] INFO root fetch - main [MainThread]: End processing [aura-tools]: success
+[2024-05-29 13:47:46] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.5.tar.gz]
+[2024-05-29 13:47:46] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.6.tar.gz]
+[2024-05-29 13:47:46] INFO root fetch - main [MainThread]: End processing [clean-python]: success
+[2024-05-29 13:47:46] INFO root fetch - processPackages [wagtail-zoom-integration]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_zoom_integration-0.0.7.tar.gz]
+[2024-05-29 13:47:46] INFO root fetch - processPackages [wagtail-zoom-integration]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_zoom_integration-0.0.8.tar.gz]
+[2024-05-29 13:47:46] INFO root fetch - main [MainThread]: End processing [wagtail-zoom-integration]: success
+[2024-05-29 13:47:46] INFO root fetch - processPackages [dbrownell-DevTools]: Remove: archive file [/home/abi/fetcher/tmp/dbrownell_DevTools-0.8.1-py3-none-any.whl.zip]
+[2024-05-29 13:47:46] INFO root fetch - processPackages [dbrownell-DevTools]: Remove: archive file [/home/abi/fetcher/tmp/dbrownell_DevTools-0.9.0-py3-none-any.whl.zip]
+[2024-05-29 13:47:46] INFO root fetch - main [MainThread]: End processing [dbrownell-DevTools]: success
+[2024-05-29 13:47:46] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-mailchimp-integration-0.0.9.tar.gz]
+[2024-05-29 13:47:46] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_mailchimp_integration-0.1.0.tar.gz]
+[2024-05-29 13:47:46] INFO root fetch - main [MainThread]: End processing [wagtail-mailchimp-integration]: success
+[2024-05-29 13:47:46] INFO root fetch - processPackages [yabasi]: Remove: archive file [/home/abi/fetcher/tmp/yabasi-0.2.tar.gz]
+[2024-05-29 13:47:46] INFO root fetch - processPackages [yabasi]: Remove: archive file [/home/abi/fetcher/tmp/yabasi-0.3.tar.gz]
+[2024-05-29 13:47:46] INFO root fetch - main [MainThread]: End processing [yabasi]: success
+[2024-05-29 13:47:46] INFO root fetch - main [MainThread]: Store serial: [23429003]
