@@ -10981,3 +10981,24 @@
 [2024-05-29 07:36:29] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
 [2024-05-29 07:36:29] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
 [2024-05-29 07:36:29] INFO root fetch - main [MainThread]: Store serial: [23424480]
+[2024-05-29 07:38:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424480]
+[2024-05-29 07:38:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 07:38:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-civo
+[2024-05-29 07:38:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aiven
+[2024-05-29 07:38:39] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-05-29 07:38:39] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1716959879] Old Version: [2.4.0a1716504945]
+[2024-05-29 07:38:39] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-05-29 07:38:40] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/b6/57/e20ec01ff5f23dfe13f4413f5195d3424da70213cb7195947d04aace3e7f/pulumi_civo-2.4.0a1716504945.tar.gz
+[2024-05-29 07:38:40] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/4a/4e/21b905e54e34bbd557030aef274869b9df92ef0d095cd0ad8b5f4c1bcaf2/pulumi_civo-2.4.0a1716959879.tar.gz
+[2024-05-29 07:38:40] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-05-29 07:38:40] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-29 07:38:40] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1716504945.tar.gz tmp/pulumi_civo-2.4.0a1716959879.tar.gz --markdown 20240529/p/pulumi-civo/2.4.0a1716504945-2.4.0a1716959879/README.md --exclude *.pyd
+[2024-05-29 07:38:40] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-05-29 07:38:40] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240529/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-05-29 07:38:41] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1716504945.tar.gz]
+[2024-05-29 07:38:41] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1716959879.tar.gz]
+[2024-05-29 07:38:41] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-29 07:38:41] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-05-29 07:38:41] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-05-29 07:38:41] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-05-29 07:38:41] INFO root fetch - main [MainThread]: Store serial: [23424486]
