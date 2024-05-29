@@ -11944,3 +11944,66 @@
 [2024-05-29 08:23:09] INFO root fetch - processPackages [confattr]: Remove: archive file [/home/abi/fetcher/tmp/confattr-1.6.1.tar.gz]
 [2024-05-29 08:23:09] INFO root fetch - main [MainThread]: End processing [confattr]: success
 [2024-05-29 08:23:09] INFO root fetch - main [MainThread]: Store serial: [23424913]
+[2024-05-29 08:25:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424913]
+[2024-05-29 08:25:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 08:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-onelogin
+[2024-05-29 08:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-05-29 08:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capdata
+[2024-05-29 08:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-scm
+[2024-05-29 08:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ambientctl
+[2024-05-29 08:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ambient-edge-server
+[2024-05-29 08:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: actionlint-py
+[2024-05-29 08:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CVE-2020-3452
+[2024-05-29 08:25:20] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-29 08:25:20] INFO root fetch - processPackages [pulumi-scm]: New version: [0.2.0a1716962294] Old Version: [0.2.0a1716511900]
+[2024-05-29 08:25:20] WARNING root fetch - processPackages [capdata]: Skipping, unable to determine old version
+[2024-05-29 08:25:20] INFO root fetch - main [MainThread]: End processing [capdata] error
+[2024-05-29 08:25:20] INFO root fetch - processPackages [actionlint-py]: New version: [1.7.1.15] Old Version: [1.7.0.14]
+[2024-05-29 08:25:20] INFO root fetch - processPackages [ambientctl]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-29 08:25:20] INFO root fetch - processPackages [ambient-edge-server]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-29 08:25:20] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.7.0a1716962486] Old Version: [0.7.0a1716511727]
+[2024-05-29 08:25:20] WARNING root fetch - processPackages [CVE-2020-3452]: Skipping, unable to determine old version
+[2024-05-29 08:25:20] INFO root fetch - main [MainThread]: End processing [CVE-2020-3452] error
+[2024-05-29 08:25:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-29 08:25:20] INFO root fetch - processPackages [pulumi-scm]: Downloading https://files.pythonhosted.org/packages/60/c4/2877d1444ee5599526569052ec4509fda1d91505da81a2f5d5cf91e77825/pulumi_scm-0.2.0a1716511900.tar.gz
+[2024-05-29 08:25:21] INFO root fetch - processPackages [ambientctl]: Downloading https://files.pythonhosted.org/packages/c5/f0/d40ef194506a5ff30fe751a47b9778ac813d27ae2f0e2bbeb245a77c011e/ambientctl-0.1.2.tar.gz
+[2024-05-29 08:25:21] INFO root fetch - processPackages [actionlint-py]: Downloading https://files.pythonhosted.org/packages/5c/74/f7ae08b0d09defee6b36871d806aed39bb6ae84ed11b97b585cc73e6eb81/actionlint_py-1.7.0.14.tar.gz
+[2024-05-29 08:25:21] INFO root fetch - processPackages [ambient-edge-server]: Downloading https://files.pythonhosted.org/packages/26/e3/05f7a23579ecd582d6e06ba113d5553adc695f1e5bd38615db0e127b1bcb/ambient_edge_server-0.1.4.tar.gz
+[2024-05-29 08:25:21] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/bc/fe/e56e56992b675e566b48a117b98e35cdad126d72f0941e9f2803c93a9d2c/pulumi_onelogin-0.7.0a1716511727.tar.gz
+[2024-05-29 08:25:21] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-29 08:25:21] INFO root fetch - processPackages [ambientctl]: Downloading https://files.pythonhosted.org/packages/55/31/d4697dfa1963bfea4f5e0e7b306afff9a8d00446a9b060e96446b71e04cc/ambientctl-0.2.0.tar.gz
+[2024-05-29 08:25:21] INFO root fetch - processPackages [ambient-edge-server]: Downloading https://files.pythonhosted.org/packages/b1/e6/ccd90238c399163e3e4633060c1b5844f9c5895a9101973c13a595a09764/ambient_edge_server-0.2.0.tar.gz
+[2024-05-29 08:25:21] INFO root fetch - processPackages [pulumi-scm]: Downloading https://files.pythonhosted.org/packages/bc/ae/2fcc240a81e0f352d5d59262312a32d3615b8c21ca57f9c9c141254f9004/pulumi_scm-0.2.0a1716962294.tar.gz
+[2024-05-29 08:25:21] INFO root fetch - processPackages [actionlint-py]: Downloading https://files.pythonhosted.org/packages/c4/58/2e80454c5ea5623ce2649bc7b0193b791dec04254a97a5e5c0ee402edba7/actionlint_py-1.7.1.15.tar.gz
+[2024-05-29 08:25:21] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/42/b5/740258de39118fa8dd20c7d894b0d74468d3a380ff544a9c8e41b1f8e32c/pulumi_onelogin-0.7.0a1716962486.tar.gz
+[2024-05-29 08:25:21] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-29 08:25:21] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240529/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-29 08:25:21] INFO root fetch - processPackages [ambientctl]: executing diffoscope
+[2024-05-29 08:25:21] INFO root fetch - processPackages [ambientctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambientctl-0.1.2.tar.gz tmp/ambientctl-0.2.0.tar.gz --markdown 20240529/a/ambientctl/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-29 08:25:21] INFO root fetch - processPackages [pulumi-scm]: executing diffoscope
+[2024-05-29 08:25:21] INFO root fetch - processPackages [pulumi-scm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_scm-0.2.0a1716511900.tar.gz tmp/pulumi_scm-0.2.0a1716962294.tar.gz --markdown 20240529/p/pulumi-scm/0.2.0a1716511900-0.2.0a1716962294/README.md --exclude *.pyd
+[2024-05-29 08:25:21] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2024-05-29 08:25:21] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.7.0a1716511727.tar.gz tmp/pulumi_onelogin-0.7.0a1716962486.tar.gz --markdown 20240529/p/pulumi-onelogin/0.7.0a1716511727-0.7.0a1716962486/README.md --exclude *.pyd
+[2024-05-29 08:25:21] INFO root fetch - processPackages [ambient-edge-server]: executing diffoscope
+[2024-05-29 08:25:21] INFO root fetch - processPackages [ambient-edge-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient_edge_server-0.1.4.tar.gz tmp/ambient_edge_server-0.2.0.tar.gz --markdown 20240529/a/ambient-edge-server/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-29 08:25:21] INFO root fetch - processPackages [actionlint-py]: executing diffoscope
+[2024-05-29 08:25:21] INFO root fetch - processPackages [actionlint-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actionlint_py-1.7.0.14.tar.gz tmp/actionlint_py-1.7.1.15.tar.gz --markdown 20240529/a/actionlint-py/1.7.0.14-1.7.1.15/README.md --exclude *.pyd
+[2024-05-29 08:25:22] INFO root fetch - processPackages [ambientctl]: Remove: archive file [/home/abi/fetcher/tmp/ambientctl-0.1.2.tar.gz]
+[2024-05-29 08:25:22] INFO root fetch - processPackages [ambientctl]: Remove: archive file [/home/abi/fetcher/tmp/ambientctl-0.2.0.tar.gz]
+[2024-05-29 08:25:22] INFO root fetch - main [MainThread]: End processing [ambientctl]: success
+[2024-05-29 08:25:22] INFO root fetch - processPackages [ambient-edge-server]: Remove: archive file [/home/abi/fetcher/tmp/ambient_edge_server-0.1.4.tar.gz]
+[2024-05-29 08:25:22] INFO root fetch - processPackages [ambient-edge-server]: Remove: archive file [/home/abi/fetcher/tmp/ambient_edge_server-0.2.0.tar.gz]
+[2024-05-29 08:25:22] INFO root fetch - main [MainThread]: End processing [ambient-edge-server]: success
+[2024-05-29 08:25:22] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1716511727.tar.gz]
+[2024-05-29 08:25:22] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1716962486.tar.gz]
+[2024-05-29 08:25:22] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2024-05-29 08:25:22] INFO root fetch - processPackages [actionlint-py]: Remove: archive file [/home/abi/fetcher/tmp/actionlint_py-1.7.0.14.tar.gz]
+[2024-05-29 08:25:22] INFO root fetch - processPackages [actionlint-py]: Remove: archive file [/home/abi/fetcher/tmp/actionlint_py-1.7.1.15.tar.gz]
+[2024-05-29 08:25:22] INFO root fetch - main [MainThread]: End processing [actionlint-py]: success
+[2024-05-29 08:25:22] INFO root fetch - processPackages [pulumi-scm]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_scm-0.2.0a1716511900.tar.gz]
+[2024-05-29 08:25:22] INFO root fetch - processPackages [pulumi-scm]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_scm-0.2.0a1716962294.tar.gz]
+[2024-05-29 08:25:22] INFO root fetch - main [MainThread]: End processing [pulumi-scm]: success
+[2024-05-29 08:25:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-29 08:25:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-29 08:25:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-29 08:25:23] INFO root fetch - main [MainThread]: Store serial: [23424943]
