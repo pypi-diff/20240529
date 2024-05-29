@@ -17358,3 +17358,54 @@
 [2024-05-29 11:43:33] INFO root fetch - processPackages [sheeprl]: Remove: archive file [/home/abi/fetcher/tmp/sheeprl-0.5.7.tar.gz]
 [2024-05-29 11:43:33] INFO root fetch - main [MainThread]: End processing [sheeprl]: success
 [2024-05-29 11:43:33] INFO root fetch - main [MainThread]: Store serial: [23427585]
+[2024-05-29 11:45:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427585]
+[2024-05-29 11:45:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 11:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vulp
+[2024-05-29 11:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-manager
+[2024-05-29 11:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ratteil
+[2024-05-29 11:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adapta
+[2024-05-29 11:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perun.proxygui
+[2024-05-29 11:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocsi
+[2024-05-29 11:45:42] INFO root fetch - processPackages [vulp]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-29 11:45:42] INFO root fetch - processPackages [mkdocsi]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-29 11:45:42] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-29 11:45:42] INFO root fetch - processPackages [torch-model-manager]: New version: [1.0.1.dev3] Old Version: [1.0.1.dev2]
+[2024-05-29 11:45:42] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/3b/f5/b2d6073baccce7ee95ae9217e3bbe023b464a4901696a0da9d9e942e6851/mkdocsi-1.3.2.tar.gz
+[2024-05-29 11:45:42] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/2e/55/7e53f7909980a787909439a5a5ae44a76e1111555a04b187db243265374f/torch_model_manager-1.0.1.dev2.tar.gz
+[2024-05-29 11:45:42] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-29 11:45:42] WARNING root fetch - processPackages [ratteil]: Skipping, unable to determine old version
+[2024-05-29 11:45:42] INFO root fetch - main [MainThread]: End processing [ratteil] error
+[2024-05-29 11:45:42] INFO root fetch - processPackages [perun.proxygui]: New version: [7.1.0] Old Version: [7.0.0]
+[2024-05-29 11:45:42] INFO root fetch - processPackages [vulp]: Downloading https://files.pythonhosted.org/packages/d1/05/6ce57553c9782a02c83078495884f33db87ce78cdaa87a74de3a762e13c1/vulp-2.3.0.tar.gz
+[2024-05-29 11:45:42] INFO root fetch - processPackages [vulp]: Downloading https://files.pythonhosted.org/packages/27/a1/65e0794a221ee756a75fc1374c278364d0335a9f5ff68aef4d58a26dad70/vulp-2.4.0-py3-none-any.whl
+[2024-05-29 11:45:42] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/86/2c/860bceabfb57f9a38fe95914a79f99d473a8503d56279769c4ac47882594/perun.proxygui-7.0.0.tar.gz
+[2024-05-29 11:45:42] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-29 11:45:42] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/e2/1b/d3d1c06c573ac2a05e2b47c01611e4b4aea8937c11083e018d4b249cd453/torch_model_manager-1.0.1.dev3.tar.gz
+[2024-05-29 11:45:42] INFO root fetch - processPackages [vulp]: executing diffoscope
+[2024-05-29 11:45:42] INFO root fetch - processPackages [vulp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulp-2.3.0.tar.gz tmp/vulp-2.4.0-py3-none-any.whl.zip --markdown 20240529/v/vulp/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-29 11:45:42] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/e6/da/1350c25c9bc5e44b3b4676714522ce3d6baeb8d28142aff266d3e9439f0a/mkdocsi-1.3.3.tar.gz
+[2024-05-29 11:45:42] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-29 11:45:42] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240529/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-29 11:45:42] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-29 11:45:42] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-1.0.1.dev2.tar.gz tmp/torch_model_manager-1.0.1.dev3.tar.gz --markdown 20240529/t/torch-model-manager/1.0.1.dev2-1.0.1.dev3/README.md --exclude *.pyd
+[2024-05-29 11:45:42] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 11:45:42] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.3.2.tar.gz tmp/mkdocsi-1.3.3.tar.gz --markdown 20240529/m/mkdocsi/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-29 11:45:43] INFO root fetch - processPackages [vulp]: Remove: archive file [/home/abi/fetcher/tmp/vulp-2.3.0.tar.gz]
+[2024-05-29 11:45:43] INFO root fetch - processPackages [vulp]: Remove: archive file [/home/abi/fetcher/tmp/vulp-2.4.0-py3-none-any.whl.zip]
+[2024-05-29 11:45:43] INFO root fetch - main [MainThread]: End processing [vulp]: success
+[2024-05-29 11:45:43] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.2.tar.gz]
+[2024-05-29 11:45:43] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.3.tar.gz]
+[2024-05-29 11:45:43] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 11:45:43] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-1.0.1.dev2.tar.gz]
+[2024-05-29 11:45:43] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-1.0.1.dev3.tar.gz]
+[2024-05-29 11:45:43] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-29 11:45:43] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/63/f1/ed428fbeb0d22bad4eccf98ebb6928324ab92daa20b9a8bc64c6a1831853/perun.proxygui-7.1.0.tar.gz
+[2024-05-29 11:45:43] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-29 11:45:43] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-29 11:45:43] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-29 11:45:44] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-05-29 11:45:44] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-7.0.0.tar.gz tmp/perun.proxygui-7.1.0.tar.gz --markdown 20240529/p/perun.proxygui/7.0.0-7.1.0/README.md --exclude *.pyd
+[2024-05-29 11:45:47] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-7.0.0.tar.gz]
+[2024-05-29 11:45:47] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-7.1.0.tar.gz]
+[2024-05-29 11:45:47] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-05-29 11:45:47] INFO root fetch - main [MainThread]: Store serial: [23427606]
