@@ -10344,3 +10344,27 @@
 [2024-05-29 07:08:02] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-29 07:08:02] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-29 07:08:02] INFO root fetch - main [MainThread]: Store serial: [23424222]
+[2024-05-29 07:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424222]
+[2024-05-29 07:10:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 07:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-l10n-spain
+[2024-05-29 07:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solo-cli
+[2024-05-29 07:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-standardized-response
+[2024-05-29 07:10:12] INFO root fetch - processPackages [drf-standardized-response]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-29 07:10:12] INFO root fetch - processPackages [drf-standardized-response]: Downloading https://files.pythonhosted.org/packages/74/9d/ee8cee195b979112c8ae0bb545daa6ccf7010bb44e2bb0bbba319b0868de/drf_standardized_response-1.1.1.tar.gz
+[2024-05-29 07:10:12] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: New version: [14.0.20240528.0] Old Version: [14.0.20240523.0]
+[2024-05-29 07:10:12] WARNING root fetch - processPackages [solo-cli]: Skipping, unable to determine old version
+[2024-05-29 07:10:12] INFO root fetch - main [MainThread]: End processing [solo-cli] error
+[2024-05-29 07:10:12] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/e0/76/d6dfd9cedacc5a833928e871a959e7a397e97682ce4d0e3fbdddb460e7c8/odoo14_addons_oca_l10n_spain-14.0.20240523.0-py3-none-any.whl
+[2024-05-29 07:10:12] INFO root fetch - processPackages [drf-standardized-response]: Downloading https://files.pythonhosted.org/packages/49/a1/4651bdbd46e0cfdadc84f8383d11d0e289a60512b59fc8b8adb4527a22a8/drf_standardized_response-1.1.2.tar.gz
+[2024-05-29 07:10:13] INFO root fetch - processPackages [drf-standardized-response]: executing diffoscope
+[2024-05-29 07:10:13] INFO root fetch - processPackages [drf-standardized-response]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_standardized_response-1.1.1.tar.gz tmp/drf_standardized_response-1.1.2.tar.gz --markdown 20240529/d/drf-standardized-response/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-29 07:10:13] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/98/39/6f006f24e1b5ca7dd2e0af691edc8dfc09b1eeaa3d68288e61466feb7dfd/odoo14_addons_oca_l10n_spain-14.0.20240528.0-py3-none-any.whl
+[2024-05-29 07:10:13] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: executing diffoscope
+[2024-05-29 07:10:13] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_spain-14.0.20240523.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_spain-14.0.20240528.0-py3-none-any.whl.zip --markdown 20240529/o/odoo14-addons-oca-l10n-spain/14.0.20240523.0-14.0.20240528.0/README.md --exclude *.pyd
+[2024-05-29 07:10:13] INFO root fetch - processPackages [drf-standardized-response]: Remove: archive file [/home/abi/fetcher/tmp/drf_standardized_response-1.1.1.tar.gz]
+[2024-05-29 07:10:13] INFO root fetch - processPackages [drf-standardized-response]: Remove: archive file [/home/abi/fetcher/tmp/drf_standardized_response-1.1.2.tar.gz]
+[2024-05-29 07:10:13] INFO root fetch - main [MainThread]: End processing [drf-standardized-response]: success
+[2024-05-29 07:10:13] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_spain-14.0.20240523.0-py3-none-any.whl.zip]
+[2024-05-29 07:10:13] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_spain-14.0.20240528.0-py3-none-any.whl.zip]
+[2024-05-29 07:10:13] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-spain]: success
+[2024-05-29 07:10:13] INFO root fetch - main [MainThread]: Store serial: [23424233]
