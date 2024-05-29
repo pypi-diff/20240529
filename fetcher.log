@@ -14459,3 +14459,66 @@
 [2024-05-29 10:15:03] INFO root fetch - processPackages [foyou-cli]: Remove: archive file [/home/abi/fetcher/tmp/foyou-cli-0.0.9.tar.gz]
 [2024-05-29 10:15:03] INFO root fetch - main [MainThread]: End processing [foyou-cli]: success
 [2024-05-29 10:15:03] INFO root fetch - main [MainThread]: Store serial: [23426134]
+[2024-05-29 10:17:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426134]
+[2024-05-29 10:17:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 10:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xplainable-client
+[2024-05-29 10:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ussl
+[2024-05-29 10:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blockmango
+[2024-05-29 10:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scitacean
+[2024-05-29 10:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-inventory-preparation-filter
+[2024-05-29 10:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recommendation-lib
+[2024-05-29 10:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: textIntegrityInspector
+[2024-05-29 10:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: satsim
+[2024-05-29 10:17:11] INFO root fetch - processPackages [blockmango]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-29 10:17:11] WARNING root fetch - processPackages [recommendation-lib]: Skipping, unable to determine old version
+[2024-05-29 10:17:11] INFO root fetch - main [MainThread]: End processing [recommendation-lib] error
+[2024-05-29 10:17:11] INFO root fetch - processPackages [odoo-addon-stock-inventory-preparation-filter]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.5]
+[2024-05-29 10:17:11] INFO root fetch - processPackages [scitacean]: New version: [24.5.0] Old Version: [24.4.0]
+[2024-05-29 10:17:11] INFO root fetch - processPackages [blockmango]: Downloading https://files.pythonhosted.org/packages/dd/c1/d48cae0e371fce66faccdd9a0b98db857594c419818e7c58573af03de447/blockmango-1.4.5.tar.gz
+[2024-05-29 10:17:11] INFO root fetch - processPackages [ussl]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-29 10:17:11] INFO root fetch - processPackages [xplainable-client]: New version: [1.2.5.post1] Old Version: [1.2.5]
+[2024-05-29 10:17:11] WARNING root fetch - processPackages [textIntegrityInspector]: Skipping, unable to determine old version
+[2024-05-29 10:17:11] INFO root fetch - main [MainThread]: End processing [textIntegrityInspector] error
+[2024-05-29 10:17:11] INFO root fetch - processPackages [satsim]: New version: [0.19.0] Old Version: [0.18.0]
+[2024-05-29 10:17:11] INFO root fetch - processPackages [scitacean]: Downloading https://files.pythonhosted.org/packages/9f/18/bd6e05079b210ca2f1e4e240add5e373b6c5af81baf5b621bd99cadb9e8a/scitacean-24.4.0.tar.gz
+[2024-05-29 10:17:11] INFO root fetch - processPackages [odoo-addon-stock-inventory-preparation-filter]: Downloading https://files.pythonhosted.org/packages/f8/00/36c82dac020bca05961f19903fd3c6954ee57e00e2ccd321e2ec7dc11f11/odoo_addon_stock_inventory_preparation_filter-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-29 10:17:11] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/e9/5e/3ec419c771e023d8ad19a43ecbb6f0d8a269a07b728757c68dc4fecd49f9/ussl-1.1.1.tar.gz
+[2024-05-29 10:17:11] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/36/88/8ca32fa5a99a8f3c63e7b252f925764f7d5ec3a021b394d16bbd574544f0/xplainable_client-1.2.5.tar.gz
+[2024-05-29 10:17:12] INFO root fetch - processPackages [satsim]: Downloading https://files.pythonhosted.org/packages/89/cf/3f12433b941d1c02c69a64939388f1d5b65f4a9452c69d052e024ea5497d/satsim-0.18.0.tar.gz
+[2024-05-29 10:17:12] INFO root fetch - processPackages [blockmango]: Downloading https://files.pythonhosted.org/packages/e5/24/e8584c41f7c6017b3ceff17a58d3fa2537f32f7cfe2756ced3a896f12dd5/blockmango-1.4.6.tar.gz
+[2024-05-29 10:17:12] INFO root fetch - processPackages [blockmango]: executing diffoscope
+[2024-05-29 10:17:12] INFO root fetch - processPackages [blockmango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockmango-1.4.5.tar.gz tmp/blockmango-1.4.6.tar.gz --markdown 20240529/b/blockmango/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-29 10:17:12] INFO root fetch - processPackages [odoo-addon-stock-inventory-preparation-filter]: Downloading https://files.pythonhosted.org/packages/c0/1f/50298d3de52ab939f25c4652ed9c398c5f7bce30016d484887c22acb03a7/odoo_addon_stock_inventory_preparation_filter-16.0.1.1.0-py3-none-any.whl
+[2024-05-29 10:17:12] INFO root fetch - processPackages [scitacean]: Downloading https://files.pythonhosted.org/packages/31/28/7bf7c15431bdf2eb590b51d8b21b66ffb46d974881ac7b99969092f6643f/scitacean-24.5.0.tar.gz
+[2024-05-29 10:17:12] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/a3/74/de23fc3fedde40138caa8c27bfaa5886d7bca0250682bec4d28bbf810ceb/ussl-1.1.2.tar.gz
+[2024-05-29 10:17:12] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/b6/8a/f11fcfba49d7eef6398b6bc356479941382efd4d101feed8701efbeb89e6/xplainable_client-1.2.5.post1.tar.gz
+[2024-05-29 10:17:12] INFO root fetch - processPackages [scitacean]: executing diffoscope
+[2024-05-29 10:17:12] INFO root fetch - processPackages [ussl]: executing diffoscope
+[2024-05-29 10:17:12] INFO root fetch - processPackages [ussl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ussl-1.1.1.tar.gz tmp/ussl-1.1.2.tar.gz --markdown 20240529/u/ussl/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-29 10:17:12] INFO root fetch - processPackages [scitacean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scitacean-24.4.0.tar.gz tmp/scitacean-24.5.0.tar.gz --markdown 20240529/s/scitacean/24.4.0-24.5.0/README.md --exclude *.pyd
+[2024-05-29 10:17:12] INFO root fetch - processPackages [odoo-addon-stock-inventory-preparation-filter]: executing diffoscope
+[2024-05-29 10:17:12] INFO root fetch - processPackages [odoo-addon-stock-inventory-preparation-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_inventory_preparation_filter-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_stock_inventory_preparation_filter-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-stock-inventory-preparation-filter/16.0.1.0.0.5-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-29 10:17:12] INFO root fetch - processPackages [xplainable-client]: executing diffoscope
+[2024-05-29 10:17:12] INFO root fetch - processPackages [xplainable-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplainable_client-1.2.5.tar.gz tmp/xplainable_client-1.2.5.post1.tar.gz --markdown 20240529/x/xplainable-client/1.2.5-1.2.5.post1/README.md --exclude *.pyd
+[2024-05-29 10:17:12] INFO root fetch - processPackages [satsim]: Downloading https://files.pythonhosted.org/packages/06/7b/285a3f87b563100e4e9d8d9ee354e549503bb8692a4327e1ccc9adee800d/satsim-0.19.0.tar.gz
+[2024-05-29 10:17:12] INFO root fetch - processPackages [satsim]: executing diffoscope
+[2024-05-29 10:17:12] INFO root fetch - processPackages [satsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsim-0.18.0.tar.gz tmp/satsim-0.19.0.tar.gz --markdown 20240529/s/satsim/0.18.0-0.19.0/README.md --exclude *.pyd
+[2024-05-29 10:17:13] INFO root fetch - processPackages [blockmango]: Remove: archive file [/home/abi/fetcher/tmp/blockmango-1.4.5.tar.gz]
+[2024-05-29 10:17:13] INFO root fetch - processPackages [blockmango]: Remove: archive file [/home/abi/fetcher/tmp/blockmango-1.4.6.tar.gz]
+[2024-05-29 10:17:13] INFO root fetch - main [MainThread]: End processing [blockmango]: success
+[2024-05-29 10:17:13] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.1.1.tar.gz]
+[2024-05-29 10:17:13] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.1.2.tar.gz]
+[2024-05-29 10:17:13] INFO root fetch - main [MainThread]: End processing [ussl]: success
+[2024-05-29 10:17:13] INFO root fetch - processPackages [odoo-addon-stock-inventory-preparation-filter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory_preparation_filter-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-29 10:17:13] INFO root fetch - processPackages [odoo-addon-stock-inventory-preparation-filter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory_preparation_filter-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-29 10:17:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-inventory-preparation-filter]: success
+[2024-05-29 10:17:13] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.tar.gz]
+[2024-05-29 10:17:13] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.post1.tar.gz]
+[2024-05-29 10:17:13] INFO root fetch - main [MainThread]: End processing [xplainable-client]: success
+[2024-05-29 10:17:14] INFO root fetch - processPackages [scitacean]: Remove: archive file [/home/abi/fetcher/tmp/scitacean-24.4.0.tar.gz]
+[2024-05-29 10:17:14] INFO root fetch - processPackages [scitacean]: Remove: archive file [/home/abi/fetcher/tmp/scitacean-24.5.0.tar.gz]
+[2024-05-29 10:17:14] INFO root fetch - main [MainThread]: End processing [scitacean]: success
+[2024-05-29 10:17:15] INFO root fetch - processPackages [satsim]: Remove: archive file [/home/abi/fetcher/tmp/satsim-0.18.0.tar.gz]
+[2024-05-29 10:17:15] INFO root fetch - processPackages [satsim]: Remove: archive file [/home/abi/fetcher/tmp/satsim-0.19.0.tar.gz]
+[2024-05-29 10:17:15] INFO root fetch - main [MainThread]: End processing [satsim]: success
+[2024-05-29 10:17:15] INFO root fetch - main [MainThread]: Store serial: [23426194]
