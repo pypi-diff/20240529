@@ -7311,3 +7311,27 @@
 [2024-05-29 03:54:06] INFO root fetch - processPackages [fosslight-scanner]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_scanner-1.7.9.tar.gz]
 [2024-05-29 03:54:06] INFO root fetch - main [MainThread]: End processing [fosslight-scanner]: success
 [2024-05-29 03:54:06] INFO root fetch - main [MainThread]: Store serial: [23422979]
+[2024-05-29 03:56:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23422979]
+[2024-05-29 03:56:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 03:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flywheel-bids
+[2024-05-29 03:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: form-tui
+[2024-05-29 03:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-grasshopper-energy
+[2024-05-29 03:56:14] WARNING root fetch - processPackages [form-tui]: Skipping, unable to determine old version
+[2024-05-29 03:56:14] INFO root fetch - main [MainThread]: End processing [form-tui] error
+[2024-05-29 03:56:14] INFO root fetch - processPackages [flywheel-bids]: New version: [1.2.9] Old Version: [1.2.6]
+[2024-05-29 03:56:14] INFO root fetch - processPackages [honeybee-grasshopper-energy]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-29 03:56:15] INFO root fetch - processPackages [flywheel-bids]: Downloading https://files.pythonhosted.org/packages/dc/72/5745995229fed688c098652808a78c1ed8072df70443e7b364270de38742/flywheel_bids-1.2.6-py3-none-any.whl
+[2024-05-29 03:56:15] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/8d/41/2b1f8fcb0e971555f5d09037fa11e4fabeb60e1537e6d7116ac16db47a14/honeybee-grasshopper-energy-1.9.1.tar.gz
+[2024-05-29 03:56:15] INFO root fetch - processPackages [flywheel-bids]: Downloading https://files.pythonhosted.org/packages/4a/79/77f8d94fb1638d2f7629a46fa334d6f49ff65660fbd2272612941d27220b/flywheel_bids-1.2.9-py3-none-any.whl
+[2024-05-29 03:56:15] INFO root fetch - processPackages [flywheel-bids]: executing diffoscope
+[2024-05-29 03:56:15] INFO root fetch - processPackages [flywheel-bids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flywheel_bids-1.2.6-py3-none-any.whl.zip tmp/flywheel_bids-1.2.9-py3-none-any.whl.zip --markdown 20240529/f/flywheel-bids/1.2.6-1.2.9/README.md --exclude *.pyd
+[2024-05-29 03:56:15] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/c0/77/5ea4f5cbf977edd2c2511c83b34d974baf46a246f689d9228b3fb66f7a48/honeybee-grasshopper-energy-1.9.2.tar.gz
+[2024-05-29 03:56:16] INFO root fetch - processPackages [honeybee-grasshopper-energy]: executing diffoscope
+[2024-05-29 03:56:16] INFO root fetch - processPackages [honeybee-grasshopper-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-energy-1.9.1.tar.gz tmp/honeybee-grasshopper-energy-1.9.2.tar.gz --markdown 20240529/h/honeybee-grasshopper-energy/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-29 03:56:16] INFO root fetch - processPackages [flywheel-bids]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_bids-1.2.6-py3-none-any.whl.zip]
+[2024-05-29 03:56:16] INFO root fetch - processPackages [flywheel-bids]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_bids-1.2.9-py3-none-any.whl.zip]
+[2024-05-29 03:56:16] INFO root fetch - main [MainThread]: End processing [flywheel-bids]: success
+[2024-05-29 03:56:17] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-energy-1.9.1.tar.gz]
+[2024-05-29 03:56:17] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-energy-1.9.2.tar.gz]
+[2024-05-29 03:56:17] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-energy]: success
+[2024-05-29 03:56:17] INFO root fetch - main [MainThread]: Store serial: [23422989]
