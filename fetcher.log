@@ -20173,3 +20173,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:25:56] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2024-05-29 13:25:56] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2024-05-29 13:25:56] INFO root fetch - main [MainThread]: Store serial: [23428846]
+[2024-05-29 13:28:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428846]
+[2024-05-29 13:28:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 13:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchx-nightly
+[2024-05-29 13:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DLMS-SPODES-client
+[2024-05-29 13:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-reconcile-oca
+[2024-05-29 13:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchtnt-nightly
+[2024-05-29 13:28:05] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.1.1]
+[2024-05-29 13:28:05] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-29 13:28:05] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2024.5.28] Old Version: [2024.5.27]
+[2024-05-29 13:28:05] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4f/2c/1b1fd11c1eb29345cef72d90c551ee6ca39cb1ca91dcb13a62e39d09d3e9/torchx_nightly-2024.5.8-py3-none-any.whl
+[2024-05-29 13:28:05] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-29 13:28:05] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/ec/a7/75561acb27a5ebc8d7a450fc0740ad19188001a2549c0ca8fa76246f9c81/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-29 13:28:05] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/28/f9/a71d203b558a8f4dfca3e0b587dcffd1d25bdeb22215d058afbd23fe5938/DLMS_SPODES_client-0.8.8.tar.gz
+[2024-05-29 13:28:05] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/76/48/8255df3bf3f927165a13927733046614c156232c2208ac6caf4ad7849198/torchtnt_nightly-2024.5.27.tar.gz
+[2024-05-29 13:28:06] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/77/19/3475ceeec15466054f155b399d006faaf128258c35d771397c04ac9cf1e4/torchx_nightly-2024.5.9-py3-none-any.whl
+[2024-05-29 13:28:06] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/21/17/7b10fed1ec3fa160be226b55f93ff9b8a6e7cabeab5f91cb582fbf1886ad/odoo_addon_account_reconcile_oca-17.0.1.1.0-py3-none-any.whl
+[2024-05-29 13:28:06] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/7d/4f/472aa1bb34fcd9b88d1e6b5a48a4b6785f2c83c28e2f5d199233c734da4a/DLMS_SPODES_client-0.8.9.tar.gz
+[2024-05-29 13:28:06] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/41/8a/cc93f9de00452ffcc2eb40cf004444186480d9c8f6db5775f9223dc3a967/torchtnt_nightly-2024.5.28.tar.gz
+[2024-05-29 13:28:06] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-05-29 13:28:06] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.8.8.tar.gz tmp/DLMS_SPODES_client-0.8.9.tar.gz --markdown 20240529/D/DLMS-SPODES-client/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-29 13:28:06] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-05-29 13:28:06] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-account-reconcile-oca/17.0.1.0.1.1-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-29 13:28:06] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-29 13:28:06] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240529/t/torchx-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-29 13:28:06] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2024-05-29 13:28:06] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt_nightly-2024.5.27.tar.gz tmp/torchtnt_nightly-2024.5.28.tar.gz --markdown 20240529/t/torchtnt-nightly/2024.5.27-2024.5.28/README.md --exclude *.pyd
+[2024-05-29 13:28:07] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.8.tar.gz]
+[2024-05-29 13:28:07] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.9.tar.gz]
+[2024-05-29 13:28:07] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-05-29 13:28:07] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.27.tar.gz]
+[2024-05-29 13:28:07] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.28.tar.gz]
+[2024-05-29 13:28:07] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2024-05-29 13:28:07] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-29 13:28:07] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-29 13:28:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-05-29 13:28:07] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-29 13:28:07] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-29 13:28:07] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-29 13:28:07] INFO root fetch - main [MainThread]: Store serial: [23428858]
