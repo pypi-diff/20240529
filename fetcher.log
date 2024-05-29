@@ -7233,3 +7233,33 @@
 [2024-05-29 03:45:23] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.9.0.tar.gz]
 [2024-05-29 03:45:23] INFO root fetch - main [MainThread]: End processing [dbgear]: success
 [2024-05-29 03:45:23] INFO root fetch - main [MainThread]: Store serial: [23422770]
+[2024-05-29 03:47:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23422770]
+[2024-05-29 03:47:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 03:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emotion-analysis
+[2024-05-29 03:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image-center
+[2024-05-29 03:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mg-pso-gui
+[2024-05-29 03:47:33] INFO root fetch - processPackages [emotion-analysis]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 03:47:33] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-29 03:47:33] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/df/83/034ff30ffab79111af61b23ddbbacb0dc8d0faee9958bec000f788ee7a76/mg-pso-gui-0.1.98.tar.gz
+[2024-05-29 03:47:33] INFO root fetch - processPackages [image-center]: New version: [2024.5.29] Old Version: [2024.5.24]
+[2024-05-29 03:47:33] INFO root fetch - processPackages [emotion-analysis]: Downloading https://files.pythonhosted.org/packages/6f/cb/1056a95d4575efa325d1ac2625c6cc7dee1d8bc39ffe809be607e085eb70/emotion_analysis-0.1.3.tar.gz
+[2024-05-29 03:47:33] INFO root fetch - processPackages [image-center]: Downloading https://files.pythonhosted.org/packages/0d/e9/2c62d5adec6e5c0b5de05e95aa135eab63dfa27213c0458b8b13dfeef428/image_center-2024.5.24.tar.gz
+[2024-05-29 03:47:33] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/02/26/25a563653e3f76ef0cdf3b09aef810d638a12dd3cab560f67bf7a0c694e9/mg-pso-gui-0.1.99.tar.gz
+[2024-05-29 03:47:33] INFO root fetch - processPackages [emotion-analysis]: Downloading https://files.pythonhosted.org/packages/50/3e/24a62dd5e5cfd7033576d9903da27bcaa5e0319ca4f54ee2f42998d10842/emotion_analysis-0.1.4.tar.gz
+[2024-05-29 03:47:33] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-29 03:47:33] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.98.tar.gz tmp/mg-pso-gui-0.1.99.tar.gz --markdown 20240529/m/mg-pso-gui/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-29 03:47:33] INFO root fetch - processPackages [emotion-analysis]: executing diffoscope
+[2024-05-29 03:47:33] INFO root fetch - processPackages [emotion-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emotion_analysis-0.1.3.tar.gz tmp/emotion_analysis-0.1.4.tar.gz --markdown 20240529/e/emotion-analysis/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-29 03:47:33] INFO root fetch - processPackages [image-center]: Downloading https://files.pythonhosted.org/packages/04/e2/b9271205afe48b564a8ab06222da9ba3e0e85166586737da056b045232c3/image_center-2024.5.29.tar.gz
+[2024-05-29 03:47:33] INFO root fetch - processPackages [image-center]: executing diffoscope
+[2024-05-29 03:47:33] INFO root fetch - processPackages [image-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_center-2024.5.24.tar.gz tmp/image_center-2024.5.29.tar.gz --markdown 20240529/i/image-center/2024.5.24-2024.5.29/README.md --exclude *.pyd
+[2024-05-29 03:47:34] INFO root fetch - processPackages [emotion-analysis]: Remove: archive file [/home/abi/fetcher/tmp/emotion_analysis-0.1.3.tar.gz]
+[2024-05-29 03:47:34] INFO root fetch - processPackages [emotion-analysis]: Remove: archive file [/home/abi/fetcher/tmp/emotion_analysis-0.1.4.tar.gz]
+[2024-05-29 03:47:34] INFO root fetch - main [MainThread]: End processing [emotion-analysis]: success
+[2024-05-29 03:47:34] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.98.tar.gz]
+[2024-05-29 03:47:34] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.99.tar.gz]
+[2024-05-29 03:47:34] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-29 03:47:34] INFO root fetch - processPackages [image-center]: Remove: archive file [/home/abi/fetcher/tmp/image_center-2024.5.24.tar.gz]
+[2024-05-29 03:47:34] INFO root fetch - processPackages [image-center]: Remove: archive file [/home/abi/fetcher/tmp/image_center-2024.5.29.tar.gz]
+[2024-05-29 03:47:34] INFO root fetch - main [MainThread]: End processing [image-center]: success
+[2024-05-29 03:47:34] INFO root fetch - main [MainThread]: Store serial: [23422878]
