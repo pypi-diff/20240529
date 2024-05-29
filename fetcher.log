@@ -11573,3 +11573,42 @@
 [2024-05-29 08:04:58] INFO root fetch - processPackages [pyiskra]: Remove: archive file [/home/abi/fetcher/tmp/pyiskra-1.0.1.tar.gz]
 [2024-05-29 08:04:58] INFO root fetch - main [MainThread]: End processing [pyiskra]: success
 [2024-05-29 08:04:58] INFO root fetch - main [MainThread]: Store serial: [23424723]
+[2024-05-29 08:07:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424723]
+[2024-05-29 08:07:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 08:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ophyd-devices
+[2024-05-29 08:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-05-29 08:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-purchase-manual-delivery
+[2024-05-29 08:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-libvirt
+[2024-05-29 08:07:07] INFO root fetch - processPackages [odoo14-addon-purchase-manual-delivery]: New version: [14.0.1.0.2.dev7] Old Version: [14.0.1.0.2.dev6]
+[2024-05-29 08:07:07] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1716961499] Old Version: [0.5.0a1716509922]
+[2024-05-29 08:07:07] INFO root fetch - processPackages [ophyd-devices]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-29 08:07:07] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/14/b6/a1e72623e0c03c93f379f7bd391ec5c0cb193afbd4e623ef2c9effa1b704/ophyd_devices-1.1.0.tar.gz
+[2024-05-29 08:07:07] INFO root fetch - processPackages [odoo14-addon-purchase-manual-delivery]: Downloading https://files.pythonhosted.org/packages/44/c3/e99010f710bd8163ab9bf7602958f5691f0cfd032c9bc74b09d85d25c6bc/odoo14_addon_purchase_manual_delivery-14.0.1.0.2.dev6-py3-none-any.whl
+[2024-05-29 08:07:07] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/bb/be/3b464e179f527311e3a1335fa5c201f0467517fbed912137a1657ade8ec2/pulumi_libvirt-0.5.0a1716509922.tar.gz
+[2024-05-29 08:07:07] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-29 08:07:07] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-29 08:07:07] INFO root fetch - processPackages [odoo14-addon-purchase-manual-delivery]: Downloading https://files.pythonhosted.org/packages/12/88/557e2913c762ece82273814d25195e8419e7d9d568a55e7ab0687bfc0d8e/odoo14_addon_purchase_manual_delivery-14.0.1.0.2.dev7-py3-none-any.whl
+[2024-05-29 08:07:07] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/5e/cd/7dc45c0ccdc5deabaa35aedb83634c8b29c59659d3a48faabe4e323e3edf/pulumi_libvirt-0.5.0a1716961499.tar.gz
+[2024-05-29 08:07:07] INFO root fetch - processPackages [odoo14-addon-purchase-manual-delivery]: executing diffoscope
+[2024-05-29 08:07:07] INFO root fetch - processPackages [odoo14-addon-purchase-manual-delivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_manual_delivery-14.0.1.0.2.dev6-py3-none-any.whl.zip tmp/odoo14_addon_purchase_manual_delivery-14.0.1.0.2.dev7-py3-none-any.whl.zip --markdown 20240529/o/odoo14-addon-purchase-manual-delivery/14.0.1.0.2.dev6-14.0.1.0.2.dev7/README.md --exclude *.pyd
+[2024-05-29 08:07:07] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-05-29 08:07:07] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.5.0a1716509922.tar.gz tmp/pulumi_libvirt-0.5.0a1716961499.tar.gz --markdown 20240529/p/pulumi-libvirt/0.5.0a1716509922-0.5.0a1716961499/README.md --exclude *.pyd
+[2024-05-29 08:07:08] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-29 08:07:08] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/26/83/d1bf6d88541c198d09c3d74659610fdb74bf58204ee8c9c9efe5672a1fc8/ophyd_devices-1.2.0.tar.gz
+[2024-05-29 08:07:08] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-29 08:07:08] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240529/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-29 08:07:08] INFO root fetch - processPackages [ophyd-devices]: executing diffoscope
+[2024-05-29 08:07:08] INFO root fetch - processPackages [ophyd-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd_devices-1.1.0.tar.gz tmp/ophyd_devices-1.2.0.tar.gz --markdown 20240529/o/ophyd-devices/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-29 08:07:08] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1716509922.tar.gz]
+[2024-05-29 08:07:08] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1716961499.tar.gz]
+[2024-05-29 08:07:08] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-05-29 08:07:08] INFO root fetch - processPackages [odoo14-addon-purchase-manual-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_manual_delivery-14.0.1.0.2.dev6-py3-none-any.whl.zip]
+[2024-05-29 08:07:08] INFO root fetch - processPackages [odoo14-addon-purchase-manual-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_manual_delivery-14.0.1.0.2.dev7-py3-none-any.whl.zip]
+[2024-05-29 08:07:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-manual-delivery]: success
+[2024-05-29 08:07:08] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-29 08:07:08] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-29 08:07:08] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-29 08:07:10] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-1.1.0.tar.gz]
+[2024-05-29 08:07:10] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-1.2.0.tar.gz]
+[2024-05-29 08:07:10] INFO root fetch - main [MainThread]: End processing [ophyd-devices]: success
+[2024-05-29 08:07:10] INFO root fetch - main [MainThread]: Store serial: [23424737]
