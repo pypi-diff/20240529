@@ -9531,3 +9531,24 @@
 [2024-05-29 06:20:28] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
 [2024-05-29 06:20:28] INFO root fetch - main [MainThread]: End processing [irispie]: success
 [2024-05-29 06:20:28] INFO root fetch - main [MainThread]: Store serial: [23423881]
+[2024-05-29 06:22:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423881]
+[2024-05-29 06:22:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphainspect
+[2024-05-29 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prvict
+[2024-05-29 06:22:37] INFO root fetch - processPackages [prvict]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-29 06:22:37] INFO root fetch - processPackages [alphainspect]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-29 06:22:37] INFO root fetch - processPackages [prvict]: Downloading https://files.pythonhosted.org/packages/71/33/68c5ad9e7dfb3dab65ce39c1d31a8bca9d9af4edbdeb3b6d6aa835a882c2/prvict-0.7.5.tar.gz
+[2024-05-29 06:22:37] INFO root fetch - processPackages [alphainspect]: Downloading https://files.pythonhosted.org/packages/b7/b6/2349df94d7bd53986009e30ae58e6096a4ac9e44dc59dce68048fc2b19bc/alphainspect-0.4.3.tar.gz
+[2024-05-29 06:22:37] INFO root fetch - processPackages [prvict]: Downloading https://files.pythonhosted.org/packages/a6/46/098fb9b769ed046cb4c1f4de6becf5657b7d9a986daf9025853228992cae/prvict-0.7.6.tar.gz
+[2024-05-29 06:22:38] INFO root fetch - processPackages [prvict]: executing diffoscope
+[2024-05-29 06:22:38] INFO root fetch - processPackages [prvict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prvict-0.7.5.tar.gz tmp/prvict-0.7.6.tar.gz --markdown 20240529/p/prvict/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-29 06:22:38] INFO root fetch - processPackages [alphainspect]: Downloading https://files.pythonhosted.org/packages/6d/d9/61d4851128fedfca621827f80514c33fd919602530883f9aa13803ab4063/alphainspect-0.4.4.tar.gz
+[2024-05-29 06:22:38] INFO root fetch - processPackages [alphainspect]: executing diffoscope
+[2024-05-29 06:22:38] INFO root fetch - processPackages [alphainspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphainspect-0.4.3.tar.gz tmp/alphainspect-0.4.4.tar.gz --markdown 20240529/a/alphainspect/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-29 06:22:38] INFO root fetch - processPackages [prvict]: Remove: archive file [/home/abi/fetcher/tmp/prvict-0.7.5.tar.gz]
+[2024-05-29 06:22:38] INFO root fetch - processPackages [prvict]: Remove: archive file [/home/abi/fetcher/tmp/prvict-0.7.6.tar.gz]
+[2024-05-29 06:22:38] INFO root fetch - main [MainThread]: End processing [prvict]: success
+[2024-05-29 06:22:38] INFO root fetch - processPackages [alphainspect]: Remove: archive file [/home/abi/fetcher/tmp/alphainspect-0.4.3.tar.gz]
+[2024-05-29 06:22:38] INFO root fetch - processPackages [alphainspect]: Remove: archive file [/home/abi/fetcher/tmp/alphainspect-0.4.4.tar.gz]
+[2024-05-29 06:22:38] INFO root fetch - main [MainThread]: End processing [alphainspect]: success
+[2024-05-29 06:22:38] INFO root fetch - main [MainThread]: Store serial: [23423887]
