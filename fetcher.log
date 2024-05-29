@@ -16232,3 +16232,90 @@
 [2024-05-29 11:07:44] INFO root fetch - processPackages [lamin_cli]: Remove: archive file [/home/abi/fetcher/tmp/lamin_cli-0.9.3.tar.gz]
 [2024-05-29 11:07:44] INFO root fetch - main [MainThread]: End processing [lamin_cli]: success
 [2024-05-29 11:07:44] INFO root fetch - main [MainThread]: Store serial: [23427070]
+[2024-05-29 11:09:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427070]
+[2024-05-29 11:09:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 11:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thingspire-datasets
+[2024-05-29 11:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyoda-time
+[2024-05-29 11:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cysystemd
+[2024-05-29 11:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eenhoorntje-llm-lib
+[2024-05-29 11:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hsr-pic-parcer
+[2024-05-29 11:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apollopayment-api
+[2024-05-29 11:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyannote-onnx
+[2024-05-29 11:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HABSlib
+[2024-05-29 11:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chellow
+[2024-05-29 11:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pantos-service-node
+[2024-05-29 11:09:56] INFO root fetch - processPackages [pyannote-onnx]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 11:09:56] INFO root fetch - processPackages [HABSlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 11:09:56] INFO root fetch - processPackages [eenhoorntje-llm-lib]: New version: [0.9] Old Version: [0.8]
+[2024-05-29 11:09:56] INFO root fetch - processPackages [pyoda-time]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-05-29 11:09:56] INFO root fetch - processPackages [thingspire-datasets]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-29 11:09:56] INFO root fetch - processPackages [hsr-pic-parcer]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 11:09:56] INFO root fetch - processPackages [pantos-service-node]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-29 11:09:56] WARNING root fetch - processPackages [apollopayment-api]: Skipping, unable to determine old version
+[2024-05-29 11:09:56] INFO root fetch - main [MainThread]: End processing [apollopayment-api] error
+[2024-05-29 11:09:56] INFO root fetch - processPackages [cysystemd]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-29 11:09:56] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/38/92/08aefc043b6d14e2e28aae815aae61b6a00b202f24b31f5c613164746ab2/pyannote-onnx-0.0.4.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/58/53/c1bd6020de71ee2c61bd61f6c2d4ad72551fc6b613896bfdf423f9900b0a/eenhoorntje_llm_lib-0.8.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/92/a2/3472f44ce5fbc12a46ed53af9061d73c2ad2a08f4cfc95d85c9f0d590c52/habslib-0.1.8.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [thingspire-datasets]: Downloading https://files.pythonhosted.org/packages/5a/d3/617f602cb295b97fff398594b4a0570e63250731ea05b1a71fdd0f1e2ac6/thingspire-datasets-0.1.4.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [cysystemd]: Downloading https://files.pythonhosted.org/packages/02/53/352dd6725329b2ed58ec20525e765d273e2ad6b2af76c0a7684b0c03b5d8/cysystemd-1.6.0.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [pyoda-time]: Downloading https://files.pythonhosted.org/packages/b4/9f/1f22edf9ad3e51890e8c70ce828ecdc6b9fefaf065b1075791e44b8af107/pyoda_time-0.7.1.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [hsr-pic-parcer]: Downloading https://files.pythonhosted.org/packages/bf/a5/66bf2e95a2625b2d167658f9a13ae9908246e91f72b11b70cd9dba6ce6a2/hsr_pic_parcer-1.0.2.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [pantos-service-node]: Downloading https://files.pythonhosted.org/packages/68/91/5b58eb1199a6c8e7f5dfd6361d88d094480da6658f1cbe5692bb4a49f54b/pantos_service_node-1.7.0-py3-none-any.whl
+[2024-05-29 11:09:56] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/6b/11/c58a3da50ee0ab313c0bb6c3b32dfcc29ee0022b5157d9e22cbdc4e456be/eenhoorntje_llm_lib-0.9.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/b2/ea/3eb2099f135cfbcea8c24a4ef575773e1c92246ed65b1611aba761b07ff2/habslib-0.1.9.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-05-29 11:09:56] INFO root fetch - processPackages [HABSlib]: executing diffoscope
+[2024-05-29 11:09:56] INFO root fetch - processPackages [HABSlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habslib-0.1.8.tar.gz tmp/habslib-0.1.9.tar.gz --markdown 20240529/H/HABSlib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 11:09:56] INFO root fetch - processPackages [eenhoorntje-llm-lib]: executing diffoscope
+[2024-05-29 11:09:56] INFO root fetch - processPackages [eenhoorntje-llm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eenhoorntje_llm_lib-0.8.tar.gz tmp/eenhoorntje_llm_lib-0.9.tar.gz --markdown 20240529/e/eenhoorntje-llm-lib/0.8-0.9/README.md --exclude *.pyd
+[2024-05-29 11:09:56] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/fe/a7/8b9e53f04f4653483af83abfea3df692a35e82b6ad2f94eb8a8ee8c16614/pyannote-onnx-0.0.5.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [thingspire-datasets]: Downloading https://files.pythonhosted.org/packages/79/72/5fe1e391f41516c0b70734c0135d2c9e3f9f6e22212caf950c39622382a0/thingspire-datasets-0.1.5.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [cysystemd]: Downloading https://files.pythonhosted.org/packages/92/55/0628a72f653f5a3a329a6d6caed00730d3f33b517cc9a08f3f10ca3563ba/cysystemd-1.6.1.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [hsr-pic-parcer]: Downloading https://files.pythonhosted.org/packages/b1/3d/4b1fcad197260483e2042b69d5967eba637777b1464846c836646281fc36/hsr_pic_parcer-1.0.3.tar.gz
+[2024-05-29 11:09:56] INFO root fetch - processPackages [pyoda-time]: Downloading https://files.pythonhosted.org/packages/6f/3d/f47860daac4f3ee60a0c46c7940480272bbdd0ef01b8f3c101a5eace89fe/pyoda_time-0.8.0.tar.gz
+[2024-05-29 11:09:57] INFO root fetch - processPackages [thingspire-datasets]: executing diffoscope
+[2024-05-29 11:09:57] INFO root fetch - processPackages [thingspire-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingspire-datasets-0.1.4.tar.gz tmp/thingspire-datasets-0.1.5.tar.gz --markdown 20240529/t/thingspire-datasets/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-29 11:09:57] INFO root fetch - processPackages [pantos-service-node]: Downloading https://files.pythonhosted.org/packages/e6/a4/76abc5d820b10559d039631fee7ac7095fc8c10dc36d2e8efd480d46d3cd/pantos_service_node-1.7.1-py3-none-any.whl
+[2024-05-29 11:09:57] INFO root fetch - processPackages [hsr-pic-parcer]: executing diffoscope
+[2024-05-29 11:09:57] INFO root fetch - processPackages [hsr-pic-parcer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsr_pic_parcer-1.0.2.tar.gz tmp/hsr_pic_parcer-1.0.3.tar.gz --markdown 20240529/h/hsr-pic-parcer/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 11:09:57] INFO root fetch - processPackages [cysystemd]: executing diffoscope
+[2024-05-29 11:09:57] INFO root fetch - processPackages [cysystemd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cysystemd-1.6.0.tar.gz tmp/cysystemd-1.6.1.tar.gz --markdown 20240529/c/cysystemd/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-29 11:09:57] INFO root fetch - processPackages [pyoda-time]: executing diffoscope
+[2024-05-29 11:09:57] INFO root fetch - processPackages [pyoda-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoda_time-0.7.1.tar.gz tmp/pyoda_time-0.8.0.tar.gz --markdown 20240529/p/pyoda-time/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-05-29 11:09:57] INFO root fetch - processPackages [pantos-service-node]: executing diffoscope
+[2024-05-29 11:09:57] INFO root fetch - processPackages [pantos-service-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantos_service_node-1.7.0-py3-none-any.whl.zip tmp/pantos_service_node-1.7.1-py3-none-any.whl.zip --markdown 20240529/p/pantos-service-node/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-29 11:09:57] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-05-29 11:09:57] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.8.tar.gz]
+[2024-05-29 11:09:57] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.9.tar.gz]
+[2024-05-29 11:09:57] INFO root fetch - main [MainThread]: End processing [HABSlib]: success
+[2024-05-29 11:09:57] INFO root fetch - processPackages [pyannote-onnx]: executing diffoscope
+[2024-05-29 11:09:57] INFO root fetch - processPackages [pyannote-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyannote-onnx-0.0.4.tar.gz tmp/pyannote-onnx-0.0.5.tar.gz --markdown 20240529/p/pyannote-onnx/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 11:09:57] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-05-29 11:09:57] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240529/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-05-29 11:09:57] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.8.tar.gz]
+[2024-05-29 11:09:57] INFO root fetch - processPackages [eenhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/eenhoorntje_llm_lib-0.9.tar.gz]
+[2024-05-29 11:09:57] INFO root fetch - main [MainThread]: End processing [eenhoorntje-llm-lib]: success
+[2024-05-29 11:09:57] INFO root fetch - processPackages [thingspire-datasets]: Remove: archive file [/home/abi/fetcher/tmp/thingspire-datasets-0.1.4.tar.gz]
+[2024-05-29 11:09:57] INFO root fetch - processPackages [thingspire-datasets]: Remove: archive file [/home/abi/fetcher/tmp/thingspire-datasets-0.1.5.tar.gz]
+[2024-05-29 11:09:57] INFO root fetch - main [MainThread]: End processing [thingspire-datasets]: success
+[2024-05-29 11:09:57] INFO root fetch - processPackages [hsr-pic-parcer]: Remove: archive file [/home/abi/fetcher/tmp/hsr_pic_parcer-1.0.2.tar.gz]
+[2024-05-29 11:09:57] INFO root fetch - processPackages [hsr-pic-parcer]: Remove: archive file [/home/abi/fetcher/tmp/hsr_pic_parcer-1.0.3.tar.gz]
+[2024-05-29 11:09:57] INFO root fetch - main [MainThread]: End processing [hsr-pic-parcer]: success
+[2024-05-29 11:09:58] INFO root fetch - processPackages [pantos-service-node]: Remove: archive file [/home/abi/fetcher/tmp/pantos_service_node-1.7.0-py3-none-any.whl.zip]
+[2024-05-29 11:09:58] INFO root fetch - processPackages [pantos-service-node]: Remove: archive file [/home/abi/fetcher/tmp/pantos_service_node-1.7.1-py3-none-any.whl.zip]
+[2024-05-29 11:09:58] INFO root fetch - main [MainThread]: End processing [pantos-service-node]: success
+[2024-05-29 11:09:58] INFO root fetch - processPackages [pyoda-time]: Remove: archive file [/home/abi/fetcher/tmp/pyoda_time-0.7.1.tar.gz]
+[2024-05-29 11:09:58] INFO root fetch - processPackages [pyoda-time]: Remove: archive file [/home/abi/fetcher/tmp/pyoda_time-0.8.0.tar.gz]
+[2024-05-29 11:09:58] INFO root fetch - main [MainThread]: End processing [pyoda-time]: success
+[2024-05-29 11:09:58] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.4.tar.gz]
+[2024-05-29 11:09:58] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.5.tar.gz]
+[2024-05-29 11:09:58] INFO root fetch - main [MainThread]: End processing [pyannote-onnx]: success
+[2024-05-29 11:09:58] INFO root fetch - processPackages [cysystemd]: Remove: archive file [/home/abi/fetcher/tmp/cysystemd-1.6.0.tar.gz]
+[2024-05-29 11:09:58] INFO root fetch - processPackages [cysystemd]: Remove: archive file [/home/abi/fetcher/tmp/cysystemd-1.6.1.tar.gz]
+[2024-05-29 11:09:58] INFO root fetch - main [MainThread]: End processing [cysystemd]: success
+[2024-05-29 11:09:59] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-05-29 11:09:59] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-05-29 11:09:59] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-05-29 11:09:59] INFO root fetch - main [MainThread]: Store serial: [23427100]
