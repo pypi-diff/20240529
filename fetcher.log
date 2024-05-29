@@ -14267,3 +14267,60 @@
 [2024-05-29 10:06:19] INFO root fetch - processPackages [zinolib]: Remove: archive file [/home/abi/fetcher/tmp/zinolib-1.0.4.tar.gz]
 [2024-05-29 10:06:19] INFO root fetch - main [MainThread]: End processing [zinolib]: success
 [2024-05-29 10:06:19] INFO root fetch - main [MainThread]: Store serial: [23426023]
+[2024-05-29 10:08:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426023]
+[2024-05-29 10:08:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 10:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: felicien
+[2024-05-29 10:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TenorGrabber
+[2024-05-29 10:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imio.smartweb.core
+[2024-05-29 10:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragevals
+[2024-05-29 10:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lap-data
+[2024-05-29 10:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyglove
+[2024-05-29 10:08:28] INFO root fetch - processPackages [TenorGrabber]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 10:08:28] INFO root fetch - processPackages [felicien]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-29 10:08:28] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240528] Old Version: [0.4.5.dev20240527]
+[2024-05-29 10:08:28] INFO root fetch - processPackages [felicien]: Downloading https://files.pythonhosted.org/packages/04/7f/cd7bcfdac22eba870b1a87f0039d8c363efa8fa84517d19191868483df9a/felicien-0.5.0.tar.gz
+[2024-05-29 10:08:28] INFO root fetch - processPackages [lap-data]: New version: [4.0.48] Old Version: [4.0.47]
+[2024-05-29 10:08:28] INFO root fetch - processPackages [ragevals]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-29 10:08:28] INFO root fetch - processPackages [imio.smartweb.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-29 10:08:28] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/f0/5b/63a6598e79c3765c667616a83fec219ec39ab857d6ecf3009232d8a8656e/pyglove-0.4.5.dev20240527.tar.gz
+[2024-05-29 10:08:28] INFO root fetch - processPackages [TenorGrabber]: Downloading https://files.pythonhosted.org/packages/ec/a8/955d468d9a64d431c338f0f3da2b8e274575bb1bffdb435d8d46cfbf0eb2/tenorgrabber-0.9.0.tar.gz
+[2024-05-29 10:08:28] INFO root fetch - processPackages [lap-data]: Downloading https://files.pythonhosted.org/packages/90/fb/b9e49c7be767289fb8f5307fc445b38799ef539a59c5626e434fa0a65cd8/lap_data-4.0.47.tar.gz
+[2024-05-29 10:08:28] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/50/cf/4f2efdd5a6362b7fd0cc7499d23f0fba4c41b1e069fa580bd514e95cdcc5/imio.smartweb.core-1.2.8.tar.gz
+[2024-05-29 10:08:28] INFO root fetch - processPackages [felicien]: Downloading https://files.pythonhosted.org/packages/3a/a4/95e16fa8efdcba445cd2a078d5d25d42c4334e77c44606132bccb63fa7c7/felicien-0.5.1.tar.gz
+[2024-05-29 10:08:28] INFO root fetch - processPackages [ragevals]: Downloading https://files.pythonhosted.org/packages/bd/f6/c91a1d05343051bc381a65114616c2e77c93600cbfa7273ed8a8daba6900/ragevals-0.2.0.tar.gz
+[2024-05-29 10:08:28] INFO root fetch - processPackages [felicien]: executing diffoscope
+[2024-05-29 10:08:28] INFO root fetch - processPackages [felicien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felicien-0.5.0.tar.gz tmp/felicien-0.5.1.tar.gz --markdown 20240529/f/felicien/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-29 10:08:28] INFO root fetch - processPackages [TenorGrabber]: Downloading https://files.pythonhosted.org/packages/13/b1/1bb007a8b334b7832930993598565ac93562b2f967c6714333743e740c24/tenorgrabber-0.9.1.tar.gz
+[2024-05-29 10:08:28] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/5f/38/f78087f8efa28b4a556a87239182450fc7ddc3fcffc08a872e94b8a21458/pyglove-0.4.5.dev20240528.tar.gz
+[2024-05-29 10:08:28] INFO root fetch - processPackages [TenorGrabber]: executing diffoscope
+[2024-05-29 10:08:28] INFO root fetch - processPackages [TenorGrabber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenorgrabber-0.9.0.tar.gz tmp/tenorgrabber-0.9.1.tar.gz --markdown 20240529/T/TenorGrabber/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-29 10:08:29] INFO root fetch - processPackages [lap-data]: Downloading https://files.pythonhosted.org/packages/12/7a/f57927c13c957fa48cdfc93575bd5e532abe202c7e93101b70f685ca9982/lap_data-4.0.48.tar.gz
+[2024-05-29 10:08:29] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-29 10:08:29] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240527.tar.gz tmp/pyglove-0.4.5.dev20240528.tar.gz --markdown 20240529/p/pyglove/0.4.5.dev20240527-0.4.5.dev20240528/README.md --exclude *.pyd
+[2024-05-29 10:08:29] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/fa/86/df6913561be9d1503fca6dc066040ebfbb358b73c5eaafd6f169cdebe0d2/imio.smartweb.core-1.2.9.tar.gz
+[2024-05-29 10:08:29] INFO root fetch - processPackages [ragevals]: Downloading https://files.pythonhosted.org/packages/9f/2d/6e4e08c9657ad6d497818f0ddd9c8a7ef8fa24dcd1785fa36ac605eda054/ragevals-0.2.1.tar.gz
+[2024-05-29 10:08:29] INFO root fetch - processPackages [lap-data]: executing diffoscope
+[2024-05-29 10:08:29] INFO root fetch - processPackages [lap-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lap_data-4.0.47.tar.gz tmp/lap_data-4.0.48.tar.gz --markdown 20240529/l/lap-data/4.0.47-4.0.48/README.md --exclude *.pyd
+[2024-05-29 10:08:29] INFO root fetch - processPackages [imio.smartweb.core]: executing diffoscope
+[2024-05-29 10:08:29] INFO root fetch - processPackages [imio.smartweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.core-1.2.8.tar.gz tmp/imio.smartweb.core-1.2.9.tar.gz --markdown 20240529/i/imio.smartweb.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-29 10:08:29] INFO root fetch - processPackages [ragevals]: executing diffoscope
+[2024-05-29 10:08:29] INFO root fetch - processPackages [ragevals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragevals-0.2.0.tar.gz tmp/ragevals-0.2.1.tar.gz --markdown 20240529/r/ragevals/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-29 10:08:29] INFO root fetch - processPackages [felicien]: Remove: archive file [/home/abi/fetcher/tmp/felicien-0.5.0.tar.gz]
+[2024-05-29 10:08:29] INFO root fetch - processPackages [felicien]: Remove: archive file [/home/abi/fetcher/tmp/felicien-0.5.1.tar.gz]
+[2024-05-29 10:08:29] INFO root fetch - main [MainThread]: End processing [felicien]: success
+[2024-05-29 10:08:29] INFO root fetch - processPackages [TenorGrabber]: Remove: archive file [/home/abi/fetcher/tmp/tenorgrabber-0.9.0.tar.gz]
+[2024-05-29 10:08:29] INFO root fetch - processPackages [TenorGrabber]: Remove: archive file [/home/abi/fetcher/tmp/tenorgrabber-0.9.1.tar.gz]
+[2024-05-29 10:08:29] INFO root fetch - main [MainThread]: End processing [TenorGrabber]: success
+[2024-05-29 10:08:29] INFO root fetch - processPackages [lap-data]: Remove: archive file [/home/abi/fetcher/tmp/lap_data-4.0.47.tar.gz]
+[2024-05-29 10:08:29] INFO root fetch - processPackages [lap-data]: Remove: archive file [/home/abi/fetcher/tmp/lap_data-4.0.48.tar.gz]
+[2024-05-29 10:08:29] INFO root fetch - main [MainThread]: End processing [lap-data]: success
+[2024-05-29 10:08:29] INFO root fetch - processPackages [ragevals]: Remove: archive file [/home/abi/fetcher/tmp/ragevals-0.2.0.tar.gz]
+[2024-05-29 10:08:29] INFO root fetch - processPackages [ragevals]: Remove: archive file [/home/abi/fetcher/tmp/ragevals-0.2.1.tar.gz]
+[2024-05-29 10:08:29] INFO root fetch - main [MainThread]: End processing [ragevals]: success
+[2024-05-29 10:08:30] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240527.tar.gz]
+[2024-05-29 10:08:30] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240528.tar.gz]
+[2024-05-29 10:08:30] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-29 10:08:31] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.8.tar.gz]
+[2024-05-29 10:08:31] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.9.tar.gz]
+[2024-05-29 10:08:31] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
+[2024-05-29 10:08:31] INFO root fetch - main [MainThread]: Store serial: [23426049]
