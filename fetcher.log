@@ -16049,3 +16049,117 @@
 [2024-05-29 11:03:19] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.1a1.tar.gz]
 [2024-05-29 11:03:19] INFO root fetch - main [MainThread]: End processing [pandasai]: success
 [2024-05-29 11:03:19] INFO root fetch - main [MainThread]: Store serial: [23427001]
+[2024-05-29 11:05:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427001]
+[2024-05-29 11:05:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-29 11:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-connect
+[2024-05-29 11:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SimpleAUG
+[2024-05-29 11:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.common
+[2024-05-29 11:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wdapy
+[2024-05-29 11:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xfapi
+[2024-05-29 11:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.core
+[2024-05-29 11:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymeilisearch
+[2024-05-29 11:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.features
+[2024-05-29 11:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libreflow.extensions.anpo.scene-builder
+[2024-05-29 11:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yeref
+[2024-05-29 11:05:29] WARNING root fetch - processPackages [SimpleAUG]: Skipping, unable to determine old version
+[2024-05-29 11:05:29] INFO root fetch - processPackages [SimpleAUG]: Start processing: autogluon.cloud
+[2024-05-29 11:05:29] INFO root fetch - main [MainThread]: End processing [SimpleAUG] error
+[2024-05-29 11:05:29] INFO root fetch - processPackages [xfapi]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-29 11:05:29] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240528] Old Version: [1.1.1b20240527]
+[2024-05-29 11:05:29] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.4.0b20240528] Old Version: [0.4.0b20240527]
+[2024-05-29 11:05:29] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240528] Old Version: [1.1.1b20240527]
+[2024-05-29 11:05:29] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-29 11:05:29] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240528] Old Version: [1.1.1b20240527]
+[2024-05-29 11:05:29] INFO root fetch - processPackages [ansar-connect]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 11:05:29] INFO root fetch - processPackages [libreflow.extensions.anpo.scene-builder]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 11:05:29] INFO root fetch - processPackages [pymeilisearch]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-29 11:05:29] INFO root fetch - processPackages [wdapy]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-29 11:05:29] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/7c/5a/6d1056e9573677d52463ffcf9aba206055d7f9a092281e6574e70332c7da/xfapi-0.0.7.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/bf/8f/196bf191530e96e85cff7d4f74b5d8dd15845a79c9788f655bc2c97d48cf/autogluon.features-1.1.1b20240527.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/70/a6/2ef278b9b95aa4e990f801e048799a026fef57d2d00253a29d1df075a97c/autogluon.core-1.1.1b20240527.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/99/47/3186cc0d2f4fe1893dadc94983bdcb01d50ef128fa28aedd87771ffa1a0a/ansar_connect-1.0.2.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/b5/23/f0cdd5503d64b7a822dd66c83a0f7c7343a7a3e47737c4fdabe78ee43117/autogluon.cloud-0.4.0b20240527.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/50/b7/ef93544bf38e214d876511b5db3b14fa097605a71a1c32ac8c6621afab8c/autogluon.common-1.1.1b20240527.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [pymeilisearch]: Downloading https://files.pythonhosted.org/packages/83/e2/506f4f8282f9d79d7a7c650a76e2f00512aa3b701a26ac9acda5ad31aa8d/pymeilisearch-0.3.1.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [wdapy]: Downloading https://files.pythonhosted.org/packages/a7/97/eac88e0fb86165dd4dce0f4a9592a07636e800baa22d9e5f4d104f72a656/wdapy-0.2.1.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [libreflow.extensions.anpo.scene-builder]: Downloading https://files.pythonhosted.org/packages/14/32/fcceb1e442f8e9d6b8f4e20019f7d223fcbae4fd743cc359d1857f1c0d6a/libreflow_extensions_anpo_scene_builder-1.0.2.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [xfapi]: Downloading https://files.pythonhosted.org/packages/9b/37/a960214f6b439cdeedfe67a475c8f5ef7631368a1e79c546732fbcf38259/xfapi-0.0.8.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/3f/96/0db31e2b072a94d6260ba16154880a41727b5b16f069a6b26e6d04c53c68/autogluon.features-1.1.1b20240528.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/1a/50/89ada82f1333bb461b5ef140073cb81042e872a6f0e7aa2639d47d95812e/ansar_connect-1.0.3.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [xfapi]: executing diffoscope
+[2024-05-29 11:05:29] INFO root fetch - processPackages [xfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfapi-0.0.7.tar.gz tmp/xfapi-0.0.8.tar.gz --markdown 20240529/x/xfapi/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-29 11:05:29] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/fb/da/356bd5beae97f449193ccba6026d534c18ba644e039dfc195fed229b54c8/autogluon.core-1.1.1b20240528.tar.gz
+[2024-05-29 11:05:29] INFO root fetch - processPackages [pymeilisearch]: Downloading https://files.pythonhosted.org/packages/a4/29/e4b023ed7c1434e1f969f811f96cfb3522f40d4e30ef901dfe3162a49b98/pymeilisearch-0.3.2.tar.gz
+[2024-05-29 11:05:30] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-29 11:05:30] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240529/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240527.tar.gz tmp/autogluon.features-1.1.1b20240528.tar.gz --markdown 20240529/a/autogluon.features/1.1.1b20240527-1.1.1b20240528/README.md --exclude *.pyd
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/03/94/217025545d477e0e276e4db2763bccde78b4863175ebc69ae1539f209be0/autogluon.cloud-0.4.0b20240528.tar.gz
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/12/89/e311e2f324b789d45aabe93f8ea717e5a745a2465a3e1a7944b49ec490f8/autogluon.common-1.1.1b20240528.tar.gz
+[2024-05-29 11:05:30] INFO root fetch - processPackages [wdapy]: Downloading https://files.pythonhosted.org/packages/6a/1d/bc26fb8699288f51976456840ca2d22a9fac1a51f1b527ba7ea62ee60c18/wdapy-0.2.2.tar.gz
+[2024-05-29 11:05:30] INFO root fetch - processPackages [libreflow.extensions.anpo.scene-builder]: Downloading https://files.pythonhosted.org/packages/c5/28/34e89d07a02d56836ac472379057951d201cd82ce7dbec6827e3af7910cb/libreflow_extensions_anpo_scene_builder-1.0.3.tar.gz
+[2024-05-29 11:05:30] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-29 11:05:30] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-1.0.2.tar.gz tmp/ansar_connect-1.0.3.tar.gz --markdown 20240529/a/ansar-connect/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240527.tar.gz tmp/autogluon.core-1.1.1b20240528.tar.gz --markdown 20240529/a/autogluon.core/1.1.1b20240527-1.1.1b20240528/README.md --exclude *.pyd
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.4.0b20240527.tar.gz tmp/autogluon.cloud-0.4.0b20240528.tar.gz --markdown 20240529/a/autogluon.cloud/0.4.0b20240527-0.4.0b20240528/README.md --exclude *.pyd
+[2024-05-29 11:05:30] INFO root fetch - processPackages [libreflow.extensions.anpo.scene-builder]: executing diffoscope
+[2024-05-29 11:05:30] INFO root fetch - processPackages [libreflow.extensions.anpo.scene-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreflow_extensions_anpo_scene_builder-1.0.2.tar.gz tmp/libreflow_extensions_anpo_scene_builder-1.0.3.tar.gz --markdown 20240529/l/libreflow.extensions.anpo.scene-builder/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 11:05:30] INFO root fetch - processPackages [pymeilisearch]: executing diffoscope
+[2024-05-29 11:05:30] INFO root fetch - processPackages [pymeilisearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeilisearch-0.3.1.tar.gz tmp/pymeilisearch-0.3.2.tar.gz --markdown 20240529/p/pymeilisearch/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240527.tar.gz tmp/autogluon.common-1.1.1b20240528.tar.gz --markdown 20240529/a/autogluon.common/1.1.1b20240527-1.1.1b20240528/README.md --exclude *.pyd
+[2024-05-29 11:05:30] INFO root fetch - processPackages [wdapy]: executing diffoscope
+[2024-05-29 11:05:30] INFO root fetch - processPackages [wdapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdapy-0.2.1.tar.gz tmp/wdapy-0.2.2.tar.gz --markdown 20240529/w/wdapy/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-29 11:05:30] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.7.tar.gz]
+[2024-05-29 11:05:30] INFO root fetch - processPackages [xfapi]: Remove: archive file [/home/abi/fetcher/tmp/xfapi-0.0.8.tar.gz]
+[2024-05-29 11:05:30] INFO root fetch - processPackages [xfapi]: Start processing: autogluon.tabular
+[2024-05-29 11:05:30] INFO root fetch - main [MainThread]: End processing [xfapi]: success
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240528] Old Version: [1.1.1b20240527]
+[2024-05-29 11:05:30] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/df/21/e84b15adbd557dfe93ded82fe97a0d2344940f41c94b84f5bb463f81d956/autogluon.tabular-1.1.1b20240527.tar.gz
+[2024-05-29 11:05:31] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-1.0.2.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-1.0.3.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [ansar-connect]: Start processing: cloud-governance
+[2024-05-29 11:05:31] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-29 11:05:31] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [libreflow.extensions.anpo.scene-builder]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_extensions_anpo_scene_builder-1.0.2.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [libreflow.extensions.anpo.scene-builder]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_extensions_anpo_scene_builder-1.0.3.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - main [MainThread]: End processing [libreflow.extensions.anpo.scene-builder]: success
+[2024-05-29 11:05:31] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-29 11:05:31] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240527.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240528.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-29 11:05:31] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/89/52/ffa39b6ffa9707a4c4d250b4027342b15d4ed6945d8ac784adb8dd378342/autogluon.tabular-1.1.1b20240528.tar.gz
+[2024-05-29 11:05:31] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240527.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240528.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2024-05-29 11:05:31] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-29 11:05:31] INFO root fetch - processPackages [wdapy]: Remove: archive file [/home/abi/fetcher/tmp/wdapy-0.2.1.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [wdapy]: Remove: archive file [/home/abi/fetcher/tmp/wdapy-0.2.2.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - main [MainThread]: End processing [wdapy]: success
+[2024-05-29 11:05:31] INFO root fetch - processPackages [pymeilisearch]: Remove: archive file [/home/abi/fetcher/tmp/pymeilisearch-0.3.1.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [pymeilisearch]: Remove: archive file [/home/abi/fetcher/tmp/pymeilisearch-0.3.2.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - main [MainThread]: End processing [pymeilisearch]: success
+[2024-05-29 11:05:31] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-29 11:05:31] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240527.tar.gz tmp/autogluon.tabular-1.1.1b20240528.tar.gz --markdown 20240529/a/autogluon.tabular/1.1.1b20240527-1.1.1b20240528/README.md --exclude *.pyd
+[2024-05-29 11:05:31] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240527.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240528.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-29 11:05:31] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240527.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240528.tar.gz]
+[2024-05-29 11:05:31] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-29 11:05:31] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-29 11:05:31] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-29 11:05:31] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240529/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-29 11:05:32] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240527.tar.gz]
+[2024-05-29 11:05:32] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240528.tar.gz]
+[2024-05-29 11:05:32] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-29 11:05:32] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-29 11:05:32] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-29 11:05:32] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-29 11:05:32] INFO root fetch - main [MainThread]: Store serial: [23427041]
