@@ -16794,3 +16794,105 @@
 [2024-05-29 11:25:29] INFO root fetch - processPackages [spb-cli]: Remove: archive file [/home/abi/fetcher/tmp/spb-cli-0.9.0.tar.gz]
 [2024-05-29 11:25:29] INFO root fetch - main [MainThread]: End processing [spb-cli]: success
 [2024-05-29 11:25:29] INFO root fetch - main [MainThread]: Store serial: [23427282]
+[2024-05-29 11:27:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427282]
+[2024-05-29 11:27:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-29 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfpack
+[2024-05-29 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MatplotLibAPI
+[2024-05-29 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-imoox
+[2024-05-29 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iac-init
+[2024-05-29 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hellologger
+[2024-05-29 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odbc2deltalake
+[2024-05-29 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sybil-engine
+[2024-05-29 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uagents-ai-engine
+[2024-05-29 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo13-addon-role-policy
+[2024-05-29 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chargebee
+[2024-05-29 11:27:39] INFO root fetch - processPackages [MatplotLibAPI]: New version: [3.0.0] Old Version: [2.0.2]
+[2024-05-29 11:27:39] INFO root fetch - processPackages [uagents-ai-engine]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-05-29 11:27:39] INFO root fetch - processPackages [cfpack]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 11:27:39] INFO root fetch - processPackages [MatplotLibAPI]: Downloading https://files.pythonhosted.org/packages/1f/07/a907970428eb483cf6902a186852bcd50fc38ffcb72a27cd985cb5d971c3/MatplotLibAPI-2.0.2.tar.gz
+[2024-05-29 11:27:39] INFO root fetch - processPackages [invenio-imoox]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-29 11:27:39] INFO root fetch - processPackages [uagents-ai-engine]: Downloading https://files.pythonhosted.org/packages/63/9f/63a6df245d09d9fed0a7b15370c4264afd345f9f4b7e0a544bcb6ecb3281/uagents_ai_engine-0.1.6.tar.gz
+[2024-05-29 11:27:39] INFO root fetch - processPackages [iac-init]: New version: [0.8.0] Old Version: [0.7.8]
+[2024-05-29 11:27:39] INFO root fetch - processPackages [odoo13-addon-role-policy]: New version: [13.0.1.1.1] Old Version: [13.0.1.1.0]
+[2024-05-29 11:27:39] INFO root fetch - processPackages [hellologger]: New version: [0.2.2.post2] Old Version: [0.2.2.post1]
+[2024-05-29 11:27:39] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 11:27:39] INFO root fetch - processPackages [sybil-engine]: New version: [7.4.0] Old Version: [7.3.4]
+[2024-05-29 11:27:39] INFO root fetch - processPackages [chargebee]: New version: [2.9.0] Old Version: [2.8.4]
+[2024-05-29 11:27:39] INFO root fetch - processPackages [cfpack]: Downloading https://files.pythonhosted.org/packages/b7/61/9d956ec5d9bc7107937f5d077372bf620810eabf7b1e68d02126cb3e94c4/cfpack-0.1.8.tar.gz
+[2024-05-29 11:27:39] INFO root fetch - processPackages [invenio-imoox]: Downloading https://files.pythonhosted.org/packages/55/49/effc14f44f991148aa4f640224b3dbb1ec30debd77b975552411ce43698c/invenio-imoox-0.2.0.tar.gz
+[2024-05-29 11:27:39] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/04/f7/cca7a1ff924e0f7bf4dac001563392666b6b6bd2d7518b61165afb3c4420/iac_init-0.7.8.tar.gz
+[2024-05-29 11:27:39] INFO root fetch - processPackages [hellologger]: Downloading https://files.pythonhosted.org/packages/db/7b/227a2941867512c0e177bdd7cd2ba76071d226df7751fd6c737d8271e376/hellologger-0.2.2.post1.tar.gz
+[2024-05-29 11:27:39] INFO root fetch - processPackages [odoo13-addon-role-policy]: Downloading https://files.pythonhosted.org/packages/56/5f/5be410cb462bdc46d86597ec7536fa554f181f8ea15006ed636e56ffc774/odoo13_addon_role_policy-13.0.1.1.0-py3-none-any.whl
+[2024-05-29 11:27:39] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-05-29 11:27:39] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/03/a0/c4b33755ed493305a7403a80a54d4b3849aaa22772d4093dbc5d894a4483/sybil_engine-7.3.4.tar.gz
+[2024-05-29 11:27:39] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/99/7c/ebaaca7d47a6de9353d082ff9eaca8d63b76e53a5ca5bf3f9c279642102c/chargebee-2.8.4.tar.gz
+[2024-05-29 11:27:39] INFO root fetch - processPackages [MatplotLibAPI]: Downloading https://files.pythonhosted.org/packages/c3/8b/e17ee03ce814cd6bd8fed5bed95b860f788996fc7d32c287a8a0fcf531fb/matplotlibapi-3.0.0.tar.gz
+[2024-05-29 11:27:39] INFO root fetch - processPackages [uagents-ai-engine]: Downloading https://files.pythonhosted.org/packages/c1/20/f4c8414fa53709f268797532fe4d5e33688014c59687033e7fdaeaee9a24/uagents_ai_engine-0.2.0.tar.gz
+[2024-05-29 11:27:39] INFO root fetch - processPackages [MatplotLibAPI]: executing diffoscope
+[2024-05-29 11:27:39] INFO root fetch - processPackages [MatplotLibAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MatplotLibAPI-2.0.2.tar.gz tmp/matplotlibapi-3.0.0.tar.gz --markdown 20240529/M/MatplotLibAPI/2.0.2-3.0.0/README.md --exclude *.pyd
+[2024-05-29 11:27:39] INFO root fetch - processPackages [cfpack]: Downloading https://files.pythonhosted.org/packages/11/a8/6c49194619f4d76a20b40a90766277b04c3db144a2a6d73a70801be1b22e/cfpack-0.1.9.tar.gz
+[2024-05-29 11:27:40] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-05-29 11:27:40] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/26/2f/45ad219b62cb1aea18c8b48c57068112fc31d265b66a6089f253aacc422e/sybil_engine-7.4.0.tar.gz
+[2024-05-29 11:27:40] INFO root fetch - processPackages [invenio-imoox]: Downloading https://files.pythonhosted.org/packages/80/19/c48cc5a4728138e5875cbdfc7f686195230aa23e3b4abbe2746462379de9/invenio-imoox-0.3.0.tar.gz
+[2024-05-29 11:27:40] INFO root fetch - processPackages [odoo13-addon-role-policy]: Downloading https://files.pythonhosted.org/packages/99/87/7b6ef8cfa8027d2c46993444f0bc32609665d166b2ac5c677dbc4ea5fbe2/odoo13_addon_role_policy-13.0.1.1.1-py3-none-any.whl
+[2024-05-29 11:27:40] INFO root fetch - processPackages [uagents-ai-engine]: executing diffoscope
+[2024-05-29 11:27:40] INFO root fetch - processPackages [uagents-ai-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents_ai_engine-0.1.6.tar.gz tmp/uagents_ai_engine-0.2.0.tar.gz --markdown 20240529/u/uagents-ai-engine/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-05-29 11:27:40] INFO root fetch - processPackages [hellologger]: Downloading https://files.pythonhosted.org/packages/8c/b3/574ed306b40aa6177796cba98b0239e82fa2006301d1c576c68aa251a618/hellologger-0.2.2.post2.tar.gz
+[2024-05-29 11:27:40] INFO root fetch - processPackages [cfpack]: executing diffoscope
+[2024-05-29 11:27:40] INFO root fetch - processPackages [cfpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfpack-0.1.8.tar.gz tmp/cfpack-0.1.9.tar.gz --markdown 20240529/c/cfpack/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 11:27:40] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/a6/9e/648a4d782f53ea14a4b6101e7cad249e6b53b97ada5f89bf1020b45db99f/chargebee-2.9.0.tar.gz
+[2024-05-29 11:27:40] INFO root fetch - processPackages [invenio-imoox]: executing diffoscope
+[2024-05-29 11:27:40] INFO root fetch - processPackages [invenio-imoox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-imoox-0.2.0.tar.gz tmp/invenio-imoox-0.3.0.tar.gz --markdown 20240529/i/invenio-imoox/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-29 11:27:40] INFO root fetch - processPackages [odoo13-addon-role-policy]: executing diffoscope
+[2024-05-29 11:27:40] INFO root fetch - processPackages [odoo13-addon-role-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_role_policy-13.0.1.1.0-py3-none-any.whl.zip tmp/odoo13_addon_role_policy-13.0.1.1.1-py3-none-any.whl.zip --markdown 20240529/o/odoo13-addon-role-policy/13.0.1.1.0-13.0.1.1.1/README.md --exclude *.pyd
+[2024-05-29 11:27:40] INFO root fetch - processPackages [hellologger]: executing diffoscope
+[2024-05-29 11:27:40] INFO root fetch - processPackages [hellologger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hellologger-0.2.2.post1.tar.gz tmp/hellologger-0.2.2.post2.tar.gz --markdown 20240529/h/hellologger/0.2.2.post1-0.2.2.post2/README.md --exclude *.pyd
+[2024-05-29 11:27:40] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/fd/8b/52c2d86e0f495c209116758cc5331466f0d3a5c7660ee3b0c74513c44e77/iac_init-0.8.0.tar.gz
+[2024-05-29 11:27:40] INFO root fetch - processPackages [chargebee]: executing diffoscope
+[2024-05-29 11:27:40] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-05-29 11:27:40] INFO root fetch - processPackages [chargebee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargebee-2.8.4.tar.gz tmp/chargebee-2.9.0.tar.gz --markdown 20240529/c/chargebee/2.8.4-2.9.0/README.md --exclude *.pyd
+[2024-05-29 11:27:40] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240529/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-29 11:27:40] INFO root fetch - processPackages [sybil-engine]: executing diffoscope
+[2024-05-29 11:27:40] INFO root fetch - processPackages [sybil-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil_engine-7.3.4.tar.gz tmp/sybil_engine-7.4.0.tar.gz --markdown 20240529/s/sybil-engine/7.3.4-7.4.0/README.md --exclude *.pyd
+[2024-05-29 11:27:40] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-29 11:27:40] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.7.8.tar.gz tmp/iac_init-0.8.0.tar.gz --markdown 20240529/i/iac-init/0.7.8-0.8.0/README.md --exclude *.pyd
+[2024-05-29 11:27:40] INFO root fetch - processPackages [MatplotLibAPI]: Remove: archive file [/home/abi/fetcher/tmp/MatplotLibAPI-2.0.2.tar.gz]
+[2024-05-29 11:27:40] INFO root fetch - processPackages [MatplotLibAPI]: Remove: archive file [/home/abi/fetcher/tmp/matplotlibapi-3.0.0.tar.gz]
+[2024-05-29 11:27:40] INFO root fetch - processPackages [MatplotLibAPI]: Start processing: chemfusekit
+[2024-05-29 11:27:40] INFO root fetch - main [MainThread]: End processing [MatplotLibAPI]: success
+[2024-05-29 11:27:40] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.2b3] Old Version: [1.1.2b2]
+[2024-05-29 11:27:40] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/1b/25/b7ba88a2bde2aac51a2b42fe34672a00159e555c6e9692ee7c83bed90d1f/chemfusekit-1.1.2b2.tar.gz
+[2024-05-29 11:27:41] INFO root fetch - processPackages [uagents-ai-engine]: Remove: archive file [/home/abi/fetcher/tmp/uagents_ai_engine-0.1.6.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - processPackages [uagents-ai-engine]: Remove: archive file [/home/abi/fetcher/tmp/uagents_ai_engine-0.2.0.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - main [MainThread]: End processing [uagents-ai-engine]: success
+[2024-05-29 11:27:41] INFO root fetch - processPackages [cfpack]: Remove: archive file [/home/abi/fetcher/tmp/cfpack-0.1.8.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - processPackages [cfpack]: Remove: archive file [/home/abi/fetcher/tmp/cfpack-0.1.9.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - main [MainThread]: End processing [cfpack]: success
+[2024-05-29 11:27:41] INFO root fetch - processPackages [hellologger]: Remove: archive file [/home/abi/fetcher/tmp/hellologger-0.2.2.post1.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - processPackages [hellologger]: Remove: archive file [/home/abi/fetcher/tmp/hellologger-0.2.2.post2.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - main [MainThread]: End processing [hellologger]: success
+[2024-05-29 11:27:41] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/dd/f0/e14e30bc52997d1df7684169bf3dd61f9ae04f1d0555a68e6338845e2e01/chemfusekit-1.1.2b3.tar.gz
+[2024-05-29 11:27:41] INFO root fetch - processPackages [invenio-imoox]: Remove: archive file [/home/abi/fetcher/tmp/invenio-imoox-0.2.0.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - processPackages [invenio-imoox]: Remove: archive file [/home/abi/fetcher/tmp/invenio-imoox-0.3.0.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - main [MainThread]: End processing [invenio-imoox]: success
+[2024-05-29 11:27:41] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-7.3.4.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-7.4.0.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - main [MainThread]: End processing [sybil-engine]: success
+[2024-05-29 11:27:41] INFO root fetch - processPackages [odoo13-addon-role-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_role_policy-13.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-29 11:27:41] INFO root fetch - processPackages [odoo13-addon-role-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_role_policy-13.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-29 11:27:41] INFO root fetch - main [MainThread]: End processing [odoo13-addon-role-policy]: success
+[2024-05-29 11:27:41] INFO root fetch - processPackages [chargebee]: Remove: archive file [/home/abi/fetcher/tmp/chargebee-2.8.4.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - processPackages [chargebee]: Remove: archive file [/home/abi/fetcher/tmp/chargebee-2.9.0.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - main [MainThread]: End processing [chargebee]: success
+[2024-05-29 11:27:41] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-05-29 11:27:41] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-05-29 11:27:41] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-05-29 11:27:41] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.2b2.tar.gz tmp/chemfusekit-1.1.2b3.tar.gz --markdown 20240529/c/chemfusekit/1.1.2b2-1.1.2b3/README.md --exclude *.pyd
+[2024-05-29 11:27:42] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.2b2.tar.gz]
+[2024-05-29 11:27:42] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.2b3.tar.gz]
+[2024-05-29 11:27:42] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
+[2024-05-29 11:27:50] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.7.8.tar.gz]
+[2024-05-29 11:27:50] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.0.tar.gz]
+[2024-05-29 11:27:50] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-29 11:27:50] INFO root fetch - main [MainThread]: Store serial: [23427318]
