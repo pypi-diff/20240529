@@ -10368,3 +10368,15 @@
 [2024-05-29 07:10:13] INFO root fetch - processPackages [odoo14-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_spain-14.0.20240528.0-py3-none-any.whl.zip]
 [2024-05-29 07:10:13] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-spain]: success
 [2024-05-29 07:10:13] INFO root fetch - main [MainThread]: Store serial: [23424233]
+[2024-05-29 07:12:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424233]
+[2024-05-29 07:12:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 07:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ligo.skymap
+[2024-05-29 07:12:22] INFO root fetch - processPackages [ligo.skymap]: New version: [2.0.1rc2] Old Version: [2.0.1rc1]
+[2024-05-29 07:12:22] INFO root fetch - processPackages [ligo.skymap]: Downloading https://files.pythonhosted.org/packages/a9/1e/313ec151a9572b870ca4e9ee9fc3048c713429102656f7a21ee59f624694/ligo_skymap-2.0.1rc1.tar.gz
+[2024-05-29 07:12:23] INFO root fetch - processPackages [ligo.skymap]: Downloading https://files.pythonhosted.org/packages/e6/74/442d2f15a984fd0fe63516373cc7fcd8348cc4ca13f269b96809bd872122/ligo_skymap-2.0.1rc2.tar.gz
+[2024-05-29 07:12:23] INFO root fetch - processPackages [ligo.skymap]: executing diffoscope
+[2024-05-29 07:12:23] INFO root fetch - processPackages [ligo.skymap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo_skymap-2.0.1rc1.tar.gz tmp/ligo_skymap-2.0.1rc2.tar.gz --markdown 20240529/l/ligo.skymap/2.0.1rc1-2.0.1rc2/README.md --exclude *.pyd
+[2024-05-29 07:12:24] INFO root fetch - processPackages [ligo.skymap]: Remove: archive file [/home/abi/fetcher/tmp/ligo_skymap-2.0.1rc1.tar.gz]
+[2024-05-29 07:12:24] INFO root fetch - processPackages [ligo.skymap]: Remove: archive file [/home/abi/fetcher/tmp/ligo_skymap-2.0.1rc2.tar.gz]
+[2024-05-29 07:12:24] INFO root fetch - main [MainThread]: End processing [ligo.skymap]: success
+[2024-05-29 07:12:24] INFO root fetch - main [MainThread]: Store serial: [23424243]
