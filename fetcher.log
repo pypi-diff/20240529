@@ -15613,3 +15613,84 @@
 [2024-05-29 10:54:29] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-29 10:54:29] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-05-29 10:54:29] INFO root fetch - main [MainThread]: Store serial: [23426820]
+[2024-05-29 10:56:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426820]
+[2024-05-29 10:56:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ox-script
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chemfusekit
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aTeam-PySparkLibrary
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mltrainer
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocsi
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scipion-em-cryosparc2
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GESS
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GESS
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inoopa_utils
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dsiunits
+[2024-05-29 10:56:38] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.2b2] Old Version: [1.1.2b1]
+[2024-05-29 10:56:38] INFO root fetch - processPackages [mltrainer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ox-script]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-29 10:56:38] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 10:56:38] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-29 10:56:38] INFO root fetch - processPackages [mkdocsi]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-29 10:56:38] WARNING root fetch - processPackages [GESS]: Skipping, unable to determine old version
+[2024-05-29 10:56:38] WARNING root fetch - processPackages [GESS]: Skipping, unable to determine old version
+[2024-05-29 10:56:38] INFO root fetch - main [MainThread]: End processing [GESS] error
+[2024-05-29 10:56:38] INFO root fetch - main [MainThread]: End processing [GESS] error
+[2024-05-29 10:56:38] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/84/79/7c3d218ccd116bf212392aa01a9152beaa1c0c22812487a467b700eb91b8/chemfusekit-1.1.2b1.tar.gz
+[2024-05-29 10:56:38] INFO root fetch - processPackages [dsiunits]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-05-29 10:56:38] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/e6/5a/f736c89e38ff9beda52ab6d5420869536980e567e1b4f3e2e48bd90998e2/mltrainer-0.1.8.tar.gz
+[2024-05-29 10:56:38] INFO root fetch - processPackages [scipion-em-cryosparc2]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-05-29 10:56:38] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-05-29 10:56:38] INFO root fetch - processPackages [ox-script]: Downloading https://files.pythonhosted.org/packages/87/63/069a7d7f81d4fefd4fdcb405b209c89ad2b4513da4964b04582bd5b770f7/ox_script-2.1.0.tar.gz
+[2024-05-29 10:56:38] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/8d/bf/24e53e32b9531015bdf72a91533b6424d440f6448e50e1aa03928d127bbb/mkdocsi-1.3.1.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [scipion-em-cryosparc2]: Downloading https://files.pythonhosted.org/packages/73/c1/efbf1a74cf21f5f2c82d414848e0f4f90ec17d248b199bf0c5d811ed545d/scipion-em-cryosparc2-4.1.0.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [dsiunits]: Downloading https://files.pythonhosted.org/packages/80/40/d5b7ab4530c71fc594f21d964e8b94a8ce9c422623e86cc1169836fdba5a/dsiunits-2.2.3.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/34/f2/a69102724de6ab89a96fd8d1a185837a0b689bbc97c4ee2d67286ba12d8d/mltrainer-0.1.9.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [ox-script]: Downloading https://files.pythonhosted.org/packages/5d/1d/3e97b9981cee3bfd482f9b3a373b43f95755770d2b08aea1c46f59e9e1e1/ox_script-2.1.1.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [mltrainer]: executing diffoscope
+[2024-05-29 10:56:39] INFO root fetch - processPackages [mltrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltrainer-0.1.8.tar.gz tmp/mltrainer-0.1.9.tar.gz --markdown 20240529/m/mltrainer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 10:56:39] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-05-29 10:56:39] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240529/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 10:56:39] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/1b/25/b7ba88a2bde2aac51a2b42fe34672a00159e555c6e9692ee7c83bed90d1f/chemfusekit-1.1.2b2.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-29 10:56:39] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240529/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-29 10:56:39] INFO root fetch - processPackages [ox-script]: executing diffoscope
+[2024-05-29 10:56:39] INFO root fetch - processPackages [ox-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ox_script-2.1.0.tar.gz tmp/ox_script-2.1.1.tar.gz --markdown 20240529/o/ox-script/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-29 10:56:39] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/3b/f5/b2d6073baccce7ee95ae9217e3bbe023b464a4901696a0da9d9e942e6851/mkdocsi-1.3.2.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [scipion-em-cryosparc2]: Downloading https://files.pythonhosted.org/packages/c5/60/553cc20bbe003730702f5227a5bb6bf46c43bad575cfb0a44fa170f0b3a8/scipion-em-cryosparc2-4.1.1.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [dsiunits]: Downloading https://files.pythonhosted.org/packages/e4/58/bac27b8b188c7bab735d03744886cfd8989ac448096e67fc209358c27f98/dsiunits-2.3.0.tar.gz
+[2024-05-29 10:56:39] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 10:56:39] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.3.1.tar.gz tmp/mkdocsi-1.3.2.tar.gz --markdown 20240529/m/mkdocsi/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-29 10:56:39] INFO root fetch - processPackages [dsiunits]: executing diffoscope
+[2024-05-29 10:56:39] INFO root fetch - processPackages [dsiunits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsiunits-2.2.3.tar.gz tmp/dsiunits-2.3.0.tar.gz --markdown 20240529/d/dsiunits/2.2.3-2.3.0/README.md --exclude *.pyd
+[2024-05-29 10:56:39] INFO root fetch - processPackages [scipion-em-cryosparc2]: executing diffoscope
+[2024-05-29 10:56:39] INFO root fetch - processPackages [scipion-em-cryosparc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-cryosparc2-4.1.0.tar.gz tmp/scipion-em-cryosparc2-4.1.1.tar.gz --markdown 20240529/s/scipion-em-cryosparc2/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-05-29 10:56:39] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-05-29 10:56:39] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.2b1.tar.gz tmp/chemfusekit-1.1.2b2.tar.gz --markdown 20240529/c/chemfusekit/1.1.2b1-1.1.2b2/README.md --exclude *.pyd
+[2024-05-29 10:56:40] INFO root fetch - processPackages [ox-script]: Remove: archive file [/home/abi/fetcher/tmp/ox_script-2.1.0.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - processPackages [ox-script]: Remove: archive file [/home/abi/fetcher/tmp/ox_script-2.1.1.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - main [MainThread]: End processing [ox-script]: success
+[2024-05-29 10:56:40] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-05-29 10:56:40] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.8.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.9.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - main [MainThread]: End processing [mltrainer]: success
+[2024-05-29 10:56:40] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-29 10:56:40] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.1.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.2.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 10:56:40] INFO root fetch - processPackages [dsiunits]: Remove: archive file [/home/abi/fetcher/tmp/dsiunits-2.2.3.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - processPackages [dsiunits]: Remove: archive file [/home/abi/fetcher/tmp/dsiunits-2.3.0.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - main [MainThread]: End processing [dsiunits]: success
+[2024-05-29 10:56:40] INFO root fetch - processPackages [scipion-em-cryosparc2]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-cryosparc2-4.1.0.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - processPackages [scipion-em-cryosparc2]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-cryosparc2-4.1.1.tar.gz]
+[2024-05-29 10:56:40] INFO root fetch - main [MainThread]: End processing [scipion-em-cryosparc2]: success
+[2024-05-29 10:56:41] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.2b1.tar.gz]
+[2024-05-29 10:56:41] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.2b2.tar.gz]
+[2024-05-29 10:56:41] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
+[2024-05-29 10:56:41] INFO root fetch - main [MainThread]: Store serial: [23426853]
