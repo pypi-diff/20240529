@@ -10879,3 +10879,51 @@
 [2024-05-29 07:29:53] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1716959542.tar.gz]
 [2024-05-29 07:29:53] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
 [2024-05-29 07:29:53] INFO root fetch - main [MainThread]: Store serial: [23424435]
+[2024-05-29 07:31:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424435]
+[2024-05-29 07:32:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 07:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paita
+[2024-05-29 07:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2024-05-29 07:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-akamai
+[2024-05-29 07:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latp
+[2024-05-29 07:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Explicit
+[2024-05-29 07:32:03] INFO root fetch - processPackages [latp]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 07:32:03] INFO root fetch - processPackages [paita]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 07:32:03] INFO root fetch - processPackages [latp]: Downloading https://files.pythonhosted.org/packages/b1/bc/3dd0e768b917cd2b6d1613a111ce374da9842f4a723517b3de391847d023/latp-0.0.4.tar.gz
+[2024-05-29 07:32:03] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.8.2rc1] Old Version: [4.8.2]
+[2024-05-29 07:32:03] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.2.0a1716959416] Old Version: [7.2.0a1716504348]
+[2024-05-29 07:32:03] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-29 07:32:03] INFO root fetch - processPackages [paita]: Downloading https://files.pythonhosted.org/packages/88/8c/85b64d7ee891e5e249bb7990fac57237de07fe905df9083eed14019e1554/paita-0.1.8.tar.gz
+[2024-05-29 07:32:03] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/c8/6a/b15d0d2be4b9b533d8131457b8d5b129d580b5911e7de3c66fc4560318f8/Geode_Explicit-4.8.2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-29 07:32:03] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-29 07:32:03] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/f9/dc/0588b0785b62c3ee1ac4e1a48368b97a2898280bafe164bc0c98f6485246/pulumi_akamai-7.2.0a1716504348.tar.gz
+[2024-05-29 07:32:03] INFO root fetch - processPackages [latp]: Downloading https://files.pythonhosted.org/packages/e2/c7/566bd5c06672e2f58c272e10a59f48047b62bdf5bf19c986803068b9ab45/latp-0.0.5.tar.gz
+[2024-05-29 07:32:04] INFO root fetch - processPackages [latp]: executing diffoscope
+[2024-05-29 07:32:04] INFO root fetch - processPackages [latp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latp-0.0.4.tar.gz tmp/latp-0.0.5.tar.gz --markdown 20240529/l/latp/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 07:32:04] INFO root fetch - processPackages [paita]: Downloading https://files.pythonhosted.org/packages/c0/0e/fdc8d4a8733165ffe2656dc844332f7e8122c36f1f7fd3a1aeab708e62e3/paita-0.1.9.tar.gz
+[2024-05-29 07:32:04] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-29 07:32:04] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-29 07:32:04] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240529/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-29 07:32:04] INFO root fetch - processPackages [paita]: executing diffoscope
+[2024-05-29 07:32:04] INFO root fetch - processPackages [paita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paita-0.1.8.tar.gz tmp/paita-0.1.9.tar.gz --markdown 20240529/p/paita/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 07:32:04] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/09/ab/3ac6acece87f22f51973178a58c3adc4b2eef1456d65660ff3974d8c1e46/Geode_Explicit-4.8.2rc1-cp39-cp39-win_amd64.whl
+[2024-05-29 07:32:04] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/f5/95/18794a04bd88b6a049178a356f63301e186f006653db18d7ca9bfafd55a0/pulumi_akamai-7.2.0a1716959416.tar.gz
+[2024-05-29 07:32:04] INFO root fetch - processPackages [latp]: Remove: archive file [/home/abi/fetcher/tmp/latp-0.0.4.tar.gz]
+[2024-05-29 07:32:04] INFO root fetch - processPackages [latp]: Remove: archive file [/home/abi/fetcher/tmp/latp-0.0.5.tar.gz]
+[2024-05-29 07:32:04] INFO root fetch - main [MainThread]: End processing [latp]: success
+[2024-05-29 07:32:04] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-05-29 07:32:04] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.8.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Explicit-4.8.2rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240529/G/Geode-Explicit/4.8.2-4.8.2rc1/README.md --exclude *.pyd
+[2024-05-29 07:32:04] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-05-29 07:32:04] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.2.0a1716504348.tar.gz tmp/pulumi_akamai-7.2.0a1716959416.tar.gz --markdown 20240529/p/pulumi-akamai/7.2.0a1716504348-7.2.0a1716959416/README.md --exclude *.pyd
+[2024-05-29 07:32:04] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-29 07:32:04] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-29 07:32:04] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-29 07:32:05] INFO root fetch - processPackages [paita]: Remove: archive file [/home/abi/fetcher/tmp/paita-0.1.8.tar.gz]
+[2024-05-29 07:32:05] INFO root fetch - processPackages [paita]: Remove: archive file [/home/abi/fetcher/tmp/paita-0.1.9.tar.gz]
+[2024-05-29 07:32:05] INFO root fetch - main [MainThread]: End processing [paita]: success
+[2024-05-29 07:32:05] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.8.2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-29 07:32:05] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.8.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-29 07:32:05] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-05-29 07:32:07] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1716504348.tar.gz]
+[2024-05-29 07:32:07] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1716959416.tar.gz]
+[2024-05-29 07:32:07] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-05-29 07:32:07] INFO root fetch - main [MainThread]: Store serial: [23424453]
