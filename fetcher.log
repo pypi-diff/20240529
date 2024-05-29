@@ -21576,3 +21576,156 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:23:54] INFO root fetch - processPackages [oarepo-model-builder-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-requests-4.0.9.tar.gz]
 [2024-05-29 14:23:54] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-requests]: success
 [2024-05-29 14:23:54] INFO root fetch - main [MainThread]: Store serial: [23429513]
+[2024-05-29 14:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429513]
+[2024-05-29 14:26:03] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-05-29 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-node-binding
+[2024-05-29 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akeneo-connector
+[2024-05-29 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tap-taboola
+[2024-05-29 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oarepo-model-builder-drafts-files
+[2024-05-29 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chrome-for-testing-manager
+[2024-05-29 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb
+[2024-05-29 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2024-05-29 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bondzai.idetect40-interface
+[2024-05-29 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-models
+[2024-05-29 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-protos
+[2024-05-29 14:26:03] INFO root fetch - processPackages [bondzai.idetect40-interface]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 14:26:03] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [4.0.1.post1380] Old Version: [4.0.1.post1376]
+[2024-05-29 14:26:03] INFO root fetch - processPackages [nucliadb]: New version: [4.0.1.post552] Old Version: [4.0.1.post551]
+[2024-05-29 14:26:03] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.1.post552] Old Version: [4.0.1.post551]
+[2024-05-29 14:26:03] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.1.post552] Old Version: [4.0.1.post551]
+[2024-05-29 14:26:03] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.1.post552] Old Version: [4.0.1.post551]
+[2024-05-29 14:26:03] INFO root fetch - processPackages [akeneo-connector]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 14:26:03] INFO root fetch - processPackages [oarepo-model-builder-drafts-files]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-29 14:26:03] WARNING root fetch - processPackages [chrome-for-testing-manager]: Skipping, unable to determine old version
+[2024-05-29 14:26:03] INFO root fetch - processPackages [chrome-for-testing-manager]: Start processing: spectrum-io
+[2024-05-29 14:26:03] INFO root fetch - main [MainThread]: End processing [chrome-for-testing-manager] error
+[2024-05-29 14:26:03] INFO root fetch - processPackages [tap-taboola]: New version: [0.3.1] Old Version: [0.2.1]
+[2024-05-29 14:26:03] INFO root fetch - processPackages [bondzai.idetect40-interface]: Downloading https://files.pythonhosted.org/packages/83/c0/c2a43f230a63f292629fe0297d0d031602483122166257ab73418c835eb4/bondzai.idetect40-interface-0.1.0.tar.gz
+[2024-05-29 14:26:03] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/da/eb/567b032d4c5c2c6b094483bcc84c908d0990a41791ac65d182b4a86d7128/nucliadb_node_binding-4.0.1.post1376.tar.gz
+[2024-05-29 14:26:03] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/a4/0f/e5e9c5f0a840405d99754239824e00e2df79f672f3e547de9e1e6cdc4b7d/nucliadb-4.0.1.post551-py3-none-any.whl
+[2024-05-29 14:26:03] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/20/b7/2a63a4d9f60a419a3f2d90ad772218bf3c5af601101fd745b5c8c44456ea/nucliadb_protos-4.0.1.post551-py3-none-any.whl
+[2024-05-29 14:26:03] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/9a/9c/646d72178560b26698c17206bbaba2e79b631284c8af1dc27a889bd3018f/nucliadb_dataset-4.0.1.post551-py3-none-any.whl
+[2024-05-29 14:26:03] INFO root fetch - processPackages [spectrum-io]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-29 14:26:03] INFO root fetch - processPackages [tap-taboola]: Downloading https://files.pythonhosted.org/packages/91/c4/6ed39e355a217f74a99996ca39c63a79478732c8521222f8953f1ee608a6/tap-taboola-0.2.1.tar.gz
+[2024-05-29 14:26:03] INFO root fetch - processPackages [akeneo-connector]: Downloading https://files.pythonhosted.org/packages/36/c2/1825481624ae549f0562d89ff4b2a0d8ce122c193d65c30eb7da4adbb8c6/akeneo_connector-0.1.8.tar.gz
+[2024-05-29 14:26:03] INFO root fetch - processPackages [oarepo-model-builder-drafts-files]: Downloading https://files.pythonhosted.org/packages/78/5c/9a6ce75091f50f7757aba647ebf311f495f73382136f7ed887c1e7264c46/oarepo-model-builder-drafts-files-4.0.8.tar.gz
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3d/eb/397113db2b5daefe1333694f796f4b0b1e7f58d004576c192082e924296a/nucliadb_models-4.0.1.post551-py3-none-any.whl
+[2024-05-29 14:26:04] INFO root fetch - processPackages [bondzai.idetect40-interface]: Downloading https://files.pythonhosted.org/packages/8f/ba/c0ddc0150771e98df0b9465c754e7b0eb23967e5f6df29797bc339d793a0/bondzai.idetect40-interface-0.1.1.tar.gz
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/ab/0a/b6c612763424bb987406ff1f5ec6f83d9228713d4a260b2f770598ad4f41/nucliadb_node_binding-4.0.1.post1380.tar.gz
+[2024-05-29 14:26:04] INFO root fetch - processPackages [spectrum-io]: Downloading https://files.pythonhosted.org/packages/3f/a5/e2277357ac07d7424a18d29dc05755fc9c57ecc2d9bdd03e5daef2b07522/spectrum_io-0.4.3.tar.gz
+[2024-05-29 14:26:04] INFO root fetch - processPackages [bondzai.idetect40-interface]: executing diffoscope
+[2024-05-29 14:26:04] INFO root fetch - processPackages [bondzai.idetect40-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bondzai.idetect40-interface-0.1.0.tar.gz tmp/bondzai.idetect40-interface-0.1.1.tar.gz --markdown 20240529/b/bondzai.idetect40-interface/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/05/f0/9277387b87a23427fb88ff03890929323b6d7c6da710f59411cb70c18155/nucliadb_protos-4.0.1.post552-py3-none-any.whl
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-4.0.1.post1376.tar.gz tmp/nucliadb_node_binding-4.0.1.post1380.tar.gz --markdown 20240529/n/nucliadb-node-binding/4.0.1.post1376-4.0.1.post1380/README.md --exclude *.pyd
+[2024-05-29 14:26:04] INFO root fetch - processPackages [tap-taboola]: Downloading https://files.pythonhosted.org/packages/57/8b/d9c2771e6ba4cadc8a0f0415aee6f91744d712c676eb9138e309b011f4a3/tap_taboola-0.3.1.tar.gz
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/b6/45/7c3c3db3c4e084af015c256364c8c2a24e960b6982dd47cb9e34cab439db/nucliadb-4.0.1.post552-py3-none-any.whl
+[2024-05-29 14:26:04] INFO root fetch - processPackages [oarepo-model-builder-drafts-files]: Downloading https://files.pythonhosted.org/packages/86/65/ed3abd4c497d608a736f8a40dc23e29465a9d9a470a885a9b8ce456f6b50/oarepo-model-builder-drafts-files-4.0.9.tar.gz
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/87/3a/546b001da655d2ba22c3e7076b90b70bacef8d24bd6bba210cd22a1d3ab9/nucliadb_dataset-4.0.1.post552-py3-none-any.whl
+[2024-05-29 14:26:04] INFO root fetch - processPackages [akeneo-connector]: Downloading https://files.pythonhosted.org/packages/4b/be/0077d39900ac1e0e4aab7a864b6330902ac27a622a13144ca8cbf6382509/akeneo_connector-0.1.9.tar.gz
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.1.post551-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.1.post552-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-protos/4.0.1.post551-4.0.1.post552/README.md --exclude *.pyd
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/4f/09/2577a9e2453af02381010544f792637a7d3770d74cad00bfe2bd7b11a309/nucliadb_models-4.0.1.post552-py3-none-any.whl
+[2024-05-29 14:26:04] INFO root fetch - processPackages [tap-taboola]: executing diffoscope
+[2024-05-29 14:26:04] INFO root fetch - processPackages [tap-taboola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-taboola-0.2.1.tar.gz tmp/tap_taboola-0.3.1.tar.gz --markdown 20240529/t/tap-taboola/0.2.1-0.3.1/README.md --exclude *.pyd
+[2024-05-29 14:26:04] INFO root fetch - processPackages [oarepo-model-builder-drafts-files]: executing diffoscope
+[2024-05-29 14:26:04] INFO root fetch - processPackages [oarepo-model-builder-drafts-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-drafts-files-4.0.8.tar.gz tmp/oarepo-model-builder-drafts-files-4.0.9.tar.gz --markdown 20240529/o/oarepo-model-builder-drafts-files/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.1.post551-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.1.post552-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-dataset/4.0.1.post551-4.0.1.post552/README.md --exclude *.pyd
+[2024-05-29 14:26:04] INFO root fetch - processPackages [akeneo-connector]: executing diffoscope
+[2024-05-29 14:26:04] INFO root fetch - processPackages [akeneo-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeneo_connector-0.1.8.tar.gz tmp/akeneo_connector-0.1.9.tar.gz --markdown 20240529/a/akeneo-connector/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 14:26:04] INFO root fetch - processPackages [spectrum-io]: Downloading https://files.pythonhosted.org/packages/d4/3a/24d48aa37c58b2673f0e9cf77806b09faa5dc8047b4533ddc92f47e2efe8/spectrum_io-0.4.4.tar.gz
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.1.post551-py3-none-any.whl.zip tmp/nucliadb-4.0.1.post552-py3-none-any.whl.zip --markdown 20240529/n/nucliadb/4.0.1.post551-4.0.1.post552/README.md --exclude *.pyd
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-29 14:26:04] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.1.post551-py3-none-any.whl.zip tmp/nucliadb_models-4.0.1.post552-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-models/4.0.1.post551-4.0.1.post552/README.md --exclude *.pyd
+[2024-05-29 14:26:04] INFO root fetch - processPackages [spectrum-io]: executing diffoscope
+[2024-05-29 14:26:04] INFO root fetch - processPackages [spectrum-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_io-0.4.3.tar.gz tmp/spectrum_io-0.4.4.tar.gz --markdown 20240529/s/spectrum-io/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-29 14:26:05] INFO root fetch - processPackages [bondzai.idetect40-interface]: Remove: archive file [/home/abi/fetcher/tmp/bondzai.idetect40-interface-0.1.0.tar.gz]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [bondzai.idetect40-interface]: Remove: archive file [/home/abi/fetcher/tmp/bondzai.idetect40-interface-0.1.1.tar.gz]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [bondzai.idetect40-interface]: Start processing: apysc
+[2024-05-29 14:26:05] INFO root fetch - main [MainThread]: End processing [bondzai.idetect40-interface]: success
+[2024-05-29 14:26:05] INFO root fetch - processPackages [apysc]: New version: [4.4.3] Old Version: [4.4.2]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.1.post552-py3-none-any.whl.zip]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: qiskit-alice-bob-provider
+[2024-05-29 14:26:05] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-29 14:26:05] INFO root fetch - processPackages [akeneo-connector]: Remove: archive file [/home/abi/fetcher/tmp/akeneo_connector-0.1.8.tar.gz]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [akeneo-connector]: Remove: archive file [/home/abi/fetcher/tmp/akeneo_connector-0.1.9.tar.gz]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [akeneo-connector]: Start processing: nucliadb-sdk
+[2024-05-29 14:26:05] INFO root fetch - main [MainThread]: End processing [akeneo-connector]: success
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.1.post552] Old Version: [4.0.1.post551]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [tap-taboola]: Remove: archive file [/home/abi/fetcher/tmp/tap-taboola-0.2.1.tar.gz]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [tap-taboola]: Remove: archive file [/home/abi/fetcher/tmp/tap_taboola-0.3.1.tar.gz]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [tap-taboola]: Start processing: nucliadb-telemetry
+[2024-05-29 14:26:05] INFO root fetch - main [MainThread]: End processing [tap-taboola]: success
+[2024-05-29 14:26:05] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/c5/90/72d4fd06644bd1767787c00fb7f5e4c8cab5a4d04aab9072de076b691a07/apysc-4.4.2.tar.gz
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.1.post552] Old Version: [4.0.1.post551]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.1.post552-py3-none-any.whl.zip]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-protos]: Start processing: yama-health-indices
+[2024-05-29 14:26:05] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-29 14:26:05] INFO root fetch - processPackages [qiskit-alice-bob-provider]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/c5/cc/b8f011b455314c99dee08e92a549d43f763137327a1795bfd09ff4a26488/nucliadb_sdk-4.0.1.post551-py3-none-any.whl
+[2024-05-29 14:26:05] INFO root fetch - processPackages [oarepo-model-builder-drafts-files]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-drafts-files-4.0.8.tar.gz]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [oarepo-model-builder-drafts-files]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-drafts-files-4.0.9.tar.gz]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [oarepo-model-builder-drafts-files]: Start processing: nucliadb-utils
+[2024-05-29 14:26:05] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-drafts-files]: success
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/3b/04/222a12497b85b716fe485a8338b7ef896e7989e97c592ad64190ac3058aa/nucliadb_telemetry-4.0.1.post551-py3-none-any.whl
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.1.post552-py3-none-any.whl.zip]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-models]: Start processing: Orange3-SingleCell
+[2024-05-29 14:26:05] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.1.post552] Old Version: [4.0.1.post551]
+[2024-05-29 14:26:05] WARNING root fetch - processPackages [yama-health-indices]: Skipping, unable to determine old version
+[2024-05-29 14:26:05] INFO root fetch - main [MainThread]: End processing [yama-health-indices] error
+[2024-05-29 14:26:05] INFO root fetch - processPackages [spectrum-io]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_io-0.4.3.tar.gz]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [spectrum-io]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_io-0.4.4.tar.gz]
+[2024-05-29 14:26:05] INFO root fetch - main [MainThread]: End processing [spectrum-io]: success
+[2024-05-29 14:26:05] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Downloading https://files.pythonhosted.org/packages/f1/c4/17e6e853bf1c5715df410b4bf558d2864b8a268ec8445824bcc486d62bd8/qiskit_alice_bob_provider-0.6.0.tar.gz
+[2024-05-29 14:26:05] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/75/1e/7fb1e8afcb715e108d7e1cc3e98c3751b11e8e64c612c13ccc12b4d75e23/nucliadb_utils-4.0.1.post551-py3-none-any.whl
+[2024-05-29 14:26:05] INFO root fetch - processPackages [Orange3-SingleCell]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-29 14:26:05] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/88/db/334bc29fce37aacff98b34e7fd48710a3fe32c5044a499823a52acd7d5ce/apysc-4.4.3.tar.gz
+[2024-05-29 14:26:06] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/01/90/7c628f292dc62cf37b3eba8b64cc09b9d2ac31cefb02e8cd47c374a3402b/nucliadb_sdk-4.0.1.post552-py3-none-any.whl
+[2024-05-29 14:26:06] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/d6/33/3d31505e759e4db91f6320736c0333e59ecccfc9d8b4d5e7cab84ab98b29/nucliadb_telemetry-4.0.1.post552-py3-none-any.whl
+[2024-05-29 14:26:06] INFO root fetch - processPackages [Orange3-SingleCell]: Downloading https://files.pythonhosted.org/packages/d5/87/1b1a469eb89935f0b8df90b610d2b31b7c52749e0c20378cde95b5e20774/orange3_singlecell-1.7.0.tar.gz
+[2024-05-29 14:26:06] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2024-05-29 14:26:06] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-4.4.2.tar.gz tmp/apysc-4.4.3.tar.gz --markdown 20240529/a/apysc/4.4.2-4.4.3/README.md --exclude *.pyd
+[2024-05-29 14:26:06] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-29 14:26:06] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.1.post551-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.1.post552-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-sdk/4.0.1.post551-4.0.1.post552/README.md --exclude *.pyd
+[2024-05-29 14:26:06] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-29 14:26:06] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.1.post551-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.1.post552-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-telemetry/4.0.1.post551-4.0.1.post552/README.md --exclude *.pyd
+[2024-05-29 14:26:06] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/36/3b/bad0603d941041e248c41fd6fc7b388d2832c207067543295913cbfc1660/nucliadb_utils-4.0.1.post552-py3-none-any.whl
+[2024-05-29 14:26:06] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Downloading https://files.pythonhosted.org/packages/e1/bb/eb09806a1f3670741bc43933adeeb54ef18fca5fd79c7215b734a75d641c/qiskit_alice_bob_provider-0.7.0.tar.gz
+[2024-05-29 14:26:06] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-29 14:26:06] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.1.post551-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.1.post552-py3-none-any.whl.zip --markdown 20240529/n/nucliadb-utils/4.0.1.post551-4.0.1.post552/README.md --exclude *.pyd
+[2024-05-29 14:26:06] INFO root fetch - processPackages [qiskit-alice-bob-provider]: executing diffoscope
+[2024-05-29 14:26:06] INFO root fetch - processPackages [qiskit-alice-bob-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_alice_bob_provider-0.6.0.tar.gz tmp/qiskit_alice_bob_provider-0.7.0.tar.gz --markdown 20240529/q/qiskit-alice-bob-provider/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-29 14:26:06] INFO root fetch - processPackages [Orange3-SingleCell]: Downloading https://files.pythonhosted.org/packages/f2/1f/43c56efa73dfd1e9c18ed46ef03ff24f00a1872a86d1d5cd8e9d9e009d7d/orange3_singlecell-1.7.1.tar.gz
+[2024-05-29 14:26:07] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-29 14:26:07] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.1.post552-py3-none-any.whl.zip]
+[2024-05-29 14:26:07] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-29 14:26:07] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-29 14:26:07] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.1.post552-py3-none-any.whl.zip]
+[2024-05-29 14:26:07] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-29 14:26:07] INFO root fetch - processPackages [Orange3-SingleCell]: executing diffoscope
+[2024-05-29 14:26:07] INFO root fetch - processPackages [Orange3-SingleCell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orange3_singlecell-1.7.0.tar.gz tmp/orange3_singlecell-1.7.1.tar.gz --markdown 20240529/O/Orange3-SingleCell/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-29 14:26:07] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.1.post1376.tar.gz]
+[2024-05-29 14:26:07] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.1.post1380.tar.gz]
+[2024-05-29 14:26:07] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-29 14:26:07] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-29 14:26:07] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.1.post552-py3-none-any.whl.zip]
+[2024-05-29 14:26:07] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-29 14:26:07] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_alice_bob_provider-0.6.0.tar.gz]
+[2024-05-29 14:26:07] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_alice_bob_provider-0.7.0.tar.gz]
+[2024-05-29 14:26:07] INFO root fetch - main [MainThread]: End processing [qiskit-alice-bob-provider]: success
+[2024-05-29 14:26:07] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-29 14:26:07] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.1.post552-py3-none-any.whl.zip]
+[2024-05-29 14:26:07] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-29 14:26:08] INFO root fetch - processPackages [Orange3-SingleCell]: Remove: archive file [/home/abi/fetcher/tmp/orange3_singlecell-1.7.0.tar.gz]
+[2024-05-29 14:26:08] INFO root fetch - processPackages [Orange3-SingleCell]: Remove: archive file [/home/abi/fetcher/tmp/orange3_singlecell-1.7.1.tar.gz]
+[2024-05-29 14:26:08] INFO root fetch - main [MainThread]: End processing [Orange3-SingleCell]: success
+[2024-05-29 14:26:13] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-4.4.2.tar.gz]
+[2024-05-29 14:26:13] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-4.4.3.tar.gz]
+[2024-05-29 14:26:13] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2024-05-29 14:26:13] INFO root fetch - main [MainThread]: Store serial: [23429567]
