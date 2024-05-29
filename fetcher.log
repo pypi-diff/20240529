@@ -17589,3 +17589,54 @@
 [2024-05-29 11:52:23] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405290950.tar.gz]
 [2024-05-29 11:52:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-29 11:52:23] INFO root fetch - main [MainThread]: Store serial: [23427710]
+[2024-05-29 11:54:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427710]
+[2024-05-29 11:54:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 11:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turbo2csv
+[2024-05-29 11:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: request-api-builder
+[2024-05-29 11:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codegrade
+[2024-05-29 11:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2024-05-29 11:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redturtle.prenotazioni
+[2024-05-29 11:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avocado-job-gmail
+[2024-05-29 11:54:33] INFO root fetch - processPackages [turbo2csv]: New version: [1.1.0] Old Version: [0.1]
+[2024-05-29 11:54:33] INFO root fetch - processPackages [request-api-builder]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-29 11:54:33] INFO root fetch - processPackages [redturtle.prenotazioni]: New version: [2.7.0] Old Version: [2.6.5]
+[2024-05-29 11:54:33] INFO root fetch - processPackages [codegrade]: New version: [16.1.9] Old Version: [16.1.8]
+[2024-05-29 11:54:33] INFO root fetch - processPackages [kfish]: New version: [99.0.202405290953] Old Version: [99.0.202405280853]
+[2024-05-29 11:54:33] WARNING root fetch - processPackages [avocado-job-gmail]: Skipping, unable to determine old version
+[2024-05-29 11:54:33] INFO root fetch - main [MainThread]: End processing [avocado-job-gmail] error
+[2024-05-29 11:54:34] INFO root fetch - processPackages [turbo2csv]: Downloading https://files.pythonhosted.org/packages/6a/a9/397ce2158de02127baa29943e33095a01ace707e677f3eefa78eaba0d680/turbo2csv-0.1.tar.gz
+[2024-05-29 11:54:34] INFO root fetch - processPackages [request-api-builder]: Downloading https://files.pythonhosted.org/packages/b8/da/97f1bccf431c6b9a1dbe58356f316120c678b674440e686d1725fb4060d7/request_api_builder-2.1.0.tar.gz
+[2024-05-29 11:54:34] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/a2/99/6dd91f125d60162d9298aca4e361d64263b90012dc12a802e2171ac952ee/codegrade-16.1.8.tar.gz
+[2024-05-29 11:54:34] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c6/30/9990204bc61e82f7144f28e2232707ceecdde07353dc3063449c75d88ddc/kfish-99.0.202405280853-py3-none-any.whl
+[2024-05-29 11:54:34] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/d8/c8/9e76947c1f03e34e923a09f9c7fe81de06a4c126c76a0ff25212ec24ed7d/redturtle.prenotazioni-2.6.5.tar.gz
+[2024-05-29 11:54:34] INFO root fetch - processPackages [turbo2csv]: Downloading https://files.pythonhosted.org/packages/ff/94/4705941a119b867ce4b6cbb3491017430102ca8cb82a750aeb422a147562/turbo2csv-1.1.0.tar.gz
+[2024-05-29 11:54:34] INFO root fetch - processPackages [request-api-builder]: Downloading https://files.pythonhosted.org/packages/d3/1a/c939ff50da8b7c0f3161837844bfceabaa5043f4c765a303320070b037f9/request_api_builder-2.1.1.tar.gz
+[2024-05-29 11:54:34] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/41/40/df3e0f8d1aa8d8f8b3815a59769e277dbadeaccb62c345344f7f7e0bc1d3/kfish-99.0.202405290953-py3-none-any.whl
+[2024-05-29 11:54:34] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/5c/19/067059110db7547fcfe643055d33ab487be554e0741049ea108c0e330c22/codegrade-16.1.9.tar.gz
+[2024-05-29 11:54:34] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/e1/f5/e4bb5c828977561ad3ca9cc923f8bebc0bfd06b6764a1eb305729d4ba49c/redturtle.prenotazioni-2.7.0.tar.gz
+[2024-05-29 11:54:34] INFO root fetch - processPackages [request-api-builder]: executing diffoscope
+[2024-05-29 11:54:34] INFO root fetch - processPackages [request-api-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request_api_builder-2.1.0.tar.gz tmp/request_api_builder-2.1.1.tar.gz --markdown 20240529/r/request-api-builder/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-29 11:54:34] INFO root fetch - processPackages [turbo2csv]: executing diffoscope
+[2024-05-29 11:54:34] INFO root fetch - processPackages [turbo2csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo2csv-0.1.tar.gz tmp/turbo2csv-1.1.0.tar.gz --markdown 20240529/t/turbo2csv/0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-29 11:54:34] INFO root fetch - processPackages [codegrade]: executing diffoscope
+[2024-05-29 11:54:34] INFO root fetch - processPackages [codegrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegrade-16.1.8.tar.gz tmp/codegrade-16.1.9.tar.gz --markdown 20240529/c/codegrade/16.1.8-16.1.9/README.md --exclude *.pyd
+[2024-05-29 11:54:34] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-29 11:54:34] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405280853-py3-none-any.whl.zip tmp/kfish-99.0.202405290953-py3-none-any.whl.zip --markdown 20240529/k/kfish/99.0.202405280853-99.0.202405290953/README.md --exclude *.pyd
+[2024-05-29 11:54:34] INFO root fetch - processPackages [redturtle.prenotazioni]: executing diffoscope
+[2024-05-29 11:54:34] INFO root fetch - processPackages [redturtle.prenotazioni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.prenotazioni-2.6.5.tar.gz tmp/redturtle.prenotazioni-2.7.0.tar.gz --markdown 20240529/r/redturtle.prenotazioni/2.6.5-2.7.0/README.md --exclude *.pyd
+[2024-05-29 11:54:35] INFO root fetch - processPackages [turbo2csv]: Remove: archive file [/home/abi/fetcher/tmp/turbo2csv-0.1.tar.gz]
+[2024-05-29 11:54:35] INFO root fetch - processPackages [turbo2csv]: Remove: archive file [/home/abi/fetcher/tmp/turbo2csv-1.1.0.tar.gz]
+[2024-05-29 11:54:35] INFO root fetch - main [MainThread]: End processing [turbo2csv]: success
+[2024-05-29 11:54:35] INFO root fetch - processPackages [request-api-builder]: Remove: archive file [/home/abi/fetcher/tmp/request_api_builder-2.1.0.tar.gz]
+[2024-05-29 11:54:35] INFO root fetch - processPackages [request-api-builder]: Remove: archive file [/home/abi/fetcher/tmp/request_api_builder-2.1.1.tar.gz]
+[2024-05-29 11:54:35] INFO root fetch - main [MainThread]: End processing [request-api-builder]: success
+[2024-05-29 11:54:35] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405280853-py3-none-any.whl.zip]
+[2024-05-29 11:54:35] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405290953-py3-none-any.whl.zip]
+[2024-05-29 11:54:35] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-29 11:54:36] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.5.tar.gz]
+[2024-05-29 11:54:36] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.7.0.tar.gz]
+[2024-05-29 11:54:36] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
+[2024-05-29 11:54:36] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.8.tar.gz]
+[2024-05-29 11:54:36] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
+[2024-05-29 11:54:36] INFO root fetch - main [MainThread]: End processing [codegrade]: success
+[2024-05-29 11:54:36] INFO root fetch - main [MainThread]: Store serial: [23427732]
