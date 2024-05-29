@@ -19185,3 +19185,63 @@
 [2024-05-29 12:53:56] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.7.tar.gz]
 [2024-05-29 12:53:56] INFO root fetch - main [MainThread]: End processing [s1-cns-cli]: success
 [2024-05-29 12:53:56] INFO root fetch - main [MainThread]: Store serial: [23428455]
+[2024-05-29 12:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428455]
+[2024-05-29 12:56:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 12:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autonomy-dev
+[2024-05-29 12:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mr-torch-utils
+[2024-05-29 12:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: canlib
+[2024-05-29 12:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbfgsb
+[2024-05-29 12:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ert
+[2024-05-29 12:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartlink-local
+[2024-05-29 12:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tkhelper
+[2024-05-29 12:56:07] INFO root fetch - processPackages [autonomy-dev]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-29 12:56:07] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-29 12:56:07] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 12:56:07] WARNING root fetch - processPackages [lbfgsb]: Skipping, unable to determine old version
+[2024-05-29 12:56:07] INFO root fetch - processPackages [tkhelper]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-29 12:56:07] INFO root fetch - main [MainThread]: End processing [lbfgsb] error
+[2024-05-29 12:56:07] INFO root fetch - processPackages [mr-torch-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 12:56:07] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/74/6b/50cc7e8d07beb3951793f8e4e79c02ccd9a99e5cf14c22feaaa1e36223c0/autonomy_dev-0.2.8.tar.gz
+[2024-05-29 12:56:07] INFO root fetch - processPackages [canlib]: New version: [1.26.487] Old Version: [1.25.393]
+[2024-05-29 12:56:07] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:56:07] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-29 12:56:07] INFO root fetch - processPackages [mr-torch-utils]: Downloading https://files.pythonhosted.org/packages/e4/ed/f697469b0b89396a2479301fdc66a325df6ad906b5af3c00d5c912ddd96f/mr_torch_utils-0.1.0.tar.gz
+[2024-05-29 12:56:07] INFO root fetch - processPackages [canlib]: Downloading https://files.pythonhosted.org/packages/b2/b0/cd6469d2ee01ee2620d02233c623f63ddeec46eb167248712346465ba34a/canlib-1.25.393.tar.gz
+[2024-05-29 12:56:07] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/8e/2f/cac161dab5caec9eb3b44041af8430629027361e01bbc704d69152de97a6/autonomy_dev-0.2.9.tar.gz
+[2024-05-29 12:56:07] INFO root fetch - processPackages [tkhelper]: Downloading https://files.pythonhosted.org/packages/59/a2/1fd82f9cbea13e3ccab8dc65c61fd4bee09352a8f7ac9f35f38ad6004efc/tkhelper-2.1.0.tar.gz
+[2024-05-29 12:56:07] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:56:07] INFO root fetch - processPackages [autonomy-dev]: executing diffoscope
+[2024-05-29 12:56:07] INFO root fetch - processPackages [autonomy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomy_dev-0.2.8.tar.gz tmp/autonomy_dev-0.2.9.tar.gz --markdown 20240529/a/autonomy-dev/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-29 12:56:07] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-29 12:56:08] INFO root fetch - processPackages [canlib]: Downloading https://files.pythonhosted.org/packages/4d/1f/174b0e9252496a6dc97617de19cc2e5fecbb7a8218d6284c1520f3da0e36/canlib-1.26.487.tar.gz
+[2024-05-29 12:56:08] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-05-29 12:56:08] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240529/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-29 12:56:08] INFO root fetch - processPackages [mr-torch-utils]: Downloading https://files.pythonhosted.org/packages/cc/7c/d792ace918c72f9336e76bfa130ccc7206cb109368c567c664938e87d2b8/mr_torch_utils-0.1.1.tar.gz
+[2024-05-29 12:56:08] INFO root fetch - processPackages [canlib]: executing diffoscope
+[2024-05-29 12:56:08] INFO root fetch - processPackages [canlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canlib-1.25.393.tar.gz tmp/canlib-1.26.487.tar.gz --markdown 20240529/c/canlib/1.25.393-1.26.487/README.md --exclude *.pyd
+[2024-05-29 12:56:08] INFO root fetch - processPackages [tkhelper]: Downloading https://files.pythonhosted.org/packages/88/c2/85c574681b6ab48603b0ed210f08b019229b1de8128c6dd5d6162531b7e0/tkhelper-2.1.1.tar.gz
+[2024-05-29 12:56:08] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-29 12:56:08] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240529/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 12:56:08] INFO root fetch - processPackages [mr-torch-utils]: executing diffoscope
+[2024-05-29 12:56:08] INFO root fetch - processPackages [mr-torch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mr_torch_utils-0.1.0.tar.gz tmp/mr_torch_utils-0.1.1.tar.gz --markdown 20240529/m/mr-torch-utils/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 12:56:08] INFO root fetch - processPackages [tkhelper]: executing diffoscope
+[2024-05-29 12:56:08] INFO root fetch - processPackages [tkhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkhelper-2.1.0.tar.gz tmp/tkhelper-2.1.1.tar.gz --markdown 20240529/t/tkhelper/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-29 12:56:08] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.2.8.tar.gz]
+[2024-05-29 12:56:08] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.2.9.tar.gz]
+[2024-05-29 12:56:08] INFO root fetch - main [MainThread]: End processing [autonomy-dev]: success
+[2024-05-29 12:56:08] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-29 12:56:08] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-29 12:56:08] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-29 12:56:08] INFO root fetch - processPackages [mr-torch-utils]: Remove: archive file [/home/abi/fetcher/tmp/mr_torch_utils-0.1.0.tar.gz]
+[2024-05-29 12:56:08] INFO root fetch - processPackages [mr-torch-utils]: Remove: archive file [/home/abi/fetcher/tmp/mr_torch_utils-0.1.1.tar.gz]
+[2024-05-29 12:56:08] INFO root fetch - main [MainThread]: End processing [mr-torch-utils]: success
+[2024-05-29 12:56:09] INFO root fetch - processPackages [tkhelper]: Remove: archive file [/home/abi/fetcher/tmp/tkhelper-2.1.0.tar.gz]
+[2024-05-29 12:56:09] INFO root fetch - processPackages [tkhelper]: Remove: archive file [/home/abi/fetcher/tmp/tkhelper-2.1.1.tar.gz]
+[2024-05-29 12:56:09] INFO root fetch - main [MainThread]: End processing [tkhelper]: success
+[2024-05-29 12:56:09] INFO root fetch - processPackages [canlib]: Remove: archive file [/home/abi/fetcher/tmp/canlib-1.25.393.tar.gz]
+[2024-05-29 12:56:09] INFO root fetch - processPackages [canlib]: Remove: archive file [/home/abi/fetcher/tmp/canlib-1.26.487.tar.gz]
+[2024-05-29 12:56:09] INFO root fetch - main [MainThread]: End processing [canlib]: success
+[2024-05-29 12:56:12] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:56:12] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:56:12] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-05-29 12:56:12] INFO root fetch - main [MainThread]: Store serial: [23428489]
