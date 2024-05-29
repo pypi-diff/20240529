@@ -8697,3 +8697,24 @@
 [2024-05-29 05:27:36] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-7.2.1.tar.gz]
 [2024-05-29 05:27:36] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-mongodbatlas]: success
 [2024-05-29 05:27:36] INFO root fetch - main [MainThread]: Store serial: [23423595]
+[2024-05-29 05:29:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423595]
+[2024-05-29 05:29:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 05:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oebuild
+[2024-05-29 05:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: konfuzio-sdk
+[2024-05-29 05:29:46] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 05:29:46] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.3.7.dev20240528095544] Old Version: [0.3.7.dev20240524130943]
+[2024-05-29 05:29:46] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-05-29 05:29:46] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/48/4f/41e472dd9a725895358af2ed1a536228d6534df7ad40501e9e7918ba28de/konfuzio_sdk-0.3.7.dev20240524130943.tar.gz
+[2024-05-29 05:29:47] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/3f/d8/480d63ae2e6b2ff55091a22b337e618856e3946089dfb57d03915f8c86b3/konfuzio_sdk-0.3.7.dev20240528095544.tar.gz
+[2024-05-29 05:29:47] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-05-29 05:29:47] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-05-29 05:29:47] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240529/o/oebuild/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 05:29:47] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-05-29 05:29:47] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.3.7.dev20240524130943.tar.gz tmp/konfuzio_sdk-0.3.7.dev20240528095544.tar.gz --markdown 20240529/k/konfuzio-sdk/0.3.7.dev20240524130943-0.3.7.dev20240528095544/README.md --exclude *.pyd
+[2024-05-29 05:29:47] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-05-29 05:29:47] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-05-29 05:29:47] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-05-29 05:29:48] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.7.dev20240524130943.tar.gz]
+[2024-05-29 05:29:48] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.7.dev20240528095544.tar.gz]
+[2024-05-29 05:29:48] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-05-29 05:29:48] INFO root fetch - main [MainThread]: Store serial: [23423600]
