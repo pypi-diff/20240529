@@ -22466,3 +22466,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:52:58] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-29 14:52:58] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-29 14:52:58] INFO root fetch - main [MainThread]: Store serial: [23429947]
+[2024-05-29 14:55:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429947]
+[2024-05-29 14:55:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-29 14:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-docker-build
+[2024-05-29 14:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-workflows-tugraz
+[2024-05-29 14:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmtube
+[2024-05-29 14:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: therix
+[2024-05-29 14:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: supplies
+[2024-05-29 14:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-aws-native
+[2024-05-29 14:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tm-cdk-constructs
+[2024-05-29 14:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bbrl-utils
+[2024-05-29 14:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aepo
+[2024-05-29 14:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-customvueadmin
+[2024-05-29 14:55:08] INFO root fetch - processPackages [therix]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 14:55:08] INFO root fetch - processPackages [swarmtube]: New version: [0.1.53] Old Version: [0.1.52]
+[2024-05-29 14:55:08] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-29 14:55:08] INFO root fetch - processPackages [supplies]: New version: [0.9.1] Old Version: [0.8.9]
+[2024-05-29 14:55:08] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/f1/a8/4a3271dbe063ea17246d65ba9739ec10c81f4c3477759aa094dcb71d3ffd/therix-0.1.8.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [invenio-workflows-tugraz]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-05-29 14:55:08] WARNING root fetch - processPackages [tm-cdk-constructs]: Skipping, unable to determine old version
+[2024-05-29 14:55:08] INFO root fetch - processPackages [tm-cdk-constructs]: Start processing: ANNarchy
+[2024-05-29 14:55:08] INFO root fetch - main [MainThread]: End processing [tm-cdk-constructs] error
+[2024-05-29 14:55:08] WARNING root fetch - processPackages [bbrl-utils]: Skipping, unable to determine old version
+[2024-05-29 14:55:08] INFO root fetch - main [MainThread]: End processing [bbrl-utils] error
+[2024-05-29 14:55:08] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/99/5a/02eb53f3391b4b9f7766641c1753fea0855b18b5efcdd6b7b8dc7b5e2f29/swarmtube-0.1.52-py2.py3-none-any.whl
+[2024-05-29 14:55:08] INFO root fetch - processPackages [pulumi-docker-build]: New version: [0.1.0a1716985798] Old Version: [0.1.0a1715941581]
+[2024-05-29 14:55:08] INFO root fetch - processPackages [aepo]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-29 14:55:08] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-29 14:55:08] INFO root fetch - processPackages [ANNarchy]: New version: [4.8.0.1] Old Version: [4.7.3]
+[2024-05-29 14:55:08] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [supplies]: Downloading https://files.pythonhosted.org/packages/77/0e/515506013ff5822d89aed3d381128f636bb13054bf07ca7904def4cfe136/supplies-0.8.9.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/44/2d/fe085bdf742b650034e74415334d35214709d5c463b6077bb0f6a3bd9b59/ANNarchy-4.7.3.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [invenio-workflows-tugraz]: Downloading https://files.pythonhosted.org/packages/3f/64/6ae9c8e270011ae57e967e9afd0c07f7b6161825820df3a26f778260c944/invenio-workflows-tugraz-0.5.3.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/ee/60/0686452443e171eff7a03ed2580d6bbeb0a825e5a3b3ab3267df61e8f519/pulumi_docker_build-0.1.0a1715941581.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/cd/76/d69f3bcfb225da8b2c3acdf5292ed6ab47bd462797def9763470369a4ccc/django_customvueadmin-0.2.8.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [aepo]: Downloading https://files.pythonhosted.org/packages/d6/37/0dd130514b4f50755a416b0f7c7d3d1053a94fb65326316e13b5295b14b3/aepo-0.1.4.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/05/fd/28e7c0ce7af9ca0f499fda87e401d8c0bbe6ec293fae4635dd0db3f76d70/therix-0.1.9.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [supplies]: Downloading https://files.pythonhosted.org/packages/32/1d/56ac4ad30ae33c6b5e80374d7a5f22c75833e4eb3a7174d62f9738c91aaf/supplies-0.9.1.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/00/81/f868b4c69e6bdfe9885ad5ca960176bc20a9b1877dd61aceb5afc9bdee12/swarmtube-0.1.53-py2.py3-none-any.whl
+[2024-05-29 14:55:08] INFO root fetch - processPackages [supplies]: executing diffoscope
+[2024-05-29 14:55:08] INFO root fetch - processPackages [supplies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supplies-0.8.9.tar.gz tmp/supplies-0.9.1.tar.gz --markdown 20240529/s/supplies/0.8.9-0.9.1/README.md --exclude *.pyd
+[2024-05-29 14:55:08] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/b2/9f/24745a281be2e025633387e6e564ec0a16ce60cec69ba66ae1539a9eb5e8/annarchy-4.8.0.1.tar.gz
+[2024-05-29 14:55:08] INFO root fetch - processPackages [therix]: executing diffoscope
+[2024-05-29 14:55:08] INFO root fetch - processPackages [therix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/therix-0.1.8.tar.gz tmp/therix-0.1.9.tar.gz --markdown 20240529/t/therix/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 14:55:08] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-29 14:55:08] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.52-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.53-py2.py3-none-any.whl.zip --markdown 20240529/s/swarmtube/0.1.52-0.1.53/README.md --exclude *.pyd
+[2024-05-29 14:55:08] INFO root fetch - processPackages [invenio-workflows-tugraz]: Downloading https://files.pythonhosted.org/packages/06/69/1d85b2d5cd48b1fe69fad066b6b5a674172da2ad2a426212d67856aa2c92/invenio-workflows-tugraz-0.6.0.tar.gz
+[2024-05-29 14:55:09] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/13/24/4a1d2d18bf58f239298be470a4870aeac819fad02698a7d2daca1a02d66e/pulumi_docker_build-0.1.0a1716985798.tar.gz
+[2024-05-29 14:55:09] INFO root fetch - processPackages [ANNarchy]: executing diffoscope
+[2024-05-29 14:55:09] INFO root fetch - processPackages [ANNarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANNarchy-4.7.3.tar.gz tmp/annarchy-4.8.0.1.tar.gz --markdown 20240529/A/ANNarchy/4.7.3-4.8.0.1/README.md --exclude *.pyd
+[2024-05-29 14:55:09] INFO root fetch - processPackages [invenio-workflows-tugraz]: executing diffoscope
+[2024-05-29 14:55:09] INFO root fetch - processPackages [invenio-workflows-tugraz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-workflows-tugraz-0.5.3.tar.gz tmp/invenio-workflows-tugraz-0.6.0.tar.gz --markdown 20240529/i/invenio-workflows-tugraz/0.5.3-0.6.0/README.md --exclude *.pyd
+[2024-05-29 14:55:09] INFO root fetch - processPackages [aepo]: Downloading https://files.pythonhosted.org/packages/72/c8/82432dac345857472114ed1de08da3995cbd7a3b2a8908689a28f892eaaf/aepo-0.1.5.tar.gz
+[2024-05-29 14:55:09] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-29 14:55:09] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240529/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-29 14:55:09] INFO root fetch - processPackages [pulumi-docker-build]: executing diffoscope
+[2024-05-29 14:55:09] INFO root fetch - processPackages [pulumi-docker-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker_build-0.1.0a1715941581.tar.gz tmp/pulumi_docker_build-0.1.0a1716985798.tar.gz --markdown 20240529/p/pulumi-docker-build/0.1.0a1715941581-0.1.0a1716985798/README.md --exclude *.pyd
+[2024-05-29 14:55:09] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/ee/7b/bc29ddb1585425e8738f7c46f715bf2633c8fc923eff807dcc4289a75f62/django_customvueadmin-0.2.9.tar.gz
+[2024-05-29 14:55:09] INFO root fetch - processPackages [aepo]: executing diffoscope
+[2024-05-29 14:55:09] INFO root fetch - processPackages [aepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aepo-0.1.4.tar.gz tmp/aepo-0.1.5.tar.gz --markdown 20240529/a/aepo/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-29 14:55:09] INFO root fetch - processPackages [supplies]: Remove: archive file [/home/abi/fetcher/tmp/supplies-0.8.9.tar.gz]
+[2024-05-29 14:55:09] INFO root fetch - processPackages [supplies]: Remove: archive file [/home/abi/fetcher/tmp/supplies-0.9.1.tar.gz]
+[2024-05-29 14:55:09] INFO root fetch - main [MainThread]: End processing [supplies]: success
+[2024-05-29 14:55:09] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-05-29 14:55:09] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_customvueadmin-0.2.8.tar.gz tmp/django_customvueadmin-0.2.9.tar.gz --markdown 20240529/d/django-customvueadmin/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-29 14:55:09] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.52-py2.py3-none-any.whl.zip]
+[2024-05-29 14:55:09] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.53-py2.py3-none-any.whl.zip]
+[2024-05-29 14:55:09] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-29 14:55:10] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.8.tar.gz]
+[2024-05-29 14:55:10] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.9.tar.gz]
+[2024-05-29 14:55:10] INFO root fetch - main [MainThread]: End processing [therix]: success
+[2024-05-29 14:55:10] INFO root fetch - processPackages [pulumi-docker-build]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker_build-0.1.0a1715941581.tar.gz]
+[2024-05-29 14:55:10] INFO root fetch - processPackages [pulumi-docker-build]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker_build-0.1.0a1716985798.tar.gz]
+[2024-05-29 14:55:10] INFO root fetch - main [MainThread]: End processing [pulumi-docker-build]: success
+[2024-05-29 14:55:10] INFO root fetch - processPackages [aepo]: Remove: archive file [/home/abi/fetcher/tmp/aepo-0.1.4.tar.gz]
+[2024-05-29 14:55:10] INFO root fetch - processPackages [aepo]: Remove: archive file [/home/abi/fetcher/tmp/aepo-0.1.5.tar.gz]
+[2024-05-29 14:55:10] INFO root fetch - main [MainThread]: End processing [aepo]: success
+[2024-05-29 14:55:10] INFO root fetch - processPackages [invenio-workflows-tugraz]: Remove: archive file [/home/abi/fetcher/tmp/invenio-workflows-tugraz-0.5.3.tar.gz]
+[2024-05-29 14:55:10] INFO root fetch - processPackages [invenio-workflows-tugraz]: Remove: archive file [/home/abi/fetcher/tmp/invenio-workflows-tugraz-0.6.0.tar.gz]
+[2024-05-29 14:55:10] INFO root fetch - main [MainThread]: End processing [invenio-workflows-tugraz]: success
+[2024-05-29 14:55:11] INFO root fetch - processPackages [ANNarchy]: Remove: archive file [/home/abi/fetcher/tmp/ANNarchy-4.7.3.tar.gz]
+[2024-05-29 14:55:11] INFO root fetch - processPackages [ANNarchy]: Remove: archive file [/home/abi/fetcher/tmp/annarchy-4.8.0.1.tar.gz]
+[2024-05-29 14:55:11] INFO root fetch - main [MainThread]: End processing [ANNarchy]: success
+[2024-05-29 14:55:24] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-29 14:55:24] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-29 14:55:24] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-29 14:55:34] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.8.tar.gz]
+[2024-05-29 14:55:34] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.9.tar.gz]
+[2024-05-29 14:55:34] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-05-29 14:55:34] INFO root fetch - main [MainThread]: Store serial: [23429981]
