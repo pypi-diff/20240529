@@ -22829,3 +22829,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:05:35] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
 [2024-05-29 15:05:35] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
 [2024-05-29 15:05:35] INFO root fetch - main [MainThread]: Store serial: [23430091]
+[2024-05-29 15:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430091]
+[2024-05-29 15:07:44] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-29 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-rdm-records
+[2024-05-29 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparv-sbx-sentence-sentiment-kb-sent
+[2024-05-29 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capellambse
+[2024-05-29 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vnpy-ctabacktester
+[2024-05-29 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfast-sqlite
+[2024-05-29 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2024-05-29 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lightly
+[2024-05-29 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-mrp-workcenter-hierarchical
+[2024-05-29 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: brapi-proxy
+[2024-05-29 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jsondataferret
+[2024-05-29 15:07:44] INFO root fetch - processPackages [pyfast-sqlite]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 15:07:44] INFO root fetch - processPackages [brapi-proxy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 15:07:44] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-29 15:07:44] INFO root fetch - processPackages [vnpy-ctabacktester]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-29 15:07:44] WARNING root fetch - processPackages [odoo-addon-mrp-workcenter-hierarchical]: Skipping, unable to determine old version
+[2024-05-29 15:07:44] INFO root fetch - processPackages [odoo-addon-mrp-workcenter-hierarchical]: Start processing: pathlibs3
+[2024-05-29 15:07:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-workcenter-hierarchical] error
+[2024-05-29 15:07:44] INFO root fetch - processPackages [pyfast-sqlite]: Downloading https://files.pythonhosted.org/packages/57/2b/539eae0a0eb8e28d2dc5e835537ccdace3b073687fc18ae7fbadbb7b9250/pyfast_sqlite-0.0.3.tar.gz
+[2024-05-29 15:07:44] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/e5/04/830128de8bf638591f399b4facbc6e91ee1c7e68369ef7c50878eda347f7/brapi_proxy-0.0.8.tar.gz
+[2024-05-29 15:07:44] INFO root fetch - processPackages [jsondataferret]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-29 15:07:44] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-05-29 15:07:44] INFO root fetch - processPackages [sparv-sbx-sentence-sentiment-kb-sent]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 15:07:44] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-29 15:07:44] INFO root fetch - processPackages [lightly]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-05-29 15:07:44] INFO root fetch - processPackages [invenio-rdm-records]: New version: [9.1.0] Old Version: [9.0.1]
+[2024-05-29 15:07:44] INFO root fetch - processPackages [pathlibs3]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-29 15:07:44] INFO root fetch - processPackages [vnpy-ctabacktester]: Downloading https://files.pythonhosted.org/packages/ac/df/dddcdab4b838a98efa7f74c76b6e8c233b66ca10ebf8065c3ccdaccbfdfd/vnpy_ctabacktester-1.1.2.tar.gz
+[2024-05-29 15:07:44] INFO root fetch - processPackages [sparv-sbx-sentence-sentiment-kb-sent]: Downloading https://files.pythonhosted.org/packages/92/ca/c584fd0519319bfc00565643f0201a3f8f6f6843fca6ef8c485f7a1cf5bc/sparv_sbx_sentence_sentiment_kb_sent-0.1.0.tar.gz
+[2024-05-29 15:07:44] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/78/53/a3c28b1776c1c428be285c108ffcfeeb2f2e3a97bac6d6d3d2e84fecfb2b/brapi_proxy-0.0.9.tar.gz
+[2024-05-29 15:07:44] INFO root fetch - processPackages [jsondataferret]: Downloading https://files.pythonhosted.org/packages/9c/77/595a65fbf693db52381639d5a83f21e985a43e75933486f1ed41a9846d3c/jsondataferret-0.7.0.tar.gz
+[2024-05-29 15:07:44] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/18/fd/64e00ec4c048a386747c1bef38aee5bea63914ced22c4011af61c18c7617/invenio-rdm-records-9.0.1.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/fe/ff/d73583dc76b57dbf1e6aedbd79e0881c971f552e7d7b41d45b87867a400e/lightly-1.5.4.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [pathlibs3]: Downloading https://files.pythonhosted.org/packages/33/82/1aaffc03fe76b3f5bb8acc55b7434dfce4ac613eae9c18f551f60f399398/pathlibs3-0.2.5.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [brapi-proxy]: executing diffoscope
+[2024-05-29 15:07:45] INFO root fetch - processPackages [brapi-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brapi_proxy-0.0.8.tar.gz tmp/brapi_proxy-0.0.9.tar.gz --markdown 20240529/b/brapi-proxy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 15:07:45] INFO root fetch - processPackages [pyfast-sqlite]: Downloading https://files.pythonhosted.org/packages/8c/31/5fd5d74a32367d30e977e24a5b6d744ea8ba1d250077b7cc2dbcbef60eff/pyfast_sqlite-0.0.4.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [vnpy-ctabacktester]: Downloading https://files.pythonhosted.org/packages/bf/30/0cd5b6b929d7d668c1a85d2de008ec0656edff7eb035eea62c689e723593/vnpy_ctabacktester-1.1.3.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [pyfast-sqlite]: executing diffoscope
+[2024-05-29 15:07:45] INFO root fetch - processPackages [pyfast-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfast_sqlite-0.0.3.tar.gz tmp/pyfast_sqlite-0.0.4.tar.gz --markdown 20240529/p/pyfast-sqlite/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 15:07:45] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-29 15:07:45] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240529/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-29 15:07:45] INFO root fetch - processPackages [sparv-sbx-sentence-sentiment-kb-sent]: Downloading https://files.pythonhosted.org/packages/b0/58/5ad279a23fb79e614be93a7db034682b67c968771ad17f0969a71a747321/sparv_sbx_sentence_sentiment_kb_sent-0.1.1.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [vnpy-ctabacktester]: executing diffoscope
+[2024-05-29 15:07:45] INFO root fetch - processPackages [vnpy-ctabacktester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_ctabacktester-1.1.2.tar.gz tmp/vnpy_ctabacktester-1.1.3.tar.gz --markdown 20240529/v/vnpy-ctabacktester/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-29 15:07:45] INFO root fetch - processPackages [jsondataferret]: Downloading https://files.pythonhosted.org/packages/0d/e4/4bb16f2aa9198cd69b5325d8fdac10ccdf29a282f87f344730554d1f042c/jsondataferret-0.7.1.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/b6/fe/5a88597d936fd97a956e92a61f854f8df49c2a9737474a9f4981784e2b90/lightly-1.5.5.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [sparv-sbx-sentence-sentiment-kb-sent]: executing diffoscope
+[2024-05-29 15:07:45] INFO root fetch - processPackages [sparv-sbx-sentence-sentiment-kb-sent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparv_sbx_sentence_sentiment_kb_sent-0.1.0.tar.gz tmp/sparv_sbx_sentence_sentiment_kb_sent-0.1.1.tar.gz --markdown 20240529/s/sparv-sbx-sentence-sentiment-kb-sent/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 15:07:45] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/ff/b3/da0e80b7a9fddba227a118921bf77e45d687a1dfb9f61cc030022dd8500e/invenio-rdm-records-9.1.0.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [pathlibs3]: Downloading https://files.pythonhosted.org/packages/5d/ac/44d6bc041c472b66d6d2aaf13f581a60ffaf420a14d99ee813e03d42ae63/pathlibs3-0.2.6.tar.gz
+[2024-05-29 15:07:45] INFO root fetch - processPackages [lightly]: executing diffoscope
+[2024-05-29 15:07:45] INFO root fetch - processPackages [lightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightly-1.5.4.tar.gz tmp/lightly-1.5.5.tar.gz --markdown 20240529/l/lightly/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-05-29 15:07:45] INFO root fetch - processPackages [jsondataferret]: executing diffoscope
+[2024-05-29 15:07:45] INFO root fetch - processPackages [jsondataferret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsondataferret-0.7.0.tar.gz tmp/jsondataferret-0.7.1.tar.gz --markdown 20240529/j/jsondataferret/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-29 15:07:45] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2024-05-29 15:07:45] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-9.0.1.tar.gz tmp/invenio-rdm-records-9.1.0.tar.gz --markdown 20240529/i/invenio-rdm-records/9.0.1-9.1.0/README.md --exclude *.pyd
+[2024-05-29 15:07:45] INFO root fetch - processPackages [pathlibs3]: executing diffoscope
+[2024-05-29 15:07:45] INFO root fetch - processPackages [pathlibs3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathlibs3-0.2.5.tar.gz tmp/pathlibs3-0.2.6.tar.gz --markdown 20240529/p/pathlibs3/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-29 15:07:46] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.8.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.9.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [brapi-proxy]: Start processing: silero-vad
+[2024-05-29 15:07:46] INFO root fetch - main [MainThread]: End processing [brapi-proxy]: success
+[2024-05-29 15:07:46] INFO root fetch - processPackages [pyfast-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/pyfast_sqlite-0.0.3.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [pyfast-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/pyfast_sqlite-0.0.4.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [pyfast-sqlite]: Start processing: xplainable-client
+[2024-05-29 15:07:46] INFO root fetch - main [MainThread]: End processing [pyfast-sqlite]: success
+[2024-05-29 15:07:46] INFO root fetch - processPackages [silero-vad]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [xplainable-client]: New version: [1.2.5.post3] Old Version: [1.2.5.post2]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [silero-vad]: Downloading https://files.pythonhosted.org/packages/01/40/bbcdda29eb675b32106a705a989ebfd1c3785bbab519d959c906bd194345/silero-vad-0.0.5.tar.gz
+[2024-05-29 15:07:46] INFO root fetch - processPackages [vnpy-ctabacktester]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_ctabacktester-1.1.2.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [vnpy-ctabacktester]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_ctabacktester-1.1.3.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [vnpy-ctabacktester]: Start processing: cdk-preinstalled-amazon-linux-ec2
+[2024-05-29 15:07:46] INFO root fetch - main [MainThread]: End processing [vnpy-ctabacktester]: success
+[2024-05-29 15:07:46] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/a1/bc/76aa446ab51565ca3ab35887d2fa459fd83206d2b96065b5b30b9729d18e/xplainable_client-1.2.5.post2.tar.gz
+[2024-05-29 15:07:46] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-05-29 15:07:46] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Downloading https://files.pythonhosted.org/packages/bc/88/d9c3a78a3c0307e0a44e32a6a72c15eb604f1e3aa441d254dcada2143f0d/cdk-preinstalled-amazon-linux-ec2-0.0.0.tar.gz
+[2024-05-29 15:07:46] INFO root fetch - processPackages [sparv-sbx-sentence-sentiment-kb-sent]: Remove: archive file [/home/abi/fetcher/tmp/sparv_sbx_sentence_sentiment_kb_sent-0.1.0.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [sparv-sbx-sentence-sentiment-kb-sent]: Remove: archive file [/home/abi/fetcher/tmp/sparv_sbx_sentence_sentiment_kb_sent-0.1.1.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - main [MainThread]: End processing [sparv-sbx-sentence-sentiment-kb-sent]: success
+[2024-05-29 15:07:46] INFO root fetch - processPackages [silero-vad]: Downloading https://files.pythonhosted.org/packages/e8/9e/23e8ba013d9361cb86defe2405b4f7434a1f067b53f40437dd0633f2cf47/silero-vad-0.0.6.tar.gz
+[2024-05-29 15:07:46] INFO root fetch - processPackages [jsondataferret]: Remove: archive file [/home/abi/fetcher/tmp/jsondataferret-0.7.0.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [jsondataferret]: Remove: archive file [/home/abi/fetcher/tmp/jsondataferret-0.7.1.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - main [MainThread]: End processing [jsondataferret]: success
+[2024-05-29 15:07:46] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Downloading https://files.pythonhosted.org/packages/0e/9b/79ce0dacf55cce7f7a5628da02f6b3955daa091db63a16b61b0e2309a516/cdk-preinstalled-amazon-linux-ec2-0.0.1.tar.gz
+[2024-05-29 15:07:46] INFO root fetch - processPackages [pathlibs3]: Remove: archive file [/home/abi/fetcher/tmp/pathlibs3-0.2.5.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - processPackages [pathlibs3]: Remove: archive file [/home/abi/fetcher/tmp/pathlibs3-0.2.6.tar.gz]
+[2024-05-29 15:07:46] INFO root fetch - main [MainThread]: End processing [pathlibs3]: success
+[2024-05-29 15:07:46] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/56/23/6ce819bbd25f04942bf14398ae52c454b470030167403eaf87970e2d844f/xplainable_client-1.2.5.post3.tar.gz
+[2024-05-29 15:07:46] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: executing diffoscope
+[2024-05-29 15:07:46] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-preinstalled-amazon-linux-ec2-0.0.0.tar.gz tmp/cdk-preinstalled-amazon-linux-ec2-0.0.1.tar.gz --markdown 20240529/c/cdk-preinstalled-amazon-linux-ec2/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-29 15:07:46] INFO root fetch - processPackages [xplainable-client]: executing diffoscope
+[2024-05-29 15:07:46] INFO root fetch - processPackages [xplainable-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplainable_client-1.2.5.post2.tar.gz tmp/xplainable_client-1.2.5.post3.tar.gz --markdown 20240529/x/xplainable-client/1.2.5.post2-1.2.5.post3/README.md --exclude *.pyd
+[2024-05-29 15:07:46] INFO root fetch - processPackages [silero-vad]: executing diffoscope
+[2024-05-29 15:07:46] INFO root fetch - processPackages [silero-vad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silero-vad-0.0.5.tar.gz tmp/silero-vad-0.0.6.tar.gz --markdown 20240529/s/silero-vad/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-29 15:07:47] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-05-29 15:07:47] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240529/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-05-29 15:07:47] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Remove: archive file [/home/abi/fetcher/tmp/cdk-preinstalled-amazon-linux-ec2-0.0.0.tar.gz]
+[2024-05-29 15:07:47] INFO root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Remove: archive file [/home/abi/fetcher/tmp/cdk-preinstalled-amazon-linux-ec2-0.0.1.tar.gz]
+[2024-05-29 15:07:47] INFO root fetch - main [MainThread]: End processing [cdk-preinstalled-amazon-linux-ec2]: success
+[2024-05-29 15:07:47] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.post2.tar.gz]
+[2024-05-29 15:07:47] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.post3.tar.gz]
+[2024-05-29 15:07:47] INFO root fetch - main [MainThread]: End processing [xplainable-client]: success
+[2024-05-29 15:07:47] INFO root fetch - processPackages [silero-vad]: Remove: archive file [/home/abi/fetcher/tmp/silero-vad-0.0.5.tar.gz]
+[2024-05-29 15:07:47] INFO root fetch - processPackages [silero-vad]: Remove: archive file [/home/abi/fetcher/tmp/silero-vad-0.0.6.tar.gz]
+[2024-05-29 15:07:47] INFO root fetch - main [MainThread]: End processing [silero-vad]: success
+[2024-05-29 15:07:48] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.5.4.tar.gz]
+[2024-05-29 15:07:48] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.5.5.tar.gz]
+[2024-05-29 15:07:48] INFO root fetch - main [MainThread]: End processing [lightly]: success
+[2024-05-29 15:07:48] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-29 15:07:48] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-29 15:07:48] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-29 15:07:50] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.0.1.tar.gz]
+[2024-05-29 15:07:50] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
+[2024-05-29 15:07:50] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2024-05-29 15:07:52] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-05-29 15:07:52] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-05-29 15:07:52] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-05-29 15:07:52] INFO root fetch - main [MainThread]: Store serial: [23430137]
