@@ -7278,3 +7278,15 @@
 [2024-05-29 03:49:46] INFO root fetch - processPackages [meetlify]: Remove: archive file [/home/abi/fetcher/tmp/meetlify-0.1.9.tar.gz]
 [2024-05-29 03:49:46] INFO root fetch - main [MainThread]: End processing [meetlify]: success
 [2024-05-29 03:49:46] INFO root fetch - main [MainThread]: Store serial: [23422947]
+[2024-05-29 03:51:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23422947]
+[2024-05-29 03:51:54] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 03:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddeutil-io
+[2024-05-29 03:51:55] INFO root fetch - processPackages [ddeutil-io]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-29 03:51:55] INFO root fetch - processPackages [ddeutil-io]: Downloading https://files.pythonhosted.org/packages/af/2d/ace845c2423bcdda896db2e714c07b5dfa9b0035f17fa9613c7cdc36fb3f/ddeutil_io-0.1.7.tar.gz
+[2024-05-29 03:51:55] INFO root fetch - processPackages [ddeutil-io]: Downloading https://files.pythonhosted.org/packages/96/94/62b3afd4464f99d248264113700a3625abc587f8ec70b3fa373f088f7238/ddeutil_io-0.1.8.tar.gz
+[2024-05-29 03:51:55] INFO root fetch - processPackages [ddeutil-io]: executing diffoscope
+[2024-05-29 03:51:55] INFO root fetch - processPackages [ddeutil-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddeutil_io-0.1.7.tar.gz tmp/ddeutil_io-0.1.8.tar.gz --markdown 20240529/d/ddeutil-io/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-29 03:51:56] INFO root fetch - processPackages [ddeutil-io]: Remove: archive file [/home/abi/fetcher/tmp/ddeutil_io-0.1.7.tar.gz]
+[2024-05-29 03:51:56] INFO root fetch - processPackages [ddeutil-io]: Remove: archive file [/home/abi/fetcher/tmp/ddeutil_io-0.1.8.tar.gz]
+[2024-05-29 03:51:56] INFO root fetch - main [MainThread]: End processing [ddeutil-io]: success
+[2024-05-29 03:51:56] INFO root fetch - main [MainThread]: Store serial: [23422973]
