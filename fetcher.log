@@ -8250,3 +8250,36 @@
 [2024-05-29 04:57:53] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.9-py3-none-any.whl.zip]
 [2024-05-29 04:57:53] INFO root fetch - main [MainThread]: End processing [storybuilder]: success
 [2024-05-29 04:57:53] INFO root fetch - main [MainThread]: Store serial: [23423427]
+[2024-05-29 04:59:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423427]
+[2024-05-29 05:00:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 05:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbgear
+[2024-05-29 05:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-discount-display-amount
+[2024-05-29 05:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluffpaddingcypher
+[2024-05-29 05:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waii-sdk-py
+[2024-05-29 05:00:01] INFO root fetch - processPackages [dbgear]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-29 05:00:01] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-29 05:00:02] WARNING root fetch - processPackages [bluffpaddingcypher]: Skipping, unable to determine old version
+[2024-05-29 05:00:02] INFO root fetch - main [MainThread]: End processing [bluffpaddingcypher] error
+[2024-05-29 05:00:02] INFO root fetch - processPackages [waii-sdk-py]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-29 05:00:02] INFO root fetch - processPackages [dbgear]: Downloading https://files.pythonhosted.org/packages/9f/10/570273f9f34a4ec34a2041efebabd687595f5462e3382f83da3d028f89bc/dbgear-0.8.0.tar.gz
+[2024-05-29 05:00:02] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: Downloading https://files.pythonhosted.org/packages/49/81/19a2f8bf219e4048d223d36aafaab79e65045dbab6e450772b00f73f46e6/odoo_addon_account_invoice_discount_display_amount-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-29 05:00:02] INFO root fetch - processPackages [waii-sdk-py]: Downloading https://files.pythonhosted.org/packages/66/9c/2c87fc22d28c4ea1b75c79ce5a78be2a0493900c8354fa627df4f02ef50f/waii-sdk-py-1.9.0.tar.gz
+[2024-05-29 05:00:02] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: Downloading https://files.pythonhosted.org/packages/70/26/b4d265890bb186c372bb3ca73da964d1bfbc9f49adcdd541b59656cdeb0c/odoo_addon_account_invoice_discount_display_amount-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-29 05:00:02] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: executing diffoscope
+[2024-05-29 05:00:02] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_discount_display_amount-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_discount_display_amount-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-account-invoice-discount-display-amount/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-29 05:00:02] INFO root fetch - processPackages [dbgear]: Downloading https://files.pythonhosted.org/packages/5d/24/4e0120970a3c9e25945265b4b81efe98b9176ff9b6ee67596d8a53c7d4b7/dbgear-0.9.0.tar.gz
+[2024-05-29 05:00:02] INFO root fetch - processPackages [waii-sdk-py]: Downloading https://files.pythonhosted.org/packages/31/e8/ee7289f00157a5259fec17cd83451e92f8300f69ef9884cef2adb87ca6cf/waii-sdk-py-1.9.1.tar.gz
+[2024-05-29 05:00:02] INFO root fetch - processPackages [waii-sdk-py]: executing diffoscope
+[2024-05-29 05:00:02] INFO root fetch - processPackages [waii-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waii-sdk-py-1.9.0.tar.gz tmp/waii-sdk-py-1.9.1.tar.gz --markdown 20240529/w/waii-sdk-py/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-29 05:00:02] INFO root fetch - processPackages [dbgear]: executing diffoscope
+[2024-05-29 05:00:02] INFO root fetch - processPackages [dbgear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbgear-0.8.0.tar.gz tmp/dbgear-0.9.0.tar.gz --markdown 20240529/d/dbgear/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-29 05:00:03] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_discount_display_amount-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-29 05:00:03] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_discount_display_amount-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-29 05:00:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-discount-display-amount]: success
+[2024-05-29 05:00:03] INFO root fetch - processPackages [waii-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/waii-sdk-py-1.9.0.tar.gz]
+[2024-05-29 05:00:03] INFO root fetch - processPackages [waii-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/waii-sdk-py-1.9.1.tar.gz]
+[2024-05-29 05:00:03] INFO root fetch - main [MainThread]: End processing [waii-sdk-py]: success
+[2024-05-29 05:01:24] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.8.0.tar.gz]
+[2024-05-29 05:01:24] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.9.0.tar.gz]
+[2024-05-29 05:01:24] INFO root fetch - main [MainThread]: End processing [dbgear]: success
+[2024-05-29 05:01:24] INFO root fetch - main [MainThread]: Store serial: [23423444]
