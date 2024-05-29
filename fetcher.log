@@ -2943,3 +2943,36 @@
 [2024-05-29 02:45:39] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405280044.tar.gz]
 [2024-05-29 02:45:39] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-29 02:45:39] INFO root fetch - main [MainThread]: Store serial: [23421380]
+[2024-05-29 02:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421380]
+[2024-05-29 02:47:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 02:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal
+[2024-05-29 02:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal-client
+[2024-05-29 02:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ralium
+[2024-05-29 02:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CyberHerder
+[2024-05-29 02:47:48] INFO root fetch - processPackages [ralium]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-29 02:47:48] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-29 02:47:48] WARNING root fetch - processPackages [CyberHerder]: Skipping, unable to determine old version
+[2024-05-29 02:47:48] INFO root fetch - main [MainThread]: End processing [CyberHerder] error
+[2024-05-29 02:47:48] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/37/8f/e2fd91b042e69146fd1285ec42d86f030f9c7d64111180166d0e5eea179e/ralium-2.0.3.tar.gz
+[2024-05-29 02:47:48] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-29 02:47:48] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-29 02:47:48] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-29 02:47:48] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-29 02:47:48] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/fe/69/8cbba904942aa7db536286657ffcd95bf746e65d9921da1f92afb5c6622c/ralium-2.0.4.tar.gz
+[2024-05-29 02:47:48] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-29 02:47:48] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240529/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-29 02:47:48] INFO root fetch - processPackages [ralium]: executing diffoscope
+[2024-05-29 02:47:48] INFO root fetch - processPackages [ralium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralium-2.0.3.tar.gz tmp/ralium-2.0.4.tar.gz --markdown 20240529/r/ralium/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-29 02:47:48] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-29 02:47:48] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-29 02:47:48] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240529/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-29 02:47:49] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-2.0.3.tar.gz]
+[2024-05-29 02:47:49] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-2.0.4.tar.gz]
+[2024-05-29 02:47:49] INFO root fetch - main [MainThread]: End processing [ralium]: success
+[2024-05-29 02:47:49] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-29 02:47:49] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-29 02:47:49] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-29 02:47:49] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-29 02:47:49] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-29 02:47:49] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-29 02:47:49] INFO root fetch - main [MainThread]: Store serial: [23421396]
