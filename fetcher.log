@@ -8146,3 +8146,38 @@
 [2024-05-29 04:49:09] INFO root fetch - processPackages [odoo-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_template-17.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-05-29 04:49:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-template]: success
 [2024-05-29 04:49:09] INFO root fetch - main [MainThread]: Store serial: [23423382]
+[2024-05-29 04:51:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423382]
+[2024-05-29 04:51:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 04:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ytdl-sub
+[2024-05-29 04:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toolforge-jobs-framework-cli
+[2024-05-29 04:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abses
+[2024-05-29 04:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nnabla
+[2024-05-29 04:51:18] INFO root fetch - processPackages [abses]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-05-29 04:51:18] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: New version: [16.0.9] Old Version: [16.0.8]
+[2024-05-29 04:51:18] INFO root fetch - processPackages [ytdl-sub]: New version: [2024.5.29] Old Version: [2024.5.11]
+[2024-05-29 04:51:18] INFO root fetch - processPackages [nnabla]: New version: [1.39.0] Old Version: [1.38.0]
+[2024-05-29 04:51:18] INFO root fetch - processPackages [abses]: Downloading https://files.pythonhosted.org/packages/05/f8/9a4707cf6c358bab59d58de836f0a5314321ee256c36f5f3041007eff6bd/abses-0.6.6.tar.gz
+[2024-05-29 04:51:18] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: Downloading https://files.pythonhosted.org/packages/ab/a0/9fcce394dc7d8f105e34bf1f786c4fa37cc20ba25d0f9d3f46e585731ea5/toolforge_jobs_framework_cli-16.0.8.tar.gz
+[2024-05-29 04:51:18] INFO root fetch - processPackages [nnabla]: Downloading https://files.pythonhosted.org/packages/d0/a0/9d062599879b5d3326d41044ac5e45a4167dbf0a461706b7e9d8decc640f/nnabla-1.38.0-cp39-cp39-win_amd64.whl
+[2024-05-29 04:51:18] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/e9/f4/93caecadfdc3c95b7feb85447cb26e19a27a0e6c1f3abe1f82c42b2949ee/ytdl_sub-2024.5.11.tar.gz
+[2024-05-29 04:51:18] WARNING root fetch - processPackages [nnabla]: Skipping package: exceeds size limit 12607588>=10485760
+[2024-05-29 04:51:18] INFO root fetch - main [MainThread]: End processing [nnabla] error
+[2024-05-29 04:51:18] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: Downloading https://files.pythonhosted.org/packages/bf/05/65d14847f94264cb715a91800d95cbede130891ff479c4b86fbc41a45e2f/toolforge_jobs_framework_cli-16.0.9.tar.gz
+[2024-05-29 04:51:18] INFO root fetch - processPackages [abses]: Downloading https://files.pythonhosted.org/packages/e9/31/dd7a8cef0c5d4fd80318c37a8828f42e5847de8645fa1fcb1206bf814a05/abses-0.6.7.tar.gz
+[2024-05-29 04:51:18] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/e1/20/05417a02d027c76db0b85ed0663cc05b3fad211684c0fbf8aa8fe74b1a59/ytdl_sub-2024.5.29.tar.gz
+[2024-05-29 04:51:19] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: executing diffoscope
+[2024-05-29 04:51:19] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolforge_jobs_framework_cli-16.0.8.tar.gz tmp/toolforge_jobs_framework_cli-16.0.9.tar.gz --markdown 20240529/t/toolforge-jobs-framework-cli/16.0.8-16.0.9/README.md --exclude *.pyd
+[2024-05-29 04:51:19] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2024-05-29 04:51:19] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl_sub-2024.5.11.tar.gz tmp/ytdl_sub-2024.5.29.tar.gz --markdown 20240529/y/ytdl-sub/2024.5.11-2024.5.29/README.md --exclude *.pyd
+[2024-05-29 04:51:19] INFO root fetch - processPackages [abses]: executing diffoscope
+[2024-05-29 04:51:19] INFO root fetch - processPackages [abses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abses-0.6.6.tar.gz tmp/abses-0.6.7.tar.gz --markdown 20240529/a/abses/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-05-29 04:51:19] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: Remove: archive file [/home/abi/fetcher/tmp/toolforge_jobs_framework_cli-16.0.8.tar.gz]
+[2024-05-29 04:51:19] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: Remove: archive file [/home/abi/fetcher/tmp/toolforge_jobs_framework_cli-16.0.9.tar.gz]
+[2024-05-29 04:51:19] INFO root fetch - main [MainThread]: End processing [toolforge-jobs-framework-cli]: success
+[2024-05-29 04:51:20] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl_sub-2024.5.11.tar.gz]
+[2024-05-29 04:51:20] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl_sub-2024.5.29.tar.gz]
+[2024-05-29 04:51:20] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2024-05-29 04:51:20] INFO root fetch - processPackages [abses]: Remove: archive file [/home/abi/fetcher/tmp/abses-0.6.6.tar.gz]
+[2024-05-29 04:51:20] INFO root fetch - processPackages [abses]: Remove: archive file [/home/abi/fetcher/tmp/abses-0.6.7.tar.gz]
+[2024-05-29 04:51:20] INFO root fetch - main [MainThread]: End processing [abses]: success
+[2024-05-29 04:51:20] INFO root fetch - main [MainThread]: Store serial: [23423394]
