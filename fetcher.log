@@ -18767,3 +18767,69 @@
 [2024-05-29 12:34:34] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
 [2024-05-29 12:34:34] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
 [2024-05-29 12:34:34] INFO root fetch - main [MainThread]: Store serial: [23428309]
+[2024-05-29 12:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428309]
+[2024-05-29 12:36:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 12:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: t-bug-catcher
+[2024-05-29 12:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-seal
+[2024-05-29 12:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fuzzy-matrix-mamdani
+[2024-05-29 12:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utilsds
+[2024-05-29 12:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ausankey
+[2024-05-29 12:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trieste
+[2024-05-29 12:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2024-05-29 12:36:43] INFO root fetch - processPackages [utilsds]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-29 12:36:43] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-29 12:36:43] INFO root fetch - processPackages [t-bug-catcher]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-29 12:36:43] INFO root fetch - processPackages [ausankey]: New version: [1.4] Old Version: [1.3]
+[2024-05-29 12:36:43] INFO root fetch - processPackages [fuzzy-matrix-mamdani]: New version: [1.1] Old Version: [1.0]
+[2024-05-29 12:36:43] INFO root fetch - processPackages [py-seal]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-29 12:36:43] INFO root fetch - processPackages [utilsds]: Downloading https://files.pythonhosted.org/packages/18/53/2d783eac0f00c82e13feb27ff3fd422713e80ae3cbfb40273e420d391597/utilsds-0.3.2.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [trieste]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-05-29 12:36:43] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/a3/e4/09a61b8f76dd21fcfbf224a66ea4c4ffd57a2d4faf1c2a5fa3001c265777/t_bug_catcher-0.5.0.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [ausankey]: Downloading https://files.pythonhosted.org/packages/48/45/5384452612d33ccd1f32c54badc7abc5b2e84b9977486573b38eabfe2612/ausankey-1.3.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [fuzzy-matrix-mamdani]: Downloading https://files.pythonhosted.org/packages/9d/ca/25621d3c7afb23223edd7b61d17a6c9df385161fa06342dae62ae4e0e530/fuzzy_matrix_mamdani-1.0.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [trieste]: Downloading https://files.pythonhosted.org/packages/db/65/b16aea46efef7d7c1fdd14c90a8d5cff82b87eeaa54527a0710552540405/trieste-3.2.0.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [py-seal]: Downloading https://files.pythonhosted.org/packages/0d/3b/72217c8522761341fa08696d5bcdcd7497df5f0fe19a1061b73f4fd2d457/py-seal-0.0.6.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [utilsds]: Downloading https://files.pythonhosted.org/packages/ba/26/ae27bda7ed133d2357c0d0adc6683a4a244581e87805a2b11cd1d5db2cf5/utilsds-0.3.3.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [utilsds]: executing diffoscope
+[2024-05-29 12:36:43] INFO root fetch - processPackages [utilsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilsds-0.3.2.tar.gz tmp/utilsds-0.3.3.tar.gz --markdown 20240529/u/utilsds/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-29 12:36:43] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-29 12:36:43] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240529/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-29 12:36:43] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/9d/f6/afd11e763f466affab802158329ee611d52c012a31f0583fd66431337ca7/t_bug_catcher-0.5.1.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [ausankey]: Downloading https://files.pythonhosted.org/packages/88/6d/710d42a6ad47e7fa7190a5b5de0dd9329416c1bc8f43138fa5d2a60822a0/ausankey-1.4.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [fuzzy-matrix-mamdani]: Downloading https://files.pythonhosted.org/packages/a1/75/8baeca5cea1c59b0b2fb26964d14faf4cd90be0d2c8d7b257e9b11787ab6/fuzzy_matrix_mamdani-1.1.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [py-seal]: Downloading https://files.pythonhosted.org/packages/23/17/fbca37fabed0ec6628beecefc7d607ed6b3cf740e308be4e40a7b23d46ca/py-seal-0.0.7.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [t-bug-catcher]: executing diffoscope
+[2024-05-29 12:36:43] INFO root fetch - processPackages [t-bug-catcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_bug_catcher-0.5.0.tar.gz tmp/t_bug_catcher-0.5.1.tar.gz --markdown 20240529/t/t-bug-catcher/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-29 12:36:43] INFO root fetch - processPackages [ausankey]: executing diffoscope
+[2024-05-29 12:36:43] INFO root fetch - processPackages [ausankey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ausankey-1.3.tar.gz tmp/ausankey-1.4.tar.gz --markdown 20240529/a/ausankey/1.3-1.4/README.md --exclude *.pyd
+[2024-05-29 12:36:43] INFO root fetch - processPackages [trieste]: Downloading https://files.pythonhosted.org/packages/22/01/0dfae09d0e7c30eb4d7107de3e63b59d8a95e794000abee995f85fa4b933/trieste-3.3.0.tar.gz
+[2024-05-29 12:36:43] INFO root fetch - processPackages [fuzzy-matrix-mamdani]: executing diffoscope
+[2024-05-29 12:36:43] INFO root fetch - processPackages [fuzzy-matrix-mamdani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzy_matrix_mamdani-1.0.tar.gz tmp/fuzzy_matrix_mamdani-1.1.tar.gz --markdown 20240529/f/fuzzy-matrix-mamdani/1.0-1.1/README.md --exclude *.pyd
+[2024-05-29 12:36:43] INFO root fetch - processPackages [py-seal]: executing diffoscope
+[2024-05-29 12:36:43] INFO root fetch - processPackages [py-seal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-seal-0.0.6.tar.gz tmp/py-seal-0.0.7.tar.gz --markdown 20240529/p/py-seal/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-29 12:36:44] INFO root fetch - processPackages [trieste]: executing diffoscope
+[2024-05-29 12:36:44] INFO root fetch - processPackages [trieste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trieste-3.2.0.tar.gz tmp/trieste-3.3.0.tar.gz --markdown 20240529/t/trieste/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-05-29 12:36:44] INFO root fetch - processPackages [utilsds]: Remove: archive file [/home/abi/fetcher/tmp/utilsds-0.3.2.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - processPackages [utilsds]: Remove: archive file [/home/abi/fetcher/tmp/utilsds-0.3.3.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - main [MainThread]: End processing [utilsds]: success
+[2024-05-29 12:36:44] INFO root fetch - processPackages [fuzzy-matrix-mamdani]: Remove: archive file [/home/abi/fetcher/tmp/fuzzy_matrix_mamdani-1.0.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - processPackages [fuzzy-matrix-mamdani]: Remove: archive file [/home/abi/fetcher/tmp/fuzzy_matrix_mamdani-1.1.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - main [MainThread]: End processing [fuzzy-matrix-mamdani]: success
+[2024-05-29 12:36:44] INFO root fetch - processPackages [py-seal]: Remove: archive file [/home/abi/fetcher/tmp/py-seal-0.0.6.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - processPackages [py-seal]: Remove: archive file [/home/abi/fetcher/tmp/py-seal-0.0.7.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - main [MainThread]: End processing [py-seal]: success
+[2024-05-29 12:36:44] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.5.0.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.5.1.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - main [MainThread]: End processing [t-bug-catcher]: success
+[2024-05-29 12:36:44] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-29 12:36:44] INFO root fetch - processPackages [ausankey]: Remove: archive file [/home/abi/fetcher/tmp/ausankey-1.3.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - processPackages [ausankey]: Remove: archive file [/home/abi/fetcher/tmp/ausankey-1.4.tar.gz]
+[2024-05-29 12:36:44] INFO root fetch - main [MainThread]: End processing [ausankey]: success
+[2024-05-29 12:36:45] INFO root fetch - processPackages [trieste]: Remove: archive file [/home/abi/fetcher/tmp/trieste-3.2.0.tar.gz]
+[2024-05-29 12:36:45] INFO root fetch - processPackages [trieste]: Remove: archive file [/home/abi/fetcher/tmp/trieste-3.3.0.tar.gz]
+[2024-05-29 12:36:45] INFO root fetch - main [MainThread]: End processing [trieste]: success
+[2024-05-29 12:36:45] INFO root fetch - main [MainThread]: Store serial: [23428328]
