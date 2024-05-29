@@ -2431,3 +2431,78 @@
 [2024-05-29 02:17:02] INFO root fetch - processPackages [fortiedr]: Remove: archive file [/home/abi/fetcher/tmp/fortiedr-3.6.8.tar.gz]
 [2024-05-29 02:17:02] INFO root fetch - main [MainThread]: End processing [fortiedr]: success
 [2024-05-29 02:17:02] INFO root fetch - main [MainThread]: Store serial: [23421180]
+[2024-05-29 02:19:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421180]
+[2024-05-29 02:19:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 02:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-29 02:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mscerts
+[2024-05-29 02:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-29 02:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ommi
+[2024-05-29 02:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbcli-dev
+[2024-05-29 02:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.appsync-utils
+[2024-05-29 02:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-gitlab-runner
+[2024-05-29 02:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-goodput-measurement
+[2024-05-29 02:19:11] INFO root fetch - processPackages [mscerts]: New version: [2024.3.27] Old Version: [2024.2.28]
+[2024-05-29 02:19:11] INFO root fetch - processPackages [sbcli-dev]: New version: [2.8.0] Old Version: [2.7.9]
+[2024-05-29 02:19:11] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-29 02:19:11] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 02:19:11] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-29 02:19:11] INFO root fetch - processPackages [ommi]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 02:19:11] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-29 02:19:11] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/94/b2/f0945141de6ada8596e4572222b081dc298553a728b710977deccfaab566/sbcli_dev-2.7.9.zip
+[2024-05-29 02:19:11] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-29 02:19:11] INFO root fetch - processPackages [ml-goodput-measurement]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 02:19:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-29 02:19:11] INFO root fetch - processPackages [mscerts]: Downloading https://files.pythonhosted.org/packages/40/8a/5c4a3eba3b68687984db9dc0fafe7e597b57149bcff6ce2029332ed0b64b/mscerts-2024.2.28.tar.gz
+[2024-05-29 02:19:11] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-29 02:19:11] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-29 02:19:11] INFO root fetch - processPackages [ommi]: Downloading https://files.pythonhosted.org/packages/3c/66/c87c4a423491425e1acd2804a1ce82e9b9ab6c26e03194782f155977dc1a/ommi-0.1.3.tar.gz
+[2024-05-29 02:19:12] INFO root fetch - processPackages [ml-goodput-measurement]: Downloading https://files.pythonhosted.org/packages/30/25/21a1bc98bac8d304a1235e2896b2b512704eed88144b693cebb5735d55b1/ml_goodput_measurement-0.0.2.tar.gz
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240529/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 02:19:12] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/3f/e8/c0785b92ce3f26e0e24737753ef208054ac66361f1b830566598ab39e57e/sbcli_dev-2.8.0.zip
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240529/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240529/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-29 02:19:12] INFO root fetch - processPackages [ommi]: Downloading https://files.pythonhosted.org/packages/3c/e4/37cf356fbb137c4a5607834cc2aa0b25f2f0d3641db76ab3fb7d8aea1760/ommi-0.1.4.tar.gz
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-29 02:19:12] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240529/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-29 02:19:12] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-29 02:19:12] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.7.9.zip tmp/sbcli_dev-2.8.0.zip --markdown 20240529/s/sbcli-dev/2.7.9-2.8.0/README.md --exclude *.pyd
+[2024-05-29 02:19:12] INFO root fetch - processPackages [mscerts]: Downloading https://files.pythonhosted.org/packages/3e/80/1e4fd0d0b146311c86b995781d60e16c52e2ec3c5bda4dbf49feff03ec4f/mscerts-2024.3.27.tar.gz
+[2024-05-29 02:19:12] INFO root fetch - processPackages [ml-goodput-measurement]: Downloading https://files.pythonhosted.org/packages/1f/47/6bcf7746e3b362d234e43e99f3fa986607ffb5649db11448a844c7c737ab/ml_goodput_measurement-0.0.3.tar.gz
+[2024-05-29 02:19:12] INFO root fetch - processPackages [ommi]: executing diffoscope
+[2024-05-29 02:19:12] INFO root fetch - processPackages [ommi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ommi-0.1.3.tar.gz tmp/ommi-0.1.4.tar.gz --markdown 20240529/o/ommi/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-29 02:19:12] INFO root fetch - processPackages [mscerts]: executing diffoscope
+[2024-05-29 02:19:12] INFO root fetch - processPackages [mscerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mscerts-2024.2.28.tar.gz tmp/mscerts-2024.3.27.tar.gz --markdown 20240529/m/mscerts/2024.2.28-2024.3.27/README.md --exclude *.pyd
+[2024-05-29 02:19:12] INFO root fetch - processPackages [ml-goodput-measurement]: executing diffoscope
+[2024-05-29 02:19:12] INFO root fetch - processPackages [ml-goodput-measurement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_goodput_measurement-0.0.2.tar.gz tmp/ml_goodput_measurement-0.0.3.tar.gz --markdown 20240529/m/ml-goodput-measurement/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 02:19:13] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-29 02:19:13] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-29 02:19:13] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-29 02:19:13] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-29 02:19:13] INFO root fetch - processPackages [ommi]: Remove: archive file [/home/abi/fetcher/tmp/ommi-0.1.3.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - processPackages [ommi]: Remove: archive file [/home/abi/fetcher/tmp/ommi-0.1.4.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - main [MainThread]: End processing [ommi]: success
+[2024-05-29 02:19:13] INFO root fetch - processPackages [ml-goodput-measurement]: Remove: archive file [/home/abi/fetcher/tmp/ml_goodput_measurement-0.0.2.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - processPackages [ml-goodput-measurement]: Remove: archive file [/home/abi/fetcher/tmp/ml_goodput_measurement-0.0.3.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - main [MainThread]: End processing [ml-goodput-measurement]: success
+[2024-05-29 02:19:13] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.7.9.zip]
+[2024-05-29 02:19:13] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.8.0.zip]
+[2024-05-29 02:19:13] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-29 02:19:13] INFO root fetch - processPackages [mscerts]: Remove: archive file [/home/abi/fetcher/tmp/mscerts-2024.2.28.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - processPackages [mscerts]: Remove: archive file [/home/abi/fetcher/tmp/mscerts-2024.3.27.tar.gz]
+[2024-05-29 02:19:13] INFO root fetch - main [MainThread]: End processing [mscerts]: success
+[2024-05-29 02:19:13] INFO root fetch - main [MainThread]: Store serial: [23421202]
