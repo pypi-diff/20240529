@@ -9585,3 +9585,66 @@
 [2024-05-29 06:26:16] INFO root fetch - processPackages [openbot-training-frontend]: Remove: archive file [/home/abi/fetcher/tmp/openbot_training_frontend-0.6.0.tar.gz]
 [2024-05-29 06:26:16] INFO root fetch - main [MainThread]: End processing [openbot-training-frontend]: success
 [2024-05-29 06:26:16] INFO root fetch - main [MainThread]: Store serial: [23423900]
+[2024-05-29 06:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423900]
+[2024-05-29 06:28:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 06:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tools21cm
+[2024-05-29 06:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-115
+[2024-05-29 06:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dtfilterthumbor
+[2024-05-29 06:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-115
+[2024-05-29 06:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stackoverflow-to-sqlite
+[2024-05-29 06:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prvict
+[2024-05-29 06:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neurosym
+[2024-05-29 06:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-hr-expense-invoice
+[2024-05-29 06:28:26] INFO root fetch - processPackages [prvict]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-05-29 06:28:26] INFO root fetch - processPackages [neurosym]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 06:28:26] INFO root fetch - processPackages [python-115]: New version: [0.0.8.5.4] Old Version: [0.0.8.5.3]
+[2024-05-29 06:28:26] INFO root fetch - processPackages [python-115]: New version: [0.0.8.5.4] Old Version: [0.0.8.5.3]
+[2024-05-29 06:28:26] INFO root fetch - processPackages [tools21cm]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-29 06:28:26] INFO root fetch - processPackages [prvict]: Downloading https://files.pythonhosted.org/packages/a6/46/098fb9b769ed046cb4c1f4de6becf5657b7d9a986daf9025853228992cae/prvict-0.7.6.tar.gz
+[2024-05-29 06:28:26] WARNING root fetch - processPackages [stackoverflow-to-sqlite]: Skipping, unable to determine old version
+[2024-05-29 06:28:26] INFO root fetch - main [MainThread]: End processing [stackoverflow-to-sqlite] error
+[2024-05-29 06:28:26] INFO root fetch - processPackages [dtfilterthumbor]: New version: [1.0.0] Old Version: [0.5.0]
+[2024-05-29 06:28:26] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: New version: [16.0.2.0.0.1] Old Version: [16.0.2.0.0]
+[2024-05-29 06:28:26] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/66/87/42efcd2dada44045cddbcc64177bfa822d2cd1915ad9f075c81d65cdd137/neurosym-0.0.8.tar.gz
+[2024-05-29 06:28:26] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/f6/d9/9191980709b13cb542c5cfd4a10abe5e588d4f1179ed2e5619664ec19abc/python_115-0.0.8.5.3.tar.gz
+[2024-05-29 06:28:26] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/f6/d9/9191980709b13cb542c5cfd4a10abe5e588d4f1179ed2e5619664ec19abc/python_115-0.0.8.5.3.tar.gz
+[2024-05-29 06:28:26] INFO root fetch - processPackages [tools21cm]: Downloading https://files.pythonhosted.org/packages/c8/b9/3c9dfd6d32e767f15237db7e23b7ad6ac6e6cc6b546aca9a64137c808c6d/tools21cm-2.1.8.tar.gz
+[2024-05-29 06:28:26] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/0d/57/a26e5e4858af9c5c896df66c3b56b8d2450b9cc9b461e72485f436c602d4/dtfilterthumbor-0.5.0.tar.gz
+[2024-05-29 06:28:26] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: Downloading https://files.pythonhosted.org/packages/6f/7d/2e0c8fc554ee11ba5b3f3180a5e1e0ecf1b28193710d89faa61f5190c1e9/odoo_addon_hr_expense_invoice-16.0.2.0.0-py3-none-any.whl
+[2024-05-29 06:28:26] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/b3/d9/0fd09f28366b6afe07c9b07022c327cfcb05f4c54ad12dc10fcb86d94884/neurosym-0.0.9.tar.gz
+[2024-05-29 06:28:26] WARNING root fetch - processPackages [tools21cm]: Skipping package: exceeds size limit 53823803>=10485760
+[2024-05-29 06:28:26] INFO root fetch - main [MainThread]: End processing [tools21cm] error
+[2024-05-29 06:28:26] INFO root fetch - processPackages [prvict]: Downloading https://files.pythonhosted.org/packages/c3/1c/5645dce2f604e650bd2becd9c3be55423321aff08d0ec9c5e41e9c90daaa/prvict-0.7.7.tar.gz
+[2024-05-29 06:28:26] INFO root fetch - processPackages [neurosym]: executing diffoscope
+[2024-05-29 06:28:26] INFO root fetch - processPackages [neurosym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosym-0.0.8.tar.gz tmp/neurosym-0.0.9.tar.gz --markdown 20240529/n/neurosym/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 06:28:26] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/3d/bd/08ac060dcb8fdb4de6552ca1951339e3df98b3a35a9d2e4a34b9928963f4/python_115-0.0.8.5.4.tar.gz
+[2024-05-29 06:28:26] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/3d/bd/08ac060dcb8fdb4de6552ca1951339e3df98b3a35a9d2e4a34b9928963f4/python_115-0.0.8.5.4.tar.gz
+[2024-05-29 06:28:26] INFO root fetch - processPackages [prvict]: executing diffoscope
+[2024-05-29 06:28:26] INFO root fetch - processPackages [prvict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prvict-0.7.6.tar.gz tmp/prvict-0.7.7.tar.gz --markdown 20240529/p/prvict/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-05-29 06:28:27] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: Downloading https://files.pythonhosted.org/packages/d1/fd/8048bbff3a19ca1101b55571bf44013c796e7af90bc6382bbf2d13844087/odoo_addon_hr_expense_invoice-16.0.2.0.0.1-py3-none-any.whl
+[2024-05-29 06:28:27] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/a8/ef/18b1e9ce9eb1d96032f661087d537aba3500af25f242a68794542dc88b92/dtfilterthumbor-1.0.0.tar.gz
+[2024-05-29 06:28:27] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-05-29 06:28:27] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-05-29 06:28:27] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.5.3.tar.gz tmp/python_115-0.0.8.5.4.tar.gz --markdown 20240529/p/python-115/0.0.8.5.3-0.0.8.5.4/README.md --exclude *.pyd
+[2024-05-29 06:28:27] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.5.3.tar.gz tmp/python_115-0.0.8.5.4.tar.gz --markdown 20240529/p/python-115/0.0.8.5.3-0.0.8.5.4/README.md --exclude *.pyd
+[2024-05-29 06:28:27] INFO root fetch - processPackages [dtfilterthumbor]: executing diffoscope
+[2024-05-29 06:28:27] INFO root fetch - processPackages [dtfilterthumbor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfilterthumbor-0.5.0.tar.gz tmp/dtfilterthumbor-1.0.0.tar.gz --markdown 20240529/d/dtfilterthumbor/0.5.0-1.0.0/README.md --exclude *.pyd
+[2024-05-29 06:28:27] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: executing diffoscope
+[2024-05-29 06:28:27] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_expense_invoice-16.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_hr_expense_invoice-16.0.2.0.0.1-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-hr-expense-invoice/16.0.2.0.0-16.0.2.0.0.1/README.md --exclude *.pyd
+[2024-05-29 06:28:27] INFO root fetch - processPackages [prvict]: Remove: archive file [/home/abi/fetcher/tmp/prvict-0.7.6.tar.gz]
+[2024-05-29 06:28:27] INFO root fetch - processPackages [prvict]: Remove: archive file [/home/abi/fetcher/tmp/prvict-0.7.7.tar.gz]
+[2024-05-29 06:28:27] INFO root fetch - main [MainThread]: End processing [prvict]: success
+[2024-05-29 06:28:27] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.8.tar.gz]
+[2024-05-29 06:28:27] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
+[2024-05-29 06:28:27] INFO root fetch - main [MainThread]: End processing [neurosym]: success
+[2024-05-29 06:28:27] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-0.5.0.tar.gz]
+[2024-05-29 06:28:27] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-1.0.0.tar.gz]
+[2024-05-29 06:28:27] INFO root fetch - main [MainThread]: End processing [dtfilterthumbor]: success
+[2024-05-29 06:28:28] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_invoice-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-29 06:28:28] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_invoice-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-05-29 06:28:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-invoice]: success
+[2024-05-29 06:28:28] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.5.3.tar.gz]
+[2024-05-29 06:28:28] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.5.4.tar.gz]
+[2024-05-29 06:28:28] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-05-29 06:28:28] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-05-29 06:28:28] INFO root fetch - main [MainThread]: Store serial: [23423923]
