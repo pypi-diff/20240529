@@ -23374,3 +23374,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:24:23] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.8.0.tar.gz]
 [2024-05-29 15:24:23] INFO root fetch - main [MainThread]: End processing [kiwi]: success
 [2024-05-29 15:24:23] INFO root fetch - main [MainThread]: Store serial: [23430343]
+[2024-05-29 15:26:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430343]
+[2024-05-29 15:26:33] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-29 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beambusters
+[2024-05-29 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: micronuclAI-labeling
+[2024-05-29 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emotion-model
+[2024-05-29 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lasutils
+[2024-05-29 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-nas
+[2024-05-29 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metastim
+[2024-05-29 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twinstop
+[2024-05-29 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlrepo
+[2024-05-29 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: brain-multiple-modalities-automl
+[2024-05-29 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-aws-native
+[2024-05-29 15:26:33] WARNING root fetch - processPackages [emotion-model]: Skipping, unable to determine old version
+[2024-05-29 15:26:33] INFO root fetch - processPackages [emotion-model]: Start processing: monedadigitalm
+[2024-05-29 15:26:33] INFO root fetch - main [MainThread]: End processing [emotion-model] error
+[2024-05-29 15:26:33] INFO root fetch - processPackages [micronuclAI-labeling]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 15:26:33] INFO root fetch - processPackages [beambusters]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-05-29 15:26:33] INFO root fetch - processPackages [lasutils]: New version: [1.0.67] Old Version: [1.0.65]
+[2024-05-29 15:26:33] WARNING root fetch - processPackages [brain-multiple-modalities-automl]: Skipping, unable to determine old version
+[2024-05-29 15:26:33] INFO root fetch - processPackages [brain-multiple-modalities-automl]: Start processing: pulumi-aws-native
+[2024-05-29 15:26:33] INFO root fetch - main [MainThread]: End processing [brain-multiple-modalities-automl] error
+[2024-05-29 15:26:33] INFO root fetch - processPackages [sqlrepo]: New version: [2.0.0] Old Version: [1.5.2]
+[2024-05-29 15:26:33] INFO root fetch - processPackages [netbox-nas]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 15:26:33] WARNING root fetch - processPackages [metastim]: Skipping, unable to determine old version
+[2024-05-29 15:26:33] INFO root fetch - processPackages [metastim]: Start processing: cto-cli
+[2024-05-29 15:26:33] INFO root fetch - main [MainThread]: End processing [metastim] error
+[2024-05-29 15:26:33] INFO root fetch - processPackages [twinstop]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 15:26:34] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-29 15:26:34] INFO root fetch - processPackages [monedadigitalm]: New version: [1.0.10.post2] Old Version: [1.0.10.post1]
+[2024-05-29 15:26:34] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-29 15:26:34] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [netbox-nas]: Downloading https://files.pythonhosted.org/packages/ab/0a/3ee6cda20cafc37049cdf5ae349dfb6041d21839f4fcac41175d5dcf315c/netbox_nas-1.0.2.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [beambusters]: Downloading https://files.pythonhosted.org/packages/35/fa/ab191c4cecc6b794ea95e50acff5603bd99ffbd7b85497ce0f163e12ff4e/beambusters-1.3.5.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [micronuclAI-labeling]: Downloading https://files.pythonhosted.org/packages/ba/7e/8a4701da994baa2297397ee42734616d5c90b1fc2bd722184df8f042e2df/micronuclai_labeling-0.1.0.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [cto-cli]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-29 15:26:34] INFO root fetch - processPackages [lasutils]: Downloading https://files.pythonhosted.org/packages/20/56/7def77e78e589ea8d3d2be442aae712d8b213f0757aec9de2282b0298a0e/lasutils-1.0.65-py3-none-any.whl
+[2024-05-29 15:26:34] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [sqlrepo]: Downloading https://files.pythonhosted.org/packages/8c/32/ed15a149de01a04d8f2b9269239602d9f93e0f243f9c8ca8b7f665f658bb/sqlrepo-1.5.2.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [twinstop]: Downloading https://files.pythonhosted.org/packages/f1/6a/e125e4df788bf1777d32d0b5f7cb68620ed25564e20fd7d96da5aa1dd9a5/twinstop-0.1.3.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [monedadigitalm]: Downloading https://files.pythonhosted.org/packages/2f/01/322e171df60bc90e548bd71633a58ff7e72cc79b3779204e70c76ee18859/monedadigitalm-1.0.10.post1.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [cto-cli]: Downloading https://files.pythonhosted.org/packages/5b/1d/558c0894bbe3e1458973c6792e624f41757118fec7c9ae25cd683d557efe/cto_cli-0.3.0.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [micronuclAI-labeling]: Downloading https://files.pythonhosted.org/packages/22/4f/860aa587f5fff306da8d54534f93a08b7ee11c0a336c78d30a7e28d97f2a/micronuclai_labeling-0.1.1.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [netbox-nas]: Downloading https://files.pythonhosted.org/packages/46/8d/e011725f195d3d63a4f179954b070b0bb6b1a30fca06d113bf734322041b/netbox_nas-1.0.3.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [beambusters]: Downloading https://files.pythonhosted.org/packages/b6/5d/e427bb0570af07db3ec75a95e778a4c0cc7b8c4008c9faec5ffdf289300a/beambusters-1.3.6.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [lasutils]: Downloading https://files.pythonhosted.org/packages/6f/d8/02a5ec0bb3561fb01fde0029dc669df3cd4a4b6fe19a8a0eb40bf50f9068/lasutils-1.0.67-py3-none-any.whl
+[2024-05-29 15:26:34] INFO root fetch - processPackages [sqlrepo]: Downloading https://files.pythonhosted.org/packages/8b/7f/8660a555e24c239096a203c63109674acea3f005def1335e2704ab87352f/sqlrepo-2.0.0.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [monedadigitalm]: Downloading https://files.pythonhosted.org/packages/6f/0b/0410e98b5bacac5715dae0606a946e4e7dfaaaa1a3f5205fcb269345d08b/monedadigitalm-1.0.10.post2.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [twinstop]: Downloading https://files.pythonhosted.org/packages/20/2d/c8062e9c1e8c51566c2026b1799ffdbb97a8ec1b30dc9c3dd8f0dc05c021/twinstop-0.1.4.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [cto-cli]: Downloading https://files.pythonhosted.org/packages/28/4a/aea8181a55f80cc47268b6ef250cea2e44b1fff545fc4bc7e3f83dccf7c5/cto_cli-0.3.1.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [netbox-nas]: executing diffoscope
+[2024-05-29 15:26:34] INFO root fetch - processPackages [netbox-nas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_nas-1.0.2.tar.gz tmp/netbox_nas-1.0.3.tar.gz --markdown 20240529/n/netbox-nas/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 15:26:34] INFO root fetch - processPackages [micronuclAI-labeling]: executing diffoscope
+[2024-05-29 15:26:34] INFO root fetch - processPackages [micronuclAI-labeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micronuclai_labeling-0.1.0.tar.gz tmp/micronuclai_labeling-0.1.1.tar.gz --markdown 20240529/m/micronuclAI-labeling/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 15:26:34] INFO root fetch - processPackages [lasutils]: executing diffoscope
+[2024-05-29 15:26:34] INFO root fetch - processPackages [lasutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasutils-1.0.65-py3-none-any.whl.zip tmp/lasutils-1.0.67-py3-none-any.whl.zip --markdown 20240529/l/lasutils/1.0.65-1.0.67/README.md --exclude *.pyd
+[2024-05-29 15:26:34] INFO root fetch - processPackages [beambusters]: executing diffoscope
+[2024-05-29 15:26:34] INFO root fetch - processPackages [beambusters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beambusters-1.3.5.tar.gz tmp/beambusters-1.3.6.tar.gz --markdown 20240529/b/beambusters/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-05-29 15:26:34] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-29 15:26:34] INFO root fetch - processPackages [sqlrepo]: executing diffoscope
+[2024-05-29 15:26:34] INFO root fetch - processPackages [sqlrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlrepo-1.5.2.tar.gz tmp/sqlrepo-2.0.0.tar.gz --markdown 20240529/s/sqlrepo/1.5.2-2.0.0/README.md --exclude *.pyd
+[2024-05-29 15:26:34] INFO root fetch - processPackages [cto-cli]: executing diffoscope
+[2024-05-29 15:26:34] INFO root fetch - processPackages [cto-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cto_cli-0.3.0.tar.gz tmp/cto_cli-0.3.1.tar.gz --markdown 20240529/c/cto-cli/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-29 15:26:34] INFO root fetch - processPackages [monedadigitalm]: executing diffoscope
+[2024-05-29 15:26:34] INFO root fetch - processPackages [monedadigitalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monedadigitalm-1.0.10.post1.tar.gz tmp/monedadigitalm-1.0.10.post2.tar.gz --markdown 20240529/m/monedadigitalm/1.0.10.post1-1.0.10.post2/README.md --exclude *.pyd
+[2024-05-29 15:26:34] INFO root fetch - processPackages [twinstop]: executing diffoscope
+[2024-05-29 15:26:34] INFO root fetch - processPackages [twinstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinstop-0.1.3.tar.gz tmp/twinstop-0.1.4.tar.gz --markdown 20240529/t/twinstop/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-29 15:26:35] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-29 15:26:35] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240529/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-29 15:26:35] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-29 15:26:35] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240529/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-29 15:26:35] INFO root fetch - processPackages [netbox-nas]: Remove: archive file [/home/abi/fetcher/tmp/netbox_nas-1.0.2.tar.gz]
+[2024-05-29 15:26:35] INFO root fetch - processPackages [netbox-nas]: Remove: archive file [/home/abi/fetcher/tmp/netbox_nas-1.0.3.tar.gz]
+[2024-05-29 15:26:35] INFO root fetch - processPackages [netbox-nas]: Start processing: syneto_api
+[2024-05-29 15:26:35] INFO root fetch - processPackages [beambusters]: Remove: archive file [/home/abi/fetcher/tmp/beambusters-1.3.5.tar.gz]
+[2024-05-29 15:26:35] INFO root fetch - main [MainThread]: End processing [netbox-nas]: success
+[2024-05-29 15:26:35] INFO root fetch - processPackages [beambusters]: Remove: archive file [/home/abi/fetcher/tmp/beambusters-1.3.6.tar.gz]
+[2024-05-29 15:26:35] INFO root fetch - processPackages [beambusters]: Start processing: ocx_reader
+[2024-05-29 15:26:35] INFO root fetch - main [MainThread]: End processing [beambusters]: success
+[2024-05-29 15:26:35] INFO root fetch - processPackages [micronuclAI-labeling]: Remove: archive file [/home/abi/fetcher/tmp/micronuclai_labeling-0.1.0.tar.gz]
+[2024-05-29 15:26:35] INFO root fetch - processPackages [micronuclAI-labeling]: Remove: archive file [/home/abi/fetcher/tmp/micronuclai_labeling-0.1.1.tar.gz]
+[2024-05-29 15:26:35] INFO root fetch - main [MainThread]: End processing [micronuclAI-labeling]: success
+[2024-05-29 15:26:35] INFO root fetch - processPackages [syneto_api]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-29 15:26:35] INFO root fetch - processPackages [lasutils]: Remove: archive file [/home/abi/fetcher/tmp/lasutils-1.0.65-py3-none-any.whl.zip]
+[2024-05-29 15:26:35] INFO root fetch - processPackages [lasutils]: Remove: archive file [/home/abi/fetcher/tmp/lasutils-1.0.67-py3-none-any.whl.zip]
+[2024-05-29 15:26:35] INFO root fetch - main [MainThread]: End processing [lasutils]: success
+[2024-05-29 15:26:35] WARNING root fetch - processPackages [ocx_reader]: Skipping, unable to determine old version
+[2024-05-29 15:26:35] INFO root fetch - main [MainThread]: End processing [ocx_reader] error
+[2024-05-29 15:26:35] INFO root fetch - processPackages [cto-cli]: Remove: archive file [/home/abi/fetcher/tmp/cto_cli-0.3.0.tar.gz]
+[2024-05-29 15:26:35] INFO root fetch - processPackages [cto-cli]: Remove: archive file [/home/abi/fetcher/tmp/cto_cli-0.3.1.tar.gz]
+[2024-05-29 15:26:35] INFO root fetch - main [MainThread]: End processing [cto-cli]: success
+[2024-05-29 15:26:36] INFO root fetch - processPackages [sqlrepo]: Remove: archive file [/home/abi/fetcher/tmp/sqlrepo-1.5.2.tar.gz]
+[2024-05-29 15:26:36] INFO root fetch - processPackages [sqlrepo]: Remove: archive file [/home/abi/fetcher/tmp/sqlrepo-2.0.0.tar.gz]
+[2024-05-29 15:26:36] INFO root fetch - main [MainThread]: End processing [sqlrepo]: success
+[2024-05-29 15:26:36] INFO root fetch - processPackages [monedadigitalm]: Remove: archive file [/home/abi/fetcher/tmp/monedadigitalm-1.0.10.post1.tar.gz]
+[2024-05-29 15:26:36] INFO root fetch - processPackages [monedadigitalm]: Remove: archive file [/home/abi/fetcher/tmp/monedadigitalm-1.0.10.post2.tar.gz]
+[2024-05-29 15:26:36] INFO root fetch - main [MainThread]: End processing [monedadigitalm]: success
+[2024-05-29 15:26:36] INFO root fetch - processPackages [twinstop]: Remove: archive file [/home/abi/fetcher/tmp/twinstop-0.1.3.tar.gz]
+[2024-05-29 15:26:36] INFO root fetch - processPackages [twinstop]: Remove: archive file [/home/abi/fetcher/tmp/twinstop-0.1.4.tar.gz]
+[2024-05-29 15:26:36] INFO root fetch - main [MainThread]: End processing [twinstop]: success
+[2024-05-29 15:26:36] INFO root fetch - processPackages [syneto_api]: Downloading https://files.pythonhosted.org/packages/1c/19/06bd4b683f8e92860f1ad9ee3006afc60538679617a3a88b511fe71ce48f/syneto_api-0.2.8.tar.gz
+[2024-05-29 15:26:36] INFO root fetch - processPackages [syneto_api]: Downloading https://files.pythonhosted.org/packages/c1/37/c2e3cad26eda82eb1d8ed0bb5d82f6730c5c42d7b34e3cf1579f56cffc7f/syneto_api-0.2.9.tar.gz
+[2024-05-29 15:26:36] INFO root fetch - processPackages [syneto_api]: executing diffoscope
+[2024-05-29 15:26:36] INFO root fetch - processPackages [syneto_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syneto_api-0.2.8.tar.gz tmp/syneto_api-0.2.9.tar.gz --markdown 20240529/s/syneto_api/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-29 15:26:37] INFO root fetch - processPackages [syneto_api]: Remove: archive file [/home/abi/fetcher/tmp/syneto_api-0.2.8.tar.gz]
+[2024-05-29 15:26:37] INFO root fetch - processPackages [syneto_api]: Remove: archive file [/home/abi/fetcher/tmp/syneto_api-0.2.9.tar.gz]
+[2024-05-29 15:26:37] INFO root fetch - main [MainThread]: End processing [syneto_api]: success
+[2024-05-29 15:26:50] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-29 15:26:50] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-29 15:26:50] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-29 15:26:50] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-29 15:26:50] INFO root fetch - main [MainThread]: Store serial: [23430407]
