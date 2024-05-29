@@ -10065,3 +10065,51 @@
 [2024-05-29 06:52:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.2.3.dev1-py3-none-any.whl.zip]
 [2024-05-29 06:52:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa-in]: success
 [2024-05-29 06:52:35] INFO root fetch - main [MainThread]: Store serial: [23424065]
+[2024-05-29 06:54:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424065]
+[2024-05-29 06:54:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 06:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-fatturapa-in
+[2024-05-29 06:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-it-fatturapa
+[2024-05-29 06:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2024-05-29 06:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dianDataAna
+[2024-05-29 06:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minecraft-python
+[2024-05-29 06:54:44] INFO root fetch - processPackages [dianDataAna]: New version: [0.3] Old Version: [0.2]
+[2024-05-29 06:54:44] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-29 06:54:44] INFO root fetch - processPackages [dianDataAna]: Downloading https://files.pythonhosted.org/packages/ed/e9/451c24c8ffc92571bd4ec019f392cc5ab9c2b393dbd5fbde889b975b273c/dianDataAna-0.2.tar.gz
+[2024-05-29 06:54:44] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2024-05-29 06:54:44] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-in]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2024-05-29 06:54:44] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-29 06:54:44] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa]: Downloading https://files.pythonhosted.org/packages/de/e9/b9910ed3cc083067a6cb8b71731d91d614eeb7a4a49af01dc6265ed5050e/odoo_addon_l10n_it_fatturapa-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-29 06:54:44] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-in]: Downloading https://files.pythonhosted.org/packages/1b/03/caf2cc8e8b5d824d06b360019f2b38ba9b81699e6069bf60afdf53956afa/odoo_addon_l10n_it_fatturapa_in-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-29 06:54:44] INFO root fetch - processPackages [minecraft-python]: New version: [161348] Old Version: [160052.post1]
+[2024-05-29 06:54:45] INFO root fetch - processPackages [dianDataAna]: Downloading https://files.pythonhosted.org/packages/04/8a/667673ce9137b06e04d9b79840a1623f18f12c08ee20e82ebc1eb1cddc94/dianDataAna-0.3.tar.gz
+[2024-05-29 06:54:45] INFO root fetch - processPackages [dianDataAna]: executing diffoscope
+[2024-05-29 06:54:45] INFO root fetch - processPackages [dianDataAna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dianDataAna-0.2.tar.gz tmp/dianDataAna-0.3.tar.gz --markdown 20240529/d/dianDataAna/0.2-0.3/README.md --exclude *.pyd
+[2024-05-29 06:54:45] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/4b/31/bf570dab08d95ac9abbbab18f809884e587e2af5268a894ffbbf7d520527/minecraft-python-160052.post1.tar.gz
+[2024-05-29 06:54:45] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-in]: Downloading https://files.pythonhosted.org/packages/b0/ab/53efc377f0f152de1a005ffa9785dbc7c3af49e27df143e2d85ae8f90607/odoo_addon_l10n_it_fatturapa_in-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-29 06:54:45] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-29 06:54:45] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa]: Downloading https://files.pythonhosted.org/packages/1c/49/4ee61f97e5ff319f9c0afe05c2c0d1a730f680a5f6e980a01ee4caf9f58b/odoo_addon_l10n_it_fatturapa-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-29 06:54:45] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-in]: executing diffoscope
+[2024-05-29 06:54:45] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-in]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_fatturapa_in-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_fatturapa_in-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-l10n-it-fatturapa-in/16.0.1.1.0.1-16.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-29 06:54:45] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa]: executing diffoscope
+[2024-05-29 06:54:45] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_fatturapa-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_fatturapa-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-l10n-it-fatturapa/16.0.1.1.0.1-16.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-29 06:54:45] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/bb/96/2ce2d27777f3528c850f0870857dbb187977b7a1d0a34dcbf43075bf5e4c/minecraft-python-161348.tar.gz
+[2024-05-29 06:54:45] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-29 06:54:45] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240529/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-29 06:54:45] INFO root fetch - processPackages [dianDataAna]: Remove: archive file [/home/abi/fetcher/tmp/dianDataAna-0.2.tar.gz]
+[2024-05-29 06:54:45] INFO root fetch - processPackages [dianDataAna]: Remove: archive file [/home/abi/fetcher/tmp/dianDataAna-0.3.tar.gz]
+[2024-05-29 06:54:45] INFO root fetch - main [MainThread]: End processing [dianDataAna]: success
+[2024-05-29 06:54:45] INFO root fetch - processPackages [minecraft-python]: executing diffoscope
+[2024-05-29 06:54:45] INFO root fetch - processPackages [minecraft-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-python-160052.post1.tar.gz tmp/minecraft-python-161348.tar.gz --markdown 20240529/m/minecraft-python/160052.post1-161348/README.md --exclude *.pyd
+[2024-05-29 06:54:46] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-in]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_in-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-29 06:54:46] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-in]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_in-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-29 06:54:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa-in]: success
+[2024-05-29 06:54:46] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-29 06:54:46] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-29 06:54:46] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-29 06:54:46] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-160052.post1.tar.gz]
+[2024-05-29 06:54:46] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-161348.tar.gz]
+[2024-05-29 06:54:46] INFO root fetch - main [MainThread]: End processing [minecraft-python]: success
+[2024-05-29 06:54:46] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-29 06:54:46] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-29 06:54:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa]: success
+[2024-05-29 06:54:46] INFO root fetch - main [MainThread]: Store serial: [23424098]
