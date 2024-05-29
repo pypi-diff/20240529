@@ -11612,3 +11612,33 @@
 [2024-05-29 08:07:10] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-1.2.0.tar.gz]
 [2024-05-29 08:07:10] INFO root fetch - main [MainThread]: End processing [ophyd-devices]: success
 [2024-05-29 08:07:10] INFO root fetch - main [MainThread]: Store serial: [23424737]
+[2024-05-29 08:09:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424737]
+[2024-05-29 08:09:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 08:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-alicloud
+[2024-05-29 08:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: instruct-qa
+[2024-05-29 08:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AmazonTicoTool
+[2024-05-29 08:09:19] INFO root fetch - processPackages [instruct-qa]: New version: [0.0.3rc2] Old Version: [0.0.3rc1]
+[2024-05-29 08:09:19] INFO root fetch - processPackages [instruct-qa]: Downloading https://files.pythonhosted.org/packages/a8/7a/85f13e8862fd1e5fa1d1cf3e40b4db6e1c2f7d9f8d8c9394320289d15414/instruct-qa-0.0.3rc1.tar.gz
+[2024-05-29 08:09:19] INFO root fetch - processPackages [AmazonTicoTool]: New version: [0.3] Old Version: [0.1]
+[2024-05-29 08:09:19] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-05-29 08:09:19] INFO root fetch - processPackages [AmazonTicoTool]: Downloading https://files.pythonhosted.org/packages/64/a1/032a1f8d829de3dc3774f1f411b21a2302839109b82ed2f194633b8f6878/AmazonTicoTool-0.1-py3-none-any.whl
+[2024-05-29 08:09:19] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-05-29 08:09:19] INFO root fetch - processPackages [instruct-qa]: Downloading https://files.pythonhosted.org/packages/11/94/c8992003a87632bd355c9dd9742f80e0660275fb98dfc154ba53dda7d185/instruct-qa-0.0.3rc2.tar.gz
+[2024-05-29 08:09:19] INFO root fetch - processPackages [instruct-qa]: executing diffoscope
+[2024-05-29 08:09:19] INFO root fetch - processPackages [instruct-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instruct-qa-0.0.3rc1.tar.gz tmp/instruct-qa-0.0.3rc2.tar.gz --markdown 20240529/i/instruct-qa/0.0.3rc1-0.0.3rc2/README.md --exclude *.pyd
+[2024-05-29 08:09:19] INFO root fetch - processPackages [AmazonTicoTool]: Downloading https://files.pythonhosted.org/packages/43/e6/fc7e4a2004d00af0a8e1754246975f34b7d04a5c67833c2e5320b7d74035/AmazonTicoTool-0.3-py3-none-any.whl
+[2024-05-29 08:09:19] INFO root fetch - processPackages [AmazonTicoTool]: executing diffoscope
+[2024-05-29 08:09:19] INFO root fetch - processPackages [AmazonTicoTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AmazonTicoTool-0.1-py3-none-any.whl.zip tmp/AmazonTicoTool-0.3-py3-none-any.whl.zip --markdown 20240529/A/AmazonTicoTool/0.1-0.3/README.md --exclude *.pyd
+[2024-05-29 08:09:20] INFO root fetch - processPackages [instruct-qa]: Remove: archive file [/home/abi/fetcher/tmp/instruct-qa-0.0.3rc1.tar.gz]
+[2024-05-29 08:09:20] INFO root fetch - processPackages [instruct-qa]: Remove: archive file [/home/abi/fetcher/tmp/instruct-qa-0.0.3rc2.tar.gz]
+[2024-05-29 08:09:20] INFO root fetch - main [MainThread]: End processing [instruct-qa]: success
+[2024-05-29 08:09:20] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-05-29 08:09:20] INFO root fetch - processPackages [AmazonTicoTool]: Remove: archive file [/home/abi/fetcher/tmp/AmazonTicoTool-0.1-py3-none-any.whl.zip]
+[2024-05-29 08:09:20] INFO root fetch - processPackages [AmazonTicoTool]: Remove: archive file [/home/abi/fetcher/tmp/AmazonTicoTool-0.3-py3-none-any.whl.zip]
+[2024-05-29 08:09:20] INFO root fetch - main [MainThread]: End processing [AmazonTicoTool]: success
+[2024-05-29 08:09:20] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-05-29 08:09:20] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240529/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-05-29 08:09:28] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-05-29 08:09:28] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-05-29 08:09:28] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-05-29 08:09:28] INFO root fetch - main [MainThread]: Store serial: [23424747]
