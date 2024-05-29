@@ -20957,3 +20957,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:59:08] INFO root fetch - processPackages [swh.model]: Remove: archive file [/home/abi/fetcher/tmp/swh.model-6.9.1.tar.gz]
 [2024-05-29 13:59:08] INFO root fetch - main [MainThread]: End processing [swh.model]: success
 [2024-05-29 13:59:08] INFO root fetch - main [MainThread]: Store serial: [23429170]
+[2024-05-29 14:01:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429170]
+[2024-05-29 14:01:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bus-user
+[2024-05-29 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hangulpy
+[2024-05-29 14:01:17] INFO root fetch - processPackages [hangulpy]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 14:01:17] INFO root fetch - processPackages [bus-user]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-29 14:01:17] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/3f/fb/f60da05fc3a40d14ba440a2e70f463b7ded7361d0788f511df00040059aa/bus_user-0.3.1.tar.gz
+[2024-05-29 14:01:18] INFO root fetch - processPackages [hangulpy]: Downloading https://files.pythonhosted.org/packages/98/c8/c1f5141f26b3fdb539d2ab4f3a195f073a01a19e62bbafed8788fef7b926/hangulpy-1.0.0.tar.gz
+[2024-05-29 14:01:18] INFO root fetch - processPackages [hangulpy]: Downloading https://files.pythonhosted.org/packages/8a/c1/7ef2a058c1d2d93c62065364e5832ab723060b9a9b7505b9009eab313ab7/hangulpy-1.0.1.tar.gz
+[2024-05-29 14:01:18] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/00/5c/37b2df9e131798ae1076924843d2bc1424abb1143b87a325f8d432feaa57/bus_user-0.3.2.tar.gz
+[2024-05-29 14:01:18] INFO root fetch - processPackages [hangulpy]: executing diffoscope
+[2024-05-29 14:01:18] INFO root fetch - processPackages [hangulpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hangulpy-1.0.0.tar.gz tmp/hangulpy-1.0.1.tar.gz --markdown 20240529/h/hangulpy/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 14:01:18] INFO root fetch - processPackages [bus-user]: executing diffoscope
+[2024-05-29 14:01:18] INFO root fetch - processPackages [bus-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_user-0.3.1.tar.gz tmp/bus_user-0.3.2.tar.gz --markdown 20240529/b/bus-user/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-29 14:01:18] INFO root fetch - processPackages [hangulpy]: Remove: archive file [/home/abi/fetcher/tmp/hangulpy-1.0.0.tar.gz]
+[2024-05-29 14:01:18] INFO root fetch - processPackages [hangulpy]: Remove: archive file [/home/abi/fetcher/tmp/hangulpy-1.0.1.tar.gz]
+[2024-05-29 14:01:18] INFO root fetch - main [MainThread]: End processing [hangulpy]: success
+[2024-05-29 14:01:19] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.1.tar.gz]
+[2024-05-29 14:01:19] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.2.tar.gz]
+[2024-05-29 14:01:19] INFO root fetch - main [MainThread]: End processing [bus-user]: success
+[2024-05-29 14:01:19] INFO root fetch - main [MainThread]: Store serial: [23429178]
