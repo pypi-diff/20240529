@@ -16662,3 +16662,96 @@
 [2024-05-29 11:21:04] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-29 11:21:04] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-29 11:21:04] INFO root fetch - main [MainThread]: Store serial: [23427239]
+[2024-05-29 11:23:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427239]
+[2024-05-29 11:23:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgartools
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linktransformer
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-manager
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: recommendation-lib
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anaplan-sdk
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: intrieri1997
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HABSlib
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ussl
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seatsio
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ussl]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-29 11:23:13] INFO root fetch - processPackages [recommendation-lib]: New version: [1.4] Old Version: [1.3]
+[2024-05-29 11:23:13] INFO root fetch - processPackages [HABSlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 11:23:13] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-29 11:23:13] INFO root fetch - processPackages [torch-model-manager]: New version: [1.0.1.dev1] Old Version: [0.4.3.dev2]
+[2024-05-29 11:23:13] INFO root fetch - processPackages [linktransformer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 11:23:13] INFO root fetch - processPackages [intrieri1997]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-29 11:23:13] INFO root fetch - processPackages [anaplan-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/e9/5e/3ec419c771e023d8ad19a43ecbb6f0d8a269a07b728757c68dc4fecd49f9/ussl-1.1.1.tar.gz
+[2024-05-29 11:23:13] INFO root fetch - processPackages [seatsio]: New version: [76.7.0] Old Version: [76.6.0]
+[2024-05-29 11:23:13] INFO root fetch - processPackages [recommendation-lib]: Downloading https://files.pythonhosted.org/packages/83/53/90b2ed9d07fee299bc0e60e8facf34211c7d69f6bcbee1d75d107b33035a/recommendation_lib-1.3.tar.gz
+[2024-05-29 11:23:13] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/92/a2/3472f44ce5fbc12a46ed53af9061d73c2ad2a08f4cfc95d85c9f0d590c52/habslib-0.1.8.tar.gz
+[2024-05-29 11:23:13] INFO root fetch - processPackages [edgartools]: New version: [2.9.0] Old Version: [2.8.3]
+[2024-05-29 11:23:13] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-29 11:23:13] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/32/4e/e41edae71f57bf14073732fd4397de6250dc479e61e4b5449d54d4b6b6ff/torch_model_manager-0.4.3.dev2.tar.gz
+[2024-05-29 11:23:13] INFO root fetch - processPackages [intrieri1997]: Downloading https://files.pythonhosted.org/packages/c1/37/d2cd6613d56f5d8f2985ccb9e40adc30147181d5a651f0dd8cb8dabd1077/intrieri1997-1.0.0.tar.gz
+[2024-05-29 11:23:13] INFO root fetch - processPackages [anaplan-sdk]: Downloading https://files.pythonhosted.org/packages/05/32/ef3270192206fea96e5a9fd32978b38a8afb42e2048c73ef62bbe61108d7/anaplan_sdk-0.0.1.tar.gz
+[2024-05-29 11:23:13] INFO root fetch - processPackages [linktransformer]: Downloading https://files.pythonhosted.org/packages/f1/55/95da375f94db3a9584e814b3d4788a4e3d42c056902854bc023734aae0eb/linktransformer-0.1.8.tar.gz
+[2024-05-29 11:23:13] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/d8/c6/400200c18dfea8996fed257a419285ffb6839fac1a467836c0d47f525bfa/edgartools-2.8.3.tar.gz
+[2024-05-29 11:23:13] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/a3/74/de23fc3fedde40138caa8c27bfaa5886d7bca0250682bec4d28bbf810ceb/ussl-1.1.2.tar.gz
+[2024-05-29 11:23:13] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/b2/ea/3eb2099f135cfbcea8c24a4ef575773e1c92246ed65b1611aba761b07ff2/habslib-0.1.9.tar.gz
+[2024-05-29 11:23:14] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-29 11:23:14] INFO root fetch - processPackages [seatsio]: Downloading https://files.pythonhosted.org/packages/c0/93/b4e80c2d5d049c19b9b3aea32aa1f7ebfdb9576e1be3484bbdac5bd85bf1/seatsio-76.6.0.tar.gz
+[2024-05-29 11:23:14] INFO root fetch - processPackages [ussl]: executing diffoscope
+[2024-05-29 11:23:14] INFO root fetch - processPackages [ussl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ussl-1.1.1.tar.gz tmp/ussl-1.1.2.tar.gz --markdown 20240529/u/ussl/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-29 11:23:14] INFO root fetch - processPackages [HABSlib]: executing diffoscope
+[2024-05-29 11:23:14] INFO root fetch - processPackages [HABSlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habslib-0.1.8.tar.gz tmp/habslib-0.1.9.tar.gz --markdown 20240529/H/HABSlib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 11:23:14] INFO root fetch - processPackages [recommendation-lib]: Downloading https://files.pythonhosted.org/packages/19/54/72abc88625facf6ce5a076e035eecc2d4d540a9dab6238d0da2cdbfdd3b0/recommendation_lib-1.4.tar.gz
+[2024-05-29 11:23:14] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-29 11:23:14] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240529/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-29 11:23:14] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/3f/da/1873bc5632b3b7256f4fe4a180f789d2cfe149c5342f33a8552ef04ff953/torch_model_manager-1.0.1.dev1.tar.gz
+[2024-05-29 11:23:14] INFO root fetch - processPackages [intrieri1997]: Downloading https://files.pythonhosted.org/packages/92/2a/5a08790b34c713773a2db54a0eba22984bd1e8978c94b5749e9a87a65413/intrieri1997-1.1.0.tar.gz
+[2024-05-29 11:23:14] INFO root fetch - processPackages [anaplan-sdk]: Downloading https://files.pythonhosted.org/packages/2b/4e/38f8f8f417ec65406e298d256830e8eee2e4f9891e36f4a3c2213eb9875a/anaplan_sdk-0.0.2.tar.gz
+[2024-05-29 11:23:14] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/c6/e4/10d80214acd99a350add686b19eb2625613291c9bff643051d50b5aca766/edgartools-2.9.0.tar.gz
+[2024-05-29 11:23:14] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-29 11:23:14] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.3.dev2.tar.gz tmp/torch_model_manager-1.0.1.dev1.tar.gz --markdown 20240529/t/torch-model-manager/0.4.3.dev2-1.0.1.dev1/README.md --exclude *.pyd
+[2024-05-29 11:23:14] INFO root fetch - processPackages [intrieri1997]: executing diffoscope
+[2024-05-29 11:23:14] INFO root fetch - processPackages [anaplan-sdk]: executing diffoscope
+[2024-05-29 11:23:14] INFO root fetch - processPackages [anaplan-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaplan_sdk-0.0.1.tar.gz tmp/anaplan_sdk-0.0.2.tar.gz --markdown 20240529/a/anaplan-sdk/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 11:23:14] INFO root fetch - processPackages [intrieri1997]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intrieri1997-1.0.0.tar.gz tmp/intrieri1997-1.1.0.tar.gz --markdown 20240529/i/intrieri1997/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-29 11:23:14] INFO root fetch - processPackages [seatsio]: Downloading https://files.pythonhosted.org/packages/c8/15/9ebb8dec55a8dd5eb0a2ed738d44222c9fc3848da3fb38e3a09aefe2481e/seatsio-76.7.0.tar.gz
+[2024-05-29 11:23:14] INFO root fetch - processPackages [edgartools]: executing diffoscope
+[2024-05-29 11:23:14] INFO root fetch - processPackages [edgartools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgartools-2.8.3.tar.gz tmp/edgartools-2.9.0.tar.gz --markdown 20240529/e/edgartools/2.8.3-2.9.0/README.md --exclude *.pyd
+[2024-05-29 11:23:14] INFO root fetch - processPackages [seatsio]: executing diffoscope
+[2024-05-29 11:23:14] INFO root fetch - processPackages [seatsio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seatsio-76.6.0.tar.gz tmp/seatsio-76.7.0.tar.gz --markdown 20240529/s/seatsio/76.6.0-76.7.0/README.md --exclude *.pyd
+[2024-05-29 11:23:14] INFO root fetch - processPackages [recommendation-lib]: executing diffoscope
+[2024-05-29 11:23:14] INFO root fetch - processPackages [recommendation-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recommendation_lib-1.3.tar.gz tmp/recommendation_lib-1.4.tar.gz --markdown 20240529/r/recommendation-lib/1.3-1.4/README.md --exclude *.pyd
+[2024-05-29 11:23:14] INFO root fetch - processPackages [linktransformer]: Downloading https://files.pythonhosted.org/packages/03/15/7dae1c04f94d50e9df1a8aa5349c563edf3a964bd89b27f8d94e166ca5a3/linktransformer-0.1.9.tar.gz
+[2024-05-29 11:23:14] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.8.tar.gz]
+[2024-05-29 11:23:14] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.9.tar.gz]
+[2024-05-29 11:23:14] INFO root fetch - main [MainThread]: End processing [HABSlib]: success
+[2024-05-29 11:23:14] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.1.1.tar.gz]
+[2024-05-29 11:23:14] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.1.2.tar.gz]
+[2024-05-29 11:23:14] INFO root fetch - main [MainThread]: End processing [ussl]: success
+[2024-05-29 11:23:15] INFO root fetch - processPackages [linktransformer]: executing diffoscope
+[2024-05-29 11:23:15] INFO root fetch - processPackages [linktransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktransformer-0.1.8.tar.gz tmp/linktransformer-0.1.9.tar.gz --markdown 20240529/l/linktransformer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 11:23:15] INFO root fetch - processPackages [anaplan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anaplan_sdk-0.0.1.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - processPackages [anaplan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anaplan_sdk-0.0.2.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - main [MainThread]: End processing [anaplan-sdk]: success
+[2024-05-29 11:23:15] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.3.dev2.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-1.0.1.dev1.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-29 11:23:15] INFO root fetch - processPackages [intrieri1997]: Remove: archive file [/home/abi/fetcher/tmp/intrieri1997-1.0.0.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - processPackages [intrieri1997]: Remove: archive file [/home/abi/fetcher/tmp/intrieri1997-1.1.0.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - main [MainThread]: End processing [intrieri1997]: success
+[2024-05-29 11:23:15] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.8.3.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.9.0.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - main [MainThread]: End processing [edgartools]: success
+[2024-05-29 11:23:15] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-29 11:23:15] INFO root fetch - processPackages [seatsio]: Remove: archive file [/home/abi/fetcher/tmp/seatsio-76.6.0.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - processPackages [seatsio]: Remove: archive file [/home/abi/fetcher/tmp/seatsio-76.7.0.tar.gz]
+[2024-05-29 11:23:15] INFO root fetch - main [MainThread]: End processing [seatsio]: success
+[2024-05-29 11:23:16] INFO root fetch - processPackages [recommendation-lib]: Remove: archive file [/home/abi/fetcher/tmp/recommendation_lib-1.3.tar.gz]
+[2024-05-29 11:23:16] INFO root fetch - processPackages [recommendation-lib]: Remove: archive file [/home/abi/fetcher/tmp/recommendation_lib-1.4.tar.gz]
+[2024-05-29 11:23:16] INFO root fetch - main [MainThread]: End processing [recommendation-lib]: success
+[2024-05-29 11:23:16] INFO root fetch - processPackages [linktransformer]: Remove: archive file [/home/abi/fetcher/tmp/linktransformer-0.1.8.tar.gz]
+[2024-05-29 11:23:16] INFO root fetch - processPackages [linktransformer]: Remove: archive file [/home/abi/fetcher/tmp/linktransformer-0.1.9.tar.gz]
+[2024-05-29 11:23:16] INFO root fetch - main [MainThread]: End processing [linktransformer]: success
+[2024-05-29 11:23:16] INFO root fetch - main [MainThread]: Store serial: [23427269]
