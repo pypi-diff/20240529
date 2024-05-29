@@ -19616,3 +19616,85 @@
 [2024-05-29 13:08:21] INFO root fetch - processPackages [dash-extensions]: Remove: archive file [/home/abi/fetcher/tmp/dash_extensions-1.0.9.tar.gz]
 [2024-05-29 13:08:21] INFO root fetch - main [MainThread]: End processing [dash-extensions]: success
 [2024-05-29 13:08:21] INFO root fetch - main [MainThread]: Store serial: [23428626]
+[2024-05-29 13:10:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428626]
+[2024-05-29 13:10:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-29 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-tools-wd
+[2024-05-29 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xdat
+[2024-05-29 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-boto3-sdk-helpers
+[2024-05-29 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssb-timeseries
+[2024-05-29 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solar-registry
+[2024-05-29 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aura-tools
+[2024-05-29 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idvpackage
+[2024-05-29 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anipy-api
+[2024-05-29 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dianDataAna
+[2024-05-29 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-computer-assistant
+[2024-05-29 13:10:31] INFO root fetch - processPackages [dianDataAna]: New version: [0.4] Old Version: [0.3]
+[2024-05-29 13:10:31] INFO root fetch - processPackages [gpt-computer-assistant]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-29 13:10:31] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 13:10:31] INFO root fetch - processPackages [py-tools-wd]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 13:10:31] INFO root fetch - processPackages [idvpackage]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-29 13:10:31] INFO root fetch - processPackages [solar-registry]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-29 13:10:31] INFO root fetch - processPackages [ssb-timeseries]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-29 13:10:31] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-29 13:10:31] WARNING root fetch - processPackages [aura-tools]: Skipping, unable to determine old version
+[2024-05-29 13:10:31] INFO root fetch - processPackages [aura-tools]: Start processing: AFMReader
+[2024-05-29 13:10:31] INFO root fetch - main [MainThread]: End processing [aura-tools] error
+[2024-05-29 13:10:31] INFO root fetch - processPackages [anipy-api]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-05-29 13:10:32] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/51/d4/1e5866f531863e4c2f6b22477e2cabbdd3b29a329560f61f083622e168bd/gpt_computer_assistant-0.5.5.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [aws-boto3-sdk-helpers]: Downloading https://files.pythonhosted.org/packages/b7/c0/517db524207d9b7f3603aeec008eed9ad52900a9911968ec25d89b776e48/aws_boto3_sdk_helpers-1.0.2.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [dianDataAna]: Downloading https://files.pythonhosted.org/packages/04/8a/667673ce9137b06e04d9b79840a1623f18f12c08ee20e82ebc1eb1cddc94/dianDataAna-0.3.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [py-tools-wd]: Downloading https://files.pythonhosted.org/packages/42/bc/4dd5324a3e38e1dc82c32413614edc435c08bb8bf9e77bf0930488eab48c/py-tools-wd-0.1.1.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [idvpackage]: Downloading https://files.pythonhosted.org/packages/6c/7c/65b70ff47604461688a9475630c0e6f7b3f0809d59034ee93c3a20a856cd/idvpackage-1.9.8.tar.gz
+[2024-05-29 13:10:32] ERROR root fetch - processPackages [AFMReader]: Unable to get metadata: No such project 'AFMReader'
+[2024-05-29 13:10:32] INFO root fetch - main [MainThread]: End processing [AFMReader] error
+[2024-05-29 13:10:32] WARNING root fetch - processPackages [idvpackage]: Skipping package: exceeds size limit 28247832>=10485760
+[2024-05-29 13:10:32] INFO root fetch - main [MainThread]: End processing [idvpackage] error
+[2024-05-29 13:10:32] INFO root fetch - processPackages [anipy-api]: Downloading https://files.pythonhosted.org/packages/af/6f/b62f775a426f7c29625e1b296b535e00240bd930db5c58f4401e32161362/anipy_api-3.1.0.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/16/1e/8ac69f0958104b5d70694c27aeb06149e418aadc193aeb8544d2637998fb/solar_registry-0.3.2.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [ssb-timeseries]: Downloading https://files.pythonhosted.org/packages/65/37/44f770aa22fc88fe0696f5c0557adaf7ec551f45e0ab54493036304f9b63/ssb_timeseries-0.2.3.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [py-tools-wd]: Downloading https://files.pythonhosted.org/packages/3c/33/4779dc78fdb9fb5f04d83f5ade53d7c6af40a82494c9d74cc146f2b9449f/py-tools-wd-0.1.2.tar.gz
+[2024-05-29 13:10:32] ERROR root fetch - processPackages [aws-boto3-sdk-helpers]: Unable to fetch info: No such project/version 'aws-boto3-sdk-helpers' 1.0.3
+[2024-05-29 13:10:32] INFO root fetch - main [MainThread]: End processing [aws-boto3-sdk-helpers] error
+[2024-05-29 13:10:32] INFO root fetch - processPackages [py-tools-wd]: executing diffoscope
+[2024-05-29 13:10:32] INFO root fetch - processPackages [py-tools-wd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-tools-wd-0.1.1.tar.gz tmp/py-tools-wd-0.1.2.tar.gz --markdown 20240529/p/py-tools-wd/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-29 13:10:32] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/02/19/f33f45f604ba73327e439387878aa82fe7d0d8c9b9f5b39b46b6258c7fee/gpt_computer_assistant-0.5.6.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/45/eb/8d24d3055d4b3002f7b628938ded413fd169f8ad8cb8b36137f884920892/solar_registry-0.3.3.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [dianDataAna]: Downloading https://files.pythonhosted.org/packages/63/ef/8cd432da7b98f5300200dc6214636f9353b4c08b8a635c73552805584863/dianDataAna-0.4.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [gpt-computer-assistant]: executing diffoscope
+[2024-05-29 13:10:32] INFO root fetch - processPackages [gpt-computer-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_computer_assistant-0.5.5.tar.gz tmp/gpt_computer_assistant-0.5.6.tar.gz --markdown 20240529/g/gpt-computer-assistant/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-29 13:10:32] INFO root fetch - processPackages [anipy-api]: Downloading https://files.pythonhosted.org/packages/c4/1a/812e301ac855a853efbae0a2cc98e2c6bcbd64b576a6e32d0de3f5af21b1/anipy_api-3.1.1.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [ssb-timeseries]: Downloading https://files.pythonhosted.org/packages/32/dc/2efab1e48c6a8bb3b8b860f003c409adfcc52937308ec20ed11263f12d82/ssb_timeseries-0.2.4.tar.gz
+[2024-05-29 13:10:32] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-29 13:10:32] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.3.2.tar.gz tmp/solar_registry-0.3.3.tar.gz --markdown 20240529/s/solar-registry/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-29 13:10:32] INFO root fetch - processPackages [dianDataAna]: executing diffoscope
+[2024-05-29 13:10:32] INFO root fetch - processPackages [dianDataAna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dianDataAna-0.3.tar.gz tmp/dianDataAna-0.4.tar.gz --markdown 20240529/d/dianDataAna/0.3-0.4/README.md --exclude *.pyd
+[2024-05-29 13:10:32] INFO root fetch - processPackages [anipy-api]: executing diffoscope
+[2024-05-29 13:10:32] INFO root fetch - processPackages [anipy-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anipy_api-3.1.0.tar.gz tmp/anipy_api-3.1.1.tar.gz --markdown 20240529/a/anipy-api/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-05-29 13:10:32] INFO root fetch - processPackages [ssb-timeseries]: executing diffoscope
+[2024-05-29 13:10:32] INFO root fetch - processPackages [ssb-timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_timeseries-0.2.3.tar.gz tmp/ssb_timeseries-0.2.4.tar.gz --markdown 20240529/s/ssb-timeseries/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-29 13:10:32] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2024-05-29 13:10:33] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2024-05-29 13:10:33] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20240529/x/xdat/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-29 13:10:33] INFO root fetch - processPackages [py-tools-wd]: Remove: archive file [/home/abi/fetcher/tmp/py-tools-wd-0.1.1.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - processPackages [py-tools-wd]: Remove: archive file [/home/abi/fetcher/tmp/py-tools-wd-0.1.2.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - main [MainThread]: End processing [py-tools-wd]: success
+[2024-05-29 13:10:33] INFO root fetch - processPackages [dianDataAna]: Remove: archive file [/home/abi/fetcher/tmp/dianDataAna-0.3.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - processPackages [dianDataAna]: Remove: archive file [/home/abi/fetcher/tmp/dianDataAna-0.4.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - main [MainThread]: End processing [dianDataAna]: success
+[2024-05-29 13:10:33] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.3.2.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.3.3.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-29 13:10:33] INFO root fetch - processPackages [anipy-api]: Remove: archive file [/home/abi/fetcher/tmp/anipy_api-3.1.0.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - processPackages [anipy-api]: Remove: archive file [/home/abi/fetcher/tmp/anipy_api-3.1.1.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - main [MainThread]: End processing [anipy-api]: success
+[2024-05-29 13:10:33] INFO root fetch - processPackages [ssb-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/ssb_timeseries-0.2.3.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - processPackages [ssb-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/ssb_timeseries-0.2.4.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - main [MainThread]: End processing [ssb-timeseries]: success
+[2024-05-29 13:10:33] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.5.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.6.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant]: success
+[2024-05-29 13:10:33] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.98.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.99.tar.gz]
+[2024-05-29 13:10:33] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2024-05-29 13:10:33] INFO root fetch - main [MainThread]: Store serial: [23428661]
