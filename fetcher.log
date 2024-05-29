@@ -12223,3 +12223,54 @@
 [2024-05-29 08:38:33] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
 [2024-05-29 08:38:33] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
 [2024-05-29 08:38:33] INFO root fetch - main [MainThread]: Store serial: [23425070]
+[2024-05-29 08:40:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425070]
+[2024-05-29 08:40:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 08:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CVE-2023-24044
+[2024-05-29 08:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-signalfx
+[2024-05-29 08:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zepben.protobuf
+[2024-05-29 08:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litellm
+[2024-05-29 08:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sanghyunjo
+[2024-05-29 08:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: colomoto-docker
+[2024-05-29 08:40:42] INFO root fetch - processPackages [sanghyunjo]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-29 08:40:42] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-29 08:40:42] INFO root fetch - processPackages [sanghyunjo]: Downloading https://files.pythonhosted.org/packages/bd/13/804964cfddcd9a2dc10605fd69f2a19096161f05b91f9278af76b8d22ce6/sanghyunjo-1.4.1.tar.gz
+[2024-05-29 08:40:42] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1716963243] Old Version: [7.2.0a1716512682]
+[2024-05-29 08:40:42] WARNING root fetch - processPackages [CVE-2023-24044]: Skipping, unable to determine old version
+[2024-05-29 08:40:42] INFO root fetch - main [MainThread]: End processing [CVE-2023-24044] error
+[2024-05-29 08:40:42] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-29 08:40:42] INFO root fetch - processPackages [zepben.protobuf]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2024-05-29 08:40:42] INFO root fetch - processPackages [colomoto-docker]: New version: [8.3] Old Version: [8.2]
+[2024-05-29 08:40:42] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/e7/f9/98a738ec69d1cf6c1169c9e0e98d520ed5a5943e9911bce5201611265f81/zepben.protobuf-0.9.0b2-py3-none-any.whl
+[2024-05-29 08:40:42] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/9a/46/fb355a9b903298b19b3013a375dc350692e24b48598b26d057a515f82a57/pulumi_signalfx-7.2.0a1716512682.tar.gz
+[2024-05-29 08:40:42] INFO root fetch - processPackages [colomoto-docker]: Downloading https://files.pythonhosted.org/packages/0b/d2/645880103f650be4855bc97f97c55e4c560a5dcfb6eddd35a287af1f6dae/colomoto-docker-8.2.tar.gz
+[2024-05-29 08:40:42] INFO root fetch - processPackages [sanghyunjo]: Downloading https://files.pythonhosted.org/packages/c3/91/021685356cc0dd2e38af510341fc5d8db5c0d7c00e17741c58743c5202da/sanghyunjo-1.4.2.tar.gz
+[2024-05-29 08:40:42] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-29 08:40:42] INFO root fetch - processPackages [sanghyunjo]: executing diffoscope
+[2024-05-29 08:40:42] INFO root fetch - processPackages [sanghyunjo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanghyunjo-1.4.1.tar.gz tmp/sanghyunjo-1.4.2.tar.gz --markdown 20240529/s/sanghyunjo/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-29 08:40:42] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/f4/7e/11eb9d8a67ac1ef426774d93698b082c0f083b5964068950bf4393c2d0a4/pulumi_signalfx-7.2.0a1716963243.tar.gz
+[2024-05-29 08:40:42] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/ea/50/751033a2cb3fef1cb800a48f0d63bf756c6cdb739fe466ebcae674b82ea8/zepben.protobuf-0.9.0b3-py3-none-any.whl
+[2024-05-29 08:40:43] INFO root fetch - processPackages [colomoto-docker]: Downloading https://files.pythonhosted.org/packages/c8/29/735992a5d8220724eb447f40d57be584ac4327db052edeb763f91ff85857/colomoto_docker-8.3.tar.gz
+[2024-05-29 08:40:43] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-29 08:40:43] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240529/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-29 08:40:43] INFO root fetch - processPackages [zepben.protobuf]: executing diffoscope
+[2024-05-29 08:40:43] INFO root fetch - processPackages [zepben.protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip --markdown 20240529/z/zepben.protobuf/0.9.0b2-0.9.0b3/README.md --exclude *.pyd
+[2024-05-29 08:40:43] INFO root fetch - processPackages [colomoto-docker]: executing diffoscope
+[2024-05-29 08:40:43] INFO root fetch - processPackages [colomoto-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colomoto-docker-8.2.tar.gz tmp/colomoto_docker-8.3.tar.gz --markdown 20240529/c/colomoto-docker/8.2-8.3/README.md --exclude *.pyd
+[2024-05-29 08:40:43] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-05-29 08:40:43] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1716512682.tar.gz tmp/pulumi_signalfx-7.2.0a1716963243.tar.gz --markdown 20240529/p/pulumi-signalfx/7.2.0a1716512682-7.2.0a1716963243/README.md --exclude *.pyd
+[2024-05-29 08:40:43] INFO root fetch - processPackages [sanghyunjo]: Remove: archive file [/home/abi/fetcher/tmp/sanghyunjo-1.4.1.tar.gz]
+[2024-05-29 08:40:43] INFO root fetch - processPackages [sanghyunjo]: Remove: archive file [/home/abi/fetcher/tmp/sanghyunjo-1.4.2.tar.gz]
+[2024-05-29 08:40:43] INFO root fetch - main [MainThread]: End processing [sanghyunjo]: success
+[2024-05-29 08:40:43] INFO root fetch - processPackages [colomoto-docker]: Remove: archive file [/home/abi/fetcher/tmp/colomoto-docker-8.2.tar.gz]
+[2024-05-29 08:40:43] INFO root fetch - processPackages [colomoto-docker]: Remove: archive file [/home/abi/fetcher/tmp/colomoto_docker-8.3.tar.gz]
+[2024-05-29 08:40:43] INFO root fetch - main [MainThread]: End processing [colomoto-docker]: success
+[2024-05-29 08:40:44] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1716512682.tar.gz]
+[2024-05-29 08:40:44] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1716963243.tar.gz]
+[2024-05-29 08:40:44] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-05-29 08:40:44] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-29 08:40:44] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-29 08:40:44] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-29 08:40:44] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip]
+[2024-05-29 08:40:44] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
+[2024-05-29 08:40:44] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
+[2024-05-29 08:40:44] INFO root fetch - main [MainThread]: Store serial: [23425098]
