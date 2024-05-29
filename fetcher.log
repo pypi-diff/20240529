@@ -20432,3 +20432,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 13:41:14] WARNING root fetch - processPackages [bigdl-core-xe-batch-21]: Skipping package: exceeds size limit 79513666>=10485760
 [2024-05-29 13:41:14] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-batch-21] error
 [2024-05-29 13:41:14] INFO root fetch - main [MainThread]: Store serial: [23428957]
+[2024-05-29 13:43:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428957]
+[2024-05-29 13:43:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 13:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surrealist
+[2024-05-29 13:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spectrum-fundamentals
+[2024-05-29 13:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lato
+[2024-05-29 13:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whataspp-message-inforu-local
+[2024-05-29 13:43:23] INFO root fetch - processPackages [whataspp-message-inforu-local]: New version: [0.0.16] Old Version: [0.0.15]
+[2024-05-29 13:43:23] INFO root fetch - processPackages [whataspp-message-inforu-local]: Downloading https://files.pythonhosted.org/packages/73/0d/ccefaf03507df0179dcd0a1901c3d67171a7c956dd7ad44ca275bf27e579/whataspp_message_inforu_local-0.0.15.tar.gz
+[2024-05-29 13:43:23] INFO root fetch - processPackages [lato]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-29 13:43:23] INFO root fetch - processPackages [spectrum-fundamentals]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-29 13:43:23] INFO root fetch - processPackages [surrealist]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-29 13:43:24] INFO root fetch - processPackages [spectrum-fundamentals]: Downloading https://files.pythonhosted.org/packages/48/33/b3f974be7e03170aa4019b690c8bee936a304d689325eb82f7efdb1d2558/spectrum_fundamentals-0.5.3.tar.gz
+[2024-05-29 13:43:24] INFO root fetch - processPackages [surrealist]: Downloading https://files.pythonhosted.org/packages/fd/2a/700669c2ae0064477adb0db05580a55149fe2d8aafce64fa7225f5bcba1a/surrealist-0.5.1.tar.gz
+[2024-05-29 13:43:24] INFO root fetch - processPackages [lato]: Downloading https://files.pythonhosted.org/packages/21/e9/0b9c5b6f3e1f164a6b6c972afb896d9b9d70a8308d1059c35229e8321bc0/lato-0.9.2.tar.gz
+[2024-05-29 13:43:24] INFO root fetch - processPackages [whataspp-message-inforu-local]: Downloading https://files.pythonhosted.org/packages/45/65/904037810e3cad630a84804b5609865245b3813bbed67d5321fa9664a658/whataspp_message_inforu_local-0.0.16.tar.gz
+[2024-05-29 13:43:24] INFO root fetch - processPackages [whataspp-message-inforu-local]: executing diffoscope
+[2024-05-29 13:43:24] INFO root fetch - processPackages [whataspp-message-inforu-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whataspp_message_inforu_local-0.0.15.tar.gz tmp/whataspp_message_inforu_local-0.0.16.tar.gz --markdown 20240529/w/whataspp-message-inforu-local/0.0.15-0.0.16/README.md --exclude *.pyd
+[2024-05-29 13:43:24] INFO root fetch - processPackages [surrealist]: Downloading https://files.pythonhosted.org/packages/0b/b0/97fe4fc7a42ed30f1d46bae3d73cbc4cc5170a307dda4f9fb54038ecb203/surrealist-0.5.2.tar.gz
+[2024-05-29 13:43:24] INFO root fetch - processPackages [spectrum-fundamentals]: Downloading https://files.pythonhosted.org/packages/4d/8f/e4ccd947d79068b1446a088d453d5d408a0ab708d4f71334a2509ed69e83/spectrum_fundamentals-0.5.4.tar.gz
+[2024-05-29 13:43:24] INFO root fetch - processPackages [lato]: Downloading https://files.pythonhosted.org/packages/e3/8a/1fc40a85ac0abd89d01af196c2537643341ef370de935e966f380daebd83/lato-0.9.3.tar.gz
+[2024-05-29 13:43:24] INFO root fetch - processPackages [lato]: executing diffoscope
+[2024-05-29 13:43:24] INFO root fetch - processPackages [lato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lato-0.9.2.tar.gz tmp/lato-0.9.3.tar.gz --markdown 20240529/l/lato/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-29 13:43:24] INFO root fetch - processPackages [surrealist]: executing diffoscope
+[2024-05-29 13:43:24] INFO root fetch - processPackages [surrealist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surrealist-0.5.1.tar.gz tmp/surrealist-0.5.2.tar.gz --markdown 20240529/s/surrealist/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-29 13:43:24] INFO root fetch - processPackages [spectrum-fundamentals]: executing diffoscope
+[2024-05-29 13:43:24] INFO root fetch - processPackages [spectrum-fundamentals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_fundamentals-0.5.3.tar.gz tmp/spectrum_fundamentals-0.5.4.tar.gz --markdown 20240529/s/spectrum-fundamentals/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-29 13:43:24] INFO root fetch - processPackages [whataspp-message-inforu-local]: Remove: archive file [/home/abi/fetcher/tmp/whataspp_message_inforu_local-0.0.15.tar.gz]
+[2024-05-29 13:43:24] INFO root fetch - processPackages [whataspp-message-inforu-local]: Remove: archive file [/home/abi/fetcher/tmp/whataspp_message_inforu_local-0.0.16.tar.gz]
+[2024-05-29 13:43:24] INFO root fetch - main [MainThread]: End processing [whataspp-message-inforu-local]: success
+[2024-05-29 13:43:25] INFO root fetch - processPackages [lato]: Remove: archive file [/home/abi/fetcher/tmp/lato-0.9.2.tar.gz]
+[2024-05-29 13:43:25] INFO root fetch - processPackages [lato]: Remove: archive file [/home/abi/fetcher/tmp/lato-0.9.3.tar.gz]
+[2024-05-29 13:43:25] INFO root fetch - main [MainThread]: End processing [lato]: success
+[2024-05-29 13:43:25] INFO root fetch - processPackages [spectrum-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_fundamentals-0.5.3.tar.gz]
+[2024-05-29 13:43:25] INFO root fetch - processPackages [spectrum-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_fundamentals-0.5.4.tar.gz]
+[2024-05-29 13:43:25] INFO root fetch - main [MainThread]: End processing [spectrum-fundamentals]: success
+[2024-05-29 13:43:25] INFO root fetch - processPackages [surrealist]: Remove: archive file [/home/abi/fetcher/tmp/surrealist-0.5.1.tar.gz]
+[2024-05-29 13:43:25] INFO root fetch - processPackages [surrealist]: Remove: archive file [/home/abi/fetcher/tmp/surrealist-0.5.2.tar.gz]
+[2024-05-29 13:43:25] INFO root fetch - main [MainThread]: End processing [surrealist]: success
+[2024-05-29 13:43:25] INFO root fetch - main [MainThread]: Store serial: [23428969]
