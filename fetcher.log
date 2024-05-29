@@ -15440,3 +15440,75 @@
 [2024-05-29 10:49:53] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.1b3.tar.gz]
 [2024-05-29 10:49:53] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
 [2024-05-29 10:49:53] INFO root fetch - main [MainThread]: Store serial: [23426667]
+[2024-05-29 10:51:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426667]
+[2024-05-29 10:52:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-29 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blockapi
+[2024-05-29 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-cognite-reveal
+[2024-05-29 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ha3engine
+[2024-05-29 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hashsan-tool
+[2024-05-29 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqtorch
+[2024-05-29 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-ha3engine-vector
+[2024-05-29 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2024-05-29 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chemfusekit
+[2024-05-29 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: baostockhelloworld
+[2024-05-29 10:52:01] WARNING root fetch - processPackages [baostockhelloworld]: Skipping, unable to determine old version
+[2024-05-29 10:52:01] INFO root fetch - main [MainThread]: End processing [baostockhelloworld] error
+[2024-05-29 10:52:01] INFO root fetch - processPackages [streamlit-cognite-reveal]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 10:52:01] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.2b1] Old Version: [1.1.1b3]
+[2024-05-29 10:52:01] WARNING root fetch - processPackages [hashsan-tool]: Skipping, unable to determine old version
+[2024-05-29 10:52:01] INFO root fetch - main [MainThread]: End processing [hashsan-tool] error
+[2024-05-29 10:52:01] INFO root fetch - processPackages [moto]: New version: [5.0.9.dev4] Old Version: [5.0.9.dev2]
+[2024-05-29 10:52:01] INFO root fetch - processPackages [pyqtorch]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-29 10:52:01] INFO root fetch - processPackages [alibabacloud-ha3engine]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-29 10:52:01] INFO root fetch - processPackages [alibabacloud-ha3engine-vector]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-29 10:52:01] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/f8/02/68b495233d766f64c43e263ccb530cdc3839f63876908cd08d12667d3e51/chemfusekit-1.1.1b3.tar.gz
+[2024-05-29 10:52:01] INFO root fetch - processPackages [blockapi]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-29 10:52:01] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/8d/a7/67c2cce55ccae36c1c1d57755220c232cc2ea51f781baf55fa066a9d478b/moto-5.0.9.dev2.tar.gz
+[2024-05-29 10:52:01] INFO root fetch - processPackages [streamlit-cognite-reveal]: Downloading https://files.pythonhosted.org/packages/7b/de/a59e9fb8d4a47609790f4e62e92fc3e5370ea1d321cbc4c06312025a583e/streamlit_cognite_reveal-0.0.1.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [alibabacloud-ha3engine]: Downloading https://files.pythonhosted.org/packages/d6/07/6348b6c0b9b9b4b6bcd8cfa66cb732627efb14c9558174352a18efe98721/alibabacloud_ha3engine-1.3.6.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [alibabacloud-ha3engine-vector]: Downloading https://files.pythonhosted.org/packages/1b/60/3461eed69e1e4da1f3e4e530f88db87f61b933f313899048011dd8619736/alibabacloud_ha3engine_vector-1.1.3.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [pyqtorch]: Downloading https://files.pythonhosted.org/packages/81/7a/94400a8fed6dc3ba5ee43a3e6c0b92e664d2ad4f14a8145f919c117032f4/pyqtorch-1.1.1.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/31/4d/7d461a226992bb823af9a205b83532fd5cf942306b4ad4f220a2817a8ee4/blockapi-0.8.1.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [streamlit-cognite-reveal]: Downloading https://files.pythonhosted.org/packages/cb/b5/47e9315f5486faffdd9c1bac3c66967a59a207f48cb92acf9f7de7d3c0a0/streamlit_cognite_reveal-0.0.2.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/84/79/7c3d218ccd116bf212392aa01a9152beaa1c0c22812487a467b700eb91b8/chemfusekit-1.1.2b1.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [alibabacloud-ha3engine]: Downloading https://files.pythonhosted.org/packages/dc/ff/bf0e479a7fa0b1f4a2b5bada5f7d267b90f71e5cf8f084f85701f2f4d5f6/alibabacloud_ha3engine-1.3.7.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [streamlit-cognite-reveal]: executing diffoscope
+[2024-05-29 10:52:02] INFO root fetch - processPackages [streamlit-cognite-reveal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_cognite_reveal-0.0.1.tar.gz tmp/streamlit_cognite_reveal-0.0.2.tar.gz --markdown 20240529/s/streamlit-cognite-reveal/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 10:52:02] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/30/15/ba23c0445e34e52ca7ebf202bc4ba115ebb6a87d0163c098a9921ec9581d/moto-5.0.9.dev4.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [alibabacloud-ha3engine-vector]: Downloading https://files.pythonhosted.org/packages/9d/8c/8dfd267acbbbf1ee79b7bead9f36bbbb0513f05c9f829b617061ce50e3bb/alibabacloud_ha3engine_vector-1.1.4.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/6a/ed/17b1b9e53b4a0bb6d3d31ae17aeaa73238a3bc01d6b208f6b4fb0812d638/blockapi-0.9.0.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [pyqtorch]: Downloading https://files.pythonhosted.org/packages/31/06/35754ec86c34724291aef9976526348ddb2d501044bbe4721d09624ffb6f/pyqtorch-1.1.2.tar.gz
+[2024-05-29 10:52:02] INFO root fetch - processPackages [alibabacloud-ha3engine]: executing diffoscope
+[2024-05-29 10:52:02] INFO root fetch - processPackages [alibabacloud-ha3engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ha3engine-1.3.6.tar.gz tmp/alibabacloud_ha3engine-1.3.7.tar.gz --markdown 20240529/a/alibabacloud-ha3engine/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-29 10:52:02] INFO root fetch - processPackages [alibabacloud-ha3engine-vector]: executing diffoscope
+[2024-05-29 10:52:02] INFO root fetch - processPackages [alibabacloud-ha3engine-vector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ha3engine_vector-1.1.3.tar.gz tmp/alibabacloud_ha3engine_vector-1.1.4.tar.gz --markdown 20240529/a/alibabacloud-ha3engine-vector/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-29 10:52:02] INFO root fetch - processPackages [blockapi]: executing diffoscope
+[2024-05-29 10:52:02] INFO root fetch - processPackages [blockapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockapi-0.8.1.tar.gz tmp/blockapi-0.9.0.tar.gz --markdown 20240529/b/blockapi/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-29 10:52:02] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-05-29 10:52:02] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.1b3.tar.gz tmp/chemfusekit-1.1.2b1.tar.gz --markdown 20240529/c/chemfusekit/1.1.1b3-1.1.2b1/README.md --exclude *.pyd
+[2024-05-29 10:52:02] INFO root fetch - processPackages [pyqtorch]: executing diffoscope
+[2024-05-29 10:52:02] INFO root fetch - processPackages [pyqtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqtorch-1.1.1.tar.gz tmp/pyqtorch-1.1.2.tar.gz --markdown 20240529/p/pyqtorch/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-29 10:52:03] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-05-29 10:52:03] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.9.dev2.tar.gz tmp/moto-5.0.9.dev4.tar.gz --markdown 20240529/m/moto/5.0.9.dev2-5.0.9.dev4/README.md --exclude *.pyd
+[2024-05-29 10:52:03] INFO root fetch - processPackages [streamlit-cognite-reveal]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_cognite_reveal-0.0.1.tar.gz]
+[2024-05-29 10:52:03] INFO root fetch - processPackages [streamlit-cognite-reveal]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_cognite_reveal-0.0.2.tar.gz]
+[2024-05-29 10:52:03] INFO root fetch - main [MainThread]: End processing [streamlit-cognite-reveal]: success
+[2024-05-29 10:52:03] INFO root fetch - processPackages [alibabacloud-ha3engine]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ha3engine-1.3.6.tar.gz]
+[2024-05-29 10:52:03] INFO root fetch - processPackages [alibabacloud-ha3engine]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ha3engine-1.3.7.tar.gz]
+[2024-05-29 10:52:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-ha3engine]: success
+[2024-05-29 10:52:03] INFO root fetch - processPackages [alibabacloud-ha3engine-vector]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ha3engine_vector-1.1.3.tar.gz]
+[2024-05-29 10:52:03] INFO root fetch - processPackages [alibabacloud-ha3engine-vector]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ha3engine_vector-1.1.4.tar.gz]
+[2024-05-29 10:52:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-ha3engine-vector]: success
+[2024-05-29 10:52:03] INFO root fetch - processPackages [pyqtorch]: Remove: archive file [/home/abi/fetcher/tmp/pyqtorch-1.1.1.tar.gz]
+[2024-05-29 10:52:03] INFO root fetch - processPackages [pyqtorch]: Remove: archive file [/home/abi/fetcher/tmp/pyqtorch-1.1.2.tar.gz]
+[2024-05-29 10:52:03] INFO root fetch - main [MainThread]: End processing [pyqtorch]: success
+[2024-05-29 10:52:03] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.8.1.tar.gz]
+[2024-05-29 10:52:03] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.9.0.tar.gz]
+[2024-05-29 10:52:03] INFO root fetch - main [MainThread]: End processing [blockapi]: success
+[2024-05-29 10:52:04] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.1b3.tar.gz]
+[2024-05-29 10:52:04] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.2b1.tar.gz]
+[2024-05-29 10:52:04] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
+[2024-05-29 10:52:14] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.9.dev2.tar.gz]
+[2024-05-29 10:52:14] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.9.dev4.tar.gz]
+[2024-05-29 10:52:14] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-05-29 10:52:14] INFO root fetch - main [MainThread]: Store serial: [23426696]
