@@ -8417,3 +8417,63 @@
 [2024-05-29 05:10:10] INFO root fetch - processPackages [instruct-qa]: Remove: archive file [/home/abi/fetcher/tmp/instruct-qa-0.0.3rc1.tar.gz]
 [2024-05-29 05:10:10] INFO root fetch - main [MainThread]: End processing [instruct-qa]: success
 [2024-05-29 05:10:10] INFO root fetch - main [MainThread]: Store serial: [23423494]
+[2024-05-29 05:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423494]
+[2024-05-29 05:12:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instruct-qa
+[2024-05-29 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cgt
+[2024-05-29 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taskara
+[2024-05-29 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitlab-api
+[2024-05-29 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Pomodoro-AHP
+[2024-05-29 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RapidanAPI
+[2024-05-29 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pySWXF
+[2024-05-29 05:12:18] INFO root fetch - processPackages [instruct-qa]: New version: [0.0.3rc1] Old Version: [0.0.2]
+[2024-05-29 05:12:18] WARNING root fetch - processPackages [Pomodoro-AHP]: Skipping, unable to determine old version
+[2024-05-29 05:12:18] INFO root fetch - main [MainThread]: End processing [Pomodoro-AHP] error
+[2024-05-29 05:12:18] INFO root fetch - processPackages [RapidanAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 05:12:18] INFO root fetch - processPackages [pySWXF]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-29 05:12:18] INFO root fetch - processPackages [taskara]: New version: [0.1.95] Old Version: [0.1.93]
+[2024-05-29 05:12:18] INFO root fetch - processPackages [instruct-qa]: Downloading https://files.pythonhosted.org/packages/ac/9e/f27a23126c8390e6ededc6967048330017c72f2cda7a4e05e19a7c598328/instruct-qa-0.0.2.tar.gz
+[2024-05-29 05:12:18] INFO root fetch - processPackages [cgt]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-29 05:12:18] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/93/42/530b45ac027c5f91b5711e3d6014a2adcc6906c1e7ccff21129896dc6634/RapidanAPI-1.0.8.tar.gz
+[2024-05-29 05:12:18] INFO root fetch - processPackages [gitlab-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-29 05:12:18] INFO root fetch - processPackages [pySWXF]: Downloading https://files.pythonhosted.org/packages/34/86/5aee5645d6e9b91772b94801987ca350a52b80bd17eb0432fba40a3bebc7/pyswxf-0.6.5.tar.gz
+[2024-05-29 05:12:18] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/73/d3/6d156a4ff017140b8ea7156bf770199b21e15a1311622415c3e0b07b2a57/taskara-0.1.93.tar.gz
+[2024-05-29 05:12:18] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/12/fc/9a6cc2d05c47996e22f3b623bac3d3ce1627cc066955d8aa06751112d121/RapidanAPI-1.0.9.tar.gz
+[2024-05-29 05:12:18] INFO root fetch - processPackages [instruct-qa]: Downloading https://files.pythonhosted.org/packages/a8/7a/85f13e8862fd1e5fa1d1cf3e40b4db6e1c2f7d9f8d8c9394320289d15414/instruct-qa-0.0.3rc1.tar.gz
+[2024-05-29 05:12:18] INFO root fetch - processPackages [cgt]: Downloading https://files.pythonhosted.org/packages/ca/fe/ba5ae7df0804e6855d354a09bb73515821ee6f158bcf93cc06f75a71697b/cgt-0.3.1.tar.gz
+[2024-05-29 05:12:18] INFO root fetch - processPackages [pySWXF]: Downloading https://files.pythonhosted.org/packages/2f/b1/dd22cf5111265c2340c886dac0e6d9e6eda54288d15eab30915e2c799553/pyswxf-0.6.6.tar.gz
+[2024-05-29 05:12:18] INFO root fetch - processPackages [gitlab-api]: Downloading https://files.pythonhosted.org/packages/4c/31/7f09ed7e57cfb89067df4301b4868acda650facb9216b3fec285bef932fb/gitlab_api-0.6.0-py2.py3-none-any.whl
+[2024-05-29 05:12:18] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/30/f1/66ac17d60fe61875b94a81b8c1b0175f184dcd7bdfd14fafaf3a2988f2dd/taskara-0.1.95.tar.gz
+[2024-05-29 05:12:19] INFO root fetch - processPackages [RapidanAPI]: executing diffoscope
+[2024-05-29 05:12:19] INFO root fetch - processPackages [RapidanAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidanAPI-1.0.8.tar.gz tmp/RapidanAPI-1.0.9.tar.gz --markdown 20240529/R/RapidanAPI/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 05:12:19] INFO root fetch - processPackages [instruct-qa]: executing diffoscope
+[2024-05-29 05:12:19] INFO root fetch - processPackages [instruct-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instruct-qa-0.0.2.tar.gz tmp/instruct-qa-0.0.3rc1.tar.gz --markdown 20240529/i/instruct-qa/0.0.2-0.0.3rc1/README.md --exclude *.pyd
+[2024-05-29 05:12:19] INFO root fetch - processPackages [pySWXF]: executing diffoscope
+[2024-05-29 05:12:19] INFO root fetch - processPackages [pySWXF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswxf-0.6.5.tar.gz tmp/pyswxf-0.6.6.tar.gz --markdown 20240529/p/pySWXF/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-29 05:12:19] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-05-29 05:12:19] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.93.tar.gz tmp/taskara-0.1.95.tar.gz --markdown 20240529/t/taskara/0.1.93-0.1.95/README.md --exclude *.pyd
+[2024-05-29 05:12:19] INFO root fetch - processPackages [cgt]: Downloading https://files.pythonhosted.org/packages/5c/ff/37930dbd763b53eeebf295bd5f8dcb072400135f2ecc1fcaf61f0059d484/cgt-0.4.0.tar.gz
+[2024-05-29 05:12:19] INFO root fetch - processPackages [gitlab-api]: Downloading https://files.pythonhosted.org/packages/f6/a4/2802fc72596bcd0c534d36dab854af2883eccba523242378fa70fef707b8/gitlab_api-0.7.0-py2.py3-none-any.whl
+[2024-05-29 05:12:19] INFO root fetch - processPackages [cgt]: executing diffoscope
+[2024-05-29 05:12:19] INFO root fetch - processPackages [cgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgt-0.3.1.tar.gz tmp/cgt-0.4.0.tar.gz --markdown 20240529/c/cgt/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-29 05:12:19] INFO root fetch - processPackages [gitlab-api]: executing diffoscope
+[2024-05-29 05:12:19] INFO root fetch - processPackages [gitlab-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_api-0.6.0-py2.py3-none-any.whl.zip tmp/gitlab_api-0.7.0-py2.py3-none-any.whl.zip --markdown 20240529/g/gitlab-api/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-29 05:12:19] INFO root fetch - processPackages [pySWXF]: Remove: archive file [/home/abi/fetcher/tmp/pyswxf-0.6.5.tar.gz]
+[2024-05-29 05:12:19] INFO root fetch - processPackages [pySWXF]: Remove: archive file [/home/abi/fetcher/tmp/pyswxf-0.6.6.tar.gz]
+[2024-05-29 05:12:19] INFO root fetch - main [MainThread]: End processing [pySWXF]: success
+[2024-05-29 05:12:19] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.8.tar.gz]
+[2024-05-29 05:12:19] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.9.tar.gz]
+[2024-05-29 05:12:19] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
+[2024-05-29 05:12:19] INFO root fetch - processPackages [instruct-qa]: Remove: archive file [/home/abi/fetcher/tmp/instruct-qa-0.0.2.tar.gz]
+[2024-05-29 05:12:19] INFO root fetch - processPackages [instruct-qa]: Remove: archive file [/home/abi/fetcher/tmp/instruct-qa-0.0.3rc1.tar.gz]
+[2024-05-29 05:12:19] INFO root fetch - main [MainThread]: End processing [instruct-qa]: success
+[2024-05-29 05:12:19] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.93.tar.gz]
+[2024-05-29 05:12:19] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.95.tar.gz]
+[2024-05-29 05:12:19] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-05-29 05:12:20] INFO root fetch - processPackages [cgt]: Remove: archive file [/home/abi/fetcher/tmp/cgt-0.3.1.tar.gz]
+[2024-05-29 05:12:20] INFO root fetch - processPackages [cgt]: Remove: archive file [/home/abi/fetcher/tmp/cgt-0.4.0.tar.gz]
+[2024-05-29 05:12:20] INFO root fetch - main [MainThread]: End processing [cgt]: success
+[2024-05-29 05:12:20] INFO root fetch - processPackages [gitlab-api]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_api-0.6.0-py2.py3-none-any.whl.zip]
+[2024-05-29 05:12:20] INFO root fetch - processPackages [gitlab-api]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_api-0.7.0-py2.py3-none-any.whl.zip]
+[2024-05-29 05:12:20] INFO root fetch - main [MainThread]: End processing [gitlab-api]: success
+[2024-05-29 05:12:20] INFO root fetch - main [MainThread]: Store serial: [23423514]
