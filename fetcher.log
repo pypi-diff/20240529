@@ -7996,3 +7996,24 @@
 [2024-05-29 04:40:22] INFO root fetch - processPackages [aliyun-python-sdk-ddoscoo]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ddoscoo-1.0.6.tar.gz]
 [2024-05-29 04:40:22] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ddoscoo]: success
 [2024-05-29 04:40:22] INFO root fetch - main [MainThread]: Store serial: [23423325]
+[2024-05-29 04:42:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423325]
+[2024-05-29 04:42:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 04:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logistic-regression-module-universal-bank
+[2024-05-29 04:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ops
+[2024-05-29 04:42:30] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 04:42:30] INFO root fetch - processPackages [ops]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-29 04:42:30] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: Downloading https://files.pythonhosted.org/packages/51/1c/454968fe1eba599fcd2fa39a76ff1e263b18f6924e0fe7a3e74c3b926cea/logistic_regression_module_universal_bank-0.0.1.tar.gz
+[2024-05-29 04:42:30] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/5e/99/76add92d22c8d3d4e43d61f704e5a50d290d282cc8e3bc37f64a52deb4c7/ops-2.8.0.tar.gz
+[2024-05-29 04:42:31] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: Downloading https://files.pythonhosted.org/packages/fc/ad/6c88c9e6b73bcbf8b8790d14a6a6db53ec47029dc83de6d9387f514a9b8e/logistic_regression_module_universal_bank-0.0.2.tar.gz
+[2024-05-29 04:42:31] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: executing diffoscope
+[2024-05-29 04:42:31] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logistic_regression_module_universal_bank-0.0.1.tar.gz tmp/logistic_regression_module_universal_bank-0.0.2.tar.gz --markdown 20240529/l/logistic-regression-module-universal-bank/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 04:42:31] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/73/0d/13bdaa8dc057d4d16fc2e72584ae65079a08ddaa6900ce53ea9621dd10f5/ops-2.9.0.tar.gz
+[2024-05-29 04:42:31] INFO root fetch - processPackages [ops]: executing diffoscope
+[2024-05-29 04:42:31] INFO root fetch - processPackages [ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-2.8.0.tar.gz tmp/ops-2.9.0.tar.gz --markdown 20240529/o/ops/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-29 04:42:31] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: Remove: archive file [/home/abi/fetcher/tmp/logistic_regression_module_universal_bank-0.0.1.tar.gz]
+[2024-05-29 04:42:31] INFO root fetch - processPackages [logistic-regression-module-universal-bank]: Remove: archive file [/home/abi/fetcher/tmp/logistic_regression_module_universal_bank-0.0.2.tar.gz]
+[2024-05-29 04:42:31] INFO root fetch - main [MainThread]: End processing [logistic-regression-module-universal-bank]: success
+[2024-05-29 04:42:32] INFO root fetch - processPackages [ops]: Remove: archive file [/home/abi/fetcher/tmp/ops-2.8.0.tar.gz]
+[2024-05-29 04:42:32] INFO root fetch - processPackages [ops]: Remove: archive file [/home/abi/fetcher/tmp/ops-2.9.0.tar.gz]
+[2024-05-29 04:42:32] INFO root fetch - main [MainThread]: End processing [ops]: success
+[2024-05-29 04:42:32] INFO root fetch - main [MainThread]: Store serial: [23423333]
