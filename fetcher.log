@@ -7654,3 +7654,63 @@
 [2024-05-29 04:22:35] INFO root fetch - processPackages [hspf-reader]: Remove: archive file [/home/abi/fetcher/tmp/hspf_reader-1.1.0.tar.gz]
 [2024-05-29 04:22:35] INFO root fetch - main [MainThread]: End processing [hspf-reader]: success
 [2024-05-29 04:22:35] INFO root fetch - main [MainThread]: Store serial: [23423201]
+[2024-05-29 04:24:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423201]
+[2024-05-29 04:24:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logistic-regression-module-universal-bank
+[2024-05-29 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geefcc
+[2024-05-29 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RapidanAPI
+[2024-05-29 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bambu-connect
+[2024-05-29 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atap-corpus-loader
+[2024-05-29 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mosstool
+[2024-05-29 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GnosisTech
+[2024-05-29 04:24:44] INFO root fetch - processPackages [RapidanAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 04:24:44] INFO root fetch - processPackages [mosstool]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-29 04:24:44] INFO root fetch - processPackages [GnosisTech]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-29 04:24:44] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/93/42/530b45ac027c5f91b5711e3d6014a2adcc6906c1e7ccff21129896dc6634/RapidanAPI-1.0.8.tar.gz
+[2024-05-29 04:24:44] INFO root fetch - processPackages [bambu-connect]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-29 04:24:44] INFO root fetch - processPackages [atap-corpus-loader]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-05-29 04:24:44] WARNING root fetch - processPackages [logistic-regression-module-universal-bank]: Skipping, unable to determine old version
+[2024-05-29 04:24:44] INFO root fetch - main [MainThread]: End processing [logistic-regression-module-universal-bank] error
+[2024-05-29 04:24:44] INFO root fetch - processPackages [geefcc]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 04:24:44] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/eb/68/2ed4d62c947bfb0d564541f0e1acad06e4c2c42143d0606d52fa6fd10044/gnosistech-0.1.3.tar.gz
+[2024-05-29 04:24:44] INFO root fetch - processPackages [mosstool]: Downloading https://files.pythonhosted.org/packages/e7/1d/0da25307d3d3902a1b51192e0fcb234d3d4e790526c3163a34ca8c815746/mosstool-0.2.1.tar.gz
+[2024-05-29 04:24:44] INFO root fetch - processPackages [bambu-connect]: Downloading https://files.pythonhosted.org/packages/cc/67/d9147baaaa0d8b3ef6f1a233d092a762af21a67d9e00bd0a50eba1cdafa6/bambu-connect-0.2.1.tar.gz
+[2024-05-29 04:24:44] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/57/0d/29dd17479c69f09e172fc48f221d9d119071dcfd88eee0679eb991d156e2/atap_corpus_loader-1.5.2.tar.gz
+[2024-05-29 04:24:44] INFO root fetch - processPackages [geefcc]: Downloading https://files.pythonhosted.org/packages/05/f8/f5b998be6e05890cc34592604009059af6f94ef19ab5e7383dfbb8db1a94/geefcc-0.1.1.tar.gz
+[2024-05-29 04:24:45] INFO root fetch - processPackages [bambu-connect]: Downloading https://files.pythonhosted.org/packages/09/f4/e934bfc6a8cdb56420835cdc267eaa172300b34abbc794d3ba2809461d0d/bambu_connect-0.3.0.tar.gz
+[2024-05-29 04:24:45] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/0b/a4/402a6391635a9b9cc291242fae19daa8b390ca287c9077755d6e65da5927/atap_corpus_loader-1.5.3.tar.gz
+[2024-05-29 04:24:45] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/12/fc/9a6cc2d05c47996e22f3b623bac3d3ce1627cc066955d8aa06751112d121/RapidanAPI-1.0.9.tar.gz
+[2024-05-29 04:24:45] INFO root fetch - processPackages [mosstool]: Downloading https://files.pythonhosted.org/packages/da/59/36c45d013b41c27f0f8d4504c4e3da8065293b6018baa0e4f16b0d1053cb/mosstool-0.2.2.tar.gz
+[2024-05-29 04:24:45] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/35/92/599109038f48fa654e58b5f1da874aa446a661ff2aa0c46bc26afa181935/gnosistech-0.1.4.tar.gz
+[2024-05-29 04:24:45] INFO root fetch - processPackages [bambu-connect]: executing diffoscope
+[2024-05-29 04:24:45] INFO root fetch - processPackages [bambu-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambu-connect-0.2.1.tar.gz tmp/bambu_connect-0.3.0.tar.gz --markdown 20240529/b/bambu-connect/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-29 04:24:45] INFO root fetch - processPackages [geefcc]: Downloading https://files.pythonhosted.org/packages/c8/9e/0cf78246de58a8cdcdf8e6200291c0dd94b36668606762b6b8e586bcc761/geefcc-0.1.2.tar.gz
+[2024-05-29 04:24:45] INFO root fetch - processPackages [RapidanAPI]: executing diffoscope
+[2024-05-29 04:24:45] INFO root fetch - processPackages [RapidanAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidanAPI-1.0.8.tar.gz tmp/RapidanAPI-1.0.9.tar.gz --markdown 20240529/R/RapidanAPI/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 04:24:45] INFO root fetch - processPackages [mosstool]: executing diffoscope
+[2024-05-29 04:24:45] INFO root fetch - processPackages [mosstool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosstool-0.2.1.tar.gz tmp/mosstool-0.2.2.tar.gz --markdown 20240529/m/mosstool/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-29 04:24:45] INFO root fetch - processPackages [GnosisTech]: executing diffoscope
+[2024-05-29 04:24:45] INFO root fetch - processPackages [GnosisTech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnosistech-0.1.3.tar.gz tmp/gnosistech-0.1.4.tar.gz --markdown 20240529/G/GnosisTech/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-29 04:24:45] INFO root fetch - processPackages [atap-corpus-loader]: executing diffoscope
+[2024-05-29 04:24:45] INFO root fetch - processPackages [atap-corpus-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atap_corpus_loader-1.5.2.tar.gz tmp/atap_corpus_loader-1.5.3.tar.gz --markdown 20240529/a/atap-corpus-loader/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-05-29 04:24:45] INFO root fetch - processPackages [geefcc]: executing diffoscope
+[2024-05-29 04:24:45] INFO root fetch - processPackages [geefcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geefcc-0.1.1.tar.gz tmp/geefcc-0.1.2.tar.gz --markdown 20240529/g/geefcc/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-29 04:24:45] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.8.tar.gz]
+[2024-05-29 04:24:45] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.9.tar.gz]
+[2024-05-29 04:24:45] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
+[2024-05-29 04:24:46] INFO root fetch - processPackages [bambu-connect]: Remove: archive file [/home/abi/fetcher/tmp/bambu-connect-0.2.1.tar.gz]
+[2024-05-29 04:24:46] INFO root fetch - processPackages [bambu-connect]: Remove: archive file [/home/abi/fetcher/tmp/bambu_connect-0.3.0.tar.gz]
+[2024-05-29 04:24:46] INFO root fetch - main [MainThread]: End processing [bambu-connect]: success
+[2024-05-29 04:24:46] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.3.tar.gz]
+[2024-05-29 04:24:46] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.4.tar.gz]
+[2024-05-29 04:24:46] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
+[2024-05-29 04:24:46] INFO root fetch - processPackages [mosstool]: Remove: archive file [/home/abi/fetcher/tmp/mosstool-0.2.1.tar.gz]
+[2024-05-29 04:24:46] INFO root fetch - processPackages [mosstool]: Remove: archive file [/home/abi/fetcher/tmp/mosstool-0.2.2.tar.gz]
+[2024-05-29 04:24:46] INFO root fetch - main [MainThread]: End processing [mosstool]: success
+[2024-05-29 04:24:46] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.5.2.tar.gz]
+[2024-05-29 04:24:46] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.5.3.tar.gz]
+[2024-05-29 04:24:46] INFO root fetch - main [MainThread]: End processing [atap-corpus-loader]: success
+[2024-05-29 04:24:46] INFO root fetch - processPackages [geefcc]: Remove: archive file [/home/abi/fetcher/tmp/geefcc-0.1.1.tar.gz]
+[2024-05-29 04:24:46] INFO root fetch - processPackages [geefcc]: Remove: archive file [/home/abi/fetcher/tmp/geefcc-0.1.2.tar.gz]
+[2024-05-29 04:24:46] INFO root fetch - main [MainThread]: End processing [geefcc]: success
+[2024-05-29 04:24:46] INFO root fetch - main [MainThread]: Store serial: [23423222]
