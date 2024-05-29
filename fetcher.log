@@ -13407,3 +13407,117 @@
 [2024-05-29 09:33:09] INFO root fetch - processPackages [zenml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/zenml_nightly-0.58.0.dev20240528.tar.gz]
 [2024-05-29 09:33:09] INFO root fetch - main [MainThread]: End processing [zenml-nightly]: success
 [2024-05-29 09:33:09] INFO root fetch - main [MainThread]: Store serial: [23425613]
+[2024-05-29 09:35:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425613]
+[2024-05-29 09:35:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-29 09:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wiederverwendbar
+[2024-05-29 09:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-release-channel
+[2024-05-29 09:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vns-explorer
+[2024-05-29 09:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-dashboard
+[2024-05-29 09:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: os-file-stream-handler
+[2024-05-29 09:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solidipes
+[2024-05-29 09:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: festo-cpx-io
+[2024-05-29 09:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fb-vmware
+[2024-05-29 09:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Maslib
+[2024-05-29 09:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deinterf
+[2024-05-29 09:35:19] INFO root fetch - processPackages [pytest-dashboard]: New version: [0.1.0] Old Version: [0.0.8]
+[2024-05-29 09:35:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: New version: [16.0.2.9.0] Old Version: [16.0.2.8.0]
+[2024-05-29 09:35:20] INFO root fetch - processPackages [wiederverwendbar]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-29 09:35:20] INFO root fetch - processPackages [os-file-stream-handler]: New version: [1.12] Old Version: [1.11]
+[2024-05-29 09:35:20] INFO root fetch - processPackages [vns-explorer]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-29 09:35:20] INFO root fetch - processPackages [Maslib]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-29 09:35:20] INFO root fetch - processPackages [deinterf]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-29 09:35:20] INFO root fetch - processPackages [fb-vmware]: New version: [1.0.0] Old Version: [0.6.2]
+[2024-05-29 09:35:20] WARNING root fetch - processPackages [festo-cpx-io]: Skipping, unable to determine old version
+[2024-05-29 09:35:20] INFO root fetch - processPackages [festo-cpx-io]: Start processing: reldplayer
+[2024-05-29 09:35:20] INFO root fetch - main [MainThread]: End processing [festo-cpx-io] error
+[2024-05-29 09:35:20] INFO root fetch - processPackages [solidipes]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 09:35:20] INFO root fetch - processPackages [pytest-dashboard]: Downloading https://files.pythonhosted.org/packages/65/21/89cb569430c855504d23b84c23cb96dd2f2074531431c2ab6ea31d87d134/pytest_dashboard-0.0.8.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/52/92/1be60c2efa4c10575b7009ede41d26825460eb5beff77911075273d79984/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl
+[2024-05-29 09:35:20] INFO root fetch - processPackages [os-file-stream-handler]: Downloading https://files.pythonhosted.org/packages/2f/8a/e7ebee68029d5fd258b1f2d9b17e2bb90393d7e5b9b39a003aa15391d1d3/os_file_stream_handler-1.11.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [wiederverwendbar]: Downloading https://files.pythonhosted.org/packages/70/81/bc4637ac0fd2a78645af7957a6edbbe3424a901f19d8b02f8b86b85f15a3/wiederverwendbar-0.2.3.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [vns-explorer]: Downloading https://files.pythonhosted.org/packages/ab/27/71ed9ad884e36fc8637ae251b0ecc4491a907628b546e0f6f3ce59c0aaeb/vns_explorer-1.0.2.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [reldplayer]: New version: [0.1.0] Old Version: [0.0.1a2]
+[2024-05-29 09:35:20] INFO root fetch - processPackages [solidipes]: Downloading https://files.pythonhosted.org/packages/21/48/558c121912f59f98fbeb79e76a6dfdcbe1a27521a085d43ee32463f8e4cc/solidipes-0.1.8.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [Maslib]: Downloading https://files.pythonhosted.org/packages/2c/51/f7bc7579f55cf8c420be7ad561cc113b80e22aa424fd215a0db19c28c063/maslib-0.1.7.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [fb-vmware]: Downloading https://files.pythonhosted.org/packages/ee/84/b33aee78cba048e2a16e45a783325019eb573d8cc0acf1a22fdc931cef88/fb_vmware-0.6.2.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [os-file-stream-handler]: Downloading https://files.pythonhosted.org/packages/66/ca/8ce6930df58bdf0c1c8743206a0074e3a9253a192be7cf4bb75d79364bb7/os_file_stream_handler-1.12.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [pytest-dashboard]: Downloading https://files.pythonhosted.org/packages/8f/71/a832f0ef0f743a1022d19b35504c780d249d220fde12f221de901bb1454a/pytest_dashboard-0.1.0.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [wiederverwendbar]: Downloading https://files.pythonhosted.org/packages/66/fe/f555bced6752efa28d3fc80adb1e6c5e97f1bb6d4d070f3ff6fc24c82173/wiederverwendbar-0.2.4.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [reldplayer]: Downloading https://files.pythonhosted.org/packages/68/06/4933f3d8d6233adfb142095eb2dad9a7b60566fe0f0c6985988883c961d6/reldplayer-0.0.1a2.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [os-file-stream-handler]: executing diffoscope
+[2024-05-29 09:35:20] INFO root fetch - processPackages [os-file-stream-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os_file_stream_handler-1.11.tar.gz tmp/os_file_stream_handler-1.12.tar.gz --markdown 20240529/o/os-file-stream-handler/1.11-1.12/README.md --exclude *.pyd
+[2024-05-29 09:35:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/72/34/26d64f89ea9154c50e7429fb00f1b20a5649bfdcd36647026241b8137389/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl
+[2024-05-29 09:35:20] INFO root fetch - processPackages [pytest-dashboard]: executing diffoscope
+[2024-05-29 09:35:20] INFO root fetch - processPackages [pytest-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_dashboard-0.0.8.tar.gz tmp/pytest_dashboard-0.1.0.tar.gz --markdown 20240529/p/pytest-dashboard/0.0.8-0.1.0/README.md --exclude *.pyd
+[2024-05-29 09:35:20] INFO root fetch - processPackages [vns-explorer]: Downloading https://files.pythonhosted.org/packages/ca/23/5bb92f186a74d4c33b82f0ded0136f39e09a1153e374ef1e93cd2e936b98/vns_explorer-1.0.3.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [deinterf]: Downloading https://files.pythonhosted.org/packages/a0/d4/419ec8d41dd1edfbdc1fda84eaaa002a0fb842c4147b44f65b20a08ac8a9/deinterf-0.1.0.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [wiederverwendbar]: executing diffoscope
+[2024-05-29 09:35:20] INFO root fetch - processPackages [wiederverwendbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiederverwendbar-0.2.3.tar.gz tmp/wiederverwendbar-0.2.4.tar.gz --markdown 20240529/w/wiederverwendbar/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-29 09:35:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: executing diffoscope
+[2024-05-29 09:35:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-stock-release-channel/16.0.2.8.0-16.0.2.9.0/README.md --exclude *.pyd
+[2024-05-29 09:35:20] INFO root fetch - processPackages [Maslib]: Downloading https://files.pythonhosted.org/packages/6d/9f/73ad17a60f8004346fbec331cff74a850000b769eeae23f6b73aae82fd54/maslib-0.2.0.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [solidipes]: Downloading https://files.pythonhosted.org/packages/eb/cf/cb59d068e9c52210620f17ff797c9333a73bd8444f3dc1cc49fae56e3f5e/solidipes-0.1.9.tar.gz
+[2024-05-29 09:35:20] INFO root fetch - processPackages [vns-explorer]: executing diffoscope
+[2024-05-29 09:35:20] INFO root fetch - processPackages [vns-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vns_explorer-1.0.2.tar.gz tmp/vns_explorer-1.0.3.tar.gz --markdown 20240529/v/vns-explorer/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-29 09:35:20] INFO root fetch - processPackages [Maslib]: executing diffoscope
+[2024-05-29 09:35:20] INFO root fetch - processPackages [Maslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maslib-0.1.7.tar.gz tmp/maslib-0.2.0.tar.gz --markdown 20240529/M/Maslib/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-05-29 09:35:20] INFO root fetch - processPackages [fb-vmware]: Downloading https://files.pythonhosted.org/packages/f8/51/5bf42b48b30e1027f4ab11b84d4a407c16a865506bdefc33379812718161/fb_vmware-1.0.0.tar.gz
+[2024-05-29 09:35:21] INFO root fetch - processPackages [solidipes]: executing diffoscope
+[2024-05-29 09:35:21] INFO root fetch - processPackages [solidipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidipes-0.1.8.tar.gz tmp/solidipes-0.1.9.tar.gz --markdown 20240529/s/solidipes/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 09:35:21] INFO root fetch - processPackages [reldplayer]: Downloading https://files.pythonhosted.org/packages/5f/7e/2df5299d113d6520dab363f531ad43e616e2fb27db4551fc8c1cded6d7ef/reldplayer-0.1.0.tar.gz
+[2024-05-29 09:35:21] INFO root fetch - processPackages [fb-vmware]: executing diffoscope
+[2024-05-29 09:35:21] INFO root fetch - processPackages [fb-vmware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb_vmware-0.6.2.tar.gz tmp/fb_vmware-1.0.0.tar.gz --markdown 20240529/f/fb-vmware/0.6.2-1.0.0/README.md --exclude *.pyd
+[2024-05-29 09:35:21] INFO root fetch - processPackages [deinterf]: Downloading https://files.pythonhosted.org/packages/a8/6b/1a3b579a8b1e1cdd867daf332823a4d74de9e5771eeaf7a6dbff469223a0/deinterf-1.0.0.tar.gz
+[2024-05-29 09:35:21] INFO root fetch - processPackages [reldplayer]: executing diffoscope
+[2024-05-29 09:35:21] INFO root fetch - processPackages [reldplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reldplayer-0.0.1a2.tar.gz tmp/reldplayer-0.1.0.tar.gz --markdown 20240529/r/reldplayer/0.0.1a2-0.1.0/README.md --exclude *.pyd
+[2024-05-29 09:35:21] INFO root fetch - processPackages [deinterf]: executing diffoscope
+[2024-05-29 09:35:21] INFO root fetch - processPackages [deinterf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deinterf-0.1.0.tar.gz tmp/deinterf-1.0.0.tar.gz --markdown 20240529/d/deinterf/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-29 09:35:21] INFO root fetch - processPackages [pytest-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dashboard-0.0.8.tar.gz]
+[2024-05-29 09:35:21] INFO root fetch - processPackages [pytest-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dashboard-0.1.0.tar.gz]
+[2024-05-29 09:35:21] INFO root fetch - processPackages [pytest-dashboard]: Start processing: datacontract-cli
+[2024-05-29 09:35:21] INFO root fetch - main [MainThread]: End processing [pytest-dashboard]: success
+[2024-05-29 09:35:21] INFO root fetch - processPackages [os-file-stream-handler]: Remove: archive file [/home/abi/fetcher/tmp/os_file_stream_handler-1.11.tar.gz]
+[2024-05-29 09:35:21] INFO root fetch - processPackages [os-file-stream-handler]: Remove: archive file [/home/abi/fetcher/tmp/os_file_stream_handler-1.12.tar.gz]
+[2024-05-29 09:35:21] INFO root fetch - processPackages [os-file-stream-handler]: Start processing: tracebloc-package-dev
+[2024-05-29 09:35:21] INFO root fetch - main [MainThread]: End processing [os-file-stream-handler]: success
+[2024-05-29 09:35:21] INFO root fetch - processPackages [wiederverwendbar]: Remove: archive file [/home/abi/fetcher/tmp/wiederverwendbar-0.2.3.tar.gz]
+[2024-05-29 09:35:21] INFO root fetch - processPackages [wiederverwendbar]: Remove: archive file [/home/abi/fetcher/tmp/wiederverwendbar-0.2.4.tar.gz]
+[2024-05-29 09:35:21] INFO root fetch - main [MainThread]: End processing [wiederverwendbar]: success
+[2024-05-29 09:35:21] INFO root fetch - processPackages [datacontract-cli]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-29 09:35:21] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-29 09:35:21] INFO root fetch - processPackages [vns-explorer]: Remove: archive file [/home/abi/fetcher/tmp/vns_explorer-1.0.2.tar.gz]
+[2024-05-29 09:35:21] INFO root fetch - processPackages [vns-explorer]: Remove: archive file [/home/abi/fetcher/tmp/vns_explorer-1.0.3.tar.gz]
+[2024-05-29 09:35:21] INFO root fetch - main [MainThread]: End processing [vns-explorer]: success
+[2024-05-29 09:35:21] INFO root fetch - processPackages [Maslib]: Remove: archive file [/home/abi/fetcher/tmp/maslib-0.1.7.tar.gz]
+[2024-05-29 09:35:21] INFO root fetch - processPackages [Maslib]: Remove: archive file [/home/abi/fetcher/tmp/maslib-0.2.0.tar.gz]
+[2024-05-29 09:35:21] INFO root fetch - main [MainThread]: End processing [Maslib]: success
+[2024-05-29 09:35:21] INFO root fetch - processPackages [datacontract-cli]: Downloading https://files.pythonhosted.org/packages/ab/f5/43447d660c794b33f3272f06c646a80b61a35f5c371f573f0960b18b3dc3/datacontract-cli-0.9.8.tar.gz
+[2024-05-29 09:35:21] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-05-29 09:35:21] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip]
+[2024-05-29 09:35:21] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip]
+[2024-05-29 09:35:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel]: success
+[2024-05-29 09:35:22] INFO root fetch - processPackages [reldplayer]: Remove: archive file [/home/abi/fetcher/tmp/reldplayer-0.0.1a2.tar.gz]
+[2024-05-29 09:35:22] INFO root fetch - processPackages [reldplayer]: Remove: archive file [/home/abi/fetcher/tmp/reldplayer-0.1.0.tar.gz]
+[2024-05-29 09:35:22] INFO root fetch - main [MainThread]: End processing [reldplayer]: success
+[2024-05-29 09:35:22] INFO root fetch - processPackages [solidipes]: Remove: archive file [/home/abi/fetcher/tmp/solidipes-0.1.8.tar.gz]
+[2024-05-29 09:35:22] INFO root fetch - processPackages [solidipes]: Remove: archive file [/home/abi/fetcher/tmp/solidipes-0.1.9.tar.gz]
+[2024-05-29 09:35:22] INFO root fetch - main [MainThread]: End processing [solidipes]: success
+[2024-05-29 09:35:22] INFO root fetch - processPackages [deinterf]: Remove: archive file [/home/abi/fetcher/tmp/deinterf-0.1.0.tar.gz]
+[2024-05-29 09:35:22] INFO root fetch - processPackages [deinterf]: Remove: archive file [/home/abi/fetcher/tmp/deinterf-1.0.0.tar.gz]
+[2024-05-29 09:35:22] INFO root fetch - main [MainThread]: End processing [deinterf]: success
+[2024-05-29 09:35:22] INFO root fetch - processPackages [datacontract-cli]: Downloading https://files.pythonhosted.org/packages/43/c7/55b0ed1dc5bdf4323cff429130d8fc45d0234b45ac011c170ea716245961/datacontract_cli-0.9.9.tar.gz
+[2024-05-29 09:35:22] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-05-29 09:35:22] INFO root fetch - processPackages [datacontract-cli]: executing diffoscope
+[2024-05-29 09:35:22] INFO root fetch - processPackages [datacontract-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacontract-cli-0.9.8.tar.gz tmp/datacontract_cli-0.9.9.tar.gz --markdown 20240529/d/datacontract-cli/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-29 09:35:22] INFO root fetch - processPackages [fb-vmware]: Remove: archive file [/home/abi/fetcher/tmp/fb_vmware-0.6.2.tar.gz]
+[2024-05-29 09:35:22] INFO root fetch - processPackages [fb-vmware]: Remove: archive file [/home/abi/fetcher/tmp/fb_vmware-1.0.0.tar.gz]
+[2024-05-29 09:35:22] INFO root fetch - main [MainThread]: End processing [fb-vmware]: success
+[2024-05-29 09:35:22] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-05-29 09:35:22] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240529/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-29 09:35:22] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-05-29 09:35:22] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-05-29 09:35:22] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-05-29 09:35:23] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract-cli-0.9.8.tar.gz]
+[2024-05-29 09:35:23] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract_cli-0.9.9.tar.gz]
+[2024-05-29 09:35:23] INFO root fetch - main [MainThread]: End processing [datacontract-cli]: success
+[2024-05-29 09:35:23] INFO root fetch - main [MainThread]: Store serial: [23425653]
