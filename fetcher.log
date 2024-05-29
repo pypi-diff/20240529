@@ -8041,3 +8041,42 @@
 [2024-05-29 04:44:46] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
 [2024-05-29 04:44:46] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2024-05-29 04:44:46] INFO root fetch - main [MainThread]: Store serial: [23423343]
+[2024-05-29 04:46:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423343]
+[2024-05-29 04:46:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 04:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openllm
+[2024-05-29 04:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm-client
+[2024-05-29 04:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openllm-core
+[2024-05-29 04:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OCR-GLS-G6
+[2024-05-29 04:46:55] INFO root fetch - processPackages [openllm-client]: New version: [0.5.1] Old Version: [0.5.0a9]
+[2024-05-29 04:46:55] INFO root fetch - processPackages [openllm]: New version: [0.5.1] Old Version: [0.5.0a9]
+[2024-05-29 04:46:55] INFO root fetch - processPackages [openllm-core]: New version: [0.5.1] Old Version: [0.5.0a9]
+[2024-05-29 04:46:55] INFO root fetch - processPackages [OCR-GLS-G6]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/2d/40/495eb20184d9497a8efae2f6f2386e79914d06cdca3487408619f0767652/openllm_client-0.5.0a9.tar.gz
+[2024-05-29 04:46:56] INFO root fetch - processPackages [OCR-GLS-G6]: Downloading https://files.pythonhosted.org/packages/c4/02/32fe315027911dce488d071c7cfeef7ee410fa7ff9ac77475a9028cf3c0f/OCR_GLS_G6-0.0.7.tar.gz
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/5f/c2/f5c0438894dd21e79a2fafd6b9133bada1deb717adbae6f8ea2187dff0f0/openllm_core-0.5.0a9.tar.gz
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/d5/72/afd31477b3fe760b27b8778b8b2fee8e654798f516eb8e5a907791ed597a/openllm-0.5.0a9.tar.gz
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/9f/a4/c0cbbf1143863114e8b66f05c13871142729daa9f8ecda7144a1f39f6fd6/openllm_client-0.5.1.tar.gz
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/53/97/309af9df27a00d57896a066458ce28660489ee893d0e2c44c8893cdebc8b/openllm_core-0.5.1.tar.gz
+[2024-05-29 04:46:56] INFO root fetch - processPackages [OCR-GLS-G6]: Downloading https://files.pythonhosted.org/packages/cf/e7/18d494e43ace4dd564985ff3af461071eb453c88b9723825e119d8fe82d4/OCR_GLS_G6-0.0.8.tar.gz
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/c8/0f/d29d03c3d558068534fc7eb48eed4b63a05cd52a4d095601e9629cea21de/openllm-0.5.1.tar.gz
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm-client]: executing diffoscope
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_client-0.5.0a9.tar.gz tmp/openllm_client-0.5.1.tar.gz --markdown 20240529/o/openllm-client/0.5.0a9-0.5.1/README.md --exclude *.pyd
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm-core]: executing diffoscope
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_core-0.5.0a9.tar.gz tmp/openllm_core-0.5.1.tar.gz --markdown 20240529/o/openllm-core/0.5.0a9-0.5.1/README.md --exclude *.pyd
+[2024-05-29 04:46:56] INFO root fetch - processPackages [OCR-GLS-G6]: executing diffoscope
+[2024-05-29 04:46:56] INFO root fetch - processPackages [OCR-GLS-G6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OCR_GLS_G6-0.0.7.tar.gz tmp/OCR_GLS_G6-0.0.8.tar.gz --markdown 20240529/O/OCR-GLS-G6/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2024-05-29 04:46:56] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.5.0a9.tar.gz tmp/openllm-0.5.1.tar.gz --markdown 20240529/o/openllm/0.5.0a9-0.5.1/README.md --exclude *.pyd
+[2024-05-29 04:46:57] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a9.tar.gz]
+[2024-05-29 04:46:57] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.1.tar.gz]
+[2024-05-29 04:46:57] INFO root fetch - main [MainThread]: End processing [openllm-client]: success
+[2024-05-29 04:46:57] INFO root fetch - processPackages [OCR-GLS-G6]: Remove: archive file [/home/abi/fetcher/tmp/OCR_GLS_G6-0.0.7.tar.gz]
+[2024-05-29 04:46:57] INFO root fetch - processPackages [OCR-GLS-G6]: Remove: archive file [/home/abi/fetcher/tmp/OCR_GLS_G6-0.0.8.tar.gz]
+[2024-05-29 04:46:57] INFO root fetch - main [MainThread]: End processing [OCR-GLS-G6]: success
+[2024-05-29 04:46:57] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a9.tar.gz]
+[2024-05-29 04:46:57] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.1.tar.gz]
+[2024-05-29 04:46:57] INFO root fetch - main [MainThread]: End processing [openllm-core]: success
+[2024-05-29 04:46:57] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a9.tar.gz]
+[2024-05-29 04:46:57] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.1.tar.gz]
+[2024-05-29 04:46:57] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2024-05-29 04:46:57] INFO root fetch - main [MainThread]: Store serial: [23423356]
