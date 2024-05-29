@@ -3381,3 +3381,33 @@
 [2024-05-29 03:14:17] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-7.0.3.tar.gz]
 [2024-05-29 03:14:17] INFO root fetch - main [MainThread]: End processing [metamist]: success
 [2024-05-29 03:14:17] INFO root fetch - main [MainThread]: Store serial: [23421631]
+[2024-05-29 03:16:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421631]
+[2024-05-29 03:16:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 03:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeanim
+[2024-05-29 03:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2024-05-29 03:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbcli-dev
+[2024-05-29 03:16:26] INFO root fetch - processPackages [sbcli-dev]: New version: [2.8.1] Old Version: [2.8.0]
+[2024-05-29 03:16:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-29 03:16:26] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/3f/e8/c0785b92ce3f26e0e24737753ef208054ac66361f1b830566598ab39e57e/sbcli_dev-2.8.0.zip
+[2024-05-29 03:16:26] INFO root fetch - processPackages [codeanim]: New version: [0.0.9] Old Version: [0.0.26]
+[2024-05-29 03:16:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-29 03:16:26] INFO root fetch - processPackages [codeanim]: Downloading https://files.pythonhosted.org/packages/cf/68/cffe1af399761d9fea40d6ca9c23288e604feae9d04110bb10b31eaad459/codeanim-0.0.26.tar.gz
+[2024-05-29 03:16:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-29 03:16:26] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/80/eb/81556bacacb1afe487337faeef0e1f5fb412b9e46eadc1a83a6fa0c4d2a5/sbcli_dev-2.8.1.zip
+[2024-05-29 03:16:26] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-29 03:16:26] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.8.0.zip tmp/sbcli_dev-2.8.1.zip --markdown 20240529/s/sbcli-dev/2.8.0-2.8.1/README.md --exclude *.pyd
+[2024-05-29 03:16:26] INFO root fetch - processPackages [codeanim]: Downloading https://files.pythonhosted.org/packages/0d/0a/113fb1061a227875dba0e8349c9477a7eb7d1b7d9bf479b7bbc7157fc9a1/codeanim-0.0.9.tar.gz
+[2024-05-29 03:16:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-29 03:16:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240529/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-29 03:16:26] INFO root fetch - processPackages [codeanim]: executing diffoscope
+[2024-05-29 03:16:26] INFO root fetch - processPackages [codeanim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeanim-0.0.26.tar.gz tmp/codeanim-0.0.9.tar.gz --markdown 20240529/c/codeanim/0.0.26-0.0.9/README.md --exclude *.pyd
+[2024-05-29 03:16:27] INFO root fetch - processPackages [codeanim]: Remove: archive file [/home/abi/fetcher/tmp/codeanim-0.0.26.tar.gz]
+[2024-05-29 03:16:27] INFO root fetch - processPackages [codeanim]: Remove: archive file [/home/abi/fetcher/tmp/codeanim-0.0.9.tar.gz]
+[2024-05-29 03:16:27] INFO root fetch - main [MainThread]: End processing [codeanim]: success
+[2024-05-29 03:16:27] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-29 03:16:27] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-29 03:16:27] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-29 03:16:27] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.8.0.zip]
+[2024-05-29 03:16:27] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.8.1.zip]
+[2024-05-29 03:16:27] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-29 03:16:27] INFO root fetch - main [MainThread]: Store serial: [23421639]
