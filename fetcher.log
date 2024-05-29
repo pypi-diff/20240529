@@ -9366,3 +9366,24 @@
 [2024-05-29 06:09:29] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
 [2024-05-29 06:09:29] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
 [2024-05-29 06:09:29] INFO root fetch - main [MainThread]: Store serial: [23423819]
+[2024-05-29 06:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423819]
+[2024-05-29 06:11:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 06:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HappyLife
+[2024-05-29 06:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GnosisTech
+[2024-05-29 06:11:39] INFO root fetch - processPackages [HappyLife]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 06:11:39] INFO root fetch - processPackages [GnosisTech]: New version: [1.0.0] Old Version: [0.1.7]
+[2024-05-29 06:11:39] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/5d/d1/584f88270bd1f5dfd933a42cb3eaa2c1aa0a3315f998792e7b89a0f95817/gnosistech-0.1.7.tar.gz
+[2024-05-29 06:11:39] INFO root fetch - processPackages [HappyLife]: Downloading https://files.pythonhosted.org/packages/1b/5e/13ae9efd1e5e31e1e85b9d35b1547b2e7aba4474f4efd47fd19b9aac4060/happylife-1.0.0.tar.gz
+[2024-05-29 06:11:39] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/93/60/f1cfed64d7175493cc3b01c545ef84e4049657cc72b7ae5d378b74e5a2e9/gnosistech-1.0.0.tar.gz
+[2024-05-29 06:11:39] INFO root fetch - processPackages [HappyLife]: Downloading https://files.pythonhosted.org/packages/fb/7b/d1b09265b27364e9786a6488c7521bd0b589a263e8a0a3c4afca00354719/happylife-1.0.1.tar.gz
+[2024-05-29 06:11:40] INFO root fetch - processPackages [GnosisTech]: executing diffoscope
+[2024-05-29 06:11:40] INFO root fetch - processPackages [GnosisTech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnosistech-0.1.7.tar.gz tmp/gnosistech-1.0.0.tar.gz --markdown 20240529/G/GnosisTech/0.1.7-1.0.0/README.md --exclude *.pyd
+[2024-05-29 06:11:40] INFO root fetch - processPackages [HappyLife]: executing diffoscope
+[2024-05-29 06:11:40] INFO root fetch - processPackages [HappyLife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happylife-1.0.0.tar.gz tmp/happylife-1.0.1.tar.gz --markdown 20240529/H/HappyLife/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 06:11:40] INFO root fetch - processPackages [HappyLife]: Remove: archive file [/home/abi/fetcher/tmp/happylife-1.0.0.tar.gz]
+[2024-05-29 06:11:40] INFO root fetch - processPackages [HappyLife]: Remove: archive file [/home/abi/fetcher/tmp/happylife-1.0.1.tar.gz]
+[2024-05-29 06:11:40] INFO root fetch - main [MainThread]: End processing [HappyLife]: success
+[2024-05-29 06:11:40] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.7.tar.gz]
+[2024-05-29 06:11:40] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-1.0.0.tar.gz]
+[2024-05-29 06:11:40] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
+[2024-05-29 06:11:40] INFO root fetch - main [MainThread]: Store serial: [23423825]
