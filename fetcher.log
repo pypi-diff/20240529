@@ -2157,3 +2157,39 @@
 [2024-05-29 01:59:33] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-2.8.1.tar.gz]
 [2024-05-29 01:59:33] INFO root fetch - main [MainThread]: End processing [robustintelligence]: success
 [2024-05-29 01:59:33] INFO root fetch - main [MainThread]: Store serial: [23420995]
+[2024-05-29 02:01:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23420995]
+[2024-05-29 02:01:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 02:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidstats
+[2024-05-29 02:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-oauth-emailbackend
+[2024-05-29 02:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inorbit-connector
+[2024-05-29 02:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blockmango
+[2024-05-29 02:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reflex-clerk
+[2024-05-29 02:01:42] WARNING root fetch - processPackages [inorbit-connector]: Skipping, unable to determine old version
+[2024-05-29 02:01:42] INFO root fetch - main [MainThread]: End processing [inorbit-connector] error
+[2024-05-29 02:01:42] INFO root fetch - processPackages [blockmango]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-05-29 02:01:42] INFO root fetch - processPackages [blockmango]: Downloading https://files.pythonhosted.org/packages/c6/46/84ae898a2175d8698c53fd1a53306036a2281c655763c9dfb067467cf09e/blockmango-1.4.4.tar.gz
+[2024-05-29 02:01:42] INFO root fetch - processPackages [reflex-clerk]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 02:01:42] WARNING root fetch - processPackages [rapidstats]: Skipping, unable to determine old version
+[2024-05-29 02:01:42] INFO root fetch - main [MainThread]: End processing [rapidstats] error
+[2024-05-29 02:01:42] INFO root fetch - processPackages [django-oauth-emailbackend]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-29 02:01:42] INFO root fetch - processPackages [blockmango]: Downloading https://files.pythonhosted.org/packages/dd/c1/d48cae0e371fce66faccdd9a0b98db857594c419818e7c58573af03de447/blockmango-1.4.5.tar.gz
+[2024-05-29 02:01:42] INFO root fetch - processPackages [django-oauth-emailbackend]: Downloading https://files.pythonhosted.org/packages/60/44/152276c3e9d5468df192b3ff76fe137ded22a389f93dcc2b96f15e45956e/django_oauth_emailbackend-0.1.5.tar.gz
+[2024-05-29 02:01:42] INFO root fetch - processPackages [blockmango]: executing diffoscope
+[2024-05-29 02:01:42] INFO root fetch - processPackages [blockmango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockmango-1.4.4.tar.gz tmp/blockmango-1.4.5.tar.gz --markdown 20240529/b/blockmango/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-05-29 02:01:42] INFO root fetch - processPackages [reflex-clerk]: Downloading https://files.pythonhosted.org/packages/00/eb/10aea07b595ea07cd5deeee5749beaca30f074e42efe329c795bba94c94c/reflex_clerk-1.0.0.tar.gz
+[2024-05-29 02:01:42] INFO root fetch - processPackages [django-oauth-emailbackend]: Downloading https://files.pythonhosted.org/packages/7e/b0/35b6d3b8eed895e1ee1126d829aabb5a0230f737bc266e185e87c69b407d/django_oauth_emailbackend-0.1.6.tar.gz
+[2024-05-29 02:01:42] INFO root fetch - processPackages [reflex-clerk]: Downloading https://files.pythonhosted.org/packages/2a/4d/75c0e841a27bdefffad0f5cf680d21d74baae26e9e152e18f357e2b3e23e/reflex_clerk-1.0.1.tar.gz
+[2024-05-29 02:01:43] INFO root fetch - processPackages [django-oauth-emailbackend]: executing diffoscope
+[2024-05-29 02:01:43] INFO root fetch - processPackages [django-oauth-emailbackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_oauth_emailbackend-0.1.5.tar.gz tmp/django_oauth_emailbackend-0.1.6.tar.gz --markdown 20240529/d/django-oauth-emailbackend/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-29 02:01:43] INFO root fetch - processPackages [blockmango]: Remove: archive file [/home/abi/fetcher/tmp/blockmango-1.4.4.tar.gz]
+[2024-05-29 02:01:43] INFO root fetch - processPackages [blockmango]: Remove: archive file [/home/abi/fetcher/tmp/blockmango-1.4.5.tar.gz]
+[2024-05-29 02:01:43] INFO root fetch - main [MainThread]: End processing [blockmango]: success
+[2024-05-29 02:01:43] INFO root fetch - processPackages [reflex-clerk]: executing diffoscope
+[2024-05-29 02:01:43] INFO root fetch - processPackages [reflex-clerk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex_clerk-1.0.0.tar.gz tmp/reflex_clerk-1.0.1.tar.gz --markdown 20240529/r/reflex-clerk/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 02:01:43] INFO root fetch - processPackages [django-oauth-emailbackend]: Remove: archive file [/home/abi/fetcher/tmp/django_oauth_emailbackend-0.1.5.tar.gz]
+[2024-05-29 02:01:43] INFO root fetch - processPackages [django-oauth-emailbackend]: Remove: archive file [/home/abi/fetcher/tmp/django_oauth_emailbackend-0.1.6.tar.gz]
+[2024-05-29 02:01:43] INFO root fetch - main [MainThread]: End processing [django-oauth-emailbackend]: success
+[2024-05-29 02:01:43] INFO root fetch - processPackages [reflex-clerk]: Remove: archive file [/home/abi/fetcher/tmp/reflex_clerk-1.0.0.tar.gz]
+[2024-05-29 02:01:43] INFO root fetch - processPackages [reflex-clerk]: Remove: archive file [/home/abi/fetcher/tmp/reflex_clerk-1.0.1.tar.gz]
+[2024-05-29 02:01:43] INFO root fetch - main [MainThread]: End processing [reflex-clerk]: success
+[2024-05-29 02:01:43] INFO root fetch - main [MainThread]: Store serial: [23421011]
