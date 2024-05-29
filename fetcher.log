@@ -14373,3 +14373,38 @@
 [2024-05-29 10:10:42] INFO root fetch - processPackages [onetl]: Remove: archive file [/home/abi/fetcher/tmp/onetl-0.9.5.tar.gz]
 [2024-05-29 10:10:42] INFO root fetch - main [MainThread]: End processing [onetl]: success
 [2024-05-29 10:10:42] INFO root fetch - main [MainThread]: Store serial: [23426072]
+[2024-05-29 10:12:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426072]
+[2024-05-29 10:12:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 10:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scippuncertainty
+[2024-05-29 10:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idvpackage
+[2024-05-29 10:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tgedr-dataops
+[2024-05-29 10:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: voyageai
+[2024-05-29 10:12:51] INFO root fetch - processPackages [scippuncertainty]: New version: [24.5.0] Old Version: [23.3.0]
+[2024-05-29 10:12:51] INFO root fetch - processPackages [tgedr-dataops]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 10:12:51] INFO root fetch - processPackages [idvpackage]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-29 10:12:51] INFO root fetch - processPackages [voyageai]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-29 10:12:51] INFO root fetch - processPackages [scippuncertainty]: Downloading https://files.pythonhosted.org/packages/bd/08/19d3829f59d3b8f17c56903bced6fe77a80c9f2ad8aab2b835d14204b305/scippuncertainty-23.3.0.tar.gz
+[2024-05-29 10:12:51] INFO root fetch - processPackages [tgedr-dataops]: Downloading https://files.pythonhosted.org/packages/b4/76/d8edec3eb0fa4e85b82785a270815d5e84c2d89fad52fe7f73e50b5605ff/tgedr-dataops-0.0.8.tar.gz
+[2024-05-29 10:12:51] INFO root fetch - processPackages [idvpackage]: Downloading https://files.pythonhosted.org/packages/6c/7c/65b70ff47604461688a9475630c0e6f7b3f0809d59034ee93c3a20a856cd/idvpackage-1.9.8.tar.gz
+[2024-05-29 10:12:51] INFO root fetch - processPackages [voyageai]: Downloading https://files.pythonhosted.org/packages/e1/11/ebb6db39db4f8b3a874451cd65c39c55159db25e73e57dc6203f9447dc43/voyageai-0.2.2.tar.gz
+[2024-05-29 10:12:51] WARNING root fetch - processPackages [idvpackage]: Skipping package: exceeds size limit 28247832>=10485760
+[2024-05-29 10:12:51] INFO root fetch - main [MainThread]: End processing [idvpackage] error
+[2024-05-29 10:12:51] INFO root fetch - processPackages [tgedr-dataops]: Downloading https://files.pythonhosted.org/packages/e4/87/f10ef9ea6518ce92da3038190aff39bfbb00bf04216a67b7418ab6ab2803/tgedr-dataops-0.0.9.tar.gz
+[2024-05-29 10:12:51] INFO root fetch - processPackages [scippuncertainty]: Downloading https://files.pythonhosted.org/packages/76/44/b7bc6d97785c3e664af22aa5f96011b7795c73ebacf8563e0b5ea30a8da3/scippuncertainty-24.5.0.tar.gz
+[2024-05-29 10:12:52] INFO root fetch - processPackages [tgedr-dataops]: executing diffoscope
+[2024-05-29 10:12:52] INFO root fetch - processPackages [tgedr-dataops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgedr-dataops-0.0.8.tar.gz tmp/tgedr-dataops-0.0.9.tar.gz --markdown 20240529/t/tgedr-dataops/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 10:12:52] INFO root fetch - processPackages [voyageai]: Downloading https://files.pythonhosted.org/packages/7e/8c/23240073e306e6f49f6d2a33de28ca74fe36ebcd34bca3cfbcedcdd0ce63/voyageai-0.2.3.tar.gz
+[2024-05-29 10:12:52] INFO root fetch - processPackages [scippuncertainty]: executing diffoscope
+[2024-05-29 10:12:52] INFO root fetch - processPackages [scippuncertainty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scippuncertainty-23.3.0.tar.gz tmp/scippuncertainty-24.5.0.tar.gz --markdown 20240529/s/scippuncertainty/23.3.0-24.5.0/README.md --exclude *.pyd
+[2024-05-29 10:12:52] INFO root fetch - processPackages [voyageai]: executing diffoscope
+[2024-05-29 10:12:52] INFO root fetch - processPackages [voyageai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voyageai-0.2.2.tar.gz tmp/voyageai-0.2.3.tar.gz --markdown 20240529/v/voyageai/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-29 10:12:52] INFO root fetch - processPackages [tgedr-dataops]: Remove: archive file [/home/abi/fetcher/tmp/tgedr-dataops-0.0.8.tar.gz]
+[2024-05-29 10:12:52] INFO root fetch - processPackages [tgedr-dataops]: Remove: archive file [/home/abi/fetcher/tmp/tgedr-dataops-0.0.9.tar.gz]
+[2024-05-29 10:12:52] INFO root fetch - main [MainThread]: End processing [tgedr-dataops]: success
+[2024-05-29 10:12:52] INFO root fetch - processPackages [voyageai]: Remove: archive file [/home/abi/fetcher/tmp/voyageai-0.2.2.tar.gz]
+[2024-05-29 10:12:52] INFO root fetch - processPackages [voyageai]: Remove: archive file [/home/abi/fetcher/tmp/voyageai-0.2.3.tar.gz]
+[2024-05-29 10:12:52] INFO root fetch - main [MainThread]: End processing [voyageai]: success
+[2024-05-29 10:12:52] INFO root fetch - processPackages [scippuncertainty]: Remove: archive file [/home/abi/fetcher/tmp/scippuncertainty-23.3.0.tar.gz]
+[2024-05-29 10:12:52] INFO root fetch - processPackages [scippuncertainty]: Remove: archive file [/home/abi/fetcher/tmp/scippuncertainty-24.5.0.tar.gz]
+[2024-05-29 10:12:52] INFO root fetch - main [MainThread]: End processing [scippuncertainty]: success
+[2024-05-29 10:12:52] INFO root fetch - main [MainThread]: Store serial: [23426084]
