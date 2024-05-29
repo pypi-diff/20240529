@@ -2580,3 +2580,38 @@
 [2024-05-29 02:23:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
 [2024-05-29 02:23:35] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
 [2024-05-29 02:23:35] INFO root fetch - main [MainThread]: Store serial: [23421225]
+[2024-05-29 02:25:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421225]
+[2024-05-29 02:25:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 02:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moapy
+[2024-05-29 02:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fisspy
+[2024-05-29 02:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nokey
+[2024-05-29 02:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: freeze-dried-data
+[2024-05-29 02:25:43] INFO root fetch - processPackages [moapy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-29 02:25:43] INFO root fetch - processPackages [freeze-dried-data]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-29 02:25:43] INFO root fetch - processPackages [moapy]: Downloading https://files.pythonhosted.org/packages/42/19/ed35e25b11b4e7435e14b194f62c90d3cc3b4290039bcc6f24c3afe3fe73/moapy-0.1.2.tar.gz
+[2024-05-29 02:25:43] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/88/25/fbafcd740f041cbfc05e816b73b5eb301552a123b095ad2c38206c85ffef/freeze_dried_data-2.2.0.tar.gz
+[2024-05-29 02:25:43] INFO root fetch - processPackages [nokey]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-29 02:25:43] INFO root fetch - processPackages [fisspy]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-29 02:25:44] INFO root fetch - processPackages [nokey]: Downloading https://files.pythonhosted.org/packages/a8/b1/bcf8a9e0a3d72d21dba0ddab107963e1703d93f17c1ae514443f16429631/nokey-0.7.3.tar.gz
+[2024-05-29 02:25:44] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/c9/97/0fb35cdb00073b80e8268a2718971f81ad46089b469d8d8eeb779293943a/fisspy-1.1.2.tar.gz
+[2024-05-29 02:25:44] ERROR root fetch - processPackages [moapy]: Unable to fetch info: No such project/version 'moapy' 0.1.3
+[2024-05-29 02:25:44] INFO root fetch - main [MainThread]: End processing [moapy] error
+[2024-05-29 02:25:44] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/08/d4/14554279238d352f7bf2613a48f269e722236ab7a4f4685f660417c00ae4/freeze_dried_data-2.2.1.tar.gz
+[2024-05-29 02:25:44] INFO root fetch - processPackages [freeze-dried-data]: executing diffoscope
+[2024-05-29 02:25:44] INFO root fetch - processPackages [freeze-dried-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeze_dried_data-2.2.0.tar.gz tmp/freeze_dried_data-2.2.1.tar.gz --markdown 20240529/f/freeze-dried-data/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-29 02:25:44] INFO root fetch - processPackages [nokey]: Downloading https://files.pythonhosted.org/packages/5f/b9/aaed2699c49702bb14f3a82c9b7e46966e9bdc7a1a873aca931bec06b585/nokey-0.7.4.tar.gz
+[2024-05-29 02:25:44] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/33/f9/eca7c92e3c8a24c9f853b438245d5164877237e8c61fba8949fd801d1016/fisspy-1.1.3.tar.gz
+[2024-05-29 02:25:44] INFO root fetch - processPackages [nokey]: executing diffoscope
+[2024-05-29 02:25:44] INFO root fetch - processPackages [nokey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nokey-0.7.3.tar.gz tmp/nokey-0.7.4.tar.gz --markdown 20240529/n/nokey/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-29 02:25:44] INFO root fetch - processPackages [fisspy]: executing diffoscope
+[2024-05-29 02:25:44] INFO root fetch - processPackages [fisspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fisspy-1.1.2.tar.gz tmp/fisspy-1.1.3.tar.gz --markdown 20240529/f/fisspy/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-29 02:25:44] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.2.0.tar.gz]
+[2024-05-29 02:25:44] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.2.1.tar.gz]
+[2024-05-29 02:25:44] INFO root fetch - main [MainThread]: End processing [freeze-dried-data]: success
+[2024-05-29 02:25:45] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.1.2.tar.gz]
+[2024-05-29 02:25:45] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.1.3.tar.gz]
+[2024-05-29 02:25:45] INFO root fetch - main [MainThread]: End processing [fisspy]: success
+[2024-05-29 02:25:45] INFO root fetch - processPackages [nokey]: Remove: archive file [/home/abi/fetcher/tmp/nokey-0.7.3.tar.gz]
+[2024-05-29 02:25:45] INFO root fetch - processPackages [nokey]: Remove: archive file [/home/abi/fetcher/tmp/nokey-0.7.4.tar.gz]
+[2024-05-29 02:25:45] INFO root fetch - main [MainThread]: End processing [nokey]: success
+[2024-05-29 02:25:45] INFO root fetch - main [MainThread]: Store serial: [23421251]
