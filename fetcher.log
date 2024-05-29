@@ -17262,3 +17262,36 @@
 [2024-05-29 11:39:10] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.0.tar.gz]
 [2024-05-29 11:39:10] INFO root fetch - main [MainThread]: End processing [iac-init]: success
 [2024-05-29 11:39:10] INFO root fetch - main [MainThread]: Store serial: [23427526]
+[2024-05-29 11:41:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427526]
+[2024-05-29 11:41:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 11:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jyhelper
+[2024-05-29 11:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peneira
+[2024-05-29 11:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metrit
+[2024-05-29 11:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RIIGID
+[2024-05-29 11:41:20] INFO root fetch - processPackages [jyhelper]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-29 11:41:20] INFO root fetch - processPackages [metrit]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-29 11:41:20] WARNING root fetch - processPackages [peneira]: Skipping, unable to determine old version
+[2024-05-29 11:41:20] INFO root fetch - main [MainThread]: End processing [peneira] error
+[2024-05-29 11:41:20] INFO root fetch - processPackages [RIIGID]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-29 11:41:21] INFO root fetch - processPackages [metrit]: Downloading https://files.pythonhosted.org/packages/17/eb/3b5cff2695d7952ffad560f8d05237babfa8be18b9bbe487fce2869d834f/metrit-0.0.1.tar.gz
+[2024-05-29 11:41:21] INFO root fetch - processPackages [RIIGID]: Downloading https://files.pythonhosted.org/packages/91/a5/6726f34047d5c335d7de6a816f40e8e906f670658f3bde1bd7f2a295c4d3/RIIGID-1.0.4.tar.gz
+[2024-05-29 11:41:21] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/a7/09/f35bb964cadb5bdc5c7cd70696811bc6ad8631f35d726025ecc5915724e2/jyhelper-1.2.4.tar.gz
+[2024-05-29 11:41:21] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/b7/d5/b549ad33b987e56afb6bdc0ba2d750475955291e2238fe70bccbadd71a1f/jyhelper-1.2.5.tar.gz
+[2024-05-29 11:41:21] INFO root fetch - processPackages [metrit]: Downloading https://files.pythonhosted.org/packages/92/55/03138c60a68594a07b6584c296946440b6766e20222563194b28d5381cd7/metrit-0.0.3.tar.gz
+[2024-05-29 11:41:21] INFO root fetch - processPackages [RIIGID]: Downloading https://files.pythonhosted.org/packages/5d/2e/5f1972ccf64eaf50c52a93735edbf4cf015ab8b3b51d7939b86690824204/RIIGID-1.0.5.tar.gz
+[2024-05-29 11:41:21] INFO root fetch - processPackages [jyhelper]: executing diffoscope
+[2024-05-29 11:41:21] INFO root fetch - processPackages [jyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jyhelper-1.2.4.tar.gz tmp/jyhelper-1.2.5.tar.gz --markdown 20240529/j/jyhelper/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-29 11:41:21] INFO root fetch - processPackages [metrit]: executing diffoscope
+[2024-05-29 11:41:21] INFO root fetch - processPackages [metrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrit-0.0.1.tar.gz tmp/metrit-0.0.3.tar.gz --markdown 20240529/m/metrit/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-29 11:41:21] INFO root fetch - processPackages [RIIGID]: executing diffoscope
+[2024-05-29 11:41:21] INFO root fetch - processPackages [RIIGID]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RIIGID-1.0.4.tar.gz tmp/RIIGID-1.0.5.tar.gz --markdown 20240529/R/RIIGID/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-29 11:41:22] INFO root fetch - processPackages [metrit]: Remove: archive file [/home/abi/fetcher/tmp/metrit-0.0.1.tar.gz]
+[2024-05-29 11:41:22] INFO root fetch - processPackages [metrit]: Remove: archive file [/home/abi/fetcher/tmp/metrit-0.0.3.tar.gz]
+[2024-05-29 11:41:22] INFO root fetch - main [MainThread]: End processing [metrit]: success
+[2024-05-29 11:41:22] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.4.tar.gz]
+[2024-05-29 11:41:22] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.5.tar.gz]
+[2024-05-29 11:41:22] INFO root fetch - main [MainThread]: End processing [jyhelper]: success
+[2024-05-29 11:41:22] INFO root fetch - processPackages [RIIGID]: Remove: archive file [/home/abi/fetcher/tmp/RIIGID-1.0.4.tar.gz]
+[2024-05-29 11:41:22] INFO root fetch - processPackages [RIIGID]: Remove: archive file [/home/abi/fetcher/tmp/RIIGID-1.0.5.tar.gz]
+[2024-05-29 11:41:22] INFO root fetch - main [MainThread]: End processing [RIIGID]: success
+[2024-05-29 11:41:22] INFO root fetch - main [MainThread]: Store serial: [23427546]
