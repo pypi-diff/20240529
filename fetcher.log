@@ -13155,3 +13155,18 @@
 [2024-05-29 09:20:07] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1556-py3-none-any.whl.zip]
 [2024-05-29 09:20:07] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-05-29 09:20:07] INFO root fetch - main [MainThread]: Store serial: [23425533]
+[2024-05-29 09:22:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425533]
+[2024-05-29 09:22:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 09:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xfapi
+[2024-05-29 09:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qwak-core
+[2024-05-29 09:22:16] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-29 09:22:16] WARNING root fetch - processPackages [xfapi]: Skipping, unable to determine old version
+[2024-05-29 09:22:16] INFO root fetch - main [MainThread]: End processing [xfapi] error
+[2024-05-29 09:22:16] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-29 09:22:17] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-29 09:22:17] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-29 09:22:17] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240529/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-29 09:22:19] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-29 09:22:19] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-29 09:22:19] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-29 09:22:19] INFO root fetch - main [MainThread]: Store serial: [23425542]
