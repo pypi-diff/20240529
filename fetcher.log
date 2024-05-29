@@ -23272,3 +23272,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:19:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.29-cp311-cp311-manylinux2014_x86_64.whl.zip]
 [2024-05-29 15:19:37] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-05-29 15:19:37] INFO root fetch - main [MainThread]: Store serial: [23430281]
+[2024-05-29 15:21:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430281]
+[2024-05-29 15:21:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-29 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mteb
+[2024-05-29 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlde-utils
+[2024-05-29 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh-auth-rbac
+[2024-05-29 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-helpers-pyspark-utils
+[2024-05-29 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-gridly
+[2024-05-29 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sirji-agents
+[2024-05-29 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kiwi
+[2024-05-29 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airbyte-source-kyve
+[2024-05-29 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prieto2010
+[2024-05-29 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bw-processing
+[2024-05-29 15:21:54] INFO root fetch - processPackages [edwh-auth-rbac]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-29 15:21:55] WARNING root fetch - processPackages [ai-helpers-pyspark-utils]: Skipping, unable to determine old version
+[2024-05-29 15:21:55] INFO root fetch - processPackages [ai-helpers-pyspark-utils]: Start processing: cryptonets-python-sdk
+[2024-05-29 15:21:55] INFO root fetch - main [MainThread]: End processing [ai-helpers-pyspark-utils] error
+[2024-05-29 15:21:55] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/1f/d5/a7b51687f946e4f6526a6694bfaaf4d2fb94e6d203a26beaa9c005b2dc8e/edwh_auth_rbac-0.2.6.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-29 15:21:55] INFO root fetch - processPackages [mlde-utils]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2024-05-29 15:21:55] INFO root fetch - processPackages [airbyte-source-kyve]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-29 15:21:55] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 15:21:55] INFO root fetch - processPackages [bw-processing]: New version: [0.9.5] Old Version: [0.9.3]
+[2024-05-29 15:21:55] INFO root fetch - processPackages [airbyte-source-gridly]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-29 15:21:55] WARNING root fetch - processPackages [prieto2010]: Skipping, unable to determine old version
+[2024-05-29 15:21:55] INFO root fetch - processPackages [prieto2010]: Start processing: curve-dao
+[2024-05-29 15:21:55] INFO root fetch - main [MainThread]: End processing [prieto2010] error
+[2024-05-29 15:21:55] INFO root fetch - processPackages [kiwi]: New version: [9.8.0] Old Version: [9.7.4]
+[2024-05-29 15:21:55] INFO root fetch - processPackages [cryptonets-python-sdk]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-29 15:21:55] INFO root fetch - processPackages [mlde-utils]: Downloading https://files.pythonhosted.org/packages/d9/07/ad0b060c1066b263635612b7b65904b3c9b40a748f475004a32ccbd0050c/mlde_utils-0.2.0a1.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/b3/5f/e94cc45ff6ae73814ab9c995ecb3f23935035430ed12404c6869f3101639/sirji-agents-0.0.8.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [curve-dao]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-29 15:21:55] INFO root fetch - processPackages [airbyte-source-gridly]: Downloading https://files.pythonhosted.org/packages/6c/c6/9eaa26caa91614aa7334dff8e69150cc188614356b1c80f66b7a2456d5b2/airbyte-source-gridly-0.1.1.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [airbyte-source-kyve]: Downloading https://files.pythonhosted.org/packages/77/af/db04de491b824dc5c381a345e0642f074c0e052928c46dc17760b41b5be9/airbyte-source-kyve-0.2.0.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [bw-processing]: Downloading https://files.pythonhosted.org/packages/0b/84/97d4ee341aa311cc622e73626d492b8d439363f0773dddbc353bb9862514/bw_processing-0.9.3.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [kiwi]: Downloading https://files.pythonhosted.org/packages/fc/f2/14aa92d902e928c95adddf778710948ec0ac3c182c9165580259aa18eaa8/kiwi-9.7.4.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/09/b1/00f89e156a06d037a8bc4946816c080c88c339add94e1a45e8a35ad95b57/edwh_auth_rbac-0.2.7.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [cryptonets-python-sdk]: Downloading https://files.pythonhosted.org/packages/29/de/8d2c588039067da5a56de1a5994e3278e194359e3adec6e54b3ba289d2b3/cryptonets_python_sdk-1.3.2.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [curve-dao]: Downloading https://files.pythonhosted.org/packages/90/fb/b2d8301116c30a476586f4b64640f1cd4a0106a28b6c8f23c5beb57b3bc3/curve_dao-0.0.5.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [edwh-auth-rbac]: executing diffoscope
+[2024-05-29 15:21:55] INFO root fetch - processPackages [edwh-auth-rbac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_auth_rbac-0.2.6.tar.gz tmp/edwh_auth_rbac-0.2.7.tar.gz --markdown 20240529/e/edwh-auth-rbac/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-29 15:21:55] INFO root fetch - processPackages [mlde-utils]: Downloading https://files.pythonhosted.org/packages/6f/89/e01e67decbc37bfbc8130c546e8037c56ea0ed77c09cdf7183b476df42e7/mlde_utils-0.2.0a2.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2d/21/2f8f58a9460b37b13e4747c65a5e850216adf0cab4b50990fb72115eb4dd/sirji-agents-0.0.9.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [airbyte-source-gridly]: Downloading https://files.pythonhosted.org/packages/3b/cd/a39423e7b7512d6991c2f90e460e5aa0d2e2b788c4fd5de86f67f5cb5c8c/airbyte_source_gridly-0.1.2.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [bw-processing]: Downloading https://files.pythonhosted.org/packages/73/bf/5b9bd55ce0b101ea566ff69985e729ab603b2e5f25dcfec22820056042da/bw_processing-0.9.5.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [mlde-utils]: executing diffoscope
+[2024-05-29 15:21:55] INFO root fetch - processPackages [mlde-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlde_utils-0.2.0a1.tar.gz tmp/mlde_utils-0.2.0a2.tar.gz --markdown 20240529/m/mlde-utils/0.2.0a1-0.2.0a2/README.md --exclude *.pyd
+[2024-05-29 15:21:55] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-05-29 15:21:55] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.8.tar.gz tmp/sirji-agents-0.0.9.tar.gz --markdown 20240529/s/sirji-agents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 15:21:55] INFO root fetch - processPackages [cryptonets-python-sdk]: Downloading https://files.pythonhosted.org/packages/da/56/c89804af2fa289d6f7fb4f7c5adf1f0ea15647d041b82d3f978a7376cfd5/cryptonets_python_sdk-1.3.3.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [airbyte-source-kyve]: Downloading https://files.pythonhosted.org/packages/49/5f/185efa331911ac3f7eca68991918590d549743418f1cc3c6d3bb4d886b96/airbyte_source_kyve-0.2.1.tar.gz
+[2024-05-29 15:21:55] INFO root fetch - processPackages [airbyte-source-gridly]: executing diffoscope
+[2024-05-29 15:21:55] INFO root fetch - processPackages [airbyte-source-gridly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-gridly-0.1.1.tar.gz tmp/airbyte_source_gridly-0.1.2.tar.gz --markdown 20240529/a/airbyte-source-gridly/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-29 15:21:55] INFO root fetch - processPackages [curve-dao]: Downloading https://files.pythonhosted.org/packages/9f/03/6536100049d4a13e22b7caf3bd3967730c14a830709117a935288bb81f19/curve_dao-0.0.6.tar.gz
+[2024-05-29 15:21:56] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-29 15:21:56] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240529/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-29 15:21:56] INFO root fetch - processPackages [airbyte-source-kyve]: executing diffoscope
+[2024-05-29 15:21:56] INFO root fetch - processPackages [airbyte-source-kyve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-kyve-0.2.0.tar.gz tmp/airbyte_source_kyve-0.2.1.tar.gz --markdown 20240529/a/airbyte-source-kyve/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-29 15:21:56] INFO root fetch - processPackages [bw-processing]: executing diffoscope
+[2024-05-29 15:21:56] INFO root fetch - processPackages [bw-processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_processing-0.9.3.tar.gz tmp/bw_processing-0.9.5.tar.gz --markdown 20240529/b/bw-processing/0.9.3-0.9.5/README.md --exclude *.pyd
+[2024-05-29 15:21:56] INFO root fetch - processPackages [cryptonets-python-sdk]: executing diffoscope
+[2024-05-29 15:21:56] INFO root fetch - processPackages [cryptonets-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptonets_python_sdk-1.3.2.tar.gz tmp/cryptonets_python_sdk-1.3.3.tar.gz --markdown 20240529/c/cryptonets-python-sdk/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-29 15:21:56] INFO root fetch - processPackages [curve-dao]: executing diffoscope
+[2024-05-29 15:21:56] INFO root fetch - processPackages [curve-dao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curve_dao-0.0.5.tar.gz tmp/curve_dao-0.0.6.tar.gz --markdown 20240529/c/curve-dao/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-29 15:21:56] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.2.6.tar.gz]
+[2024-05-29 15:21:56] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.2.7.tar.gz]
+[2024-05-29 15:21:56] INFO root fetch - processPackages [edwh-auth-rbac]: Start processing: json-flattener-to-csv-amazon
+[2024-05-29 15:21:56] INFO root fetch - main [MainThread]: End processing [edwh-auth-rbac]: success
+[2024-05-29 15:21:56] INFO root fetch - processPackages [kiwi]: Downloading https://files.pythonhosted.org/packages/a0/15/c757f7f6d32bf5ebe742d435008e609b0683336a29bc81aaae006c577d96/kiwi-9.8.0.tar.gz
+[2024-05-29 15:21:56] WARNING root fetch - processPackages [json-flattener-to-csv-amazon]: Skipping, unable to determine old version
+[2024-05-29 15:21:56] INFO root fetch - main [MainThread]: End processing [json-flattener-to-csv-amazon] error
+[2024-05-29 15:21:56] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.8.tar.gz]
+[2024-05-29 15:21:56] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.9.tar.gz]
+[2024-05-29 15:21:56] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-05-29 15:21:56] INFO root fetch - processPackages [airbyte-source-gridly]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-gridly-0.1.1.tar.gz]
+[2024-05-29 15:21:56] INFO root fetch - processPackages [airbyte-source-gridly]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_gridly-0.1.2.tar.gz]
+[2024-05-29 15:21:56] INFO root fetch - main [MainThread]: End processing [airbyte-source-gridly]: success
+[2024-05-29 15:21:56] INFO root fetch - processPackages [mlde-utils]: Remove: archive file [/home/abi/fetcher/tmp/mlde_utils-0.2.0a1.tar.gz]
+[2024-05-29 15:21:56] INFO root fetch - processPackages [mlde-utils]: Remove: archive file [/home/abi/fetcher/tmp/mlde_utils-0.2.0a2.tar.gz]
+[2024-05-29 15:21:56] INFO root fetch - main [MainThread]: End processing [mlde-utils]: success
+[2024-05-29 15:21:56] INFO root fetch - processPackages [airbyte-source-kyve]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-kyve-0.2.0.tar.gz]
+[2024-05-29 15:21:56] INFO root fetch - processPackages [airbyte-source-kyve]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_kyve-0.2.1.tar.gz]
+[2024-05-29 15:21:56] INFO root fetch - main [MainThread]: End processing [airbyte-source-kyve]: success
+[2024-05-29 15:21:57] INFO root fetch - processPackages [curve-dao]: Remove: archive file [/home/abi/fetcher/tmp/curve_dao-0.0.5.tar.gz]
+[2024-05-29 15:21:57] INFO root fetch - processPackages [curve-dao]: Remove: archive file [/home/abi/fetcher/tmp/curve_dao-0.0.6.tar.gz]
+[2024-05-29 15:21:57] INFO root fetch - main [MainThread]: End processing [curve-dao]: success
+[2024-05-29 15:21:57] INFO root fetch - processPackages [cryptonets-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cryptonets_python_sdk-1.3.2.tar.gz]
+[2024-05-29 15:21:57] INFO root fetch - processPackages [cryptonets-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cryptonets_python_sdk-1.3.3.tar.gz]
+[2024-05-29 15:21:57] INFO root fetch - main [MainThread]: End processing [cryptonets-python-sdk]: success
+[2024-05-29 15:21:57] INFO root fetch - processPackages [bw-processing]: Remove: archive file [/home/abi/fetcher/tmp/bw_processing-0.9.3.tar.gz]
+[2024-05-29 15:21:57] INFO root fetch - processPackages [bw-processing]: Remove: archive file [/home/abi/fetcher/tmp/bw_processing-0.9.5.tar.gz]
+[2024-05-29 15:21:57] INFO root fetch - main [MainThread]: End processing [bw-processing]: success
+[2024-05-29 15:21:58] INFO root fetch - processPackages [kiwi]: executing diffoscope
+[2024-05-29 15:21:58] INFO root fetch - processPackages [kiwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi-9.7.4.tar.gz tmp/kiwi-9.8.0.tar.gz --markdown 20240529/k/kiwi/9.7.4-9.8.0/README.md --exclude *.pyd
+[2024-05-29 15:21:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-29 15:21:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-29 15:21:59] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-29 15:24:23] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.7.4.tar.gz]
+[2024-05-29 15:24:23] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.8.0.tar.gz]
+[2024-05-29 15:24:23] INFO root fetch - main [MainThread]: End processing [kiwi]: success
+[2024-05-29 15:24:23] INFO root fetch - main [MainThread]: Store serial: [23430343]
