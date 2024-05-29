@@ -18988,3 +18988,27 @@
 [2024-05-29 12:43:19] INFO root fetch - processPackages [parkapi-sources]: Remove: archive file [/home/abi/fetcher/tmp/parkapi_sources-0.4.3.tar.gz]
 [2024-05-29 12:43:19] INFO root fetch - main [MainThread]: End processing [parkapi-sources]: success
 [2024-05-29 12:43:19] INFO root fetch - main [MainThread]: Store serial: [23428379]
+[2024-05-29 12:45:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428379]
+[2024-05-29 12:45:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 12:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logistiflight
+[2024-05-29 12:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oasees-sdk
+[2024-05-29 12:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-supplier-calendar
+[2024-05-29 12:45:28] WARNING root fetch - processPackages [logistiflight]: Skipping, unable to determine old version
+[2024-05-29 12:45:28] INFO root fetch - main [MainThread]: End processing [logistiflight] error
+[2024-05-29 12:45:28] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1]
+[2024-05-29 12:45:28] INFO root fetch - processPackages [oasees-sdk]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-29 12:45:28] INFO root fetch - processPackages [oasees-sdk]: Downloading https://files.pythonhosted.org/packages/bb/e0/528faecbb07e537ef23bfaf53322307febf3b97fc8accaa18ef11e39622d/oasees_sdk-0.3.1.tar.gz
+[2024-05-29 12:45:28] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: Downloading https://files.pythonhosted.org/packages/50/53/5a4ccd1769f1a3984f6b70bf901d9207f06281a0ff4bf969b4468993fceb/odoo_addon_supplier_calendar-16.0.1.0.1-py3-none-any.whl
+[2024-05-29 12:45:29] INFO root fetch - processPackages [oasees-sdk]: Downloading https://files.pythonhosted.org/packages/2b/a6/a43534ffb240a0a62c1ff97c449487e809898176851686326d275b70eca1/oasees_sdk-0.3.2.tar.gz
+[2024-05-29 12:45:29] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: Downloading https://files.pythonhosted.org/packages/75/27/93f53882c433b6f06b85087086e2347ec31b9494657e650376ad8370d509/odoo_addon_supplier_calendar-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-29 12:45:29] INFO root fetch - processPackages [oasees-sdk]: executing diffoscope
+[2024-05-29 12:45:29] INFO root fetch - processPackages [oasees-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasees_sdk-0.3.1.tar.gz tmp/oasees_sdk-0.3.2.tar.gz --markdown 20240529/o/oasees-sdk/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-29 12:45:29] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: executing diffoscope
+[2024-05-29 12:45:29] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_supplier_calendar-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_supplier_calendar-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240529/o/odoo-addon-supplier-calendar/16.0.1.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-29 12:45:29] INFO root fetch - processPackages [oasees-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oasees_sdk-0.3.1.tar.gz]
+[2024-05-29 12:45:29] INFO root fetch - processPackages [oasees-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oasees_sdk-0.3.2.tar.gz]
+[2024-05-29 12:45:29] INFO root fetch - main [MainThread]: End processing [oasees-sdk]: success
+[2024-05-29 12:45:30] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_supplier_calendar-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-29 12:45:30] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_supplier_calendar-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-29 12:45:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-supplier-calendar]: success
+[2024-05-29 12:45:30] INFO root fetch - main [MainThread]: Store serial: [23428389]
