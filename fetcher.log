@@ -23028,3 +23028,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:10:09] INFO root fetch - processPackages [voicegain-speech]: Remove: archive file [/home/abi/fetcher/tmp/voicegain-speech-1.99.1.tar.gz]
 [2024-05-29 15:10:09] INFO root fetch - main [MainThread]: End processing [voicegain-speech]: success
 [2024-05-29 15:10:09] INFO root fetch - main [MainThread]: Store serial: [23430167]
+[2024-05-29 15:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430167]
+[2024-05-29 15:12:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 15:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bblib
+[2024-05-29 15:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anon-traffic
+[2024-05-29 15:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-requests
+[2024-05-29 15:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gandai
+[2024-05-29 15:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pgc-finder
+[2024-05-29 15:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-object-acl
+[2024-05-29 15:12:18] INFO root fetch - processPackages [oarepo-requests]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-29 15:12:18] WARNING root fetch - processPackages [django-object-acl]: Skipping, unable to determine old version
+[2024-05-29 15:12:18] INFO root fetch - main [MainThread]: End processing [django-object-acl] error
+[2024-05-29 15:12:18] INFO root fetch - processPackages [anon-traffic]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 15:12:18] INFO root fetch - processPackages [gandai]: New version: [1.7.57] Old Version: [1.7.56]
+[2024-05-29 15:12:18] WARNING root fetch - processPackages [pgc-finder]: Skipping, unable to determine old version
+[2024-05-29 15:12:18] INFO root fetch - main [MainThread]: End processing [pgc-finder] error
+[2024-05-29 15:12:18] INFO root fetch - processPackages [bblib]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-05-29 15:12:18] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/d3/a0/bf38889d1575055b7f3f213c8717b84d9cf47591fdb10f925a342ea87d80/gandai-1.7.56.tar.gz
+[2024-05-29 15:12:18] INFO root fetch - processPackages [oarepo-requests]: Downloading https://files.pythonhosted.org/packages/33/6f/8d1f25079758c1ec0d1492f7b49706fa7f23d85526accdc87b8105d94ab6/oarepo-requests-1.1.8.tar.gz
+[2024-05-29 15:12:18] INFO root fetch - processPackages [anon-traffic]: Downloading https://files.pythonhosted.org/packages/3a/06/9c8ed17e74fb265470c431527a04a31ba49f291e991c559e6afc4a3415da/anon_traffic-1.0.0.tar.gz
+[2024-05-29 15:12:18] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/f4/38/b3653137d7bf020aa219238ce3576409c561b04f6b41b740dccbe9f68e74/gandai-1.7.57.tar.gz
+[2024-05-29 15:12:18] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/9f/db/b3a8f25e49d8fb97624563f1c20f72ba06fd17f6761d14bc9b624b68e28f/bblib-2.1.3.tar.gz
+[2024-05-29 15:12:19] INFO root fetch - processPackages [oarepo-requests]: Downloading https://files.pythonhosted.org/packages/e4/74/a60552d8b5230aa1baff2a77618cb19cf9ce59be5895d7d27207106260f2/oarepo-requests-1.1.9.tar.gz
+[2024-05-29 15:12:19] INFO root fetch - processPackages [anon-traffic]: Downloading https://files.pythonhosted.org/packages/7c/88/bf0ba2e6a90592c32f5c41fc143eb3135997a5786cee0238ed53a1021cce/anon_traffic-1.0.1.tar.gz
+[2024-05-29 15:12:19] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-29 15:12:19] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.56.tar.gz tmp/gandai-1.7.57.tar.gz --markdown 20240529/g/gandai/1.7.56-1.7.57/README.md --exclude *.pyd
+[2024-05-29 15:12:19] INFO root fetch - processPackages [oarepo-requests]: executing diffoscope
+[2024-05-29 15:12:19] INFO root fetch - processPackages [oarepo-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-requests-1.1.8.tar.gz tmp/oarepo-requests-1.1.9.tar.gz --markdown 20240529/o/oarepo-requests/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-29 15:12:19] INFO root fetch - processPackages [anon-traffic]: executing diffoscope
+[2024-05-29 15:12:19] INFO root fetch - processPackages [anon-traffic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anon_traffic-1.0.0.tar.gz tmp/anon_traffic-1.0.1.tar.gz --markdown 20240529/a/anon-traffic/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 15:12:19] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/5f/59/90ccf6648e0ade4bcbee5c4d61687395451d58c9257a6189e8bffb3e3132/bblib-2.1.4.tar.gz
+[2024-05-29 15:12:19] INFO root fetch - processPackages [bblib]: executing diffoscope
+[2024-05-29 15:12:19] INFO root fetch - processPackages [bblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bblib-2.1.3.tar.gz tmp/bblib-2.1.4.tar.gz --markdown 20240529/b/bblib/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-05-29 15:12:19] INFO root fetch - processPackages [anon-traffic]: Remove: archive file [/home/abi/fetcher/tmp/anon_traffic-1.0.0.tar.gz]
+[2024-05-29 15:12:19] INFO root fetch - processPackages [anon-traffic]: Remove: archive file [/home/abi/fetcher/tmp/anon_traffic-1.0.1.tar.gz]
+[2024-05-29 15:12:19] INFO root fetch - main [MainThread]: End processing [anon-traffic]: success
+[2024-05-29 15:12:19] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.56.tar.gz]
+[2024-05-29 15:12:19] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.57.tar.gz]
+[2024-05-29 15:12:19] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-29 15:12:19] INFO root fetch - processPackages [oarepo-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-requests-1.1.8.tar.gz]
+[2024-05-29 15:12:19] INFO root fetch - processPackages [oarepo-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-requests-1.1.9.tar.gz]
+[2024-05-29 15:12:19] INFO root fetch - main [MainThread]: End processing [oarepo-requests]: success
+[2024-05-29 15:12:20] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-2.1.3.tar.gz]
+[2024-05-29 15:12:20] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-2.1.4.tar.gz]
+[2024-05-29 15:12:20] INFO root fetch - main [MainThread]: End processing [bblib]: success
+[2024-05-29 15:12:20] INFO root fetch - main [MainThread]: Store serial: [23430193]
