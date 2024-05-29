@@ -3411,3 +3411,18 @@
 [2024-05-29 03:16:27] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.8.1.zip]
 [2024-05-29 03:16:27] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
 [2024-05-29 03:16:27] INFO root fetch - main [MainThread]: Store serial: [23421639]
+[2024-05-29 03:18:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421639]
+[2024-05-29 03:18:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 03:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marios-candy-shop
+[2024-05-29 03:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fosslight-util
+[2024-05-29 03:18:36] WARNING root fetch - processPackages [marios-candy-shop]: Skipping, unable to determine old version
+[2024-05-29 03:18:36] INFO root fetch - main [MainThread]: End processing [marios-candy-shop] error
+[2024-05-29 03:18:36] INFO root fetch - processPackages [fosslight-util]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-29 03:18:36] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/d0/ca/3238ee41727edc3bd327f6beb7ef97f2d92d986227f3bf775259a3e223ae/fosslight_util-1.4.8.tar.gz
+[2024-05-29 03:18:37] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/2d/d2/e674ac0c05f462aeb548384d4b1f6351624dd534bb73301158868691826c/fosslight_util-1.4.9.tar.gz
+[2024-05-29 03:18:38] INFO root fetch - processPackages [fosslight-util]: executing diffoscope
+[2024-05-29 03:18:38] INFO root fetch - processPackages [fosslight-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_util-1.4.8.tar.gz tmp/fosslight_util-1.4.9.tar.gz --markdown 20240529/f/fosslight-util/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-29 03:18:38] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.8.tar.gz]
+[2024-05-29 03:18:38] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.9.tar.gz]
+[2024-05-29 03:18:38] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
+[2024-05-29 03:18:38] INFO root fetch - main [MainThread]: Store serial: [23421645]
