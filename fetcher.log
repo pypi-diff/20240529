@@ -11535,3 +11535,24 @@
 [2024-05-29 08:00:38] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-7.1.0a1716961064.tar.gz]
 [2024-05-29 08:00:38] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
 [2024-05-29 08:00:38] INFO root fetch - main [MainThread]: Store serial: [23424677]
+[2024-05-29 08:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424677]
+[2024-05-29 08:02:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 08:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-ec
+[2024-05-29 08:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlpx
+[2024-05-29 08:02:47] INFO root fetch - processPackages [nlpx]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-29 08:02:47] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/1f/cb/dddf8fb30f6dd39e2894a22f3cdb24df9acb4a22b4f794051017397a825a/nlpx-1.2.5.tar.gz
+[2024-05-29 08:02:47] INFO root fetch - processPackages [pulumi-ec]: New version: [0.9.0a1716961031] Old Version: [0.9.0a1716507276]
+[2024-05-29 08:02:47] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/41/b4/15afb32abe5984608e0662271ac951c37aed12e25894f86e4ed9549dbebb/pulumi_ec-0.9.0a1716507276.tar.gz
+[2024-05-29 08:02:47] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/f1/34/f9ad019137beb72c9d5ff0f8aaa95e0ade04e418775b38df0dea15fb3099/nlpx-1.2.6.tar.gz
+[2024-05-29 08:02:47] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-29 08:02:47] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.2.5.tar.gz tmp/nlpx-1.2.6.tar.gz --markdown 20240529/n/nlpx/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-29 08:02:48] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/37/61/42714a34c0a459d4b4f1d5b80b3d82c65b420f3c95e4c5877772f32b71e6/pulumi_ec-0.9.0a1716961031.tar.gz
+[2024-05-29 08:02:48] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2024-05-29 08:02:48] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.9.0a1716507276.tar.gz tmp/pulumi_ec-0.9.0a1716961031.tar.gz --markdown 20240529/p/pulumi-ec/0.9.0a1716507276-0.9.0a1716961031/README.md --exclude *.pyd
+[2024-05-29 08:02:48] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.5.tar.gz]
+[2024-05-29 08:02:48] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.6.tar.gz]
+[2024-05-29 08:02:48] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-29 08:02:48] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1716507276.tar.gz]
+[2024-05-29 08:02:48] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1716961031.tar.gz]
+[2024-05-29 08:02:48] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2024-05-29 08:02:48] INFO root fetch - main [MainThread]: Store serial: [23424715]
