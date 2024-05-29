@@ -2808,3 +2808,27 @@
 [2024-05-29 02:36:45] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-1.9.0.tar.gz]
 [2024-05-29 02:36:45] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
 [2024-05-29 02:36:45] INFO root fetch - main [MainThread]: Store serial: [23421316]
+[2024-05-29 02:38:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421316]
+[2024-05-29 02:38:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 02:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-llama
+[2024-05-29 02:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfra-nightly
+[2024-05-29 02:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marimba
+[2024-05-29 02:38:55] INFO root fetch - processPackages [easy-llama]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 02:38:55] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/ce/e9/39a06b9ce349625a5d6c7da00644a8cc7320112fb3ba2b2e54944d3a6135/easy_llama-0.1.8.tar.gz
+[2024-05-29 02:38:55] WARNING root fetch - processPackages [marimba]: Skipping, unable to determine old version
+[2024-05-29 02:38:55] INFO root fetch - main [MainThread]: End processing [marimba] error
+[2024-05-29 02:38:55] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.1.dev20240524195431] Old Version: [0.6.1.dev20240520202338]
+[2024-05-29 02:38:55] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/98/5d/f5007368104957b81fc41c01c18234178e2875066cca25192bec1d846caf/easy_llama-0.1.9.tar.gz
+[2024-05-29 02:38:55] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/7f/9e/c27f60311afba798daba651c60ec79e836aceef5a3b9fe9fd2281bd8d560/tfra_nightly-0.6.1.dev20240520202338-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 02:38:55] INFO root fetch - processPackages [easy-llama]: executing diffoscope
+[2024-05-29 02:38:55] INFO root fetch - processPackages [easy-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_llama-0.1.8.tar.gz tmp/easy_llama-0.1.9.tar.gz --markdown 20240529/e/easy-llama/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 02:38:56] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/ed/60/d68842430fb899092fc441f311dba701bf1f6beed001dbd4d5e8a1c5b7fc/tfra_nightly-0.6.1.dev20240524195431-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 02:38:56] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.8.tar.gz]
+[2024-05-29 02:38:56] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.9.tar.gz]
+[2024-05-29 02:38:56] INFO root fetch - main [MainThread]: End processing [easy-llama]: success
+[2024-05-29 02:38:57] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2024-05-29 02:38:57] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.1.dev20240520202338-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tfra_nightly-0.6.1.dev20240524195431-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240529/t/tfra-nightly/0.6.1.dev20240520202338-0.6.1.dev20240524195431/README.md --exclude *.pyd
+[2024-05-29 02:38:58] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240520202338-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 02:38:58] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240524195431-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 02:38:58] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2024-05-29 02:38:58] INFO root fetch - main [MainThread]: Store serial: [23421328]
