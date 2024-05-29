@@ -18474,3 +18474,54 @@
 [2024-05-29 12:23:36] INFO root fetch - processPackages [email-message-aws-ses-local]: Remove: archive file [/home/abi/fetcher/tmp/email-message-aws-ses-local-0.0.9.tar.gz]
 [2024-05-29 12:23:36] INFO root fetch - main [MainThread]: End processing [email-message-aws-ses-local]: success
 [2024-05-29 12:23:36] INFO root fetch - main [MainThread]: Store serial: [23428200]
+[2024-05-29 12:25:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428200]
+[2024-05-29 12:25:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 12:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansys-tools-visualization-interface
+[2024-05-29 12:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yc-aws-wrapper
+[2024-05-29 12:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudbase-init
+[2024-05-29 12:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: invoicing-pdf-python
+[2024-05-29 12:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uav-collision-avoidance
+[2024-05-29 12:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whataspp-message-inforu-local
+[2024-05-29 12:25:45] INFO root fetch - processPackages [yc-aws-wrapper]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 12:25:45] INFO root fetch - processPackages [uav-collision-avoidance]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-29 12:25:45] INFO root fetch - processPackages [cloudbase-init]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-29 12:25:45] ERROR root fetch - processPackages [invoicing-pdf-python]: Unable to get metadata: No such project 'invoicing-pdf-python'
+[2024-05-29 12:25:45] INFO root fetch - processPackages [yc-aws-wrapper]: Downloading https://files.pythonhosted.org/packages/50/b8/aeb4d685e07775bc8071422c743ff3f5b3c673bc1a931720095651d2d8a5/yc_aws_wrapper-0.0.2.tar.gz
+[2024-05-29 12:25:45] INFO root fetch - main [MainThread]: End processing [invoicing-pdf-python] error
+[2024-05-29 12:25:45] INFO root fetch - processPackages [whataspp-message-inforu-local]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-05-29 12:25:45] INFO root fetch - processPackages [ansys-tools-visualization-interface]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-29 12:25:45] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Downloading https://files.pythonhosted.org/packages/6e/66/e115244631ed370b1f5dd7f4ec4df22557a219df8ae828f5e95857a81232/ansys_tools_visualization_interface-0.2.0.tar.gz
+[2024-05-29 12:25:45] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/d5/b6/6b7617a82b4f029e88fe80ba3a8dbd4a4b4cf1e20e3d04079709f4fafba1/uav_collision_avoidance-0.8.5-py3-none-any.whl
+[2024-05-29 12:25:45] INFO root fetch - processPackages [whataspp-message-inforu-local]: Downloading https://files.pythonhosted.org/packages/60/2f/eed6028af7f4682c9459bfc1c0fc773cfac7425b760ea7d8a850ab6e0940/whataspp_message_inforu_local-0.0.14.tar.gz
+[2024-05-29 12:25:45] INFO root fetch - processPackages [yc-aws-wrapper]: Downloading https://files.pythonhosted.org/packages/fa/0b/a1661d2d73abd6979932ff8cfbf981091505641d778908be9708c68ecfa4/yc_aws_wrapper-0.0.3.tar.gz
+[2024-05-29 12:25:45] INFO root fetch - processPackages [cloudbase-init]: Downloading https://files.pythonhosted.org/packages/a9/dc/b3b25debcd53bd9e24443af783b589b3eac9e2d7363b1536b2d6634c5fdd/cloudbase-init-1.1.4.tar.gz
+[2024-05-29 12:25:46] INFO root fetch - processPackages [yc-aws-wrapper]: executing diffoscope
+[2024-05-29 12:25:46] INFO root fetch - processPackages [yc-aws-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yc_aws_wrapper-0.0.2.tar.gz tmp/yc_aws_wrapper-0.0.3.tar.gz --markdown 20240529/y/yc-aws-wrapper/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 12:25:46] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/73/0b/691a838b1379d4dd8c36631c9b15195be888b54ec6a4c9325cd81ce7801f/uav_collision_avoidance-0.8.6-py3-none-any.whl
+[2024-05-29 12:25:46] INFO root fetch - processPackages [cloudbase-init]: Downloading https://files.pythonhosted.org/packages/a0/a0/c8047246ca0a590b477c9caae91644741b2c0890a99b1809ce8e2d692ae2/cloudbase-init-1.1.5.tar.gz
+[2024-05-29 12:25:46] INFO root fetch - processPackages [whataspp-message-inforu-local]: Downloading https://files.pythonhosted.org/packages/73/0d/ccefaf03507df0179dcd0a1901c3d67171a7c956dd7ad44ca275bf27e579/whataspp_message_inforu_local-0.0.15.tar.gz
+[2024-05-29 12:25:46] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Downloading https://files.pythonhosted.org/packages/7d/bc/baae898ef62a19ef88bca050e265aa99f648aaddd12671f0289ee52038be/ansys_tools_visualization_interface-0.2.1.tar.gz
+[2024-05-29 12:25:46] INFO root fetch - processPackages [uav-collision-avoidance]: executing diffoscope
+[2024-05-29 12:25:46] INFO root fetch - processPackages [uav-collision-avoidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uav_collision_avoidance-0.8.5-py3-none-any.whl.zip tmp/uav_collision_avoidance-0.8.6-py3-none-any.whl.zip --markdown 20240529/u/uav-collision-avoidance/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-29 12:25:46] INFO root fetch - processPackages [cloudbase-init]: executing diffoscope
+[2024-05-29 12:25:46] INFO root fetch - processPackages [cloudbase-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudbase-init-1.1.4.tar.gz tmp/cloudbase-init-1.1.5.tar.gz --markdown 20240529/c/cloudbase-init/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-29 12:25:46] INFO root fetch - processPackages [ansys-tools-visualization-interface]: executing diffoscope
+[2024-05-29 12:25:46] INFO root fetch - processPackages [ansys-tools-visualization-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_tools_visualization_interface-0.2.0.tar.gz tmp/ansys_tools_visualization_interface-0.2.1.tar.gz --markdown 20240529/a/ansys-tools-visualization-interface/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-29 12:25:46] INFO root fetch - processPackages [whataspp-message-inforu-local]: executing diffoscope
+[2024-05-29 12:25:46] INFO root fetch - processPackages [whataspp-message-inforu-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whataspp_message_inforu_local-0.0.14.tar.gz tmp/whataspp_message_inforu_local-0.0.15.tar.gz --markdown 20240529/w/whataspp-message-inforu-local/0.0.14-0.0.15/README.md --exclude *.pyd
+[2024-05-29 12:25:46] INFO root fetch - processPackages [yc-aws-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/yc_aws_wrapper-0.0.2.tar.gz]
+[2024-05-29 12:25:46] INFO root fetch - processPackages [yc-aws-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/yc_aws_wrapper-0.0.3.tar.gz]
+[2024-05-29 12:25:46] INFO root fetch - main [MainThread]: End processing [yc-aws-wrapper]: success
+[2024-05-29 12:25:47] INFO root fetch - processPackages [whataspp-message-inforu-local]: Remove: archive file [/home/abi/fetcher/tmp/whataspp_message_inforu_local-0.0.14.tar.gz]
+[2024-05-29 12:25:47] INFO root fetch - processPackages [whataspp-message-inforu-local]: Remove: archive file [/home/abi/fetcher/tmp/whataspp_message_inforu_local-0.0.15.tar.gz]
+[2024-05-29 12:25:47] INFO root fetch - main [MainThread]: End processing [whataspp-message-inforu-local]: success
+[2024-05-29 12:25:47] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_visualization_interface-0.2.0.tar.gz]
+[2024-05-29 12:25:47] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_visualization_interface-0.2.1.tar.gz]
+[2024-05-29 12:25:47] INFO root fetch - main [MainThread]: End processing [ansys-tools-visualization-interface]: success
+[2024-05-29 12:25:47] INFO root fetch - processPackages [cloudbase-init]: Remove: archive file [/home/abi/fetcher/tmp/cloudbase-init-1.1.4.tar.gz]
+[2024-05-29 12:25:47] INFO root fetch - processPackages [cloudbase-init]: Remove: archive file [/home/abi/fetcher/tmp/cloudbase-init-1.1.5.tar.gz]
+[2024-05-29 12:25:47] INFO root fetch - main [MainThread]: End processing [cloudbase-init]: success
+[2024-05-29 12:25:48] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.8.5-py3-none-any.whl.zip]
+[2024-05-29 12:25:48] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.8.6-py3-none-any.whl.zip]
+[2024-05-29 12:25:48] INFO root fetch - main [MainThread]: End processing [uav-collision-avoidance]: success
+[2024-05-29 12:25:48] INFO root fetch - main [MainThread]: Store serial: [23428218]
