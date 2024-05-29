@@ -16382,3 +16382,51 @@
 [2024-05-29 11:12:13] INFO root fetch - processPackages [writer]: Remove: archive file [/home/abi/fetcher/tmp/writer-0.6.0rc5.tar.gz]
 [2024-05-29 11:12:13] INFO root fetch - main [MainThread]: End processing [writer]: success
 [2024-05-29 11:12:13] INFO root fetch - main [MainThread]: Store serial: [23427128]
+[2024-05-29 11:14:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427128]
+[2024-05-29 11:14:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-29 11:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: confidence-openfeature-provider
+[2024-05-29 11:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grain-zip-deployer
+[2024-05-29 11:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ma-confluence-cli
+[2024-05-29 11:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nrich
+[2024-05-29 11:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chemfusekit
+[2024-05-29 11:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hashsan-tool
+[2024-05-29 11:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: craft-ai-sdk
+[2024-05-29 11:14:22] INFO root fetch - processPackages [grain-zip-deployer]: New version: [2024.5.29.4] Old Version: [2024.5.29.3]
+[2024-05-29 11:14:22] WARNING root fetch - processPackages [nrich]: Skipping, unable to determine old version
+[2024-05-29 11:14:22] INFO root fetch - main [MainThread]: End processing [nrich] error
+[2024-05-29 11:14:22] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.2b3] Old Version: [1.1.2b2]
+[2024-05-29 11:14:22] INFO root fetch - processPackages [grain-zip-deployer]: Downloading https://files.pythonhosted.org/packages/11/ff/f58796d55e5e63b8f8f102df66600c4f5e0b6bada43e9d7d3d1440369ec0/grain_zip_deployer-2024.5.29.3.tar.gz
+[2024-05-29 11:14:22] INFO root fetch - processPackages [confidence-openfeature-provider]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-29 11:14:22] WARNING root fetch - processPackages [ma-confluence-cli]: Skipping, unable to determine old version
+[2024-05-29 11:14:22] INFO root fetch - main [MainThread]: End processing [ma-confluence-cli] error
+[2024-05-29 11:14:23] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/1b/25/b7ba88a2bde2aac51a2b42fe34672a00159e555c6e9692ee7c83bed90d1f/chemfusekit-1.1.2b2.tar.gz
+[2024-05-29 11:14:23] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-29 11:14:23] WARNING root fetch - processPackages [hashsan-tool]: Skipping, unable to determine old version
+[2024-05-29 11:14:23] INFO root fetch - main [MainThread]: End processing [hashsan-tool] error
+[2024-05-29 11:14:23] INFO root fetch - processPackages [confidence-openfeature-provider]: Downloading https://files.pythonhosted.org/packages/9c/6b/ee3e175b51321e30130cf408d5951f314649a0e2a9f07886beb632e5bf08/confidence_openfeature_provider-0.1.4.tar.gz
+[2024-05-29 11:14:23] INFO root fetch - processPackages [grain-zip-deployer]: Downloading https://files.pythonhosted.org/packages/f8/fc/8fa49c726963f84e2734f185ec6a42626a2a2ba7b29ef49d2560c488dd29/grain_zip_deployer-2024.5.29.4.tar.gz
+[2024-05-29 11:14:23] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2024-05-29 11:14:23] INFO root fetch - processPackages [grain-zip-deployer]: executing diffoscope
+[2024-05-29 11:14:23] INFO root fetch - processPackages [grain-zip-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grain_zip_deployer-2024.5.29.3.tar.gz tmp/grain_zip_deployer-2024.5.29.4.tar.gz --markdown 20240529/g/grain-zip-deployer/2024.5.29.3-2024.5.29.4/README.md --exclude *.pyd
+[2024-05-29 11:14:23] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/dd/f0/e14e30bc52997d1df7684169bf3dd61f9ae04f1d0555a68e6338845e2e01/chemfusekit-1.1.2b3.tar.gz
+[2024-05-29 11:14:23] INFO root fetch - processPackages [confidence-openfeature-provider]: Downloading https://files.pythonhosted.org/packages/0f/75/b966c6ca37cf145447a95bd8f1b8bb9c4cf88817866104695a1b1bb6b59c/confidence_openfeature_provider-0.2.0.tar.gz
+[2024-05-29 11:14:23] INFO root fetch - processPackages [confidence-openfeature-provider]: executing diffoscope
+[2024-05-29 11:14:23] INFO root fetch - processPackages [confidence-openfeature-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confidence_openfeature_provider-0.1.4.tar.gz tmp/confidence_openfeature_provider-0.2.0.tar.gz --markdown 20240529/c/confidence-openfeature-provider/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-29 11:14:23] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2024-05-29 11:14:23] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2024-05-29 11:14:23] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20240529/c/craft-ai-sdk/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-29 11:14:23] INFO root fetch - processPackages [grain-zip-deployer]: Remove: archive file [/home/abi/fetcher/tmp/grain_zip_deployer-2024.5.29.3.tar.gz]
+[2024-05-29 11:14:23] INFO root fetch - processPackages [grain-zip-deployer]: Remove: archive file [/home/abi/fetcher/tmp/grain_zip_deployer-2024.5.29.4.tar.gz]
+[2024-05-29 11:14:23] INFO root fetch - main [MainThread]: End processing [grain-zip-deployer]: success
+[2024-05-29 11:14:24] INFO root fetch - processPackages [confidence-openfeature-provider]: Remove: archive file [/home/abi/fetcher/tmp/confidence_openfeature_provider-0.1.4.tar.gz]
+[2024-05-29 11:14:24] INFO root fetch - processPackages [confidence-openfeature-provider]: Remove: archive file [/home/abi/fetcher/tmp/confidence_openfeature_provider-0.2.0.tar.gz]
+[2024-05-29 11:14:24] INFO root fetch - main [MainThread]: End processing [confidence-openfeature-provider]: success
+[2024-05-29 11:14:24] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-05-29 11:14:24] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.2b2.tar.gz tmp/chemfusekit-1.1.2b3.tar.gz --markdown 20240529/c/chemfusekit/1.1.2b2-1.1.2b3/README.md --exclude *.pyd
+[2024-05-29 11:14:24] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2024-05-29 11:14:24] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2024-05-29 11:14:24] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2024-05-29 11:14:25] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.2b2.tar.gz]
+[2024-05-29 11:14:25] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.2b3.tar.gz]
+[2024-05-29 11:14:25] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
+[2024-05-29 11:14:25] INFO root fetch - main [MainThread]: Store serial: [23427151]
