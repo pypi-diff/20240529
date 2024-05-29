@@ -7846,3 +7846,15 @@
 [2024-05-29 04:31:36] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
 [2024-05-29 04:31:36] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2024-05-29 04:31:36] INFO root fetch - main [MainThread]: Store serial: [23423267]
+[2024-05-29 04:33:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423267]
+[2024-05-29 04:33:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-29 04:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: balsamic
+[2024-05-29 04:33:45] INFO root fetch - processPackages [balsamic]: New version: [0.2.92] Old Version: [0.2.91]
+[2024-05-29 04:33:46] INFO root fetch - processPackages [balsamic]: Downloading https://files.pythonhosted.org/packages/40/fa/98900d01f81f205bc923bba2560d55373bcd737eee2199dd04b0ca237eb8/balsamic-0.2.91.tar.gz
+[2024-05-29 04:33:46] INFO root fetch - processPackages [balsamic]: Downloading https://files.pythonhosted.org/packages/62/5f/27f145e85d4a15f27d2af54480ba05a623a72a009d21bc96ce6341a7a75a/balsamic-0.2.92.tar.gz
+[2024-05-29 04:33:46] INFO root fetch - processPackages [balsamic]: executing diffoscope
+[2024-05-29 04:33:46] INFO root fetch - processPackages [balsamic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balsamic-0.2.91.tar.gz tmp/balsamic-0.2.92.tar.gz --markdown 20240529/b/balsamic/0.2.91-0.2.92/README.md --exclude *.pyd
+[2024-05-29 04:33:46] INFO root fetch - processPackages [balsamic]: Remove: archive file [/home/abi/fetcher/tmp/balsamic-0.2.91.tar.gz]
+[2024-05-29 04:33:46] INFO root fetch - processPackages [balsamic]: Remove: archive file [/home/abi/fetcher/tmp/balsamic-0.2.92.tar.gz]
+[2024-05-29 04:33:46] INFO root fetch - main [MainThread]: End processing [balsamic]: success
+[2024-05-29 04:33:46] INFO root fetch - main [MainThread]: Store serial: [23423271]
