@@ -23669,3 +23669,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 15:31:29] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.74.0.tar.gz]
 [2024-05-29 15:31:29] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
 [2024-05-29 15:31:29] INFO root fetch - main [MainThread]: Store serial: [23430465]
+[2024-05-29 15:33:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23430465]
+[2024-05-29 15:33:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-29 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bw2data
+[2024-05-29 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elements
+[2024-05-29 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autocall
+[2024-05-29 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-object-acl
+[2024-05-29 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lenscraft
+[2024-05-29 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swifttools
+[2024-05-29 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-core
+[2024-05-29 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdo-sdk-python
+[2024-05-29 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rindegastos-revops
+[2024-05-29 15:33:38] INFO root fetch - processPackages [django-object-acl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-29 15:33:38] INFO root fetch - processPackages [rindegastos-revops]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 15:33:38] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-29 15:33:38] INFO root fetch - processPackages [autocall]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-29 15:33:38] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240529130016] Old Version: [3.4.1.dev20240529092926]
+[2024-05-29 15:33:38] INFO root fetch - processPackages [lenscraft]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-29 15:33:38] INFO root fetch - processPackages [elements]: New version: [3.6.5] Old Version: [3.6.4]
+[2024-05-29 15:33:38] INFO root fetch - processPackages [bw2data]: New version: [4.0.dev9] Old Version: [4.0.dev8]
+[2024-05-29 15:33:38] INFO root fetch - processPackages [swifttools]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-29 15:33:38] INFO root fetch - processPackages [rindegastos-revops]: Downloading https://files.pythonhosted.org/packages/cf/2b/f5bb3a5e85b56897dbeaedf871d84567473b2e16320bd68d5255bdc055bd/rindegastos_revops-0.0.8.tar.gz
+[2024-05-29 15:33:38] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-29 15:33:38] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/14/4b/0cd0b2affb7b611b32b7024a8016fca7d32db37679e199924c9d8ee241be/localstack_core-3.4.1.dev20240529092926.tar.gz
+[2024-05-29 15:33:38] INFO root fetch - processPackages [django-object-acl]: Downloading https://files.pythonhosted.org/packages/7d/c4/263437ee84d940cbdc2fc1d3d07475cf3e8dbdfc503a0e2de2bab1ec8187/django-object-acl-0.1.0.tar.gz
+[2024-05-29 15:33:38] INFO root fetch - processPackages [autocall]: Downloading https://files.pythonhosted.org/packages/fe/f5/65183429a7b1a0fad86c0330bc51a67717a9dae06ef0b3b69ce3226840c8/autocall-1.0.0.tar.gz
+[2024-05-29 15:33:38] INFO root fetch - processPackages [lenscraft]: Downloading https://files.pythonhosted.org/packages/03/52/8ad46147f6ee8107415c6180f8853d0f36db2dcee8ed64a0d6b48335d547/lenscraft-1.0.4.tar.gz
+[2024-05-29 15:33:38] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/d9/40/7ef834de5a899cb27f4c45e84a6ea9f0b0ad89b831263d84fd4781f3dc35/elements-3.6.4.tar.gz
+[2024-05-29 15:33:38] INFO root fetch - processPackages [bw2data]: Downloading https://files.pythonhosted.org/packages/79/e2/4a6806f2f7e95e68ef879286b48a99e79f5ef3c640b203015d6e50b88c4c/bw2data-4.0.dev8.tar.gz
+[2024-05-29 15:33:38] INFO root fetch - processPackages [swifttools]: Downloading https://files.pythonhosted.org/packages/c3/c8/e412d168299f94248da6955d8e5c98ec637145c3cd8d9edffe62d5a67169/swifttools-3.0.8.tar.gz
+[2024-05-29 15:33:38] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-29 15:33:39] INFO root fetch - processPackages [rindegastos-revops]: Downloading https://files.pythonhosted.org/packages/11/53/5886fb722876e1530a3ff42b6aa97510dd201e65807fe9ba72132b8b4d37/rindegastos_revops-0.0.9.tar.gz
+[2024-05-29 15:33:39] INFO root fetch - processPackages [django-object-acl]: Downloading https://files.pythonhosted.org/packages/0e/5f/6dd588da71aba80654f38fb33f8054e96492a2898aea74e5b2184710c33d/django-object-acl-0.1.1.tar.gz
+[2024-05-29 15:33:39] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/6c/f8/fd60c6e92a214138c8cf914a7f65141fdcecddf87d3da880c043e41c39b7/localstack_core-3.4.1.dev20240529130016.tar.gz
+[2024-05-29 15:33:39] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-29 15:33:39] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240529/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-29 15:33:39] INFO root fetch - processPackages [autocall]: Downloading https://files.pythonhosted.org/packages/19/8e/29e3f92dccc9d8bf17e3c62527a9d425ff7bf072f7bff02d5f0fea324286/autocall-1.1.0.tar.gz
+[2024-05-29 15:33:39] INFO root fetch - processPackages [rindegastos-revops]: executing diffoscope
+[2024-05-29 15:33:39] INFO root fetch - processPackages [rindegastos-revops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rindegastos_revops-0.0.8.tar.gz tmp/rindegastos_revops-0.0.9.tar.gz --markdown 20240529/r/rindegastos-revops/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 15:33:39] INFO root fetch - processPackages [django-object-acl]: executing diffoscope
+[2024-05-29 15:33:39] INFO root fetch - processPackages [django-object-acl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-object-acl-0.1.0.tar.gz tmp/django-object-acl-0.1.1.tar.gz --markdown 20240529/d/django-object-acl/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-29 15:33:39] INFO root fetch - processPackages [autocall]: executing diffoscope
+[2024-05-29 15:33:39] INFO root fetch - processPackages [autocall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocall-1.0.0.tar.gz tmp/autocall-1.1.0.tar.gz --markdown 20240529/a/autocall/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-29 15:33:39] INFO root fetch - processPackages [swifttools]: Downloading https://files.pythonhosted.org/packages/a0/8a/80acd6c9b36b033b27049030040ba67e64c73629ed1224c60bf61fae298f/swifttools-3.0.9.tar.gz
+[2024-05-29 15:33:39] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/57/fd/040cc748cb484362949a2b821e99f2a02e84f6d3167859135acbca1d9251/elements-3.6.5.tar.gz
+[2024-05-29 15:33:39] INFO root fetch - processPackages [bw2data]: Downloading https://files.pythonhosted.org/packages/fc/8c/90e7206ce18d131ff4911ed43ec32ba0a2675262f923b4081196e2a06757/bw2data-4.0.dev9.tar.gz
+[2024-05-29 15:33:39] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-29 15:33:39] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240529092926.tar.gz tmp/localstack_core-3.4.1.dev20240529130016.tar.gz --markdown 20240529/l/localstack-core/3.4.1.dev20240529092926-3.4.1.dev20240529130016/README.md --exclude *.pyd
+[2024-05-29 15:33:39] INFO root fetch - processPackages [elements]: executing diffoscope
+[2024-05-29 15:33:39] INFO root fetch - processPackages [elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elements-3.6.4.tar.gz tmp/elements-3.6.5.tar.gz --markdown 20240529/e/elements/3.6.4-3.6.5/README.md --exclude *.pyd
+[2024-05-29 15:33:39] INFO root fetch - processPackages [swifttools]: executing diffoscope
+[2024-05-29 15:33:39] INFO root fetch - processPackages [swifttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swifttools-3.0.8.tar.gz tmp/swifttools-3.0.9.tar.gz --markdown 20240529/s/swifttools/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-29 15:33:39] INFO root fetch - processPackages [bw2data]: executing diffoscope
+[2024-05-29 15:33:39] INFO root fetch - processPackages [bw2data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw2data-4.0.dev8.tar.gz tmp/bw2data-4.0.dev9.tar.gz --markdown 20240529/b/bw2data/4.0.dev8-4.0.dev9/README.md --exclude *.pyd
+[2024-05-29 15:33:39] INFO root fetch - processPackages [django-object-acl]: Remove: archive file [/home/abi/fetcher/tmp/django-object-acl-0.1.0.tar.gz]
+[2024-05-29 15:33:39] INFO root fetch - processPackages [django-object-acl]: Remove: archive file [/home/abi/fetcher/tmp/django-object-acl-0.1.1.tar.gz]
+[2024-05-29 15:33:39] INFO root fetch - main [MainThread]: End processing [django-object-acl]: success
+[2024-05-29 15:33:40] INFO root fetch - processPackages [rindegastos-revops]: Remove: archive file [/home/abi/fetcher/tmp/rindegastos_revops-0.0.8.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - processPackages [rindegastos-revops]: Remove: archive file [/home/abi/fetcher/tmp/rindegastos_revops-0.0.9.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - main [MainThread]: End processing [rindegastos-revops]: success
+[2024-05-29 15:33:40] INFO root fetch - processPackages [autocall]: Remove: archive file [/home/abi/fetcher/tmp/autocall-1.0.0.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - processPackages [autocall]: Remove: archive file [/home/abi/fetcher/tmp/autocall-1.1.0.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - main [MainThread]: End processing [autocall]: success
+[2024-05-29 15:33:40] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.6.4.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.6.5.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - main [MainThread]: End processing [elements]: success
+[2024-05-29 15:33:40] INFO root fetch - processPackages [swifttools]: Remove: archive file [/home/abi/fetcher/tmp/swifttools-3.0.8.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - processPackages [swifttools]: Remove: archive file [/home/abi/fetcher/tmp/swifttools-3.0.9.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - main [MainThread]: End processing [swifttools]: success
+[2024-05-29 15:33:40] INFO root fetch - processPackages [bw2data]: Remove: archive file [/home/abi/fetcher/tmp/bw2data-4.0.dev8.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - processPackages [bw2data]: Remove: archive file [/home/abi/fetcher/tmp/bw2data-4.0.dev9.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - main [MainThread]: End processing [bw2data]: success
+[2024-05-29 15:33:40] INFO root fetch - processPackages [lenscraft]: Downloading https://files.pythonhosted.org/packages/20/cf/47ebf95d875adf16cddd289cd6af0e34d4d7d2a1a566202bbde20fc1d695/lenscraft-1.1.0.tar.gz
+[2024-05-29 15:33:40] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-29 15:33:40] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-29 15:33:41] INFO root fetch - processPackages [lenscraft]: executing diffoscope
+[2024-05-29 15:33:41] INFO root fetch - processPackages [lenscraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lenscraft-1.0.4.tar.gz tmp/lenscraft-1.1.0.tar.gz --markdown 20240529/l/lenscraft/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-29 15:33:42] INFO root fetch - processPackages [lenscraft]: Remove: archive file [/home/abi/fetcher/tmp/lenscraft-1.0.4.tar.gz]
+[2024-05-29 15:33:42] INFO root fetch - processPackages [lenscraft]: Remove: archive file [/home/abi/fetcher/tmp/lenscraft-1.1.0.tar.gz]
+[2024-05-29 15:33:42] INFO root fetch - main [MainThread]: End processing [lenscraft]: success
+[2024-05-29 15:33:43] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240529092926.tar.gz]
+[2024-05-29 15:33:43] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240529130016.tar.gz]
+[2024-05-29 15:33:43] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-29 15:33:43] INFO root fetch - main [MainThread]: Store serial: [23430492]
