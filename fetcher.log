@@ -21047,3 +21047,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:03:31] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
 [2024-05-29 14:03:31] INFO root fetch - main [MainThread]: End processing [metal-python]: success
 [2024-05-29 14:03:31] INFO root fetch - main [MainThread]: Store serial: [23429200]
+[2024-05-29 14:05:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429200]
+[2024-05-29 14:05:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 14:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simpn
+[2024-05-29 14:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aura-tools
+[2024-05-29 14:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sciobject
+[2024-05-29 14:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyCoreWLAN
+[2024-05-29 14:05:40] INFO root fetch - processPackages [aura-tools]: New version: [0.6] Old Version: [0.5]
+[2024-05-29 14:05:40] INFO root fetch - processPackages [sciobject]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 14:05:40] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/1e/76/141850282bb5cdb0c9a933931ce8c78f47d89c2eeeb69fbc1bf6f7f7b8dc/aura_tools-0.5.tar.gz
+[2024-05-29 14:05:40] INFO root fetch - processPackages [simpn]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-29 14:05:40] INFO root fetch - processPackages [pyCoreWLAN]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-29 14:05:40] INFO root fetch - processPackages [sciobject]: Downloading https://files.pythonhosted.org/packages/3f/f8/cd2f932c41152350791ec51d9922c731b3c6852edfee6a620f1b335ec699/sciobject-0.0.1.tar.gz
+[2024-05-29 14:05:40] INFO root fetch - processPackages [simpn]: Downloading https://files.pythonhosted.org/packages/06/04/9ad844cc60caa1aa64623860bdb2ef43aef639081beb2684458c0720d3ad/simpn-1.2.0.tar.gz
+[2024-05-29 14:05:40] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/f7/4c/582a05b6bd91b7dcc811ce882b64a4a4e74b999e907bdec1733aae610dbc/aura_tools-0.6.tar.gz
+[2024-05-29 14:05:40] INFO root fetch - processPackages [pyCoreWLAN]: Downloading https://files.pythonhosted.org/packages/3e/96/abb3b21ca5d01656025ba93d806df90e772a96a8b1e8a31cc3d11ff110b0/pycorewlan-1.0.0.tar.gz
+[2024-05-29 14:05:40] INFO root fetch - processPackages [aura-tools]: executing diffoscope
+[2024-05-29 14:05:40] INFO root fetch - processPackages [aura-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura_tools-0.5.tar.gz tmp/aura_tools-0.6.tar.gz --markdown 20240529/a/aura-tools/0.5-0.6/README.md --exclude *.pyd
+[2024-05-29 14:05:40] INFO root fetch - processPackages [sciobject]: Downloading https://files.pythonhosted.org/packages/5f/82/4ba48ad1cca4bd972deddb77b8f02e3a8297f82d212fa4565d1ea741e33f/sciobject-0.0.2.tar.gz
+[2024-05-29 14:05:40] INFO root fetch - processPackages [simpn]: Downloading https://files.pythonhosted.org/packages/3f/e8/d1bc3cb2a51ab178e56e9ccb8a59dba8d8f8afb6cfb5855d0e1b691bfd1f/simpn-1.2.1.tar.gz
+[2024-05-29 14:05:40] INFO root fetch - processPackages [sciobject]: executing diffoscope
+[2024-05-29 14:05:40] INFO root fetch - processPackages [sciobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciobject-0.0.1.tar.gz tmp/sciobject-0.0.2.tar.gz --markdown 20240529/s/sciobject/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 14:05:40] INFO root fetch - processPackages [pyCoreWLAN]: Downloading https://files.pythonhosted.org/packages/e1/30/0095f9fa3fd94241a978b30bb4069ef93fc3ef1707fe1abd6861d4e01cf4/pycorewlan-1.0.1.tar.gz
+[2024-05-29 14:05:40] INFO root fetch - processPackages [simpn]: executing diffoscope
+[2024-05-29 14:05:40] INFO root fetch - processPackages [simpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpn-1.2.0.tar.gz tmp/simpn-1.2.1.tar.gz --markdown 20240529/s/simpn/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-29 14:05:40] INFO root fetch - processPackages [pyCoreWLAN]: executing diffoscope
+[2024-05-29 14:05:40] INFO root fetch - processPackages [pyCoreWLAN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycorewlan-1.0.0.tar.gz tmp/pycorewlan-1.0.1.tar.gz --markdown 20240529/p/pyCoreWLAN/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-29 14:05:41] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.5.tar.gz]
+[2024-05-29 14:05:41] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.6.tar.gz]
+[2024-05-29 14:05:41] INFO root fetch - main [MainThread]: End processing [aura-tools]: success
+[2024-05-29 14:05:41] INFO root fetch - processPackages [sciobject]: Remove: archive file [/home/abi/fetcher/tmp/sciobject-0.0.1.tar.gz]
+[2024-05-29 14:05:41] INFO root fetch - processPackages [sciobject]: Remove: archive file [/home/abi/fetcher/tmp/sciobject-0.0.2.tar.gz]
+[2024-05-29 14:05:41] INFO root fetch - main [MainThread]: End processing [sciobject]: success
+[2024-05-29 14:05:41] INFO root fetch - processPackages [simpn]: Remove: archive file [/home/abi/fetcher/tmp/simpn-1.2.0.tar.gz]
+[2024-05-29 14:05:41] INFO root fetch - processPackages [simpn]: Remove: archive file [/home/abi/fetcher/tmp/simpn-1.2.1.tar.gz]
+[2024-05-29 14:05:41] INFO root fetch - main [MainThread]: End processing [simpn]: success
+[2024-05-29 14:05:41] INFO root fetch - processPackages [pyCoreWLAN]: Remove: archive file [/home/abi/fetcher/tmp/pycorewlan-1.0.0.tar.gz]
+[2024-05-29 14:05:41] INFO root fetch - processPackages [pyCoreWLAN]: Remove: archive file [/home/abi/fetcher/tmp/pycorewlan-1.0.1.tar.gz]
+[2024-05-29 14:05:41] INFO root fetch - main [MainThread]: End processing [pyCoreWLAN]: success
+[2024-05-29 14:05:41] INFO root fetch - main [MainThread]: Store serial: [23429211]
