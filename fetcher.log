@@ -17022,3 +17022,78 @@
 [2024-05-29 11:32:19] INFO root fetch - processPackages [invenio-theme-tuw]: Remove: archive file [/home/abi/fetcher/tmp/invenio_theme_tuw-2024.1.4.tar.gz]
 [2024-05-29 11:32:19] INFO root fetch - main [MainThread]: End processing [invenio-theme-tuw]: success
 [2024-05-29 11:32:19] INFO root fetch - main [MainThread]: Store serial: [23427432]
+[2024-05-29 11:34:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23427432]
+[2024-05-29 11:34:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-29 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-bot
+[2024-05-29 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: castle-ai
+[2024-05-29 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: StdioBridge
+[2024-05-29 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rox-septentrio
+[2024-05-29 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inspect-ai
+[2024-05-29 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulp-ansible
+[2024-05-29 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulp-ansible-client
+[2024-05-29 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trickkiste
+[2024-05-29 11:34:29] INFO root fetch - processPackages [trickkiste]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 11:34:29] INFO root fetch - processPackages [castle-ai]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-05-29 11:34:29] INFO root fetch - processPackages [StdioBridge]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-29 11:34:29] INFO root fetch - processPackages [trickkiste]: Downloading https://files.pythonhosted.org/packages/78/e0/58eb92fd05bdc4a4bd61a05240173799ae511f7dbad7859e00f39d1d507e/trickkiste-0.0.8.tar.gz
+[2024-05-29 11:34:29] INFO root fetch - processPackages [rox-septentrio]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-29 11:34:29] INFO root fetch - processPackages [inspect-ai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-29 11:34:29] INFO root fetch - processPackages [antchain-bot]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-05-29 11:34:29] INFO root fetch - processPackages [pulp-ansible]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-29 11:34:29] INFO root fetch - processPackages [pulp-ansible-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-29 11:34:29] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/0d/86/cbf1b955dbc338cc6302fd0ed42f2ae42c1245a00c6439e1fba6cae53d92/antchain_bot-1.9.7.tar.gz
+[2024-05-29 11:34:29] INFO root fetch - processPackages [StdioBridge]: Downloading https://files.pythonhosted.org/packages/27/f1/5632ad83b52d0ca074dabb413e400bc3c741d4954229a6636c16f991d1b5/StdioBridge-1.2.3.tar.gz
+[2024-05-29 11:34:29] INFO root fetch - processPackages [castle-ai]: Downloading https://files.pythonhosted.org/packages/fd/09/666eeb5dde800bbaadeeb7572774ff4f4528a4f8d03d3b9e1742b0456a9a/castle_ai-0.0.6.tar.gz
+[2024-05-29 11:34:29] INFO root fetch - processPackages [rox-septentrio]: Downloading https://files.pythonhosted.org/packages/15/23/7fc7087fdcdd0648e5dcd591f99dac47c485273f310b0880130f6c95a181/rox_septentrio-0.3.0.tar.gz
+[2024-05-29 11:34:29] INFO root fetch - processPackages [trickkiste]: Downloading https://files.pythonhosted.org/packages/c9/fe/c51598ca690974fec9d5b33dd72f6a37c647780087293eec5f61c46deefe/trickkiste-0.0.9.tar.gz
+[2024-05-29 11:34:29] INFO root fetch - processPackages [pulp-ansible-client]: Downloading https://files.pythonhosted.org/packages/f9/b1/73071a21ca569d00218daa10feb86f7c77a90bcf326d67ec0d3bce2f26a2/pulp_ansible-client-0.9.1.tar.gz
+[2024-05-29 11:34:29] INFO root fetch - processPackages [inspect-ai]: Downloading https://files.pythonhosted.org/packages/be/3c/ce39871a9fa52145c11df5d64abfbaa7117243b9473396cf2b85eca1d741/inspect_ai-0.3.8.tar.gz
+[2024-05-29 11:34:30] INFO root fetch - processPackages [pulp-ansible]: Downloading https://files.pythonhosted.org/packages/62/2c/e1b7d3b2bf694e5b527aece5c0ff297ce5b7a35e0a1288e77cdf9e9288b6/pulp-ansible-0.9.1.tar.gz
+[2024-05-29 11:34:30] INFO root fetch - processPackages [trickkiste]: executing diffoscope
+[2024-05-29 11:34:30] INFO root fetch - processPackages [trickkiste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trickkiste-0.0.8.tar.gz tmp/trickkiste-0.0.9.tar.gz --markdown 20240529/t/trickkiste/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 11:34:30] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/fa/96/2ef07a099db771e78580bcb8a6f9269b6404019fd3aefd68b80738181db3/antchain_bot-1.9.8.tar.gz
+[2024-05-29 11:34:30] INFO root fetch - processPackages [StdioBridge]: Downloading https://files.pythonhosted.org/packages/a3/00/fd6a2c847fc39b22b6f881fea5e4addea86f2f49664eaa0d6714bd68e35e/StdioBridge-1.2.4.tar.gz
+[2024-05-29 11:34:30] INFO root fetch - processPackages [rox-septentrio]: Downloading https://files.pythonhosted.org/packages/fb/1b/dd983330b6fd770c02e9abc3f7ac2368edfdff4dceb8e300b99428c07a62/rox_septentrio-0.3.1.tar.gz
+[2024-05-29 11:34:30] INFO root fetch - processPackages [castle-ai]: Downloading https://files.pythonhosted.org/packages/51/eb/864a95f75f4e42b5838794a521a728ad782f1bf47f4647fd178ee459bc4b/castle_ai-0.0.8.tar.gz
+[2024-05-29 11:34:30] INFO root fetch - processPackages [StdioBridge]: executing diffoscope
+[2024-05-29 11:34:30] INFO root fetch - processPackages [StdioBridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StdioBridge-1.2.3.tar.gz tmp/StdioBridge-1.2.4.tar.gz --markdown 20240529/S/StdioBridge/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-29 11:34:30] INFO root fetch - processPackages [pulp-ansible-client]: Downloading https://files.pythonhosted.org/packages/0f/9f/cbcaea9dbbc573d1e5619eeedcc30accc9083b017ae0f26afd6e9a170cca/pulp_ansible-client-0.9.2.tar.gz
+[2024-05-29 11:34:30] INFO root fetch - processPackages [rox-septentrio]: executing diffoscope
+[2024-05-29 11:34:30] INFO root fetch - processPackages [rox-septentrio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rox_septentrio-0.3.0.tar.gz tmp/rox_septentrio-0.3.1.tar.gz --markdown 20240529/r/rox-septentrio/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-29 11:34:30] INFO root fetch - processPackages [pulp-ansible-client]: executing diffoscope
+[2024-05-29 11:34:30] INFO root fetch - processPackages [pulp-ansible-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_ansible-client-0.9.1.tar.gz tmp/pulp_ansible-client-0.9.2.tar.gz --markdown 20240529/p/pulp-ansible-client/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-29 11:34:30] INFO root fetch - processPackages [castle-ai]: executing diffoscope
+[2024-05-29 11:34:30] INFO root fetch - processPackages [castle-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castle_ai-0.0.6.tar.gz tmp/castle_ai-0.0.8.tar.gz --markdown 20240529/c/castle-ai/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-05-29 11:34:30] INFO root fetch - processPackages [antchain-bot]: executing diffoscope
+[2024-05-29 11:34:30] INFO root fetch - processPackages [antchain-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bot-1.9.7.tar.gz tmp/antchain_bot-1.9.8.tar.gz --markdown 20240529/a/antchain-bot/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-05-29 11:34:30] INFO root fetch - processPackages [trickkiste]: Remove: archive file [/home/abi/fetcher/tmp/trickkiste-0.0.8.tar.gz]
+[2024-05-29 11:34:30] INFO root fetch - processPackages [trickkiste]: Remove: archive file [/home/abi/fetcher/tmp/trickkiste-0.0.9.tar.gz]
+[2024-05-29 11:34:30] INFO root fetch - main [MainThread]: End processing [trickkiste]: success
+[2024-05-29 11:34:30] INFO root fetch - processPackages [inspect-ai]: Downloading https://files.pythonhosted.org/packages/3d/c4/9425e714d9b049e5f8bb077df243d9f17be0493ec98c1edb3547d8d55788/inspect_ai-0.3.9.tar.gz
+[2024-05-29 11:34:30] INFO root fetch - processPackages [StdioBridge]: Remove: archive file [/home/abi/fetcher/tmp/StdioBridge-1.2.3.tar.gz]
+[2024-05-29 11:34:30] INFO root fetch - processPackages [StdioBridge]: Remove: archive file [/home/abi/fetcher/tmp/StdioBridge-1.2.4.tar.gz]
+[2024-05-29 11:34:30] INFO root fetch - main [MainThread]: End processing [StdioBridge]: success
+[2024-05-29 11:34:31] INFO root fetch - processPackages [rox-septentrio]: Remove: archive file [/home/abi/fetcher/tmp/rox_septentrio-0.3.0.tar.gz]
+[2024-05-29 11:34:31] INFO root fetch - processPackages [rox-septentrio]: Remove: archive file [/home/abi/fetcher/tmp/rox_septentrio-0.3.1.tar.gz]
+[2024-05-29 11:34:31] INFO root fetch - main [MainThread]: End processing [rox-septentrio]: success
+[2024-05-29 11:34:31] INFO root fetch - processPackages [castle-ai]: Remove: archive file [/home/abi/fetcher/tmp/castle_ai-0.0.6.tar.gz]
+[2024-05-29 11:34:31] INFO root fetch - processPackages [castle-ai]: Remove: archive file [/home/abi/fetcher/tmp/castle_ai-0.0.8.tar.gz]
+[2024-05-29 11:34:31] INFO root fetch - main [MainThread]: End processing [castle-ai]: success
+[2024-05-29 11:34:31] INFO root fetch - processPackages [pulp-ansible-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_ansible-client-0.9.1.tar.gz]
+[2024-05-29 11:34:31] INFO root fetch - processPackages [pulp-ansible-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_ansible-client-0.9.2.tar.gz]
+[2024-05-29 11:34:31] INFO root fetch - main [MainThread]: End processing [pulp-ansible-client]: success
+[2024-05-29 11:34:31] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.9.7.tar.gz]
+[2024-05-29 11:34:31] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.9.8.tar.gz]
+[2024-05-29 11:34:31] INFO root fetch - main [MainThread]: End processing [antchain-bot]: success
+[2024-05-29 11:34:31] INFO root fetch - processPackages [pulp-ansible]: Downloading https://files.pythonhosted.org/packages/b8/7c/698a44eb6120b3c5dbf2a80023bfeda1f9bf6400d2a563351bd9093e44f3/pulp-ansible-0.9.2.tar.gz
+[2024-05-29 11:34:32] INFO root fetch - processPackages [pulp-ansible]: executing diffoscope
+[2024-05-29 11:34:32] INFO root fetch - processPackages [pulp-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-ansible-0.9.1.tar.gz tmp/pulp-ansible-0.9.2.tar.gz --markdown 20240529/p/pulp-ansible/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-29 11:34:32] INFO root fetch - processPackages [inspect-ai]: executing diffoscope
+[2024-05-29 11:34:32] INFO root fetch - processPackages [inspect-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspect_ai-0.3.8.tar.gz tmp/inspect_ai-0.3.9.tar.gz --markdown 20240529/i/inspect-ai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-29 11:34:32] INFO root fetch - processPackages [pulp-ansible]: Remove: archive file [/home/abi/fetcher/tmp/pulp-ansible-0.9.1.tar.gz]
+[2024-05-29 11:34:32] INFO root fetch - processPackages [pulp-ansible]: Remove: archive file [/home/abi/fetcher/tmp/pulp-ansible-0.9.2.tar.gz]
+[2024-05-29 11:34:32] INFO root fetch - main [MainThread]: End processing [pulp-ansible]: success
+[2024-05-29 11:34:34] INFO root fetch - processPackages [inspect-ai]: Remove: archive file [/home/abi/fetcher/tmp/inspect_ai-0.3.8.tar.gz]
+[2024-05-29 11:34:34] INFO root fetch - processPackages [inspect-ai]: Remove: archive file [/home/abi/fetcher/tmp/inspect_ai-0.3.9.tar.gz]
+[2024-05-29 11:34:34] INFO root fetch - main [MainThread]: End processing [inspect-ai]: success
+[2024-05-29 11:34:34] INFO root fetch - main [MainThread]: Store serial: [23427458]
