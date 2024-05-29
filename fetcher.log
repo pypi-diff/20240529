@@ -3041,3 +3041,33 @@
 [2024-05-29 02:52:12] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
 [2024-05-29 02:52:12] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
 [2024-05-29 02:52:12] INFO root fetch - main [MainThread]: Store serial: [23421428]
+[2024-05-29 02:54:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421428]
+[2024-05-29 02:54:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 02:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapbox-vector-tile
+[2024-05-29 02:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alliance-platform-frontend
+[2024-05-29 02:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-vector-stores-opensearch
+[2024-05-29 02:54:20] INFO root fetch - processPackages [alliance-platform-frontend]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-29 02:54:20] INFO root fetch - processPackages [llama-index-vector-stores-opensearch]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 02:54:20] INFO root fetch - processPackages [mapbox-vector-tile]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-05-29 02:54:20] INFO root fetch - processPackages [llama-index-vector-stores-opensearch]: Downloading https://files.pythonhosted.org/packages/83/3a/4bd2030c159d662fe8261ab36cb94be4bf09bd0b4ec151854905e26e0e37/llama_index_vector_stores_opensearch-0.1.8.tar.gz
+[2024-05-29 02:54:20] INFO root fetch - processPackages [alliance-platform-frontend]: Downloading https://files.pythonhosted.org/packages/f0/83/717b981c74359e432d69c0d0c796dd7539e5eaee797c9f512da7d4779600/alliance_platform_frontend-0.0.7.tar.gz
+[2024-05-29 02:54:20] INFO root fetch - processPackages [mapbox-vector-tile]: Downloading https://files.pythonhosted.org/packages/c9/ec/5dffa07771444d5ea52585276be1f157a19fcf639d5b06aeb08f31ed6551/mapbox_vector_tile-2.0.1.tar.gz
+[2024-05-29 02:54:20] INFO root fetch - processPackages [llama-index-vector-stores-opensearch]: Downloading https://files.pythonhosted.org/packages/c2/fb/5e0cc951c7f141788ef08999593f151270fb666f65b0b7cefde09a802fd2/llama_index_vector_stores_opensearch-0.1.9.tar.gz
+[2024-05-29 02:54:21] INFO root fetch - processPackages [llama-index-vector-stores-opensearch]: executing diffoscope
+[2024-05-29 02:54:21] INFO root fetch - processPackages [llama-index-vector-stores-opensearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_opensearch-0.1.8.tar.gz tmp/llama_index_vector_stores_opensearch-0.1.9.tar.gz --markdown 20240529/l/llama-index-vector-stores-opensearch/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 02:54:21] INFO root fetch - processPackages [alliance-platform-frontend]: Downloading https://files.pythonhosted.org/packages/6f/3b/65ffe3012e0a6e39cd3f351f37225f529097934d426b0a2e15dc422aaf07/alliance_platform_frontend-0.0.8.tar.gz
+[2024-05-29 02:54:21] INFO root fetch - processPackages [mapbox-vector-tile]: Downloading https://files.pythonhosted.org/packages/86/e6/4fe7ac6f3c2302cf81a1acc373a3e60659b7443eb08da3067a3f7b8a2fa7/mapbox_vector_tile-2.1.0.tar.gz
+[2024-05-29 02:54:21] INFO root fetch - processPackages [mapbox-vector-tile]: executing diffoscope
+[2024-05-29 02:54:21] INFO root fetch - processPackages [mapbox-vector-tile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbox_vector_tile-2.0.1.tar.gz tmp/mapbox_vector_tile-2.1.0.tar.gz --markdown 20240529/m/mapbox-vector-tile/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-05-29 02:54:21] INFO root fetch - processPackages [alliance-platform-frontend]: executing diffoscope
+[2024-05-29 02:54:21] INFO root fetch - processPackages [alliance-platform-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alliance_platform_frontend-0.0.7.tar.gz tmp/alliance_platform_frontend-0.0.8.tar.gz --markdown 20240529/a/alliance-platform-frontend/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-29 02:54:21] INFO root fetch - processPackages [llama-index-vector-stores-opensearch]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_opensearch-0.1.8.tar.gz]
+[2024-05-29 02:54:21] INFO root fetch - processPackages [llama-index-vector-stores-opensearch]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_opensearch-0.1.9.tar.gz]
+[2024-05-29 02:54:21] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-opensearch]: success
+[2024-05-29 02:54:21] INFO root fetch - processPackages [mapbox-vector-tile]: Remove: archive file [/home/abi/fetcher/tmp/mapbox_vector_tile-2.0.1.tar.gz]
+[2024-05-29 02:54:21] INFO root fetch - processPackages [mapbox-vector-tile]: Remove: archive file [/home/abi/fetcher/tmp/mapbox_vector_tile-2.1.0.tar.gz]
+[2024-05-29 02:54:21] INFO root fetch - main [MainThread]: End processing [mapbox-vector-tile]: success
+[2024-05-29 02:54:21] INFO root fetch - processPackages [alliance-platform-frontend]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_frontend-0.0.7.tar.gz]
+[2024-05-29 02:54:21] INFO root fetch - processPackages [alliance-platform-frontend]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_frontend-0.0.8.tar.gz]
+[2024-05-29 02:54:21] INFO root fetch - main [MainThread]: End processing [alliance-platform-frontend]: success
+[2024-05-29 02:54:21] INFO root fetch - main [MainThread]: Store serial: [23421437]
