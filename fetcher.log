@@ -9221,3 +9221,54 @@
 [2024-05-29 05:58:31] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17169054.tar.gz]
 [2024-05-29 05:58:31] INFO root fetch - main [MainThread]: End processing [utilmy]: success
 [2024-05-29 05:58:31] INFO root fetch - main [MainThread]: Store serial: [23423768]
+[2024-05-29 06:00:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423768]
+[2024-05-29 06:00:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: youqu
+[2024-05-29 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WuttJamaican
+[2024-05-29 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scuba
+[2024-05-29 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygame-timer
+[2024-05-29 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-cloudflare
+[2024-05-29 06:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GnosisTech
+[2024-05-29 06:00:41] INFO root fetch - processPackages [WuttJamaican]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 06:00:41] WARNING root fetch - processPackages [pygame-timer]: Skipping, unable to determine old version
+[2024-05-29 06:00:41] INFO root fetch - main [MainThread]: End processing [pygame-timer] error
+[2024-05-29 06:00:41] INFO root fetch - processPackages [GnosisTech]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-29 06:00:41] INFO root fetch - processPackages [scuba]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-29 06:00:41] INFO root fetch - processPackages [youqu]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-05-29 06:00:41] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-29 06:00:41] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/bd/65/54104819ea06ac855613c13c85046ae178316ac72f2431ea57c0abf09de6/gnosistech-0.1.6.tar.gz
+[2024-05-29 06:00:41] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/74/12/c6e49ba007485b0b638b526460bd96a51778532acc3ed5a638b7eefddc0c/youqu-2.6.1.tar.gz
+[2024-05-29 06:00:41] INFO root fetch - processPackages [WuttJamaican]: Downloading https://files.pythonhosted.org/packages/6e/fb/9eb9da2d1e88a17f17bdfbb3ee8e54e10b86bc6b409af31e541862660a9c/WuttJamaican-0.1.8.tar.gz
+[2024-05-29 06:00:41] INFO root fetch - processPackages [scuba]: Downloading https://files.pythonhosted.org/packages/09/eb/df5ed1629fa4f0f1d1fa49f096cf714b0f381ea6e3cf71029aa167259fd7/scuba-2.8.0.tar.gz
+[2024-05-29 06:00:41] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/ef/1d/47980234b22b73ec1a015c99f0266dc8e67a9f9df050d7bc149ca49d2ce8/cdktf-cdktf-provider-cloudflare-9.0.2.tar.gz
+[2024-05-29 06:00:41] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/5d/d1/584f88270bd1f5dfd933a42cb3eaa2c1aa0a3315f998792e7b89a0f95817/gnosistech-0.1.7.tar.gz
+[2024-05-29 06:00:41] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/cf/6c/5b28a3c029626cccefb0158b38a9c20f21a1aedf3605ee0734eb8f2cbdf0/youqu-2.6.2.tar.gz
+[2024-05-29 06:00:41] INFO root fetch - processPackages [GnosisTech]: executing diffoscope
+[2024-05-29 06:00:41] INFO root fetch - processPackages [GnosisTech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnosistech-0.1.6.tar.gz tmp/gnosistech-0.1.7.tar.gz --markdown 20240529/G/GnosisTech/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-29 06:00:42] INFO root fetch - processPackages [youqu]: executing diffoscope
+[2024-05-29 06:00:42] INFO root fetch - processPackages [youqu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youqu-2.6.1.tar.gz tmp/youqu-2.6.2.tar.gz --markdown 20240529/y/youqu/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-05-29 06:00:42] INFO root fetch - processPackages [WuttJamaican]: Downloading https://files.pythonhosted.org/packages/1f/09/8a0924891f1784a5eaafb6e7e2323d21dbbbf6c06652be301fc77750ea77/WuttJamaican-0.1.9.tar.gz
+[2024-05-29 06:00:42] INFO root fetch - processPackages [scuba]: Downloading https://files.pythonhosted.org/packages/04/59/3267ce7532430323cf6abdb000c81e970ab6c7645feca73223eb53f9e4bf/scuba-2.9.0.tar.gz
+[2024-05-29 06:00:42] INFO root fetch - processPackages [WuttJamaican]: executing diffoscope
+[2024-05-29 06:00:42] INFO root fetch - processPackages [WuttJamaican]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WuttJamaican-0.1.8.tar.gz tmp/WuttJamaican-0.1.9.tar.gz --markdown 20240529/W/WuttJamaican/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 06:00:42] INFO root fetch - processPackages [scuba]: executing diffoscope
+[2024-05-29 06:00:42] INFO root fetch - processPackages [scuba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scuba-2.8.0.tar.gz tmp/scuba-2.9.0.tar.gz --markdown 20240529/s/scuba/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-29 06:00:42] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.6.tar.gz]
+[2024-05-29 06:00:42] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.7.tar.gz]
+[2024-05-29 06:00:42] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
+[2024-05-29 06:00:42] INFO root fetch - processPackages [scuba]: Remove: archive file [/home/abi/fetcher/tmp/scuba-2.8.0.tar.gz]
+[2024-05-29 06:00:42] INFO root fetch - processPackages [scuba]: Remove: archive file [/home/abi/fetcher/tmp/scuba-2.9.0.tar.gz]
+[2024-05-29 06:00:42] INFO root fetch - main [MainThread]: End processing [scuba]: success
+[2024-05-29 06:00:42] INFO root fetch - processPackages [WuttJamaican]: Remove: archive file [/home/abi/fetcher/tmp/WuttJamaican-0.1.8.tar.gz]
+[2024-05-29 06:00:42] INFO root fetch - processPackages [WuttJamaican]: Remove: archive file [/home/abi/fetcher/tmp/WuttJamaican-0.1.9.tar.gz]
+[2024-05-29 06:00:42] INFO root fetch - main [MainThread]: End processing [WuttJamaican]: success
+[2024-05-29 06:00:43] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.6.1.tar.gz]
+[2024-05-29 06:00:43] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.6.2.tar.gz]
+[2024-05-29 06:00:43] INFO root fetch - main [MainThread]: End processing [youqu]: success
+[2024-05-29 06:00:43] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/a1/76/e6a7ef5b0999691153ea9a178c77941e95bd157fd1c0a4140a6e760e6613/cdktf-cdktf-provider-cloudflare-9.0.3.tar.gz
+[2024-05-29 06:00:44] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: executing diffoscope
+[2024-05-29 06:00:44] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-cloudflare-9.0.2.tar.gz tmp/cdktf-cdktf-provider-cloudflare-9.0.3.tar.gz --markdown 20240529/c/cdktf-cdktf-provider-cloudflare/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-29 06:00:48] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-9.0.2.tar.gz]
+[2024-05-29 06:00:48] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-9.0.3.tar.gz]
+[2024-05-29 06:00:48] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
+[2024-05-29 06:00:48] INFO root fetch - main [MainThread]: Store serial: [23423787]
