@@ -3215,3 +3215,39 @@
 [2024-05-29 03:01:15] INFO root fetch - processPackages [sleap]: Remove: archive file [/home/abi/fetcher/tmp/sleap-1.4.1a0-py3-none-any.whl.zip]
 [2024-05-29 03:01:15] INFO root fetch - main [MainThread]: End processing [sleap]: success
 [2024-05-29 03:01:15] INFO root fetch - main [MainThread]: Store serial: [23421503]
+[2024-05-29 03:03:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421503]
+[2024-05-29 03:03:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2024-05-29 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: altimate-datapilot-cli
+[2024-05-29 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-data-transfer-models
+[2024-05-29 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidstats
+[2024-05-29 03:03:23] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-29 03:03:24] INFO root fetch - processPackages [aind-data-transfer-models]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-29 03:03:24] INFO root fetch - processPackages [altimate-datapilot-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 03:03:24] INFO root fetch - processPackages [rapidstats]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 03:03:24] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-05-29 03:03:24] INFO root fetch - processPackages [altimate-datapilot-cli]: Downloading https://files.pythonhosted.org/packages/ea/bb/48a59c7c829175eb3149c6adf5c2f503ca84ad79625a14efb4056185387c/altimate-datapilot-cli-0.0.8.tar.gz
+[2024-05-29 03:03:24] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-05-29 03:03:24] INFO root fetch - processPackages [rapidstats]: Downloading https://files.pythonhosted.org/packages/e9/ac/fd539790817e71afc32e0af5b30fdbb2de98a8cabef6c6024f283a45ac89/rapidstats-0.0.1.tar.gz
+[2024-05-29 03:03:24] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-05-29 03:03:24] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240529/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-29 03:03:24] INFO root fetch - processPackages [aind-data-transfer-models]: Downloading https://files.pythonhosted.org/packages/33/dd/1735798922b2c884e19e5f84769723324c36bad091f02d32b64a988891ba/aind_data_transfer_models-0.3.0.tar.gz
+[2024-05-29 03:03:24] INFO root fetch - processPackages [rapidstats]: Downloading https://files.pythonhosted.org/packages/00/be/d8324e95b580bf2c83d88dc43dd992298d93b407b1ec1e5bc276926d9105/rapidstats-0.0.2-pp39-pypy39_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl
+[2024-05-29 03:03:24] INFO root fetch - processPackages [altimate-datapilot-cli]: Downloading https://files.pythonhosted.org/packages/ed/cc/5c354145ec1a88da4b65f3eb99b322fed53860f9d6c58b57fef26dc08a34/altimate-datapilot-cli-0.0.9.tar.gz
+[2024-05-29 03:03:24] INFO root fetch - processPackages [aind-data-transfer-models]: Downloading https://files.pythonhosted.org/packages/ce/25/0d82a6a9b8d8d78b8cd49eb500e6b14f1ecbf31f148cf3db009af83a2e50/aind_data_transfer_models-0.4.0.tar.gz
+[2024-05-29 03:03:24] INFO root fetch - processPackages [altimate-datapilot-cli]: executing diffoscope
+[2024-05-29 03:03:24] INFO root fetch - processPackages [altimate-datapilot-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altimate-datapilot-cli-0.0.8.tar.gz tmp/altimate-datapilot-cli-0.0.9.tar.gz --markdown 20240529/a/altimate-datapilot-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 03:03:24] INFO root fetch - processPackages [aind-data-transfer-models]: executing diffoscope
+[2024-05-29 03:03:24] INFO root fetch - processPackages [aind-data-transfer-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_data_transfer_models-0.3.0.tar.gz tmp/aind_data_transfer_models-0.4.0.tar.gz --markdown 20240529/a/aind-data-transfer-models/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-29 03:03:24] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-05-29 03:03:24] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-05-29 03:03:24] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-05-29 03:03:25] WARNING root fetch - processPackages [rapidstats]: Skipping package: exceeds size limit 12388669>=10485760
+[2024-05-29 03:03:25] INFO root fetch - main [MainThread]: End processing [rapidstats] error
+[2024-05-29 03:03:25] INFO root fetch - processPackages [aind-data-transfer-models]: Remove: archive file [/home/abi/fetcher/tmp/aind_data_transfer_models-0.3.0.tar.gz]
+[2024-05-29 03:03:25] INFO root fetch - processPackages [aind-data-transfer-models]: Remove: archive file [/home/abi/fetcher/tmp/aind_data_transfer_models-0.4.0.tar.gz]
+[2024-05-29 03:03:25] INFO root fetch - main [MainThread]: End processing [aind-data-transfer-models]: success
+[2024-05-29 03:03:26] INFO root fetch - processPackages [altimate-datapilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/altimate-datapilot-cli-0.0.8.tar.gz]
+[2024-05-29 03:03:26] INFO root fetch - processPackages [altimate-datapilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/altimate-datapilot-cli-0.0.9.tar.gz]
+[2024-05-29 03:03:26] INFO root fetch - main [MainThread]: End processing [altimate-datapilot-cli]: success
+[2024-05-29 03:03:26] INFO root fetch - main [MainThread]: Store serial: [23421532]
