@@ -22275,3 +22275,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:48:17] INFO root fetch - processPackages [qeschema]: Remove: archive file [/home/abi/fetcher/tmp/qeschema-1.5.2.tar.gz]
 [2024-05-29 14:48:17] INFO root fetch - main [MainThread]: End processing [qeschema]: success
 [2024-05-29 14:48:17] INFO root fetch - main [MainThread]: Store serial: [23429868]
+[2024-05-29 14:50:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429868]
+[2024-05-29 14:50:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-29 14:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-05-29 14:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cosmosis
+[2024-05-29 14:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plyball
+[2024-05-29 14:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2024-05-29 14:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-ditto-pandas
+[2024-05-29 14:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: science-jubilee
+[2024-05-29 14:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfast-sqlite
+[2024-05-29 14:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agenta
+[2024-05-29 14:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fb-vmware
+[2024-05-29 14:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tagpack-tool
+[2024-05-29 14:50:26] INFO root fetch - processPackages [plyball]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-29 14:50:26] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-29 14:50:26] INFO root fetch - processPackages [fb-vmware]: New version: [1.0.0] Old Version: [0.6.2]
+[2024-05-29 14:50:26] INFO root fetch - processPackages [pyfast-sqlite]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-29 14:50:26] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-29 14:50:26] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/a5/3b/a680822a4cec8d52c765cb4f3b0d49c9ed50dcd744598276a21c65b976f7/plyball-2.3.0.tar.gz
+[2024-05-29 14:50:26] INFO root fetch - processPackages [science-jubilee]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-29 14:50:26] INFO root fetch - processPackages [cosmosis]: New version: [3.7] Old Version: [3.6]
+[2024-05-29 14:50:26] INFO root fetch - processPackages [tagpack-tool]: New version: [24.1.4] Old Version: [24.1.3]
+[2024-05-29 14:50:26] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-29 14:50:26] WARNING root fetch - processPackages [pytest-ditto-pandas]: Skipping, unable to determine old version
+[2024-05-29 14:50:26] INFO root fetch - processPackages [pytest-ditto-pandas]: Start processing: astro-test-package
+[2024-05-29 14:50:26] INFO root fetch - main [MainThread]: End processing [pytest-ditto-pandas] error
+[2024-05-29 14:50:26] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-29 14:50:26] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-29 14:50:26] INFO root fetch - processPackages [fb-vmware]: Downloading https://files.pythonhosted.org/packages/ee/84/b33aee78cba048e2a16e45a783325019eb573d8cc0acf1a22fdc931cef88/fb_vmware-0.6.2.tar.gz
+[2024-05-29 14:50:26] INFO root fetch - processPackages [pyfast-sqlite]: Downloading https://files.pythonhosted.org/packages/a2/ad/3ceee4cb84ee01500de88455e1adc6f6729c0b200ba047f79662b67210e0/pyfast_sqlite-0.0.2.tar.gz
+[2024-05-29 14:50:26] INFO root fetch - processPackages [cosmosis]: Downloading https://files.pythonhosted.org/packages/77/bb/404c602ab98531d1d9b15afc11ec9bb21a0d81f606691ae59ab4e92451db/cosmosis-3.6.tar.gz
+[2024-05-29 14:50:26] INFO root fetch - processPackages [astro-test-package]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 14:50:26] INFO root fetch - processPackages [science-jubilee]: Downloading https://files.pythonhosted.org/packages/85/82/62786064b83a348791082ce619a3329d2f2db4b67781ee40ce68d086dda1/science_jubilee-0.3.1-py3-none-any.whl
+[2024-05-29 14:50:27] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [tagpack-tool]: Downloading https://files.pythonhosted.org/packages/27/3e/3599ea32910de5f5a08c80e07928094109e795b212b870e5435ff2601d22/tagpack_tool-24.1.3.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [fb-vmware]: Downloading https://files.pythonhosted.org/packages/f8/51/5bf42b48b30e1027f4ab11b84d4a407c16a865506bdefc33379812718161/fb_vmware-1.0.0.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/b8/d3/e1bafc5978ec45d67beb14310b43fccbc825671fb0b9d36249a2002bfbba/plyball-2.3.1.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [pyfast-sqlite]: Downloading https://files.pythonhosted.org/packages/57/2b/539eae0a0eb8e28d2dc5e835537ccdace3b073687fc18ae7fbadbb7b9250/pyfast_sqlite-0.0.3.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [astro-test-package]: Downloading https://files.pythonhosted.org/packages/d2/f8/94ecb476f38fe04e962f5118894e09466ed0ed099aee57dae106143c9d77/astro_test_package-0.0.1.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-29 14:50:27] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-29 14:50:27] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240529/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-29 14:50:27] INFO root fetch - processPackages [plyball]: executing diffoscope
+[2024-05-29 14:50:27] INFO root fetch - processPackages [plyball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plyball-2.3.0.tar.gz tmp/plyball-2.3.1.tar.gz --markdown 20240529/p/plyball/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-29 14:50:27] INFO root fetch - processPackages [fb-vmware]: executing diffoscope
+[2024-05-29 14:50:27] INFO root fetch - processPackages [fb-vmware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb_vmware-0.6.2.tar.gz tmp/fb_vmware-1.0.0.tar.gz --markdown 20240529/f/fb-vmware/0.6.2-1.0.0/README.md --exclude *.pyd
+[2024-05-29 14:50:27] INFO root fetch - processPackages [pyfast-sqlite]: executing diffoscope
+[2024-05-29 14:50:27] INFO root fetch - processPackages [pyfast-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfast_sqlite-0.0.2.tar.gz tmp/pyfast_sqlite-0.0.3.tar.gz --markdown 20240529/p/pyfast-sqlite/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-29 14:50:27] INFO root fetch - processPackages [cosmosis]: Downloading https://files.pythonhosted.org/packages/3a/8c/c769d22ff3b10b1b8a9805efaecabd0b74187e57a105c459534fd3673a08/cosmosis-3.7.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [science-jubilee]: Downloading https://files.pythonhosted.org/packages/6c/da/3cedd9b38f8ff51f5e6488bd0167570d24bb92cda36b84e84092a05bb062/science_jubilee-0.3.2.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-29 14:50:27] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240529/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-29 14:50:27] INFO root fetch - processPackages [tagpack-tool]: Downloading https://files.pythonhosted.org/packages/65/ea/192675d73899128e664e2dc02e8a9fd62fb2bec9b009ad892394568c8362/tagpack_tool-24.1.4.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [cosmosis]: executing diffoscope
+[2024-05-29 14:50:27] INFO root fetch - processPackages [cosmosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmosis-3.6.tar.gz tmp/cosmosis-3.7.tar.gz --markdown 20240529/c/cosmosis/3.6-3.7/README.md --exclude *.pyd
+[2024-05-29 14:50:27] INFO root fetch - processPackages [astro-test-package]: Downloading https://files.pythonhosted.org/packages/1c/3f/54963b8b34ce28c953fe3863bfd9057e70a1640cd7c0e56426928efa6fe5/astro_test_package-0.0.2.tar.gz
+[2024-05-29 14:50:27] INFO root fetch - processPackages [science-jubilee]: executing diffoscope
+[2024-05-29 14:50:27] INFO root fetch - processPackages [science-jubilee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/science_jubilee-0.3.1-py3-none-any.whl.zip tmp/science_jubilee-0.3.2.tar.gz --markdown 20240529/s/science-jubilee/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-29 14:50:27] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-29 14:50:27] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240529/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-29 14:50:27] INFO root fetch - processPackages [tagpack-tool]: executing diffoscope
+[2024-05-29 14:50:27] INFO root fetch - processPackages [tagpack-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tagpack_tool-24.1.3.tar.gz tmp/tagpack_tool-24.1.4.tar.gz --markdown 20240529/t/tagpack-tool/24.1.3-24.1.4/README.md --exclude *.pyd
+[2024-05-29 14:50:27] INFO root fetch - processPackages [astro-test-package]: executing diffoscope
+[2024-05-29 14:50:27] INFO root fetch - processPackages [astro-test-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_test_package-0.0.1.tar.gz tmp/astro_test_package-0.0.2.tar.gz --markdown 20240529/a/astro-test-package/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 14:50:28] INFO root fetch - processPackages [pyfast-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/pyfast_sqlite-0.0.2.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - processPackages [pyfast-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/pyfast_sqlite-0.0.3.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - main [MainThread]: End processing [pyfast-sqlite]: success
+[2024-05-29 14:50:28] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.3.0.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.3.1.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - main [MainThread]: End processing [plyball]: success
+[2024-05-29 14:50:28] INFO root fetch - processPackages [astro-test-package]: Remove: archive file [/home/abi/fetcher/tmp/astro_test_package-0.0.1.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - processPackages [astro-test-package]: Remove: archive file [/home/abi/fetcher/tmp/astro_test_package-0.0.2.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - main [MainThread]: End processing [astro-test-package]: success
+[2024-05-29 14:50:28] INFO root fetch - processPackages [science-jubilee]: Remove: archive file [/home/abi/fetcher/tmp/science_jubilee-0.3.1-py3-none-any.whl.zip]
+[2024-05-29 14:50:28] INFO root fetch - processPackages [science-jubilee]: Remove: archive file [/home/abi/fetcher/tmp/science_jubilee-0.3.2.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - main [MainThread]: End processing [science-jubilee]: success
+[2024-05-29 14:50:28] INFO root fetch - processPackages [fb-vmware]: Remove: archive file [/home/abi/fetcher/tmp/fb_vmware-0.6.2.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - processPackages [fb-vmware]: Remove: archive file [/home/abi/fetcher/tmp/fb_vmware-1.0.0.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - main [MainThread]: End processing [fb-vmware]: success
+[2024-05-29 14:50:28] INFO root fetch - processPackages [tagpack-tool]: Remove: archive file [/home/abi/fetcher/tmp/tagpack_tool-24.1.3.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - processPackages [tagpack-tool]: Remove: archive file [/home/abi/fetcher/tmp/tagpack_tool-24.1.4.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - main [MainThread]: End processing [tagpack-tool]: success
+[2024-05-29 14:50:28] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-29 14:50:28] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-29 14:50:28] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-29 14:50:29] INFO root fetch - processPackages [cosmosis]: Remove: archive file [/home/abi/fetcher/tmp/cosmosis-3.6.tar.gz]
+[2024-05-29 14:50:29] INFO root fetch - processPackages [cosmosis]: Remove: archive file [/home/abi/fetcher/tmp/cosmosis-3.7.tar.gz]
+[2024-05-29 14:50:29] INFO root fetch - main [MainThread]: End processing [cosmosis]: success
+[2024-05-29 14:50:29] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-29 14:50:29] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-29 14:50:29] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-29 14:50:29] INFO root fetch - main [MainThread]: Store serial: [23429906]
