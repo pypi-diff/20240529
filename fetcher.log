@@ -7431,3 +7431,33 @@
 [2024-05-29 04:05:01] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
 [2024-05-29 04:05:01] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
 [2024-05-29 04:05:01] INFO root fetch - main [MainThread]: Store serial: [23423095]
+[2024-05-29 04:07:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423095]
+[2024-05-29 04:07:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 04:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoto-api
+[2024-05-29 04:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: albucore
+[2024-05-29 04:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vtjson
+[2024-05-29 04:07:10] INFO root fetch - processPackages [vtjson]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-05-29 04:07:10] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/80/88/60b27f6c3988988c33d0bee917666768fecd16181038e0c0985c91cca752/vtjson-1.8.0.tar.gz
+[2024-05-29 04:07:10] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-29 04:07:10] INFO root fetch - processPackages [albucore]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 04:07:10] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-29 04:07:10] INFO root fetch - processPackages [albucore]: Downloading https://files.pythonhosted.org/packages/06/01/9252cf69faf05ff1d857e7fca2955e76e58b14a5ce67fac05781dbb73909/albucore-0.0.4.tar.gz
+[2024-05-29 04:07:10] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/6e/72/a56822cbbc1d95b23386ac59fc72ec90c012b54d3419444989692de63406/vtjson-1.8.1.tar.gz
+[2024-05-29 04:07:10] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-29 04:07:10] INFO root fetch - processPackages [vtjson]: executing diffoscope
+[2024-05-29 04:07:10] INFO root fetch - processPackages [vtjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtjson-1.8.0.tar.gz tmp/vtjson-1.8.1.tar.gz --markdown 20240529/v/vtjson/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-05-29 04:07:10] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-29 04:07:10] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240529/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-29 04:07:10] INFO root fetch - processPackages [albucore]: Downloading https://files.pythonhosted.org/packages/71/10/a15880219695c6d2559d60cfe3c445d66279c23b73b6327964adfbe6a47f/albucore-0.0.5.tar.gz
+[2024-05-29 04:07:10] INFO root fetch - processPackages [albucore]: executing diffoscope
+[2024-05-29 04:07:10] INFO root fetch - processPackages [albucore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/albucore-0.0.4.tar.gz tmp/albucore-0.0.5.tar.gz --markdown 20240529/a/albucore/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 04:07:11] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.8.0.tar.gz]
+[2024-05-29 04:07:11] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.8.1.tar.gz]
+[2024-05-29 04:07:11] INFO root fetch - main [MainThread]: End processing [vtjson]: success
+[2024-05-29 04:07:11] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-29 04:07:11] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-29 04:07:11] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-29 04:07:11] INFO root fetch - processPackages [albucore]: Remove: archive file [/home/abi/fetcher/tmp/albucore-0.0.4.tar.gz]
+[2024-05-29 04:07:11] INFO root fetch - processPackages [albucore]: Remove: archive file [/home/abi/fetcher/tmp/albucore-0.0.5.tar.gz]
+[2024-05-29 04:07:11] INFO root fetch - main [MainThread]: End processing [albucore]: success
+[2024-05-29 04:07:11] INFO root fetch - main [MainThread]: Store serial: [23423104]
