@@ -7528,3 +7528,18 @@
 [2024-05-29 04:13:53] INFO root fetch - processPackages [adios2]: Remove: archive file [/home/abi/fetcher/tmp/adios2-2.9.0.tar.gz]
 [2024-05-29 04:13:53] INFO root fetch - main [MainThread]: End processing [adios2]: success
 [2024-05-29 04:13:53] INFO root fetch - main [MainThread]: Store serial: [23423144]
+[2024-05-29 04:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423144]
+[2024-05-29 04:16:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 04:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MCPTool
+[2024-05-29 04:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web-ui-helper
+[2024-05-29 04:16:03] WARNING root fetch - processPackages [MCPTool]: Skipping, unable to determine old version
+[2024-05-29 04:16:03] INFO root fetch - main [MainThread]: End processing [MCPTool] error
+[2024-05-29 04:16:03] INFO root fetch - processPackages [web-ui-helper]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-29 04:16:03] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/4f/cc/59654311ed4145d57c5fc2fcc917efcd3a75e1afcd2e0b1b79cc678ee6d1/web-ui-helper-1.0.6.tar.gz
+[2024-05-29 04:16:03] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/ea/6d/25fe715e6d2cb5bd99626af3caa8e44e1d46b58e38d6a21c1ec39ec2bf5c/web-ui-helper-1.0.7.tar.gz
+[2024-05-29 04:16:03] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-29 04:16:03] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-1.0.6.tar.gz tmp/web-ui-helper-1.0.7.tar.gz --markdown 20240529/w/web-ui-helper/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-29 04:16:04] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-1.0.6.tar.gz]
+[2024-05-29 04:16:04] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-1.0.7.tar.gz]
+[2024-05-29 04:16:04] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-29 04:16:04] INFO root fetch - main [MainThread]: Store serial: [23423149]
