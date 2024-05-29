@@ -18525,3 +18525,90 @@
 [2024-05-29 12:25:48] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.8.6-py3-none-any.whl.zip]
 [2024-05-29 12:25:48] INFO root fetch - main [MainThread]: End processing [uav-collision-avoidance]: success
 [2024-05-29 12:25:48] INFO root fetch - main [MainThread]: Store serial: [23428218]
+[2024-05-29 12:27:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428218]
+[2024-05-29 12:27:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfra-nightly
+[2024-05-29 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fse.torii
+[2024-05-29 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aishalib
+[2024-05-29 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrapy-influxdb-exporter
+[2024-05-29 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lamindb
+[2024-05-29 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-computer-assistant
+[2024-05-29 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chellow
+[2024-05-29 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frappe-manager
+[2024-05-29 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yeref
+[2024-05-29 12:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kumparanian
+[2024-05-29 12:27:57] WARNING root fetch - processPackages [aishalib]: Skipping, unable to determine old version
+[2024-05-29 12:27:57] INFO root fetch - main [MainThread]: End processing [aishalib] error
+[2024-05-29 12:27:57] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.1.dev20240524195431] Old Version: [0.6.1.dev20240520202338]
+[2024-05-29 12:27:57] INFO root fetch - processPackages [fse.torii]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 12:27:57] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-29 12:27:57] INFO root fetch - processPackages [scrapy-influxdb-exporter]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-29 12:27:57] INFO root fetch - processPackages [gpt-computer-assistant]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-29 12:27:57] INFO root fetch - processPackages [kumparanian]: New version: [1.1.0] Old Version: [1.0.5rc6]
+[2024-05-29 12:27:57] INFO root fetch - processPackages [frappe-manager]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-29 12:27:57] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/7f/9e/c27f60311afba798daba651c60ec79e836aceef5a3b9fe9fd2281bd8d560/tfra_nightly-0.6.1.dev20240520202338-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:27:57] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2024-05-29 12:27:57] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-05-29 12:27:57] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/86/be/ea7e17e268a89c5b8f7f45e4756f2969efab0b4e8bc89d4187f8ed943424/fse.torii-1.0.8-py3-none-any.whl
+[2024-05-29 12:27:58] INFO root fetch - processPackages [scrapy-influxdb-exporter]: Downloading https://files.pythonhosted.org/packages/6f/c9/c7c62d97390cd69d4354703cce64d518b280e3801425700bfb287c2c0aa8/scrapy-influxdb-exporter-1.0.6.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/6b/76/07d25ce692a0ad94623a2091a26ea71670c8ff21cb608a1b483d29b4468b/gpt_computer_assistant-0.5.2.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/3a/f6/fd629a96f363ac029878ce0a36e4c711819feb9aecaff400d861d52124d1/kumparanian-1.0.5rc6.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [frappe-manager]: Downloading https://files.pythonhosted.org/packages/b8/06/cf638b54937dbe7c3a2395f567621aa38c3c243666a1a1bfeb2617b5ea84/frappe_manager-0.8.3.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/57/6c/1f7fb91feff671d0676889a3b774e33793c1670bb6f43f8b7164378491cb/fse.torii-1.0.9-py3-none-any.whl
+[2024-05-29 12:27:58] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-29 12:27:58] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240529/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-29 12:27:58] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/5f/63/34773dd4a8431949bc695f54c8fe87bad0025409eb0f942938b72bdb9c5e/gpt_computer_assistant-0.5.3.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/ed/60/d68842430fb899092fc441f311dba701bf1f6beed001dbd4d5e8a1c5b7fc/tfra_nightly-0.6.1.dev20240524195431-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-29 12:27:58] INFO root fetch - processPackages [scrapy-influxdb-exporter]: Downloading https://files.pythonhosted.org/packages/71/19/1854b0523c0c838a2a36e1c85ae9c6ba26ac72db5c30644102c7e45b8cf2/scrapy_influxdb_exporter-1.0.7.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [frappe-manager]: Downloading https://files.pythonhosted.org/packages/0e/af/c09a0baea3d0a36661cf4083f7a44cad1f804fe0408874bce6e67f717275/frappe_manager-0.9.0.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [fse.torii]: executing diffoscope
+[2024-05-29 12:27:58] INFO root fetch - processPackages [fse.torii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse.torii-1.0.8-py3-none-any.whl.zip tmp/fse.torii-1.0.9-py3-none-any.whl.zip --markdown 20240529/f/fse.torii/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 12:27:58] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [gpt-computer-assistant]: executing diffoscope
+[2024-05-29 12:27:58] INFO root fetch - processPackages [gpt-computer-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_computer_assistant-0.5.2.tar.gz tmp/gpt_computer_assistant-0.5.3.tar.gz --markdown 20240529/g/gpt-computer-assistant/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-29 12:27:58] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/11/5c/f97af150f892bfaf45cc81d7ac3275d37815296188c793f2b83e71cb042e/kumparanian-1.1.0.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [frappe-manager]: executing diffoscope
+[2024-05-29 12:27:58] INFO root fetch - processPackages [frappe-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frappe_manager-0.8.3.tar.gz tmp/frappe_manager-0.9.0.tar.gz --markdown 20240529/f/frappe-manager/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-29 12:27:58] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-05-29 12:27:58] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2024-05-29 12:27:58] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20240529/l/lamindb/0.9.4-0.9.6/README.md --exclude *.pyd
+[2024-05-29 12:27:58] INFO root fetch - processPackages [scrapy-influxdb-exporter]: executing diffoscope
+[2024-05-29 12:27:58] INFO root fetch - processPackages [scrapy-influxdb-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-influxdb-exporter-1.0.6.tar.gz tmp/scrapy_influxdb_exporter-1.0.7.tar.gz --markdown 20240529/s/scrapy-influxdb-exporter/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-29 12:27:58] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-05-29 12:27:58] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240529/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-05-29 12:27:58] INFO root fetch - processPackages [kumparanian]: executing diffoscope
+[2024-05-29 12:27:58] INFO root fetch - processPackages [kumparanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumparanian-1.0.5rc6.tar.gz tmp/kumparanian-1.1.0.tar.gz --markdown 20240529/k/kumparanian/1.0.5rc6-1.1.0/README.md --exclude *.pyd
+[2024-05-29 12:27:59] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2024-05-29 12:27:59] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.1.dev20240520202338-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tfra_nightly-0.6.1.dev20240524195431-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240529/t/tfra-nightly/0.6.1.dev20240520202338-0.6.1.dev20240524195431/README.md --exclude *.pyd
+[2024-05-29 12:27:59] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.8-py3-none-any.whl.zip]
+[2024-05-29 12:27:59] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.9-py3-none-any.whl.zip]
+[2024-05-29 12:27:59] INFO root fetch - main [MainThread]: End processing [fse.torii]: success
+[2024-05-29 12:27:59] INFO root fetch - processPackages [scrapy-influxdb-exporter]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-influxdb-exporter-1.0.6.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - processPackages [scrapy-influxdb-exporter]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_influxdb_exporter-1.0.7.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - main [MainThread]: End processing [scrapy-influxdb-exporter]: success
+[2024-05-29 12:27:59] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.2.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.5.3.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant]: success
+[2024-05-29 12:27:59] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-29 12:27:59] INFO root fetch - processPackages [frappe-manager]: Remove: archive file [/home/abi/fetcher/tmp/frappe_manager-0.8.3.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - processPackages [frappe-manager]: Remove: archive file [/home/abi/fetcher/tmp/frappe_manager-0.9.0.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - main [MainThread]: End processing [frappe-manager]: success
+[2024-05-29 12:27:59] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc6.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.1.0.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - main [MainThread]: End processing [kumparanian]: success
+[2024-05-29 12:27:59] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2024-05-29 12:27:59] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2024-05-29 12:28:00] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240520202338-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:28:00] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240524195431-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-29 12:28:00] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2024-05-29 12:28:01] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-05-29 12:28:01] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-05-29 12:28:01] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-05-29 12:28:01] INFO root fetch - main [MainThread]: Store serial: [23428254]
