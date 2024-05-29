@@ -22556,3 +22556,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:55:34] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.9.tar.gz]
 [2024-05-29 14:55:34] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-05-29 14:55:34] INFO root fetch - main [MainThread]: Store serial: [23429981]
+[2024-05-29 14:57:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429981]
+[2024-05-29 14:57:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raducord
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syncmodels
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ludic
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ckanext-wysiwyg
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shopware-api-client
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyerm
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: contact-magic
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lit-ecology-classifier
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ctrip-helper
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aepo
+[2024-05-29 14:57:44] WARNING root fetch - processPackages [raducord]: Skipping, unable to determine old version
+[2024-05-29 14:57:44] INFO root fetch - processPackages [raducord]: Start processing: lit-ecology-classifier
+[2024-05-29 14:57:44] INFO root fetch - main [MainThread]: End processing [raducord] error
+[2024-05-29 14:57:44] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-29 14:57:44] WARNING root fetch - processPackages [lit-ecology-classifier]: Skipping, unable to determine old version
+[2024-05-29 14:57:44] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier] error
+[2024-05-29 14:57:44] INFO root fetch - processPackages [aepo]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ctrip-helper]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 14:57:44] WARNING root fetch - processPackages [lit-ecology-classifier]: Skipping, unable to determine old version
+[2024-05-29 14:57:44] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier] error
+[2024-05-29 14:57:44] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ckanext-wysiwyg]: New version: [0.1.23] Old Version: [0.1.21]
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ludic]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-29 14:57:44] INFO root fetch - processPackages [pyerm]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-29 14:57:44] INFO root fetch - processPackages [aepo]: Downloading https://files.pythonhosted.org/packages/d6/37/0dd130514b4f50755a416b0f7c7d3d1053a94fb65326316e13b5295b14b3/aepo-0.1.4.tar.gz
+[2024-05-29 14:57:44] INFO root fetch - processPackages [shopware-api-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-29 14:57:44] INFO root fetch - processPackages [contact-magic]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/bb/77/81fa78e319cacd9f86197572a76fe50122aad584cdf053ed6e4fa074c8ee/ctrip-helper-0.0.1.tar.gz
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ckanext-wysiwyg]: Downloading https://files.pythonhosted.org/packages/a2/cd/de9f327c7f15a9fc1fb439cf9dd8ad9bfdc7d2ca16862aadc78720a172c7/ckanext_wysiwyg-0.1.21.tar.gz
+[2024-05-29 14:57:44] INFO root fetch - processPackages [ludic]: Downloading https://files.pythonhosted.org/packages/92/e8/fa6784a6ae79112922cb279ca2ca9d2c67f5604245e665ad28476695b71b/ludic-0.4.5.tar.gz
+[2024-05-29 14:57:44] INFO root fetch - processPackages [pyerm]: Downloading https://files.pythonhosted.org/packages/4b/64/1722d832c5a7afcc70a7baf222da240247e4f2b44d62066e24c9f5b4e601/pyerm-0.2.3.tar.gz
+[2024-05-29 14:57:44] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/b7/0f/6c9dc02510fb7785f1be2822ab641b54bf44cf6cb4df1763cdba560cc69b/shopware_api_client-1.0.8.tar.gz
+[2024-05-29 14:57:44] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-29 14:57:44] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/b1/68/8480d840ecdb86a0b5b2d737c486b3bea98f75641dabecad75693ea8d68f/contact_magic-0.9.3.tar.gz
+[2024-05-29 14:57:44] INFO root fetch - processPackages [aepo]: Downloading https://files.pythonhosted.org/packages/72/c8/82432dac345857472114ed1de08da3995cbd7a3b2a8908689a28f892eaaf/aepo-0.1.5.tar.gz
+[2024-05-29 14:57:45] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-29 14:57:45] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240529/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-29 14:57:45] INFO root fetch - processPackages [aepo]: executing diffoscope
+[2024-05-29 14:57:45] INFO root fetch - processPackages [aepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aepo-0.1.4.tar.gz tmp/aepo-0.1.5.tar.gz --markdown 20240529/a/aepo/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-29 14:57:45] INFO root fetch - processPackages [ckanext-wysiwyg]: Downloading https://files.pythonhosted.org/packages/38/25/0265917bfd3545ff6bbbf7b830857194c5de0e31d8a0cc3a863174d006ec/ckanext_wysiwyg-0.1.23.tar.gz
+[2024-05-29 14:57:45] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/1b/b8/a3e46754d7306d54818dc49397accd664a9666af233b6eeed0112b9032d7/ctrip-helper-0.0.2.tar.gz
+[2024-05-29 14:57:45] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/8d/12/174ce1d255e79b94ba51f4ad3844434106df0c849b4ca6d71543cf4c26e5/contact_magic-0.9.4.tar.gz
+[2024-05-29 14:57:45] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/71/6c/c42b67ee3d6f04c8e4203f50b963d759982a0c08ac17865980b8cf805393/shopware_api_client-1.0.9.tar.gz
+[2024-05-29 14:57:45] INFO root fetch - processPackages [pyerm]: Downloading https://files.pythonhosted.org/packages/64/bc/3cd019d7371febce32e99aec59ded8134b55e81b12eea6f9cf7b36b04df4/pyerm-0.2.4.tar.gz
+[2024-05-29 14:57:45] INFO root fetch - processPackages [ludic]: Downloading https://files.pythonhosted.org/packages/f2/01/aed48505cb1ac40360cf7931c169c053791027fd671c9598233e3b703cc0/ludic-0.4.6.tar.gz
+[2024-05-29 14:57:45] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-29 14:57:45] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.0.1.tar.gz tmp/ctrip-helper-0.0.2.tar.gz --markdown 20240529/c/ctrip-helper/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 14:57:45] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2024-05-29 14:57:45] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.9.3.tar.gz tmp/contact_magic-0.9.4.tar.gz --markdown 20240529/c/contact-magic/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-29 14:57:45] INFO root fetch - processPackages [shopware-api-client]: executing diffoscope
+[2024-05-29 14:57:45] INFO root fetch - processPackages [shopware-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopware_api_client-1.0.8.tar.gz tmp/shopware_api_client-1.0.9.tar.gz --markdown 20240529/s/shopware-api-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-29 14:57:45] INFO root fetch - processPackages [ckanext-wysiwyg]: executing diffoscope
+[2024-05-29 14:57:45] INFO root fetch - processPackages [ckanext-wysiwyg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext_wysiwyg-0.1.21.tar.gz tmp/ckanext_wysiwyg-0.1.23.tar.gz --markdown 20240529/c/ckanext-wysiwyg/0.1.21-0.1.23/README.md --exclude *.pyd
+[2024-05-29 14:57:45] INFO root fetch - processPackages [pyerm]: executing diffoscope
+[2024-05-29 14:57:45] INFO root fetch - processPackages [pyerm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerm-0.2.3.tar.gz tmp/pyerm-0.2.4.tar.gz --markdown 20240529/p/pyerm/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-29 14:57:45] INFO root fetch - processPackages [ludic]: executing diffoscope
+[2024-05-29 14:57:45] INFO root fetch - processPackages [ludic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ludic-0.4.5.tar.gz tmp/ludic-0.4.6.tar.gz --markdown 20240529/l/ludic/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-29 14:57:45] INFO root fetch - processPackages [aepo]: Remove: archive file [/home/abi/fetcher/tmp/aepo-0.1.4.tar.gz]
+[2024-05-29 14:57:45] INFO root fetch - processPackages [aepo]: Remove: archive file [/home/abi/fetcher/tmp/aepo-0.1.5.tar.gz]
+[2024-05-29 14:57:45] INFO root fetch - main [MainThread]: End processing [aepo]: success
+[2024-05-29 14:57:46] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-29 14:57:46] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-29 14:57:46] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-29 14:57:46] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.9.3.tar.gz]
+[2024-05-29 14:57:46] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.9.4.tar.gz]
+[2024-05-29 14:57:46] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2024-05-29 14:57:46] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.0.1.tar.gz]
+[2024-05-29 14:57:46] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.0.2.tar.gz]
+[2024-05-29 14:57:46] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-29 14:57:46] INFO root fetch - processPackages [pyerm]: Remove: archive file [/home/abi/fetcher/tmp/pyerm-0.2.3.tar.gz]
+[2024-05-29 14:57:46] INFO root fetch - processPackages [pyerm]: Remove: archive file [/home/abi/fetcher/tmp/pyerm-0.2.4.tar.gz]
+[2024-05-29 14:57:46] INFO root fetch - main [MainThread]: End processing [pyerm]: success
+[2024-05-29 14:57:46] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.8.tar.gz]
+[2024-05-29 14:57:46] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.9.tar.gz]
+[2024-05-29 14:57:46] INFO root fetch - main [MainThread]: End processing [shopware-api-client]: success
+[2024-05-29 14:57:46] INFO root fetch - processPackages [ludic]: Remove: archive file [/home/abi/fetcher/tmp/ludic-0.4.5.tar.gz]
+[2024-05-29 14:57:46] INFO root fetch - processPackages [ludic]: Remove: archive file [/home/abi/fetcher/tmp/ludic-0.4.6.tar.gz]
+[2024-05-29 14:57:46] INFO root fetch - main [MainThread]: End processing [ludic]: success
+[2024-05-29 14:57:56] INFO root fetch - processPackages [ckanext-wysiwyg]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_wysiwyg-0.1.21.tar.gz]
+[2024-05-29 14:57:56] INFO root fetch - processPackages [ckanext-wysiwyg]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_wysiwyg-0.1.23.tar.gz]
+[2024-05-29 14:57:56] INFO root fetch - main [MainThread]: End processing [ckanext-wysiwyg]: success
+[2024-05-29 14:57:56] INFO root fetch - main [MainThread]: Store serial: [23430010]
