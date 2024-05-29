@@ -12927,3 +12927,36 @@
 [2024-05-29 09:06:41] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.99.tar.gz]
 [2024-05-29 09:06:41] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
 [2024-05-29 09:06:41] INFO root fetch - main [MainThread]: Store serial: [23425327]
+[2024-05-29 09:08:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23425327]
+[2024-05-29 09:08:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-29 09:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-rke
+[2024-05-29 09:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libbiomedit
+[2024-05-29 09:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CVE-2015-7297
+[2024-05-29 09:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-hub-nightly
+[2024-05-29 09:08:50] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-29 09:08:50] WARNING root fetch - processPackages [CVE-2015-7297]: Skipping, unable to determine old version
+[2024-05-29 09:08:50] INFO root fetch - main [MainThread]: End processing [CVE-2015-7297] error
+[2024-05-29 09:08:50] INFO root fetch - processPackages [libbiomedit]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-29 09:08:50] INFO root fetch - processPackages [pulumi-rke]: New version: [3.5.0a1716964024] Old Version: [3.5.0a1716513432]
+[2024-05-29 09:08:50] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-29 09:08:50] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/01/21/b6b7da73c7ab2ea8704f5210b77447cec837be4e3cd858bcad1239fc09d9/pulumi_rke-3.5.0a1716513432.tar.gz
+[2024-05-29 09:08:50] INFO root fetch - processPackages [libbiomedit]: Downloading https://files.pythonhosted.org/packages/1e/39/a2ed0328221d6f20d59b8a574be3aa787a494067b79879d931fd6ef24ecf/libbiomedit-0.6.3.tar.gz
+[2024-05-29 09:08:50] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-29 09:08:51] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-29 09:08:51] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240529/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-29 09:08:51] INFO root fetch - processPackages [libbiomedit]: Downloading https://files.pythonhosted.org/packages/ff/2f/30c0a0061064cec6a4c3d36b68cf000dbfeb134b046f9be83cf542640d29/libbiomedit-0.6.4.tar.gz
+[2024-05-29 09:08:51] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/99/2e/8728e54963ce84a626d61d54fc729f22ada175a0b11c0fdb43018785e9f5/pulumi_rke-3.5.0a1716964024.tar.gz
+[2024-05-29 09:08:51] INFO root fetch - processPackages [libbiomedit]: executing diffoscope
+[2024-05-29 09:08:51] INFO root fetch - processPackages [libbiomedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libbiomedit-0.6.3.tar.gz tmp/libbiomedit-0.6.4.tar.gz --markdown 20240529/l/libbiomedit/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-29 09:08:51] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-05-29 09:08:51] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.5.0a1716513432.tar.gz tmp/pulumi_rke-3.5.0a1716964024.tar.gz --markdown 20240529/p/pulumi-rke/3.5.0a1716513432-3.5.0a1716964024/README.md --exclude *.pyd
+[2024-05-29 09:08:51] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-29 09:08:51] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-29 09:08:51] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-29 09:08:52] INFO root fetch - processPackages [libbiomedit]: Remove: archive file [/home/abi/fetcher/tmp/libbiomedit-0.6.3.tar.gz]
+[2024-05-29 09:08:52] INFO root fetch - processPackages [libbiomedit]: Remove: archive file [/home/abi/fetcher/tmp/libbiomedit-0.6.4.tar.gz]
+[2024-05-29 09:08:52] INFO root fetch - main [MainThread]: End processing [libbiomedit]: success
+[2024-05-29 09:08:52] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1716513432.tar.gz]
+[2024-05-29 09:08:52] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1716964024.tar.gz]
+[2024-05-29 09:08:52] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-05-29 09:08:52] INFO root fetch - main [MainThread]: Store serial: [23425340]
