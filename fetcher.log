@@ -10416,3 +10416,33 @@
 [2024-05-29 07:16:46] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-3.3.1.tar.gz]
 [2024-05-29 07:16:46] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
 [2024-05-29 07:16:46] INFO root fetch - main [MainThread]: Store serial: [23424272]
+[2024-05-29 07:18:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424272]
+[2024-05-29 07:18:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-29 07:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latp
+[2024-05-29 07:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2024-05-29 07:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adtoolbox
+[2024-05-29 07:18:55] INFO root fetch - processPackages [latp]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-29 07:18:55] INFO root fetch - processPackages [adtoolbox]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-29 07:18:55] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-29 07:18:55] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/6a/c8/3ca715c31c152bc668a87e25407587842606023ce422cc31fb94ee445db5/adtoolbox-0.5.8.tar.gz
+[2024-05-29 07:18:55] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-29 07:18:55] INFO root fetch - processPackages [latp]: Downloading https://files.pythonhosted.org/packages/15/61/7da60640bd8ede61584b5850300472dde046a35387d365ce2306bc627d73/latp-0.0.3.tar.gz
+[2024-05-29 07:18:55] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-29 07:18:55] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/a7/7b/9e4f8d4f6a4c45a3e9d2e8654cf52c1e0908166f42f12b0115bb9c430b65/adtoolbox-0.5.9.tar.gz
+[2024-05-29 07:18:55] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-29 07:18:55] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240529/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-29 07:18:56] INFO root fetch - processPackages [latp]: Downloading https://files.pythonhosted.org/packages/b1/bc/3dd0e768b917cd2b6d1613a111ce374da9842f4a723517b3de391847d023/latp-0.0.4.tar.gz
+[2024-05-29 07:18:56] INFO root fetch - processPackages [adtoolbox]: executing diffoscope
+[2024-05-29 07:18:56] INFO root fetch - processPackages [adtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adtoolbox-0.5.8.tar.gz tmp/adtoolbox-0.5.9.tar.gz --markdown 20240529/a/adtoolbox/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-29 07:18:56] INFO root fetch - processPackages [latp]: executing diffoscope
+[2024-05-29 07:18:56] INFO root fetch - processPackages [latp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latp-0.0.3.tar.gz tmp/latp-0.0.4.tar.gz --markdown 20240529/l/latp/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-29 07:18:56] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-29 07:18:56] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-29 07:18:56] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-29 07:18:56] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.8.tar.gz]
+[2024-05-29 07:18:56] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.9.tar.gz]
+[2024-05-29 07:18:56] INFO root fetch - main [MainThread]: End processing [adtoolbox]: success
+[2024-05-29 07:18:56] INFO root fetch - processPackages [latp]: Remove: archive file [/home/abi/fetcher/tmp/latp-0.0.3.tar.gz]
+[2024-05-29 07:18:56] INFO root fetch - processPackages [latp]: Remove: archive file [/home/abi/fetcher/tmp/latp-0.0.4.tar.gz]
+[2024-05-29 07:18:56] INFO root fetch - main [MainThread]: End processing [latp]: success
+[2024-05-29 07:18:56] INFO root fetch - main [MainThread]: Store serial: [23424283]
