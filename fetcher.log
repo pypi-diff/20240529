@@ -10152,3 +10152,18 @@
 [2024-05-29 06:59:12] INFO root fetch - processPackages [H2MM-C]: Remove: archive file [/home/abi/fetcher/tmp/h2mm_c-1.0.5.tar.gz]
 [2024-05-29 06:59:12] INFO root fetch - main [MainThread]: End processing [H2MM-C]: success
 [2024-05-29 06:59:12] INFO root fetch - main [MainThread]: Store serial: [23424152]
+[2024-05-29 07:01:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23424152]
+[2024-05-29 07:01:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-29 07:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: punkweb-bb
+[2024-05-29 07:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sensord
+[2024-05-29 07:01:21] INFO root fetch - processPackages [punkweb-bb]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-29 07:01:21] WARNING root fetch - processPackages [sensord]: Skipping, unable to determine old version
+[2024-05-29 07:01:21] INFO root fetch - main [MainThread]: End processing [sensord] error
+[2024-05-29 07:01:22] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/7c/95/a9d9c61c5e1ff104e8311d24dac87ab6a33ec34223b00643a3cc8708964b/punkweb_bb-0.1.4.tar.gz
+[2024-05-29 07:01:22] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/83/33/1567a04fa5150ab4ed3fa6e5d179f0cb04bdf09e425dcecfdb489883356a/punkweb_bb-0.2.0.tar.gz
+[2024-05-29 07:01:22] INFO root fetch - processPackages [punkweb-bb]: executing diffoscope
+[2024-05-29 07:01:22] INFO root fetch - processPackages [punkweb-bb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punkweb_bb-0.1.4.tar.gz tmp/punkweb_bb-0.2.0.tar.gz --markdown 20240529/p/punkweb-bb/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-29 07:01:23] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.1.4.tar.gz]
+[2024-05-29 07:01:23] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.2.0.tar.gz]
+[2024-05-29 07:01:23] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
+[2024-05-29 07:01:23] INFO root fetch - main [MainThread]: Store serial: [23424161]
