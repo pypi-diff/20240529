@@ -3005,3 +3005,39 @@
 [2024-05-29 02:50:00] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.1.9.tar.gz]
 [2024-05-29 02:50:00] INFO root fetch - main [MainThread]: End processing [viser]: success
 [2024-05-29 02:50:00] INFO root fetch - main [MainThread]: Store serial: [23421410]
+[2024-05-29 02:52:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23421410]
+[2024-05-29 02:52:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-29 02:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2024-05-29 02:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlpx
+[2024-05-29 02:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GameStorageAPI
+[2024-05-29 02:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-embeddings-oci-genai
+[2024-05-29 02:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index-llms-oci-genai
+[2024-05-29 02:52:09] INFO root fetch - processPackages [GameStorageAPI]: New version: [1.1.18] Old Version: [0.1.16]
+[2024-05-29 02:52:09] INFO root fetch - processPackages [nlpx]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-29 02:52:09] INFO root fetch - processPackages [GameStorageAPI]: Downloading https://files.pythonhosted.org/packages/85/37/75b52303609e69d2a5f9d905537e1b9a649155c7cd168100167aeba7be76/gamestorageapi-0.1.16.tar.gz
+[2024-05-29 02:52:09] WARNING root fetch - processPackages [llama-index-embeddings-oci-genai]: Skipping, unable to determine old version
+[2024-05-29 02:52:09] INFO root fetch - main [MainThread]: End processing [llama-index-embeddings-oci-genai] error
+[2024-05-29 02:52:09] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/e4/fa/d39f50d020583811b94b6c219ca80300a5cf244aac84767f9f94840c17bf/nlpx-1.2.4.tar.gz
+[2024-05-29 02:52:09] WARNING root fetch - processPackages [llama-index-llms-oci-genai]: Skipping, unable to determine old version
+[2024-05-29 02:52:09] INFO root fetch - main [MainThread]: End processing [llama-index-llms-oci-genai] error
+[2024-05-29 02:52:09] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-29 02:52:09] INFO root fetch - processPackages [GameStorageAPI]: Downloading https://files.pythonhosted.org/packages/d7/80/6d4508c0baec540de0a069c34df5c34b28b66e59628cd6d619a763bd429f/gamestorageapi-1.1.18.tar.gz
+[2024-05-29 02:52:09] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-29 02:52:09] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/1f/cb/dddf8fb30f6dd39e2894a22f3cdb24df9acb4a22b4f794051017397a825a/nlpx-1.2.5.tar.gz
+[2024-05-29 02:52:09] INFO root fetch - processPackages [GameStorageAPI]: executing diffoscope
+[2024-05-29 02:52:09] INFO root fetch - processPackages [GameStorageAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamestorageapi-0.1.16.tar.gz tmp/gamestorageapi-1.1.18.tar.gz --markdown 20240529/G/GameStorageAPI/0.1.16-1.1.18/README.md --exclude *.pyd
+[2024-05-29 02:52:09] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-29 02:52:09] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.2.4.tar.gz tmp/nlpx-1.2.5.tar.gz --markdown 20240529/n/nlpx/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-29 02:52:10] INFO root fetch - processPackages [GameStorageAPI]: Remove: archive file [/home/abi/fetcher/tmp/gamestorageapi-0.1.16.tar.gz]
+[2024-05-29 02:52:10] INFO root fetch - processPackages [GameStorageAPI]: Remove: archive file [/home/abi/fetcher/tmp/gamestorageapi-1.1.18.tar.gz]
+[2024-05-29 02:52:10] INFO root fetch - main [MainThread]: End processing [GameStorageAPI]: success
+[2024-05-29 02:52:10] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.4.tar.gz]
+[2024-05-29 02:52:10] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.5.tar.gz]
+[2024-05-29 02:52:10] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-29 02:52:11] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-29 02:52:11] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-29 02:52:11] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240529/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-29 02:52:12] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-29 02:52:12] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-29 02:52:12] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-29 02:52:12] INFO root fetch - main [MainThread]: Store serial: [23421428]
