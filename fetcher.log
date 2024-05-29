@@ -15075,3 +15075,71 @@
 [2024-05-29 10:40:19] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.9.dev4.tar.gz]
 [2024-05-29 10:40:19] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-05-29 10:40:19] INFO root fetch - main [MainThread]: Store serial: [23426509]
+[2024-05-29 10:42:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23426509]
+[2024-05-29 10:42:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-29 10:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: delphai-utils
+[2024-05-29 10:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cadwyn
+[2024-05-29 10:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extra-coloredlogs
+[2024-05-29 10:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocsi
+[2024-05-29 10:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swanspawner
+[2024-05-29 10:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: message-local
+[2024-05-29 10:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2024-05-29 10:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CVE-2022-0165
+[2024-05-29 10:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TenorGrabber
+[2024-05-29 10:42:28] INFO root fetch - processPackages [TenorGrabber]: New version: [1.0.0] Old Version: [0.9.1]
+[2024-05-29 10:42:28] INFO root fetch - processPackages [mkdocsi]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-29 10:42:28] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240528.8.36.460206] Old Version: [20240528.6.33.83606]
+[2024-05-29 10:42:28] INFO root fetch - processPackages [cadwyn]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-29 10:42:28] INFO root fetch - processPackages [delphai-utils]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-05-29 10:42:28] INFO root fetch - processPackages [TenorGrabber]: Downloading https://files.pythonhosted.org/packages/13/b1/1bb007a8b334b7832930993598565ac93562b2f967c6714333743e740c24/tenorgrabber-0.9.1.tar.gz
+[2024-05-29 10:42:28] INFO root fetch - processPackages [swanspawner]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-29 10:42:28] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/90/97/78fa3bdeacb74884ba57fb1ccf0937a34b233b55a8dc67f8ed6093d69968/mkdocsi-1.2.5.tar.gz
+[2024-05-29 10:42:28] WARNING root fetch - processPackages [CVE-2022-0165]: Skipping, unable to determine old version
+[2024-05-29 10:42:28] WARNING root fetch - processPackages [extra-coloredlogs]: Skipping, unable to determine old version
+[2024-05-29 10:42:28] INFO root fetch - main [MainThread]: End processing [CVE-2022-0165] error
+[2024-05-29 10:42:28] INFO root fetch - main [MainThread]: End processing [extra-coloredlogs] error
+[2024-05-29 10:42:28] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-29 10:42:28] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/a8/e4/dd9fb0b0c8f25aababbce90c6ce4e05d5e485d27cbaae8fbebef7575049c/certora-cli-alpha-master-20240528.6.33.83606.tar.gz
+[2024-05-29 10:42:28] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14595875>=10485760
+[2024-05-29 10:42:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-29 10:42:29] INFO root fetch - processPackages [cadwyn]: Downloading https://files.pythonhosted.org/packages/a3/4f/7b4a2bd12c03b455e251a3dc2d4e5cea1a278c3b661f83d9f1ae71ec61af/cadwyn-3.9.0.tar.gz
+[2024-05-29 10:42:29] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/5f/8a/f1afc3788ac0473e139864087cb04723fa4d7296761ecc1ac97fcbda97f0/delphai_utils-4.1.1.tar.gz
+[2024-05-29 10:42:29] INFO root fetch - processPackages [swanspawner]: Downloading https://files.pythonhosted.org/packages/76/c5/2e23baf31a38c6bd9e34b2f08d0badeea72f81b43b884646647fa9f831a7/swanspawner-1.2.0.tar.gz
+[2024-05-29 10:42:29] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-29 10:42:29] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/4d/5e/3839cf26e6562ec1c8ffd2fbf88cba6ba421c7c168f8921b13c04d452564/mkdocsi-1.2.6.tar.gz
+[2024-05-29 10:42:29] INFO root fetch - processPackages [TenorGrabber]: Downloading https://files.pythonhosted.org/packages/9d/ba/f3b17d1504ae3579e4c94e83b7fcd0a081d554db08a24a76dc8b6e0821b3/tenorgrabber-1.0.0.tar.gz
+[2024-05-29 10:42:29] INFO root fetch - processPackages [cadwyn]: Downloading https://files.pythonhosted.org/packages/db/ba/b60a6ff319798df485be894e718a016136ad97356e18ed27a805f3bbab7c/cadwyn-3.9.1.tar.gz
+[2024-05-29 10:42:29] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 10:42:29] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.2.5.tar.gz tmp/mkdocsi-1.2.6.tar.gz --markdown 20240529/m/mkdocsi/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-29 10:42:29] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/5e/75/7490006620ace333b2ec3e28fe62e4ea7ff38460b89d831249c1bd8b502c/delphai_utils-4.1.2.tar.gz
+[2024-05-29 10:42:29] INFO root fetch - processPackages [TenorGrabber]: executing diffoscope
+[2024-05-29 10:42:29] INFO root fetch - processPackages [TenorGrabber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenorgrabber-0.9.1.tar.gz tmp/tenorgrabber-1.0.0.tar.gz --markdown 20240529/T/TenorGrabber/0.9.1-1.0.0/README.md --exclude *.pyd
+[2024-05-29 10:42:29] INFO root fetch - processPackages [swanspawner]: Downloading https://files.pythonhosted.org/packages/23/36/cec869c518d17721751575505c38da4af8ad668044d6c74c5921f5049d17/swanspawner-1.2.1.tar.gz
+[2024-05-29 10:42:29] INFO root fetch - processPackages [delphai-utils]: executing diffoscope
+[2024-05-29 10:42:29] INFO root fetch - processPackages [delphai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_utils-4.1.1.tar.gz tmp/delphai_utils-4.1.2.tar.gz --markdown 20240529/d/delphai-utils/4.1.1-4.1.2/README.md --exclude *.pyd
+[2024-05-29 10:42:29] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-29 10:42:29] INFO root fetch - processPackages [cadwyn]: executing diffoscope
+[2024-05-29 10:42:29] INFO root fetch - processPackages [cadwyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadwyn-3.9.0.tar.gz tmp/cadwyn-3.9.1.tar.gz --markdown 20240529/c/cadwyn/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-29 10:42:29] INFO root fetch - processPackages [swanspawner]: executing diffoscope
+[2024-05-29 10:42:29] INFO root fetch - processPackages [swanspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanspawner-1.2.0.tar.gz tmp/swanspawner-1.2.1.tar.gz --markdown 20240529/s/swanspawner/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-29 10:42:29] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-29 10:42:29] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240529/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-29 10:42:30] INFO root fetch - processPackages [TenorGrabber]: Remove: archive file [/home/abi/fetcher/tmp/tenorgrabber-0.9.1.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - processPackages [TenorGrabber]: Remove: archive file [/home/abi/fetcher/tmp/tenorgrabber-1.0.0.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - main [MainThread]: End processing [TenorGrabber]: success
+[2024-05-29 10:42:30] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.5.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.2.6.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 10:42:30] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai_utils-4.1.1.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai_utils-4.1.2.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - main [MainThread]: End processing [delphai-utils]: success
+[2024-05-29 10:42:30] INFO root fetch - processPackages [swanspawner]: Remove: archive file [/home/abi/fetcher/tmp/swanspawner-1.2.0.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - processPackages [swanspawner]: Remove: archive file [/home/abi/fetcher/tmp/swanspawner-1.2.1.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - main [MainThread]: End processing [swanspawner]: success
+[2024-05-29 10:42:30] INFO root fetch - processPackages [cadwyn]: Remove: archive file [/home/abi/fetcher/tmp/cadwyn-3.9.0.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - processPackages [cadwyn]: Remove: archive file [/home/abi/fetcher/tmp/cadwyn-3.9.1.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - main [MainThread]: End processing [cadwyn]: success
+[2024-05-29 10:42:30] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-29 10:42:30] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-29 10:42:30] INFO root fetch - main [MainThread]: Store serial: [23426543]
