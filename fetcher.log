@@ -7939,3 +7939,60 @@
 [2024-05-29 04:38:08] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ddoscoo20200101-2.0.2.tar.gz]
 [2024-05-29 04:38:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-ddoscoo20200101]: success
 [2024-05-29 04:38:08] INFO root fetch - main [MainThread]: Store serial: [23423297]
+[2024-05-29 04:40:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23423297]
+[2024-05-29 04:40:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 04:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-ddoscoo
+[2024-05-29 04:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unittestreport-yami
+[2024-05-29 04:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GnosisTech
+[2024-05-29 04:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harambe-sdk
+[2024-05-29 04:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiootp
+[2024-05-29 04:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QuLab
+[2024-05-29 04:40:19] INFO root fetch - processPackages [GnosisTech]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-29 04:40:19] INFO root fetch - processPackages [unittestreport-yami]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-29 04:40:19] INFO root fetch - processPackages [aliyun-python-sdk-ddoscoo]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-29 04:40:19] INFO root fetch - processPackages [harambe-sdk]: New version: [0.9.31] Old Version: [0.9.3]
+[2024-05-29 04:40:19] INFO root fetch - processPackages [QuLab]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-05-29 04:40:19] INFO root fetch - processPackages [aiootp]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-29 04:40:19] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/bd/65/54104819ea06ac855613c13c85046ae178316ac72f2431ea57c0abf09de6/gnosistech-0.1.6.tar.gz
+[2024-05-29 04:40:20] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/42/cd/1cbccb85c3a2427ec704e08ad4b03fbbfcf8116509b6b1fe595efb399ccc/qulab-2.0.7.tar.gz
+[2024-05-29 04:40:20] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/9a/6a/b335bd7c113e15972ccac8766f244f35b77774f11beb045a2c5b5d914e62/unittestreport_yami-0.1.4.tar.gz
+[2024-05-29 04:40:20] INFO root fetch - processPackages [harambe-sdk]: Downloading https://files.pythonhosted.org/packages/8a/29/70c1e341702a75670340859abdeafbe68cb6fa274930e4b86f21ff64d611/harambe_sdk-0.9.3.tar.gz
+[2024-05-29 04:40:20] INFO root fetch - processPackages [aliyun-python-sdk-ddoscoo]: Downloading https://files.pythonhosted.org/packages/c2/1b/947a856b49063bd2b9e0193bba5de26f34a10e77cf27f6af26e38a2ef4c3/aliyun-python-sdk-ddoscoo-1.0.5.tar.gz
+[2024-05-29 04:40:20] INFO root fetch - processPackages [aiootp]: Downloading https://files.pythonhosted.org/packages/39/88/09b65bcc36bc7108e51fe3e347037793986200e74436b2c8e358a2f32455/aiootp-0.9.2.tar.gz
+[2024-05-29 04:40:20] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/5d/d1/584f88270bd1f5dfd933a42cb3eaa2c1aa0a3315f998792e7b89a0f95817/gnosistech-0.1.7.tar.gz
+[2024-05-29 04:40:20] INFO root fetch - processPackages [aliyun-python-sdk-ddoscoo]: Downloading https://files.pythonhosted.org/packages/b1/b6/03da2a261d7961825d9e0f7d67f934d0e254ba312e21dc17fa98be077c51/aliyun-python-sdk-ddoscoo-1.0.6.tar.gz
+[2024-05-29 04:40:20] INFO root fetch - processPackages [GnosisTech]: executing diffoscope
+[2024-05-29 04:40:20] INFO root fetch - processPackages [GnosisTech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnosistech-0.1.6.tar.gz tmp/gnosistech-0.1.7.tar.gz --markdown 20240529/G/GnosisTech/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-29 04:40:20] INFO root fetch - processPackages [harambe-sdk]: Downloading https://files.pythonhosted.org/packages/6e/21/ff31778f4ef78ef2228b77600b97f4af048bcbd2609054e0c462863fbeb5/harambe_sdk-0.9.31.tar.gz
+[2024-05-29 04:40:20] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/df/a1/68515c504182918b6a6378d36ecaada3f3cf3ae8f66239de747312ab9b15/unittestreport_yami-0.1.5.tar.gz
+[2024-05-29 04:40:20] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/39/5a/3d9ffba88552c9a99664726edd714536d8a3650b566ecd4b532e0aa93f1a/qulab-2.0.8.tar.gz
+[2024-05-29 04:40:20] INFO root fetch - processPackages [aliyun-python-sdk-ddoscoo]: executing diffoscope
+[2024-05-29 04:40:20] INFO root fetch - processPackages [aliyun-python-sdk-ddoscoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ddoscoo-1.0.5.tar.gz tmp/aliyun-python-sdk-ddoscoo-1.0.6.tar.gz --markdown 20240529/a/aliyun-python-sdk-ddoscoo/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-29 04:40:20] INFO root fetch - processPackages [harambe-sdk]: executing diffoscope
+[2024-05-29 04:40:20] INFO root fetch - processPackages [harambe-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harambe_sdk-0.9.3.tar.gz tmp/harambe_sdk-0.9.31.tar.gz --markdown 20240529/h/harambe-sdk/0.9.3-0.9.31/README.md --exclude *.pyd
+[2024-05-29 04:40:20] INFO root fetch - processPackages [unittestreport-yami]: executing diffoscope
+[2024-05-29 04:40:20] INFO root fetch - processPackages [unittestreport-yami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittestreport_yami-0.1.4.tar.gz tmp/unittestreport_yami-0.1.5.tar.gz --markdown 20240529/u/unittestreport-yami/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-29 04:40:20] INFO root fetch - processPackages [QuLab]: executing diffoscope
+[2024-05-29 04:40:20] INFO root fetch - processPackages [QuLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulab-2.0.7.tar.gz tmp/qulab-2.0.8.tar.gz --markdown 20240529/Q/QuLab/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-05-29 04:40:20] INFO root fetch - processPackages [aiootp]: Downloading https://files.pythonhosted.org/packages/a7/4c/a8d536f8fd27ddbab4e8f7bdb846ac6b57905160b3275605ef1dec5f2c83/aiootp-0.9.3.tar.gz
+[2024-05-29 04:40:21] INFO root fetch - processPackages [aiootp]: executing diffoscope
+[2024-05-29 04:40:21] INFO root fetch - processPackages [aiootp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiootp-0.9.2.tar.gz tmp/aiootp-0.9.3.tar.gz --markdown 20240529/a/aiootp/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-29 04:40:21] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.6.tar.gz]
+[2024-05-29 04:40:21] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.7.tar.gz]
+[2024-05-29 04:40:21] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
+[2024-05-29 04:40:21] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.4.tar.gz]
+[2024-05-29 04:40:21] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.5.tar.gz]
+[2024-05-29 04:40:21] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
+[2024-05-29 04:40:21] INFO root fetch - processPackages [harambe-sdk]: Remove: archive file [/home/abi/fetcher/tmp/harambe_sdk-0.9.3.tar.gz]
+[2024-05-29 04:40:21] INFO root fetch - processPackages [harambe-sdk]: Remove: archive file [/home/abi/fetcher/tmp/harambe_sdk-0.9.31.tar.gz]
+[2024-05-29 04:40:21] INFO root fetch - main [MainThread]: End processing [harambe-sdk]: success
+[2024-05-29 04:40:21] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/qulab-2.0.7.tar.gz]
+[2024-05-29 04:40:21] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/qulab-2.0.8.tar.gz]
+[2024-05-29 04:40:21] INFO root fetch - main [MainThread]: End processing [QuLab]: success
+[2024-05-29 04:40:22] INFO root fetch - processPackages [aiootp]: Remove: archive file [/home/abi/fetcher/tmp/aiootp-0.9.2.tar.gz]
+[2024-05-29 04:40:22] INFO root fetch - processPackages [aiootp]: Remove: archive file [/home/abi/fetcher/tmp/aiootp-0.9.3.tar.gz]
+[2024-05-29 04:40:22] INFO root fetch - main [MainThread]: End processing [aiootp]: success
+[2024-05-29 04:40:22] INFO root fetch - processPackages [aliyun-python-sdk-ddoscoo]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ddoscoo-1.0.5.tar.gz]
+[2024-05-29 04:40:22] INFO root fetch - processPackages [aliyun-python-sdk-ddoscoo]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ddoscoo-1.0.6.tar.gz]
+[2024-05-29 04:40:22] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ddoscoo]: success
+[2024-05-29 04:40:22] INFO root fetch - main [MainThread]: Store serial: [23423325]
