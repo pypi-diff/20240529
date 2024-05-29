@@ -18656,3 +18656,48 @@
 [2024-05-29 12:30:12] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.9.tar.gz]
 [2024-05-29 12:30:12] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
 [2024-05-29 12:30:12] INFO root fetch - main [MainThread]: Store serial: [23428267]
+[2024-05-29 12:32:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23428267]
+[2024-05-29 12:32:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-29 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-boto3-sdk-helpers
+[2024-05-29 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelagnosticsafeaipackage
+[2024-05-29 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocsi
+[2024-05-29 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jyhelper
+[2024-05-29 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miss-Lightgbm-mmlspark
+[2024-05-29 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitfount
+[2024-05-29 12:32:20] INFO root fetch - processPackages [jyhelper]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-29 12:32:20] INFO root fetch - processPackages [modelagnosticsafeaipackage]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-29 12:32:20] INFO root fetch - processPackages [mkdocsi]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-29 12:32:20] WARNING root fetch - processPackages [miss-Lightgbm-mmlspark]: Skipping, unable to determine old version
+[2024-05-29 12:32:20] INFO root fetch - main [MainThread]: End processing [miss-Lightgbm-mmlspark] error
+[2024-05-29 12:32:20] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/a7/09/f35bb964cadb5bdc5c7cd70696811bc6ad8631f35d726025ecc5915724e2/jyhelper-1.2.4.tar.gz
+[2024-05-29 12:32:20] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Downloading https://files.pythonhosted.org/packages/73/13/56eb3825d27e6be0dffe6ca68f25343e3ec524b0c17ae92e8f297f6e1b85/modelagnosticsafeaipackage-0.6.0.tar.gz
+[2024-05-29 12:32:20] WARNING root fetch - processPackages [aws-boto3-sdk-helpers]: Skipping, unable to determine old version
+[2024-05-29 12:32:20] INFO root fetch - main [MainThread]: End processing [aws-boto3-sdk-helpers] error
+[2024-05-29 12:32:20] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/14/0f/4df8a32fd62928180e72c0f860b352df16a31b559d154b6052a566a76153/mkdocsi-1.3.8.tar.gz
+[2024-05-29 12:32:20] INFO root fetch - processPackages [bitfount]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-29 12:32:20] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/b7/d5/b549ad33b987e56afb6bdc0ba2d750475955291e2238fe70bccbadd71a1f/jyhelper-1.2.5.tar.gz
+[2024-05-29 12:32:21] INFO root fetch - processPackages [jyhelper]: executing diffoscope
+[2024-05-29 12:32:21] INFO root fetch - processPackages [jyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jyhelper-1.2.4.tar.gz tmp/jyhelper-1.2.5.tar.gz --markdown 20240529/j/jyhelper/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-29 12:32:21] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Downloading https://files.pythonhosted.org/packages/cc/db/2832ce768c874daab92c63492fa801f312c44d4f02f3c5259be053f795a6/modelagnosticsafeaipackage-0.7.0.tar.gz
+[2024-05-29 12:32:21] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/0e/c2/8d9c05462852fb336400415021669d2d997754f419cfa76bd5825d17af52/bitfount-0.9.4.tar.gz
+[2024-05-29 12:32:21] INFO root fetch - processPackages [modelagnosticsafeaipackage]: executing diffoscope
+[2024-05-29 12:32:21] INFO root fetch - processPackages [modelagnosticsafeaipackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelagnosticsafeaipackage-0.6.0.tar.gz tmp/modelagnosticsafeaipackage-0.7.0.tar.gz --markdown 20240529/m/modelagnosticsafeaipackage/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-29 12:32:21] INFO root fetch - processPackages [mkdocsi]: Downloading https://files.pythonhosted.org/packages/aa/b0/a202d828cb29dded2c700c865efb8d0743dbf868c1b6a05d66f84eba7518/mkdocsi-1.3.9.tar.gz
+[2024-05-29 12:32:21] INFO root fetch - processPackages [mkdocsi]: executing diffoscope
+[2024-05-29 12:32:21] INFO root fetch - processPackages [mkdocsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocsi-1.3.8.tar.gz tmp/mkdocsi-1.3.9.tar.gz --markdown 20240529/m/mkdocsi/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-29 12:32:21] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/0a/ad/da8b64ae321ff6898b38ba4cbecfb952736460df00de52449e95f46d65e3/bitfount-0.9.5.tar.gz
+[2024-05-29 12:32:21] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Remove: archive file [/home/abi/fetcher/tmp/modelagnosticsafeaipackage-0.6.0.tar.gz]
+[2024-05-29 12:32:21] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Remove: archive file [/home/abi/fetcher/tmp/modelagnosticsafeaipackage-0.7.0.tar.gz]
+[2024-05-29 12:32:21] INFO root fetch - main [MainThread]: End processing [modelagnosticsafeaipackage]: success
+[2024-05-29 12:32:21] INFO root fetch - processPackages [bitfount]: executing diffoscope
+[2024-05-29 12:32:21] INFO root fetch - processPackages [bitfount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitfount-0.9.4.tar.gz tmp/bitfount-0.9.5.tar.gz --markdown 20240529/b/bitfount/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-29 12:32:21] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.4.tar.gz]
+[2024-05-29 12:32:21] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.5.tar.gz]
+[2024-05-29 12:32:21] INFO root fetch - main [MainThread]: End processing [jyhelper]: success
+[2024-05-29 12:32:21] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.8.tar.gz]
+[2024-05-29 12:32:21] INFO root fetch - processPackages [mkdocsi]: Remove: archive file [/home/abi/fetcher/tmp/mkdocsi-1.3.9.tar.gz]
+[2024-05-29 12:32:21] INFO root fetch - main [MainThread]: End processing [mkdocsi]: success
+[2024-05-29 12:32:23] INFO root fetch - processPackages [bitfount]: Remove: archive file [/home/abi/fetcher/tmp/bitfount-0.9.4.tar.gz]
+[2024-05-29 12:32:23] INFO root fetch - processPackages [bitfount]: Remove: archive file [/home/abi/fetcher/tmp/bitfount-0.9.5.tar.gz]
+[2024-05-29 12:32:23] INFO root fetch - main [MainThread]: End processing [bitfount]: success
+[2024-05-29 12:32:23] INFO root fetch - main [MainThread]: Store serial: [23428288]
