@@ -22194,3 +22194,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-29 14:46:05] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
 [2024-05-29 14:46:05] INFO root fetch - main [MainThread]: End processing [gs2]: success
 [2024-05-29 14:46:05] INFO root fetch - main [MainThread]: Store serial: [23429824]
+[2024-05-29 14:48:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23429824]
+[2024-05-29 14:48:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QLine
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clear-skies
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faststream
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raducord
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qeschema
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfast-sqlite
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fyers-apiv3
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartlink-local
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dcicutils
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ec-number-prediction
+[2024-05-29 14:48:14] INFO root fetch - processPackages [pyfast-sqlite]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-29 14:48:14] WARNING root fetch - processPackages [raducord]: Skipping, unable to determine old version
+[2024-05-29 14:48:14] INFO root fetch - main [MainThread]: End processing [raducord] error
+[2024-05-29 14:48:14] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-29 14:48:14] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.9.0]
+[2024-05-29 14:48:14] WARNING root fetch - processPackages [QLine]: Skipping, unable to determine old version
+[2024-05-29 14:48:14] INFO root fetch - main [MainThread]: End processing [QLine] error
+[2024-05-29 14:48:14] INFO root fetch - processPackages [qeschema]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-29 14:48:14] INFO root fetch - processPackages [fyers-apiv3]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-05-29 14:48:14] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ec-number-prediction]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-29 14:48:14] INFO root fetch - processPackages [faststream]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-29 14:48:14] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-29 14:48:14] INFO root fetch - processPackages [pyfast-sqlite]: Downloading https://files.pythonhosted.org/packages/d9/31/a7e0072001484423c28327c51e572ab9773967efaf78db8f111e7a7eca88/pyfast_sqlite-0.0.1.tar.gz
+[2024-05-29 14:48:14] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2024-05-29 14:48:14] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/7f/e6/8d4b36f0d8aa3218843abb253c7998376cfc676d45cab4df1d1f04a33293/dcicutils-8.9.0.tar.gz
+[2024-05-29 14:48:14] INFO root fetch - processPackages [qeschema]: Downloading https://files.pythonhosted.org/packages/b7/e1/0d814af6702e73ab66443cccab466de90e15f1cdd0d05d2ea2f083a7a412/qeschema-1.5.1.tar.gz
+[2024-05-29 14:48:14] INFO root fetch - processPackages [fyers-apiv3]: Downloading https://files.pythonhosted.org/packages/60/94/7548d31f473fc7b94798ec14d22858f04de6797a76b0e55b191a5993c96a/fyers_apiv3-3.1.0.tar.gz
+[2024-05-29 14:48:14] INFO root fetch - processPackages [faststream]: Downloading https://files.pythonhosted.org/packages/cb/0a/a79f24e21c344c771ee409a46302e72be67e6b1693007518e79a956a450e/faststream-0.5.8.tar.gz
+[2024-05-29 14:48:14] INFO root fetch - processPackages [ec-number-prediction]: Downloading https://files.pythonhosted.org/packages/c2/8f/45e78a810e9aa7da8a38fe0642bc0aaa9caeff64a18f0ea0bb41633f386f/ec_number_prediction-0.0.4.tar.gz
+[2024-05-29 14:48:14] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-29 14:48:14] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-29 14:48:14] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240529/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-29 14:48:14] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2024-05-29 14:48:14] INFO root fetch - processPackages [pyfast-sqlite]: Downloading https://files.pythonhosted.org/packages/a2/ad/3ceee4cb84ee01500de88455e1adc6f6729c0b200ba047f79662b67210e0/pyfast_sqlite-0.0.2.tar.gz
+[2024-05-29 14:48:14] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-29 14:48:15] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2024-05-29 14:48:15] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20240529/c/clear-skies/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-29 14:48:15] INFO root fetch - processPackages [pyfast-sqlite]: executing diffoscope
+[2024-05-29 14:48:15] INFO root fetch - processPackages [pyfast-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfast_sqlite-0.0.1.tar.gz tmp/pyfast_sqlite-0.0.2.tar.gz --markdown 20240529/p/pyfast-sqlite/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-29 14:48:15] INFO root fetch - processPackages [fyers-apiv3]: Downloading https://files.pythonhosted.org/packages/20/62/6fedf9af71e045b52da92e92074b2d3bc46edd3e95138644068bd9bd9427/fyers_apiv3-3.1.1.tar.gz
+[2024-05-29 14:48:15] INFO root fetch - processPackages [ec-number-prediction]: Downloading https://files.pythonhosted.org/packages/22/29/1ad35f5c00373ecf5028ba52d11f7c52a4f104d0236bd1e971417547ff9a/ec_number_prediction-0.0.5.tar.gz
+[2024-05-29 14:48:15] INFO root fetch - processPackages [faststream]: Downloading https://files.pythonhosted.org/packages/9f/8b/2b84fce98742367f6947ef0bc70a0052bdc34993251e6d62b732286d7636/faststream-0.5.9.tar.gz
+[2024-05-29 14:48:15] INFO root fetch - processPackages [qeschema]: Downloading https://files.pythonhosted.org/packages/3c/57/e280f33a2084579883e88a5283dfa249559a4458fea8799a494c92888527/qeschema-1.5.2.tar.gz
+[2024-05-29 14:48:15] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-29 14:48:15] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.9.0.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240529/d/dcicutils/8.9.0-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-29 14:48:15] INFO root fetch - processPackages [faststream]: executing diffoscope
+[2024-05-29 14:48:15] INFO root fetch - processPackages [faststream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faststream-0.5.8.tar.gz tmp/faststream-0.5.9.tar.gz --markdown 20240529/f/faststream/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-29 14:48:15] INFO root fetch - processPackages [fyers-apiv3]: executing diffoscope
+[2024-05-29 14:48:15] INFO root fetch - processPackages [fyers-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_apiv3-3.1.0.tar.gz tmp/fyers_apiv3-3.1.1.tar.gz --markdown 20240529/f/fyers-apiv3/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-05-29 14:48:15] INFO root fetch - processPackages [ec-number-prediction]: executing diffoscope
+[2024-05-29 14:48:15] INFO root fetch - processPackages [ec-number-prediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec_number_prediction-0.0.4.tar.gz tmp/ec_number_prediction-0.0.5.tar.gz --markdown 20240529/e/ec-number-prediction/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-29 14:48:15] INFO root fetch - processPackages [qeschema]: executing diffoscope
+[2024-05-29 14:48:15] INFO root fetch - processPackages [qeschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240529:/home/abi/fetcher/20240529:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qeschema-1.5.1.tar.gz tmp/qeschema-1.5.2.tar.gz --markdown 20240529/q/qeschema/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-29 14:48:15] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-29 14:48:15] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-29 14:48:15] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-29 14:48:15] INFO root fetch - processPackages [pyfast-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/pyfast_sqlite-0.0.1.tar.gz]
+[2024-05-29 14:48:15] INFO root fetch - processPackages [pyfast-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/pyfast_sqlite-0.0.2.tar.gz]
+[2024-05-29 14:48:15] INFO root fetch - main [MainThread]: End processing [pyfast-sqlite]: success
+[2024-05-29 14:48:16] INFO root fetch - processPackages [fyers-apiv3]: Remove: archive file [/home/abi/fetcher/tmp/fyers_apiv3-3.1.0.tar.gz]
+[2024-05-29 14:48:16] INFO root fetch - processPackages [fyers-apiv3]: Remove: archive file [/home/abi/fetcher/tmp/fyers_apiv3-3.1.1.tar.gz]
+[2024-05-29 14:48:16] INFO root fetch - main [MainThread]: End processing [fyers-apiv3]: success
+[2024-05-29 14:48:16] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.8.0.tar.gz]
+[2024-05-29 14:48:16] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
+[2024-05-29 14:48:16] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2024-05-29 14:48:16] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.tar.gz]
+[2024-05-29 14:48:16] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-29 14:48:16] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-29 14:48:16] INFO root fetch - processPackages [ec-number-prediction]: Remove: archive file [/home/abi/fetcher/tmp/ec_number_prediction-0.0.4.tar.gz]
+[2024-05-29 14:48:16] INFO root fetch - processPackages [ec-number-prediction]: Remove: archive file [/home/abi/fetcher/tmp/ec_number_prediction-0.0.5.tar.gz]
+[2024-05-29 14:48:16] INFO root fetch - main [MainThread]: End processing [ec-number-prediction]: success
+[2024-05-29 14:48:16] INFO root fetch - processPackages [faststream]: Remove: archive file [/home/abi/fetcher/tmp/faststream-0.5.8.tar.gz]
+[2024-05-29 14:48:16] INFO root fetch - processPackages [faststream]: Remove: archive file [/home/abi/fetcher/tmp/faststream-0.5.9.tar.gz]
+[2024-05-29 14:48:16] INFO root fetch - main [MainThread]: End processing [faststream]: success
+[2024-05-29 14:48:17] INFO root fetch - processPackages [qeschema]: Remove: archive file [/home/abi/fetcher/tmp/qeschema-1.5.1.tar.gz]
+[2024-05-29 14:48:17] INFO root fetch - processPackages [qeschema]: Remove: archive file [/home/abi/fetcher/tmp/qeschema-1.5.2.tar.gz]
+[2024-05-29 14:48:17] INFO root fetch - main [MainThread]: End processing [qeschema]: success
+[2024-05-29 14:48:17] INFO root fetch - main [MainThread]: Store serial: [23429868]
